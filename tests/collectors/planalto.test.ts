@@ -57,6 +57,8 @@ describe('citaPresidente', () => {
     ['Presidente visita o Diretório de Reabilitação Moderna (DREAM)', true],
     ['Presidente Lula inaugura escola', true],
     ['Lula e o presidente do BNDES assinam contrato', true],
+    ['Visita presidencial ao Hospital X, em Barretos (SP)', true],
+    ['Participação presidencial em encontro do MTST em Taboão da Serra (SP)', true],
   ])('%s -> %s', (texto, esperado) => {
     expect(citaPresidente(texto, MANDATO)).toBe(esperado);
   });

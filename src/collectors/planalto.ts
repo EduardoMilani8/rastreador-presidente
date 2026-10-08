@@ -52,5 +52,7 @@ const PRESIDENTE = /\bpresidente\b(?!\s+d[aoe]s?\s+(?!republica))/;
 export function citaPresidente(texto: string, mandato: Mandato): boolean {
   const t = normalizar(texto).replace(/vice[- ]?presidente/g, ' ');
   if (PRESIDENTE.test(t)) return true;
+  // O feed do governo escreve "Visita presidencial ...", "Participação presidencial ..." para as agendas do presidente.
+  if (/\bpresidencial\b/.test(t)) return true;
   return mandato.nomes.some((n) => new RegExp(`\\b${normalizar(n)}\\b`).test(t));
 }
