@@ -1,0 +1,85 @@
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import {
+  EstadoFontesSchema, EventoSchema, NoticiaSchema,
+  type EstadoFontes, type Evento, type Noticia,
+} from '../shared/schema';
+import { somarDias } from '../shared/text';
+
+const json = (x: unknown) => `${JSON.stringify(x, null, 2)}\n`;
+
+async function lerSeExiste(arquivo: string): Promise<string | null> {
+  try {
+    return await readFile(arquivo, 'utf8');
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code === 'ENOENT') return null;
+    throw e;
+  }
+}
+
+async function gravarSeMudou(arquivo: string, conteudo: string): Promise<boolean> {
+  if ((await lerSeExiste(arquivo)) === conteudo) return false;
+  await mkdir(dirname(arquivo), { recursive: true });
+  await writeFile(arquivo, conteudo, 'utf8');
+  return true;
+}
+
+export async function lerEventos(dir: string): Promise<Evento[]> {
+  let arquivos: string[];
+  try {
+    arquivos = await readdir(join(dir, 'eventos'));
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code === 'ENOENT') return [];
+    throw e;
+  }
+  const saida: Evento[] = [];
+  for (const nome of arquivos.filter((a) => /^\d{4}-\d{2}\.json$/.test(a)).sort()) {
+    const bruto = await readFile(join(dir, 'eventos', nome), 'utf8');
+    saida.push(...EventoSchema.array().parse(JSON.parse(bruto)));
+  }
+  return saida;
+}
+
+export async function gravarEventos(dir: string, eventos: Evento[]): Promise<number> {
+  const validos = EventoSchema.array().parse(eventos); // lança antes de gravar qualquer coisa
+  const porMes = new Map<string, Evento[]>();
+  for (const e of validos) {
+    const mes = e.data.slice(0, 7);
+    porMes.set(mes, [...(porMes.get(mes) ?? []), e]);
+  }
+  let alterados = 0;
+  for (const [mes, lista] of porMes) {
+    lista.sort((a, b) =>
+      a.data.localeCompare(b.data) || (a.hora ?? '').localeCompare(b.hora ?? '') || a.id.localeCompare(b.id));
+    if (await gravarSeMudou(join(dir, 'eventos', `${mes}.json`), json(lista))) alterados++;
+  }
+  const meses = [...porMes.keys()].sort().reverse();
+  if (await gravarSeMudou(join(dir, 'meses.json'), json(meses))) alterados++;
+  return alterados;
+}
+
+export async function lerNoticias(dir: string): Promise<Noticia[]> {
+  const bruto = await lerSeExiste(join(dir, 'noticias.json'));
+  return bruto ? NoticiaSchema.array().parse(JSON.parse(bruto)) : [];
+}
+
+export async function gravarNoticias(
+  dir: string, novas: Noticia[], hoje: string, retencaoDias = 14,
+): Promise<boolean> {
+  const corte = somarDias(hoje, -retencaoDias);
+  const mapa = new Map((await lerNoticias(dir)).map((n) => [n.id, n]));
+  for (const n of novas) if (!mapa.has(n.id)) mapa.set(n.id, n);
+  const lista = [...mapa.values()]
+    .filter((n) => n.data.slice(0, 10) >= corte)
+    .sort((a, b) => b.data.localeCompare(a.data) || a.id.localeCompare(b.id));
+  return gravarSeMudou(join(dir, 'noticias.json'), json(NoticiaSchema.array().parse(lista)));
+}
+
+export async function lerEstado(dir: string): Promise<EstadoFontes> {
+  const bruto = await lerSeExiste(join(dir, 'status.json'));
+  return bruto ? EstadoFontesSchema.parse(JSON.parse(bruto)) : { fontes: {} };
+}
+
+export async function gravarEstado(dir: string, estado: EstadoFontes): Promise<boolean> {
+  return gravarSeMudou(join(dir, 'status.json'), json(EstadoFontesSchema.parse(estado)));
+}
