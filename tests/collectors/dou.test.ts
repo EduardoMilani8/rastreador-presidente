@@ -69,6 +69,43 @@ describe('parseDou', () => {
   it('edição sem atos devolve lista vazia', () => {
     expect(parseDou(html([]), '2026-10-07', COLETA)).toEqual([]);
   });
+
+  it('não corta a ementa em "o Presidente da República" minúsculo', () => {
+    const d = item({
+      title: 'DECRETO Nº 1, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-1-700000010',
+      content: 'DECRETO Nº 1, DE 6 DE OUTUBRO DE 2026 Autoriza o Presidente da República a conceder indulto. O PRESIDENTE DA REPÚBLICA, no uso',
+    });
+    const [e] = parseDou(html([d]), '2026-10-07', COLETA);
+    expect(e.ementa).toBe('Autoriza o Presidente da República a conceder indulto.');
+  });
+
+  it('normaliza espaços do content antes de remover o título', () => {
+    const d = item({
+      title: 'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-13.132-700000011',
+      content: 'DECRETO Nº 13.132, DE 6 DE  OUTUBRO DE 2026  Autoriza algo. O PRESIDENTE DA REPÚBLICA, no uso',
+    });
+    const [e] = parseDou(html([d]), '2026-10-07', COLETA);
+    expect(e.ementa).toBe('Autoriza algo.');
+  });
+
+  it('ementa fica indefinida quando o content não começa com o título (o ato é mantido)', () => {
+    const outro = item({
+      title: 'DECRETO Nº 2, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-2-700000012',
+      content: 'Texto qualquer sem o título. O PRESIDENTE DA REPÚBLICA, no uso',
+    });
+    const curto = item({
+      title: 'DECRETO Nº 3, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-3-700000013',
+      content: 'DECRETO Nº 3',
+    });
+    const r = parseDou(html([outro, curto]), '2026-10-07', COLETA);
+    expect(r).toHaveLength(2);
+    expect(r[0].ementa).toBeUndefined();
+    expect(r[1].ementa).toBeUndefined();
+  });
+
+  it('lança DouLayoutError quando há itens mas nenhum com title e hierarchyStr', () => {
+    expect(() => parseDou(html([{ foo: 1 }]), '2026-10-07', COLETA)).toThrow(DouLayoutError);
+  });
 });
 
 describe('urlTextoPlanalto', () => {

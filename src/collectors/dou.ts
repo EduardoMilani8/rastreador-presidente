@@ -21,8 +21,10 @@ export function urlDouEdicao(data: string): string {
 }
 
 function extrairEmenta(titulo: string, content: string): string | undefined {
-  const semTitulo = content.startsWith(titulo) ? content.slice(titulo.length) : content;
-  const corte = semTitulo.search(/\sO\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
+  const c = limparEspacos(content);
+  if (!c.startsWith(titulo)) return undefined;
+  const semTitulo = c.slice(titulo.length);
+  const corte = semTitulo.search(/\sO\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/);
   const ementa = limparEspacos(corte >= 0 ? semTitulo.slice(0, corte) : semTitulo);
   return ementa || undefined;
 }
@@ -36,9 +38,13 @@ export function parseDou(html: string, data: string, coletadoEm: string): Evento
     throw new DouLayoutError('JSON "params" ausente ou inválido na página do DOU');
   }
   if (!Array.isArray(json.jsonArray)) throw new DouLayoutError('"jsonArray" ausente na página do DOU');
+  const itens = json.jsonArray as ItemDou[];
+  if (itens.length > 0 && !itens.some((i) => typeof i?.title === 'string' && typeof i?.hierarchyStr === 'string')) {
+    throw new DouLayoutError('A edição do DOU tem itens, mas nenhum com os campos esperados (title e hierarchyStr): o layout mudou');
+  }
 
   const eventos: Evento[] = [];
-  for (const bruto of json.jsonArray as ItemDou[]) {
+  for (const bruto of itens) {
     const titulo = limparEspacos(bruto.title ?? '');
     const urlTitle = bruto.urlTitle ?? '';
     if (!titulo || !urlTitle) continue;
