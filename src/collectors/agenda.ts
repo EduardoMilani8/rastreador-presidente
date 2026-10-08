@@ -58,5 +58,17 @@ export function parseAgenda(
       historico: [],
     });
   });
+
+  if (eventos.length === 0) {
+    // Contêiner com conteúdo, mas nenhum item legível: o layout mudou. Reportar "dia publicado sem
+    // compromissos" faria o pipeline marcar remoções falsas.
+    if (limparEspacos(lista.text()) !== '') {
+      throw new LayoutError(
+        `Encontrei conteúdo em .list-compromissos em ${data}, mas nenhum compromisso pôde ser lido (layout alterado?)`,
+      );
+    }
+    // Contêiner realmente vazio: conservador, nunca deixa o pipeline marcar remoções.
+    return { eventos: [], diaPublicado: false };
+  }
   return { eventos, diaPublicado: true };
 }

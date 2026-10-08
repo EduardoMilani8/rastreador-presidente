@@ -68,4 +68,20 @@ describe('parseAgenda', () => {
     expect(r.eventos[0].id).toBe('agenda:2025-03-10:sem-hora:1');
     expect(r.eventos[0].hora).toBeUndefined();
   });
+
+  it('contêiner com texto mas classes internas renomeadas é LayoutError, não dia sem eventos', () => {
+    const html = `<html><head>${TITULO}</head><body><div class="list-compromissos"><div class="novo-item"><span class="novo-titulo">X</span></div></div></body></html>`;
+    expect(() => parseAgenda(html, 200, '2025-03-10', COLETA, 'https://x.test/p')).toThrow(LayoutError);
+  });
+
+  it('item sem título legível, com outro texto no contêiner, é LayoutError', () => {
+    const html = `<html><head>${TITULO}</head><body><div class="list-compromissos"><div class="item-compromisso"><span class="compromisso-inicio">10h00</span></div><p>Texto novo</p></div></body></html>`;
+    expect(() => parseAgenda(html, 200, '2025-03-10', COLETA, 'https://x.test/p')).toThrow(LayoutError);
+  });
+
+  it('contêiner vazio é dia não publicado (conservador, nunca marca remoções)', () => {
+    const html = `<html><head>${TITULO}</head><body><div class="list-compromissos"></div></body></html>`;
+    const r = parseAgenda(html, 200, '2025-03-10', COLETA, 'https://x.test/p');
+    expect(r).toEqual({ eventos: [], diaPublicado: false });
+  });
 });
