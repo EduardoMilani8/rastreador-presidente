@@ -105,6 +105,31 @@ describe('ligarComunicados', () => {
     expect(r2[0].confirmadoPor).toEqual([]);
   });
 
+  it('o mesmo comunicado repetido no lote vira um único item próprio', () => {
+    const c = comunicado();
+    const r = ligarComunicados([], [c, c], MANDATO);
+    expect(r).toHaveLength(1);
+    expect(r[0]).toMatchObject({ id: 'planalto:visita-barretos', tipo: 'comunicado' });
+  });
+
+  it('dois comunicados diferentes com o mesmo id: o primeiro vence', () => {
+    const primeiro = comunicado({ titulo: 'Presidente visita o Hospital de Amor, em Barretos (SP)' });
+    const segundo = comunicado({ titulo: 'Presidente inaugura obra em outra cidade', url: 'https://www.gov.br/planalto/n/outra' });
+    const r = ligarComunicados([], [primeiro, segundo], MANDATO);
+    expect(r).toHaveLength(1);
+    expect(r[0].titulo).toBe(primeiro.titulo);
+    expect(r[0].fontes.map((f) => f.url)).toEqual([primeiro.url]);
+  });
+
+  it('comunicado repetido no lote que liga a um compromisso único confirma uma vez só', () => {
+    const c = comunicado();
+    const r = ligarComunicados([agenda('a1', 'Barretos - SP')], [c, c], MANDATO);
+    expect(r).toHaveLength(1);
+    expect(r[0].confirmadoPor).toEqual(['planalto:visita-barretos']);
+    expect(r[0].fontes.filter((f) => f.url === c.url)).toHaveLength(1);
+    expect(r.filter((e) => e.tipo === 'comunicado')).toEqual([]);
+  });
+
   it('comunicado que já confirmou um compromisso não vira item próprio quando surge um segundo no mesmo local', () => {
     const a1 = agenda('a1', 'Barretos - SP', { confirmadoPor: ['planalto:visita-barretos'] });
     const a2 = agenda('a2', 'Barretos (SP)', { hora: '15:00' });

@@ -29,8 +29,12 @@ function eventoDe(c: Comunicado): Evento {
 export function ligarComunicados(eventos: Evento[], comunicados: Comunicado[], mandato: Mandato): Evento[] {
   const saida = eventos.map((e) => ({ ...e, fontes: [...e.fontes], confirmadoPor: [...e.confirmadoPor] }));
   const novos: Evento[] = [];
+  const vistos = new Set<string>();
 
   for (const c of comunicados) {
+    // Mesmo id repetido no lote: o primeiro vence (o id do feed é só o último trecho da URL).
+    if (vistos.has(c.id)) continue;
+    vistos.add(c.id);
     // Já tratado antes: virou item próprio ou já confirma algum compromisso.
     if (saida.some((e) => e.id === c.id || e.confirmadoPor.includes(c.id))) continue;
     const texto = normalizar(`${c.titulo} ${c.resumo}`);
