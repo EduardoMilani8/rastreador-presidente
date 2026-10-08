@@ -1,0 +1,74 @@
+import * as cheerio from 'cheerio';
+import type { Evento } from '../shared/schema';
+import { limparEspacos, parseDataExtenso } from '../shared/text';
+
+export class DouLayoutError extends Error {}
+
+interface ItemDou {
+  title?: string;
+  urlTitle?: string;
+  content?: string;
+  hierarchyStr?: string;
+}
+
+const ATO = /^(DECRETO|LEI|MEDIDA PROVISÓRIA)\b/i;
+const NUMERADO = /\bN[ºo°]\s*[\d.]+/i;
+const DECRETO_LEGISLATIVO = /^DECRETO LEGISLATIVO\b/i;
+
+export function urlDouEdicao(data: string): string {
+  const [a, m, d] = data.split('-');
+  return `https://www.in.gov.br/leiturajornal?data=${d}-${m}-${a}&secao=do1`;
+}
+
+function extrairEmenta(titulo: string, content: string): string | undefined {
+  const semTitulo = content.startsWith(titulo) ? content.slice(titulo.length) : content;
+  const corte = semTitulo.search(/\sO\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/i);
+  const ementa = limparEspacos(corte >= 0 ? semTitulo.slice(0, corte) : semTitulo);
+  return ementa || undefined;
+}
+
+export function parseDou(html: string, data: string, coletadoEm: string): Evento[] {
+  const $ = cheerio.load(html);
+  let json: { jsonArray?: unknown };
+  try {
+    json = JSON.parse($('script#params').first().text());
+  } catch {
+    throw new DouLayoutError('JSON "params" ausente ou inválido na página do DOU');
+  }
+  if (!Array.isArray(json.jsonArray)) throw new DouLayoutError('"jsonArray" ausente na página do DOU');
+
+  const eventos: Evento[] = [];
+  for (const bruto of json.jsonArray as ItemDou[]) {
+    const titulo = limparEspacos(bruto.title ?? '');
+    const urlTitle = bruto.urlTitle ?? '';
+    if (!titulo || !urlTitle) continue;
+    if (!(bruto.hierarchyStr ?? '').startsWith('Atos do Poder')) continue;
+    if (!ATO.test(titulo) || DECRETO_LEGISLATIVO.test(titulo) || !NUMERADO.test(titulo)) continue;
+    eventos.push({
+      id: `dou:${urlTitle}`,
+      tipo: 'ato',
+      data,
+      titulo,
+      status: 'publicado',
+      ementa: extrairEmenta(titulo, bruto.content ?? ''),
+      datasAto: { assinatura: parseDataExtenso(titulo) ?? undefined, publicacao: data },
+      fontes: [{
+        nome: 'dou', rotulo: 'Diário Oficial da União',
+        url: `https://www.in.gov.br/web/dou/-/${urlTitle}`, coletadoEm,
+      }],
+      confirmadoPor: [],
+      historico: [],
+    });
+  }
+  return eventos;
+}
+
+export function urlTextoPlanalto(titulo: string, assinatura: string | undefined): string | null {
+  const m = titulo.match(/^(DECRETO|LEI)\s+N[ºo°]\s*([\d.]+)/i);
+  if (!m || !assinatura) return null;
+  const ano = Number(assinatura.slice(0, 4));
+  const inicio = 2019 + 4 * Math.floor((ano - 2019) / 4);
+  const numero = m[2].replace(/\./g, '');
+  const decreto = m[1].toUpperCase() === 'DECRETO';
+  return `https://www.planalto.gov.br/ccivil_03/_ato${inicio}-${inicio + 3}/${ano}/${decreto ? 'decreto' : 'lei'}/${decreto ? 'D' : 'L'}${numero}.htm`;
+}
