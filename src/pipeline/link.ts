@@ -6,6 +6,15 @@ function chaveLocal(local: string): string {
   return normalizar(local).replace(/\s*[-–/,(]\s*[a-z]{2}\)?$/, '').trim();
 }
 
+function escaparRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// A chave só casa como palavra/expressão inteira: "natal" não casa "natalicio".
+function contemChave(texto: string, chave: string): boolean {
+  return new RegExp(`(?<![a-z0-9])${escaparRegex(chave)}(?![a-z0-9])`).test(texto);
+}
+
 function fonteDe(c: Comunicado): Fonte {
   return { nome: 'comunicado-planalto', rotulo: 'Planalto (governo)', url: c.url, coletadoEm: c.coletadoEm };
 }
@@ -22,12 +31,13 @@ export function ligarComunicados(eventos: Evento[], comunicados: Comunicado[], m
   const novos: Evento[] = [];
 
   for (const c of comunicados) {
-    if (saida.some((e) => e.id === c.id)) continue;
+    // Já tratado antes: virou item próprio ou já confirma algum compromisso.
+    if (saida.some((e) => e.id === c.id || e.confirmadoPor.includes(c.id))) continue;
     const texto = normalizar(`${c.titulo} ${c.resumo}`);
     const candidatos = saida.filter((e) => {
       if (e.tipo !== 'agenda' || e.removidoEm || e.data !== c.data || !e.local) return false;
       const chave = chaveLocal(e.local);
-      return chave.length >= 4 && texto.includes(chave);
+      return chave.length >= 4 && contemChave(texto, chave);
     });
 
     if (candidatos.length === 1) {

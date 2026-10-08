@@ -83,4 +83,35 @@ describe('ligarComunicados', () => {
     const r = ligarComunicados([agenda('a1', 'SP')], [comunicado()], MANDATO);
     expect(r.find((e) => e.id === 'a1')?.confirmadoPor).toEqual([]);
   });
+
+  it('o local só casa como palavra inteira ("Natal" não casa "Natalício")', () => {
+    const errado = comunicado({ id: 'planalto:natalicio', titulo: 'Presidente participa de evento no Natalício' });
+    const r1 = ligarComunicados([agenda('a1', 'Natal - RN')], [errado], MANDATO);
+    expect(r1.find((e) => e.id === 'a1')?.confirmadoPor).toEqual([]);
+
+    const certo = comunicado({ id: 'planalto:obra-natal', titulo: 'Presidente visita obra em Natal (RN)' });
+    const r2 = ligarComunicados([agenda('a1', 'Natal - RN')], [certo], MANDATO);
+    expect(r2.find((e) => e.id === 'a1')?.confirmadoPor).toEqual(['planalto:obra-natal']);
+  });
+
+  it('metacaracteres de regex no local não quebram nem casam por engano', () => {
+    // "(" sem par no local não pode lançar SyntaxError e deve casar literalmente.
+    const c = comunicado({ id: 'planalto:trecho', titulo: 'Presidente visita o trecho (sul) das obras' });
+    const r = ligarComunicados([agenda('a1', 'Trecho (sul - RJ')], [c], MANDATO);
+    expect(r[0].confirmadoPor).toEqual(['planalto:trecho']);
+    // "." no local é literal, não curinga.
+    const outro = comunicado({ id: 'planalto:axb', titulo: 'Presidente visita a obra axb em Niterói' });
+    const r2 = ligarComunicados([agenda('a1', 'Obra a.b - RJ')], [outro], MANDATO);
+    expect(r2[0].confirmadoPor).toEqual([]);
+  });
+
+  it('comunicado que já confirmou um compromisso não vira item próprio quando surge um segundo no mesmo local', () => {
+    const a1 = agenda('a1', 'Barretos - SP', { confirmadoPor: ['planalto:visita-barretos'] });
+    const a2 = agenda('a2', 'Barretos (SP)', { hora: '15:00' });
+    const r = ligarComunicados([a1, a2], [comunicado()], MANDATO);
+    expect(r.filter((e) => e.tipo === 'comunicado')).toEqual([]);
+    expect(r).toHaveLength(2);
+    expect(r.find((e) => e.id === 'a1')?.confirmadoPor).toEqual(['planalto:visita-barretos']);
+    expect(r.find((e) => e.id === 'a2')?.confirmadoPor).toEqual([]);
+  });
 });
