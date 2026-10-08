@@ -14,6 +14,13 @@ export interface Comunicado {
   coletadoEm: string;
 }
 
+export class FeedLayoutError extends Error {
+  constructor(mensagem: string) {
+    super(mensagem);
+    this.name = 'FeedLayoutError';
+  }
+}
+
 const parser = new XMLParser({ ignoreAttributes: true, processEntities: true, trimValues: true });
 
 function listar(x: unknown): Record<string, unknown>[] {
@@ -33,7 +40,13 @@ function dataDoItem(bruto: unknown): string | null {
 
 export function parsePlanaltoFeed(xml: string, coletadoEm: string): Comunicado[] {
   const doc = parser.parse(xml) as Record<string, any>;
-  const itens = listar(doc['rdf:RDF']?.item ?? doc.rss?.channel?.item);
+  const raiz = doc['rdf:RDF'] !== undefined ? doc['rdf:RDF'] : doc.rss?.channel;
+  if (raiz === undefined) {
+    throw new FeedLayoutError(
+      'A resposta do Planalto não é um feed RSS/RDF (esperava a raiz "rdf:RDF" ou "rss > channel"); o endereço pode ter retornado uma página de erro ou o formato mudou.',
+    );
+  }
+  const itens = listar(raiz?.item);
   const saida: Comunicado[] = [];
   for (const it of itens) {
     const url = urlHttpsSegura(String(it.link ?? ''));
@@ -43,11 +56,18 @@ export function parsePlanaltoFeed(xml: string, coletadoEm: string): Comunicado[]
     const slug = new URL(url).pathname.split('/').filter(Boolean).pop() ?? url;
     saida.push({ id: `planalto:${slug}`, data, titulo, resumo: textoSimples(it.description), url, coletadoEm });
   }
+  if (itens.length > 0 && saida.length === 0) {
+    throw new FeedLayoutError(
+      `O feed do Planalto trouxe ${itens.length} item(ns), mas nenhum tem link https, título e data válidos; o formato do feed pode ter mudado.`,
+    );
+  }
   return saida;
 }
 
 // "Presidente" conta; "Presidente do/da/de X" (Senado, Câmara, empresa) não, exceto "da República".
-const PRESIDENTE = /\bpresidente\b(?!\s+d[aoe]s?\s+(?!republica))/;
+// Também não contam "ex-presidente" e "presidente executivo/interino/eleito/em exercício".
+const PRESIDENTE =
+  /(?<!ex[- ])\bpresidente\b(?![- ]?(executivo|interino|eleito|em exercicio)\b)(?!\s+d[aoe]s?\s+(?!republica))/;
 
 export function citaPresidente(texto: string, mandato: Mandato): boolean {
   const t = normalizar(texto).replace(/vice[- ]?presidente/g, ' ');

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { citaPresidente, parsePlanaltoFeed } from '../../src/collectors/planalto';
+import { citaPresidente, FeedLayoutError, parsePlanaltoFeed } from '../../src/collectors/planalto';
 import type { Mandato } from '../../src/shared/schema';
 
 const COLETA = '2026-10-08T12:00:00.000Z';
@@ -49,6 +49,41 @@ describe('parsePlanaltoFeed', () => {
   it('feed vazio devolve lista vazia', () => {
     expect(parsePlanaltoFeed('<rdf:RDF xmlns:rdf="x"></rdf:RDF>', COLETA)).toEqual([]);
   });
+
+  it('RSS 2.0 válido sem itens devolve lista vazia', () => {
+    expect(parsePlanaltoFeed('<rss version="2.0"><channel><title>x</title></channel></rss>', COLETA)).toEqual([]);
+  });
+
+  it.each([
+    ['página HTML de erro', '<html><head><title>503</title></head><body><h1>Serviço indisponível</h1></body></html>'],
+    ['texto puro', 'Service Unavailable'],
+    ['string vazia', ''],
+    ['JSON', '{"erro": "indisponivel"}'],
+    ['raiz sem o prefixo rdf:', '<RDF><item><title>x</title></item></RDF>'],
+    ['RSS sem channel', '<rss version="2.0"></rss>'],
+  ])('%s não é um feed: lança FeedLayoutError (e não "sem novidades")', (_nome, xml) => {
+    expect(() => parsePlanaltoFeed(xml, COLETA)).toThrow(FeedLayoutError);
+  });
+
+  it('itens existem mas nenhum é válido: lança FeedLayoutError', () => {
+    const rdf = `<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <item><title>Só http</title><link>http://inseguro.test/x</link><dc:date>2026-09-08T10:00:00-03:00</dc:date></item>
+      <item><title>Sem data</title><link>https://www.gov.br/planalto/n/sem-data</link></item>
+      <item><title></title><link>https://www.gov.br/planalto/n/sem-titulo</link><dc:date>2026-09-08T10:00:00-03:00</dc:date></item>
+    </rdf:RDF>`;
+    expect(() => parsePlanaltoFeed(rdf, COLETA)).toThrow(FeedLayoutError);
+    expect(() => parsePlanaltoFeed(rdf, COLETA)).toThrow(/nenhum/i);
+  });
+
+  it('o erro tem o nome FeedLayoutError', () => {
+    try {
+      parsePlanaltoFeed('Service Unavailable', COLETA);
+      expect.unreachable();
+    } catch (e) {
+      expect(e).toBeInstanceOf(Error);
+      expect((e as Error).name).toBe('FeedLayoutError');
+    }
+  });
 });
 
 describe('citaPresidente', () => {
@@ -68,6 +103,13 @@ describe('citaPresidente', () => {
     'Presidente da Câmara anuncia pauta',
     'Presidente da Petrobras anuncia investimento',
     'Vice-Presidente participa de cerimônia',
+    'Governo lamenta morte do ex-presidente Itamar Franco',
+    'Ex-Presidente Bolsonaro depõe',
+    'Presidente-executivo da Vale anuncia investimento',
+    'Presidente executivo da Embraer visita fábrica',
+    'Presidente interino do Senado abre sessão',
+    'Presidente eleito da Câmara toma posse',
+    'Presidente em exercício do Senado recebe ministros',
     'Governo federal apresenta nova etapa do Plano Brasil Soberano',
     'Visita presencial ao Centro Industrial Nuclear de Aramar, em Iperó (SP)',
   ])('não considera relevante: %s', (texto) => {
