@@ -23,6 +23,7 @@ describe('text', () => {
   it('parseDataExtenso lê datas em português', () => {
     expect(parseDataExtenso('DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026')).toBe('2026-10-06');
     expect(parseDataExtenso('LEI Nº 1, DE 12 DE MARÇO DE 2025')).toBe('2025-03-12');
+    expect(parseDataExtenso('DECRETO Nº 11.369, DE 1º DE JANEIRO DE 2023')).toBe('2023-01-01');
     expect(parseDataExtenso('sem data')).toBeNull();
   });
   it('somarDias cruza meses e anos', () => {

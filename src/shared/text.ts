@@ -27,7 +27,7 @@ export function dataSaoPaulo(d: Date): string {
 }
 
 export function parseDataExtenso(texto: string): string | null {
-  const m = normalizar(texto).match(/(\d{1,2}) de ([a-z]+) de (\d{4})/);
+  const m = normalizar(texto).match(/(\d{1,2})[º°o]? de ([a-z]+) de (\d{4})/);
   if (!m) return null;
   const mes = MESES.indexOf(m[2]);
   if (mes < 0) return null;
