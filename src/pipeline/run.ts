@@ -1,0 +1,182 @@
+import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
+import { parseDou, urlDouEdicao, urlTextoPlanalto } from '../collectors/dou';
+import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
+import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
+import { mandatoVigente } from '../config';
+import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
+import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
+import { dataSaoPaulo, somarDias } from '../shared/text';
+import { ligarComunicados } from './link';
+import { aplicarStatus, mesclar } from './merge';
+import {
+  gravarEstado, gravarEventos, gravarNoticias, lerEstado, lerEventos,
+} from './store';
+
+export interface Deps {
+  buscar: (url: string, accept: string) => Promise<Resposta>;
+  agora: () => Date;
+  dataDir: string;
+  mandatos: Mandato[];
+}
+
+export interface ResumoAtualizacao {
+  arquivosEscritos: number;
+  falhasPersistentes: string[];
+}
+
+interface Coleta {
+  eventos: Evento[];
+  diasCompletos: Set<string>;
+  erros: string[];
+}
+
+const janela = (hoje: string, de: number, ate: number) =>
+  Array.from({ length: ate - de + 1 }, (_, i) => somarDias(hoje, de + i));
+
+async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], coletadoEm: string): Promise<Coleta> {
+  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
+  for (const d of dias) {
+    const url = urlAgendaDia(mandato.agendaBase, d);
+    try {
+      const r = await deps.buscar(url, ACCEPT_HTML);
+      const p = parseAgenda(r.corpo, r.status, d, coletadoEm, url);
+      c.eventos.push(...p.eventos);
+      if (p.diaPublicado) c.diasCompletos.add(d);
+    } catch (e) {
+      c.erros.push(`${d}: ${e instanceof LayoutError ? e.message : String(e)}`);
+    }
+  }
+  return c;
+}
+
+async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
+  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
+  for (const d of dias) {
+    try {
+      const r = await deps.buscar(urlDouEdicao(d), ACCEPT_HTML);
+      if (r.status === 404) continue; // sem edição nesse dia
+      if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+      c.eventos.push(...parseDou(r.corpo, d, coletadoEm));
+    } catch (e) {
+      c.erros.push(`${d}: ${String(e)}`);
+    }
+  }
+  return c;
+}
+
+async function adicionarTextoPlanalto(deps: Deps, ev: Evento, coletadoEm: string): Promise<void> {
+  const url = urlTextoPlanalto(ev.titulo, ev.datasAto?.assinatura);
+  if (!url) return;
+  try {
+    const r = await deps.buscar(url, ACCEPT_HTML);
+    if (r.status === 200) {
+      ev.fontes.push({ nome: 'texto-planalto', rotulo: 'Planalto (texto do ato)', url, coletadoEm });
+    }
+  } catch {
+    // sem o texto no Planalto, fica só o link do DOU
+  }
+}
+
+export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
+  const agora = deps.agora();
+  const agoraIso = agora.toISOString();
+  const hoje = dataSaoPaulo(agora);
+  const mandato = mandatoVigente(deps.mandatos, hoje);
+  const existentes = await lerEventos(deps.dataDir);
+  const anterior = await lerEstado(deps.dataDir);
+  const estado: EstadoFontes = { fontes: {}, ultimaNovidadeEm: anterior.ultimaNovidadeEm };
+
+  const marcar = (nome: string, erro?: string) => {
+    const ant = anterior.fontes[nome];
+    const ok = erro === undefined;
+    const mensagem = erro?.slice(0, 300);
+    estado.fontes[nome] = ant && ant.ok === ok && (ok || ant.mensagem === mensagem)
+      ? ant
+      : { ok, desde: agoraIso, ...(ok ? {} : { mensagem }) };
+  };
+
+  const agenda = await coletarAgenda(deps, mandato, janela(hoje, -3, 7), agoraIso);
+  marcar('agenda', agenda.erros.length ? agenda.erros.join('; ') : undefined);
+
+  const dou = await coletarDou(deps, [somarDias(hoje, -1), hoje], agoraIso);
+  marcar('dou', dou.erros.length ? dou.erros.join('; ') : undefined);
+
+  let comunicados: Comunicado[] = [];
+  try {
+    const r = await deps.buscar(URL_FEED_PLANALTO, ACCEPT_XML);
+    if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+    comunicados = parsePlanaltoFeed(r.corpo, agoraIso);
+    marcar('planalto');
+  } catch (e) {
+    marcar('planalto', String(e));
+  }
+
+  const idsExistentes = new Set(existentes.map((e) => e.id));
+  for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id))) {
+    await adicionarTextoPlanalto(deps, ato, agoraIso);
+  }
+
+  let eventos = mesclar(existentes, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso);
+  eventos = ligarComunicados(eventos, comunicados, mandato);
+  eventos = aplicarStatus(eventos, hoje);
+  let escritos = await gravarEventos(deps.dataDir, eventos);
+
+  const noticias: Noticia[] = [];
+  const fontesNoticias: [string, string, Noticia['origem']][] = [
+    ['noticias-google', urlBuscaGoogleNews(mandato.nomes[0]), 'google-news'],
+    ['noticias-agencia-brasil', URL_AGENCIA_BRASIL, 'agencia-brasil'],
+  ];
+  for (const [nome, url, origem] of fontesNoticias) {
+    try {
+      const r = await deps.buscar(url, ACCEPT_XML);
+      if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+      noticias.push(...filtrarRelevantes(parseNoticias(r.corpo, origem), mandato));
+      marcar(nome);
+    } catch (e) {
+      marcar(nome, String(e));
+    }
+  }
+  if (await gravarNoticias(deps.dataDir, noticias, hoje)) escritos++;
+
+  if (escritos > 0) estado.ultimaNovidadeEm = agoraIso;
+  if (await gravarEstado(deps.dataDir, estado)) escritos++;
+
+  const falhasPersistentes = Object.entries(estado.fontes)
+    .filter(([nome, s]) => !s.ok && anterior.fontes[nome]?.ok === false)
+    .map(([nome]) => nome);
+  return { arquivosEscritos: escritos, falhasPersistentes };
+}
+
+export async function retroagir(
+  deps: Deps, de: string, ate: string, aoProgredir?: (dia: string) => void,
+): Promise<string[]> {
+  const agoraIso = deps.agora().toISOString();
+  let eventos = await lerEventos(deps.dataDir);
+  const falhas: string[] = [];
+  const gravar = async (dia: string) => {
+    await gravarEventos(deps.dataDir, aplicarStatus(eventos, dataSaoPaulo(deps.agora())));
+    aoProgredir?.(dia);
+  };
+
+  let contador = 0;
+  for (let d = de; d <= ate; d = somarDias(d, 1)) {
+    let mandato: Mandato;
+    try {
+      mandato = mandatoVigente(deps.mandatos, d);
+    } catch {
+      continue; // dia fora de qualquer mandato configurado
+    }
+    const agenda = await coletarAgenda(deps, mandato, [d], agoraIso);
+    const dou = await coletarDou(deps, [d], agoraIso);
+    if (agenda.erros.length || dou.erros.length) falhas.push(d);
+
+    const idsExistentes = new Set(eventos.map((e) => e.id));
+    for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id))) {
+      await adicionarTextoPlanalto(deps, ato, agoraIso);
+    }
+    eventos = mesclar(eventos, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso);
+    if (++contador % 15 === 0) await gravar(d);
+  }
+  await gravar(ate);
+  return falhas;
+}
