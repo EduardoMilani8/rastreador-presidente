@@ -21,7 +21,10 @@ export async function buscarTexto(url: string, accept: string = ACCEPT_HTML, o: 
   for (let i = 0; i < tentativas; i++) {
     try {
       const r = await f(url, { headers: { 'User-Agent': ua, Accept: accept }, redirect: 'follow' });
-      if (r.status >= 500) throw new Error(`HTTP ${r.status}`);
+      if (r.status >= 500) {
+        await r.body?.cancel();
+        throw new Error(`HTTP ${r.status}`);
+      }
       const corpo = await r.text();
       if (o.pausaMs) await dormir(o.pausaMs);
       return { status: r.status, corpo, url: r.url || url };

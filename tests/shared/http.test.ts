@@ -33,4 +33,24 @@ describe('buscarTexto', () => {
     expect(h['User-Agent']).toContain('https://github.com/o/r');
     expect(h.Accept).toBe('text/html');
   });
+  it('descarta o corpo de respostas 5xx antes de repetir', async () => {
+    const cancelSpy1 = vi.fn();
+    const cancelSpy2 = vi.fn();
+    const cancelSpy3 = vi.fn();
+    const resp1 = new Response('erro1', { status: 500 });
+    const resp2 = new Response('erro2', { status: 500 });
+    const resp3 = new Response('ok', { status: 200 });
+    resp1.body!.cancel = cancelSpy1;
+    resp2.body!.cancel = cancelSpy2;
+    resp3.body!.cancel = cancelSpy3;
+    const fetchImpl = vi.fn()
+      .mockResolvedValueOnce(resp1)
+      .mockResolvedValueOnce(resp2)
+      .mockResolvedValueOnce(resp3);
+    const r = await buscarTexto('https://x.test/a', 'text/html', { fetchImpl, esperaMs: 0 });
+    expect(r.corpo).toBe('ok');
+    expect(cancelSpy1).toHaveBeenCalled();
+    expect(cancelSpy2).toHaveBeenCalled();
+    expect(cancelSpy3).not.toHaveBeenCalled();
+  });
 });
