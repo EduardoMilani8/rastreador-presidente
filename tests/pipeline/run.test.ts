@@ -127,7 +127,7 @@ describe('atualizar', () => {
     expect(ato.fontes[1].url).toContain('/decreto/D13132.htm');
   });
 
-  it('comunicado que casa com o compromisso (data + local) o marca como realizado', async () => {
+  it('comunicado do mesmo dia e local NÃO marca o compromisso como realizado (aviso de pauta não prova o fato)', async () => {
     cfg.comunicados = rdfPlanalto([
       { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
     ]);
@@ -135,9 +135,11 @@ describe('atualizar', () => {
     await atualizar(deps);
     const eventos = await lerEventos(deps.dataDir);
     const visita = eventos.find((e) => e.titulo === 'Visita ao hospital')!;
-    expect(visita.status).toBe('realizado');
-    expect(visita.fontes).toHaveLength(2);
-    expect(eventos.some((e) => e.tipo === 'comunicado')).toBe(false);
+    expect(visita.status).not.toBe('realizado');
+    expect(visita.confirmadoPor).toEqual([]);
+    expect(visita.fontes).toHaveLength(1);
+    const c = eventos.find((e) => e.tipo === 'comunicado')!;
+    expect(c).toMatchObject({ id: 'planalto:visita-barretos', status: 'publicado' });
   });
 
   it('fonte fora do ar: mantém os dados, registra ok:false, e só vira falha persistente na 2ª seguida', async () => {

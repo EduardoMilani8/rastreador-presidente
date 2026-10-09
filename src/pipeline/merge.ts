@@ -2,7 +2,9 @@ import type { Evento, Fonte, Status } from '../shared/schema';
 
 export function calcularStatus(ev: Evento, hoje: string): Status {
   if (ev.tipo === 'ato') return 'publicado';
-  if (ev.tipo === 'comunicado') return 'realizado';
+  // O feed do Planalto traz sobretudo avisos de pauta ("Agenda será às 14h30..."), publicados 1–2 dias ANTES do
+  // evento. Um comunicado é só "publicado": nunca afirma que algo foi realizado.
+  if (ev.tipo === 'comunicado') return 'publicado';
   if (ev.removidoEm) return 'removido';
   if (ev.confirmadoPor.length > 0) return 'realizado';
   if (ev.historico.length > 0) return 'alterado';

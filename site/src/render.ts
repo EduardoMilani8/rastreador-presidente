@@ -19,6 +19,8 @@ export const ROTULO_STATUS: Record<Status, { icone: string; texto: string }> = {
   removido: { icone: '⚠️', texto: 'Removido da agenda' },
 };
 
+export const ROTULO_COMUNICADO = { icone: '📰', texto: 'Publicado no site do Planalto' };
+
 export const ROTULO_TIPO: Record<TipoEvento, string> = {
   agenda: 'Agenda',
   ato: 'Ato oficial',
@@ -60,7 +62,8 @@ export function renderFontes(doc: Document, fontes: Fonte[]): HTMLElement {
 
 /** `comId: false` para cópias do mesmo item (destaques) — só a linha do tempo leva o id âncora. */
 export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId = true): HTMLElement {
-  const st = ROTULO_STATUS[ev.status];
+  // Comunicado do Planalto é, em geral, um aviso de pauta publicado ANTES do evento: nunca mostra "Realizado".
+  const st = ev.tipo === 'comunicado' ? ROTULO_COMUNICADO : ROTULO_STATUS[ev.status];
   const li = el(doc, 'li', {
     class: `evento tipo-${ev.tipo} status-${ev.status}`,
   });
@@ -72,6 +75,10 @@ export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId =
   li.append(el(doc, `h${nivelTitulo}`, { class: 'evento-titulo' }, ev.titulo));
   if (ev.local) li.append(el(doc, 'p', { class: 'local' }, ev.local));
   if (ev.ementa) li.append(el(doc, 'p', { class: 'ementa' }, ev.ementa));
+  if (ev.tipo === 'comunicado') {
+    li.append(el(doc, 'p', { class: 'datas-ato' },
+      `Data de publicação do texto: ${formatarDataCurta(ev.data)}. O compromisso descrito pode ser em outra data.`));
+  }
   if (ev.datasAto) {
     li.append(el(doc, 'p', { class: 'datas-ato' },
       ev.datasAto.assinatura ? `Assinado em ${formatarDataCurta(ev.datasAto.assinatura)} · ` : '',

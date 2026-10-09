@@ -56,10 +56,11 @@ describe('site/sobre.html', () => {
     const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
     // (a) o tempo sozinho não confirma
     expect(texto).toMatch(/nunca aparece como "?Realizado"? só porque o tempo passou/);
-    expect(texto).toMatch(/somente um comunicado oficial/);
-    // (b) ligação automática conservadora
-    expect(texto).toMatch(/ligação automática .* conservadora/);
-    expect(texto).toMatch(/pode ligar pouquíssimos itens/);
+    // (b) comunicados do Planalto são avisos de pauta (antes do evento): não confirmam nada, e a ligação está desligada
+    expect(texto).toMatch(/Hoje nenhum compromisso recebe este status automaticamente/);
+    expect(texto).toMatch(/avisos de pauta .* antes do compromisso/);
+    expect(texto).toMatch(/ligação automática com a agenda está desligada/);
+    expect(texto).not.toMatch(/depois dos fatos|somente um comunicado oficial|só confirma um compromisso do mesmo dia/);
     // (c) fontes
     expect(texto).toMatch(/somente de fontes oficiais públicas e da imprensa/);
     expect(texto).toMatch(/Notícias \(aba separada\)/);

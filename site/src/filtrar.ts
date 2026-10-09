@@ -24,7 +24,8 @@ export function agruparPorDia(evs: Evento[]): { data: string; itens: Evento[] }[
 
 export function ultimoRegistro(evs: Evento[], hoje: string): Evento | undefined {
   return evs
-    .filter((e) => (e.status === 'realizado' || e.status === 'publicado') && e.data <= hoje)
+    // Comunicados ficam de fora: são avisos de pauta e não provam que algo aconteceu.
+    .filter((e) => e.tipo !== 'comunicado' && (e.status === 'realizado' || e.status === 'publicado') && e.data <= hoje)
     .sort((a, b) => chave(b).localeCompare(chave(a)))[0];
 }
 

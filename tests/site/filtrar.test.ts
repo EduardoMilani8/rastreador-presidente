@@ -41,6 +41,10 @@ describe('ultimoRegistro', () => {
   it('é o realizado/publicado mais recente até hoje (mesmo dia: o de hora maior)', () => {
     expect(ultimoRegistro(LISTA, '2026-10-08')?.id).toBe('c'); // 07/10 09:00 vence o ato sem hora
   });
+  it('ignora comunicados: o feed do Planalto traz avisos de pauta, que não provam que algo aconteceu', () => {
+    const lista = [ev('c', '2026-10-07', { tipo: 'comunicado', status: 'publicado' }), ev('b', '2026-10-05', { tipo: 'ato', status: 'publicado' })];
+    expect(ultimoRegistro(lista, '2026-10-08')?.id).toBe('b');
+  });
   it('ignora itens futuros e quem só "consta na agenda"', () => {
     expect(ultimoRegistro([ev('x', '2026-10-06')], '2026-10-08')).toBeUndefined();
     expect(ultimoRegistro([ev('f', '2026-10-20', { status: 'realizado' })], '2026-10-08')).toBeUndefined();

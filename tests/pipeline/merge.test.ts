@@ -31,9 +31,11 @@ describe('calcularStatus', () => {
     expect(calcularStatus(agenda({ historico: h, removidoEm: T2 }), '2026-10-08')).toBe('removido');
     expect(calcularStatus(agenda({ confirmadoPor: ['x'], removidoEm: T2 }), '2026-10-08')).toBe('removido');
   });
-  it('ato é "publicado" e comunicado é "realizado"', () => {
+  it('ato é "publicado"', () => {
     expect(calcularStatus(agenda({ tipo: 'ato' }), '2026-10-08')).toBe('publicado');
-    expect(calcularStatus(agenda({ tipo: 'comunicado' }), '2026-10-08')).toBe('realizado');
+  });
+  it('comunicado é só "publicado": o feed do Planalto traz avisos de pauta ANTES do evento, então nunca prova que algo aconteceu', () => {
+    expect(calcularStatus(agenda({ tipo: 'comunicado' }), '2026-10-08')).toBe('publicado');
   });
 });
 

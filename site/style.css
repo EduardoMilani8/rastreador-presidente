@@ -37,7 +37,8 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 h2 { font-size: 1.25rem; margin: 28px 0 8px; }
 .lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.dia h3 { font-size: 1rem; margin: 24px 0 8px; color: var(--suave); text-transform: capitalize; }
+.dia h3 { font-size: 1rem; margin: 24px 0 8px; color: var(--suave); }
+.dia h3::first-letter { text-transform: uppercase; }
 .evento, .noticia { background: var(--cartao); border: 1px solid var(--linha); border-left: 5px solid var(--linha); border-radius: 8px; padding: 12px 14px; }
 .tipo-agenda { border-left-color: var(--agenda); }
 .tipo-ato { border-left-color: var(--ato); }

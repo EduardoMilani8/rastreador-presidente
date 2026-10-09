@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Comunicado } from '../../src/collectors/planalto';
-import { ligarComunicados } from '../../src/pipeline/link';
+import { ligarComunicados as ligar } from '../../src/pipeline/link';
 import type { Evento, Mandato } from '../../src/shared/schema';
 
 const T = '2026-09-08T20:00:00.000Z';
@@ -21,7 +21,11 @@ const comunicado = (sobre: Partial<Comunicado> = {}): Comunicado => ({
   url: 'https://www.gov.br/planalto/n/visita-barretos', coletadoEm: T, ...sobre,
 });
 
-describe('ligarComunicados', () => {
+// A mecânica da regra (dia + local, sem ambiguidade) é testada com a ligação habilitada; por padrão ela é DESLIGADA
+// (ver o último describe): os comunicados do feed real são avisos de pauta e não provam que o evento aconteceu.
+const ligarComunicados = (e: Evento[], c: Comunicado[], m: Mandato) => ligar(e, c, m, { ligarNaAgenda: true });
+
+describe('ligarComunicados (regra de ligação habilitada)', () => {
   it('liga ao único compromisso do mesmo dia e local e soma a fonte', () => {
     const r = ligarComunicados([agenda('a1', 'Barretos - SP')], [comunicado()], MANDATO);
     expect(r).toHaveLength(1);
@@ -42,7 +46,7 @@ describe('ligarComunicados', () => {
     );
     expect(r.filter((e) => e.confirmadoPor.length > 0)).toHaveLength(0);
     const proprio = r.find((e) => e.tipo === 'comunicado');
-    expect(proprio).toMatchObject({ id: 'planalto:visita-barretos', status: 'realizado', data: '2026-09-08' });
+    expect(proprio).toMatchObject({ id: 'planalto:visita-barretos', status: 'publicado', data: '2026-09-08' });
     expect(proprio?.fontes[0].url).toBe('https://www.gov.br/planalto/n/visita-barretos');
   });
 
@@ -138,5 +142,19 @@ describe('ligarComunicados', () => {
     expect(r).toHaveLength(2);
     expect(r.find((e) => e.id === 'a1')?.confirmadoPor).toEqual(['planalto:visita-barretos']);
     expect(r.find((e) => e.id === 'a2')?.confirmadoPor).toEqual([]);
+  });
+});
+
+describe('ligarComunicados (padrão: comunicado não confirma compromisso)', () => {
+  it('mesmo com dia e local batendo sem ambiguidade, NÃO liga: o comunicado vira só um item próprio "publicado"', () => {
+    const r = ligar([agenda('a1', 'Barretos - SP')], [comunicado()], MANDATO);
+    expect(r.find((e) => e.id === 'a1')).toMatchObject({ confirmadoPor: [] });
+    expect(r.find((e) => e.id === 'a1')?.fontes.map((f) => f.nome)).toEqual(['agenda-planalto']);
+    expect(r.find((e) => e.tipo === 'comunicado')).toMatchObject({ id: 'planalto:visita-barretos', status: 'publicado' });
+  });
+
+  it('comunicado que não cita o presidente continua descartado', () => {
+    const c = comunicado({ id: 'planalto:senado', titulo: 'Presidente do Senado recebe ministros' });
+    expect(ligar([], [c], MANDATO)).toEqual([]);
   });
 });

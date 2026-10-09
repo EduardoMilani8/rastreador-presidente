@@ -61,6 +61,16 @@ describe('renderEvento', () => {
     const ato: Evento = { ...base, tipo: 'ato', hora: undefined, status: 'publicado', datasAto: { assinatura: '2026-10-06', publicacao: '2026-10-07' } };
     expect(renderEvento(document, ato).textContent).toContain('Assinado em 06/10/2026 · Publicado em 07/10/2026');
   });
+  it('comunicado mostra "Publicado no site do Planalto", nunca "Realizado" nem "Diário Oficial", e a data de publicação', () => {
+    const c: Evento = {
+      ...base, id: 'planalto:x', tipo: 'comunicado', hora: undefined, local: undefined, status: 'publicado',
+      titulo: 'Presidente da República visita obras', fontes: [fonte('comunicado-planalto', 'https://www.gov.br/c')],
+    };
+    const t = renderEvento(document, c).textContent!;
+    expect(t).toContain('Publicado no site do Planalto');
+    expect(t).toContain('Data de publicação do texto: 08/10/2026. O compromisso descrito pode ser em outra data.');
+    expect(t).not.toMatch(/Realizado|Diário Oficial/);
+  });
   it('compromisso alterado lista as versões anteriores', () => {
     const alt: Evento = { ...base, status: 'alterado', historico: [{ titulo: 'Título antigo', registradoEm: T }] };
     const li = renderEvento(document, alt);
