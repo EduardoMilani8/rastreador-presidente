@@ -30,6 +30,33 @@ interface Coleta {
   erros: string[];
 }
 
+function caminhoSemBarraFinal(url: string): string {
+  return new URL(url).pathname.replace(/\/+$/, '');
+}
+
+// buscarTexto segue redirecionamentos: se a página do dia foi trocada por outra, não pode virar dado desse dia.
+function exigirAgendaDoDia(finalUrl: string, dia: string): void {
+  let ok = false;
+  try {
+    ok = caminhoSemBarraFinal(finalUrl).endsWith(`/${dia}`);
+  } catch {
+    ok = false;
+  }
+  if (!ok) throw new Error(`Redirecionamento inesperado: a página de ${dia} respondeu como ${finalUrl}`);
+}
+
+function exigirEdicaoDou(finalUrl: string, pedida: string, dia: string): void {
+  let ok = false;
+  try {
+    const f = new URL(finalUrl);
+    const p = new URL(pedida);
+    ok = f.hostname === p.hostname && f.searchParams.get('data') === p.searchParams.get('data');
+  } catch {
+    ok = false;
+  }
+  if (!ok) throw new Error(`Redirecionamento inesperado: a edição de ${dia} respondeu como ${finalUrl}`);
+}
+
 const janela = (hoje: string, de: number, ate: number) =>
   Array.from({ length: ate - de + 1 }, (_, i) => somarDias(hoje, de + i));
 
@@ -39,6 +66,7 @@ async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], colet
     const url = urlAgendaDia(mandato.agendaBase, d);
     try {
       const r = await deps.buscar(url, ACCEPT_HTML);
+      exigirAgendaDoDia(r.url, d);
       const p = parseAgenda(r.corpo, r.status, d, coletadoEm, url);
       c.eventos.push(...p.eventos);
       if (p.diaPublicado) c.diasCompletos.add(d);
@@ -53,7 +81,9 @@ async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promi
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
   for (const d of dias) {
     try {
-      const r = await deps.buscar(urlDouEdicao(d), ACCEPT_HTML);
+      const pedida = urlDouEdicao(d);
+      const r = await deps.buscar(pedida, ACCEPT_HTML);
+      exigirEdicaoDou(r.url, pedida, d);
       if (r.status === 404) continue; // sem edição nesse dia
       if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
       c.eventos.push(...parseDou(r.corpo, d, coletadoEm));
@@ -89,10 +119,11 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   const marcar = (nome: string, erro?: string) => {
     const ant = anterior.fontes[nome];
     const ok = erro === undefined;
-    const mensagem = erro?.slice(0, 300);
-    estado.fontes[nome] = ant && ant.ok === ok && (ok || ant.mensagem === mensagem)
+    // Só uma transição ok <-> falha gera estado novo; enquanto o estado se mantém, o texto do erro não importa
+    // (senão cada variação de mensagem reescreveria status.json e geraria um commit).
+    estado.fontes[nome] = ant && ant.ok === ok
       ? ant
-      : { ok, desde: agoraIso, ...(ok ? {} : { mensagem }) };
+      : { ok, desde: agoraIso, ...(ok ? {} : { mensagem: erro?.slice(0, 300) }) };
   };
 
   const agenda = await coletarAgenda(deps, mandato, janela(hoje, -3, 7), agoraIso);

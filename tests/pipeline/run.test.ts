@@ -1,4 +1,4 @@
-import { mkdtemp } from 'node:fs/promises';
+import { mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { beforeEach, describe, expect, it } from 'vitest';
@@ -20,19 +20,23 @@ const HOJE = '2025-03-10';
 const cfg = {
   agenda: {} as Record<string, string>, // data -> html (200). Ausente => 404.
   falhaAgenda: false,
+  mensagemFalha: 'rede caiu',
+  redirecionaAgenda: null as string | null, // URL final devolvida para as páginas de agenda
+  redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
   comunicados: rdfPlanalto([]),
   textoPlanalto: 404,
 };
 
 async function buscar(url: string) {
   if (url.includes('/agenda-do-presidente-da-republica/')) {
-    if (cfg.falhaAgenda) throw new Error('rede caiu');
+    if (cfg.falhaAgenda) throw new Error(cfg.mensagemFalha);
     const corpo = cfg.agenda[url.slice(-10)];
-    return corpo ? { status: 200, corpo, url } : { status: 404, corpo: PAGINA_404, url };
+    const final = cfg.redirecionaAgenda ?? url;
+    return corpo ? { status: 200, corpo, url: final } : { status: 404, corpo: PAGINA_404, url: final };
   }
   if (url.includes('leiturajornal')) {
     const comDecreto = url.includes('data=10-03-2025');
-    return { status: 200, corpo: htmlDou(comDecreto ? [DECRETO_DOU] : []), url };
+    return { status: 200, corpo: htmlDou(comDecreto ? [DECRETO_DOU] : []), url: cfg.redirecionaDou ?? url };
   }
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
@@ -58,6 +62,9 @@ beforeEach(() => {
     ]),
   };
   cfg.falhaAgenda = false;
+  cfg.mensagemFalha = 'rede caiu';
+  cfg.redirecionaAgenda = null;
+  cfg.redirecionaDou = null;
   cfg.comunicados = rdfPlanalto([]);
   cfg.textoPlanalto = 404;
 });
@@ -147,6 +154,88 @@ describe('atualizar', () => {
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(false);
     const agenda = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda');
     expect(agenda.every((e) => !e.removidoEm)).toBe(true);
+  });
+
+  it('redirecionamento da agenda para outra página não vira compromisso do dia nem remove nada', async () => {
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const antes = await lerEventos(deps.dataDir);
+
+    // Hoje passa a redirecionar para a raiz da agenda, que responde 200 com outro conteúdo.
+    cfg.redirecionaAgenda = 'https://gov.test/agenda-do-presidente-da-republica';
+    cfg.agenda = { [HOJE]: htmlAgenda([{ hora: '08h00', titulo: 'Compromisso de outro dia', local: 'Outro lugar' }]) };
+    await atualizar(deps);
+
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(false);
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.mensagem).toContain('Redirecionamento inesperado');
+    expect(await lerEventos(deps.dataDir)).toEqual(antes);
+  });
+
+  it('redirecionamento do DOU para outra edição não grava atos e marca a fonte como falha', async () => {
+    cfg.redirecionaDou = 'https://www.in.gov.br/leiturajornal?data=09-03-2025&secao=do1';
+    const deps = await novoDeps();
+    await atualizar(deps);
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')).toHaveLength(0);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.dou.ok).toBe(false);
+    expect(estado.fontes.dou.mensagem).toContain('Redirecionamento inesperado');
+  });
+
+  it('fonte que segue falhando com textos de erro diferentes não reescreve o estado', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+
+    cfg.falhaAgenda = true;
+    cfg.mensagemFalha = 'rede caiu A';
+    t += 600_000;
+    await atualizar(deps);
+    const arquivo = join(deps.dataDir, 'status.json');
+    const bytes = await readFile(arquivo, 'utf8');
+    const { desde, mensagem } = (await lerEstado(deps.dataDir)).fontes.agenda;
+    expect(mensagem).toContain('rede caiu A');
+
+    for (const texto of ['rede caiu B', 'HTTP 502', 'HTTP 503']) {
+      cfg.mensagemFalha = texto;
+      t += 600_000;
+      const r = await atualizar(deps);
+      expect(r.arquivosEscritos).toBe(0);
+      expect(r.falhasPersistentes).toEqual(['agenda']);
+      expect(await readFile(arquivo, 'utf8')).toBe(bytes);
+      expect((await lerEstado(deps.dataDir)).fontes.agenda).toEqual({ ok: false, desde, mensagem });
+    }
+  });
+
+  it('recuperar e voltar a falhar ainda é uma transição de estado', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+    const desdeOk = (await lerEstado(deps.dataDir)).fontes.agenda.desde;
+
+    cfg.falhaAgenda = true;
+    t += 600_000;
+    await atualizar(deps);
+    const falha1 = (await lerEstado(deps.dataDir)).fontes.agenda;
+    expect(falha1.ok).toBe(false);
+    expect(falha1.desde).not.toBe(desdeOk);
+
+    cfg.falhaAgenda = false;
+    t += 600_000;
+    await atualizar(deps);
+    const ok2 = (await lerEstado(deps.dataDir)).fontes.agenda;
+    expect(ok2.ok).toBe(true);
+    expect(ok2.desde).not.toBe(falha1.desde);
+
+    cfg.falhaAgenda = true;
+    cfg.mensagemFalha = 'outra falha';
+    t += 600_000;
+    await atualizar(deps);
+    const falha2 = (await lerEstado(deps.dataDir)).fontes.agenda;
+    expect(falha2.ok).toBe(false);
+    expect(falha2.desde).not.toBe(ok2.desde);
+    expect(falha2.mensagem).toContain('outra falha');
   });
 });
 
