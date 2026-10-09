@@ -1,0 +1,50 @@
+import { z } from 'zod';
+import {
+  EstadoFontesSchema, EventoSchema, NoticiaSchema,
+  type EstadoFontes, type Evento, type Noticia,
+} from '../../src/shared/schema';
+import type { Filtros } from './params';
+
+export interface Dados {
+  eventos: Evento[];
+  noticias: Noticia[];
+  estado: EstadoFontes;
+}
+
+async function lerJson(caminho: string): Promise<unknown> {
+  const r = await fetch(caminho, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`${caminho}: HTTP ${r.status}`);
+  return r.json();
+}
+
+// Valida item a item: um registro inválido não derruba o mês inteiro.
+function validos<T>(schema: z.ZodType<T>, bruto: unknown): T[] {
+  return Array.isArray(bruto) ? bruto.flatMap((x) => {
+    const p = schema.safeParse(x);
+    return p.success ? [p.data] : [];
+  }) : [];
+}
+
+async function tentar<T>(fn: () => Promise<T>, padrao: T): Promise<T> {
+  try {
+    return await fn();
+  } catch {
+    return padrao;
+  }
+}
+
+export async function carregarDados(f: Filtros): Promise<Dados> {
+  const meses = await tentar(async () =>
+    z.string().regex(/^\d{4}-\d{2}$/).array().parse(await lerJson('data/meses.json')), [] as string[]);
+  const escolhidos = f.de || f.ate
+    ? meses.filter((m) => m >= (f.de?.slice(0, 7) ?? '0000-00') && m <= (f.ate?.slice(0, 7) ?? '9999-99'))
+    : meses.slice(0, 2); // mês atual e o anterior
+  const eventos = (await Promise.all(escolhidos.map((m) =>
+    tentar(async () => validos(EventoSchema, await lerJson(`data/eventos/${m}.json`)), [] as Evento[])))).flat();
+  const noticias = f.aba === 'noticias'
+    ? await tentar(async () => validos(NoticiaSchema, await lerJson('data/noticias.json')), [] as Noticia[])
+    : [];
+  const estado = await tentar(
+    async () => EstadoFontesSchema.parse(await lerJson('data/status.json')), { fontes: {} } as EstadoFontes);
+  return { eventos, noticias, estado };
+}
