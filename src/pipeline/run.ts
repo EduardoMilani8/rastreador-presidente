@@ -1,5 +1,5 @@
 import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
-import { parseDou, urlDouEdicao, urlTextoPlanalto } from '../collectors/dou';
+import { parseDou, urlDouEdicao, urlTextoPlanalto, type SecaoDou } from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
 import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
 import { mandatoVigente } from '../config';
@@ -79,16 +79,19 @@ async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], colet
 
 async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
+  const edicoes: [SecaoDou, string][] = [['do1', 'edição'], ['do1e', 'edição extra']];
   for (const d of dias) {
-    try {
-      const pedida = urlDouEdicao(d);
-      const r = await deps.buscar(pedida, ACCEPT_HTML);
-      exigirEdicaoDou(r.url, pedida, d);
-      if (r.status === 404) continue; // sem edição nesse dia
-      if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
-      c.eventos.push(...parseDou(r.corpo, d, coletadoEm));
-    } catch (e) {
-      c.erros.push(`${d}: ${String(e)}`);
+    for (const [secao, rotulo] of edicoes) {
+      try {
+        const pedida = urlDouEdicao(d, secao);
+        const r = await deps.buscar(pedida, ACCEPT_HTML);
+        exigirEdicaoDou(r.url, pedida, d);
+        if (r.status === 404) continue; // sem edição nesse dia
+        if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+        c.eventos.push(...parseDou(r.corpo, d, coletadoEm));
+      } catch (e) {
+        c.erros.push(`${d} (${rotulo}): ${String(e)}`);
+      }
     }
   }
   return c;

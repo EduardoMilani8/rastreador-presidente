@@ -15,16 +15,27 @@ const ATO = /^(DECRETO|LEI|MEDIDA PROVISÓRIA)\b/i;
 const NUMERADO = /\bN[ºo°]\s*[\d.]+/i;
 const DECRETO_LEGISLATIVO = /^DECRETO LEGISLATIVO\b/i;
 
-export function urlDouEdicao(data: string): string {
+// 'do1' = edição ordinária; 'do1e' = edições extras da Seção 1 (MPs e decretos que saem fora do expediente, p.ex. a posse
+// de 01/01/2023). Verificado na fonte: sem 'do1e' esses atos não aparecem.
+export type SecaoDou = 'do1' | 'do1e';
+
+export function urlDouEdicao(data: string, secao: SecaoDou = 'do1'): string {
   const [a, m, d] = data.split('-');
-  return `https://www.in.gov.br/leiturajornal?data=${d}-${m}-${a}&secao=do1`;
+  return `https://www.in.gov.br/leiturajornal?data=${d}-${m}-${a}&secao=${secao}`;
 }
+
+// Fim da ementa = começo do preâmbulo. Formas reais no DOU: "O PRESIDENTE DA REPÚBLICA", "OPRESIDENTE ...", letras
+// espaçadas ("O V I C E - P R E S I D E N T E D A R E P Ú B L I C A", "D AR E P Ú B L I C A"), "O VICE-PRESIDENTE DA
+// REPÚBLICA, no exercício do cargo de PRESIDENTE" e, em lei promulgada pelo Congresso, "Faço saber que ...".
+// Só MAIÚSCULAS casam o preâmbulo ("Autoriza o Presidente da República..." na ementa não é cortado).
+const PREAMBULO =
+  /\s(?:O\s*(?:V\s*I\s*C\s*E\s*-?\s*)?P\s*R\s*E\s*S\s*I\s*D\s*E\s*N\s*T\s*E\s*D\s*A\s*R\s*E\s*P\s*[ÚU]\s*B|Faço saber\b)/;
 
 function extrairEmenta(titulo: string, content: string): string | undefined {
   const c = limparEspacos(content);
   if (!c.startsWith(titulo)) return undefined;
   const semTitulo = c.slice(titulo.length);
-  const corte = semTitulo.search(/\sO\s+PRESIDENTE\s+DA\s+REP[ÚU]BLICA/);
+  const corte = semTitulo.search(PREAMBULO);
   const ementa = limparEspacos(corte >= 0 ? semTitulo.slice(0, corte) : semTitulo);
   return ementa || undefined;
 }

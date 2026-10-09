@@ -25,6 +25,14 @@ const cfg = {
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
   comunicados: rdfPlanalto([]),
   textoPlanalto: 404,
+  extraDou: [] as object[], // itens da edição extra do DOU (secao=do1e) em HOJE
+  falhaExtraDou: false,
+};
+
+const MP_EXTRA = {
+  title: 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023', urlTitle: 'medida-provisoria-n-1.157-de-1-de-janeiro-de-2023-1',
+  artType: 'Medida provisória', hierarchyStr: 'Atos do Poder Executivo',
+  content: 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
 async function buscar(url: string) {
@@ -36,6 +44,10 @@ async function buscar(url: string) {
   }
   if (url.includes('leiturajornal')) {
     const comDecreto = url.includes('data=10-03-2025');
+    if (url.includes('secao=do1e')) {
+      if (cfg.falhaExtraDou) throw new Error('rede caiu na edição extra');
+      return { status: 200, corpo: htmlDou(comDecreto ? cfg.extraDou : []), url: cfg.redirecionaDou ?? url };
+    }
     return { status: 200, corpo: htmlDou(comDecreto ? [DECRETO_DOU] : []), url: cfg.redirecionaDou ?? url };
   }
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
@@ -67,6 +79,8 @@ beforeEach(() => {
   cfg.redirecionaDou = null;
   cfg.comunicados = rdfPlanalto([]);
   cfg.textoPlanalto = 404;
+  cfg.extraDou = [];
+  cfg.falhaExtraDou = false;
 });
 
 describe('atualizar', () => {
@@ -83,6 +97,25 @@ describe('atualizar', () => {
 
     const r2 = await atualizar(deps);
     expect(r2.arquivosEscritos).toBe(0);
+  });
+
+  it('coleta também a edição extra do DOU (MP publicada em edição extra não pode sumir)', async () => {
+    cfg.extraDou = [MP_EXTRA];
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    expect(atos.map((a) => a.titulo).sort()).toEqual([
+      'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026', 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023',
+    ]);
+  });
+
+  it('falha na edição extra do DOU marca a fonte "dou" como falha (e não grava silenciosamente só metade)', async () => {
+    cfg.falhaExtraDou = true;
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.dou.ok).toBe(false);
+    expect(estado.fontes.dou.mensagem).toContain('edição extra');
   });
 
   it('adiciona o texto do ato no Planalto só quando a URL responde 200', async () => {

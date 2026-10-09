@@ -36,6 +36,9 @@ describe('urlDouEdicao', () => {
   it('formata a data como DD-MM-AAAA', () => {
     expect(urlDouEdicao('2026-10-07')).toBe('https://www.in.gov.br/leiturajornal?data=07-10-2026&secao=do1');
   });
+  it('pede a edição extra com secao=do1e (onde saem MPs e decretos fora do expediente)', () => {
+    expect(urlDouEdicao('2023-01-02', 'do1e')).toBe('https://www.in.gov.br/leiturajornal?data=02-01-2023&secao=do1e');
+  });
 });
 
 describe('parseDou', () => {
@@ -70,6 +73,14 @@ describe('parseDou', () => {
     expect(parseDou(html([]), '2026-10-07', COLETA)).toEqual([]);
   });
 
+  it('dia sem edição (domingo, feriado, futuro) responde 200 com jsonArray vazio — formato real verificado em out/2026', () => {
+    const real = `<html><head><title>Leitura do Jornal - Imprensa Nacional</title></head><body>
+      <script id="params" type="application/json">
+        {"typeNormDay":{"DO2ESP":false,"DO1ESP":false,"DO1A":false,"DO3E":false,"DO2E":false,"DO1E":false},"idPortletInstance":"Kujrw0TZC2Mb","dateUrl":"04-10-2026","section":"DO1","jsonArray":[]}
+      </script></body></html>`;
+    expect(parseDou(real, '2026-10-04', COLETA)).toEqual([]);
+  });
+
   it('não corta a ementa em "o Presidente da República" minúsculo', () => {
     const d = item({
       title: 'DECRETO Nº 1, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-1-700000010',
@@ -77,6 +88,31 @@ describe('parseDou', () => {
     });
     const [e] = parseDou(html([d]), '2026-10-07', COLETA);
     expect(e.ementa).toBe('Autoriza o Presidente da República a conceder indulto.');
+  });
+
+  it('corta a ementa nos preâmbulos reais do DOU: letras espaçadas, "OPRESIDENTE", vice no exercício, "Faço saber"', () => {
+    const casos: [string, string, string][] = [
+      ['LEI Nº 15.519, DE 22 DE SETEMBRO DE 2026',
+        'Dispõe sobre o exercício da atividade de psicopedagogia. O V I C E - P R E S I D E N T E D A R E P Ú B L I C A, no exercício do cargo deP R E S I D E N T E D A R E P Ú B L I C A Faço saber que o Congresso Nacional decreta',
+        'Dispõe sobre o exercício da atividade de psicopedagogia.'],
+      ['DECRETO Nº 13.115, DE 8 DE SETEMBRO DE 2026',
+        'Amplia o Parque Nacional de Sete Cidades, localizado nos Municípios de Brasileira e Piracuruca, Estado do Piauí. OPRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84',
+        'Amplia o Parque Nacional de Sete Cidades, localizado nos Municípios de Brasileira e Piracuruca, Estado do Piauí.'],
+      ['DECRETO Nº 13.122, DE 21 DE SETEMBRO DE 2026',
+        'Promulga o Acordo Constituinte, firmado pela República Federativa do Brasil, em Roma, em 28 de outubro de 1994. O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo dePRESIDENTE DA REPÚBLICA, no uso da atribuição',
+        'Promulga o Acordo Constituinte, firmado pela República Federativa do Brasil, em Roma, em 28 de outubro de 1994.'],
+      ['LEI Nº 15.521, DE 24 DE SETEMBRO DE 2026',
+        'Altera a Lei nº 11.892, de 29 de dezembro de 2008. O P R E S I D E N T E D AR E P Ú B L I C A Faço saber que o Congresso',
+        'Altera a Lei nº 11.892, de 29 de dezembro de 2008.'],
+      ['LEI Nº 15.497, DE 4 DE SETEMBRO DE 2026',
+        'Altera a Lei nº 15.201, de 9 de setembro de 2025, para reduzir o prazo de análise dos processos. Faço saber que o Presidente da República adotou a Medida Provisória nº 1.369, de 2026, que o Congresso Nacional aprovou',
+        'Altera a Lei nº 15.201, de 9 de setembro de 2025, para reduzir o prazo de análise dos processos.'],
+    ];
+    const itens = casos.map(([title, resto], i) => item({
+      title, urlTitle: `caso-${i}-700000${i}`, content: `${title} ${resto}`,
+    }));
+    const r = parseDou(html(itens), '2026-10-07', COLETA);
+    expect(r.map((e) => e.ementa)).toEqual(casos.map((c) => c[2]));
   });
 
   it('normaliza espaços do content antes de remover o título', () => {
