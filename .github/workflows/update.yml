@@ -1,0 +1,77 @@
+name: Atualizar dados e publicar
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'docs/**']
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      mudou: ${{ steps.commit.outputs.mudou }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Coletar fontes
+        id: coletar
+        run: npm run update
+        continue-on-error: true
+        env:
+          CONTATO_URL: ${{ github.server_url }}/${{ github.repository }}
+      - name: Commitar dados se mudaram
+        id: commit
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "dados: atualização automática"
+            git pull --rebase origin "$REF_NAME"
+            git push
+            echo "mudou=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Falhar se uma fonte falhou em execuções seguidas
+        if: steps.coletar.outcome == 'failure'
+        run: exit 1
+
+  publicar:
+    needs: atualizar
+    if: ${{ always() && (needs.atualizar.outputs.mudou == 'true' || github.event_name != 'schedule') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deploy
+        uses: actions/deploy-pages@v4
