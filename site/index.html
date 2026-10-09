@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rastreador do Presidente</title>
+  <meta name="description" content="O que o Presidente da República fez e o que consta na agenda oficial, com a fonte pública de cada item.">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/main.ts"></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <h1>Rastreador do Presidente</h1>
+    <p id="ultima-novidade" class="discreto"></p>
+    <p id="aviso-fontes" class="aviso" role="status" hidden></p>
+    <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
+    <nav aria-label="Seções do site" class="abas">
+      <a id="aba-linha" href="?aba=linha">Linha do tempo</a>
+      <a id="aba-noticias" href="?aba=noticias">Notícias</a>
+      <a href="sobre.html">Sobre e metodologia</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <div id="painel-linha">
+      <form id="filtros" class="filtros" method="get" action="">
+        <input type="hidden" name="aba" value="linha">
+        <label>De <input type="date" name="de"></label>
+        <label>Até <input type="date" name="ate"></label>
+        <label>Tipo
+          <select name="tipo">
+            <option value="">Todos</option>
+            <option value="agenda">Agenda</option>
+            <option value="ato">Atos oficiais</option>
+            <option value="comunicado">Comunicados do Planalto</option>
+          </select>
+        </label>
+        <label>Status
+          <select name="status">
+            <option value="">Todos</option>
+            <option value="agendado">Agendado</option>
+            <option value="consta_na_agenda">Consta na agenda</option>
+            <option value="realizado">Realizado</option>
+            <option value="publicado">Publicado</option>
+            <option value="alterado">Alterado</option>
+            <option value="removido">Removido</option>
+          </select>
+        </label>
+        <button type="submit">Filtrar</button>
+        <a href="?aba=linha">Limpar filtros</a>
+      </form>
+
+      <section id="bloco-ultimo" aria-labelledby="t-ultimo">
+        <h2 id="t-ultimo">Último registro</h2>
+        <div id="ultimo-registro"></div>
+      </section>
+      <section id="bloco-proximos" aria-labelledby="t-proximos">
+        <h2 id="t-proximos">Próximos compromissos</h2>
+        <ol id="proximos" class="lista"></ol>
+      </section>
+      <section aria-labelledby="t-linha">
+        <h2 id="t-linha">Linha do tempo</h2>
+        <div id="linha-do-tempo"></div>
+      </section>
+    </div>
+
+    <div id="painel-noticias" hidden>
+      <h2>Notícias</h2>
+      <p class="aviso-imprensa">Aqui está o que a imprensa publica sobre o presidente. Não são registros oficiais do que ele fez.</p>
+      <ul id="lista-noticias" class="lista"></ul>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto independente, sem vínculo com o governo. Todos os dados vêm de fontes públicas, linkadas em cada item. <a href="sobre.html">Como funciona</a>.</p>
+  </footer>
+</body>
+</html>
