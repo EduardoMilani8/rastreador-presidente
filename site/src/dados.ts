@@ -9,6 +9,8 @@ export interface Dados {
   eventos: Evento[];
   noticias: Noticia[];
   estado: EstadoFontes;
+  /** true se algum arquivo necessário não pôde ser carregado (a página deve avisar). */
+  incompleto: boolean;
 }
 
 async function lerJson(caminho: string): Promise<unknown> {
@@ -18,22 +20,27 @@ async function lerJson(caminho: string): Promise<unknown> {
 }
 
 // Valida item a item: um registro inválido não derruba o mês inteiro.
+// Corpo que não é array é falha do arquivo (lança), não "sem registros".
 function validos<T>(schema: z.ZodType<T>, bruto: unknown): T[] {
-  return Array.isArray(bruto) ? bruto.flatMap((x) => {
+  if (!Array.isArray(bruto)) throw new Error('corpo não é uma lista');
+  return bruto.flatMap((x) => {
     const p = schema.safeParse(x);
     return p.success ? [p.data] : [];
-  }) : [];
-}
-
-async function tentar<T>(fn: () => Promise<T>, padrao: T): Promise<T> {
-  try {
-    return await fn();
-  } catch {
-    return padrao;
-  }
+  });
 }
 
 export async function carregarDados(f: Filtros): Promise<Dados> {
+  let incompleto = false;
+  // Nunca lança: em falha devolve o padrão e marca `incompleto`.
+  const tentar = async <T>(fn: () => Promise<T>, padrao: T): Promise<T> => {
+    try {
+      return await fn();
+    } catch {
+      incompleto = true;
+      return padrao;
+    }
+  };
+
   const meses = await tentar(async () =>
     z.string().regex(/^\d{4}-\d{2}$/).array().parse(await lerJson('data/meses.json')), [] as string[]);
   const escolhidos = f.de || f.ate
@@ -46,5 +53,5 @@ export async function carregarDados(f: Filtros): Promise<Dados> {
     : [];
   const estado = await tentar(
     async () => EstadoFontesSchema.parse(await lerJson('data/status.json')), { fontes: {} } as EstadoFontes);
-  return { eventos, noticias, estado };
+  return { eventos, noticias, estado, incompleto };
 }

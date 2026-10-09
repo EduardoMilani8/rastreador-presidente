@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { agruparPorDia, filtrarEventos, proximos, ultimoRegistro } from '../../site/src/filtrar';
+import { agruparPorDia, ehProximo, filtrarEventos, proximos, ultimoRegistro } from '../../site/src/filtrar';
 import type { Evento } from '../../src/shared/schema';
 
 const T = '2026-10-08T12:00:00.000Z';
@@ -49,6 +49,17 @@ describe('ultimoRegistro', () => {
 
 describe('proximos', () => {
   it('só agenda "agendado", em ordem crescente de data e hora', () => {
-    expect(proximos(LISTA).map((e) => e.id)).toEqual(['e', 'd']);
+    expect(proximos(LISTA, '2026-10-08').map((e) => e.id)).toEqual(['e', 'd']);
+  });
+  it('agendado com data passada não é próximo (status defasado)', () => {
+    const velho = ev('v', '2026-10-01', { hora: '09:00', status: 'agendado' });
+    expect(proximos([...LISTA, velho], '2026-10-08').map((e) => e.id)).toEqual(['e', 'd']);
+    expect(ehProximo(velho, '2026-10-08')).toBe(false);
+  });
+  it('ehProximo: data igual a hoje conta; não-agenda agendado nunca conta', () => {
+    expect(ehProximo(ev('h', '2026-10-08', { status: 'agendado' }), '2026-10-08')).toBe(true);
+    const ato = ev('t', '2026-10-09', { tipo: 'ato', status: 'agendado' });
+    expect(ehProximo(ato, '2026-10-08')).toBe(false);
+    expect(proximos([ato], '2026-10-08')).toEqual([]);
   });
 });

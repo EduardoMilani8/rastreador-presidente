@@ -28,8 +28,11 @@ export function ultimoRegistro(evs: Evento[], hoje: string): Evento | undefined 
     .sort((a, b) => chave(b).localeCompare(chave(a)))[0];
 }
 
-export function proximos(evs: Evento[]): Evento[] {
+export const ehProximo = (e: Evento, hoje: string): boolean =>
+  e.tipo === 'agenda' && e.status === 'agendado' && e.data >= hoje;
+
+export function proximos(evs: Evento[], hoje: string): Evento[] {
   return evs
-    .filter((e) => e.tipo === 'agenda' && e.status === 'agendado')
+    .filter((e) => ehProximo(e, hoje))
     .sort((a, b) => chave(a).localeCompare(chave(b)));
 }
