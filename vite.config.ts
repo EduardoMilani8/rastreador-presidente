@@ -1,0 +1,51 @@
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { defineConfig, type Plugin } from 'vite';
+import { caminhoSeguro } from './scripts/dados-dev';
+
+// form-action 'self' (e não 'none'): o formulário de filtros de index.html é um GET para a própria
+// página; com 'none' o navegador bloquearia o envio. Todo o resto continua fechado.
+const CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'self'";
+
+function csp(): Plugin {
+  return {
+    name: 'csp',
+    apply: 'build',
+    transformIndexHtml: {
+      order: 'post',
+      handler: (html) => html.replace('<head>', `<head>\n  <meta http-equiv="Content-Security-Policy" content="${CSP}">`),
+    },
+  };
+}
+
+// No `npm run dev`, serve ./data em /data (no build, scripts/copy-data.mjs copia para dist/).
+function dadosDev(): Plugin {
+  return {
+    name: 'dados-dev',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use('/data', async (req, res, next) => {
+        try {
+          const arquivo = caminhoSeguro(resolve('data'), req.url ?? '');
+          if (!arquivo) return next();
+          const conteudo = await readFile(arquivo);
+          res.setHeader('Content-Type', 'application/json');
+          res.end(conteudo);
+        } catch {
+          next();
+        }
+      });
+    },
+  };
+}
+
+export default defineConfig({
+  root: 'site',
+  base: './',
+  plugins: [csp(), dadosDev()],
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+    rollupOptions: { input: { index: resolve('site/index.html'), sobre: resolve('site/sobre.html') } },
+  },
+});
