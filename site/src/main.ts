@@ -9,7 +9,8 @@ async function iniciar(): Promise<void> {
   montar(document, await carregarDados(filtros), filtros, dataSaoPaulo(agora), agora);
 }
 
-iniciar().catch(() => {
+iniciar().catch((err: unknown) => {
+  console.error(err);
   const aviso = document.getElementById('aviso-fontes');
   if (aviso) {
     aviso.textContent = 'Não foi possível carregar os dados agora. Tente novamente em instantes.';

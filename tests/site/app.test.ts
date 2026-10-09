@@ -152,3 +152,75 @@ describe('item removido', () => {
     expect(li.querySelectorAll('a')).toHaveLength(2);
   });
 });
+
+describe('ids únicos', () => {
+  it('o documento montado não tem ids duplicados (destaque repete item da linha do tempo)', () => {
+    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    // 'b' é o último registro E aparece na linha do tempo
+    expect(document.getElementById('ultimo-registro')!.textContent).toContain('Compromisso b');
+    expect(document.getElementById('linha-do-tempo')!.textContent).toContain('Compromisso b');
+    const ids = [...document.querySelectorAll('[id]')].map((e) => e.id);
+    expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([]);
+    expect(document.querySelectorAll('#ultimo-registro [id], #proximos [id]')).toHaveLength(0);
+    expect(document.getElementById('ev-b')).not.toBeNull();
+  });
+});
+
+describe('estados vazios e mensagens', () => {
+  it('aba Notícias sem notícias mostra mensagem', () => {
+    montar(document, { ...DADOS, noticias: [] }, { aba: 'noticias' }, HOJE, AGORA);
+    expect(document.getElementById('lista-noticias')!.textContent).toContain('Nenhuma notícia');
+  });
+
+  it('linha do tempo vazia sem filtros não culpa os filtros', () => {
+    montar(document, { ...DADOS, eventos: [] }, { aba: 'linha' }, HOJE, AGORA);
+    const t = document.getElementById('linha-do-tempo')!.textContent!;
+    expect(t).toContain('Ainda não há registros');
+    expect(t).not.toContain('filtros');
+  });
+
+  it('não monta a lista de notícias na aba Linha do tempo', () => {
+    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    expect(document.getElementById('lista-noticias')!.children).toHaveLength(0);
+  });
+
+  it('"última novidade" ignora data inválida e usa singular/plural de dias', () => {
+    const com = (ultimaNovidadeEm: string) => ({ ...DADOS, estado: { ...DADOS.estado, ultimaNovidadeEm } });
+    montar(document, com('não-é-data'), { aba: 'linha' }, HOJE, AGORA);
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('');
+    montar(document, com('2026-10-07T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última novidade há 1 dia');
+    montar(document, com('2026-10-05T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última novidade há 3 dias');
+  });
+});
+
+describe('texto hostil', () => {
+  const RUIM = '<img src=x onerror=alert(1)><script>alert(2)</script>';
+  const fonteRuim = (url: string) => ({ nome: 'agenda-planalto', rotulo: RUIM, url, coletadoEm: T });
+
+  it('vira texto: sem script/img e sem link http:/javascript:', () => {
+    // construído direto (o schema recusa http:, aqui é defesa em profundidade da renderização)
+    const hostil: Evento = {
+      ...ev('h', '2026-10-07', { status: 'alterado' }),
+      titulo: RUIM, local: RUIM, ementa: RUIM,
+      historico: [{ titulo: RUIM, local: RUIM, hora: RUIM, registradoEm: T }],
+      fontes: [fonteRuim('http://inseguro.example/x'), fonteRuim('javascript:alert(1)'), fonteRuim('https://www.gov.br/ok')],
+    };
+    const futuro: Evento = { ...hostil, id: 'h2', data: '2026-10-09', status: 'agendado' };
+    const news = { ...noticia, titulo: RUIM, veiculo: RUIM, url: 'javascript:alert(1)' };
+    const news2 = { ...noticia, id: 'n2', titulo: RUIM, veiculo: RUIM, url: 'http://inseguro.example/n' };
+    for (const aba of ['linha', 'noticias'] as const) {
+      document.documentElement.innerHTML = PAGINA();
+      montar(document, { ...DADOS, eventos: [hostil, futuro], noticias: [news, news2] }, { aba }, HOJE, AGORA);
+      const area = document.getElementById('conteudo')!;
+      expect(area.querySelectorAll('script, img')).toHaveLength(0);
+      expect(area.querySelectorAll('a[href^="http:"], a[href^="javascript:"]')).toHaveLength(0);
+      expect(area.textContent).toContain(RUIM);
+    }
+    // a única fonte https vira link, na linha do tempo
+    document.documentElement.innerHTML = PAGINA();
+    montar(document, { ...DADOS, eventos: [hostil], noticias: [] }, { aba: 'linha' }, HOJE, AGORA);
+    expect([...document.querySelectorAll('#linha-do-tempo a')].map((a) => a.getAttribute('href'))).toEqual(['https://www.gov.br/ok']);
+  });
+});

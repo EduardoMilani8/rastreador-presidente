@@ -12,12 +12,15 @@ const NOME_FONTE: Record<string, string> = {
   'noticias-agencia-brasil': 'Agência Brasil',
 };
 
-function haQuanto(iso: string, agora: Date): string {
-  const min = Math.max(0, Math.round((agora.getTime() - new Date(iso).getTime()) / 60000));
+function haQuanto(iso: string, agora: Date): string | null {
+  const t = new Date(iso).getTime();
+  if (Number.isNaN(t)) return null;
+  const min = Math.max(0, Math.round((agora.getTime() - t) / 60000));
   if (min < 1) return 'agora há pouco';
   if (min < 60) return `há ${min} min`;
   if (min < 1440) return `há ${Math.floor(min / 60)} h`;
-  return `há ${Math.floor(min / 1440)} dia(s)`;
+  const dias = Math.floor(min / 1440);
+  return `há ${dias} ${dias === 1 ? 'dia' : 'dias'}`;
 }
 
 const AVISO_INCOMPLETO = 'Alguns dados não puderam ser carregados; a lista pode estar incompleta.';
@@ -40,9 +43,8 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
   $(linha ? 'aba-linha' : 'aba-noticias').setAttribute('aria-current', 'page');
   $(linha ? 'aba-noticias' : 'aba-linha').removeAttribute('aria-current');
 
-  $('ultima-novidade').textContent = dados.estado.ultimaNovidadeEm
-    ? `Última novidade ${haQuanto(dados.estado.ultimaNovidadeEm, agora)}`
-    : '';
+  const quando = dados.estado.ultimaNovidadeEm ? haQuanto(dados.estado.ultimaNovidadeEm, agora) : null;
+  $('ultima-novidade').textContent = quando ? `Última novidade ${quando}` : '';
   const aviso = textoAviso(dados.estado);
   $('aviso-fontes').hidden = aviso === null;
   $('aviso-fontes').textContent = aviso ?? '';
@@ -54,10 +56,15 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
     if (campo) campo.value = f[nome] ?? '';
   }
 
-  const lista = $('lista-noticias');
-  limpar(lista);
-  for (const n of dados.noticias) lista.append(renderNoticia(doc, n));
-  if (!linha) return;
+  if (!linha) {
+    const lista = $('lista-noticias');
+    limpar(lista);
+    if (dados.noticias.length === 0) {
+      lista.append(el(doc, 'li', { class: 'vazio' }, 'Nenhuma notícia disponível no momento.'));
+    }
+    for (const n of dados.noticias) lista.append(renderNoticia(doc, n));
+    return;
+  }
 
   const filtrando = Boolean(f.tipo || f.status || f.de || f.ate);
   const ultimo = filtrando ? undefined : ultimoRegistro(dados.eventos, hoje);
@@ -65,11 +72,11 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
 
   $('bloco-ultimo').hidden = !ultimo;
   limpar($('ultimo-registro'));
-  if (ultimo) $('ultimo-registro').append(el(doc, 'ul', { class: 'lista' }, renderEvento(doc, ultimo, 3)));
+  if (ultimo) $('ultimo-registro').append(el(doc, 'ul', { class: 'lista' }, renderEvento(doc, ultimo, 3, false)));
 
   $('bloco-proximos').hidden = prox.length === 0;
   limpar($('proximos'));
-  for (const e of prox) $('proximos').append(renderEvento(doc, e, 3));
+  for (const e of prox) $('proximos').append(renderEvento(doc, e, 3, false));
 
   // Sem filtro, exatamente o que aparece na faixa de próximos sai da linha do tempo;
   // agendados com data passada (defasados) continuam nela.
@@ -78,7 +85,8 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
   const destino = $('linha-do-tempo');
   limpar(destino);
   if (grupos.length === 0) {
-    destino.append(el(doc, 'p', { class: 'vazio' }, 'Nenhum registro encontrado para estes filtros.'));
+    destino.append(el(doc, 'p', { class: 'vazio' },
+      filtrando ? 'Nenhum registro encontrado para estes filtros.' : 'Ainda não há registros para mostrar.'));
     return;
   }
   for (const g of grupos) {

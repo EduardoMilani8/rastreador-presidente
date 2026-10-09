@@ -58,12 +58,13 @@ export function renderFontes(doc: Document, fontes: Fonte[]): HTMLElement {
     el(doc, 'p', { class: 'selo' }, n >= 2 ? `Confirmado por ${n} fontes` : 'Fonte única'), lista);
 }
 
-export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4): HTMLElement {
+/** `comId: false` para cópias do mesmo item (destaques) — só a linha do tempo leva o id âncora. */
+export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId = true): HTMLElement {
   const st = ROTULO_STATUS[ev.status];
   const li = el(doc, 'li', {
     class: `evento tipo-${ev.tipo} status-${ev.status}`,
-    id: `ev-${ev.id.replace(/[^a-zA-Z0-9._-]/g, '-')}`,
   });
+  if (comId) li.id = `ev-${ev.id.replace(/[^a-zA-Z0-9._-]/g, '-')}`;
   li.append(el(doc, 'p', { class: 'evento-meta' },
     ev.hora && el(doc, 'time', { datetime: `${ev.data}T${ev.hora}` }, ev.hora),
     el(doc, 'span', { class: 'tipo' }, ROTULO_TIPO[ev.tipo]),
