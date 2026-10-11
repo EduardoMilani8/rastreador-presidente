@@ -2665,6 +2665,28 @@
     "historico": []
   },
   {
+    "id": "dou:lei-n-14.822-de-22-de-janeiro-de-2024-*-539027391",
+    "tipo": "ato",
+    "data": "2024-01-23",
+    "titulo": "LEI Nº 14.822, DE 22 DE JANEIRO DE 2024 (*)",
+    "status": "publicado",
+    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2024.",
+    "datasAto": {
+      "assinatura": "2024-01-22",
+      "publicacao": "2024-01-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.822-de-22-de-janeiro-de-2024-*-539027391",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2024-01-23:08:00:1",
     "tipo": "agenda",
     "data": "2024-01-23",

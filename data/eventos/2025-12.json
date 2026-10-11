@@ -4358,5 +4358,27 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.321-de-31-de-dezembro-de-2025-*-679024139",
+    "tipo": "ato",
+    "data": "2025-12-31",
+    "titulo": "LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025 (*)",
+    "status": "publicado",
+    "ementa": "Dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária de 2026 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2025-12-31",
+      "publicacao": "2025-12-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.321-de-31-de-dezembro-de-2025-*-679024139",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]

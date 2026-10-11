@@ -518,6 +518,27 @@
     "historico": []
   },
   {
+    "id": "dou:lei-n-14.642-de-1-de-agosto-de-2023-*-500470021",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.642-de-1-de-agosto-de-2023-*-500470021",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "dou:lei-n-14.643-de-2-de-agosto-de-2023-500550915",
     "tipo": "ato",
     "data": "2023-08-03",

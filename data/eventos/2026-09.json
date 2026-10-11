@@ -2897,6 +2897,28 @@
     "historico": []
   },
   {
+    "id": "dou:decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "DECRETO Nº 13.126, DE 23 DE SETEMBRO DE 2026 (*)",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Livre Comércio entre o Mercosul e os Estados da EFTA, firmado pela República Federativa do Brasil, no Rio de Janeiro, em 16 de setembro de 2025.",
+    "datasAto": {
+      "assinatura": "2026-09-23",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "dou:decreto-n-13.127-de-23-de-setembro-de-2026-733720000",
     "tipo": "ato",
     "data": "2026-09-23",
