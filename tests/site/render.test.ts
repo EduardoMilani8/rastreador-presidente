@@ -31,6 +31,11 @@ describe('renderFontes', () => {
     expect(e.textContent).toContain('Confirmado por 2 fontes');
     expect(e.querySelectorAll('a')).toHaveLength(2);
   });
+  it('duas publicações do mesmo tipo (DOU e sua retificação) contam como uma fonte só', () => {
+    const e = renderFontes(document, [fonte('dou', 'https://www.in.gov.br/a'), fonte('dou', 'https://www.in.gov.br/b')]);
+    expect(e.textContent).toContain('Fonte única');
+    expect(e.querySelectorAll('a')).toHaveLength(2);
+  });
   it('URL insegura nunca vira link', () => {
     const e = renderFontes(document, [fonte('x', 'javascript:alert(1)')]);
     expect(e.querySelector('a')).toBeNull();

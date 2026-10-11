@@ -51,7 +51,8 @@ function linkOuTexto(doc: Document, url: string, texto: string): HTMLElement {
 }
 
 export function renderFontes(doc: Document, fontes: Fonte[]): HTMLElement {
-  const n = new Set(fontes.map((f) => f.url)).size;
+  // Conta tipos de documento, não links: o DOU e a retificação do mesmo ato no DOU são uma fonte só.
+  const n = new Set(fontes.map((f) => f.nome)).size;
   const lista = el(doc, 'ul', { class: 'fontes' });
   for (const f of fontes) {
     lista.append(el(doc, 'li', {}, linkOuTexto(doc, f.url, `${TEXTO_LINK[f.nome] ?? 'Fonte'} — ${f.rotulo}`)));
