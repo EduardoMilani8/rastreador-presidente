@@ -32,3 +32,22 @@ export function rssVazio(): string {
 export function rssGoogle(): string {
   return `<rss version="2.0"><channel><item><title>Notícia - BBC</title><link>https://news.google.com/rss/articles/abc</link><pubDate>Mon, 10 Mar 2025 14:00:00 GMT</pubDate><source url="https://www.bbc.com">BBC</source></item></channel></rss>`;
 }
+
+// Trechos reais de planalto.gov.br/ccivil_03 (out/2026). As páginas são Latin-1 sem charset declarado: lidas como
+// UTF-8, cada letra acentuada e cada "º" chegam como U+FFFD — é assim que o coletor as recebe.
+export const PAGINA_PLANALTO_D11430 = `<html><head><meta content="Microsoft FrontPage 6.0" name="GENERATOR"><title>D11430</title></head><body>
+  <p align="center"><font face="Arial" color="#000080" size="2"><small><strong>
+       <a href="http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%2011.430-2023?OpenDocument">
+        <font color="#000080">
+         DECRETO N\uFFFD 11.430, DE 8 DE MAR\uFFFDO DE 2023</font></a></strong></small></font></p>
+  <p>Regulamenta a Lei n\uFFFD 14.133, de 1\uFFFD de abril de 2021, para dispor sobre a exig\uFFFDncia, em contrata\uFFFD\uFFFDes p\uFFFDblicas.</p>
+  <p>Art. 9\uFFFD &nbsp;Este Decreto entra em vigor em 30 de mar\uFFFDo de 2023. </p>
+  <p>Bras\uFFFDlia, 8 de mar\uFFFDo de 2023; 202\uFFFD da Independ\uFFFDncia e 135\uFFFD da Rep\uFFFDblica.</p>
+  <p>Este texto n\uFFFDo substitui o publicado no DOU de 9.3.2023</p></body></html>`;
+
+export const PAGINA_PLANALTO_L15090 = `<html><head><title>L15090</title></head><body>
+  <p align="CENTER"><font face="Arial" color="#000080"><strong><small>
+      &nbsp;<a style="color: rgb(0,0,128)" href="http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/lei%2015.090-2025?OpenDocument">LEI\r
+\tN\uFFFD 15.090, DE 7 DE JANEIRO DE 2025</a></small></strong></font></p>
+  <p>Bras\uFFFDlia, 7 de janeiro de 2025; 204\uFFFD da Independ\uFFFDncia e 137\uFFFD da Rep\uFFFDblica.</p>
+  <p>Este texto n\uFFFDo substitui o publicado no DOU de 8.1.2025</p></body></html>`;

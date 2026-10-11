@@ -1,5 +1,7 @@
 import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
-import { parseDou, urlDouEdicao, urlTextoPlanalto, type SecaoDou } from '../collectors/dou';
+import {
+  parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
+} from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
 import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
 import { mandatoDoDia, mandatoVigente } from '../config';
@@ -127,11 +129,11 @@ async function adicionarTextoPlanalto(deps: Deps, ev: Evento, coletadoEm: string
   if (!url) return;
   try {
     const r = await deps.buscar(url, ACCEPT_HTML);
-    if (r.status === 200) {
+    if (r.status === 200 && textoPlanaltoEhDoAto(r.corpo, ev.titulo)) {
       ev.fontes.push({ nome: 'texto-planalto', rotulo: 'Planalto (texto do ato)', url, coletadoEm });
     }
   } catch {
-    // sem o texto no Planalto, fica só o link do DOU
+    // sem o texto confirmado no Planalto, fica só o link do DOU
   }
 }
 

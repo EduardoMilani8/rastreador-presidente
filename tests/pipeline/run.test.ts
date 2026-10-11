@@ -8,7 +8,8 @@ import { lerEstado, lerEventos, lerNoticias } from '../../src/pipeline/store';
 import { atualizar, retroagir, type Deps } from '../../src/pipeline/run';
 import type { Mandato } from '../../src/shared/schema';
 import {
-  DECRETO_DOU, PAGINA_404, htmlAgenda, htmlDou, rdfPlanalto, rssGoogle, rssVazio,
+  DECRETO_DOU, PAGINA_404, PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090, htmlAgenda, htmlDou, rdfPlanalto, rssGoogle,
+  rssVazio,
 } from '../helpers';
 
 const MANDATO: Mandato = {
@@ -27,6 +28,7 @@ const cfg = {
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
   comunicados: rdfPlanalto([]),
   textoPlanalto: 404,
+  corpoPlanalto: '', // HTML devolvido por planalto.gov.br/ccivil_03 quando textoPlanalto = 200
   dou: {} as Record<string, object[]>, // AAAA-MM-DD -> itens da edição ordinária (secao=do1). Ausente => edição vazia.
   extraDou: [] as object[], // itens da edição extra do DOU (secao=do1e) em HOJE
   falhaExtraDou: false,
@@ -67,7 +69,7 @@ async function buscar(url: string) {
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
   if (url === URL_AGENCIA_BRASIL) return { status: 200, corpo: rssVazio(), url };
-  if (url.includes('planalto.gov.br/ccivil_03')) return { status: cfg.textoPlanalto, corpo: '', url };
+  if (url.includes('planalto.gov.br/ccivil_03')) return { status: cfg.textoPlanalto, corpo: cfg.corpoPlanalto, url };
   throw new Error(`URL inesperada no teste: ${url}`);
 }
 
@@ -95,6 +97,7 @@ beforeEach(() => {
   cfg.redirecionaDou = null;
   cfg.comunicados = rdfPlanalto([]);
   cfg.textoPlanalto = 404;
+  cfg.corpoPlanalto = '';
   cfg.dou = { [HOJE]: [DECRETO_DOU] };
   cfg.extraDou = [];
   cfg.falhaExtraDou = false;
@@ -175,13 +178,49 @@ describe('atualizar', () => {
     expect(atos[0].data).toBe('2023-10-20');
   });
 
-  it('adiciona o texto do ato no Planalto só quando a URL responde 200', async () => {
+  it('adiciona o texto do ato no Planalto quando a URL responde 200 e a página traz a data do ato', async () => {
     cfg.textoPlanalto = 200;
+    cfg.corpoPlanalto = '<html><body><p>DECRETO N\uFFFD 12.392, DE 7 DE MAR\uFFFDO DE 2025</p></body></html>';
     const deps = await novoDeps();
     await atualizar(deps);
     const ato = (await lerEventos(deps.dataDir)).find((e) => e.tipo === 'ato')!;
     expect(ato.fontes.map((f) => f.nome)).toEqual(['dou', 'texto-planalto']);
     expect(ato.fontes[1].url).toContain('/decreto/D12392.htm');
+  });
+
+  it('URL do Planalto que responde 404 não vira fonte', async () => {
+    cfg.corpoPlanalto = '<p>DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025</p>';
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const ato = (await lerEventos(deps.dataDir)).find((e) => e.tipo === 'ato')!;
+    expect(ato.fontes.map((f) => f.nome)).toEqual(['dou']);
+  });
+
+  it('número errado no título do DOU: página 200 de OUTRO ato não vira "Texto do ato" (C2, casos reais)', async () => {
+    const ato = (title: string, urlTitle: string) => ({
+      title, urlTitle, artType: 'x', hierarchyStr: 'Atos do Poder Executivo', content: `${title} Dispõe sobre algo.`,
+    });
+    cfg.textoPlanalto = 200;
+    // DOU de 03/03/2023 chamou de "11.430" um decreto de 3 de março; D11430.htm é o decreto de 8 de março.
+    cfg.corpoPlanalto = PAGINA_PLANALTO_D11430;
+    cfg.dou = {
+      '2023-03-03': [ato('DECRETO Nº 11.430, DE 3 DE MARÇO DE 2023', 'decreto-n-11.430-de-3-de-marco-de-2023-467657997')],
+      '2023-03-09': [ato('DECRETO Nº 11.430, DE 8 DE MARÇO DE 2023', 'decreto-n-11.430-de-8-de-marco-de-2023-468754527')],
+    };
+    const deps = await novoDeps();
+    await retroagir(deps, '2023-03-03', '2023-03-09');
+    // DOU de 08/08/2025 chamou de "15.090" a Lei 15.190; L15090.htm é a lei de 7 de janeiro.
+    cfg.corpoPlanalto = PAGINA_PLANALTO_L15090;
+    cfg.dou = { '2025-08-08': [ato('LEI Nº 15.090, DE 8 DE AGOSTO DE 2025', 'lei-n-15.090-de-8-de-agosto-de-2025-647407023')] };
+    await retroagir(deps, '2025-08-08', '2025-08-08');
+
+    const fontes = Object.fromEntries((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')
+      .map((e) => [e.id, e.fontes.map((f) => f.url.split('/').pop())]));
+    expect(fontes).toEqual({
+      'dou:decreto-n-11.430-de-3-de-marco-de-2023-467657997': ['decreto-n-11.430-de-3-de-marco-de-2023-467657997'],
+      'dou:decreto-n-11.430-de-8-de-marco-de-2023-468754527': ['decreto-n-11.430-de-8-de-marco-de-2023-468754527', 'D11430.htm'],
+      'dou:lei-n-15.090-de-8-de-agosto-de-2025-647407023': ['lei-n-15.090-de-8-de-agosto-de-2025-647407023'],
+    });
   });
 
   it('comunicado do mesmo dia e local NÃO marca o compromisso como realizado (aviso de pauta não prova o fato)', async () => {

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { DouLayoutError, parseDou, urlDouEdicao, urlTextoPlanalto } from '../../src/collectors/dou';
+import { DouLayoutError, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto } from '../../src/collectors/dou';
+import { PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090 } from '../helpers';
 import { parseDataExtenso, somarDias } from '../../src/shared/text';
 
 const COLETA = '2026-10-08T12:00:00.000Z';
@@ -208,5 +209,34 @@ describe('urlTextoPlanalto', () => {
     expect(urlTextoPlanalto('LEI COMPLEMENTAR Nº 200, DE 1 DE JANEIRO DE 2023', '2023-01-01')).toBeNull();
     expect(urlTextoPlanalto('MEDIDA PROVISÓRIA Nº 1.333, DE 7 DE JANEIRO DE 2026', '2026-01-07')).toBeNull();
     expect(urlTextoPlanalto('DECRETO Nº 1, DE 1 DE JANEIRO', undefined)).toBeNull();
+  });
+});
+
+describe('textoPlanaltoEhDoAto (C2): a página só serve se trouxer a data do ato por extenso', () => {
+  it('Decreto 11.430: a página é do decreto de 8 de março; o "11.430, de 3 de março" do DOU (número errado) não casa', () => {
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_D11430, 'DECRETO Nº 11.430, DE 8 DE MARÇO DE 2023')).toBe(true);
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_D11430, 'DECRETO Nº 11.430, DE 3 DE MARÇO DE 2023')).toBe(false);
+  });
+  it('Lei 15.090: a página é a lei de 7 de janeiro; a "15.090, de 8 de agosto" do DOU (na verdade 15.190) não casa', () => {
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_L15090, 'LEI Nº 15.090, DE 7 DE JANEIRO DE 2025')).toBe(true);
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_L15090, 'LEI Nº 15.090, DE 8 DE AGOSTO DE 2025')).toBe(false);
+  });
+  it('tolera "1º", "1o", "1°", o ordinal perdido na decodificação, maiúsculas, acentos, tags e quebras de linha', () => {
+    const titulo = 'DECRETO Nº 11.329, DE 1º DE JANEIRO DE 2023';
+    for (const data of ['1º DE JANEIRO DE 2023', '1o de janeiro de 2023', '1° de Janeiro de 2023', '1\uFFFD de janeiro de 2023',
+      '1 de janeiro de 2023', '1º de\r\n\tjaneiro&nbsp;de <b>2023</b>']) {
+      expect(textoPlanaltoEhDoAto(`<html><body><p>DECRETO Nº 11.329, DE ${data}</p></body></html>`, titulo), data).toBe(true);
+    }
+    expect(textoPlanaltoEhDoAto('<p>Brasília, 9 de MARÇO de 2023</p>', 'DECRETO Nº 1, DE 9 DE MARCO DE 2023')).toBe(true);
+  });
+  it('não confunde dia 8 com 18 ou 28, nem aceita só o número do ato', () => {
+    const titulo = 'DECRETO Nº 11.430, DE 8 DE MARÇO DE 2023';
+    expect(textoPlanaltoEhDoAto('<p>DECRETO Nº 11.430, DE 18 DE MARÇO DE 2023</p>', titulo)).toBe(false);
+    expect(textoPlanaltoEhDoAto('<p>DECRETO Nº 11.430, DE 28 de março de 2023</p>', titulo)).toBe(false);
+    expect(textoPlanaltoEhDoAto('<p>DECRETO Nº 11.430</p><p>8 de março de 2024</p>', titulo)).toBe(false);
+    expect(textoPlanaltoEhDoAto('', titulo)).toBe(false);
+  });
+  it('título sem data por extenso nunca é confirmado', () => {
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_D11430, 'DECRETO Nº 11.539, DE 31 DE MAIO 2023')).toBe(false);
   });
 });

@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import type { Evento } from '../shared/schema';
-import { limparEspacos, parseDataExtenso, somarDias } from '../shared/text';
+import { limparEspacos, normalizar, parseDataExtenso, somarDias } from '../shared/text';
 
 export class DouLayoutError extends Error {}
 
@@ -101,4 +101,15 @@ export function urlTextoPlanalto(titulo: string, assinatura: string | undefined)
   const numero = m[2].replace(/\./g, '');
   const decreto = m[1].toUpperCase() === 'DECRETO';
   return `https://www.planalto.gov.br/ccivil_03/_ato${inicio}-${inicio + 3}/${ano}/${decreto ? 'decreto' : 'lei'}/${decreto ? 'D' : 'L'}${numero}.htm`;
+}
+
+// O número no título do DOU às vezes sai errado ("LEI Nº 15.090, DE 8 DE AGOSTO DE 2025" era a 15.190), e a URL montada
+// com ele abre OUTRO ato, com HTTP 200. Só a data por extenso confirma que a página é do ato do título.
+// As páginas do Planalto são Latin-1 sem charset declarado: lidas como UTF-8, "ç" e "º" chegam como U+FFFD.
+export function textoPlanaltoEhDoAto(html: string, titulo: string): boolean {
+  const m = normalizar(titulo).match(/(\d{1,2})[º°o]? de ([a-z]+) de (\d{4})/);
+  if (!m) return false;
+  const mes = m[2].replace(/c/g, '[c\uFFFD]');
+  const data = new RegExp(`(?<!\\d)0?${Number(m[1])}[º°o\uFFFD]? de ${mes} de ${m[3]}(?!\\d)`);
+  return data.test(normalizar(cheerio.load(html).text()));
 }
