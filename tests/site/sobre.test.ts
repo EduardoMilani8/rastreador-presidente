@@ -69,6 +69,37 @@ describe('site/sobre.html', () => {
     }
   });
 
+  it('conta os limites reais dos dados (I8)', () => {
+    const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
+    // mudanças e remoções só a partir do início da coleta; o histórico é uma fotografia daquele dia
+    expect(texto).toMatch(/só (são|é) detectad[ao]s? a partir de 11\/10\/2026/);
+    expect(texto).toMatch(/de 2023 (até|a) (essa data|10\/2026|11\/10\/2026).*como (ela )?estava publicada em 11\/10\/2026/);
+    // atos do vice no exercício da Presidência
+    expect(texto).toMatch(/vice-presidente no exercício da Presidência/);
+    // republicações, retificações e partes promulgadas pelo Congresso não são listadas
+    expect(texto).toMatch(/[Rr]epublicações, retificações e partes .* promulgadas pelo Congresso .* não (são listadas|entram)/);
+    // link do texto no Planalto só quando encontrado e conferido
+    expect(texto).toMatch(/“Texto do ato” .* só aparece quando .* encontrad[ao] e confere/);
+    // dia sem agenda pública
+    expect(texto).toMatch(/não está pública.* (não mostramos nada|nada é mostrado)/);
+    // títulos como o DOU imprimiu, com erros; alguns decretos podem faltar
+    expect(texto).toMatch(/como o Diário Oficial (os )?(imprimiu|publicou), inclusive com erros de digitação/);
+    expect(texto).toMatch(/[Aa]lguns (poucos )?decretos podem (faltar|não aparecer)/);
+    // visão padrão e cadência
+    expect(texto).toMatch(/página inicial mostra (só )?os dois meses mais recentes/);
+    expect(texto).toMatch(/a cada cerca de 10 minutos/);
+    expect(texto).not.toMatch(/a cada poucos minutos/);
+  });
+
+  it('os nomes dos status são os mesmos da interface', async () => {
+    const { ROTULO_STATUS, ROTULO_COMUNICADO } = await import('../../site/src/render');
+    const termos = [...document.querySelectorAll('main li > strong')].map((e) => e.textContent);
+    for (const rotulo of [...Object.values(ROTULO_STATUS).map((r) => r.texto), ROTULO_COMUNICADO.texto]) {
+      expect(termos, rotulo).toContain(rotulo);
+    }
+    expect(document.querySelector('main')!.textContent).not.toContain('Alterado / Removido');
+  });
+
   it('axe: sem violações de acessibilidade', async () => {
     const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
     expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
