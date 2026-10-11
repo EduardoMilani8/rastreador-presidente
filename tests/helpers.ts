@@ -12,11 +12,12 @@ export function htmlDou(itens: object[]): string {
   return `<html><body><script id="params" type="application/json">${JSON.stringify({ jsonArray: itens })}</script></body></html>`;
 }
 
+// Ato real da edição de 10/03/2025 (a data fixa "hoje" dos testes do pipeline).
 export const DECRETO_DOU = {
-  title: 'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026',
-  urlTitle: 'decreto-n-13.132-de-6-de-outubro-de-2026-736937325',
+  title: 'DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025',
+  urlTitle: 'decreto-n-12.392-de-7-de-marco-de-2025-616480099',
   artType: 'Decreto numerado', hierarchyStr: 'Atos do Poder Executivo',
-  content: 'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026 Autoriza algo. O PRESIDENTE DA REPÚBLICA, no uso',
+  content: 'DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025 Declara de interesse social, para fins de desapropriação, o imóvel rural que especifica. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
 export function rdfPlanalto(itens: { slug: string; titulo: string; data: string }[]): string {

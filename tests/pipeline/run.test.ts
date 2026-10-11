@@ -27,6 +27,7 @@ const cfg = {
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
   comunicados: rdfPlanalto([]),
   textoPlanalto: 404,
+  dou: {} as Record<string, object[]>, // AAAA-MM-DD -> itens da edição ordinária (secao=do1). Ausente => edição vazia.
   extraDou: [] as object[], // itens da edição extra do DOU (secao=do1e) em HOJE
   falhaExtraDou: false,
 };
@@ -37,9 +38,9 @@ const LOGIN = 'https://gov.test/acl_users/credentials_cookie_auth/require_login'
 const PAGINA_LOGIN = '<!DOCTYPE html><html lang="pt-br"><head><meta charset="utf-8"><title>Planalto</title></head><body><form id="login_form"></form></body></html>';
 
 const MP_EXTRA = {
-  title: 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023', urlTitle: 'medida-provisoria-n-1.157-de-1-de-janeiro-de-2023-1',
+  title: 'MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025', urlTitle: 'medida-provisoria-n-1.291-de-6-de-marco-de-2025-1',
   artType: 'Medida provisória', hierarchyStr: 'Atos do Poder Executivo',
-  content: 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
+  content: 'MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
 async function buscar(url: string) {
@@ -55,12 +56,13 @@ async function buscar(url: string) {
     return corpo ? { status: 200, corpo, url: final } : { status: 404, corpo: PAGINA_404, url: final };
   }
   if (url.includes('leiturajornal')) {
-    const comDecreto = url.includes('data=10-03-2025');
+    const [d, m, a] = new URL(url).searchParams.get('data')!.split('-');
+    const dia = `${a}-${m}-${d}`;
     if (url.includes('secao=do1e')) {
       if (cfg.falhaExtraDou) throw new Error('rede caiu na edição extra');
-      return { status: 200, corpo: htmlDou(comDecreto ? cfg.extraDou : []), url: cfg.redirecionaDou ?? url };
+      return { status: 200, corpo: htmlDou(dia === HOJE ? cfg.extraDou : []), url: cfg.redirecionaDou ?? url };
     }
-    return { status: 200, corpo: htmlDou(comDecreto ? [DECRETO_DOU] : []), url: cfg.redirecionaDou ?? url };
+    return { status: 200, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
   }
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
@@ -93,6 +95,7 @@ beforeEach(() => {
   cfg.redirecionaDou = null;
   cfg.comunicados = rdfPlanalto([]);
   cfg.textoPlanalto = 404;
+  cfg.dou = { [HOJE]: [DECRETO_DOU] };
   cfg.extraDou = [];
   cfg.falhaExtraDou = false;
 });
@@ -119,7 +122,7 @@ describe('atualizar', () => {
     await atualizar(deps);
     const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
     expect(atos.map((a) => a.titulo).sort()).toEqual([
-      'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026', 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023',
+      'DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025', 'MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025',
     ]);
   });
 
@@ -132,13 +135,53 @@ describe('atualizar', () => {
     expect(estado.fontes.dou.mensagem).toContain('edição extra');
   });
 
+  it('ato assinado antes do início do mandato não é ato deste Presidente: não é gravado (C1)', async () => {
+    // Publicado 4 dias depois da assinatura (não é republicação), mas assinado pelo governo anterior.
+    const LEI_GOVERNO_ANTERIOR = {
+      title: 'LEI Nº 14.514, DE 29 DE DEZEMBRO DE 2022', urlTitle: 'lei-n-14.514-de-29-de-dezembro-de-2022-1',
+      artType: 'Lei', hierarchyStr: 'Atos do Poder Legislativo',
+      content: 'LEI Nº 14.514, DE 29 DE DEZEMBRO DE 2022 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA Faço saber',
+    };
+    const DECRETO_DA_POSSE = {
+      title: 'DECRETO Nº 11.329, DE 1º DE JANEIRO DE 2023', urlTitle: 'decreto-n-11.329-de-1-de-janeiro-de-2023-1',
+      artType: 'Decreto numerado', hierarchyStr: 'Atos do Poder Executivo',
+      content: 'DECRETO Nº 11.329, DE 1º DE JANEIRO DE 2023 Aprova algo. O PRESIDENTE DA REPÚBLICA, no uso',
+    };
+    cfg.dou = { '2023-01-02': [LEI_GOVERNO_ANTERIOR, DECRETO_DA_POSSE] };
+    const deps = await novoDeps();
+    deps.agora = () => new Date('2023-01-02T15:00:00Z');
+    await atualizar(deps);
+    const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    expect(atos.map((a) => a.titulo)).toEqual(['DECRETO Nº 11.329, DE 1º DE JANEIRO DE 2023']);
+    expect((await lerEstado(deps.dataDir)).fontes.dou.ok).toBe(true);
+  });
+
+  it('republicação (Lei 14.701 em 28/12/2023 e "(*)" em 02/01/2024) não é regravada por uma nova coleta (C1)', async () => {
+    const lei = (title: string, urlTitle: string) => ({
+      title, urlTitle, artType: 'Lei', hierarchyStr: 'Atos do Poder Legislativo',
+      content: `${title} Regulamenta o art. 231 da Constituição Federal. O PRESIDENTE DA REPÚBLICA Faço saber`,
+    });
+    cfg.dou = {
+      '2023-10-20': [lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023', 'lei-n-14.701-de-20-de-outubro-de-2023-517807334')],
+      '2023-12-28': [lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023', 'lei-n-14.701-de-20-de-outubro-de-2023-533926998')],
+      '2024-01-02': [lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023 (*)', 'lei-n-14.701-de-20-de-outubro-de-2023-*-535292810')],
+    };
+    const deps = await novoDeps();
+    for (const dia of ['2023-10-20', '2023-12-28', '2024-01-02']) {
+      expect(await retroagir(deps, dia, dia)).toEqual([]);
+    }
+    const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    expect(atos.map((a) => a.id)).toEqual(['dou:lei-n-14.701-de-20-de-outubro-de-2023-517807334']);
+    expect(atos[0].data).toBe('2023-10-20');
+  });
+
   it('adiciona o texto do ato no Planalto só quando a URL responde 200', async () => {
     cfg.textoPlanalto = 200;
     const deps = await novoDeps();
     await atualizar(deps);
     const ato = (await lerEventos(deps.dataDir)).find((e) => e.tipo === 'ato')!;
     expect(ato.fontes.map((f) => f.nome)).toEqual(['dou', 'texto-planalto']);
-    expect(ato.fontes[1].url).toContain('/decreto/D13132.htm');
+    expect(ato.fontes[1].url).toContain('/decreto/D12392.htm');
   });
 
   it('comunicado do mesmo dia e local NÃO marca o compromisso como realizado (aviso de pauta não prova o fato)', async () => {

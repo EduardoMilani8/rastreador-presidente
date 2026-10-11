@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import type { Evento } from '../shared/schema';
-import { limparEspacos, parseDataExtenso } from '../shared/text';
+import { limparEspacos, parseDataExtenso, somarDias } from '../shared/text';
 
 export class DouLayoutError extends Error {}
 
@@ -40,6 +40,17 @@ function extrairEmenta(titulo: string, content: string): string | undefined {
   return ementa || undefined;
 }
 
+// O DOU republica atos com o título e a data de assinatura originais: partes vetadas promulgadas pelo Congresso
+// meses depois (Lei 14.701 em 28/12/2023), retificações "(*)" e anexos soltos. Não são atos novos do Presidente.
+// Medido na carga 2023–2026: ato comum sai de 0 a 5 dias depois da assinatura (3.058 casos); republicação, de 19 em diante.
+export const PRAZO_MAXIMO_PUBLICACAO_DIAS = 10;
+const TITULO_DE_REPUBLICACAO = /(?:ANEXO|\(\*\))$/i;
+
+export function ehRepublicacao(titulo: string, assinatura: string | undefined, publicacao: string): boolean {
+  if (TITULO_DE_REPUBLICACAO.test(titulo.trim())) return true;
+  return assinatura !== undefined && assinatura < somarDias(publicacao, -PRAZO_MAXIMO_PUBLICACAO_DIAS);
+}
+
 export function parseDou(html: string, data: string, coletadoEm: string): Evento[] {
   const $ = cheerio.load(html);
   let json: { jsonArray?: unknown };
@@ -61,6 +72,8 @@ export function parseDou(html: string, data: string, coletadoEm: string): Evento
     if (!titulo || !urlTitle) continue;
     if (!(bruto.hierarchyStr ?? '').startsWith('Atos do Poder')) continue;
     if (!ATO.test(titulo) || DECRETO_LEGISLATIVO.test(titulo) || !NUMERADO.test(titulo)) continue;
+    const assinatura = parseDataExtenso(titulo) ?? undefined;
+    if (ehRepublicacao(titulo, assinatura, data)) continue;
     eventos.push({
       id: `dou:${urlTitle}`,
       tipo: 'ato',
@@ -68,7 +81,7 @@ export function parseDou(html: string, data: string, coletadoEm: string): Evento
       titulo,
       status: 'publicado',
       ementa: extrairEmenta(titulo, bruto.content ?? ''),
-      datasAto: { assinatura: parseDataExtenso(titulo) ?? undefined, publicacao: data },
+      datasAto: { assinatura, publicacao: data },
       fontes: [{
         nome: 'dou', rotulo: 'Diário Oficial da União',
         url: `https://www.in.gov.br/web/dou/-/${urlTitle}`, coletadoEm,

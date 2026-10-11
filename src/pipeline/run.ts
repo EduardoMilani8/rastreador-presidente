@@ -2,7 +2,7 @@ import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
 import { parseDou, urlDouEdicao, urlTextoPlanalto, type SecaoDou } from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
 import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
-import { mandatoVigente } from '../config';
+import { mandatoDoDia, mandatoVigente } from '../config';
 import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
 import { dataSaoPaulo, somarDias } from '../shared/text';
@@ -111,7 +111,9 @@ async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promi
         exigirEdicaoDou(r.url, pedida, d);
         if (r.status === 404) continue; // sem edição nesse dia
         if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
-        c.eventos.push(...parseDou(r.corpo, d, coletadoEm));
+        // Lei sancionada pelo governo anterior e publicada já neste mandato não é ato de nenhum Presidente acompanhado.
+        c.eventos.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
+          !e.datasAto?.assinatura || mandatoDoDia(deps.mandatos, e.datasAto.assinatura) !== undefined));
       } catch (e) {
         c.erros.push(`${d} (${rotulo}): ${String(e)}`);
       }

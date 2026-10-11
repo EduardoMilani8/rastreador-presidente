@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { DouLayoutError, parseDou, urlDouEdicao, urlTextoPlanalto } from '../../src/collectors/dou';
+import { parseDataExtenso, somarDias } from '../../src/shared/text';
 
 const COLETA = '2026-10-08T12:00:00.000Z';
 const item = (o: Record<string, string>) => ({
@@ -108,11 +109,12 @@ describe('parseDou', () => {
         'Altera a Lei nº 15.201, de 9 de setembro de 2025, para reduzir o prazo de análise dos processos. Faço saber que o Presidente da República adotou a Medida Provisória nº 1.369, de 2026, que o Congresso Nacional aprovou',
         'Altera a Lei nº 15.201, de 9 de setembro de 2025, para reduzir o prazo de análise dos processos.'],
     ];
-    const itens = casos.map(([title, resto], i) => item({
-      title, urlTitle: `caso-${i}-700000${i}`, content: `${title} ${resto}`,
-    }));
-    const r = parseDou(html(itens), '2026-10-07', COLETA);
-    expect(r.map((e) => e.ementa)).toEqual(casos.map((c) => c[2]));
+    // cada ato é lido na edição do dia seguinte à assinatura (publicação muito posterior seria republicação)
+    const r = casos.map(([title, resto], i) => parseDou(
+      html([item({ title, urlTitle: `caso-${i}-700000${i}`, content: `${title} ${resto}` })]),
+      somarDias(parseDataExtenso(title)!, 1), COLETA,
+    )[0]);
+    expect(r.map((e) => e?.ementa)).toEqual(casos.map((c) => c[2]));
   });
 
   it('normaliza espaços do content antes de remover o título', () => {
@@ -141,6 +143,51 @@ describe('parseDou', () => {
 
   it('lança DouLayoutError quando há itens mas nenhum com title e hierarchyStr', () => {
     expect(() => parseDou(html([{ foo: 1 }]), '2026-10-07', COLETA)).toThrow(DouLayoutError);
+  });
+});
+
+describe('parseDou: republicações não são atos novos (C1)', () => {
+  const lei = (title: string, urlTitle: string) => item({
+    title, urlTitle, artType: 'Lei', hierarchyStr: 'Atos do Poder Legislativo',
+    content: `${title} Regulamenta o art. 231 da Constituição Federal. O PRESIDENTE DA REPÚBLICA Faço saber`,
+  });
+  const LEI_14701 = lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023', 'lei-n-14.701-de-20-de-outubro-de-2023-517807334');
+  const LEI_14701_PARTES_VETADAS = lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023', 'lei-n-14.701-de-20-de-outubro-de-2023-533926998');
+  const LEI_14701_ASTERISCO = lei('LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023 (*)', 'lei-n-14.701-de-20-de-outubro-de-2023-*-535292810');
+
+  it('Lei 14.701 (marco temporal): fica a 1ª publicação, de 20/10/2023', () => {
+    const r = parseDou(html([LEI_14701]), '2023-10-20', COLETA);
+    expect(r.map((e) => e.id)).toEqual(['dou:lei-n-14.701-de-20-de-outubro-de-2023-517807334']);
+  });
+  it('Lei 14.701: a promulgação das partes vetadas (28/12/2023, 69 dias depois da assinatura) não entra', () => {
+    expect(parseDou(html([LEI_14701_PARTES_VETADAS]), '2023-12-28', COLETA)).toEqual([]);
+  });
+  it('Lei 14.701: a republicação "(*)" de 02/01/2024 não entra', () => {
+    expect(parseDou(html([LEI_14701_ASTERISCO]), '2024-01-02', COLETA)).toEqual([]);
+  });
+  it('Lei 14.382, assinada em 27/06/2022 e republicada em 05/01/2023, não entra', () => {
+    const l = lei('LEI Nº 14.382, DE 27 DE JUNHO DE 2022', 'lei-n-14.382-de-27-de-junho-de-2022-456336095');
+    expect(parseDou(html([l]), '2023-01-05', COLETA)).toEqual([]);
+  });
+  it('Decreto 12.432 republicado 19 dias depois não entra; a publicação de 3 dias depois entra', () => {
+    const d = (urlTitle: string) => item({ title: 'DECRETO Nº 12.432, DE 11 DE ABRIL DE 2025', urlTitle });
+    expect(parseDou(html([d('decreto-n-12.432-de-11-de-abril-de-2025-626968909')]), '2025-04-30', COLETA)).toEqual([]);
+    expect(parseDou(html([d('decreto-n-12.432-de-11-de-abril-de-2025-623745236')]), '2025-04-14', COLETA)).toHaveLength(1);
+  });
+  it('no limite: 10 dias entre assinatura e publicação ainda é o ato; 11 dias já é republicação', () => {
+    const d = item({ title: 'DECRETO Nº 13.132, DE 6 DE OUTUBRO DE 2026', urlTitle: 'decreto-n-13.132-700000020' });
+    expect(parseDou(html([d]), '2026-10-16', COLETA)).toHaveLength(1);
+    expect(parseDou(html([d]), '2026-10-17', COLETA)).toEqual([]);
+  });
+  it('título terminado em "(*)" ou "ANEXO" (formas reais) não entra, mesmo publicado no dia da assinatura', () => {
+    const titulos = [
+      'LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)',
+      'MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023 (*)',
+      'LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO',
+      'LEI Nº 14.802, DE 10 DE JANEIRO DE 2024-ANEXO',
+    ];
+    const itens = titulos.map((title, i) => item({ title, urlTitle: `rep-${i}-70000003${i}` }));
+    expect(parseDou(html(itens), '2024-01-11', COLETA)).toEqual([]);
   });
 });
 
