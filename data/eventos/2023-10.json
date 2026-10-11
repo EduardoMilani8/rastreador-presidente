@@ -620,62 +620,6 @@
     "historico": []
   },
   {
-    "id": "dou:lei-n-14.273-de-23-de-dezembro-de-2021-516441070",
-    "tipo": "ato",
-    "data": "2023-10-16",
-    "titulo": "LEI Nº 14.273, DE 23 DE DEZEMBRO DE 2021",
-    "status": "publicado",
-    "ementa": "Estabelece a Lei das Ferrovias; altera o Decreto-Lei nº 3.365, de 21 de junho de 1941, e as Leis nºs 6.015, de 31 de dezembro de 1973, 9.074, de 7 de julho de 1995, 9.636, de 15 de maio de 1998, 10.233, de 5 de junho de 2001, 10.257, de 10 de julho de 2001, 10.636, de 30 de dezembro de 2002, 12.815, de 5 de junho de 2013, 12.379, de 6 de janeiro de 2011, e ...",
-    "datasAto": {
-      "assinatura": "2021-12-23",
-      "publicacao": "2023-10-16"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.273-de-23-de-dezembro-de-2021-516441070",
-        "coletadoEm": "2026-10-11T20:52:42.392Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14273.htm",
-        "coletadoEm": "2026-10-11T20:52:42.392Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.599-de-19-de-junho-de-2023-516442613",
-    "tipo": "ato",
-    "data": "2023-10-16",
-    "titulo": "LEI Nº 14.599, DE 19 DE JUNHO DE 2023",
-    "status": "publicado",
-    "ementa": "Posterga a exigência do exame toxicológico periódico para obtenção e renovação da Carteira Nacional de Habilitação; e altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), a Lei nº 11.442, de 5 de janeiro de 2007, para dispor sobre seguro de cargas, e a Lei nº 11.539, de 8 de novembro de 2007, para dispor sobre a carreira de Analist...",
-    "datasAto": {
-      "assinatura": "2023-06-19",
-      "publicacao": "2023-10-16"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.599-de-19-de-junho-de-2023-516442613",
-        "coletadoEm": "2026-10-11T20:52:42.392Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14599.htm",
-        "coletadoEm": "2026-10-11T20:52:42.392Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:lei-n-14.696-de-11-de-outubro-de-2023-516426853",
     "tipo": "ato",
     "data": "2023-10-16",
@@ -3132,33 +3076,11 @@
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14714.htm",
         "coletadoEm": "2026-10-11T20:52:42.392Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.714-de-30-de-outubro-de-2023-520109503",
-    "tipo": "ato",
-    "data": "2023-10-31",
-    "titulo": "LEI Nº 14.714, DE 30 DE OUTUBRO DE 2023",
-    "status": "publicado",
-    "ementa": "Altera a Lei nº 7.661, de 16 de maio de 1988, para incluir como diretriz do Plano Nacional de Gerenciamento Costeiro (PNGC) o controle da erosão marítima e fluvial.",
-    "datasAto": {
-      "assinatura": "2023-10-30",
-      "publicacao": "2023-10-31"
-    },
-    "fontes": [
+      },
       {
         "nome": "dou",
         "rotulo": "Diário Oficial da União",
         "url": "https://www.in.gov.br/web/dou/-/lei-n-14.714-de-30-de-outubro-de-2023-520109503",
-        "coletadoEm": "2026-10-11T20:52:42.392Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14714.htm",
         "coletadoEm": "2026-10-11T20:52:42.392Z"
       }
     ],

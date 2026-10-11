@@ -906,62 +906,6 @@
     "historico": []
   },
   {
-    "id": "dou:lei-n-14.382-de-27-de-junho-de-2022-456336095",
-    "tipo": "ato",
-    "data": "2023-01-05",
-    "titulo": "LEI Nº 14.382, DE 27 DE JUNHO DE 2022",
-    "status": "publicado",
-    "ementa": "Dispõe sobre o Sistema Eletrônico dos Registros Públicos (Serp); altera as Leis nºs 4.591, de 16 de dezembro de 1964, 6.015, de 31 de dezembro de 1973 (Lei de Registros Públicos), 6.766, de 19 de dezembro de 1979, 8.935, de 18 de novembro de 1994, 10.406, de 10 de janeiro de 2002 (Código Civil), 11.977, de 7 de julho de 2009, 13.097, de 19 de janeiro de 2015, ...",
-    "datasAto": {
-      "assinatura": "2022-06-27",
-      "publicacao": "2023-01-05"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.382-de-27-de-junho-de-2022-456336095",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14382.htm",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.436-de-9-de-agosto-de-2022-456338176",
-    "tipo": "ato",
-    "data": "2023-01-05",
-    "titulo": "LEI Nº 14.436, DE 9 DE AGOSTO DE 2022",
-    "status": "publicado",
-    "ementa": "Dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária de 2023 e dá outras providências.",
-    "datasAto": {
-      "assinatura": "2022-08-09",
-      "publicacao": "2023-01-05"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.436-de-9-de-agosto-de-2022-456338176",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14436.htm",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:lei-n-14.517-de-4-de-janeiro-de-2023-456087352",
     "tipo": "ato",
     "data": "2023-01-05",
@@ -2117,7 +2061,7 @@
     "data": "2023-01-11",
     "titulo": "LEI Nº 14.534, DE 11 DE JANEIRO DE 2023",
     "status": "publicado",
-    "ementa": "Altera as Leis nºs 7.116, de 29 de agosto de 1983, 9.454, de 7 de abril de 1997, 13.444, de 11 de maio de 2017, e 13.460, de 26 de junho de 2017, para adotar número único para os documentos que especifica e para estabelecer o Cadastro de Pessoas Físicas (CPF) como número suficiente para identificação do cidadão nos bancos de dados de serviços públicos. O PRE...",
+    "ementa": "Altera as Leis nºs 7.116, de 29 de agosto de 1983, 9.454, de 7 de abril de 1997, 13.444, de 11 de maio de 2017, e 13.460, de 26 de junho de 2017, para adotar número único para os documentos que especifica e para estabelecer o Cadastro de Pessoas Físicas (CPF) como número suficiente para identificação do cidadão nos bancos de dados de serviços públicos.",
     "datasAto": {
       "assinatura": "2023-01-11",
       "publicacao": "2023-01-11"
@@ -2777,34 +2721,6 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-16",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010",
-    "tipo": "ato",
-    "data": "2023-01-17",
-    "titulo": "LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)",
-    "status": "publicado",
-    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2023.",
-    "datasAto": {
-      "assinatura": "2023-01-17",
-      "publicacao": "2023-01-17"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14535.htm",
         "coletadoEm": "2026-10-09T11:39:51.364Z"
       }
     ],

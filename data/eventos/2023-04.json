@@ -526,7 +526,7 @@
     "data": "2023-04-05",
     "titulo": "DECRETO Nº 11.466, DE 5 DE ABRIL DE 2023",
     "status": "publicado",
-    "ementa": "Regulamenta o art. 10-B da Lei nº 11.445, de 5 de janeiro de 2007, para estabelecer a metodologia para comprovação da capacidade econômico-financeira dos prestadores de serviços públicos de abastecimento de água potável ou de esgotamento sanitário, considerados os contratos em vigor, com vistas a viabilizar o cumprimento das metas de universalização. O PRES...",
+    "ementa": "Regulamenta o art. 10-B da Lei nº 11.445, de 5 de janeiro de 2007, para estabelecer a metodologia para comprovação da capacidade econômico-financeira dos prestadores de serviços públicos de abastecimento de água potável ou de esgotamento sanitário, considerados os contratos em vigor, com vistas a viabilizar o cumprimento das metas de universalização.",
     "datasAto": {
       "assinatura": "2023-04-05",
       "publicacao": "2023-04-05"
@@ -1282,34 +1282,6 @@
         "nome": "texto-planalto",
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11485.htm",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.544-de-4-de-abril-de-2023-*-475696183",
-    "tipo": "ato",
-    "data": "2023-04-06",
-    "titulo": "LEI Nº 14.544, DE 4 DE ABRIL DE 2023 (*)",
-    "status": "publicado",
-    "ementa": "Dispõe sobre a gestão e a operacionalização dos pedidos das indenizações previstas no art. 3º da Lei nº 6.194, de 19 de dezembro de 1974, com vistas a assegurar a sua continuidade; e altera a Lei nº 14.075, de 22 de outubro de 2020.",
-    "datasAto": {
-      "assinatura": "2023-04-04",
-      "publicacao": "2023-04-06"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.544-de-4-de-abril-de-2023-*-475696183",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14544.htm",
         "coletadoEm": "2026-10-09T11:39:51.364Z"
       }
     ],
@@ -3869,7 +3841,7 @@
     "data": "2023-04-26",
     "titulo": "DECRETO Nº 11.501, DE 25 DE ABRIL DE 2023",
     "status": "publicado",
-    "ementa": "Altera o Decreto nº 11.382, de 19 de janeiro de 2023, para dispor sobre o prazo de redefinição da distribuição das Gratificações Temporárias das Unidades dos Sistemas Estruturadores da Administração Pública Federal - GSISTE e das Gratificações Temporárias do Sistema de Administração dos Recursos de Informação e Informática - GSISP. O VICE-PRESIDENTE DA REP...",
+    "ementa": "Altera o Decreto nº 11.382, de 19 de janeiro de 2023, para dispor sobre o prazo de redefinição da distribuição das Gratificações Temporárias das Unidades dos Sistemas Estruturadores da Administração Pública Federal - GSISTE e das Gratificações Temporárias do Sistema de Administração dos Recursos de Informação e Informática - GSISP.",
     "datasAto": {
       "assinatura": "2023-04-25",
       "publicacao": "2023-04-26"

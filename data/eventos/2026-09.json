@@ -1487,34 +1487,6 @@
     "historico": []
   },
   {
-    "id": "dou:decreto-n-13.111-de-8-de-setembro-de-2026-*-730974418",
-    "tipo": "ato",
-    "data": "2026-09-10",
-    "titulo": "DECRETO Nº 13.111, DE 8 DE SETEMBRO DE 2026 (*)",
-    "status": "publicado",
-    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Tupana Igapó-Açu I, localizada no Município de Borba, Estado do Amazonas.",
-    "datasAto": {
-      "assinatura": "2026-09-08",
-      "publicacao": "2026-09-10"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.111-de-8-de-setembro-de-2026-*-730974418",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13111.htm",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:decreto-n-13.116-de-9-de-setembro-de-2026-731062908",
     "tipo": "ato",
     "data": "2026-09-10",
@@ -2925,34 +2897,6 @@
     "historico": []
   },
   {
-    "id": "dou:decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
-    "tipo": "ato",
-    "data": "2026-09-23",
-    "titulo": "DECRETO Nº 13.126, DE 23 DE SETEMBRO DE 2026 (*)",
-    "status": "publicado",
-    "ementa": "Promulga o Acordo de Livre Comércio entre o Mercosul e os Estados da EFTA, firmado pela República Federativa do Brasil, no Rio de Janeiro, em 16 de setembro de 2025.",
-    "datasAto": {
-      "assinatura": "2026-09-23",
-      "publicacao": "2026-09-23"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13126.htm",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:decreto-n-13.127-de-23-de-setembro-de-2026-733720000",
     "tipo": "ato",
     "data": "2026-09-23",
@@ -3014,7 +2958,7 @@
     "data": "2026-09-23",
     "titulo": "LEI Nº 15.513, DE 22 DE SETEMBRO DE 2026",
     "status": "publicado",
-    "ementa": "Altera a Lei nº 12.715, de 17 de setembro de 2012, para prorrogar a faculdade de dedução do imposto sobre a renda dos valores correspondentes a doações e patrocínios destinados ao Programa Nacional de Apoio à Atenção Oncológica (Pronon) e ao Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD). O V I C E - P R E S I D E N T E...",
+    "ementa": "Altera a Lei nº 12.715, de 17 de setembro de 2012, para prorrogar a faculdade de dedução do imposto sobre a renda dos valores correspondentes a doações e patrocínios destinados ao Programa Nacional de Apoio à Atenção Oncológica (Pronon) e ao Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD).",
     "datasAto": {
       "assinatura": "2026-09-22",
       "publicacao": "2026-09-23"
@@ -3098,7 +3042,7 @@
     "data": "2026-09-23",
     "titulo": "LEI Nº 15.516, DE 22 DE SETEMBRO DE 2026",
     "status": "publicado",
-    "ementa": "Institui o Protocolo Intersetorial de Atendimento e Resposta Integrada em Situações de Violência, destinado a orientar a atuação das autoridades competentes nos casos de estupro e de outras formas de violência física contra mulher, criança, adolescente e pessoas em situação de vulnerabilidade; e altera a Lei nº 12.845, de 1º de agosto de 2013. O V I C E - P...",
+    "ementa": "Institui o Protocolo Intersetorial de Atendimento e Resposta Integrada em Situações de Violência, destinado a orientar a atuação das autoridades competentes nos casos de estupro e de outras formas de violência física contra mulher, criança, adolescente e pessoas em situação de vulnerabilidade; e altera a Lei nº 12.845, de 1º de agosto de 2013.",
     "datasAto": {
       "assinatura": "2026-09-22",
       "publicacao": "2026-09-23"

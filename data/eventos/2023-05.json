@@ -517,40 +517,12 @@
     "historico": []
   },
   {
-    "id": "dou:lei-n-14.509-de-27-de-dezembro-de-2022-481175982",
-    "tipo": "ato",
-    "data": "2023-05-04",
-    "titulo": "LEI Nº 14.509, DE 27 DE DEZEMBRO DE 2022",
-    "status": "publicado",
-    "ementa": "Dispõe sobre o percentual máximo aplicado para a contratação de operações de crédito com desconto automático em folha de pagamento; altera a Lei nº 14.431, de 3 de agosto de 2022; revoga dispositivos da Lei nº 8.112, de 11 de dezembro de 1990; e dá outras providências.",
-    "datasAto": {
-      "assinatura": "2022-12-27",
-      "publicacao": "2023-05-04"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.509-de-27-de-dezembro-de-2022-481175982",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14509.htm",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:lei-n-14.564-de-4-de-maio-de-2023-481085365",
     "tipo": "ato",
     "data": "2023-05-04",
     "titulo": "LEI Nº 14.564, DE 4 DE MAIO DE 2023",
     "status": "publicado",
-    "ementa": "Altera a Lei nº 12.715, de 17 de setembro de 2012, para prorrogar a faculdade de dedução do imposto sobre a renda dos valores correspondentes a doações e patrocínios em prol de ações e serviços do Programa Nacional de Apoio à Atenção Oncológica (Pronon) e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD). O PRESIDENTE DA REP...",
+    "ementa": "Altera a Lei nº 12.715, de 17 de setembro de 2012, para prorrogar a faculdade de dedução do imposto sobre a renda dos valores correspondentes a doações e patrocínios em prol de ações e serviços do Programa Nacional de Apoio à Atenção Oncológica (Pronon) e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD).",
     "datasAto": {
       "assinatura": "2023-05-04",
       "publicacao": "2023-05-04"
@@ -3798,7 +3770,7 @@
     "data": "2023-05-25",
     "titulo": "LEI Nº 14.590, DE 24 DE MAIO DE 2023",
     "status": "publicado",
-    "ementa": "Altera a Lei nº 11.284, de 2 de março de 2006, que dispõe sobre a gestão de florestas públicas para a produção sustentável, a Lei nº 11.516, de 28 de agosto de 2007, que dispõe sobre a criação do Instituto Chico Mendes de Conservação da Biodiversidade, e a Lei nº 12.114, de 9 de dezembro de 2009, que cria o Fundo Nacional sobre Mudança do Clima. O PRESIDENTE DA...",
+    "ementa": "Altera a Lei nº 11.284, de 2 de março de 2006, que dispõe sobre a gestão de florestas públicas para a produção sustentável, a Lei nº 11.516, de 28 de agosto de 2007, que dispõe sobre a criação do Instituto Chico Mendes de Conservação da Biodiversidade, e a Lei nº 12.114, de 9 de dezembro de 2009, que cria o Fundo Nacional sobre Mudança do Clima.",
     "datasAto": {
       "assinatura": "2023-05-24",
       "publicacao": "2023-05-25"

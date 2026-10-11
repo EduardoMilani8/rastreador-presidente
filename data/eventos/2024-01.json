@@ -1,33 +1,5 @@
 [
   {
-    "id": "dou:lei-n-14.701-de-20-de-outubro-de-2023-*-535292810",
-    "tipo": "ato",
-    "data": "2024-01-02",
-    "titulo": "LEI Nº 14.701, DE 20 DE OUTUBRO DE 2023 (*)",
-    "status": "publicado",
-    "ementa": "Regulamenta o art. 231 da Constituição Federal, para dispor sobre o reconhecimento, a demarcação, o uso e a gestão de terras indígenas; e altera as Leis nºs 11.460, de 21 de março de 2007, 4.132, de 10 de setembro de 1962, e 6.001, de 19 de dezembro de 1973.",
-    "datasAto": {
-      "assinatura": "2023-10-20",
-      "publicacao": "2024-01-02"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.701-de-20-de-outubro-de-2023-*-535292810",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14701.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:lei-n-14.791-de-29-de-dezembro-de-2023-535322169",
     "tipo": "ato",
     "data": "2024-01-02",
@@ -1092,114 +1064,6 @@
     "historico": []
   },
   {
-    "id": "dou:lei-n-14.802-de-10-de-janeiro-de-2024-anexo-536994179",
-    "tipo": "ato",
-    "data": "2024-01-11",
-    "titulo": "LEI Nº 14.802, DE 10 DE JANEIRO DE 2024-ANEXO",
-    "status": "publicado",
-    "datasAto": {
-      "assinatura": "2024-01-10",
-      "publicacao": "2024-01-11"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.802-de-10-de-janeiro-de-2024-anexo-536994179",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14802.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.802-de-10-de-janeiro-de-2024-anexo-536997258",
-    "tipo": "ato",
-    "data": "2024-01-11",
-    "titulo": "LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO",
-    "status": "publicado",
-    "datasAto": {
-      "assinatura": "2024-01-10",
-      "publicacao": "2024-01-11"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.802-de-10-de-janeiro-de-2024-anexo-536997258",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14802.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.802-de-10-de-janeiro-de-2024-anexo-537012019",
-    "tipo": "ato",
-    "data": "2024-01-11",
-    "titulo": "LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO",
-    "status": "publicado",
-    "datasAto": {
-      "assinatura": "2024-01-10",
-      "publicacao": "2024-01-11"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.802-de-10-de-janeiro-de-2024-anexo-537012019",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14802.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.802-de-10-de-janeiro-de-2024-anexo-537017145",
-    "tipo": "ato",
-    "data": "2024-01-11",
-    "titulo": "LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO",
-    "status": "publicado",
-    "datasAto": {
-      "assinatura": "2024-01-10",
-      "publicacao": "2024-01-11"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.802-de-10-de-janeiro-de-2024-anexo-537017145",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14802.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "dou:lei-n-14.803-de-10-de-janeiro-de-2024-536978864",
     "tipo": "ato",
     "data": "2024-01-11",
@@ -1506,7 +1370,7 @@
     "data": "2024-01-15",
     "titulo": "LEI Nº 14.809, DE 12 DE JANEIRO DE 2024",
     "status": "publicado",
-    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para estabelecer que os valores recebidos a título de auxílio financeiro temporário ou de indenização por danos sofridos em decorrência de rompimento e colapso de barragens não serão considerados renda para fins de elegibilidade a programas socioassistenciais. O PRESIDENTE ...",
+    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para estabelecer que os valores recebidos a título de auxílio financeiro temporário ou de indenização por danos sofridos em decorrência de rompimento e colapso de barragens não serão considerados renda para fins de elegibilidade a programas socioassistenciais.",
     "datasAto": {
       "assinatura": "2024-01-12",
       "publicacao": "2024-01-15"
@@ -1908,118 +1772,6 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-01-16",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.812-de-15-de-janeiro-de-2024-*-538071221",
-    "tipo": "ato",
-    "data": "2024-01-17",
-    "titulo": "LEI Nº 14.812, DE 15 DE JANEIRO DE 2024 (*)",
-    "status": "publicado",
-    "ementa": "Altera o Decreto-Lei nº 236, de 28 de fevereiro de 1967.",
-    "datasAto": {
-      "assinatura": "2024-01-15",
-      "publicacao": "2024-01-17"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.812-de-15-de-janeiro-de-2024-*-538071221",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14812.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.813-de-15-de-janeiro-de-2024-*-538063358",
-    "tipo": "ato",
-    "data": "2024-01-17",
-    "titulo": "LEI Nº 14.813, DE 15 DE JANEIRO DE 2024 (*)",
-    "status": "publicado",
-    "ementa": "Altera a Lei nº 9.537, de 11 de dezembro de 1997, que dispõe sobre a segurança do tráfego aquaviário em águas sob jurisdição nacional, para conferir segurança jurídica e estabilidade regulatória aos serviços de praticagem; e altera a Lei nº 10.233, de 5 de junho de 2001, que cria a Agência Nacional de Transportes Aquaviários (Antaq). O PRESIDENTE DA REPÚ...",
-    "datasAto": {
-      "assinatura": "2024-01-15",
-      "publicacao": "2024-01-17"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.813-de-15-de-janeiro-de-2024-*-538063358",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14813.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.814-de-15-de-janeiro-de-2024-*-538054989",
-    "tipo": "ato",
-    "data": "2024-01-17",
-    "titulo": "LEI Nº 14.814, DE 15 DE JANEIRO DE 2024 (*)",
-    "status": "publicado",
-    "ementa": "Altera a Medida Provisória nº 2.228-1, de 6 de setembro de 2001, que estabelece princípios gerais da Política Nacional do Cinema, para prorrogar o prazo de obrigatoriedade de exibição comercial de obras cinematográficas brasileiras.",
-    "datasAto": {
-      "assinatura": "2024-01-15",
-      "publicacao": "2024-01-17"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.814-de-15-de-janeiro-de-2024-*-538054989",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14814.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.815-de-15-de-janeiro-de-2024-*-538055629",
-    "tipo": "ato",
-    "data": "2024-01-17",
-    "titulo": "LEI Nº 14.815, DE 15 DE JANEIRO DE 2024 (*)",
-    "status": "publicado",
-    "ementa": "Altera a Medida Provisória nº 2.228-1, de 6 de setembro de 2001, que estabelece princípios gerais da Política Nacional do Cinema, e a Lei nº 12.485, de 12 de setembro de 2011, que dispõe sobre a comunicação audiovisual de acesso condicionado, para prorrogar o prazo de obrigatoriedade de exibição comercial de obras cinematográficas brasileiras - a polític...",
-    "datasAto": {
-      "assinatura": "2024-01-15",
-      "publicacao": "2024-01-17"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.815-de-15-de-janeiro-de-2024-*-538055629",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14815.htm",
         "coletadoEm": "2026-10-11T19:55:15.539Z"
       }
     ],
@@ -2862,7 +2614,7 @@
     "data": "2024-01-23",
     "titulo": "DECRETO Nº 11.889, DE 22 DE JANEIRO DE 2024",
     "status": "publicado",
-    "ementa": "Dispõe sobre as cadeias produtivas e os setores articulados pelo Programa de Aceleração do Crescimento - Novo PAC que poderão ficar sujeitos às exigências de aquisição de produtos manufaturados nacionais e de serviços nacionais ou ao estabelecimento de margens de preferência para produtos manufaturados nacionais e serviços nacionais. O PRESIDENTE DA REPÚ...",
+    "ementa": "Dispõe sobre as cadeias produtivas e os setores articulados pelo Programa de Aceleração do Crescimento - Novo PAC que poderão ficar sujeitos às exigências de aquisição de produtos manufaturados nacionais e de serviços nacionais ou ao estabelecimento de margens de preferência para produtos manufaturados nacionais e serviços nacionais.",
     "datasAto": {
       "assinatura": "2024-01-22",
       "publicacao": "2024-01-23"
@@ -2906,34 +2658,6 @@
         "nome": "texto-planalto",
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11890.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:lei-n-14.822-de-22-de-janeiro-de-2024-*-539027391",
-    "tipo": "ato",
-    "data": "2024-01-23",
-    "titulo": "LEI Nº 14.822, DE 22 DE JANEIRO DE 2024 (*)",
-    "status": "publicado",
-    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2024.",
-    "datasAto": {
-      "assinatura": "2024-01-22",
-      "publicacao": "2024-01-23"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.822-de-22-de-janeiro-de-2024-*-539027391",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14822.htm",
         "coletadoEm": "2026-10-11T19:55:15.539Z"
       }
     ],

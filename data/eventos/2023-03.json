@@ -521,12 +521,6 @@
         "rotulo": "Diário Oficial da União",
         "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.430-de-3-de-marco-de-2023-467657997",
         "coletadoEm": "2026-10-09T11:39:51.364Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11430.htm",
-        "coletadoEm": "2026-10-09T11:39:51.364Z"
       }
     ],
     "confirmadoPor": [],
@@ -3597,7 +3591,7 @@
     "data": "2023-03-31",
     "titulo": "DECRETO Nº 11.461, DE 31 DE MARÇO DE 2023",
     "status": "publicado",
-    "ementa": "Regulamenta o art. 31 da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre os procedimentos operacionais da licitação na modalidade leilão, na forma eletrônica, para alienação de bens móveis inservíveis ou legalmente apreendidos, e institui o Sistema de Leilão Eletrônico no âmbito da administração pública federal direta, autárquica e fundacional. O ...",
+    "ementa": "Regulamenta o art. 31 da Lei nº 14.133, de 1º de abril de 2021, para dispor sobre os procedimentos operacionais da licitação na modalidade leilão, na forma eletrônica, para alienação de bens móveis inservíveis ou legalmente apreendidos, e institui o Sistema de Leilão Eletrônico no âmbito da administração pública federal direta, autárquica e fundacional.",
     "datasAto": {
       "assinatura": "2023-03-31",
       "publicacao": "2023-03-31"

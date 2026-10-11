@@ -2212,7 +2212,7 @@
     "data": "2026-07-15",
     "titulo": "MEDIDA PROVISÓRIA Nº 1.376, DE 15 DE JULHO DE 2026",
     "status": "publicado",
-    "ementa": "Autoriza a criação de linhas de crédito para composição de dívidas para liquidação ou amortização de operações de crédito rural e de Cédulas de Produto Rural e autoriza a participação da União em fundo garantidor destinado à cobertura de operações de crédito rural contratadas por produtores rurais afetados por eventos climáticos adversos. O PRESID...",
+    "ementa": "Autoriza a criação de linhas de crédito para composição de dívidas para liquidação ou amortização de operações de crédito rural e de Cédulas de Produto Rural e autoriza a participação da União em fundo garantidor destinado à cobertura de operações de crédito rural contratadas por produtores rurais afetados por eventos climáticos adversos.",
     "datasAto": {
       "assinatura": "2026-07-15",
       "publicacao": "2026-07-15"
@@ -2893,34 +2893,6 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-07-20",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:decreto-n-13.072-de-16-de-julho-de-2026-*-720481322",
-    "tipo": "ato",
-    "data": "2026-07-21",
-    "titulo": "DECRETO Nº 13.072, DE 16 DE JULHO DE 2026 (*)",
-    "status": "publicado",
-    "ementa": "Promulga o texto atualizado da Convenção Internacional sobre Padrões de Instrução, Certificação e Serviço de Quarto para Marítimos, incluídos o Anexo e a Parte A do respectivo Código, em conformidade com as Emendas de Manila, adotadas pela Organização Marítima Internacional em 25 de junho de 2010.",
-    "datasAto": {
-      "assinatura": "2026-07-16",
-      "publicacao": "2026-07-21"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.072-de-16-de-julho-de-2026-*-720481322",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13072.htm",
         "coletadoEm": "2026-10-11T18:12:42.837Z"
       }
     ],
@@ -4067,34 +4039,6 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-07-27",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:decreto-n-13.081-de-27-de-julho-de-2026-*-721612833",
-    "tipo": "ato",
-    "data": "2026-07-28",
-    "titulo": "DECRETO Nº 13.081, DE 27 DE JULHO DE 2026 (*)",
-    "status": "publicado",
-    "ementa": "Promulga o Acordo de Livre Comércio entre o Mercado Comum do Sul - Mercosul e a República de Singapura, firmado pela República Federativa do Brasil, no Rio de Janeiro, em 7 de dezembro de 2023.",
-    "datasAto": {
-      "assinatura": "2026-07-27",
-      "publicacao": "2026-07-28"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.081-de-27-de-julho-de-2026-*-721612833",
-        "coletadoEm": "2026-10-11T18:12:42.837Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13081.htm",
         "coletadoEm": "2026-10-11T18:12:42.837Z"
       }
     ],

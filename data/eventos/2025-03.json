@@ -2321,7 +2321,7 @@
     "data": "2025-03-20",
     "titulo": "DECRETO Nº 12.413, DE 19 DE MARÇO DE 2025",
     "status": "publicado",
-    "ementa": "Revoga o Decreto nº 11.292, de 20 de dezembro de 2022, e restabelece os efeitos do Decreto de 15 de fevereiro de 2006, que outorga concessão à Fundação Educativa e Cultural Vivaldo Nascimento Piotto, para executar serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Passos, Estado de Minas Gerais. O PRESIDENTE DA R...",
+    "ementa": "Revoga o Decreto nº 11.292, de 20 de dezembro de 2022, e restabelece os efeitos do Decreto de 15 de fevereiro de 2006, que outorga concessão à Fundação Educativa e Cultural Vivaldo Nascimento Piotto, para executar serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Passos, Estado de Minas Gerais.",
     "datasAto": {
       "assinatura": "2025-03-19",
       "publicacao": "2025-03-20"
@@ -2873,7 +2873,6 @@
     "status": "publicado",
     "ementa": "Cria a Presidência da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima - COP30 e aprova o seu Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança; altera o Decreto nº 11.329, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções d...",
     "datasAto": {
-      "assinatura": "2025-12-25",
       "publicacao": "2025-03-26"
     },
     "fontes": [
@@ -2881,12 +2880,6 @@
         "nome": "dou",
         "rotulo": "Diário Oficial da União",
         "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.420-de-25-de-dezembro-de-2025-619903503",
-        "coletadoEm": "2026-10-11T18:53:42.470Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12420.htm",
         "coletadoEm": "2026-10-11T18:53:42.470Z"
       }
     ],
