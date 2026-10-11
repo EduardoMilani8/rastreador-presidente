@@ -7,6 +7,7 @@ export interface OpcoesHttp {
   tentativas?: number;
   esperaMs?: number;
   pausaMs?: number;
+  timeoutMs?: number;
   contato?: string;
 }
 
@@ -20,7 +21,12 @@ export async function buscarTexto(url: string, accept: string = ACCEPT_HTML, o: 
   let ultimoErro: unknown;
   for (let i = 0; i < tentativas; i++) {
     try {
-      const r = await f(url, { headers: { 'User-Agent': ua, Accept: accept }, redirect: 'follow' });
+      // Sem limite, uma conexão que nunca responde segura o job até o timeout do workflow, sem registrar a falha da fonte.
+      // O sinal cobre também a leitura do corpo; o estouro cai no catch e é repetido como qualquer erro de rede.
+      const r = await f(url, {
+        headers: { 'User-Agent': ua, Accept: accept }, redirect: 'follow',
+        signal: AbortSignal.timeout(o.timeoutMs ?? 30_000),
+      });
       if (r.status >= 500) {
         await r.body?.cancel();
         throw new Error(`HTTP ${r.status}`);

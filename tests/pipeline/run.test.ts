@@ -17,12 +17,24 @@ const MANDATO: Mandato = {
   agendaBase: 'https://gov.test/agenda-do-presidente-da-republica',
 };
 const HOJE = '2025-03-10';
+const DIA_MS = 86_400_000;
+
+const diasDeAgendaPedidos = () => cfg.pedidos.filter((u) => u.includes('/agenda-do-presidente-da-republica/')).map((u) => u.slice(-10));
+const edicoesDouPedidas = () => cfg.pedidos.filter((u) => u.includes('leiturajornal'))
+  .map((u) => `${new URL(u).searchParams.get('data')} ${new URL(u).searchParams.get('secao')}`);
+const ato = (title: string, urlTitle: string) => ({
+  title, urlTitle, artType: 'Decreto numerado', hierarchyStr: 'Atos do Poder Executivo', content: `${title} Dispõe sobre algo.`,
+});
 
 const cfg = {
   agenda: {} as Record<string, string>, // data -> html (200). Ausente => 404.
   falhaAgenda: false,
   loginAgenda: [] as string[], // dias cuja página o Plone manda para a tela de login (existe, mas não é pública)
   loginOutroDia: false, // o login aponta (came_from) para a página de OUTRO dia
+  loginOutroHost: false, // a tela de login está em outro domínio
+  statusDou: 200,
+  falhaDou: false,
+  pedidos: [] as string[], // todas as URLs pedidas, na ordem
   mensagemFalha: 'rede caiu',
   redirecionaAgenda: null as string | null, // URL final devolvida para as páginas de agenda
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
@@ -46,12 +58,14 @@ const MP_EXTRA = {
 };
 
 async function buscar(url: string) {
+  cfg.pedidos.push(url);
   if (url.includes('/agenda-do-presidente-da-republica/')) {
     if (cfg.falhaAgenda) throw new Error(cfg.mensagemFalha);
     const dia = url.slice(-10);
     if (cfg.loginAgenda.includes(dia)) {
       const origem = cfg.loginOutroDia ? url.replace(dia, '2000-01-01') : url;
-      return { status: 200, corpo: PAGINA_LOGIN, url: `${LOGIN}?came_from=${encodeURIComponent(origem)}` };
+      const login = cfg.loginOutroHost ? LOGIN.replace('gov.test', 'outro.test') : LOGIN;
+      return { status: 200, corpo: PAGINA_LOGIN, url: `${login}?came_from=${encodeURIComponent(origem)}` };
     }
     const corpo = cfg.agenda[dia];
     const final = cfg.redirecionaAgenda ?? url;
@@ -64,7 +78,8 @@ async function buscar(url: string) {
       if (cfg.falhaExtraDou) throw new Error('rede caiu na edição extra');
       return { status: 200, corpo: htmlDou(dia === HOJE ? cfg.extraDou : []), url: cfg.redirecionaDou ?? url };
     }
-    return { status: 200, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
+    if (cfg.falhaDou) throw new Error('rede caiu no DOU');
+    return { status: cfg.statusDou, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
   }
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
@@ -92,6 +107,10 @@ beforeEach(() => {
   cfg.falhaAgenda = false;
   cfg.loginAgenda = [];
   cfg.loginOutroDia = false;
+  cfg.loginOutroHost = false;
+  cfg.statusDou = 200;
+  cfg.falhaDou = false;
+  cfg.pedidos = [];
   cfg.mensagemFalha = 'rede caiu';
   cfg.redirecionaAgenda = null;
   cfg.redirecionaDou = null;
@@ -298,6 +317,166 @@ describe('atualizar', () => {
     expect(estado.fontes.agenda.mensagem).toContain('pediram login');
   });
 
+  it('bloqueio real: dias úteis pedem login e fins de semana dão 404 — é falha, não "sem agenda" (I1)', async () => {
+    const deps = await novoDeps();
+    await atualizar(deps);
+    // janela de 07/03 a 17/03/2025; 08, 09, 15 e 16 são sábado e domingo
+    cfg.loginAgenda = ['2025-03-07', '2025-03-10', '2025-03-11', '2025-03-12', '2025-03-13', '2025-03-14', '2025-03-17'];
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('pediram login');
+    const agenda = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda');
+    expect(agenda).toHaveLength(2);
+    expect(agenda.every((e) => !e.removidoEm)).toBe(true);
+  });
+
+  it('dois dias pedindo login na mesma coleta já é falha (nunca houve dois em 11 dias) (I1)', async () => {
+    cfg.loginAgenda = ['2025-03-08', '2025-03-12'];
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('2025-03-08, 2025-03-12');
+    // os dias que responderam normalmente continuam sendo gravados
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(2);
+  });
+
+  it('tela de login em outro domínio não vale como "página não pública" (I1)', async () => {
+    cfg.loginAgenda = [HOJE];
+    cfg.loginOutroHost = true;
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('Redirecionamento inesperado');
+  });
+
+  it('página do dia servida por outro domínio não vira dado (I1)', async () => {
+    cfg.redirecionaAgenda = `https://outro.test/agenda-do-presidente-da-republica/${HOJE}`;
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('Redirecionamento inesperado');
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(0);
+  });
+
+  it('DOU com HTTP 404 é falha: dia sem edição responde 200 com lista vazia, nunca 404 (I2)', async () => {
+    cfg.statusDou = 404;
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.dou.ok).toBe(false);
+    expect(estado.fontes.dou.mensagem).toContain('HTTP 404');
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')).toHaveLength(0);
+  });
+
+  it('execução normal: agenda de -3 a +7 dias e DOU de ontem e hoje, nas duas edições (I3 não muda o caso comum)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+    cfg.pedidos = [];
+    t += 600_000;
+    const r = await atualizar(deps);
+    expect(r.arquivosEscritos).toBe(0);
+    expect(diasDeAgendaPedidos()).toEqual([
+      '2025-03-07', '2025-03-08', '2025-03-09', '2025-03-10', '2025-03-11', '2025-03-12',
+      '2025-03-13', '2025-03-14', '2025-03-15', '2025-03-16', '2025-03-17',
+    ]);
+    expect(edicoesDouPedidas()).toEqual(['09-03-2025 do1', '09-03-2025 do1e', '10-03-2025 do1', '10-03-2025 do1e']);
+  });
+
+  it('depois de 5 dias parado, recolhe o DOU e a agenda dos dias perdidos (I3)', async () => {
+    cfg.dou['2025-03-12'] = [ato('DECRETO Nº 12.400, DE 11 DE MARÇO DE 2025', 'decreto-n-12.400-de-11-de-marco-de-2025-1')];
+    cfg.agenda['2025-03-11'] = htmlAgenda([{ hora: '10h00', titulo: 'Compromisso do dia 11', local: 'Brasília - DF' }]);
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+
+    cfg.pedidos = [];
+    t += 5 * DIA_MS; // 15/03: a última gravação foi em 10/03
+    await atualizar(deps);
+    expect(edicoesDouPedidas().filter((e) => e.endsWith(' do1'))).toEqual([
+      '09-03-2025 do1', '10-03-2025 do1', '11-03-2025 do1', '12-03-2025 do1', '13-03-2025 do1', '14-03-2025 do1', '15-03-2025 do1',
+    ]);
+    expect(diasDeAgendaPedidos()[0]).toBe('2025-03-07');
+    expect(diasDeAgendaPedidos().at(-1)).toBe('2025-03-22');
+    const eventos = await lerEventos(deps.dataDir);
+    expect(eventos.some((e) => e.titulo === 'DECRETO Nº 12.400, DE 11 DE MARÇO DE 2025')).toBe(true);
+    expect(eventos.some((e) => e.titulo === 'Compromisso do dia 11')).toBe(true);
+  });
+
+  it('a recuperação volta no máximo 14 dias (I3)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+    cfg.pedidos = [];
+    t += 40 * DIA_MS; // 19/04
+    await atualizar(deps);
+    expect(edicoesDouPedidas()[0]).toBe('05-04-2025 do1');
+    expect(diasDeAgendaPedidos()[0]).toBe('2025-04-05');
+  });
+
+  it('DOU falhando há dias enquanto o resto funciona: ao voltar, recolhe desde a véspera da falha (I3)', async () => {
+    cfg.dou['2025-03-12'] = [ato('DECRETO Nº 12.400, DE 11 DE MARÇO DE 2025', 'decreto-n-12.400-de-11-de-marco-de-2025-1')];
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+
+    cfg.falhaDou = true;
+    for (const dia of ['11', '12', '13', '14']) {
+      t += DIA_MS;
+      // a agenda segue mudando: há gravação todo dia, então "última novidade" não denuncia o buraco do DOU
+      cfg.agenda[`2025-03-${dia}`] = htmlAgenda([{ hora: '10h00', titulo: `Compromisso do dia ${dia}`, local: 'Brasília - DF' }]);
+      await atualizar(deps);
+    }
+    expect((await lerEstado(deps.dataDir)).fontes.dou.ok).toBe(false);
+
+    cfg.falhaDou = false;
+    cfg.pedidos = [];
+    t += DIA_MS; // 15/03
+    await atualizar(deps);
+    expect(edicoesDouPedidas()[0]).toBe('10-03-2025 do1');
+    expect((await lerEstado(deps.dataDir)).fontes.dou.ok).toBe(true);
+    expect((await lerEventos(deps.dataDir)).some((e) => e.titulo === 'DECRETO Nº 12.400, DE 11 DE MARÇO DE 2025')).toBe(true);
+  });
+
+  it('troca de mandato: cada dia da janela usa a agenda do mandato que o cobre (I7)', async () => {
+    const A: Mandato = { ...MANDATO, fim: '2026-12-31', agendaBase: 'https://gov.test/a/agenda-do-presidente-da-republica' };
+    const B: Mandato = { presidente: 'Fulana de Tal', nomes: ['Fulana'], inicio: '2027-01-01', fim: null, agendaBase: 'https://gov.test/b/agenda-do-presidente-da-republica' };
+    const deps = await novoDeps();
+    deps.mandatos = [A, B];
+    deps.agora = () => new Date('2027-01-02T15:00:00Z');
+    await atualizar(deps);
+    const agenda = cfg.pedidos.filter((u) => u.includes('/agenda-do-presidente-da-republica/'));
+    expect(agenda.filter((u) => u.includes('/a/')).map((u) => u.slice(-10))).toEqual(['2026-12-30', '2026-12-31']);
+    expect(agenda.filter((u) => u.includes('/b/')).map((u) => u.slice(-10))[0]).toBe('2027-01-01');
+    expect(agenda).toHaveLength(11);
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
+  });
+
+  it('fim de mandato: dias da janela que nenhum mandato cobre são pulados, sem erro (I7)', async () => {
+    const deps = await novoDeps();
+    deps.mandatos = [{ ...MANDATO, fim: '2026-12-31' }];
+    deps.agora = () => new Date('2026-12-29T15:00:00Z');
+    await atualizar(deps);
+    expect(diasDeAgendaPedidos()).toEqual(['2026-12-26', '2026-12-27', '2026-12-28', '2026-12-29', '2026-12-30', '2026-12-31']);
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
+  });
+
+  it('sem mandato para hoje a atualização falha com instrução clara, em vez de coletar com a base errada (I7)', async () => {
+    const deps = await novoDeps();
+    deps.mandatos = [{ ...MANDATO, fim: '2026-12-31' }];
+    deps.agora = () => new Date('2027-01-01T15:00:00Z');
+    await expect(atualizar(deps)).rejects.toThrow(/config\/mandatos\.json/);
+    expect(cfg.pedidos).toEqual([]);
+  });
+
   it('dia com 200 em que um compromisso sumiu o marca como removido', async () => {
     const deps = await novoDeps();
     await atualizar(deps);
@@ -417,6 +596,17 @@ describe('retroagir', () => {
     const falhas = await retroagir(deps, '2025-03-09', '2025-03-10');
     expect(falhas).toEqual([]);
     expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(2);
+  });
+  it('dois dias seguidos pedindo login na carga histórica são reportados como falha (I1)', async () => {
+    cfg.loginAgenda = ['2025-03-07', '2025-03-08'];
+    const deps = await novoDeps();
+    const falhas = await retroagir(deps, '2025-03-06', '2025-03-10');
+    expect(falhas).toEqual(['2025-03-07', '2025-03-08']);
+  });
+  it('dias de login separados por um dia normal não são falha na carga histórica (I1)', async () => {
+    cfg.loginAgenda = ['2025-03-07', '2025-03-09'];
+    const deps = await novoDeps();
+    expect(await retroagir(deps, '2025-03-06', '2025-03-10')).toEqual([]);
   });
   it('falha de um dia é reportada e não interrompe os demais', async () => {
     cfg.falhaAgenda = true;

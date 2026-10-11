@@ -11,6 +11,11 @@ export function mandatoDoDia(mandatos: Mandato[], dia: string): Mandato | undefi
 
 export function mandatoVigente(mandatos: Mandato[], hoje: string): Mandato {
   const m = mandatoDoDia(mandatos, hoje);
-  if (!m) throw new Error(`Nenhum mandato configurado cobre ${hoje}`);
+  if (!m) {
+    throw new Error(
+      `Nenhum mandato configurado cobre ${hoje}. Atualize config/mandatos.json: confira o "fim" do mandato anterior e `
+      + 'acrescente o novo mandato (presidente, nomes, inicio, fim e agendaBase, o endereço da agenda do novo presidente).',
+    );
+  }
   return m;
 }

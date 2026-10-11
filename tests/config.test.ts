@@ -16,6 +16,14 @@ describe('mandatoVigente', () => {
   });
 });
 
+describe('config/mandatos.json real (I7)', () => {
+  it('o mandato atual termina em 31/12/2026: em 01/01/2027 a coleta para com instrução clara, em vez de seguir com a agenda errada', async () => {
+    const lista = await carregarMandatos();
+    expect(mandatoVigente(lista, '2026-12-31').presidente).toBe('Luiz Inácio Lula da Silva');
+    expect(() => mandatoVigente(lista, '2027-01-01')).toThrow(/2027-01-01.*config\/mandatos\.json/s);
+  });
+});
+
 describe('carregarMandatos', () => {
   it('lê e valida config/mandatos.json', async () => {
     const lista = await carregarMandatos();

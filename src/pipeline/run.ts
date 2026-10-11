@@ -30,17 +30,20 @@ interface Coleta {
   eventos: Evento[];
   diasCompletos: Set<string>;
   erros: string[];
+  /** Dias cuja página existe mas só abre com login (sem agenda pública). */
+  diasComLogin: string[];
 }
 
 function caminhoSemBarraFinal(url: string): string {
   return new URL(url).pathname.replace(/\/+$/, '');
 }
 
-// buscarTexto segue redirecionamentos: se a página do dia foi trocada por outra, não pode virar dado desse dia.
-function exigirAgendaDoDia(finalUrl: string, dia: string): void {
+// buscarTexto segue redirecionamentos: se a página do dia foi trocada por outra (ou por outro site), não pode virar
+// dado desse dia.
+function exigirAgendaDoDia(finalUrl: string, pedida: string, dia: string): void {
   let ok = false;
   try {
-    ok = caminhoSemBarraFinal(finalUrl).endsWith(`/${dia}`);
+    ok = new URL(finalUrl).hostname === new URL(pedida).hostname && caminhoSemBarraFinal(finalUrl).endsWith(`/${dia}`);
   } catch {
     ok = false;
   }
@@ -49,10 +52,12 @@ function exigirAgendaDoDia(finalUrl: string, dia: string): void {
 
 // Plone: página que existe mas não está pública responde 200 na tela de login, com came_from = página pedida
 // (verificado em 2024-10-20, 2024-12-10, 2025-08-03 e 2026-07-25; o dia sem agenda normal responde 404).
-// Só vale se o came_from for exatamente a página do dia pedida; qualquer outro destino segue sendo falha.
+// Só vale se a tela for do mesmo site e o came_from for exatamente a página do dia pedida; qualquer outro destino
+// segue sendo falha.
 function ehLoginDaPaginaPedida(finalUrl: string, pedida: string): boolean {
   try {
     const f = new URL(finalUrl);
+    if (f.hostname !== new URL(pedida).hostname) return false;
     if (!f.pathname.endsWith('/acl_users/credentials_cookie_auth/require_login')) return false;
     const origem = f.searchParams.get('came_from');
     return origem !== null && caminhoSemBarraFinal(origem) === caminhoSemBarraFinal(pedida);
@@ -73,21 +78,48 @@ function exigirEdicaoDou(finalUrl: string, pedida: string, dia: string): void {
   if (!ok) throw new Error(`Redirecionamento inesperado: a edição de ${dia} respondeu como ${finalUrl}`);
 }
 
-const janela = (hoje: string, de: number, ate: number) =>
-  Array.from({ length: ate - de + 1 }, (_, i) => somarDias(hoje, de + i));
+const intervalo = (de: string, ate: string): string[] => {
+  const dias: string[] = [];
+  for (let d = de; d <= ate; d = somarDias(d, 1)) dias.push(d);
+  return dias;
+};
 
-async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], coletadoEm: string): Promise<Coleta> {
-  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
-  let semAgendaPublica = 0;
+const RECUO_MAXIMO_DIAS = 14;
+
+// Normalmente a janela começa `recuo` dias antes de hoje. Se a última gravação é antiga (o agendador parou) ou a fonte
+// vinha falhando, começa `recuo` dias antes disso, para recolher o que saiu no intervalo — senão esses dias nunca
+// mais seriam lidos. O teto evita uma rajada de requisições depois de uma parada longa (aí é caso de `backfill`).
+function inicioDaJanela(hoje: string, recuo: number, anterior: EstadoFontes, fonte: string): string {
+  let referencia = hoje;
+  const considerar = (instante: string | undefined) => {
+    if (!instante) return;
+    const dia = dataSaoPaulo(new Date(instante));
+    if (dia < referencia) referencia = dia;
+  };
+  considerar(anterior.ultimaNovidadeEm);
+  if (anterior.fontes[fonte]?.ok === false) considerar(anterior.fontes[fonte].desde);
+  const inicio = somarDias(referencia, -recuo);
+  const teto = somarDias(hoje, -RECUO_MAXIMO_DIAS);
+  return inicio < teto ? teto : inicio;
+}
+
+// Em 46 meses de agenda houve 5 dias de página não pública, nunca dois a menos de 11 dias um do outro. Dois na mesma
+// coleta é o site bloqueando o acesso: num bloqueio real os dias úteis pedem login e os fins de semana dão 404.
+const LOGINS_QUE_INDICAM_BLOQUEIO = 2;
+
+async function coletarAgenda(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
+  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
   for (const d of dias) {
+    const mandato = mandatoDoDia(deps.mandatos, d);
+    if (!mandato) continue; // dia que nenhum mandato configurado cobre: não há agenda certa para pedir
     const url = urlAgendaDia(mandato.agendaBase, d);
     try {
       const r = await deps.buscar(url, ACCEPT_HTML);
       if (ehLoginDaPaginaPedida(r.url, url)) {
-        semAgendaPublica++; // dia sem agenda pública: nada a gravar e, como não é "dia publicado", nada é removido
+        c.diasComLogin.push(d); // dia sem agenda pública: nada a gravar e, como não é "dia publicado", nada é removido
         continue;
       }
-      exigirAgendaDoDia(r.url, d);
+      exigirAgendaDoDia(r.url, url, d);
       const p = parseAgenda(r.corpo, r.status, d, coletadoEm, url);
       c.eventos.push(...p.eventos);
       if (p.diaPublicado) c.diasCompletos.add(d);
@@ -95,15 +127,16 @@ async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], colet
       c.erros.push(`${d}: ${e instanceof LayoutError ? e.message : String(e)}`);
     }
   }
-  // Um dia solto pedindo login é normal; todos os dias de uma coleta de 3+ dias pedindo login é o site que mudou.
-  if (dias.length >= 3 && semAgendaPublica === dias.length) {
-    c.erros.push('todas as páginas de agenda pediram login: o site mudou ou bloqueou o acesso');
+  if (c.diasComLogin.length >= LOGINS_QUE_INDICAM_BLOQUEIO) {
+    c.erros.push(
+      `${c.diasComLogin.length} páginas de agenda pediram login (${c.diasComLogin.join(', ')}): o site mudou ou bloqueou o acesso`,
+    );
   }
   return c;
 }
 
 async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
-  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
+  const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
   const edicoes: [SecaoDou, string][] = [['do1', 'edição'], ['do1e', 'edição extra']];
   for (const d of dias) {
     for (const [secao, rotulo] of edicoes) {
@@ -111,7 +144,7 @@ async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promi
         const pedida = urlDouEdicao(d, secao);
         const r = await deps.buscar(pedida, ACCEPT_HTML);
         exigirEdicaoDou(r.url, pedida, d);
-        if (r.status === 404) continue; // sem edição nesse dia
+        // Dia sem edição responde 200 com lista vazia (verificado): 404 nunca é "sem edição", é o endereço que mudou.
         if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
         // Lei sancionada pelo governo anterior e publicada já neste mandato não é ato de nenhum Presidente acompanhado.
         c.eventos.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
@@ -156,10 +189,12 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
       : { ok, desde: agoraIso, ...(ok ? {} : { mensagem: erro?.slice(0, 300) }) };
   };
 
-  const agenda = await coletarAgenda(deps, mandato, janela(hoje, -3, 7), agoraIso);
+  const agenda = await coletarAgenda(
+    deps, intervalo(inicioDaJanela(hoje, 3, anterior, 'agenda'), somarDias(hoje, 7)), agoraIso,
+  );
   marcar('agenda', agenda.erros.length ? agenda.erros.join('; ') : undefined);
 
-  const dou = await coletarDou(deps, [somarDias(hoje, -1), hoje], agoraIso);
+  const dou = await coletarDou(deps, intervalo(inicioDaJanela(hoje, 1, anterior, 'dou'), hoje), agoraIso);
   marcar('dou', dou.erros.length ? dou.erros.join('; ') : undefined);
 
   let comunicados: Comunicado[] = [];
@@ -213,23 +248,22 @@ export async function retroagir(
 ): Promise<string[]> {
   const agoraIso = deps.agora().toISOString();
   let eventos = await lerEventos(deps.dataDir);
-  const falhas: string[] = [];
+  const falhas = new Set<string>();
   const gravar = async (dia: string) => {
     await gravarEventos(deps.dataDir, aplicarStatus(eventos, dataSaoPaulo(deps.agora())));
     aoProgredir?.(dia);
   };
 
   let contador = 0;
+  let loginsSeguidos: string[] = [];
   for (let d = de; d <= ate; d = somarDias(d, 1)) {
-    let mandato: Mandato;
-    try {
-      mandato = mandatoVigente(deps.mandatos, d);
-    } catch {
-      continue; // dia fora de qualquer mandato configurado
-    }
-    const agenda = await coletarAgenda(deps, mandato, [d], agoraIso);
+    if (!mandatoDoDia(deps.mandatos, d)) continue; // dia fora de qualquer mandato configurado
+    const agenda = await coletarAgenda(deps, [d], agoraIso);
     const dou = await coletarDou(deps, [d], agoraIso);
-    if (agenda.erros.length || dou.erros.length) falhas.push(d);
+    if (agenda.erros.length || dou.erros.length) falhas.add(d);
+    // Aqui cada coleta tem um dia só; o bloqueio por login aparece como dias seguidos (ver LOGINS_QUE_INDICAM_BLOQUEIO).
+    loginsSeguidos = agenda.diasComLogin.length ? [...loginsSeguidos, d] : [];
+    if (loginsSeguidos.length >= LOGINS_QUE_INDICAM_BLOQUEIO) for (const x of loginsSeguidos) falhas.add(x);
 
     const idsExistentes = new Set(eventos.map((e) => e.id));
     for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id))) {
@@ -239,5 +273,5 @@ export async function retroagir(
     if (++contador % 15 === 0) await gravar(d);
   }
   await gravar(ate);
-  return falhas;
+  return [...falhas].sort();
 }

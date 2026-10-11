@@ -24,6 +24,35 @@ describe('buscarTexto', () => {
       .rejects.toThrow(/Falha ao buscar/);
     expect(fetchImpl).toHaveBeenCalledTimes(3);
   });
+  const pendurada = (_url: string, init: RequestInit) => new Promise<Response>((_, rejeitar) => {
+    init.signal!.addEventListener('abort', () => rejeitar(init.signal!.reason));
+  });
+  it('requisição que não responde é abortada pelo tempo limite e repetida como erro de rede (I4)', async () => {
+    const fetchImpl = vi.fn().mockImplementationOnce(pendurada).mockResolvedValueOnce(resp(200, 'ok'));
+    const r = await buscarTexto('https://x.test/a', ACCEPT_HTML, { fetchImpl, esperaMs: 0, timeoutMs: 20 });
+    expect(r.corpo).toBe('ok');
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+    const sinal = (fetchImpl.mock.calls[0][1] as RequestInit).signal;
+    expect(sinal).toBeInstanceOf(AbortSignal);
+    expect(sinal!.aborted).toBe(true);
+  });
+  it('se todas as tentativas estouram o tempo limite, lança erro (não fica pendurado)', async () => {
+    const fetchImpl = vi.fn().mockImplementation(pendurada);
+    await expect(buscarTexto('https://x.test/a', ACCEPT_HTML, { fetchImpl, esperaMs: 0, tentativas: 2, timeoutMs: 20 }))
+      .rejects.toThrow(/Falha ao buscar.*(Timeout|timeout)/);
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+  });
+  it('o tempo limite padrão é de 30 segundos', async () => {
+    const original = AbortSignal.timeout;
+    const visto: number[] = [];
+    AbortSignal.timeout = (ms: number) => { visto.push(ms); return original.call(AbortSignal, ms); };
+    try {
+      await buscarTexto('https://x.test/a', ACCEPT_HTML, { fetchImpl: vi.fn().mockResolvedValue(resp(200, '')) });
+    } finally {
+      AbortSignal.timeout = original;
+    }
+    expect(visto).toEqual([30_000]);
+  });
   it('envia User-Agent identificado e o Accept pedido', async () => {
     const fetchImpl = vi.fn().mockResolvedValue(resp(200, ''));
     await buscarTexto('https://x.test/a', 'text/html', { fetchImpl, contato: 'https://github.com/o/r' });
