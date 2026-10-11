@@ -76,6 +76,23 @@ describe('renderEvento', () => {
     const li = renderEvento(document, alt);
     expect(li.querySelector('details')!.textContent).toContain('Título antigo');
   });
+  it('tem link permanente para o dia do item, com a âncora do próprio item', () => {
+    const a = renderEvento(document, base).querySelector('a.permalink')!;
+    expect(a.textContent).toBe('Link permanente');
+    expect(a.getAttribute('href')).toBe('?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
+    expect(a.hasAttribute('target')).toBe(false); // navegação interna, na mesma aba
+  });
+  it('a cópia de destaque (sem id) aponta para a mesma âncora', () => {
+    const li = renderEvento(document, base, 3, false);
+    expect(li.id).toBe('');
+    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe('?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
+  });
+  it('id com caracteres do DOU ("*", ".") vira âncora segura e igual à do link', () => {
+    const ato: Evento = { ...base, id: 'dou:lei-n-14.701-de-20-de-outubro-de-2023-*-535292810', tipo: 'ato', hora: undefined, data: '2024-01-02', status: 'publicado' };
+    const li = renderEvento(document, ato);
+    expect(li.id).toBe('ev-dou-lei-n-14.701-de-20-de-outubro-de-2023---535292810');
+    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe(`?de=2024-01-02&ate=2024-01-02#${li.id}`);
+  });
   it('id do elemento é seguro para âncora', () => {
     expect(renderEvento(document, base).id).toBe('ev-agenda-2026-10-08-10-00-1');
   });

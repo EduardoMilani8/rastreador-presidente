@@ -113,3 +113,36 @@ describe('carregarDados', () => {
     expect(c2).not.toContain('data/noticias.json');
   });
 });
+
+describe('carregarDados: meses carregados e disponíveis (I5)', () => {
+  it('sem datas: carrega os 2 meses mais novos e informa todos os disponíveis', async () => {
+    stubFetch(BASE);
+    const d = await carregarDados({ aba: 'linha', tipo: 'ato' });
+    expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
+    expect(d.mesesDisponiveis).toEqual(['2026-10', '2026-09', '2026-08']);
+  });
+  it('com datas: carrega só os meses do intervalo', async () => {
+    stubFetch(BASE);
+    const d = await carregarDados({ aba: 'linha', de: '2026-08-15', ate: '2026-09-10' });
+    expect(d.mesesCarregados).toEqual(['2026-09', '2026-08']);
+    expect(d.eventos.map((e) => e.id).sort()).toEqual(['ago', 'set']);
+  });
+  it('meses.json fora de ordem não muda o resultado', async () => {
+    stubFetch({ ...BASE, 'data/meses.json': ['2026-08', '2026-10', '2026-09'] });
+    const d = await carregarDados({ aba: 'linha' });
+    expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
+    expect(d.mesesDisponiveis).toEqual(['2026-10', '2026-09', '2026-08']);
+  });
+  it('mês que falhou ao carregar continua contando como consultado (o aviso de incompleto cobre a falha)', async () => {
+    stubFetch({ ...BASE, 'data/eventos/2026-09.json': 500 });
+    const d = await carregarDados({ aba: 'linha' });
+    expect(d.incompleto).toBe(true);
+    expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
+  });
+  it('meses.json indisponível: listas vazias', async () => {
+    stubFetch({ ...BASE, 'data/meses.json': 404 });
+    const d = await carregarDados({ aba: 'linha' });
+    expect(d.mesesCarregados).toEqual([]);
+    expect(d.mesesDisponiveis).toEqual([]);
+  });
+});

@@ -16,6 +16,10 @@ describe('lerFiltros', () => {
     expect(lerFiltros('?aba=<script>&tipo=hack&status=%27%3B&de=2026-13-45&ate=ontem'))
       .toEqual({ aba: 'linha' });
   });
+  it('intervalo invertido (de > até) é desinvertido, em vez de mostrar "nenhum registro" (I5)', () => {
+    expect(lerFiltros('?de=2026-09-30&ate=2026-09-01')).toEqual({ aba: 'linha', de: '2026-09-01', ate: '2026-09-30' });
+    expect(lerFiltros('?de=2026-09-10&ate=2026-09-10')).toEqual({ aba: 'linha', de: '2026-09-10', ate: '2026-09-10' });
+  });
   it('recusa data impossível mesmo com formato correto', () => {
     expect(lerFiltros('?de=2026-02-30')).toEqual({ aba: 'linha' });
   });

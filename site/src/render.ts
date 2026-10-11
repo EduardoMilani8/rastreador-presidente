@@ -60,6 +60,16 @@ export function renderFontes(doc: Document, fontes: Fonte[]): HTMLElement {
     el(doc, 'p', { class: 'selo' }, n >= 2 ? `Confirmado por ${n} fontes` : 'Fonte única'), lista);
 }
 
+export function idAncora(ev: Evento): string {
+  return `ev-${ev.id.replace(/[^a-zA-Z0-9._-]/g, '-')}`;
+}
+
+// Endereço estável de um registro: a página só do dia dele (que sempre o contém) mais a âncora.
+function linkPermanente(doc: Document, ev: Evento): HTMLElement {
+  const q = new URLSearchParams({ de: ev.data, ate: ev.data });
+  return el(doc, 'a', { class: 'permalink', href: `?${q.toString()}#${idAncora(ev)}` }, 'Link permanente');
+}
+
 /** `comId: false` para cópias do mesmo item (destaques) — só a linha do tempo leva o id âncora. */
 export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId = true): HTMLElement {
   // Comunicado do Planalto é, em geral, um aviso de pauta publicado ANTES do evento: nunca mostra "Realizado".
@@ -67,11 +77,12 @@ export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId =
   const li = el(doc, 'li', {
     class: `evento tipo-${ev.tipo} status-${ev.status}`,
   });
-  if (comId) li.id = `ev-${ev.id.replace(/[^a-zA-Z0-9._-]/g, '-')}`;
+  if (comId) li.id = idAncora(ev);
   li.append(el(doc, 'p', { class: 'evento-meta' },
     ev.hora && el(doc, 'time', { datetime: `${ev.data}T${ev.hora}` }, ev.hora),
     el(doc, 'span', { class: 'tipo' }, ROTULO_TIPO[ev.tipo]),
-    el(doc, 'span', { class: 'status' }, el(doc, 'span', { 'aria-hidden': 'true' }, st.icone), ` ${st.texto}`)));
+    el(doc, 'span', { class: 'status' }, el(doc, 'span', { 'aria-hidden': 'true' }, st.icone), ` ${st.texto}`),
+    linkPermanente(doc, ev)));
   li.append(el(doc, `h${nivelTitulo}`, { class: 'evento-titulo' }, ev.titulo));
   if (ev.local) li.append(el(doc, 'p', { class: 'local' }, ev.local));
   if (ev.ementa) li.append(el(doc, 'p', { class: 'ementa' }, ev.ementa));

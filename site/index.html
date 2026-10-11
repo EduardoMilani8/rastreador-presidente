@@ -13,6 +13,7 @@
   <header class="topo">
     <h1>Rastreador do Presidente</h1>
     <p id="ultima-novidade" class="discreto"></p>
+    <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
     <p id="aviso-fontes" class="aviso" role="status" hidden></p>
     <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
     <nav aria-label="Seções do site" class="abas">
@@ -24,33 +25,6 @@
 
   <main id="conteudo">
     <div id="painel-linha">
-      <form id="filtros" class="filtros" method="get" action="">
-        <input type="hidden" name="aba" value="linha">
-        <label>De <input type="date" name="de"></label>
-        <label>Até <input type="date" name="ate"></label>
-        <label>Tipo
-          <select name="tipo">
-            <option value="">Todos</option>
-            <option value="agenda">Agenda</option>
-            <option value="ato">Atos oficiais</option>
-            <option value="comunicado">Comunicados do Planalto</option>
-          </select>
-        </label>
-        <label>Status
-          <select name="status">
-            <option value="">Todos</option>
-            <option value="agendado">Agendado</option>
-            <option value="consta_na_agenda">Consta na agenda</option>
-            <option value="realizado">Realizado</option>
-            <option value="publicado">Publicado</option>
-            <option value="alterado">Alterado</option>
-            <option value="removido">Removido</option>
-          </select>
-        </label>
-        <button type="submit">Filtrar</button>
-        <a href="?aba=linha">Limpar filtros</a>
-      </form>
-
       <section id="bloco-ultimo" aria-labelledby="t-ultimo">
         <h2 id="t-ultimo">Último registro</h2>
         <div id="ultimo-registro"></div>
@@ -61,7 +35,39 @@
       </section>
       <section aria-labelledby="t-linha">
         <h2 id="t-linha">Linha do tempo</h2>
+        <details id="caixa-filtros" class="caixa-filtros">
+          <summary>Filtrar por data, tipo ou status</summary>
+          <form id="filtros" class="filtros" method="get" action="">
+            <input type="hidden" name="aba" value="linha">
+            <label>De <input type="date" name="de"></label>
+            <label>Até <input type="date" name="ate"></label>
+            <label>Tipo
+              <select name="tipo">
+                <option value="">Todos</option>
+                <option value="agenda">Agenda</option>
+                <option value="ato">Atos oficiais</option>
+                <option value="comunicado">Comunicados do Planalto</option>
+              </select>
+            </label>
+            <label>Status
+              <select name="status">
+                <option value="">Todos</option>
+                <option value="agendado">Agendado</option>
+                <option value="consta_na_agenda">Consta na agenda</option>
+                <option value="realizado">Realizado</option>
+                <option value="publicado">Publicado</option>
+                <option value="alterado">Alterado</option>
+                <option value="removido">Removido</option>
+              </select>
+            </label>
+            <button type="submit">Filtrar</button>
+            <a href="?aba=linha">Limpar filtros</a>
+          </form>
+        </details>
+        <p id="periodo" class="discreto"></p>
         <div id="linha-do-tempo"></div>
+        <p id="mais-dias" class="mais" hidden></p>
+        <p id="mais-antigos" class="mais" hidden><a href="?aba=linha">Ver meses anteriores</a></p>
       </section>
     </div>
 

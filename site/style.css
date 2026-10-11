@@ -30,10 +30,14 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .abas a { text-decoration: none; padding: 6px 2px; border-bottom: 3px solid transparent; font-weight: 600; }
 .abas a[aria-current='page'] { border-bottom-color: var(--link); }
 
-.filtros { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end; margin: 12px 0 20px; font-size: 0.9rem; }
+.caixa-filtros { margin: 8px 0 12px; font-size: 1rem; }
+.caixa-filtros summary { cursor: pointer; font-weight: 600; padding: 10px 0; min-height: 44px; color: var(--link); }
+.filtros { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end; margin: 4px 0 16px; font-size: 0.9rem; }
 .filtros label { display: flex; flex-direction: column; gap: 2px; }
-.filtros input, .filtros select, .filtros button { font-size: 1rem; padding: 6px 8px; min-height: 44px; border: 1px solid var(--suave); border-radius: 6px; background: var(--cartao); color: var(--texto); }
-.filtros button { font-weight: 700; cursor: pointer; }
+.filtros input, .filtros select, .filtros button, .mais button { font-size: 1rem; padding: 6px 8px; min-height: 44px; border: 1px solid var(--suave); border-radius: 6px; background: var(--cartao); color: var(--texto); }
+.filtros button, .mais button { font-weight: 700; cursor: pointer; }
+.mais { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 20px 0 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 0.9rem; color: var(--suave); }
+.mais[hidden] { display: none; }
 
 h2 { font-size: 1.25rem; margin: 28px 0 8px; }
 .lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
@@ -44,6 +48,9 @@ h2 { font-size: 1.25rem; margin: 28px 0 8px; }
 .tipo-ato { border-left-color: var(--ato); }
 .tipo-comunicado { border-left-color: var(--comunicado); }
 .status-removido .evento-titulo { text-decoration: line-through; }
+.em-destaque { outline: 3px solid var(--link); outline-offset: 2px; }
+.dia h3:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.permalink { margin-left: auto; }
 .evento-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0 0 4px; font-size: 0.85rem; color: var(--suave); }
 .evento-titulo { margin: 0 0 4px; font-size: 1.05rem; line-height: 1.35; }
 .local, .ementa, .datas-ato { margin: 2px 0; font-size: 0.95rem; }

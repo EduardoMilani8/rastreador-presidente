@@ -23,7 +23,9 @@ export function lerFiltros(search: string): Filtros {
   if (status.success) f.status = status.data;
   const de = dataValida(p.get('de'));
   const ate = dataValida(p.get('ate'));
-  if (de) f.de = de;
-  if (ate) f.ate = ate;
+  // Intervalo digitado ao contrário é engano comum; desinverter é melhor do que responder "nenhum registro".
+  const [inicio, fim] = de && ate && de > ate ? [ate, de] : [de, ate];
+  if (inicio) f.de = inicio;
+  if (fim) f.ate = fim;
   return f;
 }
