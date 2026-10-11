@@ -1,6 +1,6 @@
 import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
 import {
-  parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
+  chaveDoAto, ehRetificacao, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
 } from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
 import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
@@ -152,6 +152,35 @@ function unirAtosRepetidos(atos: Evento[]): Evento[] {
   });
 }
 
+// Cada ato aparece uma vez. A retificação "(*)" só fica enquanto for a única publicação conhecida do ato: sai se
+// existe (ou chega depois) a publicação comum, e de duas retificações fica a primeira.
+export function semRetificacaoRedundante(eventos: Evento[]): Evento[] {
+  const comPublicacaoComum = new Set<string>();
+  const primeiraRetificacao = new Map<string, Evento>();
+  for (const e of eventos) {
+    if (e.tipo !== 'ato') continue;
+    const chave = chaveDoAto(e.titulo);
+    if (!ehRetificacao(e.titulo)) {
+      comPublicacaoComum.add(chave);
+      continue;
+    }
+    const p = primeiraRetificacao.get(chave);
+    if (!p || e.data < p.data || (e.data === p.data && e.id < p.id)) primeiraRetificacao.set(chave, e);
+  }
+  return eventos.filter((e) => {
+    if (e.tipo !== 'ato' || !ehRetificacao(e.titulo)) return true;
+    const chave = chaveDoAto(e.titulo);
+    return !comPublicacaoComum.has(chave) && primeiraRetificacao.get(chave)?.id === e.id;
+  });
+}
+
+// Só o que vai de fato ser gravado merece a consulta ao Planalto: sem isto, uma retificação redundante seria
+// consultada de novo a cada execução enquanto estivesse na janela.
+function atosAGravar(existentes: Evento[], coletados: Evento[]): Evento[] {
+  const mantidos = new Set(semRetificacaoRedundante([...existentes, ...coletados]).map((e) => e.id));
+  return coletados.filter((e) => mantidos.has(e.id));
+}
+
 async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
   const edicoes: [SecaoDou, string][] = [['do1', 'edição'], ['do1e', 'edição extra']];
@@ -227,11 +256,13 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   }
 
   const idsExistentes = new Set(existentes.map((e) => e.id));
-  for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id))) {
+  const atos = atosAGravar(existentes, dou.eventos);
+  for (const ato of atos.filter((e) => !idsExistentes.has(e.id))) {
     await adicionarTextoPlanalto(deps, ato, agoraIso);
   }
 
-  let eventos = mesclar(existentes, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso);
+  let eventos = mesclar(existentes, [...agenda.eventos, ...atos], agenda.diasCompletos, agoraIso);
+  eventos = semRetificacaoRedundante(eventos);
   eventos = ligarComunicados(eventos, comunicados, mandato);
   eventos = aplicarStatus(eventos, hoje);
   let escritos = await gravarEventos(deps.dataDir, eventos);
@@ -285,10 +316,11 @@ export async function retroagir(
     if (loginsSeguidos.length >= LOGINS_QUE_INDICAM_BLOQUEIO) for (const x of loginsSeguidos) falhas.add(x);
 
     const idsExistentes = new Set(eventos.map((e) => e.id));
-    for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id))) {
+    const atos = atosAGravar(eventos, dou.eventos);
+    for (const ato of atos.filter((e) => !idsExistentes.has(e.id))) {
       await adicionarTextoPlanalto(deps, ato, agoraIso);
     }
-    eventos = mesclar(eventos, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso);
+    eventos = semRetificacaoRedundante(mesclar(eventos, [...agenda.eventos, ...atos], agenda.diasCompletos, agoraIso));
     if (++contador % 15 === 0) await gravar(d);
   }
   await gravar(ate);

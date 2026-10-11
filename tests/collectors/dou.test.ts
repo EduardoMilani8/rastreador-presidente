@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
-  DouLayoutError, cortarPreambulo, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto,
+  DouLayoutError, chaveDoAto, cortarPreambulo, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto,
 } from '../../src/collectors/dou';
 import { PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090 } from '../helpers';
 import { parseDataExtenso, somarDias } from '../../src/shared/text';
@@ -182,15 +182,26 @@ describe('parseDou: republicações não são atos novos (C1)', () => {
     expect(parseDou(html([d]), '2026-10-16', COLETA)).toHaveLength(1);
     expect(parseDou(html([d]), '2026-10-17', COLETA)).toEqual([]);
   });
-  it('título terminado em "(*)" ou "ANEXO" (formas reais) não entra, mesmo publicado no dia da assinatura', () => {
-    const titulos = [
-      'LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)',
-      'MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023 (*)',
-      'LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO',
-      'LEI Nº 14.802, DE 10 DE JANEIRO DE 2024-ANEXO',
-    ];
+  it('título terminado em "ANEXO" (formas reais) nunca entra, mesmo publicado no dia seguinte à assinatura', () => {
+    const titulos = ['LEI Nº 14.802, DE 10 DE JANEIRO DE 2024 - ANEXO', 'LEI Nº 14.802, DE 10 DE JANEIRO DE 2024-ANEXO'];
     const itens = titulos.map((title, i) => item({ title, urlTitle: `rep-${i}-70000003${i}` }));
     expect(parseDou(html(itens), '2024-01-11', COLETA)).toEqual([]);
+  });
+  it('retificação "(*)" até 10 dias depois da assinatura sai do coletor (o pipeline decide se o ato já está listado)', () => {
+    const l = lei('LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)', 'lei-n-14.642-de-1-de-agosto-de-2023-*-500470021');
+    const r = parseDou(html([l]), '2023-08-03', COLETA);
+    expect(r.map((e) => e.titulo)).toEqual(['LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)']);
+    expect(r[0].datasAto).toEqual({ assinatura: '2023-08-01', publicacao: '2023-08-03' });
+  });
+  it('retificação "(*)" sem data de assinatura legível não entra (não dá para saber se é recente)', () => {
+    const d = item({ title: 'DECRETO Nº 11.539, DE 31 DE MAIO 2023 (*)', urlTitle: 'decreto-n-11.539-*-1' });
+    expect(parseDou(html([d]), '2023-06-02', COLETA)).toEqual([]);
+  });
+  it('chaveDoAto: tipo + número, sem depender de "Nº", pontos, data ou "(*)"', () => {
+    expect(chaveDoAto('LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025 (*)')).toBe(chaveDoAto('LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025'));
+    expect(chaveDoAto('DECRETO 12.568, DE 30 DE JULHO DE 2025')).toBe(chaveDoAto('decreto nº 12568, de 30 de julho de 2025'));
+    expect(chaveDoAto('LEI COMPLEMENTAR Nº 200, DE 30 DE AGOSTO DE 2023')).not.toBe(chaveDoAto('LEI Nº 200, DE 30 DE AGOSTO DE 2023'));
+    expect(chaveDoAto('MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023 (*)')).toBe(chaveDoAto('MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023'));
   });
 });
 

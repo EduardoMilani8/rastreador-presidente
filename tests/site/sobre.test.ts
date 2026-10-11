@@ -77,7 +77,12 @@ describe('site/sobre.html', () => {
     // atos do vice no exercício da Presidência
     expect(texto).toMatch(/vice-presidente no exercício da Presidência/);
     // republicações, retificações e partes promulgadas pelo Congresso não são listadas
-    expect(texto).toMatch(/[Rr]epublicações, retificações e partes .* promulgadas pelo Congresso .* não (são listadas|entram)/);
+    // republicado com correção logo depois da assinatura: uma vez só; republicações posteriores e partes
+    // promulgadas pelo Congresso: fora
+    expect(texto).toMatch(/Cada ato é listado uma vez\./);
+    expect(texto).toMatch(/republicado com correção logo depois da assinatura \(título com “\(\*\)”\) aparece uma vez só/);
+    expect(texto).toMatch(/Republicações posteriores e partes vetadas promulgadas pelo Congresso meses depois não são listadas/);
+    expect(texto).not.toMatch(/retificações e partes/);
     // link do texto no Planalto só quando encontrado e conferido
     expect(texto).toMatch(/“Texto do ato” .* só aparece quando .* encontrad[ao] e confere/);
     // dia sem agenda pública

@@ -395,6 +395,90 @@ describe('atualizar', () => {
     expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')).toHaveLength(3);
   });
 
+  describe('retificação "(*)" publicada logo depois da assinatura', () => {
+    const lei = (title: string, urlTitle: string) => ({
+      title, urlTitle, artType: 'Lei', hierarchyStr: 'Atos do Poder Legislativo',
+      content: `${title} Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA Faço saber`,
+    });
+    const atos = async (deps: Deps) => (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+
+    it('Lei 14.642 "(*)" de 03/08/2023, única publicação na lista do DOU: o ato é listado, uma vez, e a 2ª execução não grava nada', async () => {
+      cfg.dou = { '2023-08-03': [lei('LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)', 'lei-n-14.642-de-1-de-agosto-de-2023-*-500470021')] };
+      cfg.textoPlanalto = 200;
+      cfg.corpoPlanalto = '<p>LEI N\uFFFD 14.642, DE 1\uFFFD DE AGOSTO DE 2023</p>';
+      const deps = await novoDeps();
+      deps.agora = () => new Date('2023-08-03T15:00:00Z');
+      await atualizar(deps);
+      const r = await atos(deps);
+      expect(r.map((a) => a.titulo)).toEqual(['LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)']);
+      expect(r[0].fontes.map((f) => f.nome)).toEqual(['dou', 'texto-planalto']);
+      expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+    });
+
+    it('Lei 15.321: a "(*)" de 31/12/2025 fica; a republicação de 27/05/2026 continua de fora', async () => {
+      cfg.dou = {
+        '2025-12-31': [lei('LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025 (*)', 'lei-n-15.321-de-31-de-dezembro-de-2025-*-1')],
+        '2026-05-27': [lei('LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025', 'lei-n-15.321-de-31-de-dezembro-de-2025-708379237')],
+      };
+      const deps = await novoDeps();
+      await retroagir(deps, '2025-12-31', '2025-12-31');
+      await retroagir(deps, '2026-05-27', '2026-05-27');
+      expect((await atos(deps)).map((a) => `${a.data} ${a.titulo}`)).toEqual(['2025-12-31 LEI Nº 15.321, DE 31 DE DEZEMBRO DE 2025 (*)']);
+    });
+
+    it('ato já listado (MP 1.182, 25/07/2023) + "(*)" no dia seguinte: continua um item só, sem buscar o texto de novo', async () => {
+      const mp = (t: string, u: string) => ({ ...lei(t, u), hierarchyStr: 'Atos do Poder Executivo' });
+      cfg.dou = {
+        '2023-07-25': [mp('MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023', 'medida-provisoria-n-1.182-de-24-de-julho-de-2023-1')],
+        '2023-07-26': [mp('MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023 (*)', 'medida-provisoria-n-1.182-de-24-de-julho-de-2023-*-498926032')],
+      };
+      const deps = await novoDeps();
+      let t = Date.parse('2023-07-25T15:00:00Z');
+      deps.agora = () => new Date(t);
+      await atualizar(deps);
+      t += DIA_MS;
+      await atualizar(deps);
+      expect((await atos(deps)).map((a) => `${a.data} ${a.titulo}`)).toEqual(['2023-07-25 MEDIDA PROVISÓRIA Nº 1.182, DE 24 DE JULHO DE 2023']);
+      t += 600_000;
+      expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+    });
+
+    it('"(*)" e publicação comum no mesmo dia (Lei 14.535, 17/01/2023), em qualquer ordem: só a comum', async () => {
+      const par = [
+        lei('LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)', 'lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010'),
+        lei('LEI Nº 14.535, DE 17 DE JANEIRO DE 2023', 'lei-n-14.535-de-17-de-janeiro-de-2023-1'),
+      ];
+      for (const lista of [par, [...par].reverse()]) {
+        cfg.dou = { '2023-01-17': lista };
+        const deps = await novoDeps();
+        deps.agora = () => new Date('2023-01-17T15:00:00Z');
+        await atualizar(deps);
+        expect((await atos(deps)).map((a) => a.titulo)).toEqual(['LEI Nº 14.535, DE 17 DE JANEIRO DE 2023']);
+        expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+      }
+    });
+
+    it('"(*)" já gravada sai quando a publicação comum do mesmo ato chega depois', async () => {
+      cfg.dou = { '2023-08-03': [lei('LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)', 'lei-n-14.642-de-1-de-agosto-de-2023-*-500470021')] };
+      const deps = await novoDeps();
+      await retroagir(deps, '2023-08-03', '2023-08-03');
+      expect(await atos(deps)).toHaveLength(1);
+      cfg.dou = { '2023-08-02': [lei('LEI Nº 14.642, DE 1º DE AGOSTO DE 2023', 'lei-n-14.642-de-1-de-agosto-de-2023-1')] };
+      await retroagir(deps, '2023-08-02', '2023-08-02');
+      expect((await atos(deps)).map((a) => `${a.data} ${a.titulo}`)).toEqual(['2023-08-02 LEI Nº 14.642, DE 1º DE AGOSTO DE 2023']);
+    });
+
+    it('duas "(*)" do mesmo ato sem publicação comum: fica só a primeira', async () => {
+      cfg.dou = {
+        '2026-07-28': [ato('DECRETO Nº 13.081, DE 27 DE JULHO DE 2026 (*)', 'decreto-n-13.081-de-27-de-julho-de-2026-*-1')],
+        '2026-07-30': [ato('DECRETO Nº 13.081, DE 27 DE JULHO DE 2026 (*)', 'decreto-n-13.081-de-27-de-julho-de-2026-*-2')],
+      };
+      const deps = await novoDeps();
+      await retroagir(deps, '2026-07-28', '2026-07-30');
+      expect((await atos(deps)).map((a) => a.data)).toEqual(['2026-07-28']);
+    });
+  });
+
   it('DOU com HTTP 404 é falha: dia sem edição responde 200 com lista vazia, nunca 404 (I2)', async () => {
     cfg.statusDou = 404;
     const deps = await novoDeps();

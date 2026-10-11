@@ -23,7 +23,7 @@ Regras que o código garante (e os testes cobrem):
 - compromisso só vira "Realizado" com registro oficial posterior ao fato — hoje nenhuma fonte serve para isso, então
   o status não é atribuído automaticamente;
 - dia de agenda que responde 404 é "dia sem agenda publicada": nunca remove o que já estava gravado;
-- republicações do Diário Oficial (mais de 10 dias depois da assinatura, título com `(*)` ou `ANEXO`) e atos assinados
+- republicações do Diário Oficial (mais de 10 dias depois da assinatura, título com `ANEXO`, retificação `(*)` de ato já listado) e atos assinados
   fora do mandato não entram como atos novos;
 - o link "Texto do ato" (Planalto) só é gravado se a página trouxer a data do ato;
 - se a coleta fica parada alguns dias, a execução seguinte recua até 14 dias para recolher o que perdeu;

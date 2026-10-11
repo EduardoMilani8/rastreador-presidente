@@ -62,11 +62,25 @@ function extrairEmenta(titulo: string, content: string): string | undefined {
 // meses depois (Lei 14.701 em 28/12/2023), retificações "(*)" e anexos soltos. Não são atos novos do Presidente.
 // Medido na carga 2023–2026: ato comum sai de 0 a 5 dias depois da assinatura (3.058 casos); republicação, de 19 em diante.
 export const PRAZO_MAXIMO_PUBLICACAO_DIAS = 10;
-const TITULO_DE_REPUBLICACAO = /(?:ANEXO|\(\*\))$/i;
+
+// "(*)" = republicado por ter saído com incorreção, em geral um ou dois dias depois. Às vezes é a ÚNICA publicação
+// do ato na lista do DOU (Lei 14.642, 03/08/2023): por isso a retificação recente sai do coletor, e quem tem os dados
+// gravados (o pipeline) decide se o ato já está listado.
+export function ehRetificacao(titulo: string): boolean {
+  return /\(\*\)$/.test(titulo.trim());
+}
 
 export function ehRepublicacao(titulo: string, assinatura: string | undefined, publicacao: string): boolean {
-  if (TITULO_DE_REPUBLICACAO.test(titulo.trim())) return true;
-  return assinatura !== undefined && assinatura < somarDias(publicacao, -PRAZO_MAXIMO_PUBLICACAO_DIAS);
+  if (/ANEXO$/i.test(titulo.trim())) return true;
+  if (assinatura === undefined) return ehRetificacao(titulo); // sem data não dá para saber se a retificação é recente
+  return assinatura < somarDias(publicacao, -PRAZO_MAXIMO_PUBLICACAO_DIAS);
+}
+
+/** Mesmo ato = mesmo tipo e número, como quer que o DOU tenha escrito o resto do título. */
+export function chaveDoAto(titulo: string): string {
+  const t = limparEspacos(titulo).toUpperCase().replace(/\s*\(\*\)$/, '');
+  const m = t.match(/^(DECRETO|LEI COMPLEMENTAR|LEI|MEDIDA PROVISÓRIA)\s+(?:N[ºO°]\s*)?(\d[\d.]*)/);
+  return m ? `${m[1]} ${m[2].replace(/\./g, '')}` : t;
 }
 
 export function parseDou(html: string, data: string, coletadoEm: string): Evento[] {
