@@ -4,7 +4,7 @@ import {
   EstadoFontesSchema, EventoSchema, NoticiaSchema,
   type EstadoFontes, type Evento, type Noticia,
 } from '../shared/schema';
-import { somarDias } from '../shared/text';
+import { normalizar, somarDias } from '../shared/text';
 
 const json = (x: unknown) => `${JSON.stringify(x, null, 2)}\n`;
 
@@ -63,13 +63,31 @@ export async function lerNoticias(dir: string): Promise<Noticia[]> {
   return bruto ? NoticiaSchema.array().parse(JSON.parse(bruto)) : [];
 }
 
+// A mesma matéria chega por dois caminhos (o feed da Agência Brasil e o Google Notícias, com URLs e ids diferentes).
+// Fica uma por título + veículo: a da Agência Brasil (link direto) e, entre iguais, a mais antiga. A escolha depende
+// só dos dados, nunca da ordem de chegada, para a gravação seguinte não alternar entre as cópias.
+function semRepetidas(noticias: Noticia[]): Noticia[] {
+  const preferida = (a: Noticia, b: Noticia): Noticia => {
+    if (a.origem !== b.origem) return a.origem === 'agencia-brasil' ? a : b;
+    if (a.data !== b.data) return a.data < b.data ? a : b;
+    return a.id <= b.id ? a : b;
+  };
+  const porMateria = new Map<string, Noticia>();
+  for (const n of noticias) {
+    const chave = `${normalizar(n.titulo)}\n${normalizar(n.veiculo)}`;
+    const atual = porMateria.get(chave);
+    porMateria.set(chave, atual ? preferida(atual, n) : n);
+  }
+  return [...porMateria.values()];
+}
+
 export async function gravarNoticias(
   dir: string, novas: Noticia[], hoje: string, retencaoDias = 14,
 ): Promise<boolean> {
   const corte = somarDias(hoje, -retencaoDias);
   const mapa = new Map((await lerNoticias(dir)).map((n) => [n.id, n]));
   for (const n of novas) if (!mapa.has(n.id)) mapa.set(n.id, n);
-  const lista = [...mapa.values()]
+  const lista = semRepetidas([...mapa.values()])
     .filter((n) => n.data.slice(0, 10) >= corte)
     .sort((a, b) => b.data.localeCompare(a.data) || a.id.localeCompare(b.id));
   return gravarSeMudou(join(dir, 'noticias.json'), json(NoticiaSchema.array().parse(lista)));

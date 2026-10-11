@@ -12,7 +12,9 @@ interface ItemDou {
 }
 
 const ATO = /^(DECRETO|LEI|MEDIDA PROVISÓRIA)\b/i;
-const NUMERADO = /\bN[ºo°]\s*[\d.]+/i;
+// O número vem depois de "Nº"; o DOU às vezes esquece o "Nº" ("DECRETO 12.568, DE 30 DE JULHO DE 2025", verificado
+// na edição de 31/07/2025). "DECRETO DE 6 DE ..." e "DECRETOS DE ..." (não numerados) seguem de fora.
+const NUMERADO = /\bN[ºo°]\s*[\d.]+|^(?:DECRETO|LEI(?: COMPLEMENTAR)?|MEDIDA PROVISÓRIA)\s+\d[\d.]*\s*,/i;
 const DECRETO_LEGISLATIVO = /^DECRETO LEGISLATIVO\b/i;
 
 // 'do1' = edição ordinária; 'do1e' = edições extras da Seção 1 (MPs e decretos que saem fora do expediente, p.ex. a posse
@@ -26,18 +28,34 @@ export function urlDouEdicao(data: string, secao: SecaoDou = 'do1'): string {
 
 // Fim da ementa = começo do preâmbulo. Formas reais no DOU: "O PRESIDENTE DA REPÚBLICA", "OPRESIDENTE ...", letras
 // espaçadas ("O V I C E - P R E S I D E N T E D A R E P Ú B L I C A", "D AR E P Ú B L I C A"), "O VICE-PRESIDENTE DA
-// REPÚBLICA, no exercício do cargo de PRESIDENTE" e, em lei promulgada pelo Congresso, "Faço saber que ...".
-// Só MAIÚSCULAS casam o preâmbulo ("Autoriza o Presidente da República..." na ementa não é cortado).
+// REPÚBLICA, no exercício do cargo de PRESIDENTE", "O PRESIDENTE DE REPÚBLICA,no uso" (sic) e, em lei promulgada pelo
+// Congresso, "Faço saber que ...". Só MAIÚSCULAS casam o preâmbulo ("Autoriza o Presidente da República..." na ementa
+// não é cortado).
 const PREAMBULO =
-  /\s(?:O\s*(?:V\s*I\s*C\s*E\s*-?\s*)?P\s*R\s*E\s*S\s*I\s*D\s*E\s*N\s*T\s*E\s*D\s*A\s*R\s*E\s*P\s*[ÚU]\s*B|Faço saber\b)/;
+  /\s(?:O\s*(?:V\s*I\s*C\s*E\s*-?\s*)?P\s*R\s*E\s*S\s*I\s*D\s*E\s*N\s*T\s*E\s*D\s*[AE]\s*R\s*E\s*P\s*[ÚU]\s*B|Faço saber\b)/;
+
+// O DOU entrega só o começo do texto, cortado com "...": o corte muitas vezes cai no meio do preâmbulo
+// ("... de semicondutores. O PRESIDENTE DA REPÚ...").
+const PREAMBULO_CORTADO = /\s(O[\sA-ZÚ-]*?)\s*(?:\.{3}|…)$/;
+// Até "REPÚ": com uma letra a mais, PREAMBULO já casa.
+const PREAMBULOS_SEM_ESPACO = ['OPRESIDENTEDAREPU', 'OPRESIDENTEDEREPU', 'OVICEPRESIDENTEDAREPU', 'OVICEPRESIDENTEDEREPU'];
+
+export function cortarPreambulo(texto: string): string {
+  const inteiro = texto.search(PREAMBULO);
+  if (inteiro >= 0) return limparEspacos(texto.slice(0, inteiro));
+  const m = PREAMBULO_CORTADO.exec(texto);
+  if (!m) return texto;
+  const letras = m[1].replace(/[\s-]/g, '').replace('Ú', 'U');
+  if (!PREAMBULOS_SEM_ESPACO.some((p) => p.startsWith(letras))) return texto;
+  // Um "O" maiúsculo sozinho antes do "..." só é preâmbulo se a frase anterior já terminou.
+  if (letras.length < 2 && !/[.;:)]$/.test(texto.slice(0, m.index))) return texto;
+  return limparEspacos(texto.slice(0, m.index));
+}
 
 function extrairEmenta(titulo: string, content: string): string | undefined {
   const c = limparEspacos(content);
   if (!c.startsWith(titulo)) return undefined;
-  const semTitulo = c.slice(titulo.length);
-  const corte = semTitulo.search(PREAMBULO);
-  const ementa = limparEspacos(corte >= 0 ? semTitulo.slice(0, corte) : semTitulo);
-  return ementa || undefined;
+  return cortarPreambulo(c.slice(titulo.length)).trim() || undefined;
 }
 
 // O DOU republica atos com o título e a data de assinatura originais: partes vetadas promulgadas pelo Congresso
@@ -72,7 +90,10 @@ export function parseDou(html: string, data: string, coletadoEm: string): Evento
     if (!titulo || !urlTitle) continue;
     if (!(bruto.hierarchyStr ?? '').startsWith('Atos do Poder')) continue;
     if (!ATO.test(titulo) || DECRETO_LEGISLATIVO.test(titulo) || !NUMERADO.test(titulo)) continue;
-    const assinatura = parseDataExtenso(titulo) ?? undefined;
+    const dataDoTitulo = parseDataExtenso(titulo);
+    // Ato não é publicado antes de assinado: data do título posterior à edição é erro de digitação do DOU
+    // ("DECRETO Nº 12.420, DE 25 DE DEZEMBRO DE 2025" saiu em 26/03/2025). Sem data confiável, não afirmamos nenhuma.
+    const assinatura = dataDoTitulo && dataDoTitulo <= data ? dataDoTitulo : undefined;
     if (ehRepublicacao(titulo, assinatura, data)) continue;
     eventos.push({
       id: `dou:${urlTitle}`,
@@ -94,7 +115,7 @@ export function parseDou(html: string, data: string, coletadoEm: string): Evento
 }
 
 export function urlTextoPlanalto(titulo: string, assinatura: string | undefined): string | null {
-  const m = titulo.match(/^(DECRETO|LEI)\s+N[ºo°]\s*([\d.]+)/i);
+  const m = titulo.match(/^(DECRETO|LEI)\s+(?:N[ºo°]\s*)?(\d[\d.]*)/i);
   if (!m || !assinatura) return null;
   const ano = Number(assinatura.slice(0, 4));
   const inicio = 2019 + 4 * Math.floor((ano - 2019) / 4);

@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { DouLayoutError, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto } from '../../src/collectors/dou';
+import {
+  DouLayoutError, cortarPreambulo, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto,
+} from '../../src/collectors/dou';
 import { PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090 } from '../helpers';
 import { parseDataExtenso, somarDias } from '../../src/shared/text';
 
@@ -189,6 +191,68 @@ describe('parseDou: republicações não são atos novos (C1)', () => {
     ];
     const itens = titulos.map((title, i) => item({ title, urlTitle: `rep-${i}-70000003${i}` }));
     expect(parseDou(html(itens), '2024-01-11', COLETA)).toEqual([]);
+  });
+});
+
+describe('cortarPreambulo: o DOU corta o resumo no meio do preâmbulo (finais reais da carga 2023–2026)', () => {
+  const casos: [string, string][] = [
+    ['proposta de participação no fomento da política de pesquisa e desenvolvimento de semicondutores. O PRESIDENTE DA REPÚ...',
+      'proposta de participação no fomento da política de pesquisa e desenvolvimento de semicondutores.'],
+    ['Sistema de Administração dos Recursos de Informação e Informática - GSISP. O VICE-PRESIDENTE DA REP...',
+      'Sistema de Administração dos Recursos de Informação e Informática - GSISP.'],
+    ['que cria o Fundo Nacional sobre Mudança do Clima. O PRESIDENTE DA...', 'que cria o Fundo Nacional sobre Mudança do Clima.'],
+    ['para o cumprimento das metas de universalização. O PRES...', 'para o cumprimento das metas de universalização.'],
+    ['da administração pública federal direta, autárquica e fundacional. O ...',
+      'da administração pública federal direta, autárquica e fundacional.'],
+    ['Política Nacional de Pagamento por Serviços Ambientais. OPRESI...', 'Política Nacional de Pagamento por Serviços Ambientais.'],
+    ['Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD). O V I C E - P R E S I D E N T E...',
+      'Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD).'],
+    ['da Lei nº 12.845, de 1º de agosto de 2013. O V I C E - P...', 'da Lei nº 12.845, de 1º de agosto de 2013.'],
+    ['das Usinas Hidrelétricas de Furnas. O VI...', 'das Usinas Hidrelétricas de Furnas.'],
+    // Decreto 11.777, de 9/11/2023: o DOU escreveu "DE REPÚBLICA" e colou o "no uso"
+    ['com vistas à Abolição da Pena de Morte, de 15 de dezembro de 1989. O PRESIDENTE DE REPÚBLICA,no uso da atribuição que lhe confere o art. 84,caput, inciso IV, da Constituição, e ...',
+      'com vistas à Abolição da Pena de Morte, de 15 de dezembro de 1989.'],
+  ];
+  it.each(casos)('%s', (entrada, esperado) => {
+    expect(cortarPreambulo(entrada)).toBe(esperado);
+  });
+  it('não corta resumo truncado no meio da frase nem "o Presidente da República" minúsculo', () => {
+    for (const texto of [
+      'que ofertem ou tenham por objeto a exploração da l...',
+      'Autoriza o Presidente da República a conceder indulto.',
+      'Dispõe sobre a carreira de Oficial de Chancelaria e sobre O...',
+      'Institui o Programa OPERA...',
+    ]) expect(cortarPreambulo(texto)).toBe(texto);
+  });
+  it('é idempotente', () => {
+    for (const [, limpo] of casos) expect(cortarPreambulo(limpo)).toBe(limpo);
+  });
+});
+
+describe('parseDou: detalhes dos títulos reais', () => {
+  it('data de assinatura posterior à publicação é erro de digitação do DOU: o ato fica, sem data de assinatura', () => {
+    const d = item({
+      title: 'DECRETO Nº 12.420, DE 25 DE DEZEMBRO DE 2025', urlTitle: 'decreto-n-12.420-de-25-de-dezembro-de-2025-619903503',
+    });
+    const [e] = parseDou(html([d]), '2025-03-26', COLETA);
+    expect(e.titulo).toBe('DECRETO Nº 12.420, DE 25 DE DEZEMBRO DE 2025');
+    expect(e.datasAto).toEqual({ assinatura: undefined, publicacao: '2025-03-26' });
+  });
+  it('ato publicado no próprio dia da assinatura mantém a data', () => {
+    const d = item({ title: 'DECRETO Nº 12.953, DE 28 DE ABRIL DE 2026', urlTitle: 'decreto-n-12.953-700000040' });
+    expect(parseDou(html([d]), '2026-04-28', COLETA)[0].datasAto).toEqual({ assinatura: '2026-04-28', publicacao: '2026-04-28' });
+  });
+  it('decreto numerado que o DOU intitulou sem "Nº" entra (I9: "DECRETO 12.568, DE 30 DE JULHO DE 2025")', () => {
+    const d = item({
+      title: 'DECRETO 12.568, DE 30 DE JULHO DE 2025', urlTitle: 'decreto-12.568-de-30-de-julho-de-2025-645258918',
+      content: 'DECRETO 12.568, DE 30 DE JULHO DE 2025 Renova a concessão outorgada à Prefeitura Municipal de São Carlos, para executar,',
+    });
+    const plural = item({ title: 'DECRETOS DE 12 DE MAIO DE 2026', urlTitle: 'decretos-de-12-de-maio-de-2026-1', artType: 'Decreto não numerado' });
+    const r = parseDou(html([d, plural, DECRETO_SEM_NUMERO]), '2025-07-31', COLETA);
+    expect(r.map((e) => e.id)).toEqual(['dou:decreto-12.568-de-30-de-julho-de-2025-645258918']);
+    expect(r[0].datasAto).toEqual({ assinatura: '2025-07-30', publicacao: '2025-07-31' });
+    expect(urlTextoPlanalto(r[0].titulo, r[0].datasAto?.assinatura))
+      .toBe('https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12568.htm');
   });
 });
 

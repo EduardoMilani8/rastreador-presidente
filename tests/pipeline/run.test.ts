@@ -362,6 +362,39 @@ describe('atualizar', () => {
     expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(0);
   });
 
+  it('mesmo ato listado duas vezes no mesmo dia (MP 1.373, 29/06/2026) vira um item só, com as duas fontes', async () => {
+    const mp = (n: string) => ({
+      title: 'MEDIDA PROVISÓRIA Nº 1.373, DE 29 DE JUNHO DE 2026', urlTitle: `medida-provisoria-n-1.373-de-29-de-junho-de-2026-${n}`,
+      artType: 'Medida Provisória', hierarchyStr: 'Atos do Poder Executivo',
+      content: 'MEDIDA PROVISÓRIA Nº 1.373, DE 29 DE JUNHO DE 2026 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
+    });
+    cfg.dou = { '2026-06-29': [mp('715441349'), mp('715441341')] }; // fora de ordem: fica o de menor id, sempre
+    const deps = await novoDeps();
+    deps.agora = () => new Date('2026-06-29T15:00:00Z');
+    await atualizar(deps);
+    const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    expect(atos.map((a) => a.id)).toEqual(['dou:medida-provisoria-n-1.373-de-29-de-junho-de-2026-715441341']);
+    expect(atos[0].fontes.map((f) => f.url)).toEqual([
+      'https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.373-de-29-de-junho-de-2026-715441341',
+      'https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.373-de-29-de-junho-de-2026-715441349',
+    ]);
+    cfg.dou = { '2026-06-29': [mp('715441341'), mp('715441349')] };
+    expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+  });
+
+  it('mesmo título em dias diferentes ou títulos diferentes no mesmo dia continuam separados', async () => {
+    cfg.dou = {
+      '2025-03-09': [ato('DECRETO Nº 12.391, DE 7 DE MARÇO DE 2025', 'decreto-n-12.391-de-7-de-marco-de-2025-1')],
+      '2025-03-10': [
+        ato('DECRETO Nº 12.391, DE 7 DE MARÇO DE 2025', 'decreto-n-12.391-de-7-de-marco-de-2025-2'),
+        ato('DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025', 'decreto-n-12.392-de-7-de-marco-de-2025-3'),
+      ],
+    };
+    const deps = await novoDeps();
+    await atualizar(deps);
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')).toHaveLength(3);
+  });
+
   it('DOU com HTTP 404 é falha: dia sem edição responde 200 com lista vazia, nunca 404 (I2)', async () => {
     cfg.statusDou = 404;
     const deps = await novoDeps();

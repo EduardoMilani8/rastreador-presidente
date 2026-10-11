@@ -54,6 +54,50 @@ describe('notícias', () => {
     await gravarNoticias(d, [n('b', '2026-10-08T09:00:00.000Z'), n('a', '2026-10-07T10:00:00.000Z')], '2026-10-08');
     expect((await lerNoticias(d)).map((x) => x.id)).toEqual(['b', 'a']);
   });
+  // Caso real (out/2026): a mesma matéria da Agência Brasil chega pelo feed dela e pelo Google Notícias.
+  const TITULO = 'Ato pela reeleição de Lula leva milhares à Avenida Paulista';
+  const ab = (id: string, titulo: string, data: string): Noticia => ({
+    id, titulo, veiculo: 'Agência Brasil', data, url: `https://agenciabrasil.ebc.com.br/${id}`, origem: 'agencia-brasil',
+  });
+  const gn = (id: string, titulo: string, data: string, veiculo = 'Agência Brasil'): Noticia => ({
+    id, titulo, veiculo, data, url: `https://news.google.com/rss/articles/${id}`, origem: 'google-news',
+  });
+  it('mesma matéria (título + veículo) vinda das duas origens fica uma vez só: a da Agência Brasil', async () => {
+    for (const ordem of [0, 1]) {
+      const d = await dir();
+      const par = [gn('g1', `${TITULO} `, '2026-10-07T12:00:00.000Z'), ab('a1', TITULO.toUpperCase(), '2026-10-07T10:00:00.000Z')];
+      await gravarNoticias(d, ordem ? par : [...par].reverse(), '2026-10-08');
+      expect((await lerNoticias(d)).map((x) => x.id)).toEqual(['a1']);
+    }
+  });
+  it('a duplicata não volta numa coleta seguinte, nem quando chega sozinha (segunda gravação não muda nada)', async () => {
+    const d = await dir();
+    await gravarNoticias(d, [ab('a1', TITULO, '2026-10-07T10:00:00.000Z')], '2026-10-08');
+    expect(await gravarNoticias(d, [gn('g1', TITULO, '2026-10-07T12:00:00.000Z')], '2026-10-08')).toBe(false);
+    expect((await lerNoticias(d)).map((x) => x.id)).toEqual(['a1']);
+  });
+  it('a Agência Brasil substitui a cópia do Google já gravada', async () => {
+    const d = await dir();
+    await gravarNoticias(d, [gn('g1', TITULO, '2026-10-07T12:00:00.000Z')], '2026-10-08');
+    await gravarNoticias(d, [ab('a1', TITULO, '2026-10-07T10:00:00.000Z')], '2026-10-08');
+    expect((await lerNoticias(d)).map((x) => x.id)).toEqual(['a1']);
+  });
+  it('duas cópias da mesma origem: fica a mais antiga (e, no empate, o menor id), em qualquer ordem de chegada', async () => {
+    for (const ordem of [0, 1]) {
+      const d = await dir();
+      const copias = [
+        gn('g2', TITULO, '2026-10-07T12:00:00.000Z', 'BBC'), gn('g1', TITULO, '2026-10-07T12:00:00.000Z', 'BBC'),
+        gn('g0', TITULO, '2026-10-07T13:00:00.000Z', 'BBC'),
+      ];
+      await gravarNoticias(d, ordem ? copias : [...copias].reverse(), '2026-10-08');
+      expect((await lerNoticias(d)).map((x) => x.id)).toEqual(['g1']);
+    }
+  });
+  it('mesmo título em veículos diferentes são notícias diferentes', async () => {
+    const d = await dir();
+    await gravarNoticias(d, [gn('g1', TITULO, '2026-10-07T12:00:00.000Z', 'BBC'), gn('g2', TITULO, '2026-10-07T12:00:00.000Z', 'G1')], '2026-10-08');
+    expect((await lerNoticias(d)).map((x) => x.id).sort()).toEqual(['g1', 'g2']);
+  });
   it('devolve false quando nada mudou', async () => {
     const d = await dir();
     await gravarNoticias(d, [n('a', '2026-10-07T10:00:00.000Z')], '2026-10-08');

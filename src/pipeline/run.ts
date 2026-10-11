@@ -135,10 +135,28 @@ async function coletarAgenda(deps: Deps, dias: string[], coletadoEm: string): Pr
   return c;
 }
 
+// O DOU às vezes lista o mesmo ato duas vezes no mesmo dia, com ids diferentes (MP 1.373 em 29/06/2026). Fica um só,
+// o de menor id (escolha que não depende da ordem da lista, que muda), com os links dos dois.
+function unirAtosRepetidos(atos: Evento[]): Evento[] {
+  const porTitulo = new Map<string, Evento[]>();
+  for (const a of atos) porTitulo.set(a.titulo, [...(porTitulo.get(a.titulo) ?? []), a]);
+  return [...porTitulo.values()].map((copias) => {
+    if (copias.length === 1) return copias[0];
+    const ordenadas = [...copias].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+    const urls = new Set<string>();
+    return {
+      ...ordenadas[0],
+      ementa: ordenadas.find((c) => c.ementa)?.ementa,
+      fontes: ordenadas.flatMap((c) => c.fontes).filter((f) => !urls.has(f.url) && urls.add(f.url)),
+    };
+  });
+}
+
 async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
   const edicoes: [SecaoDou, string][] = [['do1', 'edição'], ['do1e', 'edição extra']];
   for (const d of dias) {
+    const doDia: Evento[] = [];
     for (const [secao, rotulo] of edicoes) {
       try {
         const pedida = urlDouEdicao(d, secao);
@@ -147,12 +165,13 @@ async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promi
         // Dia sem edição responde 200 com lista vazia (verificado): 404 nunca é "sem edição", é o endereço que mudou.
         if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
         // Lei sancionada pelo governo anterior e publicada já neste mandato não é ato de nenhum Presidente acompanhado.
-        c.eventos.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
+        doDia.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
           !e.datasAto?.assinatura || mandatoDoDia(deps.mandatos, e.datasAto.assinatura) !== undefined));
       } catch (e) {
         c.erros.push(`${d} (${rotulo}): ${String(e)}`);
       }
     }
+    c.eventos.push(...unirAtosRepetidos(doDia));
   }
   return c;
 }
