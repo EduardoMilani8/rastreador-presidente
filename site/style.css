@@ -32,7 +32,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 .filtros { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end; margin: 12px 0 20px; font-size: 0.9rem; }
 .filtros label { display: flex; flex-direction: column; gap: 2px; }
-.filtros input, .filtros select, .filtros button { font-size: 1rem; padding: 6px 8px; min-height: 44px; border: 1px solid var(--linha); border-radius: 6px; background: var(--cartao); color: var(--texto); }
+.filtros input, .filtros select, .filtros button { font-size: 1rem; padding: 6px 8px; min-height: 44px; border: 1px solid var(--suave); border-radius: 6px; background: var(--cartao); color: var(--texto); }
 .filtros button { font-weight: 700; cursor: pointer; }
 
 h2 { font-size: 1.25rem; margin: 28px 0 8px; }
