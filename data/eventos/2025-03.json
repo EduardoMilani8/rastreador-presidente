@@ -1,0 +1,3620 @@
+[
+  {
+    "id": "agenda:2025-03-01:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-01",
+    "hora": "10:30",
+    "titulo": "Reunião com o Presidente da República Federal da Alemanha, Frank-Walter Steinmeier",
+    "local": "Montevidéu - Uruguai",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-01:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-01",
+    "hora": "11:30",
+    "titulo": "Reunião com a advogada e política equatoriana Luisa González",
+    "local": "local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-01:14:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-01",
+    "hora": "14:00",
+    "titulo": "Cerimônia de compromisso de honra constitucional por parte do Presidente eleito da República Oriental do Uruguai, Yamandú Orsi, e da Vice-Presidenta eleita, Carolina Cosse",
+    "local": "Assembleia Geral do Poder Legislativo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-01:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-01",
+    "hora": "15:40",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea nº 1 de Montevidéu, Aeroporto Internacional de Carrasco",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-01:18:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-01",
+    "hora": "18:40",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.388-de-28-de-fevereiro-de-2025-615763932",
+    "tipo": "ato",
+    "data": "2025-03-05",
+    "titulo": "DECRETO Nº 12.388, DE 28 DE FEVEREIRO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo-Quadro entre o Governo da República Federativa do Brasil e o Governo do Canadá sobre Cooperação em Matéria de Defesa, firmado em Brasília, em 27 de junho de 2023.",
+    "datasAto": {
+      "assinatura": "2025-02-28",
+      "publicacao": "2025-03-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.388-de-28-de-fevereiro-de-2025-615763932",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12388.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.389-de-28-de-fevereiro-de-2025-615746120",
+    "tipo": "ato",
+    "data": "2025-03-05",
+    "titulo": "DECRETO Nº 12.389, DE 28 DE FEVEREIRO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga a renovação, por troca de notas, do Acordo entre a República Federativa do Brasil e a Organização Mundial de Propriedade Intelectual para a Criação de um Escritório de Coordenação dessa Organização no Brasil, firmado em Genebra, em 2 de outubro de 2009.",
+    "datasAto": {
+      "assinatura": "2025-02-28",
+      "publicacao": "2025-03-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.389-de-28-de-fevereiro-de-2025-615746120",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12389.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.390-de-28-de-fevereiro-de-2025-615749992",
+    "tipo": "ato",
+    "data": "2025-03-05",
+    "titulo": "DECRETO Nº 12.390, DE 28 DE FEVEREIRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.027, de 31 de março de 2022, que regulamenta a comercialização de energia elétrica gerada pela Itaipu Binacional.",
+    "datasAto": {
+      "assinatura": "2025-02-28",
+      "publicacao": "2025-03-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.390-de-28-de-fevereiro-de-2025-615749992",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12390.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.391-de-28-de-fevereiro-de-2025-615748999",
+    "tipo": "ato",
+    "data": "2025-03-05",
+    "titulo": "DECRETO Nº 12.391, DE 28 DE FEVEREIRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Pacto Nacional pela Recomposição das Aprendizagens.",
+    "datasAto": {
+      "assinatura": "2025-02-28",
+      "publicacao": "2025-03-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.391-de-28-de-fevereiro-de-2025-615748999",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12391.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-05:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-05",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe de Gabinete Adjunto de Agenda do Presidente da República, Oswaldo Malatesta",
+    "local": "Residência oficial Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-05:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-05",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Residência oficial Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.291-de-6-de-marco-de-2025-616169442",
+    "tipo": "ato",
+    "data": "2025-03-06",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.351, de 22 de dezembro de 2010, para aperfeiçoar os mecanismos disponíveis ao Fundo Social para enfrentar os desafios socioeconômicos do País.",
+    "datasAto": {
+      "assinatura": "2025-03-06",
+      "publicacao": "2025-03-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.291-de-6-de-marco-de-2025-616169442",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-06:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-06",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-06:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-06",
+    "hora": "10:00",
+    "titulo": "Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim, e Assessor-Chefe Adjunto da Assessoria Especial do Presidente da República, Audo Faleiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-06:14:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-06",
+    "hora": "14:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.106-de-6-de-marco-de-2025-616183106",
+    "tipo": "ato",
+    "data": "2025-03-07",
+    "titulo": "LEI Nº 15.106, DE 6 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério da Previdência Social, do Ministério da Saúde, do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome, de Encargos Financeiros da União e de Transferências a Estados, Distrito Federal e Municípios, no valor de R$ 5.131.822.721,00 (cinco bilhões cento e trinta e um milhões oitocentos e v...",
+    "datasAto": {
+      "assinatura": "2025-03-06",
+      "publicacao": "2025-03-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.106-de-6-de-marco-de-2025-616183106",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15106.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.107-de-6-de-marco-de-2025-616177055",
+    "tipo": "ato",
+    "data": "2025-03-07",
+    "titulo": "LEI Nº 15.107, DE 6 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional de Conscientização sobre a Esclerose Tuberosa.",
+    "datasAto": {
+      "assinatura": "2025-03-06",
+      "publicacao": "2025-03-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.107-de-6-de-marco-de-2025-616177055",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15107.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "08:00",
+    "titulo": "Partida para Varginha",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:09:05:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "09:05",
+    "titulo": "Chegada a Varginha",
+    "local": "Base Aérea de Varginha – Minas Gerais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:09:50:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "09:50",
+    "titulo": "Visita às áreas de produção de goiaba, café e milho Local: Campo do Meio (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "12:00",
+    "titulo": "Cerimônia de entregas e anúncios para a reforma agrária",
+    "local": "Escola Popular Eduardo Galeano",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:13:35:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "13:35",
+    "titulo": "Fotografia com lideranças e movimentos sociais",
+    "local": "Escola Popular Eduardo Galeano",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:16:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "16:15",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Varginha – Minas Gerais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-07:17:20:1",
+    "tipo": "agenda",
+    "data": "2025-03-07",
+    "hora": "17:20",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.392-de-7-de-marco-de-2025-616480099",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda Ariadnópolis, localizado no Município de Campo do Meio, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.392-de-7-de-marco-de-2025-616480099",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12392.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.393-de-7-de-marco-de-2025-616482182",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.393, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda Mata Caxambu, localizado no Município de Campo do Meio, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.393-de-7-de-marco-de-2025-616482182",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12393.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.394-de-7-de-marco-de-2025-616482261",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.394, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda Potreiro, localizado no Município de Campo do Meio, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.394-de-7-de-marco-de-2025-616482261",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12394.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.395-de-7-de-marco-de-2025-616479775",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.395, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda Santa Lúcia, localizado no Município de Pau D'Arco, Estado do Pará.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.395-de-7-de-marco-de-2025-616479775",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12395.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.396-de-7-de-marco-de-2025-616480664",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.396, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda São Paulo, localizado no Município de Barbosa Ferraz, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.396-de-7-de-marco-de-2025-616480664",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12396.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.397-de-7-de-marco-de-2025-616481540",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.397, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Fazenda Crixá, localizado no Município de Formosa, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.397-de-7-de-marco-de-2025-616481540",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12397.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.398-de-7-de-marco-de-2025-616484426",
+    "tipo": "ato",
+    "data": "2025-03-10",
+    "titulo": "DECRETO Nº 12.398, DE 7 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, o imóvel rural Horto Florestal Cruz Alta, localizado no Município de Cruz Alta, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2025-03-07",
+      "publicacao": "2025-03-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.398-de-7-de-marco-de-2025-616484426",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12398.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-10:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-10",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-10:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-10",
+    "hora": "11:00",
+    "titulo": "Secretária-Geral da FLACSO, Rebecca Forattini Lemos Igreja",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-10:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-10",
+    "hora": "15:00",
+    "titulo": "Cerimônia de transmissões de cargos e posses do Ministro da Saúde, Alexandre Padilha, e da Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-10:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-10",
+    "hora": "18:00",
+    "titulo": "Telefonema com o Secretário-Geral da Organização das Nações Unidas, António Guterres",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "08:00",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "09:00",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha - Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "11:00",
+    "titulo": "Visita à Linha de Montagem da Stellantis Betim",
+    "local": "Polo Automotivo Stellantis – Betim (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "12:00",
+    "titulo": "Cerimônia de inauguração do Centro de Desenvolvimento de Tecnologia Híbrida Flex e anúncio de contratações da Stellantis",
+    "local": "Polo Automotivo Stellantis – Betim (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "15:40",
+    "titulo": "Visita ao Galpão de Laminação",
+    "local": "Usina Gerdau – Ouro Branco (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:17:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "17:15",
+    "titulo": "Cerimônia de Inauguração do Novo Laminador para Expansão da Produção de Aço em Minas Gerais",
+    "local": "Usina Gerdau – Ouro Branco (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:19:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "19:45",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto da Pampulha - Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-11:20:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-11",
+    "hora": "20:45",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.292-de-12-de-marco-de-2025-617330901",
+    "tipo": "ato",
+    "data": "2025-03-12",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.292, DE 12 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.820, de 17 de dezembro de 2003, que trata sobre as operações de crédito consignado de empregados regidos pela Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, de trabalhadores regidos pela Lei nº 5.889, de 8 de junho de 1973, e pela Lei Complementar nº 150, de 1º de junho de 2015, e d...",
+    "datasAto": {
+      "assinatura": "2025-03-12",
+      "publicacao": "2025-03-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.292-de-12-de-marco-de-2025-617330901",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-12",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-12:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-12",
+    "hora": "09:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-12:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-12",
+    "hora": "10:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-12",
+    "hora": "11:00",
+    "titulo": "Cerimônia de lançamento do Programa “Crédito do Trabalhador”",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-12",
+    "hora": "15:00",
+    "titulo": "Solenidade de Posse da Ministra Doutora Maria Elizabeth Guimarães Teixeira Rocha no cargo de Presidente do Superior Tribunal Militar e do Ministro Francisco Joseli Parente Camelo nos cargos de Vice-Presidente e de Corregedor da Justiça Militar da União",
+    "local": "Teatro Nacional Cláudio Santoro, Sala Martins Pena",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "11:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "15:30",
+    "titulo": "Assessor-Chefe Adjunto da Assessoria Especial do Presidente da República, Audo Faleiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "16:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "18:00",
+    "titulo": "Presidente da Ordem dos Advogados do Brasil (OAB), Beto Simonetti",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-13:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-13",
+    "hora": "18:30",
+    "titulo": "Ministro da Educação, Camilo Santana, Governador do Ceará, Elmano de Freitas, e Prefeito de Fortaleza, Evandro Leitão",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.399-de-13-de-marco-de-2025-617921978",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.399, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de utilidade pública, para fins de desapropriação ou de instituição de servidão de passagem, em favor do Departamento Nacional de Obras Contra as Secas - DNOCS, os imóveis de propriedade particular constituídos de terras, benfeitorias e acessões necessárias à implantação e conclusão da Barragem Fronteiras, localizada no Município de Crateús, Estado...",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.399-de-13-de-marco-de-2025-617921978",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12399.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.400-de-13-de-marco-de-2025-617943928",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.400, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Aprova o Regulamento da Ordem do Mérito Cultural, instituída pelo art. 34 da Lei nº 8.313, de 23 de dezembro de 1991.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.400-de-13-de-marco-de-2025-617943928",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12400.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.401-de-13-de-marco-de-2025-617901471",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.401, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.482, de 6 de abril de 2023, que dispõe sobre o Conselho Nacional de Desenvolvimento Industrial - CNDI.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.401-de-13-de-marco-de-2025-617901471",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12401.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.402-de-13-de-marco-de-2025-617941057",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.402, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.666, de 27 de novembro de 2008, que institui, no âmbito do Poder Executivo federal, a Infraestrutura Nacional de Dados Espaciais - INDE.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.402-de-13-de-marco-de-2025-617941057",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12402.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.403-de-13-de-marco-de-2025-617912409",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.403, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Técnica entre o Governo da República Federativa do Brasil e o Governo da República de Ruanda, firmado em Nova Iorque, em 26 de setembro de 2007.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.403-de-13-de-marco-de-2025-617912409",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12403.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.404-de-13-de-marco-de-2025-617949308",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.404, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Ajuste Complementar ao Acordo para Permissão de Residência, Estudo e Trabalho a Nacionais Fronteiriços Brasileiros e Uruguaios, para a Prestação de Serviços de Assistência de Emergência e Cooperação em Defesa Civil, firmado em Montevidéu, em 7 de novembro de 2013.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.404-de-13-de-marco-de-2025-617949308",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12404.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.405-de-13-de-marco-de-2025-617916515",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.405, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Indonésia sobre Cooperação em Matéria de Defesa, firmado no Rio de Janeiro, em 5 de abril de 2017.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.405-de-13-de-marco-de-2025-617916515",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12405.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.406-de-13-de-marco-de-2025-617945892",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.406, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga a Convenção entre a República Federativa do Brasil e o Reino da Noruega para a Eliminação da Dupla Tributação em relação aos Tributos sobre a Renda e a Prevenção da Evasão e da Elisão Fiscais e o seu Protocolo, firmados em Brasília, em 4 de novembro de 2022.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.406-de-13-de-marco-de-2025-617945892",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12406.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.407-de-13-de-marco-de-2025-617946696",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.407, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Sociedade Rádio Emissora Paranaense S.A., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Londrina, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.407-de-13-de-marco-de-2025-617946696",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12407.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.408-de-13-de-marco-de-2025-617909689",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.408, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Autoriza, em caráter excepcional e temporário, o comércio interestadual de leite fluido pasteurizado e ultrapasteurizado, de mel e de ovosin naturaproduzidos em estabelecimentos registrados em serviços de inspeção estadual, distrital e municipal com cadastro geral ativo no Sistema de Gestão de Serviços de Inspeção - e-Sisbi.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.408-de-13-de-marco-de-2025-617909689",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12408.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.409-de-13-de-marco-de-2025-617901422",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.409, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.740, de 18 de outubro de 2023, que regulamenta a Lei nº 14.399, de 8 de julho de 2022, que institui a Política Nacional Aldir Blanc de Fomento à Cultura.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.409-de-13-de-marco-de-2025-617901422",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12409.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.410-de-13-de-marco-de-2025-617944836",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "DECRETO Nº 12.410, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta o Programa Diversidade na Universidade, de que trata a Lei nº 10.558, de 13 de novembro de 2002, e institui a Rede Nacional de Cursinhos Populares.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.410-de-13-de-marco-de-2025-617944836",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12410.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.108-de-13-de-marco-de-2025-617941801",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "LEI Nº 15.108, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o § 2º do art. 16 da Lei nº 8.213, de 24 de julho de 1991, para equiparar ao filho do segurado o menor sob sua guarda judicial, mediante declaração do segurado, desde que o menor não possua condições suficientes para o próprio sustento e educação.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.108-de-13-de-marco-de-2025-617941801",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15108.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.109-de-13-de-marco-de-2025-617901615",
+    "tipo": "ato",
+    "data": "2025-03-14",
+    "titulo": "LEI Nº 15.109, DE 13 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para dispensar o advogado do adiantamento de custas processuais em ações de cobrança e em execuções de honorários advocatícios.",
+    "datasAto": {
+      "assinatura": "2025-03-13",
+      "publicacao": "2025-03-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.109-de-13-de-marco-de-2025-617901615",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15109.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-14:08:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-14",
+    "hora": "08:30",
+    "titulo": "Partida para Sorocaba",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-14:09:50:1",
+    "tipo": "agenda",
+    "data": "2025-03-14",
+    "hora": "09:50",
+    "titulo": "Chegada a Sorocaba",
+    "local": "Aeroporto Estadual de Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-14:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-14",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Entrega de 789 Novas Ambulâncias do SAMU",
+    "local": "Rua Professora Célia Cangro Marques Mendes, 1000 – Alto da Boa Vista – Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-14:22:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-14",
+    "hora": "22:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-14:23:20:1",
+    "tipo": "agenda",
+    "data": "2025-03-14",
+    "hora": "23:20",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.411-de-14-de-marco-de-2025-617967738",
+    "tipo": "ato",
+    "data": "2025-03-17",
+    "titulo": "DECRETO Nº 12.411, DE 14 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Conselho Nacional dos Direitos da Pessoa com Deficiência.",
+    "datasAto": {
+      "assinatura": "2025-03-14",
+      "publicacao": "2025-03-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.411-de-14-de-marco-de-2025-617967738",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12411.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "10:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "11:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "15:00",
+    "titulo": "Vice-Presidente da República e Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "16:00",
+    "titulo": "Presidente-executivo da Associação Nacional de Fabricantes de Produtos Eletroeletrônicos (Eletros), José Jorge do Nascimento Júnior, e CEO Midea Carrier Brasil, Luiz Felipe Rodrigues Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "17:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-17:19:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-17",
+    "hora": "19:30",
+    "titulo": "Cerimônia Solene de Posse dos eleitos para o Conselho Federal da Ordem dos Advogados do Brasil (CFOAB)",
+    "local": "Centro de Convenções Ulysses Guimarães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.110-de-17-de-marco-de-2025-635886408",
+    "tipo": "ato",
+    "data": "2025-03-18",
+    "titulo": "LEI Nº 15.110, DE 17 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional de Segurança da Vida nas Áreas de Barragens.",
+    "datasAto": {
+      "assinatura": "2025-03-17",
+      "publicacao": "2025-03-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.110-de-17-de-marco-de-2025-635886408",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15110.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.111-de-17-de-marco-de-2025-618246467",
+    "tipo": "ato",
+    "data": "2025-03-18",
+    "titulo": "LEI Nº 15.111, DE 17 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Criador de Cavalos.",
+    "datasAto": {
+      "assinatura": "2025-03-17",
+      "publicacao": "2025-03-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.111-de-17-de-marco-de-2025-618246467",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15111.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.112-de-17-de-marco-de-2025-618244366",
+    "tipo": "ato",
+    "data": "2025-03-18",
+    "titulo": "LEI Nº 15.112, DE 17 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.445, de 5 de janeiro de 2007 (Lei de Saneamento Básico), para prever a possibilidade de emprego de recursos públicos em serviços de drenagem e manejo de águas urbanas em condições emergenciais.",
+    "datasAto": {
+      "assinatura": "2025-03-17",
+      "publicacao": "2025-03-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.112-de-17-de-marco-de-2025-618244366",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15112.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "11:30",
+    "titulo": "Reunião para Anúncio do Envio do Projeto de Lei de Ampliação da Isenção do Imposto de Renda ao Congresso Nacional",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "13:30",
+    "titulo": "Partida para Sorocaba",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:14:50:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "14:50",
+    "titulo": "Chegada a Sorocaba (SP)",
+    "local": "Aeroporto Estadual de Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "15:30",
+    "titulo": "Visita à Fábrica da Toyota",
+    "local": "Avenida Toyota, 9005 – Itavuvu – Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "18:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Estadual de Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-18:19:50:1",
+    "tipo": "agenda",
+    "data": "2025-03-18",
+    "hora": "19:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.412-de-18-de-marco-de-2025-618511875",
+    "tipo": "ato",
+    "data": "2025-03-19",
+    "titulo": "DECRETO Nº 12.412, DE 18 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a governança dos recursos financeiros de natureza privada sob gestão do Poder Executivo federal para a supervisão das medidas reparatórias e a execução das medidas compensatórias coletivas de natureza socioeconômica e socioambiental relacionadas ao rompimento da barragem de Fundão, integrante do Complexo Minerário de Germano, localizada no Mun...",
+    "datasAto": {
+      "assinatura": "2025-03-18",
+      "publicacao": "2025-03-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.412-de-18-de-marco-de-2025-618511875",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12412.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.113-de-18-de-marco-de-2025-618504015",
+    "tipo": "ato",
+    "data": "2025-03-19",
+    "titulo": "LEI Nº 15.113, DE 18 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional a cerimônia do Kuarup, realizada no Parque Nacional do Xingu, no Estado de Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2025-03-18",
+      "publicacao": "2025-03-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.113-de-18-de-marco-de-2025-618504015",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15113.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "08:00",
+    "titulo": "Partida para Mossoró (RN)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:10:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "10:15",
+    "titulo": "Chegada a Mossoró (RN)",
+    "local": "Aeroporto Municipal Governador Dix-Sept Rosado – Mossoró (RN)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:11:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "11:15",
+    "titulo": "Visita à Barragem de Oiticica",
+    "local": "Jucurutu (RN)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:12:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "12:15",
+    "titulo": "Cerimônia de Inauguração da Barragem de Oiticica",
+    "local": "Jucurutu (RN)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:14:35:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "14:35",
+    "titulo": "Partida para Fortaleza",
+    "local": "Aeroporto Municipal Governador Dix-Sept Rosado – Mossoró (RN)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:15:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "15:15",
+    "titulo": "Chegada a Fortaleza",
+    "local": "Aeroporto Internacional Pinto Martins – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "16:00",
+    "titulo": "Visita às instalações da Torre C do Hospital Universitário do Ceará",
+    "local": "Rua Betel, s/n, Rachel de Queiroz – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "16:30",
+    "titulo": "Cerimônia de Inauguração do Hospital Universitário do Ceará",
+    "local": "Rua Betel, s/n, Rachel de Queiroz – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:18:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "18:15",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional Pinto Martins – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-19:20:55:1",
+    "tipo": "agenda",
+    "data": "2025-03-19",
+    "hora": "20:55",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.413-de-19-de-marco-de-2025-618778600",
+    "tipo": "ato",
+    "data": "2025-03-20",
+    "titulo": "DECRETO Nº 12.413, DE 19 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Revoga o Decreto nº 11.292, de 20 de dezembro de 2022, e restabelece os efeitos do Decreto de 15 de fevereiro de 2006, que outorga concessão à Fundação Educativa e Cultural Vivaldo Nascimento Piotto, para executar serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Passos, Estado de Minas Gerais. O PRESIDENTE DA R...",
+    "datasAto": {
+      "assinatura": "2025-03-19",
+      "publicacao": "2025-03-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.413-de-19-de-marco-de-2025-618778600",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12413.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.414-de-19-de-marco-de-2025-618779239",
+    "tipo": "ato",
+    "data": "2025-03-20",
+    "titulo": "DECRETO Nº 12.414, DE 19 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Cidade de Fortaleza Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Fortaleza, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-03-19",
+      "publicacao": "2025-03-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.414-de-19-de-marco-de-2025-618779239",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12414.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.415-de-20-de-marco-de-2025-619006849",
+    "tipo": "ato",
+    "data": "2025-03-20",
+    "titulo": "DECRETO Nº 12.415, DE 20 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê Gestor das Operações de Crédito Consignado e as competências previstas nos art. 1º, § 10, art. 2º-A, § 1º, e art. 5º da Lei nº 10.820, de 17 de dezembro de 2003, com redação dada pela Medida Provisória nº 1.292, de 12 de março de 2025.",
+    "datasAto": {
+      "assinatura": "2025-03-20",
+      "publicacao": "2025-03-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.415-de-20-de-marco-de-2025-619006849",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12415.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.114-de-19-de-marco-de-2025-618780586",
+    "tipo": "ato",
+    "data": "2025-03-20",
+    "titulo": "LEI Nº 15.114, DE 19 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 383.000.000,00 (trezentos e oitenta e três milhões de reais), para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2025-03-19",
+      "publicacao": "2025-03-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.114-de-19-de-marco-de-2025-618780586",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15114.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-20:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-20",
+    "hora": "11:30",
+    "titulo": "Prefeito do Recife, João Campos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-20:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-20",
+    "hora": "15:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-20:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-20",
+    "hora": "17:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.416-de-21-de-marco-de-2025-619281491",
+    "tipo": "ato",
+    "data": "2025-03-21",
+    "titulo": "DECRETO Nº 12.416, DE 21 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução orçamentária dos órgãos, dos fundos e das entidades do Poder Executivo federal.",
+    "datasAto": {
+      "assinatura": "2025-03-21",
+      "publicacao": "2025-03-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.416-de-21-de-marco-de-2025-619281491",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12416.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-215-de-21-de-marco-de-2025-619281876",
+    "tipo": "ato",
+    "data": "2025-03-21",
+    "titulo": "LEI COMPLEMENTAR Nº 215, DE 21 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre extensão do prazo para liquidação de restos a pagar não processados de que trata o art. 172 da Lei nº 14.791, de 29 de dezembro de 2023 (Lei de Diretrizes Orçamentárias de 2024).",
+    "datasAto": {
+      "assinatura": "2025-03-21",
+      "publicacao": "2025-03-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-215-de-21-de-marco-de-2025-619281876",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-21:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-21",
+    "hora": "09:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe de Gabinete Adjunto de Agenda do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-21:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-21",
+    "hora": "11:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-21:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-21",
+    "hora": "15:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-22:21:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-22",
+    "hora": "21:00",
+    "titulo": "Partida para Houston (Texas)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-23:04:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-23",
+    "hora": "04:15",
+    "titulo": "Chegada a Houston, Texas",
+    "local": "Aeroporto Intercontinental George Bush",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-23:06:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-23",
+    "hora": "06:40",
+    "titulo": "Partida para Tóquio",
+    "local": "Aeroporto Intercontinental George Bush",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.417-de-21-de-marco-de-2025-619287803",
+    "tipo": "ato",
+    "data": "2025-03-24",
+    "titulo": "DECRETO Nº 12.417, DE 21 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta o art. 6º, § 5º, e o art. 12-A da Lei nº 14.601, de 19 de junho de 2023, e altera o Decreto nº 12.064, de 17 de junho de 2024.",
+    "datasAto": {
+      "assinatura": "2025-03-21",
+      "publicacao": "2025-03-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.417-de-21-de-marco-de-2025-619287803",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12417.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.418-de-21-de-marco-de-2025-619290413",
+    "tipo": "ato",
+    "data": "2025-03-24",
+    "titulo": "DECRETO Nº 12.418, DE 21 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria o Consulado-Geral do Brasil na Cidade do México e altera o Decreto nº 1.018, de 23 de dezembro de 1993.",
+    "datasAto": {
+      "assinatura": "2025-03-21",
+      "publicacao": "2025-03-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.418-de-21-de-marco-de-2025-619290413",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12418.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-24:10:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-24",
+    "hora": "10:15",
+    "titulo": "Chegada a Tóquio",
+    "local": "Aeroporto Internacional de Tóquio (Haneda)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:09:20:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "09:20",
+    "titulo": "Cerimônia de boas-vindas",
+    "local": "Palácio Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:09:35:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "09:35",
+    "titulo": "Encontro reservado com Suas Majestades o Imperador Naruhito e a Imperatriz Masako",
+    "local": "Palácio Imperial - Sala de Audiências (Take-no-ma)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "11:00",
+    "titulo": "Reunião com integrantes da Associação Brasileira das Indústrias Exportadoras de Carnes (ABIEC)",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "13:00",
+    "titulo": "Almoço privado",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "15:00",
+    "titulo": "Reunião com o CEO da Embraer, Francisco Gomes Neto",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-25:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-25",
+    "hora": "19:00",
+    "titulo": "Jantar oferecido por Suas Majestades Imperiais, o Imperador Naruhito e a Imperatriz Masako, em homenagem ao Presidente da República e à Senhora Janja Lula da Silva",
+    "local": "Palácio Imperial - Salão de Banquetes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.419-de-25-de-marco-de-2025-619882906",
+    "tipo": "ato",
+    "data": "2025-03-26",
+    "titulo": "DECRETO Nº 12.419, DE 25 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.310, de 26 de dezembro de 2022, para dispor sobre o Comitê Interministerial de Segurança de Barragens.",
+    "datasAto": {
+      "assinatura": "2025-03-25",
+      "publicacao": "2025-03-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.419-de-25-de-marco-de-2025-619882906",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12419.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.420-de-25-de-dezembro-de-2025-619903503",
+    "tipo": "ato",
+    "data": "2025-03-26",
+    "titulo": "DECRETO Nº 12.420, DE 25 DE DEZEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Presidência da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima - COP30 e aprova o seu Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança; altera o Decreto nº 11.329, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções d...",
+    "datasAto": {
+      "assinatura": "2025-12-25",
+      "publicacao": "2025-03-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.420-de-25-de-dezembro-de-2025-619903503",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12420.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "10:00",
+    "titulo": "Reunião com representantes sindicais japoneses",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:12:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "12:15",
+    "titulo": "Sessão de encerramento do Fórum Empresarial Brasil-Japão",
+    "local": "Hotel New Otani",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "15:00",
+    "titulo": "Reunião com representantes da Associação de Pesquisadores brasileiros no Japão - ABrJ",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:16:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "16:15",
+    "titulo": "Audiência concedida ao Presidente da Fundação Nippon e Embaixador da Boa Vontade da Organização Mundial da Saúde para a Eliminação da Hanseníase, Yohei Sasakawa",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:18:10:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "18:10",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro do Japão, Shigeru Ishiba",
+    "local": "Palácio Akasaka",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:19:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "19:15",
+    "titulo": "Cerimônia de anúncio de plano de ação e menção aos atos previamente assinados",
+    "local": "Palácio Akasaka",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-26:19:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-26",
+    "hora": "19:40",
+    "titulo": "Jantar oferecido pelo Primeiro-Ministro do Japão, Shigeru Ishiba, em homenagem ao Presidente da República",
+    "local": "Palácio de Akasaka",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-27",
+    "hora": "10:00",
+    "titulo": "Cerimônia de despedida",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-27:10:20:1",
+    "tipo": "agenda",
+    "data": "2025-03-27",
+    "hora": "10:20",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Hotel Imperial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-27:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-27",
+    "hora": "12:00",
+    "titulo": "Partida para Hanói - Vietnã",
+    "local": "Aeroporto Internacional Haneda – Japão",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-27:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-27",
+    "hora": "16:00",
+    "titulo": "Chegada a Hanói",
+    "local": "Aeroporto Internacional de Noi Bai – Vietnã",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.421-de-27-de-marco-de-2025-620738274",
+    "tipo": "ato",
+    "data": "2025-03-28",
+    "titulo": "DECRETO Nº 12.421, DE 27 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Anexo ao Decreto nº 12.366, de 17 de janeiro de 2025, que distribui o efetivo de oficiais da Aeronáutica em tempo de paz para 2025.",
+    "datasAto": {
+      "assinatura": "2025-03-27",
+      "publicacao": "2025-03-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.421-de-27-de-marco-de-2025-620738274",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12421.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.293-de-27-de-marco-de-2025-620732999",
+    "tipo": "ato",
+    "data": "2025-03-28",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.293, DE 27 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.954, de 16 de dezembro de 2019, para dispor sobre os soldos dos militares das Forças Armadas.",
+    "datasAto": {
+      "assinatura": "2025-03-27",
+      "publicacao": "2025-03-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.293-de-27-de-marco-de-2025-620732999",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:08:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "08:45",
+    "titulo": "Aposição de coroa de flores no Monumento aos Heróis e Mártires",
+    "local": "Monumento aos Heróis e Mártires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "09:00",
+    "titulo": "Aposição de coroa de flores e visita ao Mausoléu do Presidente Ho Chi Minh",
+    "local": "Mausoléu do Presidente Ho Chi Minh",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:09:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "09:15",
+    "titulo": "Cerimônia oficial de boas-vindas",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "09:30",
+    "titulo": "Encontro com o Presidente da República Socialista do Vietnã, Luong Cuong",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "10:30",
+    "titulo": "Cerimônia de Assinatura de Atos",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:10:40:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "10:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "11:00",
+    "titulo": "Encontro com o Secretário-Geral do Comitê Central do Partido Comunista do Vietnã, Tô Lâm",
+    "local": "Sede do Partido Comunista do Vietnã",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:14:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "14:30",
+    "titulo": "Encontro com o Presidente da Assembleia Nacional do Vietnã, Trần Thanh Mẫn",
+    "local": "Assembleia Nacional",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:15:20:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "15:20",
+    "titulo": "Encontro com o Primeiro-Ministro do Vietnã, Pham Minh Chinh",
+    "local": "Palácio do Governo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-28:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-28",
+    "hora": "19:00",
+    "titulo": "Recepção oficial oferecida pelo Presidente Luong Cuong em homenagem ao Presidente da República",
+    "local": "Centro Internacional de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:09:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "09:45",
+    "titulo": "Visita ao Museu de História Militar do Vietnã, na companhia do Presidente do Vietnã",
+    "local": "Museu de História Militar do Vietnã",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "11:30",
+    "titulo": "Encerramento do seminário empresarial Brasil-Vietnã",
+    "local": "Hotel Sofitel Legend Metropole Hanoi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "12:00",
+    "titulo": "Almoço oferecido pelo Primeiro-Ministro do Vietnã, Pham Minh Chinh",
+    "local": "Hotel Sofitel Legend Metropole Hanoi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "13:30",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Hotel Sofitel Legend Metropole Hanoi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:15:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "15:45",
+    "titulo": "Partida para Abu Dhabi",
+    "local": "Aeroporto Internacional de Noi Bai",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:18:15:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "18:15",
+    "titulo": "Chegada a Abu Dhabi",
+    "local": "Aeroporto Internacional Zayed",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-29:21:45:1",
+    "tipo": "agenda",
+    "data": "2025-03-29",
+    "hora": "21:45",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional Zayed",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.115-de-28-de-marco-de-2025-620757468",
+    "tipo": "ato",
+    "data": "2025-03-31",
+    "titulo": "LEI Nº 15.115, DE 28 DE MARÇO DE 2025",
+    "status": "publicado",
+    "ementa": "Inscreve o nome de João Carlos de Oliveira, conhecido como João do Pulo, no Livro dos Heróis e Heroínas da Pátria.",
+    "datasAto": {
+      "assinatura": "2025-03-28",
+      "publicacao": "2025-03-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.115-de-28-de-marco-de-2025-620757468",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15115.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "11:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "15:30",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "16:30",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-03-31:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-03-31",
+    "hora": "17:00",
+    "titulo": "Ministro dos Transportes, Renan Filho",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-03-31",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

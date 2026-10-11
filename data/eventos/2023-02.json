@@ -1,0 +1,2766 @@
+[
+  {
+    "id": "agenda:2023-02-01:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "09:00",
+    "titulo": "Alexandre Padilha e Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "10:00",
+    "titulo": "Sessão Solene de Abertura do Ano Judiciário de 2023",
+    "local": "Plenário do Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "16:00",
+    "titulo": "Ministro da Integração e do Desenvolvimento Regional, Waldez Góes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "18:00",
+    "titulo": "Ministro da Secretaria-Geral da Presidência da República, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "18:30",
+    "titulo": "Deputado federal Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "19:00",
+    "titulo": "Deputado Federal Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-01:20:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-01",
+    "hora": "20:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.408-de-2-de-fevereiro-de-2023-461919672",
+    "tipo": "ato",
+    "data": "2023-02-02",
+    "titulo": "DECRETO Nº 11.408, DE 2 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Delega à Ministra de Estado do Planejamento e Orçamento competência para a prática dos atos que especifica.",
+    "datasAto": {
+      "assinatura": "2023-02-02",
+      "publicacao": "2023-02-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.408-de-2-de-fevereiro-de-2023-461919672",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11408.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "09:30",
+    "titulo": "Entrevista",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e o Líder do Governo na Câmara dos Deputados, Deputado Federal José Guimarães",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "11:30",
+    "titulo": "Presidente do Tribunal de Contas da União (TCU), Ministro Bruno Dantas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria-Geral da Presidência da República, Márcio Macêdo, Deputada Federal Gleisi Hoffmann, e a Senhora Monica Valente",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "17:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-02:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-02",
+    "hora": "18:30",
+    "titulo": "Ministro da Integração e do Desenvolvimento Regional, Waldez Góes, Ministro das Cidades, Jader Filho, e o Prefeito de Araraquara, Edinho Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "09:30",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "10:00",
+    "titulo": "Apresentação de cartas credenciais da Embaixadora do Reino Unido no Brasil, Stephanie Al-Qaq",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "10:30",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da China no Brasil, Zhu Qingqiao",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "11:00",
+    "titulo": "Apresentação de cartas credenciais da Embaixadora da Síria, Rania Al Haj Ali",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "11:30",
+    "titulo": "Apresentação de cartas credenciais do Embaixador do Zimbábue no Brasil, Meshack Kitchen",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "12:00",
+    "titulo": "Apresentação de cartas credenciais do Embaixador de El Salvador no Brasil, Luis Oswaldo López Álvarez",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "14:30",
+    "titulo": "Apresentação de cartas credenciais da Embaixadora da República Tcheca no Brasil, Pavla Hvrlíková",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "15:00",
+    "titulo": "Apresentação de cartas credenciais do Embaixador das Filipinas no Brasil, Joseph Angeles",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "15:30",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da Turquia no Brasil, Halil Ibrahim Akça",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "16:00",
+    "titulo": "Apresentação de cartas credenciais da Embaixadora dos Estados Unidos da América no Brasil, Elizabeth Bagley",
+    "local": "Sala de Audiências, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-03:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-03",
+    "hora": "18:00",
+    "titulo": "Partida para São Paulo",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "09:30",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "III COMAR (Aeroporto Santos Dumont)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "10:00",
+    "titulo": "Cerimônia de posse do Presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante",
+    "local": "Edifício-sede do BNDES, Auditório",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "15:00",
+    "titulo": "Cerimônia de inauguração de unidades do complexo Super Centro Carioca de Saúde, com o Prefeito do Rio de Janeiro, Eduardo Paes",
+    "local": "Benfica, Rio de Janeiro (RJ)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:15:15:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "15:15",
+    "titulo": "Anúncio do lançamento da Política Nacional de Redução das Filas de Cirurgias Eletivas, com a Ministra da Saúde, Nísia Trindade",
+    "local": "Benfica, Rio de Janeiro (RJ)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:16:50:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "16:50",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea do Galeão",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-06:18:10:1",
+    "tipo": "agenda",
+    "data": "2023-02-06",
+    "hora": "18:10",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "09:30",
+    "titulo": "Café da manhã com Mídia Independente e Alternativa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "11:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira, e Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "15:00",
+    "titulo": "Ministra do Esporte, Ana Moser, e o Presidente da Agência Mundial Antidopagem (AMA-WADA), Witold Ba´´´nka",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "16:00",
+    "titulo": "Ex-governador de Pernambuco, Paulo Câmara",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-07:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-07",
+    "hora": "17:00",
+    "titulo": "Senhor Acioli Cancellier de Olivo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-07",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.409-de-7-de-fevereiro-de-2023-462932723",
+    "tipo": "ato",
+    "data": "2023-02-08",
+    "titulo": "DECRETO Nº 11.409, DE 7 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interministerial com a finalidade de apresentar estudos e propostas de viabilidade de reversão de desestatização e liquidação da empresa pública Centro Nacional de Tecnologia Eletrônica Avançada S.A. - CEITEC e proposta de participação no fomento da política de pesquisa e desenvolvimento de semicondutores. O PRESIDENTE DA REPÚ...",
+    "datasAto": {
+      "assinatura": "2023-02-07",
+      "publicacao": "2023-02-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.409-de-7-de-fevereiro-de-2023-462932723",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11409.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "09:30",
+    "titulo": "Café da manhã de trabalho com o Conselho Político da Coalizão",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "12:30",
+    "titulo": "Telefonema com o Presidente da República do Chile, Gabriel Boric Font",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "13:00",
+    "titulo": "Deputado Federal Rui Falcão e Deputado Federal Carlos Zarattini",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "15:00",
+    "titulo": "Ministra da Europa e dos Negócios Estrangeiros da República Francesa, Catherine Colonna",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "17:00",
+    "titulo": "Encontro com o grupo Influenciadores pela Democracia",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "18:00",
+    "titulo": "Presidenta do Banco do Brasil, Tarciana Medeiros",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-08:19:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-08",
+    "hora": "19:30",
+    "titulo": "Visita à exposição Brasil Futuro: as Formas da Democracia",
+    "local": "Museu Nacional da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.410-de-8-de-fevereiro-de-2023-463362774",
+    "tipo": "ato",
+    "data": "2023-02-09",
+    "titulo": "DECRETO Nº 11.410, DE 8 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre as competências da Secretaria-Executiva da Câmara de Comércio Exterior do Ministério do Desenvolvimento, Indústria, Comércio e Serviços quanto à gestão dos recursos do Fundo de Garantia à Exportação - FGE.",
+    "datasAto": {
+      "assinatura": "2023-02-08",
+      "publicacao": "2023-02-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.410-de-8-de-fevereiro-de-2023-463362774",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11410.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.411-de-8-de-fevereiro-de-2023-463479368",
+    "tipo": "ato",
+    "data": "2023-02-09",
+    "titulo": "DECRETO Nº 11.411, DE 8 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Regulamenta a licença para o desempenho de mandato classista de que trata o art. 92 da Lei nº 8.112, de 11 de dezembro de 1990.",
+    "datasAto": {
+      "assinatura": "2023-02-08",
+      "publicacao": "2023-02-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.411-de-8-de-fevereiro-de-2023-463479368",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11411.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-09:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-09",
+    "hora": "10:00",
+    "titulo": "Partida para Washington",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-09:16:10:1",
+    "tipo": "agenda",
+    "data": "2023-02-09",
+    "hora": "16:10",
+    "titulo": "Chegada em Washington (fuso horário -2h em relação a Brasília)",
+    "local": "Base Aérea de Andrews",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.412-de-10-de-fevereiro-de-2023-463852209",
+    "tipo": "ato",
+    "data": "2023-02-10",
+    "titulo": "DECRETO Nº 11.412, DE 10 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Conselho do Programa de Parcerias de Investimentos.",
+    "datasAto": {
+      "assinatura": "2023-02-10",
+      "publicacao": "2023-02-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.412-de-10-de-fevereiro-de-2023-463852209",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11412.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.161-de-10-de-fevereiro-de-2023-463852128",
+    "tipo": "ato",
+    "data": "2023-02-10",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.161, DE 10 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.334, de 13 de setembro de 2016, que cria o Programa de Parcerias de Investimentos - PPI.",
+    "datasAto": {
+      "assinatura": "2023-02-10",
+      "publicacao": "2023-02-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.161-de-10-de-fevereiro-de-2023-463852128",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "10:30",
+    "titulo": "Audiência com o Senador Bernie Sanders (horário de Washington, -2h em relação a Brasília)",
+    "local": "Blair House",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:11:15:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "11:15",
+    "titulo": "Audiência com Deputados do Partido Democrata",
+    "local": "Blair House",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "12:00",
+    "titulo": "Encontro com representantes da Federação Americana de Trabalho e Congresso de Organizações Industriais (AFL-CIO)",
+    "local": "Blair House",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "15:30",
+    "titulo": "Fotografia oficial",
+    "local": "Casa Branca",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "16:00",
+    "titulo": "Reunião com o Presidente dos Estados Unidos da América, Joe Biden",
+    "local": "Casa Branca – Salão Oval",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-10:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-10",
+    "hora": "16:30",
+    "titulo": "Reunião ampliada com o Presidente dos Estados Unidos da América, Joe Biden",
+    "local": "Casa Branca – Cabinet Room",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-11",
+    "hora": "10:00",
+    "titulo": "Partida para Brasília (horário de Washington)",
+    "local": "Base Aérea de Andrews",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-11:20:10:1",
+    "tipo": "agenda",
+    "data": "2023-02-11",
+    "hora": "20:10",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.413-de-13-de-fevereiro-de-2023-464158637",
+    "tipo": "ato",
+    "data": "2023-02-13",
+    "titulo": "DECRETO Nº 11.413, DE 13 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Certificado de Crédito de Reciclagem de Logística Reversa, o Certificado de Estruturação e Reciclagem de Embalagens em Geral e o Certificado de Crédito de Massa Futura, no âmbito dos sistemas de logística reversa de que trata o art. 33 da Lei nº 12.305, de 2 de agosto de 2010.",
+    "datasAto": {
+      "assinatura": "2023-02-13",
+      "publicacao": "2023-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.413-de-13-de-fevereiro-de-2023-464158637",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11413.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.414-de-13-de-fevereiro-de-2023-464158550",
+    "tipo": "ato",
+    "data": "2023-02-13",
+    "titulo": "DECRETO Nº 11.414, DE 13 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Diogo de Sant'Ana Pró-Catadoras e Pró-Catadores para a Reciclagem Popular e o Comitê Interministerial para Inclusão Socioeconômica de Catadoras e Catadores de Materiais Reutilizáveis e Recicláveis.",
+    "datasAto": {
+      "assinatura": "2023-02-13",
+      "publicacao": "2023-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.414-de-13-de-fevereiro-de-2023-464158550",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11414.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "09:30",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "11:00",
+    "titulo": "Cerimônia de assinatura dos decretos de recriação do Programa Pró-catador e de revisão do Programa Recicla+",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "15:00",
+    "titulo": "Presidente do Conselho de Administração da Península Participações, Abilio Diniz",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "16:00",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira, Presidente da Petrobras, Jean Paul Prates, e o Presidente da Shell, Wael Sawan",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "17:00",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira, e o Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-13:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-13",
+    "hora": "19:00",
+    "titulo": "Ato de Aniversário do Partido dos Trabalhadores",
+    "local": "Auditório do Centro de Convenções Ulysses Guimarães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "10:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "11:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "13:00",
+    "titulo": "Partida para Salvador",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:14:50:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "14:50",
+    "titulo": "Chegada em Salvador",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-14:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-14",
+    "hora": "16:00",
+    "titulo": "Lançamento do novo programa Minha Casa Minha Vida e entrega de empreendimentos do programa em Santo Amaro (BA) e, simultaneamente, em outras cidades do país",
+    "local": "Residencial Vida Nova Sacramento e Residencial Vida Nova Santo Amaro I – Santo Amaro (BA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-14",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.162-de-14-de-fevereiro-de-2023-464593766",
+    "tipo": "ato",
+    "data": "2023-02-15",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.162, DE 14 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Programa Minha Casa, Minha Vida, altera a Lei nº 6.015, de 31 de dezembro de 1973, a Lei nº 8.677, de 13 de julho de 1993, a Lei nº 9.514, de 20 de novembro de 1997, a Lei nº 10.188, de 12 de fevereiro de 2001, a Lei nº 11.977, de 7 de julho de 2009, a Lei nº 14.063, de 23 de setembro de 2020, e a Lei nº 14.382, de 27 de junho d...",
+    "datasAto": {
+      "assinatura": "2023-02-14",
+      "publicacao": "2023-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.162-de-14-de-fevereiro-de-2023-464593766",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "09:00",
+    "titulo": "Partida para Aracaju",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:09:45:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "09:45",
+    "titulo": "Chegada em Aracaju",
+    "local": "Aeroporto Internacional de Aracaju",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "10:30",
+    "titulo": "Visita a canteiro de obras da frente de trabalho para a duplicação da BR-101/SE",
+    "local": "BR-101, km 75, Maruim (SE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "11:00",
+    "titulo": "Cerimônia alusiva à visita à frente de trabalho para duplicação da BR-101/SE e anúncio de retomada",
+    "local": "Praça Barão de Maruim, Maruim (SE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:13:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "13:30",
+    "titulo": "Almoço de trabalho com o Governador de Sergipe, Fábio Mitidieri, e bancada do estado no Congresso",
+    "local": "Aracaju (SE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "16:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Aracaju",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:17:50:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "17:50",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-15:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-15",
+    "hora": "18:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-15",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.415-de-16-de-fevereiro-de-2023-465073848",
+    "tipo": "ato",
+    "data": "2023-02-16",
+    "titulo": "DECRETO Nº 11.415, DE 16 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2023 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-02-16",
+      "publicacao": "2023-02-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.415-de-16-de-fevereiro-de-2023-465073848",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11415.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "09:30",
+    "titulo": "Entrevista",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "11:00",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "12:00",
+    "titulo": "Telefonema com a Presidente da Comissão Europeia, Ursula von der Leyen",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "15:00",
+    "titulo": "Cerimônia de anúncio dos novos valores e da expansão das bolsas CAPES, CNPq e do Programa de Bolsa Permanência (MEC)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "17:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e o Secretário do Conselho de Desenvolvimento Econômico Social Sustentável, Paulo Pereira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-16:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-16",
+    "hora": "18:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.416-de-16-de-fevereiro-de-2023-465093133",
+    "tipo": "ato",
+    "data": "2023-02-17",
+    "titulo": "DECRETO Nº 11.416, DE 16 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Turismo e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-02-16",
+      "publicacao": "2023-02-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.416-de-16-de-fevereiro-de-2023-465093133",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11416.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.417-de-16-de-fevereiro-de-2023-464998532",
+    "tipo": "ato",
+    "data": "2023-02-17",
+    "titulo": "DECRETO Nº 11.417, DE 16 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 99.274, de 6 de junho de 1990, para dispor sobre a composição e o funcionamento do Conselho Nacional do Meio Ambiente - Conama.",
+    "datasAto": {
+      "assinatura": "2023-02-16",
+      "publicacao": "2023-02-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.417-de-16-de-fevereiro-de-2023-464998532",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11417.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-17",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-17:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-17",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-17:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-17",
+    "hora": "11:30",
+    "titulo": "Ministro da Agricultura e Pecuária, Carlos Fávaro",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-17:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-17",
+    "hora": "16:00",
+    "titulo": "Embarque para Salvador",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-20:08:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-20",
+    "hora": "08:00",
+    "titulo": "Partida para São José dos Campos (SP)",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-20:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-20",
+    "hora": "11:00",
+    "titulo": "Visita de apoio à cidade de São Sebastião (SP) em decorrência das enchentes",
+    "local": "São Sebastião (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-20:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-20",
+    "hora": "12:00",
+    "titulo": "Declaração à imprensa e anúncio de ações emergenciais para a população",
+    "local": "São Sebastião (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-20:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-20",
+    "hora": "15:30",
+    "titulo": "Partida para Salvador (BA)",
+    "local": "Aeroporto de São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-22:08:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-22",
+    "hora": "08:00",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-22",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-22:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-22",
+    "hora": "10:00",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-22",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-22:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-22",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro dos Transportes, Renan Filho, Ministro da Integração e do Desenvolvimento Regional, Waldez Góes, Ministro das Cidades, Jader Filho, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, Ministro da Secretaria de Comunicação Social, Paulo Pimenta, e o Secretário-Executivo do Ministério da Fazenda, Gabriel Galípolo",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-22",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-22:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-22",
+    "hora": "16:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Agricultura e Pecuária, Carlos Fávaro; Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias; Ministro da Integração e do Desenvolvimento Regional, Waldez Góes; Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira; Ministro da Secretaria de Comunicação Social, Paulo Pimenta; e o Secretário-Executivo do Ministério da Fazenda, Gabriel Galípolo",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-22",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-23:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-23",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-23:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-23",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Deputada Federal Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-23",
+    "hora": "15:00",
+    "titulo": "Ministro da Controladoria-Geral da União, Vinícius Carvalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-23:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-23",
+    "hora": "16:00",
+    "titulo": "Ministro dos Negócios Estrangeiros da República Portuguesa, João Gomes Cravinho, Ministro das Relações Exteriores, Mauro Vieira, e o Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-23:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-23",
+    "hora": "16:30",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.418-de-24-de-fevereiro-de-2023-466038990",
+    "tipo": "ato",
+    "data": "2023-02-24",
+    "titulo": "DECRETO Nº 11.418, DE 24 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 3.520, de 21 de junho de 2000, que dispõe sobre a estrutura e o funcionamento do Conselho Nacional de Política Energética - CNPE.",
+    "datasAto": {
+      "assinatura": "2023-02-24",
+      "publicacao": "2023-02-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.418-de-24-de-fevereiro-de-2023-466038990",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11418.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.419-de-24-de-fevereiro-de-2023-466138897",
+    "tipo": "ato",
+    "data": "2023-02-24",
+    "titulo": "DECRETO Nº 11.419, DE 24 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.108, de 29 de junho de 2022, que institui a Política Mineral Brasileira e o Conselho Nacional de Política Mineral.",
+    "datasAto": {
+      "assinatura": "2023-02-24",
+      "publicacao": "2023-02-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.419-de-24-de-fevereiro-de-2023-466138897",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11419.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "09:00",
+    "titulo": "Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "10:00",
+    "titulo": "Secretário de Produção e Divulgação de Conteúdo Audiovisual da SECOM, Ricardo Stuckert",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "11:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Flávio Dino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "15:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "15:30",
+    "titulo": "Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-24:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-24",
+    "hora": "16:30",
+    "titulo": "Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.420-de-24-de-fevereiro-de-2023-466039083",
+    "tipo": "ato",
+    "data": "2023-02-27",
+    "titulo": "DECRETO Nº 11.420, DE 24 DE FEVEREIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho para a elaboração de proposta de Política de Valorização do Salário Mínimo.",
+    "datasAto": {
+      "assinatura": "2023-02-24",
+      "publicacao": "2023-02-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.420-de-24-de-fevereiro-de-2023-466039083",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11420.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta, Secretário de Imprensa da SECOM, José Chrispiniano, Secretário de Produção e Divulgação de Conteúdo Audiovisual da SECOM, Ricardo Stuckert, e o Assessor Especial do Ministro da SECOM, José Rezende de Almeida Júnior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "09:30",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, Ministro de Minas e Energia, Alexandre Silveira, e Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "11:30",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "15:00",
+    "titulo": "Ato de lançamento da Mobilização Nacional pela Vacinação, com a Ministra da Saúde, Nísia Trindade",
+    "local": "Centro de Saúde nº 1 - Guará",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "16:30",
+    "titulo": "Senador Jaques Wagner",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "17:00",
+    "titulo": "Governador do Pará, Helder Barbalho, e o Senador Jader Barbalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-27:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-27",
+    "hora": "18:00",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira, e o Presidente Substituto do Instituto Nacional de Colonização e Reforma Agrária (Incra), César Fernando Schiavon Aldrighi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, Ministro de Minas e Energia, Alexandre Silveira, e Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "11:00",
+    "titulo": "Cerimônia de reinstalação do Conselho Nacional de Segurança Alimentar e Nutricional – CONSEA",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "16:00",
+    "titulo": "Presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-02-28:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-02-28",
+    "hora": "17:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, Líder do Governo no Congresso Nacional, Senador Randolfe Rodrigues, e os Vice-líderes: Deputado Bohn Gass, Deputado Carlos Zarattini, Deputado Daniel Almeida, Deputado Dorinaldo Malafaia, Deputada Lídice da Mata, Deputado Lindbergh Farias, Deputado Reginaldo Lopes, Deputada Roseana Sarney, Deputado Otto Alencar Filho e Deputada Laura Carneiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-02-28",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

@@ -1,0 +1,4985 @@
+[
+  {
+    "id": "dou:lei-n-14.640-de-31-de-julho-de-2023-499871135",
+    "tipo": "ato",
+    "data": "2023-08-01",
+    "titulo": "LEI Nº 14.640, DE 31 DE JULHO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Escola em Tempo Integral; e altera a Lei nº 11.273, de 6 de fevereiro de 2006, a Lei nº 13.415, de 16 de fevereiro de 2017, e a Lei nº 14.172, de 10 de junho de 2021.",
+    "datasAto": {
+      "assinatura": "2023-07-31",
+      "publicacao": "2023-08-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.640-de-31-de-julho-de-2023-499871135",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14640.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:08:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "08:30",
+    "titulo": "Conversa com o Presidente",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "10:00",
+    "titulo": "Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "11:30",
+    "titulo": "Líder do Governo na Câmara dos Deputados, Deputado José Guimarães, e Padre Cícero José da Silva, da Diocese de Crato",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, Ministra do Planejamento e Orçamento, Simone Tebet, e Ministra da Gestão e Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "16:30",
+    "titulo": "Ministra da Igualdade Racial, Anielle Franco",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-01:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-01",
+    "hora": "17:30",
+    "titulo": "Ministra das Mulheres, Cida Gonçalves",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-01",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.622-de-1-de-agosto-de-2023-500154525",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "DECRETO Nº 11.622, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.422, de 28 de fevereiro de 2023, que dispõe sobre a Câmara Interministerial de Segurança Alimentar e Nutricional.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.622-de-1-de-agosto-de-2023-500154525",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11622.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.623-de-1-de-agosto-de-2023-500154629",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "DECRETO Nº 11.623, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Conselho Nacional de Turismo.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.623-de-1-de-agosto-de-2023-500154629",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11623.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.624-de-1-de-agosto-de-2023-500245352",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "DECRETO Nº 11.624, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Pesca e Aquicultura e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.624-de-1-de-agosto-de-2023-500245352",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11624.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-199-de-1-de-agosto-de-2023-500154324",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "LEI COMPLEMENTAR Nº 199, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Estatuto Nacional de Simplificação de Obrigações Tributárias Acessórias; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-199-de-1-de-agosto-de-2023-500154324",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-1.642-de-1-de-agosto-de-2023-500220852",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "LEI Nº 1.642, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Denomina João Batista Menegatti o viaduto localizado na rodovia BR-282, na travessia urbana do Município de Xanxerê, Estado de Santa Catarina.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-1.642-de-1-de-agosto-de-2023-500220852",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.641-de-1-de-agosto-de-2023-500154435",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "LEI Nº 14.641, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Declara manifestação da cultura nacional a tradição do uso, em romarias religiosas, do transporte conhecido como \"pau de arara\".",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.641-de-1-de-agosto-de-2023-500154435",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14641.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.183-de-1-de-agosto-de-2023-500220908",
+    "tipo": "ato",
+    "data": "2023-08-02",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.183, DE 1º DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério da Defesa, no valor de R$ 140.230.300,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.183-de-1-de-agosto-de-2023-500220908",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "09:00",
+    "titulo": "Telefonema com o Presidente da República da Indonésia, Joko Widodo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "09:30",
+    "titulo": "Café da manhã com correspondentes internacionais",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "11:30",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República Geraldo Alckmin, Ministro da Defesa, José Mucio, e o Economista Luciano Coutinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "12:30",
+    "titulo": "Encontro com o ativista indiano ganhador do Prêmio Nobel da Paz em 2014, Kailash Satyarthi, e o Presidente do Tribunal Superior do Trabalho e do Conselho Superior da Justiça do Trabalho, Ministro Lelio Bentes Corrêa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "16:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-02:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-02",
+    "hora": "16:30",
+    "titulo": "Cerimônia de Lançamento do Programa Povos da Pesca Artesanal",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-02",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.625-de-2-de-agosto-de-2023-500551174",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "DECRETO Nº 11.625, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 5.069, de 5 de maio de 2004, que dispõe sobre o Conselho Nacional de Aquicultura e Pesca - CONAPE.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.625-de-2-de-agosto-de-2023-500551174",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11625.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.626-de-2-de-agosto-de-2023-500551257",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "DECRETO Nº 11.626, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Povos da Pesca Artesanal.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.626-de-2-de-agosto-de-2023-500551257",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11626.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.627-de-2-de-agosto-de-2023-500551607",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "DECRETO Nº 11.627, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga o Ato de Genebra do Acordo de Haia referente ao Registro Internacional dos Desenhos Industriais, concluído em Genebra, em 2 de julho de 1999.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.627-de-2-de-agosto-de-2023-500551607",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11627.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.642-de-1-de-agosto-de-2023-*-500470021",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2023-08-01",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.642-de-1-de-agosto-de-2023-*-500470021",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14642.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.643-de-2-de-agosto-de-2023-500550915",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.643, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Autoriza o Poder Executivo a implantar serviço de monitoramento de ocorrências de violência escolar.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.643-de-2-de-agosto-de-2023-500550915",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14643.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.644-de-2-de-agosto-de-2023-500551000",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.644, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para prever a instituição de Conselhos Escolares e de Fóruns dos Conselhos Escolares.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.644-de-2-de-agosto-de-2023-500551000",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14644.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.645-de-2-de-agosto-de-2023-500551091",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.645, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para dispor sobre a educação profissional e tecnológica e articular a educação profissional técnica de nível médio com programas de aprendizagem profissional, e a Lei nº 8.742, de 7 de dezembro de 1993, para dispor sobre isenção do cômputo de determinados rendime...",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.645-de-2-de-agosto-de-2023-500551091",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14645.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.646-de-2-de-agosto-de-2023-500469944",
+    "tipo": "ato",
+    "data": "2023-08-03",
+    "titulo": "LEI Nº 14.646, DE 2 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Confere ao Município de Lagoa Dourada, no Estado de Minas Gerais, o título de Capital Nacional do Rocambole.",
+    "datasAto": {
+      "assinatura": "2023-08-02",
+      "publicacao": "2023-08-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.646-de-2-de-agosto-de-2023-500469944",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14646.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-03:08:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-03",
+    "hora": "08:30",
+    "titulo": "Entrevista para rádios da Amazônia",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-03",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-03:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-03",
+    "hora": "11:00",
+    "titulo": "Cerimônia de posse do novo Ministro do Turismo, Celso Sabino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-03",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-03:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-03",
+    "hora": "16:00",
+    "titulo": "Sessão Solene de Posse de Cristiano Zanin no cargo de Ministro do Supremo Tribunal Federal (STF)",
+    "local": "Plenário do Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-03",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-04",
+    "hora": "09:00",
+    "titulo": "Partida para Parintins (AM)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-04",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-04:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-04",
+    "hora": "10:30",
+    "titulo": "Chegada a Parintins (horário local: -1h em relação à Brasília)",
+    "local": "Aeroporto Regional Júlio Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-04",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-04",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Relançamento do Programa Luz para Todos; Inauguração da Interligação dos municípios de Itacoatiara (AM)/ Parintins (AM)/ Juruti (PA) ao Sistema Interligado Nacional (SIN); e Assinatura do Decreto de interligação elétrica dos países da América do Sul",
+    "local": "Praça Digital – Centro, Parintins (AM)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-04",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-04:12:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-04",
+    "hora": "12:45",
+    "titulo": "Partida para Santarém (PA)",
+    "local": "Aeroporto Regional Júlio Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-04",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-04:14:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-04",
+    "hora": "14:10",
+    "titulo": "Chegada a Santarém (PA)",
+    "local": "Aeroporto Internacional de Santarém – Maestro Wilson Fonseca",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-04",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.629-de-4-de-agosto-de-2023-501092060",
+    "tipo": "ato",
+    "data": "2023-08-07",
+    "titulo": "DECRETO Nº 11.629, DE 4 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 3.520, de 21 de junho de 2000, que dispõe sobre a estrutura e o funcionamento do Conselho Nacional de Política Energética - CNPE, o Decreto nº 5.175, de 9 de agosto de 2004, que Constitui o Comitê de Monitoramento do Setor Elétrico - CMSE de que trata o art. 14 da Lei nº 10.848, de 15 de março de 2004, e o Decreto nº 7.246, de 28 de jul...",
+    "datasAto": {
+      "assinatura": "2023-08-04",
+      "publicacao": "2023-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.629-de-4-de-agosto-de-2023-501092060",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11629.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.647-de-4-de-agosto-de-2023-501091908",
+    "tipo": "ato",
+    "data": "2023-08-07",
+    "titulo": "LEI Nº 14.647, DE 4 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para estabelecer a inexistência de vínculo empregatício entre entidades religiosas ou instituições de ensino vocacional e seus ministros, membros ou quaisquer outros que a eles se equiparem.",
+    "datasAto": {
+      "assinatura": "2023-08-04",
+      "publicacao": "2023-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.647-de-4-de-agosto-de-2023-501091908",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14647.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.648-de-4-de-agosto-de-2023-501165161",
+    "tipo": "ato",
+    "data": "2023-08-07",
+    "titulo": "LEI Nº 14.648, DE 4 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Autoriza a ozonioterapia no território nacional.",
+    "datasAto": {
+      "assinatura": "2023-08-04",
+      "publicacao": "2023-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.648-de-4-de-agosto-de-2023-501165161",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14648.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:10:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "10:15",
+    "titulo": "Visita ao Navio Hospital Escola Abaré",
+    "local": "Praia da Sudam – Universidade Federal do Oeste do Pará (UFOPA), Santarém (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "11:00",
+    "titulo": "Cerimônia alusiva à inauguração da Infovia 01 – Trecho Santarém (PA) - Manaus (AM)",
+    "local": "Madeirão UFOPA",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "13:00",
+    "titulo": "Partida para Belém",
+    "local": "Aeroporto Internacional de Santarém – Maestro Wilson Fonseca",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:14:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "14:10",
+    "titulo": "Chegada a Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "17:00",
+    "titulo": "Reunião com a Secretária-Geral da Organização do Tratado de Cooperação Amazônica (OTCA), María Alexandra Moreira López",
+    "local": "Hotel Grand Mercure",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-07:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-07",
+    "hora": "19:00",
+    "titulo": "Reunião bilateral com a Presidenta da República do Peru, Dina Boluarte",
+    "local": "Hotel Grand Mercure",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-07",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:08:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "08:00",
+    "titulo": "Conversa com o Presidente",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "09:00",
+    "titulo": "Reunião dos Chefes de Estado e de Governo dos países signatários do Tratado de Cooperação Amazônica (TCA)",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:13:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "13:15",
+    "titulo": "Almoço dos países signatários do TCA",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "14:30",
+    "titulo": "Reunião bilateral com o Presidente do Estado Plurinacional da Bolívia, Luis Arce",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "15:00",
+    "titulo": "Debate Geral dos Chefes de Estado e de Governo dos países signatários do TCA",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "16:30",
+    "titulo": "Adoção da Declaração de Belém pelos países signatários do TCA",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-08:20:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-08",
+    "hora": "20:30",
+    "titulo": "Jantar “Uma experiência imersiva na Amazônia: sons, sabores e imagens”, oferecido pelo Presidente da República e pela Senhora Janja Lula da Silva",
+    "local": "Estação das Docas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-08",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "09:00",
+    "titulo": "Audiência com o Presidente da COP 28, Sultan Ahmed al-Jaber",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "09:30",
+    "titulo": "Foto oficial da Cúpula da Amazônia",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:09:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "09:45",
+    "titulo": "Reunião dos países signatários do Tratado de Cooperação Amazônica (TCA) com convidados e Debate Geral",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:12:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "12:15",
+    "titulo": "Adoção do documento “Unidos por nossas Florestas: Comunicado Conjunto dos Países Florestais em Desenvolvimento em Belém”",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "12:30",
+    "titulo": "Declaração à imprensa",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:13:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "13:30",
+    "titulo": "Almoço dos países signatários do TCA e convidados",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "15:00",
+    "titulo": "Reunião bilateral com o Presidente da República Democrática do Congo, Félix Tshisekedi",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "16:00",
+    "titulo": "Reunião bilateral com o Presidente da República do Congo, Denis Sassou N’guesso",
+    "local": "Hangar Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:17:40:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "17:40",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-09:21:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-09",
+    "hora": "21:00",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "III COMAR (Aeroporto Santos Dumont)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-09",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-10:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-10",
+    "hora": "10:30",
+    "titulo": "Cerimônia de Início das Obras do Anel Viário de Campo Grande e Anúncio de Investimentos em Mobilidade Urbana na cidade do Rio de Janeiro",
+    "local": "Ginásio do Campo Grande Atlético Clube",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-10",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-10:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-10",
+    "hora": "16:00",
+    "titulo": "Ato no local das obras do IMPA Tech, futura sede do novo programa de graduação do Instituto de Matemática Pura e Aplicada – IMPA, no Porto Maravilha",
+    "local": "Porto Maravilha",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-10",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.630-de-11-de-agosto-de-2023-502647572",
+    "tipo": "ato",
+    "data": "2023-08-11",
+    "titulo": "DECRETO Nº 11.630, DE 11 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Interministerial de Inovações e Aquisições do Programa de Aceleração do Crescimento - CIIA-PAC.",
+    "datasAto": {
+      "assinatura": "2023-08-11",
+      "publicacao": "2023-08-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.630-de-11-de-agosto-de-2023-502647572",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11630.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.631-de-11-de-agosto-de-2023-502647657",
+    "tipo": "ato",
+    "data": "2023-08-11",
+    "titulo": "DECRETO Nº 11.631, DE 11 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Interministerial de Qualificação Profissional, Emprego e Inclusão Socioeconômica do Programa de Aceleração do Crescimento.",
+    "datasAto": {
+      "assinatura": "2023-08-11",
+      "publicacao": "2023-08-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.631-de-11-de-agosto-de-2023-502647657",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11631.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.632-de-11-de-agosto-de-2023-502647740",
+    "tipo": "ato",
+    "data": "2023-08-11",
+    "titulo": "DECRETO Nº 11.632, DE 11 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa de Aceleração do Crescimento - Novo PAC, o Comitê Gestor do Programa de Aceleração do Crescimento e o Grupo Executivo do Programa de Aceleração do Crescimento.",
+    "datasAto": {
+      "assinatura": "2023-08-11",
+      "publicacao": "2023-08-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.632-de-11-de-agosto-de-2023-502647740",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11632.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-11",
+    "hora": "10:00",
+    "titulo": "Cerimônia de lançamento do Novo Programa de Aceleração do Crescimento (PAC)",
+    "local": "Theatro Municipal do Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-11",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-11:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-11",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante",
+    "local": "Edifício-sede do BNDES",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-11",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-11:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-11",
+    "hora": "15:30",
+    "titulo": "Partida para Brasília",
+    "local": "III COMAR",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-11",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-11:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-11",
+    "hora": "17:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-11",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:08:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "08:30",
+    "titulo": "Conversa com o Presidente",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, Ministro da Secretaria de Comunicação Social, Paulo Pimenta, e Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "10:30",
+    "titulo": "Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "11:30",
+    "titulo": "Ministério da Justiça e Segurança Pública, Flávio Dino",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "15:30",
+    "titulo": "Partida para Assunção",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:16:50:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "16:50",
+    "titulo": "Chegada a Assunção (horário local: -1h em relação à Brasília)",
+    "local": "Aeroporto Internacional Silvio Pettirossi, Pavilhão Central",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-14:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-14",
+    "hora": "19:00",
+    "titulo": "Encontro com o ex-Presidente da República do Paraguai Fernando Lugo",
+    "local": "Assunção, Paraguai",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-14",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.633-de-14-de-agosto-de-2023-502995211",
+    "tipo": "ato",
+    "data": "2023-08-15",
+    "titulo": "DECRETO Nº 11.633, DE 14 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Autoriza a nomeação de candidatos aprovados e não classificados dentro do quantitativo de vagas originalmente previsto no concurso público para os cargos do Quadro de Pessoal do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
+    "datasAto": {
+      "assinatura": "2023-08-14",
+      "publicacao": "2023-08-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.633-de-14-de-agosto-de-2023-502995211",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11633.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:08:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "08:30",
+    "titulo": "Sessão Solene do Congresso da Nação para o juramento de Santiago Peña como Presidente da República do Paraguai e de Pedro Alliana como Vice-Presidente da República do Paraguai (horário local: -1h em relação à Brasília)",
+    "local": "Palácio de López, Esplanada da Baía",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "10:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Silvio Pettirossi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:13:50:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "13:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "15:00",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira, e Ministro da Secretaria- Geral, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "16:00",
+    "titulo": "Professora Heloisa Starling",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "16:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministra do Planejamento e Orçamento, Simone Tebet",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-15:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-15",
+    "hora": "17:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-15",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-16:09:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-16",
+    "hora": "09:45",
+    "titulo": "Ministro da Agricultura e Pecuária, Carlos Fávaro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-16",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-16:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-16",
+    "hora": "10:30",
+    "titulo": "Cerimônia de encerramento da 7ª Marcha das Margaridas",
+    "local": "Esplanada dos Ministérios",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-16",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-16:12:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-16",
+    "hora": "12:45",
+    "titulo": "Telefonema com o Presidente dos Estados Unidos da América, Joe Biden",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-16",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-16:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-16",
+    "hora": "15:00",
+    "titulo": "Líder do Governo no Senado Federal, Senador Jaques Wagner",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-16",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-16:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-16",
+    "hora": "17:00",
+    "titulo": "Coordenador nacional do Movimento dos Trabalhadores Rurais Sem Terra (MST), João Paulo Rodrigues; Fundador e dirigente nacional do MST, João Pedro Stedile; e dirigente nacional do MST, Ceres Hadich",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-16",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.635-de-16-de-agosto-de-2023-503766644",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.635, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.572, de 28 de setembro de 2011, que regulamenta dispositivos da Lei nº 12.512, de 14 de outubro de 2011, que tratam do Programa de Apoio à Conservação Ambiental - Programa Bolsa Verde.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.635-de-16-de-agosto-de-2023-503766644",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11635.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.636-de-16-de-agosto-de-2023-503844998",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.636, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.943, de 5 de março de 2013, que institui a Política Nacional para os Trabalhadores Rurais Empregados.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.636-de-16-de-agosto-de-2023-503844998",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11636.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.637-de-16-de-agosto-de-2023-503839675",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.637, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.311, de 15 de março de 2018, que regulamenta a Lei nº 8.629, de 25 de fevereiro de 1993, e a Lei nº 13.001, de 20 de junho de 2014.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.637-de-16-de-agosto-de-2023-503839675",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11637.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.638-de-16-de-agosto-de-2023-503766690",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.638, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Nacional de Enfrentamento da Violência no Campo.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.638-de-16-de-agosto-de-2023-503766690",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11638.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.639-de-16-de-agosto-de-2023-503839703",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.639, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interministerial para o Plano Nacional de Juventude e Sucessão Rural.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.639-de-16-de-agosto-de-2023-503839703",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11639.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.640-de-16-de-agosto-de-2023-503845167",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.640, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Pacto Nacional de Prevenção aos Feminicídios.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.640-de-16-de-agosto-de-2023-503845167",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11640.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.641-de-16-de-agosto-de-2023-503766845",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.641, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Nacional de Cidadania e Bem Viver para Mulheres Rurais.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.641-de-16-de-agosto-de-2023-503766845",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11641.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.642-de-16-de-agosto-de-2023-503845274",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.642, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Quintais Produtivos para Mulheres Rurais.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.642-de-16-de-agosto-de-2023-503845274",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11642.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.643-de-16-de-agosto-de-2023-503845327",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.643, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Revoga a qualificação das participações acionárias remanescentes de emissão da Centrais Elétricas Brasileiras S.A. - Eletrobras no Programa de Parcerias de Investimentos da Presidência da República e sua exclusão do Programa Nacional de Desestatização.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.643-de-16-de-agosto-de-2023-503845327",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11643.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.644-de-16-de-agosto-de-2023-503782055",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.644, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.540, de 5 de novembro de 2020, que dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.644-de-16-de-agosto-de-2023-503782055",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11644.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.645-de-16-de-agosto-de-2023-503839824",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.645, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.307, de 18 de julho de 2002, para dispor sobre os valores de diárias devidas a militares em deslocamentos a serviço realizados no País.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.645-de-16-de-agosto-de-2023-503839824",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11645.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.646-de-16-de-agosto-de-2023-503766885",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.646, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional de Economia de Impacto e o Comitê de Economia de Impacto.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.646-de-16-de-agosto-de-2023-503766885",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11646.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.647-de-16-de-agosto-de-2023-503839869",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.647, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho para a formulação de propostas que contribuam para a melhoria das bases de dados e da gestão dos processos e sistemas corporativos referentes aos benefícios operacionalizados pelo Instituto Nacional do Seguro Social - INSS.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.647-de-16-de-agosto-de-2023-503839869",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11647.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.648-de-16-de-agosto-de-2023-503845413",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.648, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Energias da Amazônia.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.648-de-16-de-agosto-de-2023-503845413",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11648.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.649-de-16-de-agosto-de-2023-503845505",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.649, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Fixa, para a Aeronáutica, os quantitativos de vagas para promoções obrigatórias de Oficiais, para os Quadros que menciona, no ano-base de 2023.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.649-de-16-de-agosto-de-2023-503845505",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11649.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.650-de-16-de-agosto-de-2023-503854171",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "DECRETO Nº 11.650, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.364, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Secretaria de Relações Institucionais da Presidência da República e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.650-de-16-de-agosto-de-2023-503854171",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11650.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.649-de-16-de-agosto-de-2023-503766468",
+    "tipo": "ato",
+    "data": "2023-08-17",
+    "titulo": "LEI Nº 14.649, DE 16 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Inscreve no Livro dos Heróis e Heroínas da Pátria o nome de Margarida Alves.",
+    "datasAto": {
+      "assinatura": "2023-08-16",
+      "publicacao": "2023-08-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.649-de-16-de-agosto-de-2023-503766468",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14649.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "10:30",
+    "titulo": "Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "11:30",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho, e o Deputado Estadual de São Paulo Luiz Fernando",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "15:00",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República de Angola, Manuel Eduardo dos Santos da Silva Bravo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "15:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "17:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Flávio Dino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-17:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-17",
+    "hora": "17:30",
+    "titulo": "Procurador-Geral da República, Augusto Aras",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-17",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.651-de-17-de-agosto-de-2023-503855700",
+    "tipo": "ato",
+    "data": "2023-08-18",
+    "titulo": "DECRETO Nº 11.651, DE 17 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.092, de 24 de abril de 2007, que regulamenta o Auxílio de Avaliação Educacional - AAE.",
+    "datasAto": {
+      "assinatura": "2023-08-17",
+      "publicacao": "2023-08-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.651-de-17-de-agosto-de-2023-503855700",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11651.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-18:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-18",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-18",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-18",
+    "hora": "11:00",
+    "titulo": "Cerimônia de posse do novo Presidente do Instituto Brasileiro de Geografia e Estatística – IBGE, Marcio Pochmann",
+    "local": "Auditório Celso Furtado, Ministério do Planejamento",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-18",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-20:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-20",
+    "hora": "18:00",
+    "titulo": "Partida para Salvador",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-20",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-20:19:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-20",
+    "hora": "19:30",
+    "titulo": "Chegada a Salvador",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-20",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-20:21:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-20",
+    "hora": "21:00",
+    "titulo": "Partida para Joanesburgo",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-20",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-21:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-21",
+    "hora": "10:00",
+    "titulo": "Chegada a Joanesburgo (horário local: +5h em relação à Brasília)",
+    "local": "Aeroporto Internacional O.R. Tambo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-21",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "11:00",
+    "titulo": "Encontro com representantes do Congresso Nacional Africano (ANC) / horário local: +5h em relação à Brasília",
+    "local": "Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "12:00",
+    "titulo": "Reunião com membros brasileiros do Conselho Empresarial do BRICS",
+    "local": "Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:13:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "13:30",
+    "titulo": "Conversa com o Presidente (horário local: +5h em relação à Brasília)",
+    "local": "Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "16:00",
+    "titulo": "Diálogo do Fórum Empresarial do BRICS",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:18:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "18:10",
+    "titulo": "Reunião no Retiro dos Líderes do BRICS",
+    "local": "Summer Place, Salão The Parlour",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-22:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-22",
+    "hora": "19:00",
+    "titulo": "Jantar de boas-vindas aos Líderes do BRICS oferecido pelo Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Summer Place",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-22",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-23:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-23",
+    "hora": "10:00",
+    "titulo": "Sessão plenária restrita da XV Cúpula do BRICS",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-23",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-23:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-23",
+    "hora": "11:00",
+    "titulo": "Sessão plenária ampliada da XV Cúpula do BRICS",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-23",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-23:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-23",
+    "hora": "19:00",
+    "titulo": "Apresentação cultural e jantar oferecido pelo Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Gallagher Estate",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-23",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.652-de-23-de-agosto-de-2023-505138014",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.652, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.531, de 16 de maio de 2023, que dispõe sobre convênios e contratos de repasse relativos às transferências de recursos da União e sobre parcerias sem transferências de recursos, por meio da celebração de acordos de cooperação técnica ou de acordos de adesão.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.652-de-23-de-agosto-de-2023-505138014",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11652.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.653-de-23-de-agosto-de-2023-505134539",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.653, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.838, de 18 de outubro de 2021, que regulamenta os art. 6º e art. 8º da Lei nº 14.182, de 12 de julho de 2021, que dispõe sobre os programas de revitalização dos recursos hídricos das Bacias Hidrográficas do Rio São Francisco e do Rio Parnaíba e daquelas na área de influência dos reservatórios das Usinas Hidrelétricas de Furnas. O VI...",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.653-de-23-de-agosto-de-2023-505134539",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11653.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.654-de-23-de-agosto-de-2023-505134622",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.654, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Escritório Financeiro em Nova Iorque, Estados Unidos da América, do Ministério das Relações Exteriores.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.654-de-23-de-agosto-de-2023-505134622",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11654.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.655-de-23-de-agosto-de-2023-505135288",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.655, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.219, de 5 de outubro de 2022, que regulamenta o art. 1º-A, o art. 3º, o art. 4º, o art. 5º e o art. 5º-A da Lei nº 12.340, de 1º de dezembro de 2010, que dispõe sobre as transferências obrigatórias de recursos financeiros da União aos Estados, ao Distrito Federal e aos Municípios para a execução de ações de prevenção em áreas de ris...",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.655-de-23-de-agosto-de-2023-505135288",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11655.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.656-de-23-de-agosto-de-2023-505121393",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.656, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.885, de 20 de novembro de 2003, que dispõe sobre a composição, a estruturação, as competências e o funcionamento do Conselho Nacional de Promoção da Igualdade Racial.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.656-de-23-de-agosto-de-2023-505121393",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11656.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.657-de-23-de-agosto-de-2023-505131814",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.657, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.271, de 5 de dezembro de 2022, que institui o Sistema de Gestão de Parcerias da União - Sigpar.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.657-de-23-de-agosto-de-2023-505131814",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11657.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.658-de-23-de-agosto-de-2023-505123984",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.658, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Fixa, para a Marinha, os quantitativos de vagas para promoções obrigatórias de Oficiais, para os Corpos e os Quadros que menciona, no ano-base de 2023.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.658-de-23-de-agosto-de-2023-505123984",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11658.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.659-de-23-de-agosto-de-2023-505138496",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "DECRETO Nº 11.659, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Regulamenta o disposto no inciso VII do § 2º, no § 3º e no § 5º do art. 2º da Lei nº 8.001, de 13 de março de 1990, para estabelecer o percentual de distribuição de Compensação Financeira pela Exploração de Recursos Minerais.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.659-de-23-de-agosto-de-2023-505138496",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11659.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.650-de-23-de-agosto-de-2023-505123221",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.650, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional da Diálise.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.650-de-23-de-agosto-de-2023-505123221",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14650.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.651-de-23-de-agosto-de-2023-505124102",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.651, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 1.455, de 7 de abril de 1976, as Leis nºs 10.833, de 29 de dezembro de 2003, e 14.286, de 29 de dezembro de 2021, para dispor sobre a aplicação e o julgamento da pena de perdimento de mercadoria, veículo e moeda.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.651-de-23-de-agosto-de-2023-505124102",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14651.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.652-de-23-de-agosto-de-2023-505124067",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.652, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a faculdade de concessão, como garantia de operações de crédito, do direito de resgate assegurado aos participantes de planos de previdência complementar aberta, aos segurados de seguros de pessoas, aos cotistas de Fundo de Aposentadoria Programada Individual (Fapi) e aos titulares de títulos de capitalização.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.652-de-23-de-agosto-de-2023-505124067",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14652.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.653-de-23-de-agosto-de-2023-505124293",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.653, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera as Leis nºs 12.651, de 25 de maio de 2012, e 14.119, de 13 de janeiro de 2021, para disciplinar a intervenção e a implantação de instalações necessárias à recuperação e à proteção de nascentes.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.653-de-23-de-agosto-de-2023-505124293",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14653.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.654-de-23-de-agosto-de-2023-505128012",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.654, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Acrescenta dispositivo à Lei nº 8.080, de 19 de setembro de 1990, para tornar obrigatória a divulgação dos estoques dos medicamentos das farmácias que compõem o Sistema Único de Saúde (SUS).",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.654-de-23-de-agosto-de-2023-505128012",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14654.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.655-de-23-de-agosto-de-2023-505126950",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.655, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para assegurar a participação de especialista indicado pela Associação Médica Brasileira na Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.655-de-23-de-agosto-de-2023-505126950",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14655.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.656-de-23-de-agosto-de-2023-505130525",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.656, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Denomina Rodovia Antonio de Sousa Barros o trecho da rodovia BR-153 correspondente à travessia urbana do Município de Colinas do Tocantins, no Estado do Tocantins.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.656-de-23-de-agosto-de-2023-505130525",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14656.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.657-de-23-de-agosto-de-2023-505127677",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.657, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para permitir que as partes e os advogados se retirem em caso de atraso injustificado do início de audiência.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.657-de-23-de-agosto-de-2023-505127677",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14657.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.658-de-23-de-agosto-de-2023-505120036",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.658, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Estado do Tocantins como Rota Nacional do Turismo de Aventura, Ecológico, Rural, de Sol e Praia Doce, de Vivência, Cultural, Religioso e Gastronômico.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.658-de-23-de-agosto-de-2023-505120036",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14658.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.659-de-23-de-agosto-de-2023-505120914",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.659, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Confere ao Município de Timbó, no Estado de Santa Catarina, o título de Capital Nacional do Cicloturismo.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.659-de-23-de-agosto-de-2023-505120914",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14659.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.660-de-23-de-agosto-de-2023-505126186",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.660, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o art. 14 da Lei nº 11.947, de 16 de junho de 2009, para incluir grupos formais e informais de mulheres da agricultura familiar entre aqueles com prioridade na aquisição de gêneros alimentícios no âmbito do Programa Nacional de Alimentação Escolar (PNAE) e para estabelecer que pelo menos 50% (cinquenta por cento) da venda da família será feita no nome ...",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.660-de-23-de-agosto-de-2023-505126186",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14660.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.661-de-23-de-agosto-de-2023-505128372",
+    "tipo": "ato",
+    "data": "2023-08-24",
+    "titulo": "LEI Nº 14.661, DE 23 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Acrescenta art. 1.815-A à Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para determinar, nos casos de indignidade, que o trânsito em julgado da sentença penal condenatória acarretará a exclusão imediata do herdeiro ou legatário indigno.",
+    "datasAto": {
+      "assinatura": "2023-08-23",
+      "publicacao": "2023-08-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.661-de-23-de-agosto-de-2023-505128372",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14661.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "09:00",
+    "titulo": "Sessão I do Diálogo de Amigos do BRICS, BRICS-Africa Outreach e BRICS Plus (horário local: +5h em relação à Brasília)",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "12:00",
+    "titulo": "Almoço oferecido pelo Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:13:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "13:30",
+    "titulo": "Sessão II do Diálogo de Amigos do BRICS",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:14:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "14:00",
+    "titulo": "Reunião com a Primeira-Ministra da República Popular do Bangladesh, Sheikh Hasina",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "15:00",
+    "titulo": "Reunião com o Presidente da República Islâmica do Irã, Seyyed Ebrahim Raisi",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "17:00",
+    "titulo": "Término da XV Cúpula do BRICS",
+    "local": "Sandton Convention Centre",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:19:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "19:15",
+    "titulo": "Partida para Luanda",
+    "local": "Aeroporto Internacional O.R. Tambo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-24:21:35:1",
+    "tipo": "agenda",
+    "data": "2023-08-24",
+    "hora": "21:35",
+    "titulo": "Chegada a Luanda (horário local: +4h em relação à Brasília)",
+    "local": "Aeroporto Internacional de Luanda",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-24",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.660-de-24-de-agosto-de-2023-505432962",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.660, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, cargos em comissão e funções de confiança para os Ministérios das Relações Exteriores e da Gestão e da Inovação em Serviços Públicos e transforma funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.660-de-24-de-agosto-de-2023-505432962",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11660.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.661-de-24-de-agosto-de-2023-505426493",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.661, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 8.726, de 27 de abril de 2016, que regulamenta a Lei nº 13.019, de 31 de julho de 2014.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.661-de-24-de-agosto-de-2023-505426493",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11661.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.662-de-24-de-agosto-de-2023-505426973",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.662, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre a República Federativa do Brasil e a República da Áustria em Cooperação Científica e Tecnológica, firmado em Viena, em 19 de junho de 2019.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.662-de-24-de-agosto-de-2023-505426973",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11662.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.663-de-24-de-agosto-de-2023-505436242",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.663, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Antártica entre o Governo da República Federativa do Brasil e o Governo da República do Chile, firmado em Santiago, em 26 de janeiro de 2013.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.663-de-24-de-agosto-de-2023-505436242",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11663.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.664-de-24-de-agosto-de-2023-505432877",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.664, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre o Governo da República Federativa do Brasil e o Governo da República Cooperativa da Guiana sobre Serviços Aéreos, firmado em Brasília, em 28 de junho de 2017.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.664-de-24-de-agosto-de-2023-505432877",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11664.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.665-de-24-de-agosto-de-2023-505435648",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.665, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga o Tratado entre a República Federativa do Brasil e a Romênia sobre Auxílio Jurídico Mútuo em Matéria Penal, firmado em Brasília, em 13 de junho de 2017.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.665-de-24-de-agosto-de-2023-505435648",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11665.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.666-de-24-de-agosto-de-2023-505438856",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.666, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Promulga a Emenda de Kigali ao Protocolo de Montreal sobre Substâncias que Destroem a Camada de Ozônio, firmada pela República Federativa do Brasil em Kigali, em 15 de outubro de 2016.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.666-de-24-de-agosto-de-2023-505438856",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11666.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.667-de-24-de-agosto-de-2023-505438214",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.667, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.306, de 14 de dezembro de 2007, que regulamenta o Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos ou Valores Mobiliários - IOF.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.667-de-24-de-agosto-de-2023-505438214",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11667.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.668-de-24-de-agosto-de-2023-505433361",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "DECRETO Nº 11.668, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre os benefícios fiscais de que tratam os art. 56, art. 57, art. 57-A, art. 57-C e art. 57-D da Lei nº 11.196, de 21 de novembro de 2005, relativos a créditos da Contribuição para o Programa de Integração Social e o Programa de Formação do Patrimônio do Servidor Público - Contribuição para o PIS/Pasep e da Contribuição para o Financiamento da Se...",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.668-de-24-de-agosto-de-2023-505433361",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11668.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.662-de-24-de-agosto-de-2023-505422497",
+    "tipo": "ato",
+    "data": "2023-08-25",
+    "titulo": "LEI Nº 14.662, DE 24 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.107, de 6 de abril de 2005, para determinar que a alteração de contrato de consórcio público dependerá de ratificação mediante leis aprovadas pela maioria dos entes federativos consorciados.",
+    "datasAto": {
+      "assinatura": "2023-08-24",
+      "publicacao": "2023-08-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.662-de-24-de-agosto-de-2023-505422497",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14662.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:10:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "10:45",
+    "titulo": "Cerimônia de aposição floral (horário local: +4h em relação à Brasília)",
+    "local": "Memorial Dr. António Agostinho Neto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "11:00",
+    "titulo": "Cerimônia oficial de chegada",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:11:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "11:10",
+    "titulo": "Reunião restrita com o Presidente da República de Angola, João Lourenço",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "12:00",
+    "titulo": "Cerimônia de condecoração do Presidente Lula com a Ordem Dr. António Agostinho Neto, e do Presidente João Lourenço com a Ordem Nacional do Cruzeiro do Sul",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:12:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "12:10",
+    "titulo": "Discursos do Presidente Lula e do Presidente João Lourenço",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "12:30",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "´Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:12:45:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "12:45",
+    "titulo": "Declaração à imprensa",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "13:00",
+    "titulo": "Almoço em homenagem ao Presidente Lula e à Senhora Janja Lula da Silva oferecido pelo Presidente da República de Angola, João Lourenço",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:15:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "15:15",
+    "titulo": "Sessão solene em homenagem ao Presidente Lula",
+    "local": "Assembleia Nacional, Plenária",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:16:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "16:10",
+    "titulo": "Encontro privado com a Presidente da Assembleia Nacional de Angola, Carolina Cerqueira",
+    "local": "Assembleia Nacional",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-25:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-25",
+    "hora": "18:00",
+    "titulo": "Encerramento do Foro Econômico Brasil-Angola",
+    "local": "Hotel Intercontinental",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-25",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-26:11:10:1",
+    "tipo": "agenda",
+    "data": "2023-08-26",
+    "hora": "11:10",
+    "titulo": "Cerimônia de inauguração da Galeria Ovídio de Melo (horário local: +4h em relação à Brasília)",
+    "local": "Instituto Guimarães Rosa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-26",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-26:11:40:1",
+    "tipo": "agenda",
+    "data": "2023-08-26",
+    "hora": "11:40",
+    "titulo": "Coletiva de imprensa",
+    "local": "Instituto Guimarães Rosa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-26",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-26",
+    "hora": "16:00",
+    "titulo": "Cerimônia oficial de despedida",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-26",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:08:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "08:15",
+    "titulo": "Partida para São Tomé (horário local: +4h em relação à Brasília)",
+    "local": "Aeroporto Internacional de Luanda",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "09:00",
+    "titulo": "Chegada a São Tomé (horário local: +3h em relação à Brasília)",
+    "local": "Aeroporto Internacional de São Tomé",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:09:25:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "09:25",
+    "titulo": "Reunião Restrita",
+    "local": "Palácio dos Congressos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:10:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "10:15",
+    "titulo": "Sessão de abertura da XIV Conferência de Chefes de Estado e de Governo da Comunidade dos Países de Língua Portuguesa (CPLP)",
+    "local": "Palácio dos Congressos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:10:40:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "10:40",
+    "titulo": "Fotografia oficial da XIV Conferência de Chefes de Estado e de Governo da CPLP",
+    "local": "Palácio dos Congressos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:10:50:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "10:50",
+    "titulo": "Sessão de trabalho",
+    "local": "Palácio dos Congressos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:12:50:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "12:50",
+    "titulo": "Sessão de encerramento da XIV Conferência de Chefes de Estado e de Governo da CPLP",
+    "local": "Palácio dos Congressos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:13:40:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "13:40",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de São Tomé",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-27:18:15:1",
+    "tipo": "agenda",
+    "data": "2023-08-27",
+    "hora": "18:15",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-27",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.663-de-28-de-agosto-de-2023-506043952",
+    "tipo": "ato",
+    "data": "2023-08-28",
+    "titulo": "LEI Nº 14.663, DE 28 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Define o valor do salário mínimo a partir de 1º de maio de 2023; estabelece a política de valorização permanente do salário mínimo a vigorar a partir de 1º de janeiro de 2024; e altera os valores da tabela mensal do Imposto sobre a Renda da Pessoa Física de que trata o art. 1º da Lei nº 11.482, de 31 de maio de 2007, e os valores de dedução previstos no art. ...",
+    "datasAto": {
+      "assinatura": "2023-08-28",
+      "publicacao": "2023-08-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.663-de-28-de-agosto-de-2023-506043952",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14663.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.184-de-28-de-agosto-de-2023-506044035",
+    "tipo": "ato",
+    "data": "2023-08-28",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.184, DE 28 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a tributação de aplicações em fundos de investimento no País.",
+    "datasAto": {
+      "assinatura": "2023-08-28",
+      "publicacao": "2023-08-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.184-de-28-de-agosto-de-2023-506044035",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-28:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-28",
+    "hora": "15:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-28",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-28",
+    "hora": "16:00",
+    "titulo": "Assinatura de Sanção do Projeto de Lei de Conversão (PLV) no 15/2023, que estabelece a política de valorização permanente do salário mínimo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-28",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-28:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-28",
+    "hora": "17:30",
+    "titulo": "Ministro da Economia da Argentina, Sergio Massa, e o Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-28",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.669-de-28-de-agosto-de-2023-506328611",
+    "tipo": "ato",
+    "data": "2023-08-29",
+    "titulo": "DECRETO Nº 11.669, DE 28 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interministerial para elaboração de proposta de regulamentação da negociação das relações de trabalho no âmbito da administração pública federal.",
+    "datasAto": {
+      "assinatura": "2023-08-28",
+      "publicacao": "2023-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.669-de-28-de-agosto-de-2023-506328611",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11669.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-29:08:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-29",
+    "hora": "08:30",
+    "titulo": "Conversa com o Presidente",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-29",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-29:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-29",
+    "hora": "11:00",
+    "titulo": "Ministra do Planejamento e Orçamento, Simone Tebet, e Ministro da Secretaria-Geral, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-29",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-29",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, Ministra do Planejamento e Orçamento, Simone Tebet, e Ministra da Gestão e Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-29",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-29:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-29",
+    "hora": "17:00",
+    "titulo": "Diretor-Geral da Agência Brasileira de Inteligência (ABIN), Luiz Fernando Corrêa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-29",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-30:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-30",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias, e Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-30",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-30:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-30",
+    "hora": "10:00",
+    "titulo": "III Fórum Interconselhos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-30",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-30:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-30",
+    "hora": "11:30",
+    "titulo": "Presidente do Conselho Nacional de Segurança Alimentar e Nutricional – CONSEA, Elisabetta Recine",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-30",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-30:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-30",
+    "hora": "16:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-30",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-30:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-30",
+    "hora": "17:00",
+    "titulo": "Prefeito de Araraquara (SP), Edinho Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-30",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.670-de-30-de-agosto-de-2023-506991259",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.670, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Conselho Consultivo do Patrimônio Cultural.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.670-de-30-de-agosto-de-2023-506991259",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11670.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.671-de-30-de-agosto-de-2023-506978594",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.671, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Grupo de Trabalho Interministerial sobre a Organização para a Cooperação e o Desenvolvimento Econômico.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.671-de-30-de-agosto-de-2023-506978594",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11671.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.672-de-30-de-agosto-de-2023-506910212",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.672, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Nacional para Implementação da Convenção-Quadro sobre Controle do Uso do Tabaco e de seus Protocolos.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.672-de-30-de-agosto-de-2023-506910212",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11672.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.673-de-30-de-agosto-de-2023-506910534",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.673, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.333, de 29 de abril de 2020, que aprova o Regulamento do Fundo de Desenvolvimento Social.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.673-de-30-de-agosto-de-2023-506910534",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11673.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.674-de-30-de-agosto-de-2023-506980214",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.674, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Programa Nacional de Qualificação e Ampliação dos Serviços Prestados por Hospitais Universitários Federais Integrantes do Sistema Único de Saúde.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.674-de-30-de-agosto-de-2023-506980214",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11674.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.675-de-30-de-agosto-de-2023-506993140",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.675, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.327, de 3 de abril de 2018, que regulamenta a Loteria Instantânea Exclusiva.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.675-de-30-de-agosto-de-2023-506993140",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11675.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.676-de-30-de-agosto-de-2023-506996152",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.676, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações do Gabinete de Segurança Institucional da Presidência da República, e remaneja e transforma cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.676-de-30-de-agosto-de-2023-506996152",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11676.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.677-de-30-de-agosto-de-2023-506990088",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.677, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.326, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Vice-Presidência da República, e remaneja cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.677-de-30-de-agosto-de-2023-506990088",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11677.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.678-de-30-de-agosto-de-2023-506991223",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "DECRETO Nº 11.678, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.854, de 10 de novembro de 2021, para regulamentar disposições relativas ao Programa de Alimentação do Trabalhador.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.678-de-30-de-agosto-de-2023-506991223",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11678.htm",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-200-de-30-de-agosto-de-2023-506901258",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "LEI COMPLEMENTAR Nº 200, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui regime fiscal sustentável para garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico, com fundamento no art. 6º da Emenda Constitucional nº 126, de 21 de dezembro de 2022, e no inciso VIII docapute no parágrafo único do art. 163 da Constituição Federal; e altera a Lei Complementar nº 101...",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-200-de-30-de-agosto-de-2023-506901258",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.185-de-30-de-agosto-de-2023-506991396",
+    "tipo": "ato",
+    "data": "2023-08-31",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.185, DE 30 DE AGOSTO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o crédito fiscal decorrente de subvenção para a implantação ou a expansão de empreendimento econômico.",
+    "datasAto": {
+      "assinatura": "2023-08-30",
+      "publicacao": "2023-08-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.185-de-30-de-agosto-de-2023-506991396",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:08:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "08:00",
+    "titulo": "Partida para Teresina",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "10:30",
+    "titulo": "Cerimônia de Anúncio dos Empreendimentos do PAC no Estado do Piauí",
+    "local": "Centro de Convenções",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Governador Rafael Fonteles",
+    "local": "Teresina (PI)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "16:00",
+    "titulo": "Cerimônia de Lançamento do Brasil sem Fome",
+    "local": "Theresina Hall",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "18:00",
+    "titulo": "Partida para Fortaleza",
+    "local": "Aeroporto de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-08-31:19:00:1",
+    "tipo": "agenda",
+    "data": "2023-08-31",
+    "hora": "19:00",
+    "titulo": "Chegada a Fortaleza",
+    "local": "Fortaleza (CE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-08-31",
+        "coletadoEm": "2026-10-11T20:52:42.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

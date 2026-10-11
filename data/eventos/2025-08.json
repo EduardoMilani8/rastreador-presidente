@@ -1,0 +1,3829 @@
+[
+  {
+    "id": "agenda:2025-08-01:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-01",
+    "hora": "10:00",
+    "titulo": "Cerimônia de Entrega Simultânea de Unidades Habitacionais do Minha Casa, Minha Vida",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-01:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-01",
+    "hora": "12:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-01",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "10:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria-Geral da Presidência da República, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "15:30",
+    "titulo": "Sanção do Projeto de Lei nº 847/2025, que aprimora a destinação de recursos do Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "17:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-04:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-04",
+    "hora": "18:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.571-de-4-de-agosto-de-2025-646209608",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "DECRETO Nº 12.571, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.703, de 14 de setembro de 2023, que remaneja, em caráter temporário, cargos em comissão e funções de confiança para o Ministério da Fazenda e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.571-de-4-de-agosto-de-2025-646209608",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12571.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.572-de-4-de-agosto-de-2025-646197612",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "DECRETO Nº 12.572, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Segurança da Informação e dispõe sobre a governança da segurança da informação no âmbito da administração pública federal.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.572-de-4-de-agosto-de-2025-646197612",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12572.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.573-de-4-de-agosto-de-2025-646200784",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "DECRETO Nº 12.573, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional de Cibersegurança.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.573-de-4-de-agosto-de-2025-646200784",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12573.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.184-de-4-de-agosto-de-2025-646196975",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "LEI Nº 15.184, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.540, de 12 de novembro de 2007, que dispõe sobre o Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT), para aprimorar a destinação de recursos do Fundo.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.184-de-4-de-agosto-de-2025-646196975",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15184.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.185-de-4-de-agosto-de-2025-646195381",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "LEI Nº 15.185, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Reestrutura cargos da magistratura no quadro permanente da Justiça Federal da 1ª Região; e cria a 2ª Turma Recursal dos Juizados Especiais Federais da Seção Judiciária do Piauí.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.185-de-4-de-agosto-de-2025-646195381",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15185.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.186-de-4-de-agosto-de-2025-646198835",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "LEI Nº 15.186, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Concede o título de Capital Nacional dos Bombeiros Voluntários ao Município de Joinville, no Estado de Santa Catarina.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.186-de-4-de-agosto-de-2025-646198835",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15186.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.187-de-4-de-agosto-de-2025-646199850",
+    "tipo": "ato",
+    "data": "2025-08-05",
+    "titulo": "LEI Nº 15.187, DE 4 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia da Luta da População em Situação de Rua.",
+    "datasAto": {
+      "assinatura": "2025-08-04",
+      "publicacao": "2025-08-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.187-de-4-de-agosto-de-2025-646199850",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15187.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "10:00",
+    "titulo": "5ª Reunião Plenária do Conselho de Desenvolvimento Econômico Social Sustentável (CDESS)",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "13:00",
+    "titulo": "Almoço com governadores dos Estados da região Nordeste",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "15:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "16:00",
+    "titulo": "Reunião Plenária Ordinária do Conselho Nacional de Segurança Alimentar e Nutricional (Consea)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-05:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-05",
+    "hora": "18:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.574-de-5-de-agosto-de-2025-646726880",
+    "tipo": "ato",
+    "data": "2025-08-06",
+    "titulo": "DECRETO Nº 12.574, DE 5 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional Integrada da Primeira Infância.",
+    "datasAto": {
+      "assinatura": "2025-08-05",
+      "publicacao": "2025-08-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.574-de-5-de-agosto-de-2025-646726880",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12574.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "09:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "12:00",
+    "titulo": "Audiência, seguida de almoço, com a Conferência Nacional dos Bispos do Brasil – CNBB",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "15:00",
+    "titulo": "Ministra da Cultura, Margareth Menezes, e Ministra da Igualdade Racial, Anielle Franco, para Sanção dos Projetos de Lei nº 1.730/2024, que reconhece o Carnaval do Município do Rio de Janeiro como manifestação da cultura nacional, e PL nº 4.187/2024, que institui o Dia Nacional da Axé-Music",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "16:00",
+    "titulo": "Ministra do Meio Ambiente e Mudança do Clima, Marina Silva, e Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-06:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-06",
+    "hora": "19:00",
+    "titulo": "Ministra dos Povos Indígenas, Sônia Guajajara, Ministra das Mulheres, Márcia Lopes, e Presidente da Fundação Nacional dos Povos Indígenas (Funai), Joenia Wapichana, para assinatura dos decretos de homologação das Terras Indígenas Pitaguary, Lagoa Encantada e Tremembé de Queimadas, no estado do Ceará",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.575-de-6-de-agosto-de-2025-646785527",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.575, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Educativa e Cultural Rio Verde, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Três Corações, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.575-de-6-de-agosto-de-2025-646785527",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12575.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.576-de-6-de-agosto-de-2025-646793027",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.576, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TVSBT Canal 3 de Nova Friburgo Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Nova Friburgo, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.576-de-6-de-agosto-de-2025-646793027",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12576.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.577-de-6-de-agosto-de-2025-646806770",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.577, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Sat Sistema a Tribuna de Comunicação Santos Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Santos, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.577-de-6-de-agosto-de-2025-646806770",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12577.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.578-de-6-de-agosto-de-2025-646790283",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.578, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Vídeo Express Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Colatina, Estado do Espírito Santo.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.578-de-6-de-agosto-de-2025-646790283",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12578.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.579-de-6-de-agosto-de-2025-646796084",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.579, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio Televisão de Uberlândia Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Ituiutaba, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.579-de-6-de-agosto-de-2025-646796084",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12579.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.580-de-6-de-agosto-de-2025-646800497",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.580, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.096, de 6 de novembro de 2019, que aprova o Estatuto e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Fundação Jorge Duprat Figueiredo, de Segurança e Medicina do Trabalho - Fundacentro, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.580-de-6-de-agosto-de-2025-646800497",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12580.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.581-de-6-de-agosto-de-2025-646806161",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.581, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.226, de 7 de outubro de 2022, que aprova o Estatuto e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Fundação Nacional dos Povos Indígenas - Funai, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.581-de-6-de-agosto-de-2025-646806161",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12581.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.582-de-6-de-agosto-de-2025-646808159",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.582, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Pitaguary, localizada nos Municípios de Maracanaú, Pacatuba e Maranguape, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.582-de-6-de-agosto-de-2025-646808159",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12582.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.583-de-6-de-agosto-de-2025-646809491",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.583, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Lagoa Encantada, localizada no Município de Aquiraz, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.583-de-6-de-agosto-de-2025-646809491",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12583.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.584-de-6-de-agosto-de-2025-646785444",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "DECRETO Nº 12.584, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Tremembé de Queimadas, localizada no Município de Acaraú, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.584-de-6-de-agosto-de-2025-646785444",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12584.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.188-de-6-de-agosto-de-2025-646787311",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "LEI Nº 15.188, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional o Carnaval do Município do Rio de Janeiro, no Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.188-de-6-de-agosto-de-2025-646787311",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15188.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.189-de-6-de-agosto-de-2025-646796776",
+    "tipo": "ato",
+    "data": "2025-08-07",
+    "titulo": "LEI Nº 15.189, DE 6 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional da Axé-Music.",
+    "datasAto": {
+      "assinatura": "2025-08-06",
+      "publicacao": "2025-08-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.189-de-6-de-agosto-de-2025-646796776",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15189.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "09:30",
+    "titulo": "Telefonema para o Primeiro-Ministro da República da Índia, Narendra Modi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "10:30",
+    "titulo": "Ministra do Meio Ambiente e Mudança do Clima, Marina Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "16:30",
+    "titulo": "Inauguração do projeto de restauro dos Jardins de Burle Marx e instalação de escultura na fachada do Palácio da Justiça",
+    "local": "Palácio da Justiça",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-07:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-07",
+    "hora": "19:00",
+    "titulo": "Cine Alvorada",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.090-de-8-de-agosto-de-2025-647407023",
+    "tipo": "ato",
+    "data": "2025-08-08",
+    "titulo": "LEI Nº 15.090, DE 8 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o licenciamento ambiental; regulamenta o inciso IV do § 1º do art. 225 da Constituição Federal; altera as Leis nºs 9.605, de 12 de fevereiro de 1998 (Lei dos Crimes Ambientais), 9.985, de 18 de julho de 2000, e 6.938, de 31 de agosto de 1981; revoga dispositivos das Leis nºs 7.661, de 16 de maio de 1988, e 11.428, de 22 de dezembro de 2006; e dá o...",
+    "datasAto": {
+      "assinatura": "2025-08-08",
+      "publicacao": "2025-08-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.090-de-8-de-agosto-de-2025-647407023",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15090.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "08:00",
+    "titulo": "Partida para Rio Branco",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:09:10:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "09:10",
+    "titulo": "Chegada a Rio Branco",
+    "local": "Aeroporto Internacional de Rio Branco",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:09:50:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "09:50",
+    "titulo": "Visita à Casa de Acolhida Souza Araújo",
+    "local": "Estrada BR 364 Km 10 - Belo Jardim II",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "11:00",
+    "titulo": "Cerimônia de anúncios de investimentos do Governo Federal para o estado do Acre",
+    "local": "Cooperacre - AC-040 - Vila da Amizade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:13:05:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "13:05",
+    "titulo": "Partida para Porto Velho",
+    "local": "Aeroporto Internacional de Rio Branco",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:14:55:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "14:55",
+    "titulo": "Chegada a Porto Velho",
+    "local": "Base Aérea de Porto Velho",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "15:30",
+    "titulo": "Cerimônia de anúncios de investimentos do Governo Federal para o estado de Rondônia",
+    "local": "Teatro Estadual Palácio das Artes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:18:05:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "18:05",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Porto Velho – Governador Jorge Teixeira de Oliveira",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-08:21:35:1",
+    "tipo": "agenda",
+    "data": "2025-08-08",
+    "hora": "21:35",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.585-de-8-de-agosto-de-2025-647418938",
+    "tipo": "ato",
+    "data": "2025-08-11",
+    "titulo": "DECRETO Nº 12.585, DE 8 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.592, de 24 de dezembro de 2020, para dispor sobre a regularização fundiária das ocupações incidentes em terras situadas em área da União e a extinção de cláusulas resolutivas constantes de títulos fundiários, de que tratam a Lei nº 11.952, de 25 de junho de 2009, e a Lei nº 14.757, de 19 de dezembro de 2023.",
+    "datasAto": {
+      "assinatura": "2025-08-08",
+      "publicacao": "2025-08-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.585-de-8-de-agosto-de-2025-647418938",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12585.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.191-de-11-de-agosto-de-2025-647705526",
+    "tipo": "ato",
+    "data": "2025-08-11",
+    "titulo": "LEI Nº 15.191, DE 11 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.482, de 31 de maio de 2007, a fim de modificar os valores da tabela progressiva mensal do Imposto sobre a Renda da Pessoa Física (IRPF); e revoga a Medida Provisória nº 1.294, de 11 de abril de 2025.",
+    "datasAto": {
+      "assinatura": "2025-08-11",
+      "publicacao": "2025-08-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.191-de-11-de-agosto-de-2025-647705526",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15191.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "09:30",
+    "titulo": "Ministra do Meio Ambiente e Mudança do Clima, Marina Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "15:00",
+    "titulo": "Cerimônia de entrega do Prêmio MEC da Educação Brasileira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "17:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-11:22:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-11",
+    "hora": "22:00",
+    "titulo": "Telefonema com o Presidente da República Popular da China, Xi Jinping",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-12",
+    "hora": "11:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta, e Assessor-Chefe Adjunto da Assessoria Especial do Presidente da República, Audo Faleiro",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-12:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-12",
+    "hora": "15:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-12:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-12",
+    "hora": "18:00",
+    "titulo": "Entrevista para o jornalista Reinaldo Azevedo",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.586-de-12-de-agosto-de-2025-648014334",
+    "tipo": "ato",
+    "data": "2025-08-13",
+    "titulo": "DECRETO Nº 12.586, DE 12 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Aprova o Estatuto e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Fundação Nacional de Artes - Funarte, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-08-12",
+      "publicacao": "2025-08-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.586-de-12-de-agosto-de-2025-648014334",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12586.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.309-de-13-de-agosto-de-2025-648212650",
+    "tipo": "ato",
+    "data": "2025-08-13",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.309, DE 13 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui, no âmbito do Poder Executivo federal, o Plano Brasil Soberano e o Comitê de Acompanhamento das Relações Comerciais com os Estados Unidos da América, altera a Lei nº 6.704, de 26 de outubro de 1979, a Lei nº 9.818, de 23 de agosto de 1999, a Lei nº 11.281, de 20 de fevereiro de 2006, a Lei nº 12.712, de 30 de agosto de 2012, a Lei nº 13....",
+    "datasAto": {
+      "assinatura": "2025-08-13",
+      "publicacao": "2025-08-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.309-de-13-de-agosto-de-2025-648212650",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-13:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-13",
+    "hora": "09:30",
+    "titulo": "Professor Steven Levitsky",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-13:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-13",
+    "hora": "11:30",
+    "titulo": "Cerimônia de Assinatura da Medida Provisória “Brasil Soberano”",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-13:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-13",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-13:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-13",
+    "hora": "15:00",
+    "titulo": "Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann, Ministra dos Direitos Humanos e da Cidadania, Macaé Evaristo, e Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-13:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-13",
+    "hora": "17:30",
+    "titulo": "4ª Conferência Nacional de Economia Solidária (CONAES)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.587-de-13-de-agosto-de-2025-648302485",
+    "tipo": "ato",
+    "data": "2025-08-14",
+    "titulo": "DECRETO Nº 12.587, DE 13 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio Guajará Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Belém, Estado do Pará.",
+    "datasAto": {
+      "assinatura": "2025-08-13",
+      "publicacao": "2025-08-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.587-de-13-de-agosto-de-2025-648302485",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12587.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.588-de-13-de-agosto-de-2025-648213750",
+    "tipo": "ato",
+    "data": "2025-08-14",
+    "titulo": "DECRETO Nº 12.588, DE 13 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Estadual Jornalista Luiz Chagas de Rádio e Televisão Educativa de Mato Grosso do Sul, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Campo Grande, Estado do Mato Grosso do Sul.",
+    "datasAto": {
+      "assinatura": "2025-08-13",
+      "publicacao": "2025-08-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.588-de-13-de-agosto-de-2025-648213750",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12588.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "08:00",
+    "titulo": "Partida para o Recife",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:10:15:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "10:15",
+    "titulo": "Chegada ao Recife",
+    "local": "Base Aérea do Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "11:00",
+    "titulo": "Visita e inauguração da nova planta de produção de medicamentos hemoderivados da Empresa Brasileira de Hemoderivados e Biotecnologia (Hemobrás)",
+    "local": "Parque fabril Hemobrás - Goiana (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "15:00",
+    "titulo": "Visita ao Hospital Ariano Suassuna Hapvida para anúncio relativo ao Programa “Agora Tem Especialistas”",
+    "local": "Avenida Governador Agamenon Magalhães – Ilha do Leite- Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "17:00",
+    "titulo": "Cerimônia de anúncio de investimentos do Governo Federal em regularização fundiária no Recife e entrega de títulos de propriedade para famílias da comunidade Brasília Teimosa",
+    "local": "Brasília Teimosa - Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:19:15:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "19:15",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea do Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-14:21:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-14",
+    "hora": "21:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "10:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "13:00",
+    "titulo": "Partida para Campinas",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:14:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "14:20",
+    "titulo": "Chegada a Campinas",
+    "local": "Aeroporto Internacional de Viracopos – Campinas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "15:30",
+    "titulo": "Visita à linha de produção e cerimônia de inauguração da Fábrica da GWM Brasil",
+    "local": "Fábrica da GWM Brasil – Iracemápolis (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "18:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Viracopos – Campinas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-15:19:50:1",
+    "tipo": "agenda",
+    "data": "2025-08-15",
+    "hora": "19:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-15",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "09:00",
+    "titulo": "Telefonema com o Presidente da Federação da Rússia, Vladimir Putin",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "11:00",
+    "titulo": "Cerimônia oficial de chegada do Presidente da República do Equador, Daniel Noboa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:11:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "11:20",
+    "titulo": "Reunião restrita entre o Presidente da República e o Presidente da República do Equador",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "12:00",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "12:30",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente da República ao Presidente da República do Equador",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "15:00",
+    "titulo": "Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "16:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-18:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-18",
+    "hora": "17:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-19:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-19",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-19:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-19",
+    "hora": "15:30",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-19:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-19",
+    "hora": "16:30",
+    "titulo": "Presidente do Grupo do Banco Interamericano de Desenvolvimento (Grupo BID), Ilan Goldfajn",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-19:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-19",
+    "hora": "17:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-19:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-19",
+    "hora": "18:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski, e Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.589-de-19-de-agosto-de-2025-649351565",
+    "tipo": "ato",
+    "data": "2025-08-20",
+    "titulo": "DECRETO Nº 12.589, DE 19 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.242, de 8 de novembro de 2024, para regulamentar a concessão de quotas diferenciadas de depreciação acelerada para embarcações de apoio marítimo utilizadas no suporte logístico e na prestação de serviços aos campos, às instalações e às plataformasoffshore, de que trata o art. 1º,caput, inciso III, da Lei nº 14.871, de 28 de maio de ...",
+    "datasAto": {
+      "assinatura": "2025-08-19",
+      "publicacao": "2025-08-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.589-de-19-de-agosto-de-2025-649351565",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12589.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-20:08:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-20",
+    "hora": "08:30",
+    "titulo": "Telefonema com o Presidente da França, Emmanuel Macron",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-20:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-20",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-20:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-20",
+    "hora": "14:40",
+    "titulo": "Deputado Federal Antonio Carlos Rodrigues",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-20:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-20",
+    "hora": "15:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-20:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-20",
+    "hora": "16:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick Pogliese",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.590-de-20-de-agosto-de-2025-649883174",
+    "tipo": "ato",
+    "data": "2025-08-21",
+    "titulo": "DECRETO Nº 12.590, DE 20 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Medalha Mérito Intendência da Aeronáutica Tenente-Brigadeiro José Epaminondas de Aquino Granja e altera o Decreto nº 40.556, de 17 de dezembro de 1956, que regula o uso das condecorações nos uniformes militares.",
+    "datasAto": {
+      "assinatura": "2025-08-20",
+      "publicacao": "2025-08-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.590-de-20-de-agosto-de-2025-649883174",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12590.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "08:00",
+    "titulo": "Partida para Sorocaba",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:09:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "09:20",
+    "titulo": "Chegada a Sorocaba",
+    "local": "Aeroporto Estadual de Sorocaba",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "10:00",
+    "titulo": "Visita à frota e cerimônia de entrega de 400 novas Unidades Odontológicas Móveis",
+    "local": "Flash Engenharia - Alto da Boa Vista- Sorocaba (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "12:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Estadual de Sorocaba",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:13:50:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "13:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "19:00",
+    "titulo": "Partida para Bogotá",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-21:21:45:1",
+    "tipo": "agenda",
+    "data": "2025-08-21",
+    "hora": "21:45",
+    "titulo": "Chegada a Bogotá",
+    "local": "Aeroporto Internacional El Dorado, Comando Aéreo de Transporte Militar",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.591-de-21-de-agosto-de-2025-650480825",
+    "tipo": "ato",
+    "data": "2025-08-22",
+    "titulo": "DECRETO Nº 12.591, DE 21 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Goyá Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Goiânia, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-08-21",
+      "publicacao": "2025-08-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.591-de-21-de-agosto-de-2025-650480825",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12591.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.592-de-21-de-agosto-de-2025-650397631",
+    "tipo": "ato",
+    "data": "2025-08-22",
+    "titulo": "DECRETO Nº 12.592, DE 21 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à SPC Sistema Paranaíba de Comunicações Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Itumbiara, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-08-21",
+      "publicacao": "2025-08-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.592-de-21-de-agosto-de-2025-650397631",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12592.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.593-de-21-de-agosto-de-2025-650488095",
+    "tipo": "ato",
+    "data": "2025-08-22",
+    "titulo": "DECRETO Nº 12.593, DE 21 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Torna sem efeito a outorga da concessão à Fundação Triângulo de Educação, Cultura e Artes, para executar serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Frutal, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-08-21",
+      "publicacao": "2025-08-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.593-de-21-de-agosto-de-2025-650488095",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12593.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:09:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "09:40",
+    "titulo": "Encontro dos Presidentes dos Estados Partes do Tratado de Cooperação Amazônica com a Sociedade Civil e Comunidades Indígenas",
+    "local": "Plaza de Armas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:12:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "12:20",
+    "titulo": "5ª Reunião de Presidentes dos Estados Partes do Tratado de Cooperação Amazônica e Adoção da Declaração de Bogotá",
+    "local": "Casa de Nariño",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:13:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "13:20",
+    "titulo": "Declaração dos Presidentes à imprensa",
+    "local": "Plaza de Armas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:14:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "14:00",
+    "titulo": "Reunião bilateral com Presidente da República da Colômbia, Gustavo Petro",
+    "local": "Casa de Nariño",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:16:05:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "16:05",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional El Dorado",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-22:22:35:1",
+    "tipo": "agenda",
+    "data": "2025-08-22",
+    "hora": "22:35",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "10:00",
+    "titulo": "Cerimônia oficial de chegada do Presidente da República Federal da Nigéria, Bola Tinubu",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "10:30",
+    "titulo": "Reunião restrita entre o Presidente da República e o Presidente da República da Nigéria, Bola Tinubu",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:11:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "11:40",
+    "titulo": "Reunião ampliada",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:12:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "12:40",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:12:50:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "12:50",
+    "titulo": "Declaração à imprensa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "13:30",
+    "titulo": "Almoço oferecido pelo Presidente da República e a Senhora Janja Lula da Silva ao Presidente da República Federal da Nigéria, Bola Tinubu",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "15:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços e Vice-Presidente da República, Geraldo Alckmin, para anúncio da nova linha de crédito para Indústria 4.0",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "17:00",
+    "titulo": "Senadora Leila Barros",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-25:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-25",
+    "hora": "18:00",
+    "titulo": "Prêmio Nobel de Literatura, Wole Soyinka",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.594-de-26-de-agosto-de-2025-651079477",
+    "tipo": "ato",
+    "data": "2025-08-26",
+    "titulo": "DECRETO Nº 12.594, DE 26 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Autoriza a nomeação de candidatos aprovados e não classificados dentro do quantitativo de vagas originalmente previsto no concurso público para os cargos de Perito Médico Federal do Quadro de Pessoal do Ministério da Previdência Social.",
+    "datasAto": {
+      "assinatura": "2025-08-26",
+      "publicacao": "2025-08-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.594-de-26-de-agosto-de-2025-651079477",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12594.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-26:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-26",
+    "hora": "09:00",
+    "titulo": "Reunião Ministerial",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-27",
+    "hora": "10:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-27:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-27",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Assinatura do Decreto de Implantação da TV 3.0",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-27",
+    "hora": "15:00",
+    "titulo": "Ministra da Cultura, Margareth Menezes, e escritor Valter Hugo Mãe",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-27:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-27",
+    "hora": "15:30",
+    "titulo": "CEO do Grupo Shell, Wael Sawan",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-27:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-27",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.595-de-27-de-agosto-de-2025-651425519",
+    "tipo": "ato",
+    "data": "2025-08-28",
+    "titulo": "DECRETO Nº 12.595, DE 27 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a escolha do padrão tecnológico da segunda geração do Sistema Brasileiro de Televisão Digital Terrestre, denominada TV 3.0, e sobre a sua implantação no território nacional.",
+    "datasAto": {
+      "assinatura": "2025-08-27",
+      "publicacao": "2025-08-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.595-de-27-de-agosto-de-2025-651425519",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12595.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.596-de-27-de-agosto-de-2025-651422727",
+    "tipo": "ato",
+    "data": "2025-08-28",
+    "titulo": "DECRETO Nº 12.596, DE 27 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Anhanguera de Araguaína Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Araguaína, Estado do Tocantins.",
+    "datasAto": {
+      "assinatura": "2025-08-27",
+      "publicacao": "2025-08-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.596-de-27-de-agosto-de-2025-651422727",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12596.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.597-de-27-de-agosto-de-2025-651429769",
+    "tipo": "ato",
+    "data": "2025-08-28",
+    "titulo": "DECRETO Nº 12.597, DE 27 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Stúdios de Jaú S.A., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Jaú, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2025-08-27",
+      "publicacao": "2025-08-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.597-de-27-de-agosto-de-2025-651429769",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12597.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "09:00",
+    "titulo": "Entrevista para a TV Record Minas",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "10:30",
+    "titulo": "Cerimônia oficial de chegada do Presidente da República do Panamá, José Raúl Mulino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "11:00",
+    "titulo": "Reunião bilateral com o Presidente da República do Panamá, José Raúl Mulino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:12:15:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "12:15",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "12:30",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "13:30",
+    "titulo": "Almoço oferecido pelo Presidente da República ao Presidente da República do Panamá, José Raúl Mulino",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "15:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "16:30",
+    "titulo": "Encontro com atletas da Seleção Brasileira de Ginástica Rítmica, medalhistas do Campeonato Mundial 2025",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-28:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-28",
+    "hora": "18:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann, ministros e líderes do PT",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.598-de-28-de-agosto-de-2025-652011831",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.598, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Educacional entre o Governo da República Federativa do Brasil e o Governo da Mongólia, firmado em Brasília, em 21 de setembro de 2015.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.598-de-28-de-agosto-de-2025-652011831",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12598.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.599-de-28-de-agosto-de-2025-652015342",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.599, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.073, de 3 de janeiro de 2002, que regulamenta a Lei nº 8.159, de 8 de janeiro de 1991, que dispõe sobre a política nacional de arquivos públicos e privados.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.599-de-28-de-agosto-de-2025-652015342",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12599.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.600-de-28-de-agosto-de-2025-651965268",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.600, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a inclusão de empreendimentos públicos federais do setor hidroviário no Programa Nacional de Desestatização.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.600-de-28-de-agosto-de-2025-651965268",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12600.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.601-de-28-de-agosto-de-2025-651968463",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.601, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a qualificação da política federal de fomento à elaboração de estudos para alternativas de parcerias em empreendimentos urbanos de múltiplos usos em imóveis da União no âmbito do Programa de Parcerias de Investimentos da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.601-de-28-de-agosto-de-2025-651968463",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12601.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.602-de-28-de-agosto-de-2025-652011596",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.602, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a qualificação das unidades de conservação Parque Nacional Marinho de Fernando de Noronha e Área de Proteção Ambiental de Fernando de Noronha no âmbito do Programa de Parcerias de Investimentos da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.602-de-28-de-agosto-de-2025-652011596",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12602.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.603-de-28-de-agosto-de-2025-652020315",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.603, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Educação Profissional e Tecnológica - PNEPT, regulamenta o art. 4º da Lei nº 14.645, de 2 de agosto de 2023, e institui o Sistema Nacional de Avaliação da Educação Profissional e Tecnológica - SINAEPT.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.603-de-28-de-agosto-de-2025-652020315",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12603.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.604-de-28-de-agosto-de-2025-652028954",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "DECRETO Nº 12.604, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, cargos em comissão e função de confiança para a Casa de Governo no Estado do Rio Grande do Sul e transforma cargos em comissão, altera o Decreto nº 11.329, de 1º de janeiro de 2023, que dispõe sobre a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Casa ...",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.604-de-28-de-agosto-de-2025-652028954",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12604.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.192-de-28-de-agosto-de-2025-652020341",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "LEI Nº 15.192, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional a guitarrada.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.192-de-28-de-agosto-de-2025-652020341",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15192.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.193-de-28-de-agosto-de-2025-652021989",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "LEI Nº 15.193, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Confere o título de Capital Nordestina do Cuscuz ao Município de Angelim, no Estado de Pernambuco.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.193-de-28-de-agosto-de-2025-652021989",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15193.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.194-de-28-de-agosto-de-2025-652013107",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "LEI Nº 15.194, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Inscreve o nome de Manoel Mattos no Livro dos Heróis e Heroínas da Pátria.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.194-de-28-de-agosto-de-2025-652013107",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15194.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.195-de-28-de-agosto-de-2025-651960877",
+    "tipo": "ato",
+    "data": "2025-08-29",
+    "titulo": "LEI Nº 15.195, DE 28 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Confere o título de Capital Nacional da Paçoca de Carne com Farinha ao Município de Boa Vista, no Estado de Roraima.",
+    "datasAto": {
+      "assinatura": "2025-08-28",
+      "publicacao": "2025-08-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.195-de-28-de-agosto-de-2025-651960877",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15195.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "08:00",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "09:00",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:09:15:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "09:15",
+    "titulo": "Entrevista à Rádio Itatiaia",
+    "local": "Aeroporto de Pampulha",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:10:40:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "10:40",
+    "titulo": "Visita às obras da Avenida Prefeito Newton Cardoso (antiga Avenida Maracanã)",
+    "local": "Avenida Prefeito Newton Cardoso (antiga Avenida Maracanã) – Contagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "11:30",
+    "titulo": "Cerimônia de anúncio dos projetos habilitados pelo Novo PAC Seleções 2025 - Mobilidade Urbana e Renovação de Frota",
+    "local": "Avenida Prefeito Newton Cardoso (Antiga Avenida Maracanã) – Contagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:13:50:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "13:50",
+    "titulo": "Partida para Montes Claros",
+    "local": "Aeroporto da Pampulha- Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:14:20:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "14:20",
+    "titulo": "Chegada a Montes Claros",
+    "local": "Aeroporto de Montes Claros",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "15:00",
+    "titulo": "Visita às instalações e cerimônia de inauguração do Centro de Tecnologia e Inovação Agroindustrial e de lançamento do programa Valoriza – Acelen Renováveis",
+    "local": "Acelen Renováveis, Fazenda Boqueirão, BR-135, km 334, Zona Rural, Montes Claros",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:18:10:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "18:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Montes Claros",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-08-29:19:00:1",
+    "tipo": "agenda",
+    "data": "2025-08-29",
+    "hora": "19:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-08-29",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.605-de-30-de-agosto-de-2025-651969769",
+    "tipo": "ato",
+    "data": "2025-08-30",
+    "titulo": "DECRETO Nº 12.605, DE 30 DE AGOSTO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara luto oficial pelo falecimento de Luis Fernando Verissimo, escritor, cronista e humorista brasileiro.",
+    "datasAto": {
+      "assinatura": "2025-08-30",
+      "publicacao": "2025-08-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.605-de-30-de-agosto-de-2025-651969769",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12605.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

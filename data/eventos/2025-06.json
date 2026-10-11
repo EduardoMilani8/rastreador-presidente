@@ -1,0 +1,4399 @@
+[
+  {
+    "id": "agenda:2025-06-02:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "11:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "15:00",
+    "titulo": "Telefonema com o Presidente do Governo da Espanha, Pedro Sánchez",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "15:30",
+    "titulo": "Assessor-Chefe da Assessorial Especial da Presidência da República, Embaixador Celso Amorim, Chefe do Cerimonial da Presidência da República, Fernando Igreja, e Assessor-Chefe Adjunto da Assessoria Especial do Presidente da República, Audo Faleiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "16:30",
+    "titulo": "Comandante da Marinha, Almirante Marcos Sampaio Olsen, e Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "17:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-02:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-02",
+    "hora": "18:00",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.478-de-2-de-junho-de-2025-633785950",
+    "tipo": "ato",
+    "data": "2025-06-03",
+    "titulo": "DECRETO Nº 12.478, DE 2 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.024, de 21 de novembro de 2001, que estabelece critérios e procedimentos para implantação ou financiamento de obras de infraestrutura hídrica com recursos financeiros da União.",
+    "datasAto": {
+      "assinatura": "2025-06-02",
+      "publicacao": "2025-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.478-de-2-de-junho-de-2025-633785950",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12478.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.479-de-2-de-junho-de-2025-633790216",
+    "tipo": "ato",
+    "data": "2025-06-03",
+    "titulo": "DECRETO Nº 12.479, DE 2 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara a caducidade da concessão de titularidade da Concessionária K-Infra Rodovia do Aço S.A.",
+    "datasAto": {
+      "assinatura": "2025-06-02",
+      "publicacao": "2025-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.479-de-2-de-junho-de-2025-633790216",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12479.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.480-de-2-de-junho-de-2025-633784990",
+    "tipo": "ato",
+    "data": "2025-06-03",
+    "titulo": "DECRETO Nº 12.480, DE 2 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Fixa a lotação dos Adidos, dos Adjuntos e dos Auxiliares de Adidos Militares em representações diplomáticas no exterior.",
+    "datasAto": {
+      "assinatura": "2025-06-02",
+      "publicacao": "2025-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.480-de-2-de-junho-de-2025-633784990",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12480.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.481-de-2-de-junho-de-2025-633782891",
+    "tipo": "ato",
+    "data": "2025-06-03",
+    "titulo": "DECRETO Nº 12.481, DE 2 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Política Marítima Nacional.",
+    "datasAto": {
+      "assinatura": "2025-06-02",
+      "publicacao": "2025-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.481-de-2-de-junho-de-2025-633782891",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12481.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.141-de-2-de-junho-de-2025-633791330",
+    "tipo": "ato",
+    "data": "2025-06-03",
+    "titulo": "LEI Nº 15.141, DE 2 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Carreira de Desenvolvimento Socioeconômico, a Carreira de Desenvolvimento das Políticas de Justiça e Defesa e a Carreira de Fiscalização da Comissão de Valores Mobiliários, altera a remuneração de servidores e empregados públicos do Poder Executivo federal, altera a remuneração de cargos em comissão, de funções de confiança e de gratificações do Poder Ex...",
+    "datasAto": {
+      "assinatura": "2025-06-02",
+      "publicacao": "2025-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.141-de-2-de-junho-de-2025-633791330",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15141.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "10:00",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "15:30",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck, Ministra da Igualdade Racial, Anielle Franco, e Ministra dos Povos Indígenas, Sonia Guajajara, para sanção do Projeto de Lei nº 1.958/2021, que amplia em 30% a reserva de vagas em concursos públicos federais para pessoas negras, indígenas e quilombolas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "16:00",
+    "titulo": "Ministra do Meio Ambiente e Mudança do Clima, Marina Silva, para assinatura de atos por ocasião do Dia do Meio Ambiente",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "17:00",
+    "titulo": "CEO da Compañía Manufacturera de Papeles y Cartones (CMPC), Francisco Ruiz-Tagle, e Presidente do Conselho de Administração da CMPC, Bernardo Larrain Matte",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-03:20:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-03",
+    "hora": "20:00",
+    "titulo": "Partida para Lisboa",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.482-de-3-de-junho-de-2025-633796543",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.482, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Faxinal Bom Retiro, localizada no Município de Pinhão, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.482-de-3-de-junho-de-2025-633796543",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12482.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.483-de-3-de-junho-de-2025-633803609",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.483, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Área de Proteção Ambiental da Foz do Rio Doce, localizada nos Municípios de Aracruz e Linhares, Estado do Espírito Santo.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.483-de-3-de-junho-de-2025-633803609",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12483.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.484-de-3-de-junho-de-2025-633799207",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.484, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 8.505, de 20 de agosto de 2015, que dispõe sobre o Programa Áreas Protegidas da Amazônia, instituído no âmbito do Ministério do Meio Ambiente e Mudança do Clima.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.484-de-3-de-junho-de-2025-633799207",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12484.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.485-de-3-de-junho-de-2025-633808268",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.485, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Estratégia e o Plano de Ação Nacionais para a Biodiversidade.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.485-de-3-de-junho-de-2025-633808268",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12485.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.487-de-3-de-junho-de-2025-633797440",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.487, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Faxinal São Roquinho, localizada no Município de Pinhão, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.487-de-3-de-junho-de-2025-633797440",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12487.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.488-de-3-de-junho-de-2025-633810121",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 12.488, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Define os limites do Parque Nacional de Saint-Hilaire/Lange, no Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.488-de-3-de-junho-de-2025-633810121",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12488.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-14.486-de-3-de-junho-de-2025-633801741",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "DECRETO Nº 14.486, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional para a Conservação e o Uso Sustentável dos Recifes de Coral - ProCoral.",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-14.486-de-3-de-junho-de-2025-633801741",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.142-de-3-de-junho-de-2025-633795606",
+    "tipo": "ato",
+    "data": "2025-06-04",
+    "titulo": "LEI Nº 15.142, DE 3 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de 30% (trinta por cento) das vagas oferecidas nos concursos públicos para provimento de cargos efetivos e empregos públicos no âmbito da administração pública federal direta, das autarquias, das fundações públicas, das empresas públicas e das sociedades de economia mista controladas pela ...",
+    "datasAto": {
+      "assinatura": "2025-06-03",
+      "publicacao": "2025-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.142-de-3-de-junho-de-2025-633795606",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15142.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-04",
+    "hora": "09:00",
+    "titulo": "Chegada a Lisboa",
+    "local": "Base Aérea de Lisboa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-04:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-04",
+    "hora": "10:30",
+    "titulo": "Partida para Paris",
+    "local": "Base Aérea de Lisboa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-04:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-04",
+    "hora": "13:30",
+    "titulo": "Chegada a Paris",
+    "local": "Aeroporto de Paris-Orly - Pavilhão de Autoridades",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.489-de-4-de-junho-de-2025-634388536",
+    "tipo": "ato",
+    "data": "2025-06-05",
+    "titulo": "DECRETO Nº 12.489, DE 4 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.798, de 28 de novembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Saúde e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-04",
+      "publicacao": "2025-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.489-de-4-de-junho-de-2025-634388536",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12489.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:10:05:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "10:05",
+    "titulo": "Cerimônia oficial de boas-vindas",
+    "local": "Esplanada dos Inválidos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:10:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "10:40",
+    "titulo": "Cerimônia de troca de presentes",
+    "local": "Palácio do Eliseu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "11:00",
+    "titulo": "Reunião ampliada com o Presidente da República Francesa, Emmanuel Macron",
+    "local": "Palácio do Eliseu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:12:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "12:15",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio do Eliseu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:12:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "12:45",
+    "titulo": "Almoço restrito oferecido pelo Presidente da República Francesa, Emmanuel Macron, ao Presidente da República",
+    "local": "Palácio do Eliseu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:15:05:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "15:05",
+    "titulo": "Sessão privada da Academia Francesa em homenagem ao Presidente da República",
+    "local": "Academia Francesa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "16:30",
+    "titulo": "Reunião com a Prefeita de Paris, Anne Hidalgo",
+    "local": "Prefeitura de Paris",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "17:00",
+    "titulo": "Encontro com a comunidade brasileira",
+    "local": "Prefeitura de Paris",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-05:21:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-05",
+    "hora": "21:00",
+    "titulo": "Jantar de Estado oferecido pelo Presidente da República Francesa, Emmanuel Macron, e pela senhora Brigitte Macron ao Presidente da República e à senhora Janja Lula da Silva",
+    "local": "Palácio do Eliseu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.490-de-5-de-junho-de-2025-634655556",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.490, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Amplia a Área de Proteção Ambiental Costa dos Corais, nos Estados de Alagoas e Pernambuco.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.490-de-5-de-junho-de-2025-634655556",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12490.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.491-de-5-de-junho-de-2025-634698682",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.491, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Planejamento Espacial Marinho.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.491-de-5-de-junho-de-2025-634698682",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12491.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.492-de-5-de-junho-de-2025-634699437",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.492, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria o Refúgio de Vida Silvestre do Soldadinho-do-Araripe, localizado nos Municípios de Barbalha, Crato e Missão Velha, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.492-de-5-de-junho-de-2025-634699437",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12492.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.493-de-5-de-junho-de-2025-634700299",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.493, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre o Governo da República Federativa do Brasil e o Governo da República Italiana sobre o Reconhecimento Recíproco das Carteiras de Habilitação para Fins de Conversão, firmado em Brasília, em 15 de julho de 2024.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.493-de-5-de-junho-de-2025-634700299",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12493.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.494-de-5-de-junho-de-2025-634701015",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.494, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo sobre Serviços Aéreos entre a República Federativa do Brasil e a República de Ruanda, firmado em Kigali, Ruanda, em 14 de agosto de 2019.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.494-de-5-de-junho-de-2025-634701015",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12494.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.495-de-5-de-junho-de-2025-634668271",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "DECRETO Nº 12.495, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação e Facilitação de Investimentos entre a República Federativa do Brasil e a República do Equador, firmado em Nova Iorque, em 25 de setembro de 2019.",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.495-de-5-de-junho-de-2025-634668271",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12495.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.143-de-5-de-junho-de-2025-634654812",
+    "tipo": "ato",
+    "data": "2025-06-06",
+    "titulo": "LEI Nº 15.143, DE 5 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre medidas excepcionais para concessão de colaboração financeira à União, aos Estados e ao Distrito Federal, para apoio a ações de prevenção e combate à ocorrência de queimadas irregulares e de incêndios florestais; autoriza a participação da União no Fundo de Apoio à Infraestrutura para Recuperação e Adaptação a Eventos Climáticos Extremos; dispensa ...",
+    "datasAto": {
+      "assinatura": "2025-06-05",
+      "publicacao": "2025-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.143-de-5-de-junho-de-2025-634654812",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15143.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "09:30",
+    "titulo": "Cerimônia de outorga do título de Doutor Honoris Causa ao Presidente da República",
+    "local": "Universidade Paris 8",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "11:00",
+    "titulo": "Visita à exposição “Nosso Barco Tambor Terra”, de Ernesto Neto, na companhia do Presidente da República Francesa e da senhora Brigitte Macron",
+    "local": "Grand Palais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "12:00",
+    "titulo": "Cerimônia de certificação do Brasil como país livre de febre aftosa sem vacinação pela Organização Mundial de Saúde Animal (OMSA)",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "15:30",
+    "titulo": "Sessão de encerramento do Fórum Empresarial Brasil – França",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "16:30",
+    "titulo": "Audiência concedida ao Senhor Jean-Luc Mélenchon",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-06:17:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-06",
+    "hora": "17:15",
+    "titulo": "Audiência concedida ao Senhor Jean-Pierre Raffarin",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-07:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-07",
+    "hora": "09:00",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-07:10:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-07",
+    "hora": "10:45",
+    "titulo": "Partida para Nice",
+    "local": "Aeroporto de Paris-Orly",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-07:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-07",
+    "hora": "12:00",
+    "titulo": "Chegada a Nice",
+    "local": "Aeroporto de Nice Côte d'Azur",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-08:11:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-08",
+    "hora": "11:45",
+    "titulo": "Encontro com Sua Alteza o Príncipe de Mônaco, Alberto II",
+    "local": "Fórum Grimaldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-08:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-08",
+    "hora": "12:30",
+    "titulo": "Sessão de Encerramento do Fórum de Economia e Finanças Azuis",
+    "local": "Forum Grimaldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-08:14:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-08",
+    "hora": "14:00",
+    "titulo": "Almoço privado com o Presidente do Conselho Europeu, António Costa",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-08:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-08",
+    "hora": "16:00",
+    "titulo": "Reunião com a Diretora-Geral da UNESCO, Audrey Azoulay",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-08:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-08",
+    "hora": "18:30",
+    "titulo": "Reunião com o Presidente da República do Benim, Patrice Talon",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-08",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:08:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "08:45",
+    "titulo": "Sessão de abertura da III Conferência das Nações Unidas sobre os Oceanos (UNOC 3)",
+    "local": "Port Lympia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:10:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "10:40",
+    "titulo": "Partida para Lyon",
+    "local": "Aeroporto de Nice Côte d’Azur",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:11:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "11:15",
+    "titulo": "Chegada a Lyon",
+    "local": "Aeroporto de Lyon – Saint Exupéry",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:11:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "11:45",
+    "titulo": "Sessão solene por ocasião da assinatura de Declaração de Intenções entre o Brasil e a Interpol",
+    "local": "Sede da Interpol",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "13:00",
+    "titulo": "Partida para a Ilha do Sal",
+    "local": "Aeroporto de Lyon-Saint Exupéry",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:15:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "15:15",
+    "titulo": "Chegada à Ilha do Sal",
+    "local": "Aeroporto Internacional Amílcar Cabral",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:16:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "16:45",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional Amílcar Cabral",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-09:20:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-09",
+    "hora": "20:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.496-de-9-de-junho-de-2025-635041126",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "DECRETO Nº 12.496, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Protocolo Complementar sobre o Desenvolvimento Conjunto do CBERS-6 entre o Governo da República Federativa do Brasil e o Governo da República Popular da China ao Acordo-Quadro sobre Cooperação em Aplicações Pacíficas de Ciência e Tecnologia do Espaço Exterior entre o Governo da República Federativa do Brasil e o Governo da República Popular da Ch...",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.496-de-9-de-junho-de-2025-635041126",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12496.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.497-de-9-de-junho-de-2025-635050948",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "DECRETO Nº 12.497, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre a República Federativa do Brasil e a República Tcheca sobre a Previdência Social, firmado em Brasília, em 9 de dezembro de 2020.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.497-de-9-de-junho-de-2025-635050948",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12497.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.498-de-9-de-junho-de-2025-635045661",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "DECRETO Nº 12.498, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Previdência Social entre a República Federativa do Brasil e a República da Bulgária, firmado em Brasília, em 1º de fevereiro de 2016.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.498-de-9-de-junho-de-2025-635045661",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12498.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.144-de-9-de-junho-de-2025-635038836",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "LEI Nº 15.144, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Rota Turística Histórica Belém-Bragança, no Estado do Pará.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.144-de-9-de-junho-de-2025-635038836",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15144.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.145-de-9-de-junho-de-2025-635039680",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "LEI Nº 15.145, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Brincar.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.145-de-9-de-junho-de-2025-635039680",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15145.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.146-de-9-de-junho-de-2025-635046927",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "LEI Nº 15.146, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional o espetáculo Paixão de Cristo de Nova Jerusalém, que se realiza na cidade-teatro de Nova Jerusalém, localizada no distrito de Fazenda Nova, no Município do Brejo da Madre de Deus, no Estado de Pernambuco.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.146-de-9-de-junho-de-2025-635046927",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15146.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.302-de-9-de-junho-de-2025-635052332",
+    "tipo": "ato",
+    "data": "2025-06-10",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.302, DE 9 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério dos Direitos Humanos e da Cidadania, no valor de R$ 15.000.000,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2025-06-09",
+      "publicacao": "2025-06-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.302-de-9-de-junho-de-2025-635052332",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-10:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-10",
+    "hora": "10:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-10:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-10",
+    "hora": "11:00",
+    "titulo": "Reunião",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-10:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-10",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.499-de-11-de-junho-de-2025-635606820",
+    "tipo": "ato",
+    "data": "2025-06-11",
+    "titulo": "DECRETO Nº 12.499, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.306, de 14 de dezembro de 2007, que regulamenta o Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos ou Valores Mobiliários - IOF.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.499-de-11-de-junho-de-2025-635606820",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12499.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.303-de-11-de-junho-de-2025-635608558",
+    "tipo": "ato",
+    "data": "2025-06-11",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.303, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a tributação de aplicações financeiras e ativos virtuais no País e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.303-de-11-de-junho-de-2025-635608558",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:08:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "08:30",
+    "titulo": "Telefonema para o Primeiro-Ministro do Canadá, Mark Carney",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "10:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "15:00",
+    "titulo": "Princesa Imperial do Japão, Kako de Akishino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-11:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-11",
+    "hora": "17:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.500-de-11-de-junho-de-2025-635618247",
+    "tipo": "ato",
+    "data": "2025-06-12",
+    "titulo": "DECRETO Nº 12.500, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta o processo de transição entre empresas estatais federais dependentes e não dependentes.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.500-de-11-de-junho-de-2025-635618247",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12500.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.501-de-11-de-junho-de-2025-635624451",
+    "tipo": "ato",
+    "data": "2025-06-12",
+    "titulo": "DECRETO Nº 12.501, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.735, de 18 de outubro de 2023, que cria a Zona de Processamento de Exportação de Aracruz, no Município de Aracruz, Estado do Espírito Santo.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.501-de-11-de-junho-de-2025-635624451",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12501.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.502-de-11-de-junho-de-2025-635630624",
+    "tipo": "ato",
+    "data": "2025-06-12",
+    "titulo": "DECRETO Nº 12.502, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta a Lei nº 14.515, de 29 de dezembro de 2022, estabelece as regras e os procedimentos do processo administrativo de fiscalização agropecuária e dispõe sobre a Comissão Especial de Recursos de Defesa Agropecuária e sobre a celebração do Termo de Ajustamento de Conduta.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.502-de-11-de-junho-de-2025-635630624",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12502.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.147-de-11-de-junho-de-2025-635616249",
+    "tipo": "ato",
+    "data": "2025-06-12",
+    "titulo": "LEI Nº 15.147, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério do Desenvolvimento, Indústria, Comércio e Serviços, do Ministério do Desenvolvimento Agrário e Agricultura Familiar, do Ministério da Integração e do Desenvolvimento Regional, do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome, do Ministério das Cidades e de Operações Oficiais de C...",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.147-de-11-de-junho-de-2025-635616249",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15147.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.148-de-11-de-junho-de-2025-635615195",
+    "tipo": "ato",
+    "data": "2025-06-12",
+    "titulo": "LEI Nº 15.148, DE 11 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Inclui no calendário turístico oficial do País o Festival Halleluya, no Município de Fortaleza, no Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-06-11",
+      "publicacao": "2025-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.148-de-11-de-junho-de-2025-635615195",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15148.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "08:00",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "09:00",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha – Carlos Drummond de Andrade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:10:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "10:15",
+    "titulo": "Cerimônia de Apresentação dos Avanços do Novo Acordo Rio Doce em Minas Gerais",
+    "local": "Praça da Sé - Mariana/MG",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:13:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "13:40",
+    "titulo": "Visita e Cerimônia de Entrega de Máquinas Agrícolas a Municípios de Minas Gerais no âmbito do Programa Nacional de Modernização e Apoio à Produção Agrícola (PROMAQ)",
+    "local": "Ceasa- BR 040 km 688- Contagem (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:16:10:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "16:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto da Pampulha – Carlos Drummond de Andrade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-12:17:10:1",
+    "tipo": "agenda",
+    "data": "2025-06-12",
+    "hora": "17:10",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.503-de-12-de-junho-de-2025-635997099",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.503, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.816, de 6 de dezembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Agência Brasileira de Inteligência, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.503-de-12-de-junho-de-2025-635997099",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12503.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.504-de-12-de-junho-de-2025-636018319",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.504, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Integração e do Desenvolvimento Regional, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.504-de-12-de-junho-de-2025-636018319",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12504.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.505-de-12-de-junho-de-2025-636001641",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.505, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.587, de 27 de novembro de 2018, que instala a Agência Nacional de Mineração e aprova a sua Estrutura Regimental e o seu Quadro Demonstrativo dos Cargos em Comissão, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.505-de-12-de-junho-de-2025-636001641",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12505.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.506-de-12-de-junho-de-2025-635988850",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.506, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Minas Sul Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Varginha, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.506-de-12-de-junho-de-2025-635988850",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12506.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.507-de-12-de-junho-de-2025-635987550",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.507, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio Televisão Brasil Oeste Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Cuiabá, Estado de Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.507-de-12-de-junho-de-2025-635987550",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12507.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.508-de-12-de-junho-de-2025-635994331",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.508, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Leste Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Governador Valadares, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.508-de-12-de-junho-de-2025-635994331",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12508.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.509-de-12-de-junho-de-2025-635991366",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.509, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio e TV Difusora do Maranhão Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de São Luís, Estado do Maranhão.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.509-de-12-de-junho-de-2025-635991366",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12509.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.510-de-12-de-junho-de-2025-636008919",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.510, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Autoriza a transferência direta da concessão outorgada à Sistema Nativa de Comunicações Ltda. para a Guarani Radiodifusão Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens, no Município de Pelotas, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.510-de-12-de-junho-de-2025-636008919",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12510.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.511-de-12-de-junho-de-2025-636010386",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.511, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.400, de 21 de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Gabinete Pessoal do Presidente da República e da Assessoria Especial do Presidente da República, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.511-de-12-de-junho-de-2025-636010386",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12511.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.512-de-12-de-junho-de-2025-635960021",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.512, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Rede Brasileira de Bancos de Alimentos.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.512-de-12-de-junho-de-2025-635960021",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12512.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.513-de-12-de-junho-de-2025-635997017",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "DECRETO Nº 12.513, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.790, de 20 de novembro de 2023, que dispõe sobre a Agência Brasileira de Apoio à Gestão do SUS - AGSUS.",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.513-de-12-de-junho-de-2025-635997017",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12513.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.149-de-12-de-junho-de-2025-635986109",
+    "tipo": "ato",
+    "data": "2025-06-13",
+    "titulo": "LEI Nº 15.149, DE 12 DE JUNHO DE 2025",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2025-06-12",
+      "publicacao": "2025-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.149-de-12-de-junho-de-2025-635986109",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15149.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:08:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "08:30",
+    "titulo": "Cerimônia oficial de chegada dos Chefes de Estado e de Governo e dirigentes de Organismos Internacionais",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "09:00",
+    "titulo": "Fotografia oficial",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:09:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "09:15",
+    "titulo": "Sessão Plenária da Cúpula Brasil-Caribe",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "12:30",
+    "titulo": "Assinatura de atos",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:12:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "12:45",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "13:30",
+    "titulo": "Almoço oferecido pelo Presidente da República aos Chefes de Estado e de Governo e aos demais chefes de delegação e dirigentes de Organismos Internacionais",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:15:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "15:15",
+    "titulo": "Encontro bilateral com o Presidente da Guiana, Irfaan Ali",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "16:00",
+    "titulo": "Encontro bilateral com o Presidente do Conselho Presidencial de Transição do Haiti, Fritz Jean",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:16:45:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "16:45",
+    "titulo": "Encontro bilateral com o Presidente da República Dominicana, Luis Abinader",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-13:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-13",
+    "hora": "17:30",
+    "titulo": "Encontro bilateral com a Primeira-Ministra de Barbados, Mia Mottley",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-14:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-14",
+    "hora": "12:00",
+    "titulo": "Lançamento do Defesa Civil Alerta na região Nordeste",
+    "local": "Centro Nacional de Gerenciamento de Riscos e Desastres (CENAD) - Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-16:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-16",
+    "hora": "08:00",
+    "titulo": "Partida para Calgary",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-16",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-16:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-16",
+    "hora": "17:00",
+    "titulo": "Chegada a Calgary",
+    "local": "Aeroporto Internacional de Calgary",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-16",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.514-de-16-de-junho-de-2025-636798606",
+    "tipo": "ato",
+    "data": "2025-06-17",
+    "titulo": "DECRETO Nº 12.514, DE 16 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Programa Mais Igualdade.",
+    "datasAto": {
+      "assinatura": "2025-06-16",
+      "publicacao": "2025-06-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.514-de-16-de-junho-de-2025-636798606",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12514.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.515-de-16-de-junho-de-2025-636747987",
+    "tipo": "ato",
+    "data": "2025-06-17",
+    "titulo": "DECRETO Nº 12.515, DE 16 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Quadragésimo Sexto Protocolo Adicional ao Acordo de Complementação Econômica nº 14 (46PA-ACE14), firmado pela República Federativa do Brasil e pela República Argentina.",
+    "datasAto": {
+      "assinatura": "2025-06-16",
+      "publicacao": "2025-06-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.515-de-16-de-junho-de-2025-636747987",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12515.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.150-de-16-de-junho-de-2025-636797507",
+    "tipo": "ato",
+    "data": "2025-06-17",
+    "titulo": "LEI Nº 15.150, DE 16 DE JUNHO DE 2025",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2025-06-16",
+      "publicacao": "2025-06-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.150-de-16-de-junho-de-2025-636797507",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15150.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:10:50:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "10:50",
+    "titulo": "Reunião bilateral com o Presidente da Coreia do Sul, Lee Jae-myung",
+    "local": "Alojamento Pomeroy Kananaskis Mountain",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "11:00",
+    "titulo": "Cerimônia de boas-vindas aos Chefes de Estado e de Governo dos países do segmento de engajamento externo e dirigentes de organizações internacionais convidadas",
+    "local": "Alojamento Pomeroy Kananaskis Mountain",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:11:15:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "11:15",
+    "titulo": "Foto Oficial",
+    "local": "Alojamento Pomeroy Kananaskis Mountain",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:11:50:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "11:50",
+    "titulo": "Reunião com o Primeiro-Ministro do Canadá, Mark Carney",
+    "local": "Alojamento Pomeroy Kananaskis Mountain",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:14:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "14:00",
+    "titulo": "Sessão 7 – Segurança Energética: almoço de trabalho entre os Chefes de Estado e de Governo dos países do G7, países do segmento de engajamento externo e dirigentes de organizações internacionais convidadas",
+    "local": "Alojamento Pomeroy Kananaskis Mountain",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-17:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-17",
+    "hora": "18:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Calgary",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.516-de-17-de-junho-de-2025-636854314",
+    "tipo": "ato",
+    "data": "2025-06-18",
+    "titulo": "DECRETO Nº 12.516, DE 17 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.430, de 8 de março de 2023, que regulamenta a Lei nº 14.133, de 1º de abril de 2021, para dispor sobre a exigência, em contratações públicas, de percentual mínimo de mão de obra constituída por mulheres vítimas de violência doméstica e sobre a utilização do desenvolvimento, pelo licitante, de ações de equidade entre mulheres e homens...",
+    "datasAto": {
+      "assinatura": "2025-06-17",
+      "publicacao": "2025-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.516-de-17-de-junho-de-2025-636854314",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12516.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.517-de-17-de-junho-de-2025-636855015",
+    "tipo": "ato",
+    "data": "2025-06-18",
+    "titulo": "DECRETO Nº 12.517, DE 17 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.471, de 28 de maio de 2025, que altera o Decreto nº 11.336, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Cultura, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-17",
+      "publicacao": "2025-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.517-de-17-de-junho-de-2025-636855015",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12517.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-18",
+    "hora": "11:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-20:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-20",
+    "hora": "10:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Residência oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-20:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-20",
+    "hora": "11:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck, e Secretária do Patrimônio da União, Carolina Stuchi",
+    "local": "Residência oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.518-de-18-de-junho-de-2025-637194781",
+    "tipo": "ato",
+    "data": "2025-06-23",
+    "titulo": "DECRETO Nº 12.518, DE 18 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Stênio Congro, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Três Lagoas, Estado de Mato Grosso do Sul.",
+    "datasAto": {
+      "assinatura": "2025-06-18",
+      "publicacao": "2025-06-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.518-de-18-de-junho-de-2025-637194781",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12518.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.519-de-18-de-junho-de-2025-637198072",
+    "tipo": "ato",
+    "data": "2025-06-23",
+    "titulo": "DECRETO Nº 12.519, DE 18 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Nacional Educacional e Cultural Colorado, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Colorado, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-06-18",
+      "publicacao": "2025-06-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.519-de-18-de-junho-de-2025-637198072",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12519.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "09:30",
+    "titulo": "Assessor-Chefe da Assessorial Especial da Presidência da República, Embaixador Celso Amorim, e Assessor- Chefe Adjunto da Assessoria Especial do Presidente da República, Audo Faleiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "10:30",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "11:30",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "15:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-23:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-23",
+    "hora": "16:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.520-de-23-de-junho-de-2025-637575790",
+    "tipo": "ato",
+    "data": "2025-06-24",
+    "titulo": "DECRETO Nº 12.520, DE 23 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Anexo ao Decreto nº 12.364, de 17 de janeiro de 2025, que distribui o efetivo de oficiais e praças da ativa do Exército em tempo de paz para 2025.",
+    "datasAto": {
+      "assinatura": "2025-06-23",
+      "publicacao": "2025-06-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.520-de-23-de-junho-de-2025-637575790",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12520.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.521-de-23-de-junho-de-2025-637567992",
+    "tipo": "ato",
+    "data": "2025-06-24",
+    "titulo": "DECRETO Nº 12.521, DE 23 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Prêmio MEC da Educação Brasileira.",
+    "datasAto": {
+      "assinatura": "2025-06-23",
+      "publicacao": "2025-06-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.521-de-23-de-junho-de-2025-637567992",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12521.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "09:30",
+    "titulo": "Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "11:00",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "15:30",
+    "titulo": "Padre Antônio Maria",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "16:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-24:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-24",
+    "hora": "16:30",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.522-de-24-de-junho-de-2025-638042089",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.522, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.330, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Controladoria-Geral da União, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.522-de-24-de-junho-de-2025-638042089",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12522.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.523-de-24-de-junho-de-2025-638101059",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.523, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.364, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Secretaria de Relações Institucionais da Presidência da República, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.523-de-24-de-junho-de-2025-638101059",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12523.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.524-de-24-de-junho-de-2025-638080705",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.524, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Transforma cargos do Quadro Especial da Carreira de Diplomata do Serviço Exterior Brasileiro.",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.524-de-24-de-junho-de-2025-638080705",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12524.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.525-de-24-de-junho-de-2025-638037929",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.525, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Fixa o coeficiente de redução das alíquotas da Contribuição para o Programa de Integração Social e para o Programa de Formação do Patrimônio do Servidor Público - PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - Cofins incidentes sobre a receita bruta auferida na venda de etanol não combustível, de que trata o art. 5º, § 8º, da Lei n...",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.525-de-24-de-junho-de-2025-638037929",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12525.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.526-de-24-de-junho-de-2025-638087260",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.526, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.722, de 28 de setembro de 2023, que dispõe sobre o Concurso Público Nacional Unificado e institui seus órgãos de governança.",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.526-de-24-de-junho-de-2025-638087260",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12526.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.527-de-24-de-junho-de-2025-638087503",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "DECRETO Nº 12.527, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 8.424, de 31 de março de 2015, para dispor sobre a concessão do benefício de seguro-desemprego, durante o período de defeso, ao pescador profissional artesanal que exerce sua atividade exclusiva e ininterruptamente, e o Decreto nº 8.425, de 31 de março de 2015, para dispor sobre os critérios para inscrição no Registro Geral da Atividade...",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.527-de-24-de-junho-de-2025-638087503",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12527.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.151-de-24-de-junho-de-2025-638093910",
+    "tipo": "ato",
+    "data": "2025-06-25",
+    "titulo": "LEI Nº 15.151, DE 24 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o dia 23 de abril como Dia Nacional de Conscientização da Fibrodisplasia Ossificante Progressiva (FOP).",
+    "datasAto": {
+      "assinatura": "2025-06-24",
+      "publicacao": "2025-06-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.151-de-24-de-junho-de-2025-638093910",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15151.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "09:30",
+    "titulo": "2ª Reunião Extraordinária do Conselho Nacional de Política Energética (CNPE)",
+    "local": "Ministério de Minas e Energia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "11:00",
+    "titulo": "Cerimônia Combustível do Futuro Chegou: E30 e B15",
+    "local": "Ministério de Minas e Energia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "15:00",
+    "titulo": "Reunião com o Presidente da República do Benim, Patrice Talon",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "15:40",
+    "titulo": "Reunião ampliada com o Presidente da República do Benim, Patrice Talon",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "17:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-25:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-25",
+    "hora": "18:00",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-25",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.528-de-25-de-junho-de-2025-638288269",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.528, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Vila Rica de Rádio e Televisão Educativa, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Belo Horizonte, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.528-de-25-de-junho-de-2025-638288269",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12528.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.529-de-25-de-junho-de-2025-638354020",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.529, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Rádio e TV Lafaiete Educativa e Cultural, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Conselheiro Lafaiete, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.529-de-25-de-junho-de-2025-638354020",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12529.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.530-de-25-de-junho-de-2025-638288102",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.530, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Cultural Padre Luiz Bartholomeu, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Pirassununga, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.530-de-25-de-junho-de-2025-638288102",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12530.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.531-de-25-de-junho-de-2025-638355679",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.531, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Orlando Zovico, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Limeira, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.531-de-25-de-junho-de-2025-638355679",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12531.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.532-de-25-de-junho-de-2025-638293841",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.532, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação TV Beltrão, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Francisco Beltrão, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.532-de-25-de-junho-de-2025-638293841",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12532.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.533-de-25-de-junho-de-2025-638297262",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.533, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.508, de 24 de setembro de 2018, que reserva às pessoas com deficiência percentual de cargos e de empregos públicos ofertados em concursos públicos e em processos seletivos no âmbito da administração pública federal direta e indireta.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.533-de-25-de-junho-de-2025-638297262",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12533.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.534-de-25-de-junho-de-2025-638361767",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "DECRETO Nº 12.534, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Regulamento do Benefício de Prestação Continuada, disposto no Anexo ao Decreto nº 6.214, de 26 de setembro de 2007, e o Decreto nº 11.016, de 29 de março de 2022, que regulamenta o Cadastro Único para Programas Sociais do Governo Federal.",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.534-de-25-de-junho-de-2025-638361767",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12534.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.152-de-25-de-junho-de-2025-638349353",
+    "tipo": "ato",
+    "data": "2025-06-26",
+    "titulo": "LEI Nº 15.152, DE 25 DE JUNHO DE 2025",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2025-06-25",
+      "publicacao": "2025-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.152-de-25-de-junho-de-2025-638349353",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15152.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "09:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais, Gleisi Hoffmann, e Ministro do Turismo, Celso Sabino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "12:00",
+    "titulo": "Partida para São Paulo",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "13:30",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:14:10:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "14:10",
+    "titulo": "Visita à Favela do Moinho",
+    "local": "Favela do Moinho",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:15:20:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "15:20",
+    "titulo": "Assinatura de Atos Relativos à Solução Habitacional para a Favela do Moinho",
+    "local": "Quadra poliesportiva da Favela do Moinho",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:16:20:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "16:20",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-26:17:50:1",
+    "tipo": "agenda",
+    "data": "2025-06-26",
+    "hora": "17:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.535-de-26-de-junho-de-2025-638428603",
+    "tipo": "ato",
+    "data": "2025-06-27",
+    "titulo": "DECRETO Nº 12.535, DE 26 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.199, de 20 de novembro de 2017, para prever hipótese excepcional de custeio de traslado de corpo de nacional falecido no exterior.",
+    "datasAto": {
+      "assinatura": "2025-06-26",
+      "publicacao": "2025-06-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.535-de-26-de-junho-de-2025-638428603",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12535.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.536-de-27-de-junho-de-2025-638656703",
+    "tipo": "ato",
+    "data": "2025-06-27",
+    "titulo": "DECRETO Nº 12.536, DE 27 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta a Lei nº 15.142, de 3 de junho de 2025, para dispor sobre reserva de vagas às pessoas pretas e pardas, indígenas e quilombolas em concursos públicos e em processos seletivos simplificados para contratação por tempo determinado, e sobre a classificação de pessoas pretas e pardas, indígenas e quilombolas em caso de inclusão em múltiplas hipóteses...",
+    "datasAto": {
+      "assinatura": "2025-06-27",
+      "publicacao": "2025-06-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.536-de-27-de-junho-de-2025-638656703",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12536.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.153-de-26-de-junho-de-2025-638427534",
+    "tipo": "ato",
+    "data": "2025-06-27",
+    "titulo": "LEI Nº 15.153, DE 26 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), a fim de permitir a destinação de recursos arrecadados com multas de trânsito para o custeio da habilitação de condutores de baixa renda, estabelecer regras para transferência de propriedade de veículo por meio eletrônico e exigir exame toxicológico nos casos que especifica. O PR...",
+    "datasAto": {
+      "assinatura": "2025-06-26",
+      "publicacao": "2025-06-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.153-de-26-de-junho-de-2025-638427534",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15153.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-27:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-27",
+    "hora": "08:00",
+    "titulo": "Partida para Imperatriz-MA",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-27:09:40:1",
+    "tipo": "agenda",
+    "data": "2025-06-27",
+    "hora": "09:40",
+    "titulo": "Chegada em Imperatriz-MA",
+    "local": "Aeroporto de Imperatriz - Prefeito Renato Moreira",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-27:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-27",
+    "hora": "11:30",
+    "titulo": "Cerimônia de Entrega de Títulos de Regularização Fundiária e de Assinatura de Acordo de Cooperação Técnica entre Governo Federal e Estado do Tocantins",
+    "local": "Orla do Rio Araguaia, Araguatins-TO",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-27:14:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-27",
+    "hora": "14:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Imperatriz - Prefeito Renato Moreira",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-27:16:10:1",
+    "tipo": "agenda",
+    "data": "2025-06-27",
+    "hora": "16:10",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.537-de-27-de-junho-de-2025-638693244",
+    "tipo": "ato",
+    "data": "2025-06-30",
+    "titulo": "DECRETO Nº 12.537, DE 27 DE JUNHO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.335, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério das Comunicações, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-06-27",
+      "publicacao": "2025-06-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.537-de-27-de-junho-de-2025-638693244",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12537.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "09:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "10:30",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Lançamento do Plano Safra da Agricultura Familiar 2025/2026",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "15:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-06-30:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-06-30",
+    "hora": "17:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-06-30",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

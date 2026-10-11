@@ -1,0 +1,4314 @@
+[
+  {
+    "id": "agenda:2024-11-01:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-01",
+    "hora": "11:00",
+    "titulo": "Gravação de entrevista, por videoconferência, a Darius Rochebin, do canal francês TF1",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-03:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-03",
+    "hora": "11:00",
+    "titulo": "Visita à Sala de Monitoramento do Enem 2024",
+    "local": "Sede do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) – Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.011-de-1-de-novembro-de-2024-593666545",
+    "tipo": "ato",
+    "data": "2024-11-04",
+    "titulo": "LEI Nº 15.011, DE 1º DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2024-11-01",
+      "publicacao": "2024-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.011-de-1-de-novembro-de-2024-593666545",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15011.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-04",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-04:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-04",
+    "hora": "11:30",
+    "titulo": "Telefonema com o Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-04:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-04",
+    "hora": "12:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-04:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-04",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.012-de-4-de-novembro-de-2024-594024778",
+    "tipo": "ato",
+    "data": "2024-11-05",
+    "titulo": "LEI Nº 15.012, DE 4 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.445, de 5 de janeiro de 2007, para conferir publicidade a documentos referentes à regulação e à fiscalização dos serviços públicos de saneamento básico, bem como aos direitos e deveres dos usuários e prestadores, e para instituir como direito da população o acesso a relatórios periódicos sobre o nível dos reservatórios de água para abastec...",
+    "datasAto": {
+      "assinatura": "2024-11-04",
+      "publicacao": "2024-11-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.012-de-4-de-novembro-de-2024-594024778",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15012.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.013-de-4-de-novembro-de-2024-594024944",
+    "tipo": "ato",
+    "data": "2024-11-05",
+    "titulo": "LEI Nº 15.013, DE 4 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Artista Vidreiro.",
+    "datasAto": {
+      "assinatura": "2024-11-04",
+      "publicacao": "2024-11-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.013-de-4-de-novembro-de-2024-594024944",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15013.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-05",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Líder em exercício do Governo no Senado, Senador Otto Alencar",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-05:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-05",
+    "hora": "10:00",
+    "titulo": "Ministro da Controladoria-Geral da União, Vinicius de Carvalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-05:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-05",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-05:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-05",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-05:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-05",
+    "hora": "18:00",
+    "titulo": "Abertura da 21ª Semana Nacional de Ciência e Tecnologia",
+    "local": "Auditório do Museu Nacional da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-06:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-06",
+    "hora": "10:00",
+    "titulo": "Gravação de entrevista aos Senadores Jorge Kajuru e Leila Barros, para a RedeTV",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-06:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-06",
+    "hora": "12:00",
+    "titulo": "Sanção do PL 2012/2019, que prevê a indenização de transporte ao Agente Comunitário de Saúde e ao Agente de Combate às Endemias como forma de custeio de locomoção",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-06:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-06",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-06:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-06",
+    "hora": "15:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.238-de-6-de-novembro-de-2024-594584195",
+    "tipo": "ato",
+    "data": "2024-11-07",
+    "titulo": "DECRETO Nº 12.238, DE 6 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Extingue, a pedido, a concessão outorgada à Fundação Educativa de Radiodifusão Futura, para executar serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de São Gonçalo, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-11-06",
+      "publicacao": "2024-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.238-de-6-de-novembro-de-2024-594584195",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12238.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.239-de-6-de-novembro-de-2024-594584912",
+    "tipo": "ato",
+    "data": "2024-11-07",
+    "titulo": "DECRETO Nº 12.239, DE 6 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Dom Bosco de Comunicação de Ponte Nova, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Ponte Nova, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-06",
+      "publicacao": "2024-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.239-de-6-de-novembro-de-2024-594584912",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12239.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.240-de-6-de-novembro-de-2024-594580411",
+    "tipo": "ato",
+    "data": "2024-11-07",
+    "titulo": "DECRETO Nº 12.240, DE 6 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Antônio Barbara, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Cianorte, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2024-11-06",
+      "publicacao": "2024-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.240-de-6-de-novembro-de-2024-594580411",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12240.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.241-de-6-de-novembro-de-2024-594603047",
+    "tipo": "ato",
+    "data": "2024-11-07",
+    "titulo": "DECRETO Nº 12.241, DE 6 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio e Televisão Bandeirantes S.A., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de São Paulo, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-06",
+      "publicacao": "2024-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.241-de-6-de-novembro-de-2024-594603047",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12241.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.014-de-6-de-novembro-de-2024-594605613",
+    "tipo": "ato",
+    "data": "2024-11-07",
+    "titulo": "LEI Nº 15.014, DE 6 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para prever a concessão de indenização de transporte ao Agente Comunitário de Saúde e ao Agente de Combate às Endemias como forma de custeio de locomoção.",
+    "datasAto": {
+      "assinatura": "2024-11-06",
+      "publicacao": "2024-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.014-de-6-de-novembro-de-2024-594605613",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15014.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-07:08:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-07",
+    "hora": "08:30",
+    "titulo": "Telefonema com o Presidente dos Emirados Árabes Unidos, Xeique Mohammed bin Zayed Al Nahyan",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-07:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-07",
+    "hora": "09:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-07:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-07",
+    "hora": "11:00",
+    "titulo": "Gravação de entrevista, por videoconferência, para Christiane Amanpour, da CNN International",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-07:15:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-07",
+    "hora": "15:40",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.242-de-8-de-novembro-de-2024-595095989",
+    "tipo": "ato",
+    "data": "2024-11-08",
+    "titulo": "DECRETO Nº 12.242, DE 8 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta a concessão de quotas diferenciadas de depreciação acelerada para navios-tanque novos produzidos no Brasil destinados ao ativo imobilizado e empregados exclusivamente em atividade de cabotagem de petróleo e seus derivados, de que trata o art. 1º,caput, inciso II, da Lei nº 14.871, de 28 de maio de 2024.",
+    "datasAto": {
+      "assinatura": "2024-11-08",
+      "publicacao": "2024-11-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.242-de-8-de-novembro-de-2024-595095989",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12242.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.243-de-8-de-novembro-de-2024-595123093",
+    "tipo": "ato",
+    "data": "2024-11-08",
+    "titulo": "DECRETO Nº 12.243, DE 8 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Autoriza o emprego das Forças Armadas para a Garantia da Lei e da Ordem no período de 14 a 21 de novembro de 2024, por ocasião da Cúpula de Líderes do G-20, a ser realizada no Município do Rio de Janeiro, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-11-08",
+      "publicacao": "2024-11-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.243-de-8-de-novembro-de-2024-595123093",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12243.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-08:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-08",
+    "hora": "14:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-11:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-11",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria-Geral, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-11:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-11",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-11:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-11",
+    "hora": "15:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-11:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-11",
+    "hora": "15:30",
+    "titulo": "Reunião com as Lideranças dos Grupos de Engajamento do G20",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-11:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-11",
+    "hora": "16:30",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.244-de-8-de-novembro-de-2024-595405440",
+    "tipo": "ato",
+    "data": "2024-11-12",
+    "titulo": "DECRETO Nº 12.244, DE 8 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.305, de 13 de março de 2018, que dispõe sobre a composição e as competências do Conselho de Participação do Fundo Garantidor do Fundo de Financiamento Estudantil - Fies e trata da integralização de cotas do Fundo Garantidor do Fies pela União.",
+    "datasAto": {
+      "assinatura": "2024-11-08",
+      "publicacao": "2024-11-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.244-de-8-de-novembro-de-2024-595405440",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12244.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.245-de-8-de-novembro-de-2024-595406082",
+    "tipo": "ato",
+    "data": "2024-11-12",
+    "titulo": "DECRETO Nº 12.245, DE 8 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.499, de 28 de setembro de 2020, e transforma cargo em comissão e funções de confiança no âmbito do Ministério da Fazenda.",
+    "datasAto": {
+      "assinatura": "2024-11-08",
+      "publicacao": "2024-11-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.245-de-8-de-novembro-de-2024-595406082",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12245.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.246-de-8-de-novembro-de-2024-595412720",
+    "tipo": "ato",
+    "data": "2024-11-12",
+    "titulo": "DECRETO Nº 12.246, DE 8 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a dispensa ao serviço das pessoas ocupantes de cargo público e de trabalhadoras e trabalhadores de empresas contratadas para a prestação de serviços de mão de obra, no âmbito da administração pública federal direta, autárquica e fundacional, para a realização de exames preventivos de câncer.",
+    "datasAto": {
+      "assinatura": "2024-11-08",
+      "publicacao": "2024-11-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.246-de-8-de-novembro-de-2024-595412720",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12246.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "09:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "10:00",
+    "titulo": "Ministro da Previdência Social, Carlos Lupi, e Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "11:00",
+    "titulo": "Prefeito reeleito de Manaus, David Almeida (Avante), e Prefeito eleito de São Gabriel da Cachoeira (AM), Egmar Curubinha (PT)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "11:30",
+    "titulo": "Diretor da Organização Pan-Americana da Saúde (OPAS) e Diretor Regional da OMS para as Américas, Jarbas Barbosa, e Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "15:00",
+    "titulo": "Presidente do Conselho da China Communications Construction Company (CCCC), Wang Tongzhou",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:15:45:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "15:45",
+    "titulo": "Sanção do Projeto de Lei n° 397/2019, que institui o Dia Nacional do Maracatu",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "16:30",
+    "titulo": "Presidente do Grupo ArcelorMittal, Lakshmi Mittal",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-12:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-12",
+    "hora": "18:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.015-de-12-de-novembro-de-2024-595674424",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.015, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.015-de-12-de-novembro-de-2024-595674424",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15015.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.016-de-12-de-novembro-de-2024-595676647",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.016, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.016-de-12-de-novembro-de-2024-595676647",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15016.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.017-de-12-de-novembro-de-2024-595668763",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.017, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para dispor sobre a publicização de dados e microdados coletados nos censos da educação básica e superior e nos respectivos exames e sistemas de avaliação.",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.017-de-12-de-novembro-de-2024-595668763",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15017.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.018-de-12-de-novembro-de-2024-595669196",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.018, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Maracatu.",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.018-de-12-de-novembro-de-2024-595669196",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15018.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.019-de-12-de-novembro-de-2024-595671124",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.019, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Inclui no calendário turístico oficial do País o Cerejeiras Festival, evento realizado no Município de Garça, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.019-de-12-de-novembro-de-2024-595671124",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15019.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.020-de-12-de-novembro-de-2024-595671884",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.020, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Inscreve o nome de Darcy Ribeiro no Livro dos Heróis e Heroínas da Pátria.",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.020-de-12-de-novembro-de-2024-595671884",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15020.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.021-de-12-de-novembro-de-2024-595674234",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "LEI Nº 15.021, DE 12 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o controle de material genético animal e sobre a obtenção e o fornecimento de clones de animais domésticos destinados à produção de animais domésticos de interesse zootécnico e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-11-12",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.021-de-12-de-novembro-de-2024-595674234",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15021.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.273-de-13-de-novembro-de-2024-595947749",
+    "tipo": "ato",
+    "data": "2024-11-13",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.273, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.724, de 14 de novembro de 2023, para dispor sobre novo prazo de vigência do Programa de Enfrentamento à Fila da Previdência Social - PEFPS.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.273-de-13-de-novembro-de-2024-595947749",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-13",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-13:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-13",
+    "hora": "11:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-13:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-13",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-13:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-13",
+    "hora": "15:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.247-de-13-de-novembro-de-2024-596116737",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.247, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio e Televisão OM Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Curitiba, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.247-de-13-de-novembro-de-2024-596116737",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12247.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.248-de-13-de-novembro-de-2024-596249205",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.248, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Stúdios de Teófilo Otoni Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Manhuaçu, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.248-de-13-de-novembro-de-2024-596249205",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12248.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.249-de-13-de-novembro-de-2024-596118307",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.249, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada ao Sistema Nativa de Comunicações Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Pelotas, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.249-de-13-de-novembro-de-2024-596118307",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12249.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.250-de-13-de-novembro-de-2024-596118791",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.250, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, cargos em comissão para o Ministério do Desenvolvimento Agrário e Agricultura Familiar.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.250-de-13-de-novembro-de-2024-596118791",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12250.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.251-de-13-de-novembro-de-2024-596120815",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.251, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, cargos em comissão para o Ministério do Turismo, e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.251-de-13-de-novembro-de-2024-596120815",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12251.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.252-de-13-de-novembro-de-2024-596240655",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.252, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Transforma Funções Gratificadas - FG.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.252-de-13-de-novembro-de-2024-596240655",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12252.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.253-de-13-de-novembro-de-2024-596121934",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "DECRETO Nº 12.253, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece os procedimentos a serem observados pelos órgãos que compõem o Sistema de Defesa Aeroespacial Brasileiro - SISDABRA, com relação às aeronaves suspeitas ou hostis que possam apresentar ameaça à segurança da Cúpula de Líderes do G-20, no Município do Rio de Janeiro, no Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.253-de-13-de-novembro-de-2024-596121934",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12253.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.022-de-13-de-novembro-de-2024-596246409",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "LEI Nº 15.022, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece o Inventário Nacional de Substâncias Químicas e a avaliação e o controle de risco das substâncias químicas utilizadas, produzidas ou importadas, no território nacional, com o objetivo de minimizar os impactos adversos à saúde e ao meio ambiente; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.022-de-13-de-novembro-de-2024-596246409",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15022.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.023-de-13-de-novembro-de-2024-596246799",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "LEI Nº 15.023, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.023-de-13-de-novembro-de-2024-596246799",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15023.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.024-de-13-de-novembro-de-2024-596216363",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "LEI Nº 15.024, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério da Agricultura e Pecuária, no valor de R$ 230.891.005,00 (duzentos e trinta milhões oitocentos e noventa e um mil e cinco reais), para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.024-de-13-de-novembro-de-2024-596216363",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15024.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.025-de-13-de-novembro-de-2024-596256749",
+    "tipo": "ato",
+    "data": "2024-11-14",
+    "titulo": "LEI Nº 15.025, DE 13 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor dos Ministérios da Educação e da Cultura e de Operações Oficiais de Crédito, no valor de R$ 1.454.799.092,00 (um bilhão quatrocentos e cinquenta e quatro milhões setecentos e noventa e nove mil e noventa e dois reais), para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-11-13",
+      "publicacao": "2024-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.025-de-13-de-novembro-de-2024-596256749",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15025.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "09:30",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República Argentina, Guillermo Daniel Raimondi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:09:45:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "09:45",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República Argelina Democrática e Popular, Abdelaziz Benali Cherif",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "10:00",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República Islâmica do Paquistão, Murad Ashraf Janjua",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:10:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "10:15",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República da Coreia, Choi Yeong Han",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "10:30",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República Cooperativa da Guiana, Compton Bourne",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:10:45:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "10:45",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República Democrática Federal da Etiópia, Leulseged Tadese Abebe",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "11:00",
+    "titulo": "Apresentação de cartas credenciais da Embaixadora da República da Namíbia, Selma Nghinamundova",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:11:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "11:15",
+    "titulo": "Apresentação de cartas credenciais do Embaixador da República do Panamá, Flavio Gabriel Méndez Altamirano",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "16:00",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-14:17:25:1",
+    "tipo": "agenda",
+    "data": "2024-11-14",
+    "hora": "17:25",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "III COMAR – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-15:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-15",
+    "hora": "10:00",
+    "titulo": "Despachos internos",
+    "local": "Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-15:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-15",
+    "hora": "12:30",
+    "titulo": "Almoço",
+    "local": "Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-15:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-15",
+    "hora": "14:00",
+    "titulo": "Visita ao Forte de Copacabana",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-16:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-16",
+    "hora": "10:30",
+    "titulo": "Reunião com o Secretário-Geral da Organização das Nações Unidas, António Guterres",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-16:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-16",
+    "hora": "12:00",
+    "titulo": "Sessão de encerramento do G20 Social",
+    "local": "Armazém 3 – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-16:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-16",
+    "hora": "15:30",
+    "titulo": "Audiência com a Prefeita de Paris, Anne Hidalgo",
+    "local": "Forte de Copacabana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-16:16:10:1",
+    "tipo": "agenda",
+    "data": "2024-11-16",
+    "hora": "16:10",
+    "titulo": "Audiência com o Presidente do Banco Interamericano de Desenvolvimento (BID), Ilan Goldfajn",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-16:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-16",
+    "hora": "19:00",
+    "titulo": "Festival de Cultura “Aliança Global Contra a Fome e a Pobreza”",
+    "local": "Praça Mauá – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "09:00",
+    "titulo": "Sessão de abertura do Urban 20, iniciativa do Grupo C40 de Grandes Cidades",
+    "local": "Armazém da Utopia – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "10:30",
+    "titulo": "Reunião com o Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:11:20:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "11:20",
+    "titulo": "Reunião com o Primeiro-Ministro da Malásia, Anwar Ibrahim",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:12:10:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "12:10",
+    "titulo": "Reunião com a Primeira-Ministra da República Italiana, Giorgia Meloni",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:14:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "14:15",
+    "titulo": "Audiência com o Príncipe Herdeiro de Abu Dhabi, Sheikh Khaled bin Mohamed bin Zayed Al Nahyan",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "15:00",
+    "titulo": "Reunião com a Presidente da Comissão Europeia, Ursula von der Leyen",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:15:50:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "15:50",
+    "titulo": "Reunião com o Primeiro- Ministro da República Socialista do Vietnã, Pham Minh Chinh",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:16:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "16:40",
+    "titulo": "Reunião com o Presidente da República de Angola, João Manuel Gonçalves Lourenço",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "17:30",
+    "titulo": "Reunião com o Presidente da República da Türkiye, Recep Tayyip Erdoğan",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-17:18:20:1",
+    "tipo": "agenda",
+    "data": "2024-11-17",
+    "hora": "18:20",
+    "titulo": "Reunião com o Presidente da República Árabe do Egito, Abdel Fattah El-Sisi",
+    "local": "Forte de Copacabana – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-18:08:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-18",
+    "hora": "08:40",
+    "titulo": "Cumprimentos aos líderes do G20",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-18:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-18",
+    "hora": "10:00",
+    "titulo": "Lançamento da Aliança Global contra a Fome e a Pobreza e 1ª Sessão da Reunião de Líderes do G20: Combate à Fome e à Pobreza",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-18:14:10:1",
+    "tipo": "agenda",
+    "data": "2024-11-18",
+    "hora": "14:10",
+    "titulo": "Foto oficial da Aliança Global contra a Fome e a Pobreza",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-18:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-18",
+    "hora": "14:30",
+    "titulo": "2ª Sessão da Reunião de Líderes do G20: Reforma das Instituições de Governança Global",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-18:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-18",
+    "hora": "18:00",
+    "titulo": "Recepção oficial oferecida pelo Presidente Lula e pela Senhora Janja Lula da Silva aos chefes de delegações",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.026-de-18-de-novembro-de-2024-596560349",
+    "tipo": "ato",
+    "data": "2024-11-19",
+    "titulo": "LEI Nº 15.026, DE 18 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a aplicação das Leis nºs 4.950-A, de 22 de abril de 1966, 5.194, de 24 de dezembro de 1966, e 7.410, de 27 de novembro de 1985, aos diplomados em Geologia ou Engenharia Geológica.",
+    "datasAto": {
+      "assinatura": "2024-11-18",
+      "publicacao": "2024-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.026-de-18-de-novembro-de-2024-596560349",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15026.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.027-de-18-de-novembro-de-2024-596573186",
+    "tipo": "ato",
+    "data": "2024-11-19",
+    "titulo": "LEI Nº 15.027, DE 18 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Reconhece como patrimônio cultural material do Brasil o acervo jornalístico do Diario de Pernambuco.",
+    "datasAto": {
+      "assinatura": "2024-11-18",
+      "publicacao": "2024-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.027-de-18-de-novembro-de-2024-596573186",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15027.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.028-de-18-de-novembro-de-2024-596561232",
+    "tipo": "ato",
+    "data": "2024-11-19",
+    "titulo": "LEI Nº 15.028, DE 18 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Denomina \"Rodovia Governador Benedito Valadares\" o trecho da rodovia BR-262 entre o Km 352,5 e o Km 426, no Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-18",
+      "publicacao": "2024-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.028-de-18-de-novembro-de-2024-596561232",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15028.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.029-de-18-de-novembro-de-2024-596574337",
+    "tipo": "ato",
+    "data": "2024-11-19",
+    "titulo": "LEI Nº 15.029, DE 18 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Denomina \"Rodovia Janaína Borges de Oliveira\" o trecho da rodovia BR-116 entre os bairros Ruy Coelho Gonçalves e Jardim Santa Rita, no Município de Guaíba, no Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2024-11-18",
+      "publicacao": "2024-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.029-de-18-de-novembro-de-2024-596574337",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15029.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.030-de-18-de-novembro-de-2024-596577095",
+    "tipo": "ato",
+    "data": "2024-11-19",
+    "titulo": "LEI Nº 15.030, DE 18 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Denomina Rodovia Dom Luciano Pedro Mendes de Almeida trecho da BR-356 no Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-18",
+      "publicacao": "2024-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.030-de-18-de-novembro-de-2024-596577095",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15030.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:09:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "09:15",
+    "titulo": "Reunião com o Primeiro-Ministro da República da Índia, Narendra Modi",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "10:00",
+    "titulo": "3ª Sessão da Reunião de Líderes do G20: Desenvolvimento Sustentável e Transição Energética",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "12:30",
+    "titulo": "Sessão de encerramento da Cúpula de Líderes do G20 e cerimônia de transmissão da presidência do G20 do Brasil para a África do Sul",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:13:10:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "13:10",
+    "titulo": "Almoço oferecido ao Presidente dos Estados Unidos da América, Joe Biden",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "14:30",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "15:30",
+    "titulo": "Reunião com o Primeiro-Ministro do Japão, Shigeru Ishiba",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:16:20:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "16:20",
+    "titulo": "Reunião com o Primeiro-Ministro do Reino Unido da Grã- Bretanha e Irlanda do Norte, Keir Starmer",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "17:30",
+    "titulo": "Anúncio dos resultados da Rodada de Investimento pelo Presidente Lula e pelo Diretor-Geral da Organização Mundial da Saúde (OMS), Tedros Adhanom Ghebreyesus",
+    "local": "Museu de Arte Moderna (MAM) – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:18:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "18:15",
+    "titulo": "Partida para Brasília",
+    "local": "III COMAR – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-19:19:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-19",
+    "hora": "19:40",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "10:00",
+    "titulo": "Cerimônia oficial de chegada do Presidente da República Popular da China, Xi Jinping, por ocasião de sua Visita de Estado ao Brasil",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "10:30",
+    "titulo": "Reunião com o Presidente da República Popular da China, Xi Jinping",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "11:00",
+    "titulo": "Reunião ampliada com o Presidente da República Popular da China, Xi Jinping",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "12:00",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:12:15:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "12:15",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente Lula e pela Senhora Janja Lula da Silva em homenagem ao Presidente da República Popular da China, Xi Jinping",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-20:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-20",
+    "hora": "18:30",
+    "titulo": "Jantar oferecido pelo Presidente Lula e pela Senhora Janja Lula da Silva ao Presidente da República Popular da China, Xi Jinping",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.254-de-19-de-novembro-de-2024-596838215",
+    "tipo": "ato",
+    "data": "2024-11-21",
+    "titulo": "DECRETO Nº 12.254, DE 19 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Meio Ambiente e Mudança do Clima e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-11-19",
+      "publicacao": "2024-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.254-de-19-de-novembro-de-2024-596838215",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12254.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-21:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-21",
+    "hora": "11:00",
+    "titulo": "Cerimônia de divulgação do Programa de Otimização de Contratos de Concessão de Rodovias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-21:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-21",
+    "hora": "15:30",
+    "titulo": "Reunião com representantes dos setores de atacado e varejo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-21:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-21",
+    "hora": "17:30",
+    "titulo": "Sanção do Projeto de Lei n° 2241/2022, que altera a Lei Geral do Esporte para condicionar a transferência de recursos públicos a compromisso das entidades esportivas de adotarem medidas para proteção de crianças e de adolescentes contra abuso sexual",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-21:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-21",
+    "hora": "18:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.255-de-21-de-novembro-de-2024-597095703",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "DECRETO Nº 12.255, DE 21 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Carioba Comunicações LTDA., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Americana, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-21",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.255-de-21-de-novembro-de-2024-597095703",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12255.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.256-de-21-de-novembro-de-2024-597114130",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "DECRETO Nº 12.256, DE 21 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 8.252, de 26 de maio de 2014, que institui o serviço social autônomo denominado Agência Nacional de Assistência Técnica e Extensão Rural - Anater.",
+    "datasAto": {
+      "assinatura": "2024-11-21",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.256-de-21-de-novembro-de-2024-597114130",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12256.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.257-de-22-de-novembro-de-2024-597389478",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "DECRETO Nº 12.257, DE 22 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.740, de 18 de outubro de 2023, que regulamenta a Lei nº 14.399, de 8 de julho de 2022, que institui a Política Nacional Aldir Blanc de Fomento à Cultura.",
+    "datasAto": {
+      "assinatura": "2024-11-22",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.257-de-22-de-novembro-de-2024-597389478",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12257.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.031-de-21-de-novembro-de-2024-597092724",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "LEI Nº 15.031, DE 21 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Denomina \"Rodovia Doutor Luciano Heitor Beiguelman\" o trecho da rodovia BR-153 entre os Municípios de Icém e Nova Granada, no Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-21",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.031-de-21-de-novembro-de-2024-597092724",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15031.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.032-de-21-de-novembro-de-2024-597096499",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "LEI Nº 15.032, DE 21 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para condicionar a transferência de recursos públicos a compromisso de adoção de medidas para proteção de crianças e de adolescentes contra abuso sexual.",
+    "datasAto": {
+      "assinatura": "2024-11-21",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.032-de-21-de-novembro-de-2024-597096499",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15032.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.274-de-22-de-novembro-de-2024-597389395",
+    "tipo": "ato",
+    "data": "2024-11-22",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.274, DE 22 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.399, de 8 de julho de 2022, que institui a Política Nacional Aldir Blanc de Fomento à Cultura.",
+    "datasAto": {
+      "assinatura": "2024-11-22",
+      "publicacao": "2024-11-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.274-de-22-de-novembro-de-2024-597389395",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.275-de-22-de-novembro-de-2024-597395043",
+    "tipo": "ato",
+    "data": "2024-11-25",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.275, DE 22 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor da Defensoria Pública da União e dos Ministérios do Planejamento e Orçamento, e da Integração e do Desenvolvimento Regional, no valor de R$ 118.206.027,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-11-22",
+      "publicacao": "2024-11-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.275-de-22-de-novembro-de-2024-597395043",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.276-de-22-de-novembro-de-2024-597399465",
+    "tipo": "ato",
+    "data": "2024-11-25",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.276, DE 22 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 7.797, de 10 de julho de 1989, e a Lei nº 14.944, de 31 de julho de 2024, para dispor sobre medidas para prevenção e combate a incêndios florestais.",
+    "datasAto": {
+      "assinatura": "2024-11-22",
+      "publicacao": "2024-11-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.276-de-22-de-novembro-de-2024-597399465",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "09:30",
+    "titulo": "Telefonema com o Presidente eleito do Uruguai, Yamandú Orsi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "10:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "14:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "16:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "18:30",
+    "titulo": "Encontro com os membros da Comissão de Ética Pública",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-25:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-25",
+    "hora": "19:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.258-de-25-de-novembro-de-2024-597961443",
+    "tipo": "ato",
+    "data": "2024-11-26",
+    "titulo": "DECRETO Nº 12.258, DE 25 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Instituto Chico Mendes de Conservação da Biodiversidade - Instituto Chico Mendes e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-11-25",
+      "publicacao": "2024-11-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.258-de-25-de-novembro-de-2024-597961443",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12258.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-210-de-25-de-novembro-de-2024-597944668",
+    "tipo": "ato",
+    "data": "2024-11-26",
+    "titulo": "LEI COMPLEMENTAR Nº 210, DE 25 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a proposição e a execução de emendas parlamentares na lei orçamentária anual; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-11-25",
+      "publicacao": "2024-11-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-210-de-25-de-novembro-de-2024-597944668",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-26:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-26",
+    "hora": "09:30",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-26",
+    "hora": "11:00",
+    "titulo": "Abertura do Encontro Nacional da Indústria da Construção (ENIC)",
+    "local": "Sede da Confederação Nacional da Indústria (CNI) - Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-26:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-26",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-26:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-26",
+    "hora": "15:30",
+    "titulo": "Presidente da GWM International, Parker Shi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-26:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-26",
+    "hora": "17:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.033-de-26-de-novembro-de-2024-598226566",
+    "tipo": "ato",
+    "data": "2024-11-27",
+    "titulo": "LEI Nº 15.033, DE 26 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Autoriza transferência de capital, a título de contribuição, mediante celebração de convênios entre a União e as Associações de Proteção e Assistência aos Condenados (APACs), em atenção ao disposto no § 6º do art. 12 da Lei nº 4.320, de 17 de março de 1964.",
+    "datasAto": {
+      "assinatura": "2024-11-26",
+      "publicacao": "2024-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.033-de-26-de-novembro-de-2024-598226566",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15033.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "09:30",
+    "titulo": "Abertura do Encontro Nacional da Indústria (ENAI) 2024",
+    "local": "Centro Internacional de Convenções do Brasil (CICB) - Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "11:00",
+    "titulo": "CEO do Abu Dhabi Investment Group, Zayed bin Aweidha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "15:00",
+    "titulo": "Vice-Presidente do Tribunal de Contas da União, Ministro Vital do Rêgo Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "16:30",
+    "titulo": "Sanção do Projeto de Lei n° 2750/2024, que autoriza o aumento da participação da União no Fundo Garantidor de Operações (FGO), com o objetivo de garantir as operações contratadas no âmbito do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "17:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-27:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-27",
+    "hora": "18:30",
+    "titulo": "Reunião com líderes dos partidos na Câmara dos Deputados",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.034-de-27-de-novembro-de-2024-598243488",
+    "tipo": "ato",
+    "data": "2024-11-28",
+    "titulo": "LEI Nº 15.034, DE 27 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.999, de 18 de maio de 2020, e a Lei nº 12.087, de 11 de novembro de 2009, para autorizar o aumento da participação da União no Fundo Garantidor de Operações (FGO), com o objetivo de garantir as operações contratadas no âmbito do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf); e dá outras providências. O PRESIDENTE DA...",
+    "datasAto": {
+      "assinatura": "2024-11-27",
+      "publicacao": "2024-11-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.034-de-27-de-novembro-de-2024-598243488",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15034.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.035-de-27-de-novembro-de-2024-598253716",
+    "tipo": "ato",
+    "data": "2024-11-28",
+    "titulo": "LEI Nº 15.035, DE 27 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para permitir a consulta pública do nome completo e do número de inscrição no Cadastro de Pessoas Físicas (CPF) das pessoas condenadas por crimes contra a dignidade sexual, garantido o sigilo do processo e das informações relativas à vítima, e a Lei nº 14.069, de 1º de outubro de 2020, ...",
+    "datasAto": {
+      "assinatura": "2024-11-27",
+      "publicacao": "2024-11-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.035-de-27-de-novembro-de-2024-598253716",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15035.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.036-de-27-de-novembro-de-2024-598264159",
+    "tipo": "ato",
+    "data": "2024-11-28",
+    "titulo": "LEI Nº 15.036, DE 27 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério da Gestão e da Inovação em Serviços Públicos, do Ministério do Desenvolvimento Agrário e Agricultura Familiar, do Ministério da Integração e do Desenvolvimento Regional, do Banco Central do Brasil e de Encargos Financeiros da União, no valor de R$ 1.253.601.800,00 (um bilhão duzentos e cinquenta e três milh...",
+    "datasAto": {
+      "assinatura": "2024-11-27",
+      "publicacao": "2024-11-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.036-de-27-de-novembro-de-2024-598264159",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15036.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "10:00",
+    "titulo": "Governador de Roraima, Antonio Denarium",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "11:00",
+    "titulo": "Governador do Pará, Helder Barbalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "15:30",
+    "titulo": "Cerimônia de assinatura de aditivo para obras da Transnordestina",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "16:00",
+    "titulo": "Governador do Maranhão, Carlos Brandão",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "16:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-28:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-28",
+    "hora": "17:00",
+    "titulo": "Lançamento do Programa Periferia Viva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.259-de-28-de-novembro-de-2024-598797174",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.259, DE 28 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.972, de 1º de abril de 2024, que remaneja, em caráter temporário, função de confiança para o Ministério do Trabalho e Emprego.",
+    "datasAto": {
+      "assinatura": "2024-11-28",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.259-de-28-de-novembro-de-2024-598797174",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12259.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.260-de-28-de-novembro-de-2024-598798304",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.260, DE 28 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Periferia Viva.",
+    "datasAto": {
+      "assinatura": "2024-11-28",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.260-de-28-de-novembro-de-2024-598798304",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12260.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.261-de-29-de-novembro-de-2024-598828557",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.261, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Comissão Especial dos ex-Territórios Federais de Rondônia, do Amapá e de Roraima, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.261-de-29-de-novembro-de-2024-598828557",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12261.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.262-de-29-de-novembro-de-2024-598828663",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.262, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Pitombeira, localizados no Município de Várzea, Estado da Paraíba.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.262-de-29-de-novembro-de-2024-598828663",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12262.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.263-de-29-de-novembro-de-2024-598830658",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.263, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Depósito, localizados no Município de Brejo, Estado do Maranhão.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.263-de-29-de-novembro-de-2024-598830658",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12263.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.264-de-29-de-novembro-de-2024-598828746",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.264, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola São Pedro, localizados nos Municípios de Iporanga e Eldorado, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.264-de-29-de-novembro-de-2024-598828746",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12264.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.265-de-29-de-novembro-de-2024-598830349",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.265, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Macacos, localizados no Município de São Miguel do Tapuio, Estado do Piauí.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.265-de-29-de-novembro-de-2024-598830349",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12265.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.266-de-29-de-novembro-de-2024-598828640",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.266, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola da Barra de São Pedro do Bairro Galvão, localizados nos Municípios de Iporanga e Eldorado, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.266-de-29-de-novembro-de-2024-598828640",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12266.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.267-de-29-de-novembro-de-2024-598829086",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.267, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Marobá dos Teixeira, localizados no Município de Almenara, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.267-de-29-de-novembro-de-2024-598829086",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12267.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.268-de-29-de-novembro-de-2024-598830764",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.268, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Lagoa Grande, localizados nos Municípios de Araçuaí, Novo Cruzeiro e Jenipapo de Minas, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.268-de-29-de-novembro-de-2024-598830764",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12268.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.269-de-29-de-novembro-de-2024-598830938",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.269, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola dos Vicentes, localizados no Município de Xique-Xique, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.269-de-29-de-novembro-de-2024-598830938",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12269.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.270-de-29-de-novembro-de-2024-598829252",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.270, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola São Benedito, localizados no Município de São Fidélis, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.270-de-29-de-novembro-de-2024-598829252",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12270.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.271-de-29-de-novembro-de-2024-598828897",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.271, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Porto Velho, localizados nos Municípios de Iporanga e Itaoca, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.271-de-29-de-novembro-de-2024-598828897",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12271.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.272-de-29-de-novembro-de-2024-598829058",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.272, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis abrangidos pelo território quilombola Sacopã, localizados no Município do Rio de Janeiro, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.272-de-29-de-novembro-de-2024-598829058",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12272.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.273-de-29-de-novembro-de-2024-598829229",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.273, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Jetimana e Boa Vista, localizados no Município de Camamu, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.273-de-29-de-novembro-de-2024-598829229",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12273.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.274-de-29-de-novembro-de-2024-598830487",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.274, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Pitanga de Palmares, localizados nos Municípios de Simões Filho e Candeias, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.274-de-29-de-novembro-de-2024-598830487",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12274.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.275-de-29-de-novembro-de-2024-598830570",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.275, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola João Surá, localizados no Município de Adrianópolis, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.275-de-29-de-novembro-de-2024-598830570",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12275.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.276-de-29-de-novembro-de-2024-598830736",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.276, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Iúna, localizados no Município de Lençóis, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.276-de-29-de-novembro-de-2024-598830736",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12276.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.277-de-29-de-novembro-de-2024-598830910",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.277, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Rotas Negras.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.277-de-29-de-novembro-de-2024-598830910",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12277.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.278-de-29-de-novembro-de-2024-598828954",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "DECRETO Nº 12.278, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional para Povos e Comunidades Tradicionais de Terreiro e de Matriz Africana.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.278-de-29-de-novembro-de-2024-598828954",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12278.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.277-de-28-de-novembro-de-2024-598792691",
+    "tipo": "ato",
+    "data": "2024-11-29",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.277, DE 28 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Auxílio Extraordinário destinado a pescadoras e pescadores profissionais artesanais beneficiários do Seguro-Desemprego do Pescador Artesanal - Seguro-Defeso cadastrados em Municípios da Região Norte.",
+    "datasAto": {
+      "assinatura": "2024-11-28",
+      "publicacao": "2024-11-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.277-de-28-de-novembro-de-2024-598792691",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-29:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-29",
+    "hora": "09:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-29:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-11-29",
+    "hora": "10:00",
+    "titulo": "Assinatura de contratos de financiamento do BNDES para infraestrutura e mobilidade urbana de São Paulo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-29:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-29",
+    "hora": "11:30",
+    "titulo": "Presidente eleito do Uruguai, Yamandú Orsi",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-29:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-11-29",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-11-29:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-11-29",
+    "hora": "15:30",
+    "titulo": "Ministra da Igualdade Racial, Anielle Franco",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-11-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.279-de-29-de-novembro-de-2024-598831027",
+    "tipo": "ato",
+    "data": "2024-11-30",
+    "titulo": "DECRETO Nº 12.279, DE 29 DE NOVEMBRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.927, de 22 de fevereiro de 2024, que dispõe sobre a programação orçamentária e financeira e estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2024.",
+    "datasAto": {
+      "assinatura": "2024-11-29",
+      "publicacao": "2024-11-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.279-de-29-de-novembro-de-2024-598831027",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12279.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

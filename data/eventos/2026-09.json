@@ -1,0 +1,3812 @@
+[
+  {
+    "id": "dou:decreto-n-13.108-de-31-de-agosto-de-2026-729402953",
+    "tipo": "ato",
+    "data": "2026-09-01",
+    "titulo": "DECRETO Nº 13.108, DE 31 DE AGOSTO DE 2026",
+    "status": "publicado",
+    "ementa": "Regulamenta a Lei nº 8.078, de 11 de setembro de 1990 - Código de Defesa do Consumidor, quanto a medidas de proteção do consumidor na comercialização de ingressos para eventos no território nacional.",
+    "datasAto": {
+      "assinatura": "2026-08-31",
+      "publicacao": "2026-09-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.108-de-31-de-agosto-de-2026-729402953",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13108.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.109-de-31-de-agosto-de-2026-729403705",
+    "tipo": "ato",
+    "data": "2026-09-01",
+    "titulo": "DECRETO Nº 13.109, DE 31 DE AGOSTO DE 2026",
+    "status": "publicado",
+    "ementa": "Estabelece medidas destinadas a garantir o acesso à água potável e a proteção da saúde dos consumidores em eventos abertos ao público.",
+    "datasAto": {
+      "assinatura": "2026-08-31",
+      "publicacao": "2026-09-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.109-de-31-de-agosto-de-2026-729403705",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13109.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-01:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-01",
+    "hora": "09:30",
+    "titulo": "Chefe do Gabinete Adjunto de Informações em Apoio à Decisão do Gabinete Pessoal do Presidente da República, Sandra Brandão",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-01",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-01:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-01",
+    "hora": "10:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-01",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-01:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-01",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-01",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-01",
+    "hora": "15:00",
+    "titulo": "Reunião sobre Bets",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-01",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-da-republica-visita-a-frente-de-obras-do-cinturao-das-aguas-do-ceara-no-crato",
+    "tipo": "comunicado",
+    "data": "2026-09-02",
+    "titulo": "Presidente da República visita a frente de obras do Cinturão das Águas do Ceará, no Crato",
+    "status": "publicado",
+    "ementa": "Agenda será às 14h30 de sexta-feira, 4, e o acesso ao local será pelo estacionamento do Santuário Nossa Senhora do Rosário de Fátima",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-da-republica-visita-a-frente-de-obras-do-cinturao-das-aguas-do-ceara-no-crato",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-02:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-02",
+    "hora": "11:00",
+    "titulo": "Sanção do PL nº 5.972/2023, que prevê a criação de protocolos de atendimento para urgências cardiovasculares no âmbito do Sistema Único de Saúde (SUS)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-02:12:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-02",
+    "hora": "12:30",
+    "titulo": "Leonardo DiCaprio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-02",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-02:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-02",
+    "hora": "16:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.110-de-2-de-setembro-de-2026-729848010",
+    "tipo": "ato",
+    "data": "2026-09-03",
+    "titulo": "DECRETO Nº 13.110, DE 2 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 57.654, de 20 de janeiro de 1966, que regulamenta a Lei nº 4.375, de 17 de agosto de 1964.",
+    "datasAto": {
+      "assinatura": "2026-09-02",
+      "publicacao": "2026-09-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.110-de-2-de-setembro-de-2026-729848010",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13110.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.492-de-2-de-setembro-de-2026-729850147",
+    "tipo": "ato",
+    "data": "2026-09-03",
+    "titulo": "LEI Nº 15.492, DE 2 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Proteção dos Direitos da Pessoa com Síndrome de Tourette.",
+    "datasAto": {
+      "assinatura": "2026-09-02",
+      "publicacao": "2026-09-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.492-de-2-de-setembro-de-2026-729850147",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15492.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.493-de-2-de-setembro-de-2026-729850367",
+    "tipo": "ato",
+    "data": "2026-09-03",
+    "titulo": "LEI Nº 15.493, DE 2 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre ações para avaliação médica completa e periódica da saúde da mulher no âmbito do Sistema Único de Saúde (SUS) e sobre a conscientização acerca da importância da prevenção de doenças e de agravos à saúde.",
+    "datasAto": {
+      "assinatura": "2026-09-02",
+      "publicacao": "2026-09-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.493-de-2-de-setembro-de-2026-729850367",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15493.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.494-de-2-de-setembro-de-2026-729933926",
+    "tipo": "ato",
+    "data": "2026-09-03",
+    "titulo": "LEI Nº 15.494, DE 2 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.747, de 5 de dezembro de 2023, para prever a criação de protocolos de atendimento para urgências cardiovasculares no âmbito do Sistema Único de Saúde (SUS), incluídas medidas trombolíticas em Unidade de Pronto Atendimento (UPA).",
+    "datasAto": {
+      "assinatura": "2026-09-02",
+      "publicacao": "2026-09-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.494-de-2-de-setembro-de-2026-729933926",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15494.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-03:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-03",
+    "hora": "15:00",
+    "titulo": "Atendimento Sem Fila na Previdência Social",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-03:16:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-03",
+    "hora": "16:30",
+    "titulo": "Assessor-Chefe Adjunto da Assessoria Especial do Presidente da República, Embaixador Audo Faleiro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-236-de-4-de-setembro-de-2026-730253305",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI COMPLEMENTAR Nº 236, DE 4 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional), para dispor sobre normas gerais para solução de controvérsias, consensualidade e processo administrativo em matéria tributária e aduaneira, e revoga dispositivo da Lei nº 9.430, de 27 de dezembro de 1996.",
+    "datasAto": {
+      "assinatura": "2026-09-04",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-236-de-4-de-setembro-de-2026-730253305",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.495-de-3-de-setembro-de-2026-730140849",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI Nº 15.495, DE 3 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Carreiro de Boi.",
+    "datasAto": {
+      "assinatura": "2026-09-03",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.495-de-3-de-setembro-de-2026-730140849",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15495.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.496-de-3-de-setembro-de-2026-730142279",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI Nº 15.496, DE 3 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui o Programa de Desenvolvimento da Indústria de Fertilizantes (Profert); e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2026-09-03",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.496-de-3-de-setembro-de-2026-730142279",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15496.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.498-de-4-de-setembro-de-2026-730250278",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI Nº 15.498, DE 4 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera as Leis nºs 9.289, de 4 de julho de 1996, e 11.636, de 28 de dezembro de 2007, para dispor sobre a atualização dos valores das custas judiciais no âmbito da Justiça Federal e do Superior Tribunal de Justiça, cria o Fundo Especial da Justiça Federal (Fejufe) e o Fundo Especial do Superior Tribunal de Justiça (FESTJ) e destina receitas para o Fundo de M...",
+    "datasAto": {
+      "assinatura": "2026-09-04",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.498-de-4-de-setembro-de-2026-730250278",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15498.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.499-de-4-de-setembro-de-2026-730253197",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI Nº 15.499, DE 4 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria e estrutura o Fundo de Fortalecimento da Cidadania e Aperfeiçoamento do Ministério Público da União (FMPU).",
+    "datasAto": {
+      "assinatura": "2026-09-04",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.499-de-4-de-setembro-de-2026-730253197",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15499.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.500-de-4-de-setembro-de-2026-730253282",
+    "tipo": "ato",
+    "data": "2026-09-04",
+    "titulo": "LEI Nº 15.500, DE 4 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria e estrutura o Fundo de Fortalecimento do Acesso à Justiça, Promoção dos Direitos Fundamentais e Estruturação da Defensoria Pública da União.",
+    "datasAto": {
+      "assinatura": "2026-09-04",
+      "publicacao": "2026-09-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.500-de-4-de-setembro-de-2026-730253282",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15500.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-visita-o-diretorio-de-reabilitacao-moderna-dream-do-hospital-de-amor-em-barretos-sp",
+    "tipo": "comunicado",
+    "data": "2026-09-04",
+    "titulo": "Presidente visita o Diretório de Reabilitação Moderna (DREAM) do Hospital de Amor, em Barretos (SP)",
+    "status": "publicado",
+    "ementa": "Agenda será às 9h deste sábado, 5 de setembro",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-visita-o-diretorio-de-reabilitacao-moderna-dream-do-hospital-de-amor-em-barretos-sp",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:visita-presidencial-a-futura-sede-da-ufscar-em-sao-jose-do-rio-preto-sp",
+    "tipo": "comunicado",
+    "data": "2026-09-04",
+    "titulo": "Visita presidencial à futura sede da UFSCar em São José do Rio Preto (SP)",
+    "status": "publicado",
+    "ementa": "As instalações, que já foram de uma indústria, estavam sem uso há cinco anos e serão reformadas para o Educação Superior",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/visita-presidencial-a-futura-sede-da-ufscar-em-sao-jose-do-rio-preto-sp",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "10:00",
+    "titulo": "Sanções relacionadas a fundos do sistema de Justiça",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "12:00",
+    "titulo": "Partida para Juazeiro do Norte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:13:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "13:50",
+    "titulo": "Chegada a Juazeiro do Norte",
+    "local": "Aeroporto de Juazeiro do Norte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:15:20:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "15:20",
+    "titulo": "Visita às obras do Cinturão das Águas do Ceará",
+    "local": "Cinturão das Águas do Ceará – Barro Branco, Crato (CE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:16:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "16:10",
+    "titulo": "Intervenções no contexto da visita às obras do Cinturão das Águas do Ceará",
+    "local": "Cinturão das Águas – Barro Branco, Crato (CE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:20:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "20:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Juazeiro do Norte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-04:22:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-04",
+    "hora": "22:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:08:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "08:00",
+    "titulo": "Partida para Barretos",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "09:00",
+    "titulo": "Chegada a Barretos",
+    "local": "Aeroporto de Barretos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:09:20:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "09:20",
+    "titulo": "Visita ao Diretório de Reabilitação Moderna do Hospital de Amor de Barretos",
+    "local": "Hospital de Amor, Barretos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:09:35:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "09:35",
+    "titulo": "Intervenção por ocasião da visita ao Hospital de Amor",
+    "local": "Hospital de Amor, Barretos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:10:20:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "10:20",
+    "titulo": "Partida para São José do Rio Preto",
+    "local": "Aeroporto de Barretos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:10:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "10:40",
+    "titulo": "Chegada a São José do Rio Preto",
+    "local": "Aeroporto de São José do Rio Preto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:13:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "13:30",
+    "titulo": "Visita ao futuro campus da Universidade Federal de São Carlos em São José do Rio Preto",
+    "local": "Av. Gerassina Tavares – Jardim Veneza, São José do Rio Preto (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:13:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "13:50",
+    "titulo": "Fotografia com alunos do Campus São José do Rio Preto da UFSCar",
+    "local": "Av. Gerassina Tavares – Jardim Veneza, São José do Rio Preto (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "14:00",
+    "titulo": "Intervenções por ocasião da visita ao Campus São José do Rio Preto da UFSCar",
+    "local": "Av. Gerassina Tavares – Jardim Veneza, São José do Rio Preto (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:15:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "15:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de São José do Rio Preto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-05:16:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-05",
+    "hora": "16:10",
+    "titulo": "Chegada Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-da-republica-visita-as-obras-de-modernizacao-do-veiculo-leve-sobre-trilhos-vlt-de-teresina",
+    "tipo": "comunicado",
+    "data": "2026-09-07",
+    "titulo": "Presidente da República visita as obras de modernização do Veículo Leve sobre Trilhos (VLT) de Teresina",
+    "status": "publicado",
+    "ementa": "Agenda será às 16h de quarta-feira, 9, e o acesso ao local será pela Estação Boa Esperança",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-da-republica-visita-as-obras-de-modernizacao-do-veiculo-leve-sobre-trilhos-vlt-de-teresina",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-07:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-07",
+    "hora": "09:00",
+    "titulo": "Chegada à Tribuna Presidencial",
+    "local": "Esplanada dos Ministérios, Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-07:09:05:1",
+    "tipo": "agenda",
+    "data": "2026-09-07",
+    "hora": "09:05",
+    "titulo": "Execução do Hino Nacional e do Hino da Independência",
+    "local": "Esplanada dos Ministérios, Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-07:09:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-07",
+    "hora": "09:10",
+    "titulo": "Permissão presidencial para o início do Desfile",
+    "local": "Esplanada dos Ministérios, Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-07:09:15:1",
+    "tipo": "agenda",
+    "data": "2026-09-07",
+    "hora": "09:15",
+    "titulo": "Desfile Cívico-Militar de 7 de Setembro",
+    "local": "Esplanada dos Ministérios, Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-07:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-07",
+    "hora": "11:00",
+    "titulo": "Encerramento do Desfile de 7 de Setembro",
+    "local": "Esplanada dos Ministérios, Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.497-de-4-de-setembro-de-2026-730260011",
+    "tipo": "ato",
+    "data": "2026-09-08",
+    "titulo": "LEI Nº 15.497, DE 4 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 15.201, de 9 de setembro de 2025, para reduzir o prazo de análise dos processos e dos serviços administrativos no âmbito do Programa de Gerenciamento de Benefícios (PGB).",
+    "datasAto": {
+      "assinatura": "2026-09-04",
+      "publicacao": "2026-09-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.497-de-4-de-setembro-de-2026-730260011",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15497.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-da-republica-visita-o-centro-estadual-julia-nunes-alves-em-teresina-pi",
+    "tipo": "comunicado",
+    "data": "2026-09-08",
+    "titulo": "Presidente da República visita o Centro Estadual de Tempo Integral Profaª Júlia Nunes Alves, em Teresina (PI)",
+    "status": "publicado",
+    "ementa": "Agenda será às 14h30 de quarta-feira, 9",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-da-republica-visita-o-centro-estadual-julia-nunes-alves-em-teresina-pi",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-08:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-08",
+    "hora": "10:30",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-08:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-08",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-08:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-08",
+    "hora": "15:00",
+    "titulo": "Cerimônia de demarcação de Unidades de Conservação, em alusão ao Dia da Amazônia",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-08:16:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-08",
+    "hora": "16:30",
+    "titulo": "Ministro da Fazenda, Dario Durigan",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-08:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-08",
+    "hora": "17:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.111-de-8-de-setembro-de-2026-730779094",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "DECRETO Nº 13.111, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Tupana Igapó-Açu I, localizada no Município de Borba, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.111-de-8-de-setembro-de-2026-730779094",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13111.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.112-de-8-de-setembro-de-2026-730787340",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "DECRETO Nº 13.112, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Tupana Igapó-Açu II, localizada nos Municípios de Beruri e Tapauá, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.112-de-8-de-setembro-de-2026-730787340",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13112.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.113-de-8-de-setembro-de-2026-730723799",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "DECRETO Nº 13.113, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Canaã, localizada nos Municípios de Careiro e Autazes, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.113-de-8-de-setembro-de-2026-730723799",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13113.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.114-de-8-de-setembro-de-2026-730781657",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "DECRETO Nº 13.114, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Mirari, localizada no Município de Humaitá, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.114-de-8-de-setembro-de-2026-730781657",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13114.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.115-de-8-de-setembro-de-2026-730788411",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "DECRETO Nº 13.115, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Amplia o Parque Nacional de Sete Cidades, localizado nos Municípios de Brasileira e Piracuruca, Estado do Piauí.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.115-de-8-de-setembro-de-2026-730788411",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13115.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.389-de-8-de-setembro-de-2026-730725609",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.389, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério de Minas e Energia, no valor de R$ 6.605.000.000,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.389-de-8-de-setembro-de-2026-730725609",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.390-de-8-de-setembro-de-2026-730784662",
+    "tipo": "ato",
+    "data": "2026-09-09",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.390, DE 8 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor de Operações Oficiais de Crédito, no valor de R$ 375.000.000,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.390-de-8-de-setembro-de-2026-730784662",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "12:00",
+    "titulo": "Partida para Teresina",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:13:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "13:50",
+    "titulo": "Chegada em Teresina",
+    "local": "Aeroporto Internacional de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:14:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "14:30",
+    "titulo": "Visita ao Centro Estadual de Tempo Integral Profª. Júlia Nunes Alves",
+    "local": "R. Gibraltar, s/n – Itararé, Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "16:00",
+    "titulo": "Visita às obras de revitalização e modernização do VLT de Teresina",
+    "local": "Estação Boa Esperança, Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "17:00",
+    "titulo": "Intervenções sobre a visita às obras de revitalização e modernização do VLT e sobre as obras do contorno rodoviário de Teresina",
+    "local": "Estação Boa Esperança, Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:21:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "21:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-09:23:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-09",
+    "hora": "23:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.111-de-8-de-setembro-de-2026-*-730974418",
+    "tipo": "ato",
+    "data": "2026-09-10",
+    "titulo": "DECRETO Nº 13.111, DE 8 DE SETEMBRO DE 2026 (*)",
+    "status": "publicado",
+    "ementa": "Cria a Reserva de Desenvolvimento Sustentável Tupana Igapó-Açu I, localizada no Município de Borba, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2026-09-08",
+      "publicacao": "2026-09-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.111-de-8-de-setembro-de-2026-*-730974418",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13111.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.116-de-9-de-setembro-de-2026-731062908",
+    "tipo": "ato",
+    "data": "2026-09-10",
+    "titulo": "DECRETO Nº 13.116, DE 9 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Reduz as alíquotas da Contribuição para o Programa de Integração Social e para o Programa de Formação do Patrimônio do Servidor Público - PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - Cofins incidentes sobre a importação e a comercialização no mercado interno de gasolina e suas correntes, exceto gasolina de aviação, e de etanol ...",
+    "datasAto": {
+      "assinatura": "2026-09-09",
+      "publicacao": "2026-09-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.116-de-9-de-setembro-de-2026-731062908",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13116.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.501-de-9-de-setembro-de-2026-730968021",
+    "tipo": "ato",
+    "data": "2026-09-10",
+    "titulo": "LEI Nº 15.501, DE 9 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Autoriza a criação do Fundo de Crédito à Exportação (FCE), e altera a Lei nº 5.662, de 21 de junho de 1971, para autorizar a constituição de subsidiárias e controladas pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES), e a Lei nº 12.712, de 30 de agosto de 2012, para adequar normas operacionais de garantia para operações de Seguro de Crédito ...",
+    "datasAto": {
+      "assinatura": "2026-09-09",
+      "publicacao": "2026-09-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.501-de-9-de-setembro-de-2026-730968021",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15501.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.502-de-10-de-setembro-de-2026-730982911",
+    "tipo": "ato",
+    "data": "2026-09-10",
+    "titulo": "LEI Nº 15.502, DE 10 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 1.804, de 3 de setembro de 1980, que dispõe sobre tributação simplificada das remessas postais internacionais.",
+    "datasAto": {
+      "assinatura": "2026-09-10",
+      "publicacao": "2026-09-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.502-de-10-de-setembro-de-2026-730982911",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15502.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-participa-de-reuniao-com-governador-e-prefeitos-em-canoas-rs",
+    "tipo": "comunicado",
+    "data": "2026-09-10",
+    "titulo": "Presidente participa de reunião com governador e prefeitos, em Canoas (RS)",
+    "status": "publicado",
+    "ementa": "Reunião será sobre o Fundo de Apoio à Infraestrutura para Recuperação e Adaptação a Eventos Climáticos Extremos, com a presenca dos prefeitos de Porto Alegre, Canoas e Eldorado do Sul",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-participa-de-reuniao-com-governador-e-prefeitos-em-canoas-rs",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:visita-presidencial-a-sede-propria-do-campus-viamao-do-instituto-federal-do-rio-grande-do-sul-1",
+    "tipo": "comunicado",
+    "data": "2026-09-10",
+    "titulo": "Visita presidencial à sede própria do campus Viamão do Instituto Federal do Rio Grande do Sul",
+    "status": "publicado",
+    "ementa": "Adquirido pelo governo federal pós-tragédia climática de 2024, local reúne hoje 1,2 mil alunos e engloba TecnoParque com 13 empresas residentes",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/visita-presidencial-a-sede-propria-do-campus-viamao-do-instituto-federal-do-rio-grande-do-sul-1",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-10:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-10",
+    "hora": "11:00",
+    "titulo": "Sanção do PLV 13/2026, que trata das regras de tributação de remessas postais internacionais (taxa das blusinhas)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-10:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-10",
+    "hora": "16:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.391-de-11-de-setembro-de-2026-733719830",
+    "tipo": "ato",
+    "data": "2026-09-11",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.391, DE 11 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Autoriza a concessão de subvenção econômica aos produtores e importadores de óleodiesele suas correntes, com a finalidade de garantir o fornecimento de óleodiesele suas correntes em todo o território nacional, enquanto houver instabilidade na oferta de combustíveis decorrentes de conflitos geopolíticos, e dispõe sobre o tratamento tributário do...",
+    "datasAto": {
+      "assinatura": "2026-09-11",
+      "publicacao": "2026-09-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.391-de-11-de-setembro-de-2026-733719830",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "10:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "12:00",
+    "titulo": "Partida para Canoas",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:14:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "14:10",
+    "titulo": "Chegada a Canoas (RS)",
+    "local": "Base Aérea de Canoas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:14:20:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "14:20",
+    "titulo": "Reunião sobre o Fundo de Apoio à Infraestrutura para Recuperação e Adaptação a Eventos Climáticos Extremos",
+    "local": "Base Aérea de Canoas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:15:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "15:50",
+    "titulo": "Visita ao Campus Viamão do Instituto Federal do Rio Grande do Sul",
+    "local": "Avenida Senador Salgado Filho, Viamão (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-11:16:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-11",
+    "hora": "16:40",
+    "titulo": "Intervenções no contexto da visita ao Campus Viamão do Instituto Federal do Rio Grande do Sul",
+    "local": "Avenida Senador Salgado Filho, Viamão (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.117-de-11-de-setembro-de-2026-731361139",
+    "tipo": "ato",
+    "data": "2026-09-14",
+    "titulo": "DECRETO Nº 13.117, DE 11 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Autoriza a transferência direta da concessão outorgada à Beija Flor Radiodifusão Ltda. para o Diário Comunicações Ltda. para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens, no Município de Macapá, Estado do Amapá.",
+    "datasAto": {
+      "assinatura": "2026-09-11",
+      "publicacao": "2026-09-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.117-de-11-de-setembro-de-2026-731361139",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13117.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.503-de-14-de-setembro-de-2026-731640068",
+    "tipo": "ato",
+    "data": "2026-09-14",
+    "titulo": "LEI Nº 15.503, DE 14 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Destina recursos para disponibilizar linhas de financiamento reembolsável a profissionais de transporte escolar, profissionais de transporte remunerado privado individual de passageiros, taxistas e cooperativas de taxistas, para aquisição de veículos automotores novos que atendam a critérios de sustentabilidade ambiental, social ou econômica; e altera a Lei...",
+    "datasAto": {
+      "assinatura": "2026-09-14",
+      "publicacao": "2026-09-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.503-de-14-de-setembro-de-2026-731640068",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15503.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-14:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-14",
+    "hora": "11:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-14",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-14:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-14",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-14",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-14:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-14",
+    "hora": "15:00",
+    "titulo": "Sanção do PLV nº 10/2026, que institui linhas de financiamento do MOVE para veículos novos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-14",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-14:16:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-14",
+    "hora": "16:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior, Ministro da Fazenda, Dario Durigan, e Ministro do Planejamento e Orçamento, Bruno Moretti",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-14",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-237-de-15-de-setembro-de-2026-731891987",
+    "tipo": "ato",
+    "data": "2026-09-15",
+    "titulo": "LEI COMPLEMENTAR Nº 237, DE 15 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei Complementar nº 229, de 30 de março de 2026, para incluir o regime especial de tributação para serviços de datacenter, os programas federais de financiamento de ações de apoio às pessoas com câncer e às pessoas com deficiência, bem como a desoneração do Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e da Contribuição Social sobre ...",
+    "datasAto": {
+      "assinatura": "2026-09-15",
+      "publicacao": "2026-09-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-237-de-15-de-setembro-de-2026-731891987",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.504-de-15-de-setembro-de-2026-731892072",
+    "tipo": "ato",
+    "data": "2026-09-15",
+    "titulo": "LEI Nº 15.504, DE 15 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.196, de 21 de novembro de 2005, para instituir o Regime Especial de Tributação para Serviços deDatacenter(Redata), e a Lei nº 15.211, de 17 de setembro de 2025 (Estatuto Digital da Criança e do Adolescente).",
+    "datasAto": {
+      "assinatura": "2026-09-15",
+      "publicacao": "2026-09-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.504-de-15-de-setembro-de-2026-731892072",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15504.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.505-de-15-de-setembro-de-2026-731813749",
+    "tipo": "ato",
+    "data": "2026-09-15",
+    "titulo": "LEI Nº 15.505, DE 15 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Conscientização e Orientação sobre a Linfangioleiomiomatose.",
+    "datasAto": {
+      "assinatura": "2026-09-15",
+      "publicacao": "2026-09-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.505-de-15-de-setembro-de-2026-731813749",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15505.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-visita-novo-complexo-industrial-da-eurofarma",
+    "tipo": "comunicado",
+    "data": "2026-09-15",
+    "titulo": "Presidente visita novo complexo industrial da Eurofarma",
+    "status": "publicado",
+    "ementa": "Evento será realizado às 16h desta quinta-feira, 17 de setembro",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-visita-novo-complexo-industrial-da-eurofarma",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-15:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-15",
+    "hora": "11:00",
+    "titulo": "Sanção do PL nº 278/2026, que institui o Regime Especial de Tributação para Serviços de Datacenter (Redata)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-15",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-15:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-15",
+    "hora": "16:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-15",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.118-de-16-de-setembro-de-2026-732159664",
+    "tipo": "ato",
+    "data": "2026-09-16",
+    "titulo": "DECRETO Nº 13.118, DE 16 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Regulamenta a Lei nº 15.506, de 16 de setembro de 2026, para dispor sobre o Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos, e institui o Grupo de Assessoramento sobre Minerais Críticos e Estratégicos.",
+    "datasAto": {
+      "assinatura": "2026-09-16",
+      "publicacao": "2026-09-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.118-de-16-de-setembro-de-2026-732159664",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13118.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.119-de-16-de-setembro-de-2026-732159641",
+    "tipo": "ato",
+    "data": "2026-09-16",
+    "titulo": "DECRETO Nº 13.119, DE 16 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a concessão de subvenção econômica aos produtores e às cooperativas de produtores de biocombustíveis destinados ao consumo final, nos termos do disposto no art. 2º, § 5º e § 6º, da Lei Complementar nº 235, de 27 de agosto de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-16",
+      "publicacao": "2026-09-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.119-de-16-de-setembro-de-2026-732159641",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13119.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.506-de-16-de-setembro-de-2026-732159558",
+    "tipo": "ato",
+    "data": "2026-09-16",
+    "titulo": "LEI Nº 15.506, DE 16 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Minerais Críticos e Estratégicos (PNMCE) e o Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos (CIMCE); altera a Lei nº 11.488, de 15 de junho de 2007, a Lei nº 13.334, de 13 de setembro de 2016, a Lei nº 13.575, de 26 de dezembro de 2017, e a Lei nº 14.801, de 9 de janeiro de 2024; e dá outras provi...",
+    "datasAto": {
+      "assinatura": "2026-09-16",
+      "publicacao": "2026-09-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.506-de-16-de-setembro-de-2026-732159558",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15506.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-da-republica-acompanha-as-acoes-integradas-para-o-enfrentamento-ao-crime-organizado-no-rio-de-janeiro",
+    "tipo": "comunicado",
+    "data": "2026-09-16",
+    "titulo": "Presidente da República acompanha as Ações Integradas para o Enfrentamento ao Crime Organizado no Rio de Janeiro",
+    "status": "publicado",
+    "ementa": "Agenda será às 10h de sexta-feira, 18, no Complexo da Polícia Rodoviária Federal",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-da-republica-acompanha-as-acoes-integradas-para-o-enfrentamento-ao-crime-organizado-no-rio-de-janeiro",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-16:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-16",
+    "hora": "11:00",
+    "titulo": "Encontro com pastores dos EUA e com pastores brasileiros da Frente de Evangélicos pelo Estado de Direito",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-16",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-16:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-16",
+    "hora": "16:00",
+    "titulo": "Sanção do PL nº 2.780/2024, que institui a Política Nacional de Minerais Críticos, Estratégicos e Terras Raras",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-16",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-16:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-16",
+    "hora": "17:30",
+    "titulo": "Audiência ao CEO do Grupo Renault, François Provost, e ao Vice-Presidente Global da Geely Auto, Tong Zhiyuan",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-16",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.120-de-17-de-setembro-de-2026-732439256",
+    "tipo": "ato",
+    "data": "2026-09-17",
+    "titulo": "DECRETO Nº 13.120, DE 17 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a correção do valor dos benefícios financeiros do Programa Bolsa Família pela variação acumulada do Índice Nacional de Preços ao Consumidor - INPC entre março de 2023 e agosto de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-17",
+      "publicacao": "2026-09-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.120-de-17-de-setembro-de-2026-732439256",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13120.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "09:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "14:00",
+    "titulo": "Partida para Montes Claros",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:14:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "14:50",
+    "titulo": "Chegada a Montes Claros",
+    "local": "Aeroporto de Montes Claros",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "16:00",
+    "titulo": "Visita ao novo Complexo Industrial da Eurofarma",
+    "local": "Estrada da Produção – Montes Claros (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:16:45:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "16:45",
+    "titulo": "Foto com trabalhadores do Complexo Industrial da Eurofarma",
+    "local": "Estrada da Produção – Montes Claros (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-17:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-17",
+    "hora": "17:00",
+    "titulo": "Intervenções no contexto da visita ao novo Complexo Industrial da Eurofarma",
+    "local": "Estrada da Produção – Montes Claros (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-18:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-18",
+    "hora": "10:30",
+    "titulo": "Apresentação das forças de segurança que atuam no Estado do Rio de Janeiro",
+    "local": "Pátio do Complexo da Polícia Rodoviária Federal, BR-116, Km 163, Vigário Geral – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-18:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-18",
+    "hora": "11:30",
+    "titulo": "Intervenções no contexto das ações integradas de Segurança Pública no Estado do Rio de Janeiro",
+    "local": "BR-116, Km 163, Vigário Geral – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-18:14:15:1",
+    "tipo": "agenda",
+    "data": "2026-09-18",
+    "hora": "14:15",
+    "titulo": "Partida para São Paulo",
+    "local": "III COMAR – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-18:15:15:1",
+    "tipo": "agenda",
+    "data": "2026-09-18",
+    "hora": "15:15",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-20:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-20",
+    "hora": "10:30",
+    "titulo": "Partida para Nova York, Estados Unidos da América",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-20",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-20:18:15:1",
+    "tipo": "agenda",
+    "data": "2026-09-20",
+    "hora": "18:15",
+    "titulo": "Chegada a Nova York",
+    "local": "Aeroporto Internacional John F. Kennedy",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-20",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.121-de-21-de-setembro-de-2026-733205707",
+    "tipo": "ato",
+    "data": "2026-09-21",
+    "titulo": "DECRETO Nº 13.121, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Regulamenta a Medida Provisória nº 1.391, de 11 de setembro de 2026, que autoriza a concessão de subvenção econômica aos produtores e importadores de óleodiesele suas correntes, com a finalidade de garantir o fornecimento de óleodiesele suas correntes em todo o território nacional, enquanto houver instabilidade na oferta de combustíveis decorrentes de c...",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.121-de-21-de-setembro-de-2026-733205707",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13121.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-21:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-21",
+    "hora": "10:30",
+    "titulo": "Reunião com o Presidente da República Oriental do Uruguai, Yamandú Orsi",
+    "local": "Residência Oficial, Nova York (EUA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-21:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-21",
+    "hora": "11:30",
+    "titulo": "Audiência ao Prefeito da Cidade de Nova York, Zohran Mamdani",
+    "local": "Residência Oficial, Nova York (EUA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-21:18:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-21",
+    "hora": "18:00",
+    "titulo": "Audiência ao Senador Bernie Sanders",
+    "local": "Residência Oficial, Nova York (EUA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.122-de-21-de-setembro-de-2026-733211939",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "DECRETO Nº 13.122, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo Constituinte do Centro para os Serviços de Informação e Assessoramento sobre a Comercialização dos Produtos Pesqueiros na América Latina e no Caribe, firmado pela República Federativa do Brasil, em Roma, em 28 de outubro de 1994.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.122-de-21-de-setembro-de-2026-733211939",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13122.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.123-de-21-de-setembro-de-2026-733230981",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "DECRETO Nº 13.123, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Fixa os quantitativos de vagas para promoções obrigatórias nos Quadros de Oficiais da Aeronáutica, no ano-base de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.123-de-21-de-setembro-de-2026-733230981",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13123.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.124-de-21-de-setembro-de-2026-733215352",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "DECRETO Nº 13.124, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.769, de 5 de dezembro de 2025, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Educação, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.124-de-21-de-setembro-de-2026-733215352",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13124.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.125-de-21-de-setembro-de-2026-733218129",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "DECRETO Nº 13.125, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Autoriza a Universidade Federal Rural de Pernambuco a alienar o imóvel que menciona, localizado no Município de São Lourenço da Mata, Estado de Pernambuco.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.125-de-21-de-setembro-de-2026-733218129",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13125.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.507-de-21-de-setembro-de-2026-733209594",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "LEI Nº 15.507, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Denomina Ponte Heitor Miranda dos Santos o trecho brasileiro da ponte sobre o Rio Paraguai na divisa entre a República Federativa do Brasil e a República do Paraguai.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.507-de-21-de-setembro-de-2026-733209594",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15507.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.508-de-21-de-setembro-de-2026-733212913",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "LEI Nº 15.508, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Extingue a Floresta Nacional de Cristópolis, localizada no Estado da Bahia, criada pelo Decreto de 18 de maio de 2001.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.508-de-21-de-setembro-de-2026-733212913",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15508.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.509-de-21-de-setembro-de-2026-733229074",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "LEI Nº 15.509, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.935, de 18 de novembro de 1994, para dispor sobre o prazo prescricional da ação para aplicação de sanções administrativas aos notários e registradores.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.509-de-21-de-setembro-de-2026-733229074",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15509.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.510-de-21-de-setembro-de-2026-733218276",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "LEI Nº 15.510, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui a Semana Nacional da Empresa Júnior.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.510-de-21-de-setembro-de-2026-733218276",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15510.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.511-de-21-de-setembro-de-2026-733219205",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "LEI Nº 15.511, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994 (Estatuto da Advocacia), para modificar a nomenclatura do Secretário-Geral Adjunto, bem como a composição da Diretoria do Conselho Federal da Ordem dos Advogados do Brasil, e facultar aos Conselhos Seccionais a criação de diretorias regimentais temporárias.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.511-de-21-de-setembro-de-2026-733219205",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15511.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.392-de-21-de-setembro-de-2026-733212018",
+    "tipo": "ato",
+    "data": "2026-09-22",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.392, DE 21 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor dos Ministérios do Desenvolvimento e Assistência Social, Família e Combate à Fome e dos Povos Indígenas, no valor de R$ 64.289.400,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2026-09-21",
+      "publicacao": "2026-09-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.392-de-21-de-setembro-de-2026-733212018",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-22:08:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-22",
+    "hora": "08:40",
+    "titulo": "Encontro com o Secretário-Geral das Nações Unidas, António Guterres",
+    "local": "Sede das Nações Unidas, Nova York",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-22:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-22",
+    "hora": "09:00",
+    "titulo": "Abertura do Debate Geral de Alto Nível da 81.ª Sessão Ordinária da Assembleia Geral das Nações Unidas",
+    "local": "Sede das Nações Unidas , Nova York",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-22:13:50:1",
+    "tipo": "agenda",
+    "data": "2026-09-22",
+    "hora": "13:50",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional John F. Kennedy",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-22:23:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-22",
+    "hora": "23:40",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "DECRETO Nº 13.126, DE 23 DE SETEMBRO DE 2026 (*)",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Livre Comércio entre o Mercosul e os Estados da EFTA, firmado pela República Federativa do Brasil, no Rio de Janeiro, em 16 de setembro de 2025.",
+    "datasAto": {
+      "assinatura": "2026-09-23",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.126-de-23-de-setembro-de-2026-*-733719917",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13126.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.127-de-23-de-setembro-de-2026-733720000",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "DECRETO Nº 13.127, DE 23 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 13.119, de 16 de setembro de 2026, e institui subvenção econômica extraordinária, nos termos do disposto no art. 2º, § 7º, da Lei Complementar nº 235, de 27 de agosto de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-23",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.127-de-23-de-setembro-de-2026-733720000",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13127.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.512-de-22-de-setembro-de-2026-733410018",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.512, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre princípios e diretrizes para a formulação e a implementação de políticas públicas para a efetivação, com absoluta prioridade, do direito da criança e do adolescente à natureza; e altera a Lei nº 6.938, de 31 de agosto de 1981, a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e a Lei nº 12.187, de 29 de dezembro de ...",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.512-de-22-de-setembro-de-2026-733410018",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15512.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.513-de-22-de-setembro-de-2026-733464228",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.513, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.715, de 17 de setembro de 2012, para prorrogar a faculdade de dedução do imposto sobre a renda dos valores correspondentes a doações e patrocínios destinados ao Programa Nacional de Apoio à Atenção Oncológica (Pronon) e ao Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD). O V I C E - P R E S I D E N T E...",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.513-de-22-de-setembro-de-2026-733464228",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15513.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.514-de-22-de-setembro-de-2026-733463027",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.514, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Confere o título de Capital Nacional do Basquete ao Município de Franca, no Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.514-de-22-de-setembro-de-2026-733463027",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15514.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.515-de-22-de-setembro-de-2026-733469461",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.515, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Confere o título de Capital Nacional do Pé de Moleque ao Município de Piranguinho, no Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.515-de-22-de-setembro-de-2026-733469461",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15515.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.516-de-22-de-setembro-de-2026-733474051",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.516, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui o Protocolo Intersetorial de Atendimento e Resposta Integrada em Situações de Violência, destinado a orientar a atuação das autoridades competentes nos casos de estupro e de outras formas de violência física contra mulher, criança, adolescente e pessoas em situação de vulnerabilidade; e altera a Lei nº 12.845, de 1º de agosto de 2013. O V I C E - P...",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.516-de-22-de-setembro-de-2026-733474051",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15516.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.517-de-22-de-setembro-de-2026-733476267",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.517, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal) e a Lei nº 8.176, de 8 de fevereiro de 1991, para dispor sobre os crimes de furto e roubo de petróleo e derivados, gás natural e suas frações recuperáveis, álcool etílico hidratado carburante e demais combustíveis fluidos carburantes, inclusive biocombustíveis, e óleos lubrificantes, bem...",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.517-de-22-de-setembro-de-2026-733476267",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15517.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.518-de-22-de-setembro-de-2026-733476413",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.518, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui o Programa Institucional de Bolsa de Iniciação à Docência (Pibid).",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.518-de-22-de-setembro-de-2026-733476413",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15518.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.519-de-22-de-setembro-de-2026-733477345",
+    "tipo": "ato",
+    "data": "2026-09-23",
+    "titulo": "LEI Nº 15.519, DE 22 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o exercício da atividade de psicopedagogia.",
+    "datasAto": {
+      "assinatura": "2026-09-22",
+      "publicacao": "2026-09-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.519-de-22-de-setembro-de-2026-733477345",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15519.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-da-republica-visita-obras-da-br-116-em-nova-iguacu-rj",
+    "tipo": "comunicado",
+    "data": "2026-09-23",
+    "titulo": "Presidente da República visita obras da BR-116 em Nova Iguaçu (RJ)",
+    "status": "publicado",
+    "ementa": "Agenda será às 9h de quinta-feira, 24, no Sesc Nova Iguaçu",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/presidente-da-republica-visita-obras-da-br-116-em-nova-iguacu-rj",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:em-sao-paulo-presidente-da-republica-apresenta-novas-medidas-de-protecao-as-familias-e-a-economia-popular",
+    "tipo": "comunicado",
+    "data": "2026-09-24",
+    "titulo": "Em São Paulo, Presidente da República apresenta novas medidas de proteção às famílias e à economia popular",
+    "status": "publicado",
+    "ementa": "Agenda será às 18h desta sexta-feira, 25, no Edifício Matarazzo, na capital paulista",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/em-sao-paulo-presidente-da-republica-apresenta-novas-medidas-de-protecao-as-familias-e-a-economia-popular",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:visita-presidencial-a-novos-campi-em-instituicoes-federais-de-ensino-na-zona-leste-da-capital-paulista",
+    "tipo": "comunicado",
+    "data": "2026-09-24",
+    "titulo": "Visita presidencial a novos campi em instituições federais de ensino na Zona Leste da capital paulista",
+    "status": "publicado",
+    "ementa": "Obras do campus da Unifesp que sediará o Instituto das Cidades serão vistas neste sábado, às 12h30. Já as instalações do Instituto Federal de São Paulo na Cidade Tiradentes, às 13h30 do mesmo dia",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/visita-presidencial-a-novos-campi-em-instituicoes-federais-de-ensino-na-zona-leste-da-capital-paulista",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-24:10:10:1",
+    "tipo": "agenda",
+    "data": "2026-09-24",
+    "hora": "10:10",
+    "titulo": "Intervenções acerca das obras de melhoria na BR-116/RJ",
+    "local": "Ginásio do SESC Nova Iguaçu – Nova Iguaçu (RJ)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-24",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.520-de-24-de-setembro-de-2026-734421039",
+    "tipo": "ato",
+    "data": "2026-09-25",
+    "titulo": "LEI Nº 15.520, DE 24 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Cria a Universidade Federal da Fronteira Norte.",
+    "datasAto": {
+      "assinatura": "2026-09-24",
+      "publicacao": "2026-09-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.520-de-24-de-setembro-de-2026-734421039",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15520.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.521-de-24-de-setembro-de-2026-734497239",
+    "tipo": "ato",
+    "data": "2026-09-25",
+    "titulo": "LEI Nº 15.521, DE 24 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Transforma os Centros Federais de Educação Tecnológica de Minas Gerais e do Rio de Janeiro, respectivamente, na Universidade Federal de Ciência e Inovação de Minas Gerais (UFCI/MG) e na Universidade Federal de Ciência e Inovação do Rio de Janeiro (UFCI/RJ); e altera a Lei nº 11.892, de 29 de dezembro de 2008.",
+    "datasAto": {
+      "assinatura": "2026-09-24",
+      "publicacao": "2026-09-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.521-de-24-de-setembro-de-2026-734497239",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15521.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.393-de-25-de-setembro-de-2026-734808387",
+    "tipo": "ato",
+    "data": "2026-09-25",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.393, DE 25 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.690, de 3 de outubro de 2023, para instituir a Modalidade Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes - Desenrola Brasil 3.0 e prever a adoção de medidas de promoção do crédito responsável, altera a Medida Provisória nº 1.373, de 29 de junho de 2026, para estabelecer novo prazo para o Programa Extr...",
+    "datasAto": {
+      "assinatura": "2026-09-25",
+      "publicacao": "2026-09-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.393-de-25-de-setembro-de-2026-734808387",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.394-de-25-de-setembro-de-2026-734808521",
+    "tipo": "ato",
+    "data": "2026-09-25",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.394, DE 25 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Proíbe a exploração, a oferta, a intermediação e a publicidade de loterias de apostas de quota fixa no território nacional, institui o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa, e altera a Lei nº 14.790, de 29 de dezembro de 2023.",
+    "datasAto": {
+      "assinatura": "2026-09-25",
+      "publicacao": "2026-09-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.394-de-25-de-setembro-de-2026-734808521",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-26:12:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-26",
+    "hora": "12:30",
+    "titulo": "Visita às obras da Universidade Federal de São Paulo (UNIFESP) – Campus Itaquera",
+    "local": "Avenida Jacu-Pêssego – Itaquera, São Paulo (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-26:13:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-26",
+    "hora": "13:30",
+    "titulo": "Visita ao Novo Prédio do Instituto Federal de São Paulo (IFSP) – Campus Cidade Tiradentes",
+    "local": "Cidade Tiradentes, São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-26:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-26",
+    "hora": "14:00",
+    "titulo": "Intervenções por ocasião da Visita ao Novo Prédio do Instituto Federal de São Paulo (IFSP) – Campus Cidade Tiradentes",
+    "local": "Cidade Tiradentes, São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-26:15:40:1",
+    "tipo": "agenda",
+    "data": "2026-09-26",
+    "hora": "15:40",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de São Paulo - Guarulhos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-26:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-26",
+    "hora": "17:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:visita-presidencial-ao-complexo-hospitalar-da-benemerita-sociedade-portuguesa-beneficente-do-para",
+    "tipo": "comunicado",
+    "data": "2026-09-27",
+    "titulo": "Visita presidencial ao complexo hospitalar da Benemérita Sociedade Portuguesa Beneficente do Pará",
+    "status": "publicado",
+    "ementa": "Presidente da República conhecerá a nova estrutura do Hospital São João de Deus, que integra um dos maiores complexos da Região Amazônica e que presta atendimento a pacientes do SUS",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/visita-presidencial-ao-complexo-hospitalar-da-benemerita-sociedade-portuguesa-beneficente-do-para",
+        "coletadoEm": "2026-10-11T21:31:31.268Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.128-de-28-de-setembro-de-2026-735097258",
+    "tipo": "ato",
+    "data": "2026-09-28",
+    "titulo": "DECRETO Nº 13.128, DE 28 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa.",
+    "datasAto": {
+      "assinatura": "2026-09-28",
+      "publicacao": "2026-09-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.128-de-28-de-setembro-de-2026-735097258",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13128.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-28:12:30:1",
+    "tipo": "agenda",
+    "data": "2026-09-28",
+    "hora": "12:30",
+    "titulo": "Sanção do PL nº 4.578/2025, que dispõe sobre as diretrizes para o desenvolvimento do futebol feminino",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-28:13:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-28",
+    "hora": "13:00",
+    "titulo": "Partida para Belém",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-28:15:15:1",
+    "tipo": "agenda",
+    "data": "2026-09-28",
+    "hora": "15:15",
+    "titulo": "Chegada a Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-09-28",
+    "hora": "16:00",
+    "titulo": "Visita ao Hospital João de Deus",
+    "local": "Rua Boaventura da Silva – Umarizal, Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-09-28:16:45:1",
+    "tipo": "agenda",
+    "data": "2026-09-28",
+    "hora": "16:45",
+    "titulo": "Intervenções sobre a visita ao Hospital São João de Deus",
+    "local": "Rua Boaventura da Silva – Umarizal, Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-09-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.522-de-28-de-setembro-de-2026-735105456",
+    "tipo": "ato",
+    "data": "2026-09-29",
+    "titulo": "LEI Nº 15.522, DE 28 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre as diretrizes para o desenvolvimento do futebol feminino no País; e altera as Leis nºs 14.193, de 6 de agosto de 2021, 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), e 15.421, de 1º de junho de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-28",
+      "publicacao": "2026-09-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.522-de-28-de-setembro-de-2026-735105456",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15522.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.523-de-28-de-setembro-de-2026-735112328",
+    "tipo": "ato",
+    "data": "2026-09-29",
+    "titulo": "LEI Nº 15.523, DE 28 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.756, de 12 de dezembro de 2018, para definir percentual de arrecadação da loteria de prognósticos numéricos a ser destinado ao Comitê Brasileiro de Clubes (CBC).",
+    "datasAto": {
+      "assinatura": "2026-09-28",
+      "publicacao": "2026-09-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.523-de-28-de-setembro-de-2026-735112328",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15523.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.524-de-28-de-setembro-de-2026-735106699",
+    "tipo": "ato",
+    "data": "2026-09-29",
+    "titulo": "LEI Nº 15.524, DE 28 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Estratégia Nacional de Controle e Avaliação da Qualidade da Assistência à Saúde prestada pela Iniciativa Privada; e altera a Lei nº 9.782, de 26 de janeiro de 1999.",
+    "datasAto": {
+      "assinatura": "2026-09-28",
+      "publicacao": "2026-09-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.524-de-28-de-setembro-de-2026-735106699",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15524.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.525-de-28-de-setembro-de-2026-735107609",
+    "tipo": "ato",
+    "data": "2026-09-29",
+    "titulo": "LEI Nº 15.525, DE 28 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 7.689, de 15 de dezembro de 1988, a Lei nº 9.249, de 26 de dezembro de 1995, e a Lei nº 9.430, de 27 de dezembro de 1996, para fixar a alíquota da Contribuição Social sobre o Lucro Líquido (CSLL) das sociedades resseguradoras locais e para afastar a incidência do adicional do Imposto sobre a Renda da Pessoa Jurídica (IRPJ) sobre essas socied...",
+    "datasAto": {
+      "assinatura": "2026-09-28",
+      "publicacao": "2026-09-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.525-de-28-de-setembro-de-2026-735107609",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15525.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.129-de-29-de-setembro-de-2026-735391514",
+    "tipo": "ato",
+    "data": "2026-09-30",
+    "titulo": "DECRETO Nº 13.129, DE 29 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.703, de 14 de setembro de 2023, que remaneja, em caráter temporário, cargos em comissão e funções de confiança para o Ministério da Fazenda.",
+    "datasAto": {
+      "assinatura": "2026-09-29",
+      "publicacao": "2026-09-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.129-de-29-de-setembro-de-2026-735391514",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13129.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.130-de-30-de-setembro-de-2026-735678653",
+    "tipo": "ato",
+    "data": "2026-09-30",
+    "titulo": "DECRETO Nº 13.130, DE 30 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.846, de 12 de fevereiro de 2026, que dispõe sobre a programação orçamentária e financeira e estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2026.",
+    "datasAto": {
+      "assinatura": "2026-09-30",
+      "publicacao": "2026-09-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.130-de-30-de-setembro-de-2026-735678653",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D13130.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.526-de-29-de-setembro-de-2026-735384105",
+    "tipo": "ato",
+    "data": "2026-09-30",
+    "titulo": "LEI Nº 15.526, DE 29 DE SETEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.171, de 17 de janeiro de 1991, a Lei nº 10.823, de 19 de dezembro de 2003, e a Lei Complementar nº 137, de 26 de agosto de 2010, para aperfeiçoar o marco legal do seguro rural.",
+    "datasAto": {
+      "assinatura": "2026-09-29",
+      "publicacao": "2026-09-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.526-de-29-de-setembro-de-2026-735384105",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15526.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

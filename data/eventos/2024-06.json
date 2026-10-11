@@ -1,0 +1,5106 @@
+[
+  {
+    "id": "dou:decreto-n-12.038-de-29-de-maio-de-2024-563051550",
+    "tipo": "ato",
+    "data": "2024-06-03",
+    "titulo": "DECRETO Nº 12.038, DE 29 DE MAIO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Fronteiras e o seu Comitê Nacional.",
+    "datasAto": {
+      "assinatura": "2024-05-29",
+      "publicacao": "2024-06-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.038-de-29-de-maio-de-2024-563051550",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12038.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:11:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "11:40",
+    "titulo": "Reunião bilateral com o Presidente da República da Croácia, Zoran Milanović",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "13:00",
+    "titulo": "Almoço em homenagem ao Presidente da República da Croácia, Zoran Milanović, e à Primeira-Dama da República da Croácia, Senhora Sanje Musić Milanović",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "16:00",
+    "titulo": "Presidenta do Banco do Brasil, Tarciana Medeiros, e Presidente da Caixa Econômica Federal, Carlos Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:16:45:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "16:45",
+    "titulo": "Telefonema com a Presidenta eleita do México, Claudia Sheinbaum",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "17:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-03:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-03",
+    "hora": "19:00",
+    "titulo": "Sessão Solene de Posse da Ministra Cármen Lúcia e do Ministro Nunes Marques nos cargos de Presidente e Vice-Presidente do Tribunal Superior Eleitoral (TSE)",
+    "local": "Plenário do Tribunal Superior Eleitoral (TSE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.227-de-4-de-junho-de-2024-563405549",
+    "tipo": "ato",
+    "data": "2024-06-04",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.227, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Prevê condições para fruição de benefícios fiscais, delega competência para julgamento de processo administrativo fiscal relativo ao Imposto sobre a Propriedade Territorial Rural - ITR, limita a compensação de créditos relativos a tributos administrados pela Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda e revoga hipótese...",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.227-de-4-de-junho-de-2024-563405549",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "10:00",
+    "titulo": "Ministro da Integração e do Desenvolvimento Regional, Waldez Góes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "11:00",
+    "titulo": "Secretária-Executiva da Casa Civil, Miriam Belchior, e Secretário Especial de Articulação e Monitoramento da Casa Civil, Maurício Muniz",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "15:00",
+    "titulo": "Sanção do Projeto de Lei nº 4364/2020, que institui a Política Nacional de Cuidado Integral às Pessoas com Doença de Alzheimer e Outras Demências",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:15:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "15:15",
+    "titulo": "Sanção do Projeto de Lei nº 2650/2022, que institui a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Precoce), e determina prioridade de atendimento em programas de visitas domiciliares a crianças com necessidades especiais",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "15:30",
+    "titulo": "Sanção do Projeto de Lei n° 1803/2023, que altera o Código de Processo Civil para estabelecer que a eleição de foro deve guardar pertinência com o domicílio das partes ou com o local da obrigação e que o ajuizamento de ação em juízo aleatório constitui prática abusiva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-04:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-04",
+    "hora": "16:00",
+    "titulo": "Ministro da Pesca e Aquicultura, André de Paula",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.039-de-4-de-junho-de-2024-563682790",
+    "tipo": "ato",
+    "data": "2024-06-05",
+    "titulo": "DECRETO Nº 12.039, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.396, de 21 de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Desenvolvimento Agrário e Agricultura Familiar, e remaneja funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.039-de-4-de-junho-de-2024-563682790",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12039.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.877-de-4-de-junho-de-2024-563686029",
+    "tipo": "ato",
+    "data": "2024-06-05",
+    "titulo": "LEI Nº 14.877, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Cria os Selos Verdes Cacau Cabruca e Cacau Amazônia.",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.877-de-4-de-junho-de-2024-563686029",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14877.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.878-de-4-de-junho-de-2024-563681727",
+    "tipo": "ato",
+    "data": "2024-06-05",
+    "titulo": "LEI Nº 14.878, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Cuidado Integral às Pessoas com Doença de Alzheimer e Outras Demências; e altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social).",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.878-de-4-de-junho-de-2024-563681727",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14878.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.879-de-4-de-junho-de-2024-563686358",
+    "tipo": "ato",
+    "data": "2024-06-05",
+    "titulo": "LEI Nº 14.879, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para estabelecer que a eleição de foro deve guardar pertinência com o domicílio das partes ou com o local da obrigação e que o ajuizamento de ação em juízo aleatório constitui prática abusiva, passível de declinação de competência de ofício.",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.879-de-4-de-junho-de-2024-563686358",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14879.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.880-de-4-de-junho-de-2024-563687195",
+    "tipo": "ato",
+    "data": "2024-06-05",
+    "titulo": "LEI Nº 14.880, DE 4 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.257, de 8 de março de 2016 (Marco Legal da Primeira Infância), para instituir a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce) e para determinar prioridade de atendimento em programas de visitas domiciliares a crianças da educação infantil apoiadas pela educação especial e a criança...",
+    "datasAto": {
+      "assinatura": "2024-06-04",
+      "publicacao": "2024-06-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.880-de-4-de-junho-de-2024-563687195",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14880.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "10:00",
+    "titulo": "Apresentação e coletiva de imprensa por ocasião do Dia Mundial do Meio Ambiente, com a Ministra do Meio Ambiente e Mudança do Clima, Marina Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "11:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "12:30",
+    "titulo": "Ministro das Cidades, Jader Filho, e Governador do Pará, Helder Barbalho, para assinatura de termo para revitalização e garantia de saneamento básico do Ver-o-Peso",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "15:30",
+    "titulo": "Ministra da Casa Civil substituta, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-05:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-05",
+    "hora": "16:30",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.040-de-5-de-junho-de-2024-563756251",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.040, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.550, de 5 de junho de 2023, que dispõe sobre o Comitê Interministerial sobre Mudança do Clima.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.040-de-5-de-junho-de-2024-563756251",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12040.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.041-de-5-de-junho-de-2024-563767036",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.041, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Cidades Verdes Resilientes.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.041-de-5-de-junho-de-2024-563767036",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12041.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.042-de-5-de-junho-de-2024-563767584",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.042 DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Cria o Monumento Natural Cavernas de São Desidério, localizado no Município de São Desidério, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.042-de-5-de-junho-de-2024-563767584",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12042.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.043-de-5-de-junho-de-2024-563768324",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.043, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Cria a Assessoria Extraordinária para a COP30, aprova o seu Quadro Demonstrativo dos Cargos em Comissão e remaneja, em caráter temporário, cargos em comissão.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.043-de-5-de-junho-de-2024-563768324",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12043.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.044-de-5-de-junho-de-2024-563746407",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.044, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional de Bioeconomia.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.044-de-5-de-junho-de-2024-563746407",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12044.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.045-de-5-de-junho-de-2024-563742208",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.045, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Nacional de Conservação e Uso Sustentável dos Manguezais do Brasil.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.045-de-5-de-junho-de-2024-563742208",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12045.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.046-de-5-de-junho-de-2024-563759808",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.046, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta, em âmbito federal, a Lei nº 11.284, de 2 de março de 2006, que dispõe sobre a gestão de florestas públicas para a produção sustentável, e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.046-de-5-de-junho-de-2024-563759808",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12046.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.047-de-5-de-junho-de-2024-563770268",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.047, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Cria o Refúgio de Vida Silvestre do Sauim-de-Coleira, localizado no Município de Itacoatiara, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.047-de-5-de-junho-de-2024-563770268",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12047.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.048-de-5-de-junho-de-2024-563751664",
+    "tipo": "ato",
+    "data": "2024-06-06",
+    "titulo": "DECRETO Nº 12.048, DE 5 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Pacto Nacional pela Superação do Analfabetismo e Qualificação da Educação de Jovens e Adultos, institui a Medalha Paulo Freire e altera o Decreto nº 10.959, de 8 de fevereiro de 2022, que dispõe sobre o Programa Brasil Alfabetizado.",
+    "datasAto": {
+      "assinatura": "2024-06-05",
+      "publicacao": "2024-06-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.048-de-5-de-junho-de-2024-563751664",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12048.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "08:00",
+    "titulo": "Partida para Canoas (RS)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:10:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "10:15",
+    "titulo": "Chegada a Canoas (RS)",
+    "local": "Base Aérea de Canoas (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:11:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "11:10",
+    "titulo": "Visita ao bairro Passo de Estrela",
+    "local": "Cruzeiro do Sul (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:13:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "13:40",
+    "titulo": "Visita ao bairro de Navegantes",
+    "local": "Arroio do Meio (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "16:00",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Canoas (RS)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-06:18:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-06",
+    "hora": "18:15",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.881-de-7-de-junho-de-2024-564253869",
+    "tipo": "ato",
+    "data": "2024-06-07",
+    "titulo": "LEI Nº 14.881, DE 7 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor dos Ministérios da Saúde, e da Integração e do Desenvolvimento Regional, crédito suplementar no valor de R$ 2.854.421.588,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+    "datasAto": {
+      "assinatura": "2024-06-07",
+      "publicacao": "2024-06-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.881-de-7-de-junho-de-2024-564253869",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14881.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.228-de-6-de-junho-de-2024-564259829",
+    "tipo": "ato",
+    "data": "2024-06-07",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.228, DE 6 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui Apoio Financeiro destinado às famílias desalojadas ou desabrigadas nos Municípios do Estado do Rio Grande do Sul com estado de calamidade pública ou situação de emergência reconhecida pelo Poder Executivo federal.",
+    "datasAto": {
+      "assinatura": "2024-06-06",
+      "publicacao": "2024-06-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.228-de-6-de-junho-de-2024-564259829",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.229-de-6-de-junho-de-2024-564265564",
+    "tipo": "ato",
+    "data": "2024-06-07",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.229, DE 6 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a prestação de apoio financeiro pela União aos Municípios do Estado do Rio Grande do Sul com estado de calamidade pública reconhecido pelo Poder Executivo federal que não tenham sido contemplados pela Medida Provisória nº 1.222, de 21 de maio de 2024.",
+    "datasAto": {
+      "assinatura": "2024-06-06",
+      "publicacao": "2024-06-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.229-de-6-de-junho-de-2024-564265564",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.230-de-7-de-junho-de-2024-564275099",
+    "tipo": "ato",
+    "data": "2024-06-07",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.230, DE 7 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui Apoio Financeiro com o objetivo de enfrentar a calamidade pública e as suas consequências sociais e econômicas decorrentes de eventos climáticos no Estado do Rio Grande do Sul, destinado aos trabalhadores com vínculo formal de emprego.",
+    "datasAto": {
+      "assinatura": "2024-06-07",
+      "publicacao": "2024-06-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.230-de-7-de-junho-de-2024-564275099",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-07:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-07",
+    "hora": "09:30",
+    "titulo": "Reunião",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-07:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-07",
+    "hora": "11:00",
+    "titulo": "Reunião",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-07:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-07",
+    "hora": "15:30",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "09:30",
+    "titulo": "Reunião com Reitores de Universidades e Institutos Federais",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "12:00",
+    "titulo": "Telefonema com o Presidente da Rússia, Vladimir Putin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "15:00",
+    "titulo": "Vice-Presidente da República e Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin, e Presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-10:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-10",
+    "hora": "17:00",
+    "titulo": "Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "09:00",
+    "titulo": "Presidente da Confederação Nacional da Indústria (CNI), Ricardo Alban",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "09:30",
+    "titulo": "Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "10:00",
+    "titulo": "Advogado-Geral da União, Jorge Messias, Governadora de Pernambuco, Raquel Lyra, e Presidente da Caixa Econômica Federal, Carlos Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "10:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:13:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "13:10",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "14:30",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Aeroporto Internacional do Galeão",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-11:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-11",
+    "hora": "15:30",
+    "titulo": "Cerimônia Nacional de Premiação da 18ª Olimpíada Brasileira de Matemática das Escolas Públicas - OBMEP",
+    "local": "Centro de Convenções do Hotel Windsor Oceânico – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.049-de-11-de-junho-de-2024-565148273",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "DECRETO Nº 12.049, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Mais Ciência na Escola para Expansão de Tecnologias Digitais e Experimentação Científica na Educação Básica - Mais Ciência na Escola.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.049-de-11-de-junho-de-2024-565148273",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12049.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.050-de-11-de-junho-de-2024-565145857",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "DECRETO Nº 12.050, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.739, de 18 de outubro de 2023, que dispõe sobre a adaptação facultativa das outorgas de execução do serviço de radiodifusão sonora em ondas curtas e ondas tropicais para outorgas de execução do serviço de radiodifusão sonora em frequência modulada.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.050-de-11-de-junho-de-2024-565145857",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12050.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.051-de-11-de-junho-de-2024-565141912",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "DECRETO Nº 12.051, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o recurso de multiprogramação para as detentoras de outorga para execução de serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos ou de exploração comercial.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.051-de-11-de-junho-de-2024-565141912",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12051.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.882-de-11-de-junho-de-2024-565132593",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "LEI Nº 14.882, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional a Festa de São Vito, realizada no Município de São Paulo, no Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.882-de-11-de-junho-de-2024-565132593",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14882.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.883-de-11-de-junho-de-2024-565154086",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "LEI Nº 14.883, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Confere o título de Capital Nacional da Moda Íntima ao Município de Nova Friburgo, no Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.883-de-11-de-junho-de-2024-565154086",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14883.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.884-de-11-de-junho-de-2024-565132764",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "LEI Nº 14.884, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Imigrante Grego.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.884-de-11-de-junho-de-2024-565132764",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14884.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.885-de-11-de-junho-de-2024-565132851",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "LEI Nº 14.885, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional de Prevenção ao Acidente Vascular Cerebral (AVC).",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.885-de-11-de-junho-de-2024-565132851",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14885.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.886-de-11-de-junho-de-2024-565132874",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "LEI Nº 14.886, DE 11 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Nacional de Vacinação em Escolas Públicas.",
+    "datasAto": {
+      "assinatura": "2024-06-11",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.886-de-11-de-junho-de-2024-565132874",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14886.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.231-de-12-de-junho-de-2024-565132621",
+    "tipo": "ato",
+    "data": "2024-06-12",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.231, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor de Transferências a Estados, Distrito Federal e Municípios, no valor de R$ 124.060.365,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.231-de-12-de-junho-de-2024-565132621",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-12",
+    "hora": "09:00",
+    "titulo": "Sessão de abertura do Fórum de Investimentos Prioridade 2024 do Instituto da Iniciativa de Investimentos Futuros (FII Institute)",
+    "local": "Copacabana Palace – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-12",
+    "hora": "11:00",
+    "titulo": "Reunião com os Governadores das Províncias argentinas de Neuquén, Rolando Figueroa, e de Río Negro, Alberto Weretilneck",
+    "local": "Copacabana Palace – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-12",
+    "hora": "15:00",
+    "titulo": "Partida para Genebra",
+    "local": "Aeroporto Internacional do Galeão – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.052-de-12-de-junho-de-2024-565438894",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "DECRETO Nº 12.052, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Reduz a zero as alíquotas do Imposto sobre Produtos Industrializados - IPI incidentes sobre produtos doados ao Estado do Rio Grande do Sul ou aos Municípios em estado de calamidade pública declarado pelo Governo do Estado do Rio Grande do Sul, destinados às vítimas das enchentes naquele Estado.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.052-de-12-de-junho-de-2024-565438894",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12052.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.053-de-12-de-junho-de-2024-565440850",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "DECRETO Nº 12.053, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.426, de 16 de julho de 2020, que dispõe sobre a descentralização de créditos entre órgãos e entidades da administração pública federal integrantes dos Orçamentos Fiscal e da Seguridade Social da União, por meio da celebração de termo de execução descentralizada.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.053-de-12-de-junho-de-2024-565440850",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12053.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.054-de-12-de-junho-de-2024-565433145",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "DECRETO Nº 12.054, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.246, de 28 de julho de 2010, que regulamenta a Lei nº 12.111, de 9 de dezembro de 2009, que dispõe sobre o serviço de energia elétrica dos Sistemas Isolados e as instalações de transmissão de interligações internacionais no Sistema Interligado Nacional - SIN.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.054-de-12-de-junho-de-2024-565433145",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12054.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-204-de-28-de-dezembro-de-2023-565437456",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI COMPLEMENTAR Nº 204, DE 28 DE DEZEMBRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei Complementar nº 87, de 13 de setembro de 1996 (Lei Kandir), para vedar a incidência do Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS) nos casos de transferência de mercadoria entre estabelecimentos do mesmo contribuinte. ...",
+    "datasAto": {
+      "assinatura": "2023-12-28",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-204-de-28-de-dezembro-de-2023-565437456",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.735-de-23-de-novembro-de-2023-565409740",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.735, DE 23 DE NOVEMBRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Lei Orgânica Nacional das Polícias Civis, dispõe sobre suas normas gerais de funcionamento e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-11-23",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.735-de-23-de-novembro-de-2023-565409740",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14735.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.751-de-12-de-dezembro-de-2023-565412778",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.751, DE 12 DE DEZEMBRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Lei Orgânica Nacional das Polícias Militares e dos Corpos de Bombeiros Militares dos Estados, do Distrito Federal e dos Territórios, nos termos do inciso XXI docaputdo art. 22 da Constituição Federal, altera a Lei nº 13.675, de 11 de junho de 2018, e revoga dispositivos do Decreto-Lei nº 667, de 2 de julho de 1969.",
+    "datasAto": {
+      "assinatura": "2023-12-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.751-de-12-de-dezembro-de-2023-565412778",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14751.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.757-de-19-de-dezembro-de-2023-565413425",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.757, DE 19 DE DEZEMBRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.952, de 25 de junho de 2009, a Lei nº 8.629, de 25 de fevereiro de 1993, e a Lei nº 13.465, de 11 de julho de 2017, para dispor sobre a extinção de cláusulas resolutivas constantes de títulos fundiários, e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-12-19",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.757-de-19-de-dezembro-de-2023-565413425",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14757.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.791-de-29-de-dezembro-de-2023-565433000",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.791, DE 29 DE DEZEMBRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária de 2023 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-12-29",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.791-de-29-de-dezembro-de-2023-565433000",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14791.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.822-de-22-de-janeiro-de-2024-565440626",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.822, DE 22 DE JANEIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2024.",
+    "datasAto": {
+      "assinatura": "2024-01-22",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.822-de-22-de-janeiro-de-2024-565440626",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14822.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.843-de-11-de-abril-de-2024-565440813",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.843, DE 11 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a monitoração eletrônica do preso, prever a realização de exame criminológico para progressão de regime e restringir o benefício da saída temporária.",
+    "datasAto": {
+      "assinatura": "2024-04-11",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.843-de-11-de-abril-de-2024-565440813",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14843.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.887-de-12-de-junho-de-2024-565433191",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.887, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer prioridade na assistência à mulher em situação de violência doméstica e familiar, e a Lei nº 13.239, de 30 de dezembro de 2015, para determinar que a mulher vítima de violência tenha atendimento prioritário para a cirurgia plástica reparadora entre os casos de mesma gravidade...",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.887-de-12-de-junho-de-2024-565433191",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14887.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.888-de-12-de-junho-de-2024-565439374",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.888, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a criação de cargos de provimento efetivo e de cargos em comissão no Quadro de Pessoal da Secretaria do Tribunal Regional do Trabalho da 19ª Região e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.888-de-12-de-junho-de-2024-565439374",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14888.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.889-de-12-de-junho-de-2024-565436259",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.889, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor de Encargos Financeiros da União, crédito especial no valor de R$ 59.000.000,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.889-de-12-de-junho-de-2024-565436259",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14889.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.890-de-12-de-junho-de-2024-565438977",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.890, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor do Ministério da Educação, crédito especial no valor de R$ 7.377.849,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.890-de-12-de-junho-de-2024-565438977",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14890.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.891-de-12-de-junho-de-2024-565440654",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.891, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor do Ministério da Defesa e de Operações Oficiais de Crédito, crédito suplementar no valor de R$ 256.770.000,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.891-de-12-de-junho-de-2024-565440654",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14891.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.892-de-12-de-junho-de-2024-565434081",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.892, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor da Defensoria Pública da União e do Ministério Público da União, crédito especial no valor de R$ 1.895.000,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.892-de-12-de-junho-de-2024-565434081",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14892.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.893-de-12-de-junho-de-2024-565440490",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.893, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor da Presidência da República e dos Ministérios da Fazenda e da Educação, crédito especial no valor de R$ 19.063.245,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.893-de-12-de-junho-de-2024-565440490",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14893.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.894-de-12-de-junho-de-2024-565420467",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.894, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos órgãos do Poder Executivo, crédito especial no valor de R$ 94.835.105,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.894-de-12-de-junho-de-2024-565420467",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14894.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.895-de-12-de-junho-de-2024-565443150",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.895, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos Órgãos do Poder Executivo e de Operações Oficiais de Crédito, crédito suplementar no valor de R$ 873.461.598,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.895-de-12-de-junho-de-2024-565443150",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14895.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.896-de-12-de-junho-de-2024-565440407",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.896, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor do Ministério da Agricultura e Pecuária, crédito suplementar no valor de R$ 182.039.027,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.896-de-12-de-junho-de-2024-565440407",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14896.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.897-de-12-de-junho-de-2024-565420335",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "LEI Nº 14.897, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor do Tribunal de Contas da União, da Justiça do Trabalho e do Ministério Público da União, crédito suplementar no valor de R$ 426.220.771,00, para reforço de dotações constantes da Lei Orçamentária vigente.",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.897-de-12-de-junho-de-2024-565420335",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14897.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.232-de-12-de-junho-de-2024-565430679",
+    "tipo": "ato",
+    "data": "2024-06-13",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.232, DE 12 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.111, de 9 de dezembro de 2009, que dispõe sobre os serviços de energia elétrica nos Sistemas Isolados, e a Lei nº 12.783, de 11 de janeiro de 2013, que dispõe sobre as concessões de geração, transmissão e distribuição de energia elétrica, sobre a redução dos encargos setoriais e sobre a modicidade tarifária. O VICE-PRESIDENTE DA...",
+    "datasAto": {
+      "assinatura": "2024-06-12",
+      "publicacao": "2024-06-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.232-de-12-de-junho-de-2024-565430679",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:06:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "06:40",
+    "titulo": "Chegada a Genebra",
+    "local": "Aeroporto Internacional de Genebra",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "14:30",
+    "titulo": "Reunião bilateral com a Presidente da Confederação Suíça, Viola Amherd",
+    "local": "Genebra, Suíça",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "15:30",
+    "titulo": "Reunião bilateral com o Diretor-Geral da Organização Internacional do Trabalho (OIT), Gilbert Houngbo",
+    "local": "Palácio das Nações – Genebra, Suíça",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "16:00",
+    "titulo": "Sessão de Encerramento do Fórum Inaugural da Coalizão Global para a Justiça Social no âmbito da 112ª Conferência Internacional do Trabalho",
+    "local": "Palácio das Nações – Genebra, Suíça",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:17:45:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "17:45",
+    "titulo": "Cerimônia de lançamento do selo institucional 35 Anos da Obra “O Alquimista”, do escritor Paulo Coelho",
+    "local": "Genebra, Suíça",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:19:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "19:30",
+    "titulo": "Partida para Brindisi, Apúlia, Itália",
+    "local": "Aeroporto Internacional de Genebra",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-13:21:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-13",
+    "hora": "21:00",
+    "titulo": "Chegada a Brindisi, Apúlia",
+    "local": "Aeroporto de Brindisi – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.055-de-13-de-junho-de-2024-565689637",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.055, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a qualificação do projeto de criação doCampusIntegrado do Instituto Nacional de Câncer no âmbito do Programa de Parcerias de Investimentos da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.055-de-13-de-junho-de-2024-565689637",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12055.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.056-de-13-de-junho-de-2024-565717300",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.056, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga a Convenção relativa à Transferência de Pessoas Condenadas, firmada pela República Federativa do Brasil, em Estrasburgo, em 21 de março de 1983.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.056-de-13-de-junho-de-2024-565717300",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12056.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.057-de-13-de-junho-de-2024-565715355",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.057, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Autoriza o aumento de capital social da Telecomunicações Brasileiras S.A.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.057-de-13-de-junho-de-2024-565715355",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12057.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.058-de-13-de-junho-de-2024-565718243",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.058, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Ducentésimo Décimo Oitavo Protocolo Adicional ao Acordo de Complementação Econômica nº 18 (218PA-ACE18), firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai e pela República Oriental do Uruguai.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.058-de-13-de-junho-de-2024-565718243",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12058.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.059-de-13-de-junho-de-2024-565728121",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.059, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Ducentésimo Décimo Nono Protocolo Adicional ao Acordo de Complementação Econômica nº 18 (219PA-ACE18), firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai e pela República Oriental do Uruguai.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.059-de-13-de-junho-de-2024-565728121",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12059.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.060-de-13-de-junho-de-2024-565711255",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.060, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Torna sem efeito a outorga da concessão à EBC Empresa Bauruense de Comunicação Ltda. para executar serviço de radiodifusão sonora em onda média, no Município de Ribeirão Preto, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.060-de-13-de-junho-de-2024-565711255",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12060.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.061-de-13-de-junho-de-2024-565709721",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "DECRETO Nº 12.061, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Torna sem efeito a outorga da concessão à Rádio Portal de Caxias Ltda. para executar serviço de radiodifusão sonora em onda média, no Município de João Lisboa, Estado do Maranhão.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.061-de-13-de-junho-de-2024-565709721",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12061.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.898-de-13-de-junho-de-2024-565713992",
+    "tipo": "ato",
+    "data": "2024-06-14",
+    "titulo": "LEI Nº 14.898, DE 13 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui diretrizes para a Tarifa Social de Água e Esgoto em âmbito nacional.",
+    "datasAto": {
+      "assinatura": "2024-06-13",
+      "publicacao": "2024-06-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.898-de-13-de-junho-de-2024-565713992",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14898.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:13:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "13:30",
+    "titulo": "Cerimônia de boas-vindas ao Papa Francisco, aos chefes de Estado e de Governo dos países do segmento externo da Cúpula do G7 e aos representantes de organizações internacionais convidadas",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "14:00",
+    "titulo": "Sessão de trabalho do G7 + países convidados e organizações internacionais sobre Inteligência Artificial, Energia, África e Mediterrâneo",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "17:30",
+    "titulo": "Fotografia oficial",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:18:55:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "18:55",
+    "titulo": "Encontro com o Primeiro-Ministro da República da Índia, Narendra Modi",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:19:05:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "19:05",
+    "titulo": "Encontro com o Presidente da República da Turquia, Recep Erdoğan",
+    "local": "Hotel Borgo Egnazia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:19:25:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "19:25",
+    "titulo": "Encontro com o Papa Francisco",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:19:50:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "19:50",
+    "titulo": "Encontro bilateral com o Presidente da República Francesa, Emmanuel Macron",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-14:20:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-14",
+    "hora": "20:10",
+    "titulo": "Encontro com a Presidente da Comissão Europeia, Ursula von der Leyen",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-15:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-15",
+    "hora": "10:00",
+    "titulo": "Encontro com o Chanceler da República Federal da Alemanha, Olaf Scholz",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-15:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-15",
+    "hora": "10:30",
+    "titulo": "Encontro com a Presidente do Conselho de Ministros da República Italiana, Giorgia Meloni",
+    "local": "Hotel Borgo Egnazia – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-15:13:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-15",
+    "hora": "13:15",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Brindisi – Itália",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-15:19:50:1",
+    "tipo": "agenda",
+    "data": "2024-06-15",
+    "hora": "19:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.062-de-14-de-junho-de-2024-566008548",
+    "tipo": "ato",
+    "data": "2024-06-17",
+    "titulo": "DECRETO Nº 12.062, DE 14 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.999, de 17 de abril de 2024, que dispõe sobre a Comissão Nacional de Residência Médica e sobre o exercício das funções de regulação, supervisão e avaliação de programas de residência médica e das instituições que os ofertem.",
+    "datasAto": {
+      "assinatura": "2024-06-14",
+      "publicacao": "2024-06-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.062-de-14-de-junho-de-2024-566008548",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12062.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-17",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-17:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-17",
+    "hora": "10:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-17:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-17",
+    "hora": "12:00",
+    "titulo": "Sanção do Projeto de Lei nº 501/2019, que dispõe sobre a elaboração e a implementação de plano de metas para o enfrentamento integrado da violência doméstica e familiar contra a mulher, da Rede Estadual de Enfrentamento da Violência contra a Mulher e da Rede de Atendimento à Mulher em Situação de Violência",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-17",
+    "hora": "15:00",
+    "titulo": "Cerimônia de Assinatura de Contrato entre BNDES e MJSP para destinação de recursos do Fundo Amazônia a ações de fortalecimento do \"Plano Amazônia: Segurança e Soberania – AMAS\"",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-17:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-17",
+    "hora": "16:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.063-de-17-de-junho-de-2024-566218411",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "DECRETO Nº 12.063, DE 17 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Selo Verde Brasil.",
+    "datasAto": {
+      "assinatura": "2024-06-17",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.063-de-17-de-junho-de-2024-566218411",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12063.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.064-de-17-de-junho-de-2024-566216031",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "DECRETO Nº 12.064, DE 17 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta o Programa Bolsa Família, instituído pela Lei nº 14.601, de 19 de junho de 2023, e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-06-17",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.064-de-17-de-junho-de-2024-566216031",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12064.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.065-de-17-de-junho-de-2024-566279618",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "DECRETO Nº 12.065, DE 17 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.555, de 8 de setembro de 2008, que dispõe sobre as ações de comunicação do Poder Executivo federal e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-06-17",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.065-de-17-de-junho-de-2024-566279618",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12065.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.899-de-17-de-junho-de-2024-566193733",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "LEI Nº 14.899, DE 17 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a elaboração e a implementação de plano de metas para o enfrentamento integrado da violência doméstica e familiar contra a mulher, da Rede Estadual de Enfrentamento da Violência contra a Mulher e da Rede de Atendimento à Mulher em Situação de Violência; e altera a Lei nº 13.675, de 11 de junho de 2018, para determinar que o Sistema Nacional de Inf...",
+    "datasAto": {
+      "assinatura": "2024-06-17",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.899-de-17-de-junho-de-2024-566193733",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14899.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.233-de-17-de-junho-de-2024-566218307",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.233, DE 17 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor dos Ministérios da Fazenda, das Cidades, e de Portos e Aeroportos, e de Operações Oficiais de Crédito, no valor de R$ 17.587.897.059,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-17",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.233-de-17-de-junho-de-2024-566218307",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.234-de-18-de-junho-de-2024-566323969",
+    "tipo": "ato",
+    "data": "2024-06-18",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.234, DE 18 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Medida Provisória nº 1.230, de 7 de junho de 2024, para dispor sobre a elegibilidade para recebimento do Apoio Financeiro destinado às trabalhadoras e aos trabalhadores domésticos e às pescadoras e aos pescadores profissionais artesanais em Municípios do Estado do Rio Grande do Sul com estado de calamidade pública ou situação de emergênci...",
+    "datasAto": {
+      "assinatura": "2024-06-18",
+      "publicacao": "2024-06-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.234-de-18-de-junho-de-2024-566323969",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-18:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-18",
+    "hora": "08:00",
+    "titulo": "Entrevista ao Jornal da CBN, com Mílton Jung e Cássia Godoy",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-18:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-18",
+    "hora": "10:00",
+    "titulo": "Vice-Presidente da República e Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin, e Ministro da Defesa, José Mucio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-18:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-18",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil substituto, Marcos Rogerio de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-18:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-18",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-18:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-18",
+    "hora": "17:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro de Minas e Energia, Alexandre Silveira, e Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.066-de-18-de-junho-de-2024-566613350",
+    "tipo": "ato",
+    "data": "2024-06-19",
+    "titulo": "DECRETO Nº 12.066, DE 18 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta a Lei nº 14.802, de 10 de janeiro de 2024, que institui o Plano Plurianual da União para o período de 2024 a 2027.",
+    "datasAto": {
+      "assinatura": "2024-06-18",
+      "publicacao": "2024-06-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.066-de-18-de-junho-de-2024-566613350",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12066.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.235-de-19-de-junho-de-2024-566633593",
+    "tipo": "ato",
+    "data": "2024-06-19",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.235, DE 19 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 689.689.688,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2024-06-19",
+      "publicacao": "2024-06-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.235-de-19-de-junho-de-2024-566633593",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "11:00",
+    "titulo": "Ministro da Previdência Social, Carlos Lupi, e Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:13:35:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "13:35",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "15:00",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Aeroporto Internacional do Galeão - RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:15:20:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "15:20",
+    "titulo": "Ato de assinatura de contrato de operações de crédito do Banco do Brasil e da CAIXA com a Prefeitura do Rio de Janeiro",
+    "local": "CENPES – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "15:30",
+    "titulo": "Visita ao Centro de Pesquisas, Desenvolvimento e Inovação da Petrobras (CENPES)",
+    "local": "CENPES – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:15:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "15:40",
+    "titulo": "Solenidade de posse de Magda Chambriard no cargo de Presidente da Petrobras",
+    "local": "CENPES – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-19:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-19",
+    "hora": "19:00",
+    "titulo": "Ato em Homenagem ao Dia do Cinema Brasileiro e de Anúncios para o Setor Audiovisua",
+    "local": "Estúdios Rio – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.067-de-19-de-junho-de-2024-566903445",
+    "tipo": "ato",
+    "data": "2024-06-20",
+    "titulo": "DECRETO Nº 12.067, DE 19 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a obrigatoriedade de exibição de obras cinematográficas brasileiras.",
+    "datasAto": {
+      "assinatura": "2024-06-19",
+      "publicacao": "2024-06-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.067-de-19-de-junho-de-2024-566903445",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12067.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-20:07:45:1",
+    "tipo": "agenda",
+    "data": "2024-06-20",
+    "hora": "07:45",
+    "titulo": "Partida para Fortaleza",
+    "local": "Aeroporto Santos Dumont – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-20:10:55:1",
+    "tipo": "agenda",
+    "data": "2024-06-20",
+    "hora": "10:55",
+    "titulo": "Chegada a Fortaleza",
+    "local": "Aeroporto Internacional Pinto Martins – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-20:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-20",
+    "hora": "11:00",
+    "titulo": "Entrevista à Rádio Verdinha",
+    "local": "Aeroporto Internacional Pinto Martins – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-20:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-20",
+    "hora": "12:00",
+    "titulo": "Cerimônia de anúncios de investimentos para as instituições federais de educação do Ceará",
+    "local": "Palácio da Abolição – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-20:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-20",
+    "hora": "16:00",
+    "titulo": "Cerimônia de Entrega de Unidades Habitacionais do Minha Casa, Minha Vida no Residencial Cidade Jardim III",
+    "local": "Residencial Cidade Jardim III – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.068-de-20-de-junho-de-2024-567185856",
+    "tipo": "ato",
+    "data": "2024-06-21",
+    "titulo": "DECRETO Nº 12.068, DE 20 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta a licitação e a prorrogação das concessões de distribuição de energia elétrica de que trata o art. 4º da Lei nº 9.074, de 7 de julho de 1995, regulamenta a Lei nº 8.631, de 4 de março de 1993, a Lei nº 9.427, de 26 de dezembro de 1996, e a Lei nº 9.472, de 16 de julho de 1997, estabelece diretrizes para a modernização das concessões de serviço ...",
+    "datasAto": {
+      "assinatura": "2024-06-20",
+      "publicacao": "2024-06-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.068-de-20-de-junho-de-2024-567185856",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12068.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "09:00",
+    "titulo": "Partida para Teresina",
+    "local": "Aeroporto Internacional Pinto Martins – Fortaleza",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:09:55:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "09:55",
+    "titulo": "Chegada a Teresina",
+    "local": "Aeroporto Senador Petrônio Portella – Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "10:30",
+    "titulo": "Entrevista ao jornalista Ari Carvalho, da Rádio Meio FM",
+    "local": "Centro de Convenções de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "11:00",
+    "titulo": "Visita aos estandes da Caravana Federativa",
+    "local": "Centro de Convenções de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:11:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "11:40",
+    "titulo": "Cerimônia de encerramento da Caravana Federativa e anúncio de cessões de terrenos da União para o Piauí",
+    "local": "Centro de Convenções de Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:13:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "13:30",
+    "titulo": "Partida para São Luís",
+    "local": "Aeroporto Senador Petrônio Portella – Teresina",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:14:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "14:10",
+    "titulo": "Chegada a São Luís",
+    "local": "Aeroporto Internacional de São Luís",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:14:25:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "14:25",
+    "titulo": "Entrevista ao radialista Jorge Aragão, da Mirante News FM",
+    "local": "Hangar do Centro de Lançamento de Alcântara – Aeroporto Internacional de São Luís",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "15:30",
+    "titulo": "Cerimônia de anúncios de investimentos do Governo Federal para o Maranhão",
+    "local": "Avenida Litorânea – São Luís",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:17:20:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "17:20",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de São Luís",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-21:19:25:1",
+    "tipo": "agenda",
+    "data": "2024-06-21",
+    "hora": "19:25",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.069-de-21-de-junho-de-2024-567498766",
+    "tipo": "ato",
+    "data": "2024-06-24",
+    "titulo": "DECRETO Nº 12.069, DE 21 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Estratégia Nacional de Governo Digital e a Rede Nacional de Governo Digital - Rede Gov.br e institui a Estratégia Nacional de Governo Digital para o período de 2024 a 2027.",
+    "datasAto": {
+      "assinatura": "2024-06-21",
+      "publicacao": "2024-06-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.069-de-21-de-junho-de-2024-567498766",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12069.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.900-de-21-de-junho-de-2024-567468701",
+    "tipo": "ato",
+    "data": "2024-06-24",
+    "titulo": "LEI Nº 14.900, DE 21 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.555, de 25 de abril de 2023, para reconhecer as quadrilhas juninas como manifestação da cultura nacional.",
+    "datasAto": {
+      "assinatura": "2024-06-21",
+      "publicacao": "2024-06-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.900-de-21-de-junho-de-2024-567468701",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14900.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "10:00",
+    "titulo": "Visita ao escritor Raduan Nassar",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "11:00",
+    "titulo": "Visita ao linguista Noam Chomsky",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:11:45:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "11:45",
+    "titulo": "Visita ao ex-Presidente Fernando Henrique Cardoso",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "15:00",
+    "titulo": "Visita ao jornalista Mino Carta",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "19:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-24:20:20:1",
+    "tipo": "agenda",
+    "data": "2024-06-24",
+    "hora": "20:20",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "10:00",
+    "titulo": "Ministro da Agricultura e Pecuária, Carlos Fávaro, e Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "11:30",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil substituto, Marcos Rogerio de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "16:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-25:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-25",
+    "hora": "17:00",
+    "titulo": "Vice-Presidente da República e Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.070-de-25-de-junho-de-2024-568011229",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.070, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão ao Município de Araruama para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Araruama, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.070-de-25-de-junho-de-2024-568011229",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12070.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.071-de-25-de-junho-de-2024-568011628",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.071, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão à Universidade Estadual de Ponta Grossa para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Castro, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.071-de-25-de-junho-de-2024-568011628",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12071.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.072-de-25-de-junho-de-2024-568012106",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.072, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão ao Município de João Pessoa para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de João Pessoa, Estado da Paraíba.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.072-de-25-de-junho-de-2024-568012106",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12072.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.073-de-25-de-junho-de-2024-568012349",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.073, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão à Universidade Federal de Goiás para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Catalão, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.073-de-25-de-junho-de-2024-568012349",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12073.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.074-de-25-de-junho-de-2024-568012855",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.074, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão à Universidade Federal dos Vales do Jequitinhonha e Mucuri para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Diamantina, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.074-de-25-de-junho-de-2024-568012855",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12074.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.075-de-25-de-junho-de-2024-567979430",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.075, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão ao Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens, com fins exclusivamente educativos, no Município de Petrolina, Estado de Pernambuco.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.075-de-25-de-junho-de-2024-567979430",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12075.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.076-de-25-de-junho-de-2024-568013410",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.076, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Outorga concessão ao Município de Iguatu para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Iguatu, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.076-de-25-de-junho-de-2024-568013410",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12076.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.077-de-25-de-junho-de-2024-567982323",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.077, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.660, de 24 de agosto de 2023, que remaneja, em caráter temporário, cargos em comissão e funções de confiança para os Ministérios das Relações Exteriores e da Gestão e da Inovação em Serviços Públicos, e transforma funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.077-de-25-de-junho-de-2024-567982323",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12077.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.078-de-25-de-junho-de-2024-567982682",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.078, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Navegue Simples.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.078-de-25-de-junho-de-2024-567982682",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12078.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.079-de-26-de-junho-de-2024-568020148",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "DECRETO Nº 12.079, DE 26 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece nova sistemática de meta para a inflação como diretriz para fixação do regime de política monetária.",
+    "datasAto": {
+      "assinatura": "2024-06-26",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.079-de-26-de-junho-de-2024-568020148",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12079.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.901-de-25-de-junho-de-2024-568001468",
+    "tipo": "ato",
+    "data": "2024-06-26",
+    "titulo": "LEI Nº 14.901, DE 25 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.002, de 22 de maio de 2020, e a Lei nº 11.771, de 17 de setembro de 2008, para atualizar e aprimorar o regime jurídico a que se submete a Agência Brasileira de Promoção Internacional do Turismo (Embratur), e a Lei nº 12.462, de 4 de agosto de 2011, para incrementar o turismo no Brasil.",
+    "datasAto": {
+      "assinatura": "2024-06-25",
+      "publicacao": "2024-06-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.901-de-25-de-junho-de-2024-568001468",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14901.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "09:00",
+    "titulo": "Entrevista aos jornalistas Leonardo Sakamoto e Carla Araújo, do UOL",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "10:30",
+    "titulo": "Ministra da Casa Civil substituta, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "11:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil substituto, Marcos Rogerio de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "15:00",
+    "titulo": "Envio do Plano Nacional de Educação ao Congresso",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "16:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "16:30",
+    "titulo": "Visita à exposição dos primeiros ônibus escolares do Programa Caminho da Escola-Novo PAC",
+    "local": "Esplanada dos Ministérios",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "17:00",
+    "titulo": "Ministra do Planejamento e Orçamento, Simone Tebet",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-26:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-26",
+    "hora": "17:30",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.080-de-26-de-junho-de-2024-568273530",
+    "tipo": "ato",
+    "data": "2024-06-27",
+    "titulo": "DECRETO Nº 12.080, DE 26 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a prorrogação do prazo para a apresentação obrigatória para o alistamento militar de que trata o art. 41, § 1º do Decreto nº 57.654, de 20 de janeiro de 1966, exclusivamente para os residentes no Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2024-06-26",
+      "publicacao": "2024-06-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.080-de-26-de-junho-de-2024-568273530",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12080.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "09:00",
+    "titulo": "Ministra do Planejamento e Orçamento, Simone Tebet",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "09:30",
+    "titulo": "3ª Reunião Plenária do Conselho de Desenvolvimento Econômico Social Sustentável (CDESS)",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "13:00",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "14:00",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:14:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "14:15",
+    "titulo": "Entrevista à Rádio Itatiaia",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-27:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-27",
+    "hora": "15:30",
+    "titulo": "Cerimônia sobre investimentos do Governo Federal em Contagem (MG)",
+    "local": "Rodovia LMG-808 com Avenida Maracanã – Contagem (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.081-de-27-de-junho-de-2024-568655150",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "DECRETO Nº 12.081, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Iniciativa Nacional de Projetos Tecnológicos de Alto Impacto.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.081-de-27-de-junho-de-2024-568655150",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12081.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.082-de-27-de-junho-de-2024-568655062",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "DECRETO Nº 12.082, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional de Economia Circular.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.082-de-27-de-junho-de-2024-568655062",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12082.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.083-de-27-de-junho-de-2024-568625338",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "DECRETO Nº 12.083, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece as diretrizes para a elaboração da Política Nacional Integrada para a Primeira Infância e institui o seu Comitê Intersetorial.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.083-de-27-de-junho-de-2024-568625338",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12083.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.902-de-27-de-junho-de-2024-568624408",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "LEI Nº 14.902, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Mobilidade Verde e Inovação (Programa Mover); altera o Decreto-Lei nº 1.804, de 3 de setembro de 1980; e revoga dispositivos da Lei nº 13.755, de 10 de dezembro de 2018.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.902-de-27-de-junho-de-2024-568624408",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14902.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.903-de-27-de-junho-de-2024-568649644",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "LEI Nº 14.903, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece o marco regulatório do fomento à cultura, no âmbito da administração pública da União, dos Estados, do Distrito Federal e dos Municípios.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.903-de-27-de-junho-de-2024-568649644",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14903.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.904-de-27-de-junho-de-2024-568624820",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "LEI Nº 14.904, DE 27 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece diretrizes para a elaboração de planos de adaptação aÌ mudança do clima; altera a Lei nº 12.114, de 9 de dezembro de 2009; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-06-27",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.904-de-27-de-junho-de-2024-568624820",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14904.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.236-de-28-de-junho-de-2024-568669139",
+    "tipo": "ato",
+    "data": "2024-06-28",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.236, DE 28 DE JUNHO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 1.804, de 3 de setembro de 1980, que dispõe sobre tributação simplificada das remessas postais internacionais, e a Lei nº 14.902, de 27 de junho de 2024, que institui o Programa Mobilidade Verde e Inovação (Programa Mover).",
+    "datasAto": {
+      "assinatura": "2024-06-28",
+      "publicacao": "2024-06-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.236-de-28-de-junho-de-2024-568669139",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "08:00",
+    "titulo": "Entrevista à Rádio FM O Tempo",
+    "local": "Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "10:00",
+    "titulo": "Cerimônia de anúncios de investimentos do Governo Federal para Minas Gerais",
+    "local": "Minascentro – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:12:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "12:10",
+    "titulo": "Partida para o Aeroporto da Zona da Mata",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:12:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "12:40",
+    "titulo": "Chegada ao Aeroporto da Zona da Mata",
+    "local": "Aeroporto da Zona da Mata – Goianá (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "15:00",
+    "titulo": "Cerimônia de inauguração do Viaduto Roza Cabinda e de assinatura de Ordens de Serviço para recuperação de trechos da BR-267",
+    "local": "Rua Benjamin Constant – Juiz de Fora (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:16:50:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "16:50",
+    "titulo": "Partida para São Paulo",
+    "local": "Aeroporto da Zona da Mata – Goianá (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-28:17:40:1",
+    "tipo": "agenda",
+    "data": "2024-06-28",
+    "hora": "17:40",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-29:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-29",
+    "hora": "10:00",
+    "titulo": "Cerimônia de lançamento da pedra fundamental do Campus Zona Leste da Universidade Federal de São Paulo (Unifesp) e do Campus Cidade Tiradentes do Instituto Federal de São Paulo",
+    "local": "Instituto das Cidades – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-06-29",
+    "hora": "15:00",
+    "titulo": "Cerimônia de anúncios relativos ao Novo PAC Seleções: extensão da Linha 5-Lilás do Metrô de São Paulo e expansão dos Institutos Federais",
+    "local": "Jardim Sônia Regina – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-30:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-06-30",
+    "hora": "09:30",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-30:10:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-30",
+    "hora": "10:10",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Base Aérea de Santa Cruz – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-30:11:15:1",
+    "tipo": "agenda",
+    "data": "2024-06-30",
+    "hora": "11:15",
+    "titulo": "Cerimônia de entrega de unidades habitacionais do Programa Morar Carioca",
+    "local": "Comunidade do Aço – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-30:12:45:1",
+    "tipo": "agenda",
+    "data": "2024-06-30",
+    "hora": "12:45",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Santa Cruz – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-06-30:14:10:1",
+    "tipo": "agenda",
+    "data": "2024-06-30",
+    "hora": "14:10",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-06-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

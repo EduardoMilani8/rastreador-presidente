@@ -1,0 +1,3200 @@
+[
+  {
+    "id": "agenda:2026-02-02:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-02",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-02:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-02",
+    "hora": "10:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro de Portos e Aeroportos, Silvio Costa Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-02:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-02",
+    "hora": "14:00",
+    "titulo": "Sessão Solene de Abertura do Ano Judiciário de 2026",
+    "local": "Plenário do Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-02:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-02",
+    "hora": "15:30",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-02",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-03",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-03:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-03",
+    "hora": "10:30",
+    "titulo": "Apresentação das cartas credenciais de novos embaixadores",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-03:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-03",
+    "hora": "15:00",
+    "titulo": "Ministro de Portos e Aeroportos, Silvio Costa Filho, e Prefeito do Rio de Janeiro, Eduardo Paes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-03:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-03",
+    "hora": "15:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-03:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-03",
+    "hora": "17:30",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-03",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.837-de-3-de-fevereiro-de-2026-685308385",
+    "tipo": "ato",
+    "data": "2026-02-04",
+    "titulo": "DECRETO Nº 12.837, DE 3 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Distribui o efetivo de oficiais da ativa da Aeronáutica em tempo de paz para 2026.",
+    "datasAto": {
+      "assinatura": "2026-02-03",
+      "publicacao": "2026-02-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.837-de-3-de-fevereiro-de-2026-685308385",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12837.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.838-de-3-de-fevereiro-de-2026-685093741",
+    "tipo": "ato",
+    "data": "2026-02-04",
+    "titulo": "DECRETO Nº 12.838, DE 3 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Declara de utilidade pública, para fins de desapropriação, em favor da União, os imóveis que menciona, localizados no Município de Porto Alegre, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2026-02-03",
+      "publicacao": "2026-02-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.838-de-3-de-fevereiro-de-2026-685093741",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12838.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-04",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-04",
+    "hora": "11:00",
+    "titulo": "Pacto Brasil de Enfrentamento ao Feminicídio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-04",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-04:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-04",
+    "hora": "16:00",
+    "titulo": "Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-04:19:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-04",
+    "hora": "19:00",
+    "titulo": "Jantar com líderes da Câmara dos Deputados",
+    "local": "Residência Oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-04",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.839-de-4-de-fevereiro-de-2026-685378701",
+    "tipo": "ato",
+    "data": "2026-02-05",
+    "titulo": "DECRETO Nº 12.839, DE 4 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Institui o Comitê Interinstitucional de Gestão do Pacto Brasil entre os Três Poderes para Enfrentamento do Feminicídio.",
+    "datasAto": {
+      "assinatura": "2026-02-04",
+      "publicacao": "2026-02-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.839-de-4-de-fevereiro-de-2026-685378701",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12839.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.840-de-4-de-fevereiro-de-2026-685387548",
+    "tipo": "ato",
+    "data": "2026-02-05",
+    "titulo": "DECRETO Nº 12.840, DE 4 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada ao Sistema Meridional de Comunicação Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Cacoal, Estado de Rondônia.",
+    "datasAto": {
+      "assinatura": "2026-02-04",
+      "publicacao": "2026-02-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.840-de-4-de-fevereiro-de-2026-685387548",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12840.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-05",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Residência Oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-05:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-05",
+    "hora": "11:00",
+    "titulo": "Entrevista ao portal UOL",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-05:13:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-05",
+    "hora": "13:00",
+    "titulo": "Almoço em homenagem ao Primeiro-Ministro da Federação da Rússia, Mikhail Mishustin",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-05:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-05",
+    "hora": "16:00",
+    "titulo": "Reunião sobre o anúncio das ações no âmbito do acordo judicial para a regularização fundiária da Gleba da Quinta do Lebrão, Teresópolis/RJ",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-05",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.336-de-6-de-fevereiro-de-2026-685971723",
+    "tipo": "ato",
+    "data": "2026-02-06",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.336, DE 6 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.036, de 11 de maio de 1990, que dispõe sobre o Fundo de Garantia do Tempo de Serviço.",
+    "datasAto": {
+      "assinatura": "2026-02-06",
+      "publicacao": "2026-02-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.336-de-6-de-fevereiro-de-2026-685971723",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-06:08:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-06",
+    "hora": "08:00",
+    "titulo": "Partida para Salvador",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-06",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-06:09:35:1",
+    "tipo": "agenda",
+    "data": "2026-02-06",
+    "hora": "09:35",
+    "titulo": "Chegada a Salvador",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-06",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-06:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-06",
+    "hora": "11:30",
+    "titulo": "Cerimônia de entrega de ambulâncias do SAMU, equipamentos para unidades de saúde e equipamentos cirúrgicos no âmbito do Novo PAC Saúde",
+    "local": "Av. Luís Viana Filho - Itapuã – Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-06",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-06:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-06",
+    "hora": "16:00",
+    "titulo": "Visita às Obras Sociais Irmã Dulce",
+    "local": "Av. Dendezeiros do Bonfim, Bonfim – Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-06",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-07:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-07",
+    "hora": "10:00",
+    "titulo": "Ato Político de 46 Anos do Partido dos Trabalhadores",
+    "local": "Av. Jequitaia, 5, Comércio – Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-07:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-07",
+    "hora": "17:30",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Salvador",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-07:19:05:1",
+    "tipo": "agenda",
+    "data": "2026-02-07",
+    "hora": "19:05",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-07",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-08:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-08",
+    "hora": "17:00",
+    "titulo": "Partida para São Paulo",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-08:18:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-08",
+    "hora": "18:20",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-08",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.347-de-6-de-fevereiro-de-2026-685901228",
+    "tipo": "ato",
+    "data": "2026-02-09",
+    "titulo": "LEI Nº 15.347, DE 6 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário em favor do Ministério da Agricultura e Pecuária, no valor de R$ 83.500.000,00 (oitenta e três milhões e quinhentos mil reais), para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2026-02-06",
+      "publicacao": "2026-02-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.347-de-6-de-fevereiro-de-2026-685901228",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15347.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:09:10:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "09:10",
+    "titulo": "Visita ao Centro de Produção de Vacina contra a Dengue do Instituto Butantan",
+    "local": "PVD – Produção Vacina Dengue- São Paulo- SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "10:00",
+    "titulo": "Cerimônia de anúncios relacionados à infraestrutura de produção de insumos e imunobiológicos",
+    "local": "Auditório do Centro Administrativo do Butantan - São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "15:00",
+    "titulo": "Visita à Unidade Móvel de Exames por Imagem",
+    "local": "Estacionamento do Paço Municipal – Mauá (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "15:30",
+    "titulo": "Cerimônia de Anúncios de Investimentos em Educação e Saúde em Mauá",
+    "local": "Estacionamento do Paço Municipal – Mauá (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:17:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "17:45",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas – São Paulo-SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-09:19:05:1",
+    "tipo": "agenda",
+    "data": "2026-02-09",
+    "hora": "19:05",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-09",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "10:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "15:00",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "16:00",
+    "titulo": "Prefeito do Recife, João Campos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-10:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-10",
+    "hora": "17:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola, e Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-10",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.841-de-10-de-fevereiro-de-2026-686542442",
+    "tipo": "ato",
+    "data": "2026-02-11",
+    "titulo": "DECRETO Nº 12.841, DE 10 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.426, de 16 de julho de 2020, que dispõe sobre a descentralização de créditos entre órgãos e entidades da administração pública federal integrantes dos Orçamentos Fiscal e da Seguridade Social da União, por meio da celebração de termo de execução descentralizada.",
+    "datasAto": {
+      "assinatura": "2026-02-10",
+      "publicacao": "2026-02-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.841-de-10-de-fevereiro-de-2026-686542442",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12841.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.842-de-10-de-fevereiro-de-2026-686543115",
+    "tipo": "ato",
+    "data": "2026-02-11",
+    "titulo": "DECRETO Nº 12.842, DE 10 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Delega à Ministra de Estado da Gestão e da Inovação em Serviços Públicos a competência para a prática dos atos que especifica.",
+    "datasAto": {
+      "assinatura": "2026-02-10",
+      "publicacao": "2026-02-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.842-de-10-de-fevereiro-de-2026-686543115",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12842.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.843-de-10-de-fevereiro-de-2026-686530306",
+    "tipo": "ato",
+    "data": "2026-02-11",
+    "titulo": "DECRETO Nº 12.843, DE 10 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.547, de 9 de julho de 2025, que remaneja, em caráter temporário, cargos em comissão para o Fundo Nacional de Desenvolvimento da Educação.",
+    "datasAto": {
+      "assinatura": "2026-02-10",
+      "publicacao": "2026-02-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.843-de-10-de-fevereiro-de-2026-686530306",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12843.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.844-de-10-de-fevereiro-de-2026-686548945",
+    "tipo": "ato",
+    "data": "2026-02-11",
+    "titulo": "DECRETO Nº 12.844, DE 10 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Convênio Constitutivo e o Convênio de Administração do Fundo Multilateral de Investimentos IV, firmados em Punta Cana, República Dominicana, em 10 de março de 2024.",
+    "datasAto": {
+      "assinatura": "2026-02-10",
+      "publicacao": "2026-02-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.844-de-10-de-fevereiro-de-2026-686548945",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12844.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.845-de-10-de-fevereiro-de-2026-686543506",
+    "tipo": "ato",
+    "data": "2026-02-11",
+    "titulo": "DECRETO Nº 12.845, DE 10 DE fevereiro DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.393, de 15 de dezembro de 2010, que dispõe sobre a Central de Atendimento à Mulher - Ligue 180.",
+    "datasAto": {
+      "assinatura": "2026-02-10",
+      "publicacao": "2026-02-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.845-de-10-de-fevereiro-de-2026-686543506",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12845.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-11",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-11",
+    "hora": "10:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-11:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-11",
+    "hora": "11:00",
+    "titulo": "Cerimônia de anúncio de investimentos para ampliação e modernização de aeroportos administrados pela Aena",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-11:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-11",
+    "hora": "15:00",
+    "titulo": "Ministra da Ciência, Tecnologia e Inovação, Luciana Santos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-11:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-11",
+    "hora": "16:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-11",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.846-de-12-de-fevereiro-de-2026-687031465",
+    "tipo": "ato",
+    "data": "2026-02-12",
+    "titulo": "DECRETO Nº 12.846, DE 12 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2026 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2026-02-12",
+      "publicacao": "2026-02-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.846-de-12-de-fevereiro-de-2026-687031465",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12846.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-12",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-12",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-12",
+    "hora": "11:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-12",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-12:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-12",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-12",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-12",
+    "hora": "15:00",
+    "titulo": "Ministra do Meio Ambiente e Mudança do Clima, Marina Silva",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-12",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-12:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-12",
+    "hora": "16:00",
+    "titulo": "Ministro da Agricultura e Pecuária, Carlos Fávaro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-12",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.847-de-12-de-fevereiro-de-2026-687367988",
+    "tipo": "ato",
+    "data": "2026-02-13",
+    "titulo": "DECRETO Nº 12.847, DE 12 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Claret, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Rio Claro, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2026-02-12",
+      "publicacao": "2026-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.847-de-12-de-fevereiro-de-2026-687367988",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12847.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.848-de-12-de-fevereiro-de-2026-687366525",
+    "tipo": "ato",
+    "data": "2026-02-13",
+    "titulo": "DECRETO Nº 12.848, DE 12 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Transforma Funções Comissionadas de Coordenação de Curso e Funções Gratificadas em Cargo de Direção e Funções Gratificadas.",
+    "datasAto": {
+      "assinatura": "2026-02-12",
+      "publicacao": "2026-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.848-de-12-de-fevereiro-de-2026-687366525",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12848.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.849-de-12-de-fevereiro-de-2026-687371089",
+    "tipo": "ato",
+    "data": "2026-02-13",
+    "titulo": "DECRETO Nº 12.849, DE 12 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 1, de 11 de janeiro de 1991, que regulamenta o pagamento da compensação financeira instituída pela Lei nº 7.990, de 28 de dezembro de 1989, para dispor sobre o enquadramento de terminais aquaviários interligados a instalações marítimas de óleo bruto ou gás natural para fins de compensação financeira.",
+    "datasAto": {
+      "assinatura": "2026-02-12",
+      "publicacao": "2026-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.849-de-12-de-fevereiro-de-2026-687371089",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12849.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.850-de-12-de-fevereiro-de-2026-687365249",
+    "tipo": "ato",
+    "data": "2026-02-13",
+    "titulo": "DECRETO Nº 12.850, DE 12 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo-Quadro sobre o Estabelecimento da Aliança Solar Internacional - ASI, firmado pela República Federativa do Brasil, em Nova Delhi, em 15 de novembro de 2016.",
+    "datasAto": {
+      "assinatura": "2026-02-12",
+      "publicacao": "2026-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.850-de-12-de-fevereiro-de-2026-687365249",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12850.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.348-de-13-de-fevereiro-de-2026-687393578",
+    "tipo": "ato",
+    "data": "2026-02-13",
+    "titulo": "LEI Nº 15.348, DE 13 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.237, de 19 de novembro de 2021, para modificar a denominação do Auxílio Gás dos Brasileiros para Auxílio Gás do Povo, criar modalidades de operacionalização do auxílio e instituir o Programa Nacional de Acesso ao Cozimento Limpo; e altera as Leis nºs 8.176, de 8 de fevereiro de 1991, 9.478, de 6 de agosto de 1997, 13.203, de 8 de dezembr...",
+    "datasAto": {
+      "assinatura": "2026-02-13",
+      "publicacao": "2026-02-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.348-de-13-de-fevereiro-de-2026-687393578",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15348.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "09:00",
+    "titulo": "Secretária-Executiva da Casa Civil, Miriam Belchior",
+    "local": "Residência Oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "10:00",
+    "titulo": "Ministro da Controladoria-Geral da União, Vinicius de Carvalho",
+    "local": "Residência Oficial da Granja do Tort",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "11:00",
+    "titulo": "Ministro da Pesca e Aquicultura, André de Paula",
+    "local": "Residência Oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:13:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "13:00",
+    "titulo": "Partida para Recife",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:15:10:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "15:10",
+    "titulo": "Chegada a Recife",
+    "local": "Aeroporto Internacional do Recife Guararapes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-13:15:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-13",
+    "hora": "15:40",
+    "titulo": "Visita às novas instalações expandidas da fábrica de medicamentos da Aché",
+    "local": "Complexo Industrial Portuário de Suape, Cabo de Santo Agostinho (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-13",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-15:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-15",
+    "hora": "11:00",
+    "titulo": "Visita e inauguração do Centro de Emergência Regional (CER) do Hospital Federal Cardoso Fontes (HFCF)",
+    "local": "Avenida Menezes Cortes, 3.245 – Jacarepaguá- Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-15",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-17:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-17",
+    "hora": "09:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-17:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-17",
+    "hora": "10:00",
+    "titulo": "Partida para Túnis",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-17:23:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-17",
+    "hora": "23:20",
+    "titulo": "Chegada a Túnis",
+    "local": "Aeroporto Internacional de Túnis-Cartago",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-17",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.349-de-17-de-fevereiro-de-2026-687605244",
+    "tipo": "ato",
+    "data": "2026-02-18",
+    "titulo": "LEI Nº 15.349, DE 17 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a modernização da Carreira Legislativa da Câmara dos Deputados e sobre a reestruturação da remuneração com base em critérios de desempenho, competências, metas, resultados, qualificação, crescimento profissional e dedicação contínua e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2026-02-17",
+      "publicacao": "2026-02-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.349-de-17-de-fevereiro-de-2026-687605244",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15349.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.350-de-17-de-fevereiro-de-2026-687605424",
+    "tipo": "ato",
+    "data": "2026-02-18",
+    "titulo": "LEI Nº 15.350, DE 17 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.300, de 28 de julho de 2010, para modificar o Plano de Carreira dos Servidores do Senado Federal; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2026-02-17",
+      "publicacao": "2026-02-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.350-de-17-de-fevereiro-de-2026-687605424",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15350.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.351-de-17-de-fevereiro-de-2026-687605401",
+    "tipo": "ato",
+    "data": "2026-02-18",
+    "titulo": "LEI Nº 15.351, DE 17 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.356, de 27 de dezembro de 2001, que dispõe sobre o quadro de pessoal e o plano de carreira do Tribunal de Contas da União; e revoga a Lei nº 11.854, de 3 de dezembro de 2008.",
+    "datasAto": {
+      "assinatura": "2026-02-17",
+      "publicacao": "2026-02-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.351-de-17-de-fevereiro-de-2026-687605401",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15351.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-18:02:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-18",
+    "hora": "02:20",
+    "titulo": "Partida para Nova Délhi",
+    "local": "Aeroporto Internacional de Túnis-Cartago",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-18:14:25:1",
+    "tipo": "agenda",
+    "data": "2026-02-18",
+    "hora": "14:25",
+    "titulo": "Chegada a Nova Délhi",
+    "local": "Base Aérea de Palam, Aeroporto Internacional Indira Gandhi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-18",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:09:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "09:40",
+    "titulo": "Cerimônia de Abertura da Cúpula sobre o Impacto da Inteligência Artificial (IA)",
+    "local": "Bharat Mandapa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:10:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "10:45",
+    "titulo": "Visita aos pavilhões nacionais e empresariais da Cúpula sobre o Impacto da Inteligência Artificial",
+    "local": "Bharat Mandapam",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "12:00",
+    "titulo": "Sessão plenária com almoço de trabalho",
+    "local": "Bharat Mandapam",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:13:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "13:30",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro da Croácia, Andrej Plenković",
+    "local": "Bharat Mandapam",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "14:00",
+    "titulo": "Reunião bilateral com o Presidente da França, Emmanuel Macron",
+    "local": "Bharat Mandapam",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-19:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-19",
+    "hora": "17:30",
+    "titulo": "Reunião bilateral com o Presidente do Sri Lanka, Anura Kumara Dissanayake",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-19",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-20:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-20",
+    "hora": "11:30",
+    "titulo": "Evento “IA para o bem de todos: perspectivas brasileiras sobre o futuro da IA”",
+    "local": "Bharat Mandapam",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-20",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-20:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-20",
+    "hora": "17:00",
+    "titulo": "Visita ao novo Escritório da ApexBrasil em Nova Delhi",
+    "local": "Escritório ApexBrasil",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-20",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:08:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "08:45",
+    "titulo": "Audiência concedida ao Ministro dos Negócios Estrangeiros da República da Índia, Subrahmanyam Jaishankar",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "10:00",
+    "titulo": "Cerimônia oficial de boas-vindas",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:10:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "10:45",
+    "titulo": "Cerimônia de oferenda floral em homenagem a Mahatma Gandhi",
+    "local": "Memorial Mahatma Gandhi (Raj Ghat)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:11:10:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "11:10",
+    "titulo": "Reunião restrita com o Primeiro-Ministro da República da Índia, Narendra Modi",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:11:55:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "11:55",
+    "titulo": "Reunião ampliada com o Primeiro-Ministro da República da Índia, Narendra Modi",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:12:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "12:30",
+    "titulo": "Cerimônia de troca de atos assinados",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:12:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "12:45",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:13:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "13:00",
+    "titulo": "Apresentação das delegações",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:13:10:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "13:10",
+    "titulo": "Almoço oferecido pelo Primeiro-Ministro da Índia, Narendra Modi, em homenagem ao Presidente da República",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:14:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "14:45",
+    "titulo": "Assinatura do livro de visitas",
+    "local": "Casa Hyderabad",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "15:30",
+    "titulo": "Audiência concedida ao Vice-Presidente da Índia, Chandrapuram Ponnusami Radhakrishnan",
+    "local": "Hotel Taj Palace",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "16:00",
+    "titulo": "Reunião com investidores indianos",
+    "local": "Hotel Taj Palace",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "17:00",
+    "titulo": "Sessão de encerramento do Encontro Empresarial Brasil-Índia",
+    "local": "Hotel Taj Palace",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:19:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "19:00",
+    "titulo": "Encontro com a Presidenta da Índia, Senhora Droupadi Murmu",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:19:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "19:20",
+    "titulo": "Cerimônia de apresentação de delegações",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-21:19:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-21",
+    "hora": "19:30",
+    "titulo": "Jantar de Estado oferecido pela Presidenta da Índia, Droupadi Murmu, em homenagem ao Presidente da República",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-21",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-22:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-22",
+    "hora": "09:00",
+    "titulo": "Partida para Seul, República da Coreia",
+    "local": "Base Aérea de Palam, Aeroporto Internacional Indira Gandhi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-22:18:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-22",
+    "hora": "18:45",
+    "titulo": "Chegada a Seul, República da Coreia",
+    "local": "Base Aérea de Seul (SSN)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-22",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.851-de-20-de-fevereiro-de-2026-688114534",
+    "tipo": "ato",
+    "data": "2026-02-23",
+    "titulo": "DECRETO Nº 12.851, DE 20 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.761, de 5 de fevereiro de 2009, para dispor que a Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda poderá regulamentar a forma de comprovação da destinação dos créditos obtidos no exterior ao financiamento de exportações.",
+    "datasAto": {
+      "assinatura": "2026-02-20",
+      "publicacao": "2026-02-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.851-de-20-de-fevereiro-de-2026-688114534",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12851.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.852-de-20-de-fevereiro-de-2026-688115194",
+    "tipo": "ato",
+    "data": "2026-02-23",
+    "titulo": "DECRETO Nº 12.852, DE 20 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê de Desenvolvimento do Programa Nuclear Brasileiro.",
+    "datasAto": {
+      "assinatura": "2026-02-20",
+      "publicacao": "2026-02-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.852-de-20-de-fevereiro-de-2026-688115194",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12852.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.853-de-20-de-fevereiro-de-2026-688122644",
+    "tipo": "ato",
+    "data": "2026-02-23",
+    "titulo": "DECRETO Nº 12.853, DE 20 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Câmara de Relações Exteriores e Defesa Nacional do Conselho de Governo.",
+    "datasAto": {
+      "assinatura": "2026-02-20",
+      "publicacao": "2026-02-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.853-de-20-de-fevereiro-de-2026-688122644",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12853.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.854-de-20-de-fevereiro-de-2026-688119215",
+    "tipo": "ato",
+    "data": "2026-02-23",
+    "titulo": "DECRETO Nº 12.854, DE 20 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada ao Canal Brasileiro da Informação CBI Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de São Paulo, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2026-02-20",
+      "publicacao": "2026-02-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.854-de-20-de-fevereiro-de-2026-688119215",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12854.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.855-de-20-de-fevereiro-de-2026-688127962",
+    "tipo": "ato",
+    "data": "2026-02-23",
+    "titulo": "DECRETO Nº 12.855, DE 20 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Cable-Link Radiodifusão Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, em Brasília, Distrito Federal.",
+    "datasAto": {
+      "assinatura": "2026-02-20",
+      "publicacao": "2026-02-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.855-de-20-de-fevereiro-de-2026-688127962",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12855.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "10:00",
+    "titulo": "Cerimônia de deposição de oferenda floral",
+    "local": "Cemitério Nacional de Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "10:30",
+    "titulo": "Cerimônia de boas-vindas",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:10:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "10:40",
+    "titulo": "Assinatura do livro de visitas e foto de boas-vindas",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:10:45:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "10:45",
+    "titulo": "Reunião privada com o Presidente da República da Coreia, Lee Jae-myung",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:11:15:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "11:15",
+    "titulo": "Reunião ampliada com o Presidente da República da Coreia, Lee Jae-myung, e comitiva",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:12:15:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "12:15",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:12:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "12:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Casa Azul, Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "16:00",
+    "titulo": "Encerramento do Encontro Empresarial Brasil-Coreia do Sul",
+    "local": "Local de hospedagem",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:18:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "18:00",
+    "titulo": "Banquete de Estado oferecido pelo Presidente da República da Coreia, Lee Jae-myung, e pela senhora Kim Hea Kyung em homenagem ao Presidente da República e à senhora Janja Lula da Silva",
+    "local": "Edifício dos Banquetes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-23:20:15:1",
+    "tipo": "agenda",
+    "data": "2026-02-23",
+    "hora": "20:15",
+    "titulo": "Cerimônia de troca de presentes",
+    "local": "Edifício Sang Chun Gae",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-23",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.856-de-23-de-fevereiro-de-2026-688404889",
+    "tipo": "ato",
+    "data": "2026-02-24",
+    "titulo": "DECRETO Nº 12.856, DE 23 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Revoga o Decreto nº 12.600, de 28 de agosto de 2025, que dispõe sobre a inclusão de empreendimentos públicos federais do setor hidroviário no Programa Nacional de Desestatização.",
+    "datasAto": {
+      "assinatura": "2026-02-23",
+      "publicacao": "2026-02-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.856-de-23-de-fevereiro-de-2026-688404889",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12856.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-24:10:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-24",
+    "hora": "10:40",
+    "titulo": "Partida para Abu Dhabi, Emirados Árabes Unidos",
+    "local": "Base Aérea de Seul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-24",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-24:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-24",
+    "hora": "17:00",
+    "titulo": "Chegada a Abu Dhabi",
+    "local": "Aeroporto Internacional de Abu Dhabi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-24",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-24:17:05:1",
+    "tipo": "agenda",
+    "data": "2026-02-24",
+    "hora": "17:05",
+    "titulo": "Reunião de trabalho com o Presidente dos Emirados Árabes Unidos, Xeique Mohammed bin Zayed Al Nahyan",
+    "local": "Aeroporto Internacional de Abu Dhabi, sala Majlis",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-24",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-24:20:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-24",
+    "hora": "20:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Abu Dhabi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-24",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.857-de-24-de-fevereiro-de-2026-688668798",
+    "tipo": "ato",
+    "data": "2026-02-25",
+    "titulo": "DECRETO Nº 12.857, DE 24 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Protocolo de 2014 relativo à Convenção nº 29 da Organização Internacional do Trabalho sobre o Trabalho Forçado ou Obrigatório, firmado em Genebra, em 11 de junho de 2014.",
+    "datasAto": {
+      "assinatura": "2026-02-24",
+      "publicacao": "2026-02-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.857-de-24-de-fevereiro-de-2026-688668798",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12857.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.858-de-24-de-fevereiro-de-2026-688690862",
+    "tipo": "ato",
+    "data": "2026-02-25",
+    "titulo": "DECRETO Nº 12.858, DE 24 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Anexo ao Decreto nº 4.954, de 14 de janeiro de 2004, que regulamenta a Lei nº 6.894, de 16 de dezembro de 1980, que dispõe sobre a inspeção e a fiscalização da produção e do comércio de fertilizantes, corretivos, inoculantes, estimulantes ou biofertilizantes, remineralizadores e substratos para plantas destinados à agricultura. O VICE-PRESIDEN...",
+    "datasAto": {
+      "assinatura": "2026-02-24",
+      "publicacao": "2026-02-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.858-de-24-de-fevereiro-de-2026-688690862",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12858.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.352-de-25-de-fevereiro-de-2026-688877400",
+    "tipo": "ato",
+    "data": "2026-02-25",
+    "titulo": "LEI Nº 15.352, DE 25 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Transforma cargos no âmbito do Poder Executivo federal; altera a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), para dispor sobre a Agência Nacional de Proteção de Dados (ANPD), a Lei nº 10.871, de 20 de maio de 2004, para criar a Carreira de Regulação e Fiscalização de Proteção de Dados, a Lei nº 15.211, de 17 de setembr...",
+    "datasAto": {
+      "assinatura": "2026-02-25",
+      "publicacao": "2026-02-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.352-de-25-de-fevereiro-de-2026-688877400",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15352.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-25:03:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-25",
+    "hora": "03:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-25",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "15:00",
+    "titulo": "Audiência concedida à Presidente da região Brasil e Cone Sul da Coca-Cola, Luciana Staciarini Batista",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "15:30",
+    "titulo": "Cerimônia de apresentação das taças da Copa do Mundo de 2026 e da Copa do Mundo Feminina de 2027",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-26:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-26",
+    "hora": "17:00",
+    "titulo": "Audiência concedida ao membro do Quórum dos Doze Apóstolos da Igreja de Jesus Cristo dos Santos dos Últimos Dias, Apóstolo Élder Ulisses Soares",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-26",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.859-de-26-de-fevereiro-de-2026-689272022",
+    "tipo": "ato",
+    "data": "2026-02-27",
+    "titulo": "DECRETO Nº 12.859, DE 26 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.336, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Cultura, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2026-02-26",
+      "publicacao": "2026-02-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.859-de-26-de-fevereiro-de-2026-689272022",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12859.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.860-de-26-de-fevereiro-de-2026-689261756",
+    "tipo": "ato",
+    "data": "2026-02-27",
+    "titulo": "DECRETO Nº 12.860, DE 26 DE FEVEREIRO DE 2026",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Cabo Branco Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de João Pessoa, Estado da Paraíba.",
+    "datasAto": {
+      "assinatura": "2026-02-26",
+      "publicacao": "2026-02-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.860-de-26-de-fevereiro-de-2026-689261756",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/D12860.htm",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-27:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-27",
+    "hora": "10:30",
+    "titulo": "Encontro com o atleta medalhista de ouro nos Jogos Olímpicos de Inverno Milão–Cortina 2026, Lucas Pinheiro Braathen",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-27",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-27:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-02-27",
+    "hora": "11:30",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-27",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-27:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-27",
+    "hora": "14:00",
+    "titulo": "6ª Conferência Nacional das Cidades",
+    "local": "Centro Internacional de Convenções do Brasil (CICB) – Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-27",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:08:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "08:00",
+    "titulo": "Partida para Juiz de Fora",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:09:10:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "09:10",
+    "titulo": "Chegada a Juiz de Fora",
+    "local": "Aeroporto de Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:09:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "09:20",
+    "titulo": "Sobrevoo em áreas afetadas pelas chuvas em Juiz de Fora e região",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:09:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "09:40",
+    "titulo": "Chegada a Ubá",
+    "local": "Heliponto, Ubá (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:10:05:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "10:05",
+    "titulo": "Visita a áreas afetadas pelas chuvas no município de Ubá",
+    "local": "Ubá",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:12:20:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "12:20",
+    "titulo": "Chegada a Juiz de Fora",
+    "local": "Heliponto, Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:12:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "12:40",
+    "titulo": "Visita a áreas afetadas pelas chuvas no município de Juiz de Fora",
+    "local": "Juiz de Fora (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:14:15:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "14:15",
+    "titulo": "Visita ao centro de acolhimento provisório de desabrigados, nas instalações da Escola Municipal Vereador Raymundo Hargreaves",
+    "local": "Bom Jardim, Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "16:00",
+    "titulo": "Reunião com os Prefeitos de Juiz de Fora, Ubá e Matias Barbosa",
+    "local": "Prefeitura de Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:17:40:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "17:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Prefeitura de Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:18:50:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "18:50",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Juiz de Fora",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-02-28:19:00:1",
+    "tipo": "agenda",
+    "data": "2026-02-28",
+    "hora": "19:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-02-28",
+        "coletadoEm": "2026-10-11T18:12:42.837Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

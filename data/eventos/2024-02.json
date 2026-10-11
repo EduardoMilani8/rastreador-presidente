@@ -1,0 +1,2894 @@
+[
+  {
+    "id": "dou:decreto-n-11.906-de-30-de-janeiro-de-2024-540637381",
+    "tipo": "ato",
+    "data": "2024-02-01",
+    "titulo": "DECRETO Nº 11.906, DE 30 DE JANEIRO DE 2024",
+    "status": "publicado",
+    "ementa": "(Publicado no DOU de 31/1/2024) ANEXO II (*) (Anexo II ao Decreto nº 11.830, de 14 de dezembro de 2023) \"a) ............................................................................................................... UNIDADE CARGO/FUNÇÃO Nº DENOMINAÇÃO CARGO/FUNÇÃO CCE/FCE ..................................................................................",
+    "datasAto": {
+      "assinatura": "2024-01-30",
+      "publicacao": "2024-02-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.906-de-30-de-janeiro-de-2024-540637381",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11906.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-01:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-01",
+    "hora": "11:00",
+    "titulo": "Cerimônia de posse do novo Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-01:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-01",
+    "hora": "14:00",
+    "titulo": "Sessão Solene de Abertura do Ano Judiciário de 2024",
+    "local": "Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-02:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-02",
+    "hora": "10:00",
+    "titulo": "Cerimônia em comemoração aos 132 anos do Porto de Santos e Anúncio de Investimentos no Túnel Submerso Santos-Guarujá",
+    "local": "Presidência da Autoridade Portuária de Santos- SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-02:12:25:1",
+    "tipo": "agenda",
+    "data": "2024-02-02",
+    "hora": "12:25",
+    "titulo": "Almoço em homenagem ao Presidente Lula e ao Vice- Presidente Geraldo Alckmin",
+    "local": "Fábrica da Volkswagen – São Bernardo do Campo-SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-02:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-02",
+    "hora": "14:30",
+    "titulo": "Encontro com líderes sindicais",
+    "local": "Fábrica da Volkswagen – São Bernardo do Campo-SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-02",
+    "hora": "15:00",
+    "titulo": "Visita à linha de produção",
+    "local": "Fábrica da Volkswagen – São Bernardo do Campo-SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-02:15:10:1",
+    "tipo": "agenda",
+    "data": "2024-02-02",
+    "hora": "15:10",
+    "titulo": "Cerimônia de Anúncio do Novo Ciclo de Investimentos da Volkswagen do Brasil",
+    "local": "Fábrica da Volkswagen – São Bernardo do Campo-SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-04:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-04",
+    "hora": "17:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-04:18:20:1",
+    "tipo": "agenda",
+    "data": "2024-02-04",
+    "hora": "18:20",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-05:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-05",
+    "hora": "09:30",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-05:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-05",
+    "hora": "15:00",
+    "titulo": "Presidente dos Correios, Fabiano Silva dos Santos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-05:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-05",
+    "hora": "15:30",
+    "titulo": "Presidente da Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil), Jorge Viana, e ex-Ministro das Relações Exteriores Aloysio Nunes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-05:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-05",
+    "hora": "17:00",
+    "titulo": "Presidente do Senado Federal e do Congresso Nacional, Senador Rodrigo Pacheco",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-05:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-05",
+    "hora": "18:00",
+    "titulo": "Diretor-Geral da Organização Mundial da Saúde (OMS), Tedros Adhanom",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.206-de-6-de-fevereiro-de-2024-541721723",
+    "tipo": "ato",
+    "data": "2024-02-06",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.206, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera os valores da tabela progressiva mensal do Imposto sobre a Renda da Pessoa Física de que trata o art. 1º da Lei nº 11.482, de 31 de maio de 2007.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.206-de-6-de-fevereiro-de-2024-541721723",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "08:00",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "09:30",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Base Aérea do Galeão – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "10:30",
+    "titulo": "Cerimônia de Entrega Simultânea de Unidades Habitacionais do Minha Casa, Minha Vida",
+    "local": "Residencial Lírio do Vale e Residencial Lotus – MagéRJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido ao Presidente Lula e à senhora Janja Lula da Silva pelo Prefeito de Belford Roxo e pela Deputada Federal Daniela Carneiro",
+    "local": "Prefeitura de Belford Roxo-RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "14:30",
+    "titulo": "Inauguração da Escola Municipal Arthur Araújo Lula da Silva",
+    "local": "Escola Municipal Arthur Araújo Lula da Silva – Belford Roxo-RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-06:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-06",
+    "hora": "15:30",
+    "titulo": "Cerimônia de lançamento das obras da sede definitiva do Instituto Federal do Rio de Janeiro (IFRJ) em Belford Roxo, e de anúncio da construção do Hospital Oncológico do município",
+    "local": "Avenida Joaquim da Costa Lima – Belford Roxo-RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.908-de-6-de-fevereiro-de-2024-541909024",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.908, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Brasil Saudável - Unir para Cuidar, e altera o Decreto nº 11.494, de 17 de abril de 2023, para dispor sobre o Comitê Interministerial para a Eliminação da Tuberculose e de Outras Doenças Determinadas Socialmente - CIEDDS.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.908-de-6-de-fevereiro-de-2024-541909024",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11908.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.909-de-6-de-fevereiro-de-2024-541910551",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.909, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Qualifica o Terminal SSB01 no âmbito do Programa de Parcerias de Investimentos da Presidência da República, exclui o Porto de São Sebastião do Plano Nacional de Desestatização e revoga sua qualificação no âmbito do Programa de Parcerias de Investimentos da Presidência da República, altera o Decreto nº 10.635, de 22 de fevereiro de 2021, e o Decreto nº 1...",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.909-de-6-de-fevereiro-de-2024-541910551",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11909.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.910-de-6-de-fevereiro-de-2024-541910579",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.910, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.794, de 14 de maio de 2019, que dispõe sobre os atos de nomeação e de designação para cargos em comissão e funções de confiança de competência originária do Presidente da República e institui o Sistema Integrado de Nomeações e Consultas - Sinc no âmbito da administração pública federal.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.910-de-6-de-fevereiro-de-2024-541910579",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11910.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.911-de-6-de-fevereiro-de-2024-541922642",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.911, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.469, de 4 de maio de 2011, para dispor sobre a constituição da Região Integrada de Desenvolvimento do Distrito Federal e Entorno e sobre a composição do Conselho Administrativo da Região Integrada de Desenvolvimento do Distrito Federal e Entorno.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.911-de-6-de-fevereiro-de-2024-541922642",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11911.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.912-de-6-de-fevereiro-de-2024-541942702",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.912, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a manutenção e a revogação da qualificação de unidades de conservação no âmbito do Programa de Parcerias de Investimento e sobre a exclusão de unidades de conservação do Programa Nacional de Desestatização.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.912-de-6-de-fevereiro-de-2024-541942702",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11912.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.913-de-6-de-fevereiro-de-2024-541925348",
+    "tipo": "ato",
+    "data": "2024-02-07",
+    "titulo": "DECRETO Nº 11.913, DE 6 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Cria a Embaixada do Brasil em Phnom Penh e altera o Decreto nº 71.733, de 18 de janeiro de 1973.",
+    "datasAto": {
+      "assinatura": "2024-02-06",
+      "publicacao": "2024-02-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.913-de-6-de-fevereiro-de-2024-541925348",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11913.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-07:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-07",
+    "hora": "09:30",
+    "titulo": "Cerimônia de retomada do legado olímpico: anúncio da construção do campus do Instituto Federal do Rio de Janeiro no Parque Olímpico",
+    "local": "Arena Carioca 3 – Parque Olímpico – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-07:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-07",
+    "hora": "11:30",
+    "titulo": "Cerimônia de lançamento da pedra fundamental do campus do Instituto Federal do Rio de Janeiro no Complexo do Alemão",
+    "local": "Complexo do Alemão – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-07:12:50:1",
+    "tipo": "agenda",
+    "data": "2024-02-07",
+    "hora": "12:50",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea do Galeão – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-07:13:40:1",
+    "tipo": "agenda",
+    "data": "2024-02-07",
+    "hora": "13:40",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-07",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.914-de-7-de-fevereiro-de-2024-542259967",
+    "tipo": "ato",
+    "data": "2024-02-08",
+    "titulo": "DECRETO Nº 11.914, DE 7 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interinstitucional com a finalidade de elaborar a proposta do Programa Rotas Negras.",
+    "datasAto": {
+      "assinatura": "2024-02-07",
+      "publicacao": "2024-02-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.914-de-7-de-fevereiro-de-2024-542259967",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11914.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.915-de-7-de-fevereiro-de-2024-542255311",
+    "tipo": "ato",
+    "data": "2024-02-08",
+    "titulo": "DECRETO Nº 11.915, DE 7 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo sobre Serviços Aéreos entre o Governo da República Federativa do Brasil e o Governo da República de Cuba, firmado em Havana, em 31 de janeiro de 2012, e revoga o Decreto nº 3.465, de 17 de maio de 2000.",
+    "datasAto": {
+      "assinatura": "2024-02-07",
+      "publicacao": "2024-02-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.915-de-7-de-fevereiro-de-2024-542255311",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11915.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-08:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-08",
+    "hora": "08:00",
+    "titulo": "Entrevista à jornalista Edilene Lopes, da Rádio Itatiaia",
+    "local": "Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-08:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-08",
+    "hora": "10:00",
+    "titulo": "Cerimônia de Anúncio de Pacote de Investimentos para Minas Gerais, seguida de coletiva à imprensa",
+    "local": "Minascentro – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-08:13:05:1",
+    "tipo": "agenda",
+    "data": "2024-02-08",
+    "hora": "13:05",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-08:14:05:1",
+    "tipo": "agenda",
+    "data": "2024-02-08",
+    "hora": "14:05",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-08:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-08",
+    "hora": "18:30",
+    "titulo": "Jantar oferecido pelo Embaixador da Palestina no Brasil, Ibrahim Alzeben, em nome do Conselho de Embaixadores Árabes no Brasil e dos Embaixadores dos Estados Membros da Organização de Cooperação Islâmica (OCI)",
+    "local": "Embaixada da Palestina – Brasília-DF",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-09:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-09",
+    "hora": "10:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-13:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-13",
+    "hora": "14:00",
+    "titulo": "Partida para a Ilha do Sal, Cabo Verde",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-13:21:40:1",
+    "tipo": "agenda",
+    "data": "2024-02-13",
+    "hora": "21:40",
+    "titulo": "Chegada à Ilha do Sal, Cabo Verde (+2 horas do fuso do horário de Brasília)",
+    "local": "Aeroporto Internacional Amílcar Cabral",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-13:23:10:1",
+    "tipo": "agenda",
+    "data": "2024-02-13",
+    "hora": "23:10",
+    "titulo": "Partida para o Cairo (+2 horas do fuso horário de Brasília)",
+    "local": "Aeroporto Internacional Amílcar Cabral",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-13",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-14:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-14",
+    "hora": "10:00",
+    "titulo": "Chegada ao Cairo (Fuso horário +5 horas do horário de Brasília)",
+    "local": "Aeroporto Internacional do Cairo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-14",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.916-de-14-de-fevereiro-de-2024-542939016",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.916, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Previdência Social entre a República Federativa do Brasil e a República da Índia, firmado em Nova Délhi, em 25 de janeiro de 2020.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.916-de-14-de-fevereiro-de-2024-542939016",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11916.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.917-de-14-de-fevereiro-de-2024-542934703",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.917, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Técnica entre o Governo da República Federativa do Brasil e o Governo da Federação de São Cristóvão e Névis, firmado em Basseterre, em 15 de abril de 2016.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.917-de-14-de-fevereiro-de-2024-542934703",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11917.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.918-de-14-de-fevereiro-de-2024-542931811",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.918, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.129, de 25 de novembro de 2019, e o Decreto nº 10.296, de 30 de março de 2020, para dispor sobre o Conselho Administrativo da Região Integrada de Desenvolvimento da Grande Teresina e o Conselho Administrativo da Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.918-de-14-de-fevereiro-de-2024-542931811",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11918.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.919-de-14-de-fevereiro-de-2024-542932374",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.919, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui, no âmbito do Ministério dos Direitos Humanos e da Cidadania, o Programa de Equipagem, de Modernização da Infraestrutura e de Apoio ao Funcionamento dos Órgãos, das Entidades e das Instâncias Colegiadas Atuantes na Promoção e na Defesa dos Direitos Humanos e o seu Comitê Gestor.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.919-de-14-de-fevereiro-de-2024-542932374",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11919.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.920-de-14-de-fevereiro-de-2024-542936900",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.920, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Grupo de Trabalho Interministerial para a elaboração da proposta da Política Nacional de Ordenamento Territorial.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.920-de-14-de-fevereiro-de-2024-542936900",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11920.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.921-de-14-de-fevereiro-de-2024-542933024",
+    "tipo": "ato",
+    "data": "2024-02-15",
+    "titulo": "DECRETO Nº 11.921, DE 14 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Técnica entre o Governo da República Federativa do Brasil e o Governo da República Federal Democrática da Etiópia, firmado em Adis Abeba, em 23 de abril de 2012.",
+    "datasAto": {
+      "assinatura": "2024-02-14",
+      "publicacao": "2024-02-15"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.921-de-14-de-fevereiro-de-2024-542933024",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11921.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "11:00",
+    "titulo": "Cerimônia oficial de chegada ao Palácio Presidencial de Heliópolis",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:11:10:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "11:10",
+    "titulo": "Reunião com o Presidente do Egito, Abdel Fattah El-Sisi",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:11:45:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "11:45",
+    "titulo": "Reunião ampliada com o Presidente do Egito, Abdel Fattah El-Sisi",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "12:30",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:12:40:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "12:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente do Egito, Abdel Fattah El-Sisi",
+    "local": "Palácio Presidencial de Heliópolis – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "14:30",
+    "titulo": "Reunião com o Secretário-Geral da Liga dos Estados Árabes, Ahmed Aboul Gheit",
+    "local": "Sede da Liga dos Estados Árabes – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "15:00",
+    "titulo": "Participação em sessão extraordinária do Conselho de Representantes da Liga dos Estados Árabes",
+    "local": "Sede da Liga dos Estados Árabes – Cairo, Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "18:00",
+    "titulo": "Partida para Adis Abeba",
+    "local": "Aeroporto Internacional do Cairo – Egito",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-15:22:15:1",
+    "tipo": "agenda",
+    "data": "2024-02-15",
+    "hora": "22:15",
+    "titulo": "Chegada a Adis Abeba",
+    "local": "Aeroporto Internacional de Adis Abeba – Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.922-de-15-de-fevereiro-de-2024-543197459",
+    "tipo": "ato",
+    "data": "2024-02-16",
+    "titulo": "DECRETO Nº 11.922, DE 15 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 940, de 27 de setembro de 1993, que dispõe sobre a diária no exterior do servidor público civil e militar, integrante de equipe de apoio ou de comitiva do Presidente ou do Vice-Presidente da República.",
+    "datasAto": {
+      "assinatura": "2024-02-15",
+      "publicacao": "2024-02-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.922-de-15-de-fevereiro-de-2024-543197459",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11922.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.923-de-15-de-fevereiro-de-2024-543197646",
+    "tipo": "ato",
+    "data": "2024-02-16",
+    "titulo": "DECRETO Nº 11.923, DE 15 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Programa de Estudantes-Convênio.",
+    "datasAto": {
+      "assinatura": "2024-02-15",
+      "publicacao": "2024-02-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.923-de-15-de-fevereiro-de-2024-543197646",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11923.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:09:35:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "09:35",
+    "titulo": "Cerimônia de oferenda floral em homenagem aos heróis caídos na batalha de Ádua",
+    "local": "Memorial de Ádua – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:09:40:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "09:40",
+    "titulo": "Visita ao Museu Memorial de Ádua",
+    "local": "Memorial de Ádua – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:10:20:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "10:20",
+    "titulo": "Cerimônia oficial de boas-vindas",
+    "local": "Sede do Governo Etíope – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:10:45:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "10:45",
+    "titulo": "Reunião ampliada com o Primeiro-Ministro da Etiópia, Abiy Ahmed",
+    "local": "Gabinete do Primeiro-Ministro – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:11:45:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "11:45",
+    "titulo": "Reunião privada com o Primeiro-Ministro da Etiópia, Abiy Ahmed",
+    "local": "Gabinete do Primeiro-Ministro – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:12:15:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "12:15",
+    "titulo": "Caminhada pelo Parque da Unidade e pelo Jardim Botânico",
+    "local": "Parque da Unidade – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "12:30",
+    "titulo": "Almoço de Estado em homenagem ao Presidente Lula, oferecido pelo Primeiro-Ministro da Etiópia, Abiy Ahmed",
+    "local": "Sede do Governo Etíope – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "14:30",
+    "titulo": "Cerimônia de plantio de mudas de café",
+    "local": "Sede do Governo Etíope – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-16:20:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-16",
+    "hora": "20:00",
+    "titulo": "Recepção em homenagem ao Presidente Lula e à Senhora Janja Lula da Silva, oferecida pelo Embaixador do Brasil na Etiópia e pela Senhora Leonor Andréia da Silva Ribeiro",
+    "local": "Residência Oficial do Brasil na Etiópia – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-17:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-17",
+    "hora": "11:00",
+    "titulo": "Encontro com o Primeiro-Ministro da Autoridade Palestina, Mohammad Shtayyeh",
+    "local": "Sede da União Africana – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-17:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-17",
+    "hora": "12:30",
+    "titulo": "Cerimônia de Abertura da 37º Cúpula da União Africana",
+    "local": "Sede da União Africana – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-17:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-17",
+    "hora": "14:00",
+    "titulo": "Encontro com o Presidente da Comissão da União Africana, Moussa Faki Mahamat",
+    "local": "Sede da União Africana – Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:08:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "08:30",
+    "titulo": "Encontro bilateral com o Presidente da República do Quênia, William Ruto",
+    "local": "Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "09:00",
+    "titulo": "Encontro bilateral com o Presidente da República Federal da Nigéria, Bola Tinubu",
+    "local": "Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "11:00",
+    "titulo": "Encontro bilateral com o Presidente do Conselho Presidencial do Estado da Líbia, Mohamed al-Menfi",
+    "local": "Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "12:00",
+    "titulo": "Coletiva de imprensa",
+    "local": "Adis Abeba, Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "13:00",
+    "titulo": "Partida para Acra",
+    "local": "Aeroporto Internacional de Adis Abeba – Etiópia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "16:30",
+    "titulo": "Chegada a Acra (+3h do fuso horário de Brasília)",
+    "local": "Aeroporto Internacional Kotoka – Acra, Gana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "18:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional Kotoka – Acra, Gana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-18:22:55:1",
+    "tipo": "agenda",
+    "data": "2024-02-18",
+    "hora": "22:55",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-19:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-19",
+    "hora": "09:30",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-19:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-19",
+    "hora": "10:30",
+    "titulo": "Ministro da Secretaria-Geral, Márcio Macêdo, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-19:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-19",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-19:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-19",
+    "hora": "17:00",
+    "titulo": "Líder no Senado, Senador Jaques Wagner",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-20:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-20",
+    "hora": "09:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-20:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-20",
+    "hora": "15:00",
+    "titulo": "CEO Global do Citibank, Jane Fraser",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-20:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-20",
+    "hora": "16:00",
+    "titulo": "Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-20",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "09:00",
+    "titulo": "Secretário de Estado dos Estados Unidos, Antony Blinken",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "10:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "11:30",
+    "titulo": "Ministro da Secretaria-Geral, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "15:00",
+    "titulo": "Presidente da Caixa, Carlos Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "16:00",
+    "titulo": "Ministro do Esporte, André Fufuca, e Comitiva Oficial da FIFA que realiza visita de inspeção ao Brasil no contexto do processo de candidatura do país para sediar a Copa do Mundo Feminina da FIFA 2027",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-21:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-21",
+    "hora": "16:30",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-21",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.924-de-21-de-fevereiro-de-2024-544268188",
+    "tipo": "ato",
+    "data": "2024-02-22",
+    "titulo": "DECRETO Nº 11.924, DE 21 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Regulamenta o art. 49 da Medida Provisória nº 1.203, de 29 de dezembro de 2023, que dispõe sobre a Gratificação Temporária de Proteção e Defesa Civil - GPDEC.",
+    "datasAto": {
+      "assinatura": "2024-02-21",
+      "publicacao": "2024-02-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.924-de-21-de-fevereiro-de-2024-544268188",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11924.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.925-de-21-de-fevereiro-de-2024-544273839",
+    "tipo": "ato",
+    "data": "2024-02-22",
+    "titulo": "DECRETO Nº 11.925, DE 21 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.299, de 12 de dezembro de 2007, que regulamenta os art. 1º, art. 2º, art. 3º, art. 4º, art. 5º e art. 6º da Lei nº 11.437, de 28 de dezembro de 2006, que destinam recursos para o financiamento de programas e projetos voltados para o desenvolvimento das atividades audiovisuais.",
+    "datasAto": {
+      "assinatura": "2024-02-21",
+      "publicacao": "2024-02-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.925-de-21-de-fevereiro-de-2024-544273839",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11925.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.926-de-21-de-fevereiro-de-2024-544269783",
+    "tipo": "ato",
+    "data": "2024-02-22",
+    "titulo": "DECRETO Nº 11.926, DE 21 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.772, de 9 de novembro de 2023, que institui o Grupo de Trabalho Interministerial para a elaboração de proposta da Política Nacional de Direitos Humanos e Empresas.",
+    "datasAto": {
+      "assinatura": "2024-02-21",
+      "publicacao": "2024-02-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.926-de-21-de-fevereiro-de-2024-544269783",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11926.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.927-de-22-de-fevereiro-de-2024-544286883",
+    "tipo": "ato",
+    "data": "2024-02-22",
+    "titulo": "DECRETO Nº 11.927, DE 22 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a programação orçamentária e financeira, estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2024 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-02-22",
+      "publicacao": "2024-02-22"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.927-de-22-de-fevereiro-de-2024-544286883",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11927.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-22:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-22",
+    "hora": "09:30",
+    "titulo": "Presidente-Executivo do Grupo Hyundai Motor, Eui-Sun Chung",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-22:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-22",
+    "hora": "11:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck, e Secretária- Executiva da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-22:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-22",
+    "hora": "16:00",
+    "titulo": "Sessão Solene de Posse de Flávio Dino no cargo de Ministro do Supremo Tribunal Federal",
+    "local": "Plenário do Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-22:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-22",
+    "hora": "18:00",
+    "titulo": "Ministro dos Negócios Estrangeiros da Federação da Rússia, Sergey Lavrov",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-22:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-22",
+    "hora": "19:00",
+    "titulo": "Reunião com Líderes da Câmara dos Deputados",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "13:00",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "14:30",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Aeroporto Santos Dumont - RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "15:00",
+    "titulo": "Inauguração do Terminal Intermodal Gentileza e início das operações do BRT Transbrasil",
+    "local": "Terminal Intermodal Gentileza – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "18:00",
+    "titulo": "Cerimônia de Lançamento da Seleção Petrobras Cultural – Novos Eixos",
+    "local": "Museu de Arte Moderna do Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:20:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "20:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Santos Dumont - RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-23:21:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-23",
+    "hora": "21:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-26:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-26",
+    "hora": "10:00",
+    "titulo": "Apresentação e coletiva de imprensa sobre o Programa de Democratização dos Imóveis da União, com a Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-26:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-26",
+    "hora": "11:30",
+    "titulo": "Presidente do Conselho Nacional de Segurança Alimentar e Nutricional (Consea), Elisabetta Recine",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-26",
+    "hora": "15:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-26",
+    "hora": "16:00",
+    "titulo": "Ministra das Mulheres, Cida Gonçalves",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-26:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-26",
+    "hora": "17:00",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.928-de-26-de-fevereiro-de-2024-545091956",
+    "tipo": "ato",
+    "data": "2024-02-27",
+    "titulo": "DECRETO Nº 11.928, DE 26 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interministerial com o objetivo de propor ações relativas à gestão dos imóveis não operacionais que constituem o patrimônio imobiliário do Fundo do Regime Geral de Previdência Social.",
+    "datasAto": {
+      "assinatura": "2024-02-26",
+      "publicacao": "2024-02-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.928-de-26-de-fevereiro-de-2024-545091956",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11928.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.929-de-26-de-fevereiro-de-2024-545089496",
+    "tipo": "ato",
+    "data": "2024-02-27",
+    "titulo": "DECRETO Nº 11.929, DE 26 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa de Democratização de Imóveis da União e o Comitê Interministerial do Programa de Democratização de Imóveis da União e dispõe sobre a criação e o funcionamento dos Fóruns Estaduais de Apoio ao Programa de Democratização de Imóveis da União.",
+    "datasAto": {
+      "assinatura": "2024-02-26",
+      "publicacao": "2024-02-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.929-de-26-de-fevereiro-de-2024-545089496",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11929.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-27",
+    "hora": "09:30",
+    "titulo": "Entrevista",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-27:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-27",
+    "hora": "11:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-27",
+    "hora": "15:00",
+    "titulo": "Ministro da Agricultura e Pecuária, Carlos Fávaro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-27:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-27",
+    "hora": "16:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-27",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.930-de-27-de-fevereiro-de-2024-545318157",
+    "tipo": "ato",
+    "data": "2024-02-28",
+    "titulo": "DECRETO Nº 11.930, DE 27 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Casa de Governo no Estado de Roraima, aprova o seu Quadro Demonstrativo dos Cargos em Comissão e remaneja, em caráter temporário, cargos em comissão.",
+    "datasAto": {
+      "assinatura": "2024-02-27",
+      "publicacao": "2024-02-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.930-de-27-de-fevereiro-de-2024-545318157",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11930.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.931-de-27-de-fevereiro-de-2024-545346195",
+    "tipo": "ato",
+    "data": "2024-02-28",
+    "titulo": "DECRETO Nº 11.931, DE 27 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.416, de 16 de fevereiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Turismo, altera o Decreto nº 11.623, de 1º de agosto de 2023, que dispõe sobre o Conselho Nacional de Turismo, e remaneja e transforma cargos em comissão e funções de confi...",
+    "datasAto": {
+      "assinatura": "2024-02-27",
+      "publicacao": "2024-02-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.931-de-27-de-fevereiro-de-2024-545346195",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11931.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.932-de-27-de-fevereiro-de-2024-545333246",
+    "tipo": "ato",
+    "data": "2024-02-28",
+    "titulo": "DECRETO Nº 11.932, DE 27 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Comissão Nacional de Combate à Desertificação.",
+    "datasAto": {
+      "assinatura": "2024-02-27",
+      "publicacao": "2024-02-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.932-de-27-de-fevereiro-de-2024-545333246",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11932.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.207-de-27-de-fevereiro-de-2024-545320815",
+    "tipo": "ato",
+    "data": "2024-02-28",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.207, DE 27 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.002, de 22 de maio de 2020, e a Lei nº 11.771, de 17 de setembro de 2008, para atualizar e aprimorar o regime jurídico a que se submete a Agência Brasileira de Promoção Internacional do Turismo - Embratur.",
+    "datasAto": {
+      "assinatura": "2024-02-27",
+      "publicacao": "2024-02-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.207-de-27-de-fevereiro-de-2024-545320815",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.208-de-27-de-fevereiro-de-2024-545406999",
+    "tipo": "ato",
+    "data": "2024-02-28",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.208, DE 27 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Revoga dispositivos da Medida Provisória nº 1.202, de 28 de dezembro de 2023.",
+    "datasAto": {
+      "assinatura": "2024-02-27",
+      "publicacao": "2024-02-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.208-de-27-de-fevereiro-de-2024-545406999",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:08:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "08:30",
+    "titulo": "Partida para Georgetown",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "11:00",
+    "titulo": "Chegada a Georgetown",
+    "local": "Aeroporto Internacional Cheddi Jagan – Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "14:00",
+    "titulo": "Participação em sessão especial com Chefes de Governo da Comunidade do Caribe – CARICOM",
+    "local": "Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "16:00",
+    "titulo": "Reunião bilateral com a Primeira-Ministra de Barbados, Mia Mottley",
+    "local": "Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "17:00",
+    "titulo": "Reunião trilateral Brasil-Suriname-Guiana",
+    "local": "Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-28:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-28",
+    "hora": "19:00",
+    "titulo": "Jantar em homenagem ao Presidente Lula e à Senhora Janja Lula da Silva, oferecido pelo Presidente da República Cooperativa da Guiana e Senhora Arya Ali",
+    "local": "State House – Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-28",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.933-de-28-de-fevereiro-de-2024-545422530",
+    "tipo": "ato",
+    "data": "2024-02-29",
+    "titulo": "DECRETO Nº 11.933, DE 28 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a responsabilidade pela gestão financeira dos recursos da União decorrentes dos acordos de individualização da produção de que trata o art. 36 da Lei nº 12.351, de 22 de dezembro de 2010, no Sistema Integrado de Administração Financeira do Governo Federal.",
+    "datasAto": {
+      "assinatura": "2024-02-28",
+      "publicacao": "2024-02-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.933-de-28-de-fevereiro-de-2024-545422530",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11933.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.934-de-28-de-fevereiro-de-2024-545420691",
+    "tipo": "ato",
+    "data": "2024-02-29",
+    "titulo": "DECRETO Nº 11.934, DE 28 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê de Avaliação e Renegociação de Créditos ao Exterior.",
+    "datasAto": {
+      "assinatura": "2024-02-28",
+      "publicacao": "2024-02-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.934-de-28-de-fevereiro-de-2024-545420691",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11934.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.935-de-28-de-fevereiro-de-2024-545415412",
+    "tipo": "ato",
+    "data": "2024-02-29",
+    "titulo": "DECRETO Nº 11.935, DE 28 DE FEVEREIRO DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a exclusão do serviço público de Loteria Instantânea Exclusiva - LOTEX e do serviço público de loteria denominado apostas de quota fixa do Programa Nacional de Desestatização e sobre a revogação da qualificação das apostas de quota fixa no Programa de Parcerias de Investimentos da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2024-02-28",
+      "publicacao": "2024-02-29"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.935-de-28-de-fevereiro-de-2024-545415412",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11935.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-29:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-02-29",
+    "hora": "09:00",
+    "titulo": "Reunião bilateral com o Presidente da República Cooperativa da Guiana, Irfaan Ali",
+    "local": "Centro de Conferências Arthur Chung – Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-29:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-02-29",
+    "hora": "11:30",
+    "titulo": "Partida para Kingstown",
+    "local": "Aeroporto Internacional Cheddi Jagan – Georgetown, Guiana",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-02-29:12:45:1",
+    "tipo": "agenda",
+    "data": "2024-02-29",
+    "hora": "12:45",
+    "titulo": "Chegada a Kingstown",
+    "local": "Aeroporto Internacional Argyle – Kingstown, São Vicente e Granadinas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-02-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

@@ -1,0 +1,5097 @@
+[
+  {
+    "id": "agenda:2023-01-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "15:00",
+    "titulo": "Solenidade de Posse Presidencial no Congresso Nacional",
+    "local": "Congresso Nacional",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "17:00",
+    "titulo": "Presidente da República recebe a faixa presidencial",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:17:10:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "17:10",
+    "titulo": "Discurso no Parlatório",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:17:50:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "17:50",
+    "titulo": "Cumprimentos dos chefes de Estado e de Governo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:19:10:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "19:10",
+    "titulo": "Assinatura de atos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:19:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "19:15",
+    "titulo": "Posse dos ministros e ministras de Estado",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:19:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "19:40",
+    "titulo": "Foto oficial com vice-presidente, ministros e ministras do governo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:20:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "20:30",
+    "titulo": "Recepção aos chefes de Estado e de Governo",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-01:23:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-01",
+    "hora": "23:00",
+    "titulo": "Festival do Futuro",
+    "local": "Esplanada dos Ministérios",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-01",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.366-de-1-de-janeiro-de-2023-455355214",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.366, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Suspende os registros para a aquisição e transferência de armas e de munições de uso restrito por caçadores, colecionadores, atiradores e particulares, restringe os quantitativos de aquisição de armas e de munições de uso permitido, suspende a concessão de novos registros de clubes e de escolas de tiro, suspende a concessão de novos registros de colecion...",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.366-de-1-de-janeiro-de-2023-455355214",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11366.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.367-de-1-de-janeiro-de-2023-455351826",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.367, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Interministerial Permanente de Prevenção e Controle do Desmatamento, restabelece o Plano de Ação para a Prevenção e Controle do Desmatamento na Amazônia Legal - PPCDAm e dispõe sobre os Planos de Ação para a Prevenção e Controle do Desmatamento no Cerrado, na Mata Atlântica, na Caatinga, no Pampa e no Pantanal.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.367-de-1-de-janeiro-de-2023-455351826",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11367.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.368-de-1-de-janeiro-de-2023-455354971",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.368, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.527, de 1º de agosto de 2008, para dispor sobre a governança do Fundo Amazônia.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.368-de-1-de-janeiro-de-2023-455354971",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11368.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.369-de-1-de-janeiro-de-2023-455351563",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.369, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Revoga o Decreto nº 10.966, de 11 de fevereiro de 2022, que institui o Programa de Apoio ao Desenvolvimento da Mineração Artesanal e em Pequena Escala e a Comissão Interministerial para o Desenvolvimento da Mineração Artesanal e em Pequena Escala.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.369-de-1-de-janeiro-de-2023-455351563",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11369.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.370-de-1-de-janeiro-de-2023-455351768",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.370, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Revoga o Decreto nº 10.502, de 30 de setembro de 2020, que institui a Política Nacional de Educação Especial: Equitativa, Inclusiva e com Aprendizado ao Longo da Vida.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.370-de-1-de-janeiro-de-2023-455351768",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11370.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.371-de-1-de-janeiro-de-2023-455355047",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.371, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Revoga o Decreto nº 9.759, de 11 de abril de 2019, que extingue e estabelece diretrizes, regras e limitações para colegiados da administração pública federal.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.371-de-1-de-janeiro-de-2023-455355047",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11371.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.372-de-1-de-janeiro-de-2023-455355521",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.372, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.224, de 5 de fevereiro de 2020, que regulamenta a Lei nº 7.797, de 10 de julho de 1989, que cria o Fundo Nacional do Meio Ambiente.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.372-de-1-de-janeiro-de-2023-455355521",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11372.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.373-de-1-de-janeiro-de-2023-455355444",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.373, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.514, de 22 de julho de 2008, que dispõe sobre as infrações e sanções administrativas ao meio ambiente, estabelece o processo administrativo federal para apuração destas infrações, e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.373-de-1-de-janeiro-de-2023-455355444",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11373.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.374-de-1-de-janeiro-de-2023-455355354",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.374, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Revoga decretos, revigora dispositivos e repristina redações.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.374-de-1-de-janeiro-de-2023-455355354",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11374.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.375-de-1-de-janeiro-de-2023-455351868",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.375, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a extinção de adidâncias tributárias e aduaneiras junto a representações diplomáticas brasileiras no exterior e regras transitórias.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.375-de-1-de-janeiro-de-2023-455351868",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11375.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.376-de-1-de-janeiro-de-2023-455355598",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "DECRETO Nº 11.376, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.794, de 14 de maio de 2019, que dispõe sobre os atos de nomeação e de designação para cargos em comissão e funções de confiança de competência originária do Presidente da República e institui o Sistema Integrado de Nomeações e Consultas - Sinc no âmbito da administração pública federal.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.376-de-1-de-janeiro-de-2023-455355598",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11376.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.155-de-1-de-janeiro-de-2023-455586294",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.155, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Adicional Complementar do Programa Auxílio Brasil e do Programa Auxílio Gás dos Brasileiros.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.155-de-1-de-janeiro-de-2023-455586294",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.156-de-1-de-janeiro-de-2023-455526079",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.156, DE 1º DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a extinção da Fundação Nacional de Saúde - FUNASA, instituída por autorização da Lei nº 8.029, de 12 de abril de 1990, e a absorção de suas competências, patrimônio e pessoal pela administração pública federal direta.",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.156-de-1-de-janeiro-de-2023-455526079",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.157-de-1-de-janeiro-de-2023-455586377",
+    "tipo": "ato",
+    "data": "2023-01-02",
+    "titulo": "MEDIDA PROVISÓRIA nº 1.157, de 1º de janeiro de 2023",
+    "status": "publicado",
+    "ementa": "Reduz as alíquotas da Contribuição para o Programa de Integração Social e o Programa de Formação do Patrimônio do Servidor Público - PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - Cofins incidentes sobre operações realizadas com óleodiesel,biodiesel, gás liquefeito de petróleo, álcool, querosene de aviação, gás natural v...",
+    "datasAto": {
+      "assinatura": "2023-01-01",
+      "publicacao": "2023-01-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.157-de-1-de-janeiro-de-2023-455586377",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:09:45:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "09:45",
+    "titulo": "Rei Felipe VI, Reino da Espanha",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:10:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "10:40",
+    "titulo": "Presidente do Estado Plurinacional da Bolívia, Luis Arce Alberto Catacora",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:12:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "12:15",
+    "titulo": "Presidente da República de Guiné Bissau, Umaro Sissoco Embaló",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "13:00",
+    "titulo": "Presidente da República da Argentina, Alberto Ángel Fernández",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:14:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "14:00",
+    "titulo": "Presidente da República do Equador, Guillermo Lasso",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "15:00",
+    "titulo": "Presidente da República da Colômbia, Gustavo Petro",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:15:50:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "15:50",
+    "titulo": "Vice-Presidente da República Popular da China, Wang Qishan",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "16:30",
+    "titulo": "Presidente da República do Chile, Gabriel Boric Font",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "17:30",
+    "titulo": "Presidente de Portugal, Marcelo Rebelo de Souza",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-02:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-02",
+    "hora": "18:30",
+    "titulo": "Presidenta da República de Honduras, Iris Xiomara Castro Sarmiento",
+    "local": "Palácio do Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-02",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-03",
+    "hora": "09:00",
+    "titulo": "Velório de Edson Arantes do Nascimento, Pelé",
+    "local": "Santos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-03",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "09:00",
+    "titulo": "Ministro das Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "10:00",
+    "titulo": "Ligação para o presidente de Angola, João Lourenço",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:10:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "10:15",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Transmissão de Cargo do vice-presidente da República, Geraldo Alckmin, como ministro do Desenvolvimento, Indústria, Comércio e Serviços",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "16:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "17:30",
+    "titulo": "Secretário Especial de Assuntos Jurídicos da Casa Civil, Wellington César Lima, e Secretário Especial Adjunto de Assuntos Jurídicos da Casa Civil, Marcos Rogério de Souza",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-04:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-04",
+    "hora": "18:30",
+    "titulo": "Gilberto Carvalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-04",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.382-de-27-de-junho-de-2022-456336095",
+    "tipo": "ato",
+    "data": "2023-01-05",
+    "titulo": "LEI Nº 14.382, DE 27 DE JUNHO DE 2022",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Sistema Eletrônico dos Registros Públicos (Serp); altera as Leis nºs 4.591, de 16 de dezembro de 1964, 6.015, de 31 de dezembro de 1973 (Lei de Registros Públicos), 6.766, de 19 de dezembro de 1979, 8.935, de 18 de novembro de 1994, 10.406, de 10 de janeiro de 2002 (Código Civil), 11.977, de 7 de julho de 2009, 13.097, de 19 de janeiro de 2015, ...",
+    "datasAto": {
+      "assinatura": "2022-06-27",
+      "publicacao": "2023-01-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.382-de-27-de-junho-de-2022-456336095",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14382.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.436-de-9-de-agosto-de-2022-456338176",
+    "tipo": "ato",
+    "data": "2023-01-05",
+    "titulo": "LEI Nº 14.436, DE 9 DE AGOSTO DE 2022",
+    "status": "publicado",
+    "ementa": "Dispõe sobre as diretrizes para a elaboração e a execução da Lei Orçamentária de 2023 e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2022-08-09",
+      "publicacao": "2023-01-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.436-de-9-de-agosto-de-2022-456338176",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14436.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.517-de-4-de-janeiro-de-2023-456087352",
+    "tipo": "ato",
+    "data": "2023-01-05",
+    "titulo": "LEI Nº 14.517, DE 4 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional dos Trabalhadores em Entidades Culturais, Recreativas e Conexas, a ser comemorado na segunda segunda-feira do mês de maio de cada ano.",
+    "datasAto": {
+      "assinatura": "2023-01-04",
+      "publicacao": "2023-01-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.517-de-4-de-janeiro-de-2023-456087352",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14517.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.518-de-4-de-janeiro-de-2023-456087890",
+    "tipo": "ato",
+    "data": "2023-01-05",
+    "titulo": "LEI Nº 14.518, DE 4 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Inscreve o nome de Antonieta de Barros no Livro dos Heróis e Heroínas da Pátria.",
+    "datasAto": {
+      "assinatura": "2023-01-04",
+      "publicacao": "2023-01-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.518-de-4-de-janeiro-de-2023-456087890",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14518.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "09:00",
+    "titulo": "Ministro das Relações Institucionais, Alexandre Padilha, e o ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "10:00",
+    "titulo": "Ministro das Relações Institucionais, Alexandre Padilha, líder do governo no Senado Federal, senador Jaques Wagner, presidenta nacional do PT e deputada federal, Gleisi Hoffmann, e o líder do governo na Câmara dos Deputados, deputado federal José Guimarães",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "11:30",
+    "titulo": "Assessor-Chefe da Assessoria Especial do presidente da República, Celso Amorim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:11:45:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "11:45",
+    "titulo": "Décio Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "14:30",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "15:00",
+    "titulo": "Ministro da Secretaria-Geral, Márcio Macedo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "17:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "18:00",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-05:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-05",
+    "hora": "18:30",
+    "titulo": "Presidenta nacional do PT e deputada federal, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-05",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.519-de-5-de-janeiro-de-2023-456339133",
+    "tipo": "ato",
+    "data": "2023-01-06",
+    "titulo": "LEI Nº 14.519, DE 5 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional das Tradições das Raízes de Matrizes Africanas e Nações do Candomblé.",
+    "datasAto": {
+      "assinatura": "2023-01-05",
+      "publicacao": "2023-01-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.519-de-5-de-janeiro-de-2023-456339133",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14519.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-06:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-06",
+    "hora": "09:30",
+    "titulo": "Reunião Ministerial",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-06:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-06",
+    "hora": "18:00",
+    "titulo": "Embarque para São Paulo (SP)",
+    "local": "Brasília (DF)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-06",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.377-de-8-de-janeiro-de-2023-456621234",
+    "tipo": "ato",
+    "data": "2023-01-08",
+    "titulo": "DECRETO Nº 11.377, DE 8 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Decreta intervenção federal no Distrito Federal com o objetivo de pôr termo ao grave comprometimento da ordem pública, nos termos em que especifica.",
+    "datasAto": {
+      "assinatura": "2023-01-08",
+      "publicacao": "2023-01-08"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.377-de-8-de-janeiro-de-2023-456621234",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11377.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:14:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "14:00",
+    "titulo": "Embarque no Aeroporto de Congonhas",
+    "local": "São Paulo (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "14:30",
+    "titulo": "Visita de apoio à cidade de Araraquara (SP) em decorrência das enchentes",
+    "local": "Araraquara (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:14:50:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "14:50",
+    "titulo": "Prefeitura de Araraquara (SP)",
+    "local": "Araraquara (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:15:45:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "15:45",
+    "titulo": "Pronunciamento sobre os atos de vandalismo em Brasília e leitura do Decreto",
+    "local": "Araraquara (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:19:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "19:30",
+    "titulo": "Embarque para Brasília",
+    "local": "Araraquara (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:20:50:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "20:50",
+    "titulo": "Desembarque em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:21:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "21:40",
+    "titulo": "Visita e vistoria no Palácio do Planalto",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-08:22:20:1",
+    "tipo": "agenda",
+    "data": "2023-01-08",
+    "hora": "22:20",
+    "titulo": "Visita ao Supremo Tribunal Federal, com a ministra Rosa Weber e os ministros Luís Roberto Barroso e Dias Toffoli",
+    "local": "Supremo Tribunal Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-08",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "09:00",
+    "titulo": "Presidente da Câmara dos Deputados, deputado federal Arthur Lira, presidente do Supremo Tribunal Federal, ministra Rosa Weber, ministro Roberto Barroso, ministro Dias Toffoli",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "10:00",
+    "titulo": "Ministro da Defesa, José Mucio, Comandante do Exército, General Júlio Cesar de Arruda, Comandante da Marinha, Almirante Marcos Sampaio Olsen, e Comandante da Aeronáutica, Tenente-Brigadeiro do Ar Marcelo Kanitz Damasceno",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "15:00",
+    "titulo": "Telefonema do Primeiro-Ministro de Portugal, António Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "15:30",
+    "titulo": "Telefonema do presidente de Cuba, Miguel Diaz-Canel",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "16:30",
+    "titulo": "Telefonema do ex-presidente dos Estados Unidos, Bill Clinton",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "18:00",
+    "titulo": "Telefonema do presidente dos Estados Unidos, Joe Biden",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-09:18:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-09",
+    "hora": "18:40",
+    "titulo": "Governadores, presidente da Câmara dos Deputados, deputado Arthur Lira, vice-presidente do Senado, senador Veneziano Vital do Rêgo, presidente do Supremo Tribunal Federal (STF), ministra Rosa Weber, ministros do STF Ricardo Lewandowski, Roberto Barroso e Dias Toffoli, ministro da Casa Civil, Rui Costa, ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e ministro da Justiça, Flávio Dino.",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-09",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.520-de-9-de-janeiro-de-2023-457076481",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.520, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Fixa o subsídio de Ministro do Supremo Tribunal Federal, referido no inciso XV docaputdo art. 48 da Constituição Federal; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.520-de-9-de-janeiro-de-2023-457076481",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14520.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.521-de-9-de-janeiro-de-2023-457150101",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.521, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o subsídio do Procurador-Geral da República; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.521-de-9-de-janeiro-de-2023-457150101",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14521.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.522-de-9-de-janeiro-de-2023-457076404",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.522, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Fixa o subsídio do Defensor Público-Geral Federal; estabelece o percentual de escalonamento de que trata o inciso V docaputdo art. 93 da Constituição Federal para os membros da Defensoria Pública da União; e revoga dispositivos e anexos da Lei nº 13.412, de 29 de dezembro de 2016.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.522-de-9-de-janeiro-de-2023-457076404",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14522.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.523-de-9-de-janeiro-de-2023-457150248",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.523, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.416, de 15 de dezembro de 2006, para reajustar a remuneração das carreiras dos servidores dos quadros de pessoal do Poder Judiciário da União.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.523-de-9-de-janeiro-de-2023-457150248",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14523.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.524-de-9-de-janeiro-de-2023-457150333",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.524, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 13.316, de 20 de julho de 2016, para reajustar a remuneração das carreiras dos servidores do Ministério Público da União e do Conselho Nacional do Ministério Público.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.524-de-9-de-janeiro-de-2023-457150333",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14524.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.525-de-9-de-janeiro-de-2023-457150502",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.525, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.377, de 22 de junho de 2022, para reajustar a remuneração dos servidores integrantes do Plano de Carreiras e Cargos da Defensoria Pública da União e dos cargos em comissão e das funções de confiança da Defensoria Pública da União.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.525-de-9-de-janeiro-de-2023-457150502",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14525.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.526-de-9-de-janeiro-de-2023-457150480",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.526, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.300, de 28 de julho de 2010, para reajustar as Tabelas de Vencimentos Básicos dos Servidores Ocupantes de Cargo Efetivo do Quadro de Pessoal do Senado Federal.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.526-de-9-de-janeiro-de-2023-457150480",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14526.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.527-de-9-de-janeiro-de-2023-457150588",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.527, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.356, de 27 de dezembro de 2001, para reajustar a remuneração dos servidores do quadro de pessoal do Tribunal de Contas da União.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.527-de-9-de-janeiro-de-2023-457150588",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14527.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.528-de-9-de-janeiro-de-2023-457150611",
+    "tipo": "ato",
+    "data": "2023-01-10",
+    "titulo": "LEI Nº 14.528, DE 9 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.777, de 28 de dezembro de 2012, para reajustar a remuneração dos servidores do Quadro de Pessoal da Câmara dos Deputados.",
+    "datasAto": {
+      "assinatura": "2023-01-09",
+      "publicacao": "2023-01-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.528-de-9-de-janeiro-de-2023-457150611",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14528.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:08:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "08:00",
+    "titulo": "Governador do Estado do Rio de Janeiro, Cláudio Castro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "10:00",
+    "titulo": "Presidente do Consórcio Interestadual de Desenvolvimento Sustentável do Nordeste – Consórcio Nordeste, governador da Paraíba, João Azevêdo, ministro da Casa Civil, Rui Costa, e ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "11:30",
+    "titulo": "Ministro da Secretaria-Geral da Presidência da República, Márcio Macedo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, ministro da Fazenda, Fernando Haddad, ministro da Secretaria de Relações Institucionais, Alexandre Padilha, líder do governo no Senado Federal, senador Jaques Wagner, líder do governo na Câmara dos Deputados, deputado José Guimarães, e líder do governo no Congresso Nacional, senador Randolfe Rodrigues",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "16:00",
+    "titulo": "Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-10:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-10",
+    "hora": "17:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-10",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.378-de-11-de-janeiro-de-2023-457406161",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "DECRETO Nº 11.378, DE 11 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.342, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Educação.",
+    "datasAto": {
+      "assinatura": "2023-01-11",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.378-de-11-de-janeiro-de-2023-457406161",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11378.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.529-de-10-de-janeiro-de-2023-457151163",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "LEI Nº 14.529, DE 10 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.017, de 29 de junho de 2020, para dispor sobre a prorrogação da prestação de contas à União relativa aos recursos recebidos pelos entes federativos para a cultura.",
+    "datasAto": {
+      "assinatura": "2023-01-10",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.529-de-10-de-janeiro-de-2023-457151163",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14529.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.531-de-10-de-janeiro-de-2023-457152001",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "LEI Nº 14.531, DE 10 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera as Leis nºs 13.675, de 11 de junho de 2018, que cria a Política Nacional de Segurança Pública e Defesa Social (PNSPDS), e 13.819, de 26 de abril de 2019, que institui a Política Nacional de Prevenção da Automutilação e do Suicídio, para dispor sobre a implementação de ações de assistência social, a promoção da saúde mental e a prevenção do suicídio en...",
+    "datasAto": {
+      "assinatura": "2023-01-10",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.531-de-10-de-janeiro-de-2023-457152001",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14531.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.532-de-11-de-janeiro-de-2023-457334843",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "LEI Nº 14.532, DE 11 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 7.716, de 5 de janeiro de 1989 (Lei do Crime Racial), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar como crime de racismo a injúria racial, prever pena de suspensão de direito em caso de racismo praticado no contexto de atividade esportiva ou artística e prever pena para o racismo religioso e recreativo e p...",
+    "datasAto": {
+      "assinatura": "2023-01-11",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.532-de-11-de-janeiro-de-2023-457334843",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14532.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.533-de-11-de-janeiro-de-2023-457334986",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "LEI Nº 14.533, DE 11 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Educação Digital e altera as Leis nºs 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), 9.448, de 14 de março de 1997, 10.260, de 12 de julho de 2001, e 10.753, de 30 de outubro de 2003.",
+    "datasAto": {
+      "assinatura": "2023-01-11",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.533-de-11-de-janeiro-de-2023-457334986",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14533.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.534-de-11-de-janeiro-de-2023-457335009",
+    "tipo": "ato",
+    "data": "2023-01-11",
+    "titulo": "LEI Nº 14.534, DE 11 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera as Leis nºs 7.116, de 29 de agosto de 1983, 9.454, de 7 de abril de 1997, 13.444, de 11 de maio de 2017, e 13.460, de 26 de junho de 2017, para adotar número único para os documentos que especifica e para estabelecer o Cadastro de Pessoas Físicas (CPF) como número suficiente para identificação do cidadão nos bancos de dados de serviços públicos. O PRE...",
+    "datasAto": {
+      "assinatura": "2023-01-11",
+      "publicacao": "2023-01-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.534-de-11-de-janeiro-de-2023-457335009",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14534.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-11",
+    "hora": "09:00",
+    "titulo": "Presidente do Consórcio Interestadual de Desenvolvimento Sustentável da Amazônia Legal, governador do estado do Pará, Helder Barbalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-11",
+    "hora": "10:00",
+    "titulo": "Governador do estado de São Paulo, Tarcísio de Freitas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-11:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-11",
+    "hora": "11:00",
+    "titulo": "Presidente do Senado Federal, senador Rodrigo Pacheco, e presidente da Câmara dos Deputados, deputado Arthur Lira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-11:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-11",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-11:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-11",
+    "hora": "17:00",
+    "titulo": "Cerimônias de assunção nos cargos das ministras da Igualdade Racial, Anielle Franco, e dos Povos Indígenas, Sônia Guajajara, com assinatura da sanção presidencial ao Projeto de Lei n° 4566/2021, que tipifica a injúria racial como crime de racismo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-11",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.379-de-12-de-janeiro-de-2023-457677864",
+    "tipo": "ato",
+    "data": "2023-01-12",
+    "titulo": "DECRETO Nº 11.379, DE 12 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Conselho de Acompanhamento e Monitoramento de Riscos Fiscais Judiciais.",
+    "datasAto": {
+      "assinatura": "2023-01-12",
+      "publicacao": "2023-01-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.379-de-12-de-janeiro-de-2023-457677864",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11379.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.380-de-12-de-janeiro-de-2023-457677915",
+    "tipo": "ato",
+    "data": "2023-01-12",
+    "titulo": "DECRETO Nº 11.380, DE 12 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre avaliação quanto à manutenção de restos a pagar não processados.",
+    "datasAto": {
+      "assinatura": "2023-01-12",
+      "publicacao": "2023-01-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.380-de-12-de-janeiro-de-2023-457677915",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11380.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.158-de-12-de-janeiro-de-2023-457677494",
+    "tipo": "ato",
+    "data": "2023-01-12",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.158, DE 12 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.069, de 29 de junho de 1995, a Lei nº 9.613, de 3 de março de 1998, e a Lei nº 13.974, de 7 de janeiro de 2020, para dispor sobre o Conselho Monetário Nacional e sobre a vinculação administrativa do Conselho de Controle de Atividades Financeiras ao Ministério da Fazenda.",
+    "datasAto": {
+      "assinatura": "2023-01-12",
+      "publicacao": "2023-01-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.158-de-12-de-janeiro-de-2023-457677494",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.159-de-12-de-janeiro-de-2023-457601785",
+    "tipo": "ato",
+    "data": "2023-01-12",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.159, DE 12 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.637, de 30 de dezembro de 2002, e a Lei nº 10.833, de 29 de dezembro de 2003, para excluir o Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação - ICMS da incidência e da base de cálculo dos créditos da Contribuição para o Pr...",
+    "datasAto": {
+      "assinatura": "2023-01-12",
+      "publicacao": "2023-01-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.159-de-12-de-janeiro-de-2023-457601785",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.160-de-12-de-janeiro-de-2023-457677631",
+    "tipo": "ato",
+    "data": "2023-01-12",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.160, DE 12 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a proclamação do resultado do julgamento, na hipótese de empate na votação no âmbito do Conselho Administrativo de Recursos Fiscais, e sobre a conformidade tributária no âmbito da Secretaria Especial da Receita Federal do Brasil do Ministério da Fazenda e altera a Lei nº 13.988, de 14 de abril de 2020, para dispor sobre o contencios...",
+    "datasAto": {
+      "assinatura": "2023-01-12",
+      "publicacao": "2023-01-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.160-de-12-de-janeiro-de-2023-457677631",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "09:30",
+    "titulo": "Café com jornalistas setoristas do Planalto",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "11:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Presidenta da Caixa, Rita Serrano",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "11:30",
+    "titulo": "Ministro do Gabinete de Segurança Institucional, General Gonçalves Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "12:30",
+    "titulo": "Deputada federal Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "14:30",
+    "titulo": "Ministro da Fazenda, Fernando Haddad, Ministra do Planejamento e Orçamento, Simone Tebet, Ministra da Gestão e Inovação em Serviços Públicos, Esther Dweck, e Secretário Especial de Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "15:00",
+    "titulo": "Ministro dos Transportes, Renan Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "16:00",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "17:00",
+    "titulo": "Ministro da Integração e do Desenvolvimento Regional, Waldez Góes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-12:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-12",
+    "hora": "18:00",
+    "titulo": "Cerimônia de posse da Presidenta da CAIXA, Rita Serrano",
+    "local": "Caixa Cultural Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-12",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.381-de-13-de-janeiro-de-2023-457952299",
+    "tipo": "ato",
+    "data": "2023-01-13",
+    "titulo": "DECRETO Nº 11.381, DE 13 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.884, de 27 de junho de 2019, que dispõe sobre a Junta de Execução Orçamentária.",
+    "datasAto": {
+      "assinatura": "2023-01-13",
+      "publicacao": "2023-01-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.381-de-13-de-janeiro-de-2023-457952299",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11381.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "09:00",
+    "titulo": "​Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "09:30",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente da República, Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "11:00",
+    "titulo": "Senhor Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "15:00",
+    "titulo": "Reunião com trabalhadoras e trabalhadores responsáveis pela limpeza e manutenção do Palácio do Planalto",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "15:30",
+    "titulo": "Ministra da Ciência, Tecnologia e Inovação, Luciana Santos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "16:30",
+    "titulo": "​Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-13:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-13",
+    "hora": "18:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-13",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-16:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-16",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-16:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-16",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria-Geral, Márcio Macedo, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, Ministro da Secretaria de Comunicação Social, Paulo Pimenta, e Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-16:12:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-16",
+    "hora": "12:30",
+    "titulo": "Fernando Morais",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-16:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-16",
+    "hora": "18:00",
+    "titulo": "Cerimônia de posse da Presidenta do Banco do Brasil, Tarciana Medeiros",
+    "local": "CCBB Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-16",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010",
+    "tipo": "ato",
+    "data": "2023-01-17",
+    "titulo": "LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)",
+    "status": "publicado",
+    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2023.",
+    "datasAto": {
+      "assinatura": "2023-01-17",
+      "publicacao": "2023-01-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14535.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.535-de-17-de-janeiro-de-2023-458405520",
+    "tipo": "ato",
+    "data": "2023-01-17",
+    "titulo": "LEI Nº 14.535, DE 17 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "(Publicada no DOU de 17/1/2023, edição extra)",
+    "datasAto": {
+      "assinatura": "2023-01-17",
+      "publicacao": "2023-01-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.535-de-17-de-janeiro-de-2023-458405520",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14535.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "10:00",
+    "titulo": "Presidente dos Conselhos de Administração da Cosan S.A, Compass Gás e Energia, Rumo e Raízen, Rubens Ometto",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:11:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "11:30",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho, e Secretário Executivo do Ministério da Fazenda, Gabriel Galípolo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "15:00",
+    "titulo": "Vice-Presidente Nacional da CUT, Vagner Freitas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "16:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira, e Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-17:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-17",
+    "hora": "18:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente Geraldo Alckmin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-17",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-18:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-18",
+    "hora": "09:00",
+    "titulo": "​Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-18",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-18:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-18",
+    "hora": "09:30",
+    "titulo": "Entrevista",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-18",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-18",
+    "hora": "11:00",
+    "titulo": "Encontro com centrais sindicais",
+    "local": "Salão Nobre, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-18",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-18:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-18",
+    "hora": "15:00",
+    "titulo": "​Ministro da Agricultura e Pecuária, Carlos Fávaro",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-18",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-18:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-18",
+    "hora": "16:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-18",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.382-de-19-de-janeiro-de-2023-458981192",
+    "tipo": "ato",
+    "data": "2023-01-19",
+    "titulo": "DECRETO Nº 11.382, DE 19 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Remaneja e transforma cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-01-19",
+      "publicacao": "2023-01-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.382-de-19-de-janeiro-de-2023-458981192",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11382.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.383-de-19-de-janeiro-de-2023-458982472",
+    "tipo": "ato",
+    "data": "2023-01-19",
+    "titulo": "DECRETO Nº 11.383, DE 19 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.829, de 5 de outubro de 2021, quanto aos apostilamentos, às exonerações e às dispensas decorrentes da edição de decretos organizacionais.",
+    "datasAto": {
+      "assinatura": "2023-01-19",
+      "publicacao": "2023-01-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.383-de-19-de-janeiro-de-2023-458982472",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11383.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-19:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-19",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-19",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-19:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-19",
+    "hora": "10:00",
+    "titulo": "Reunião com Reitores das Universidades e Institutos Federais",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-19",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-19:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-19",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Adjunto de Informações em Apoio à Decisão do Gabinete Pessoal, Sandra Brandão",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-19",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-19:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-19",
+    "hora": "16:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-19",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-19:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-19",
+    "hora": "17:00",
+    "titulo": "Diretor-Geral da Polícia Federal, Andrei Passos Rodrigues",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-19",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.384-de-20-de-janeiro-de-2023-459232758",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.384, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Comitê de Coordenação Nacional para Enfrentamento à Desassistência Sanitária das Populações em Território Yanomami.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.384-de-20-de-janeiro-de-2023-459232758",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11384.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.385-de-20-de-janeiro-de-2023-459233278",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.385, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.328, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Advocacia-Geral da União e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.385-de-20-de-janeiro-de-2023-459233278",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11385.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.386-de-20-de-janeiro-de-2023-459177952",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.386, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.326, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Vice-Presidência da República e remaneja cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.386-de-20-de-janeiro-de-2023-459177952",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11386.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.387-de-20-de-janeiro-de-2023-459177805",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.387, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.331, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações do Gabinete de Segurança Institucional da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.387-de-20-de-janeiro-de-2023-459177805",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11387.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.388-de-20-de-janeiro-de-2023-459177975",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.388, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.362, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Secretaria de Comunicação Social da Presidência da República e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.388-de-20-de-janeiro-de-2023-459177975",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11388.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.389-de-20-de-janeiro-de-2023-459233306",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.389, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.336, de 1º de janeiro de 2023, o Decreto nº 11.350, de 1º de janeiro de 2023, o Decreto nº 11.355, de 1º de janeiro de 2023, e o Decreto nº 11.365, de 1º de janeiro de 2023.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.389-de-20-de-janeiro-de-2023-459233306",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11389.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.390-de-20-de-janeiro-de-2023-459233391",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.390, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.327, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Agência Brasileira de Inteligência e remaneja cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.390-de-20-de-janeiro-de-2023-459233391",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11390.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.391-de-20-de-janeiro-de-2023-459233476",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.391, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.358, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Saúde.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.391-de-20-de-janeiro-de-2023-459233476",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11391.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.392-de-20-de-janeiro-de-2023-459233499",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "DECRETO Nº 11.392, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome, e transforma e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.392-de-20-de-janeiro-de-2023-459233499",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11392.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.536-de-20-de-janeiro-de-2023-459232592",
+    "tipo": "ato",
+    "data": "2023-01-20",
+    "titulo": "LEI Nº 14.536, DE 20 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, a fim de considerar os Agentes Comunitários de Saúde e os Agentes de Combate às Endemias como profissionais de saúde, com profissões regulamentadas, para a finalidade que especifica.",
+    "datasAto": {
+      "assinatura": "2023-01-20",
+      "publicacao": "2023-01-20"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.536-de-20-de-janeiro-de-2023-459232592",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14536.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-20:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-20",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-20:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-20",
+    "hora": "10:00",
+    "titulo": "Presidente da Fiesp, Josué Gomes, Ministro da Defesa, José Múcio, Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Vice-Presidente Geraldo Alckmin; Chefe do Estado-Maior Conjunto das Forças Armadas, Almirante de Esquadra Renato Rodrigues de Aguiar Freire, Comandante do Exército, General Júlio Cesar de Arruda, Comandante da Marinha, Almirante Marcos Sampaio Olsen, e Comandante da Aeronáutica, Tenente-Brigadeiro do Ar Marcelo Kanitz Damasceno",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-20:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-20",
+    "hora": "15:00",
+    "titulo": "Deputada federal Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-20:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-20",
+    "hora": "17:00",
+    "titulo": "Cerimônia de Sanção Presidencial ao Projeto de Lei nº 1802/2019, que passa a considerar os Agentes Comunitários de Saúde e os Agentes de Combate às Endemias como profissionais de saúde, com profissões regulamentadas",
+    "local": "Salão Nobre, Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-20",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.393-de-21-de-janeiro-de-2023-459233741",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.393, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.335, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério das Comunicações e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.393-de-21-de-janeiro-de-2023-459233741",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11393.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.394-de-21-de-janeiro-de-2023-459235269",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.394, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.341, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério dos Direitos Humanos e da Cidadania e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.394-de-21-de-janeiro-de-2023-459235269",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11394.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.395-de-21-de-janeiro-de-2023-459233826",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.395, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.364, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Secretaria de Relações Institucionais da Presidência da República e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.395-de-21-de-janeiro-de-2023-459233826",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11395.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.396-de-21-de-janeiro-de-2023-459233911",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.396, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Desenvolvimento Agrário e Agricultura Familiar e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.396-de-21-de-janeiro-de-2023-459233911",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11396.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.397-de-21-de-janeiro-de-2023-459235122",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.397, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.363, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança da Secretaria-Geral da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.397-de-21-de-janeiro-de-2023-459235122",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11397.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.398-de-21-de-janeiro-de-2023-459234019",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.398, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.353, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Planejamento e Orçamento, e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.398-de-21-de-janeiro-de-2023-459234019",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11398.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.399-de-21-de-janeiro-de-2023-459235291",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.399, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.329, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações da Casa Civil da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.399-de-21-de-janeiro-de-2023-459235291",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11399.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.400-de-21-de-janeiro-de-2023-459233996",
+    "tipo": "ato",
+    "data": "2023-01-21",
+    "titulo": "DECRETO Nº 11.400, DE 21 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Gabinete Pessoal do Presidente da República e da Assessoria Especial do Presidente da República e remaneja e transforma cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2023-01-21",
+      "publicacao": "2023-01-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.400-de-21-de-janeiro-de-2023-459233996",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11400.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:07:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "07:00",
+    "titulo": "Partida para Boa Vista (RR)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "09:30",
+    "titulo": "Chegada em Boa Vista (-1h em relação a Brasília)",
+    "local": "Base Aérea de Boa Vista",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "10:00",
+    "titulo": "Visita à CASAI Yanomami (horário local)",
+    "local": "Boa Vista (RR)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "11:00",
+    "titulo": "Anúncio de ações emergenciais para a população Yanomami (horário local)",
+    "local": "Boa Vista (RR)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "13:00",
+    "titulo": "Partida para Brasília (horário local)",
+    "local": "Base Aérea de Boa Vista",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-21:17:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-21",
+    "hora": "17:30",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-21",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-22:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-22",
+    "hora": "18:00",
+    "titulo": "Embarque para a Argentina",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-22",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.401-de-23-de-janeiro-de-2023-459474347",
+    "tipo": "ato",
+    "data": "2023-01-23",
+    "titulo": "DECRETO Nº 11.401, DE 23 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a vinculação das entidades da administração pública federal indireta.",
+    "datasAto": {
+      "assinatura": "2023-01-23",
+      "publicacao": "2023-01-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.401-de-23-de-janeiro-de-2023-459474347",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11401.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.402-de-23-de-janeiro-de-2023-459474511",
+    "tipo": "ato",
+    "data": "2023-01-23",
+    "titulo": "DECRETO Nº 11.402, DE 23 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.342, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Educação, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2023-01-23",
+      "publicacao": "2023-01-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.402-de-23-de-janeiro-de-2023-459474511",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11402.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "10:30",
+    "titulo": "Cerimônia de oferenda floral no Monumento ao Libertador General José de San Martín",
+    "local": "Praça San Martín, Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "11:00",
+    "titulo": "Reunião com o Presidente da República Argentina, Alberto Fernández",
+    "local": "Casa Rosada, Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:12:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "12:15",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Casa Rosada, Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:12:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "12:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Casa Rosada, Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:13:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "13:15",
+    "titulo": "Almoço de trabalho oferecido pelo Presidente da República Argentina, Alberto Fernández",
+    "local": "Casa Rosada, Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "15:00",
+    "titulo": "Cerimônia de abertura do Encontro Empresarial Brasil-Argentina",
+    "local": "Casa Rosada – Museu do Bicentenário",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "15:30",
+    "titulo": "Cumprimentos às representantes das Mães e Avós da Praça de Maio",
+    "local": "Casa Rosada – Salão dos Cientistas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:19:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "19:15",
+    "titulo": "Inauguração da Mostra Fotográfica Povos Originários – Guerreiros do Tempo, de Ricardo Stuckert",
+    "local": "Centro Cultural Kirchner",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-23:19:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-23",
+    "hora": "19:30",
+    "titulo": "Apresentação musical em celebração à Irmandade Brasil-Argentina",
+    "local": "Centro Cultural Kirchner",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-23",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "10:00",
+    "titulo": "Sessão de Abertura da VII Cúpula da CELAC",
+    "local": "Hotel Sheraton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:13:20:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "13:20",
+    "titulo": "Foto oficial",
+    "local": "Hotel Sheraton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:13:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "13:30",
+    "titulo": "Almoço oferecido pelo Presidente da República Argentina, Alberto Fernández",
+    "local": "Hotel Sheraton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "15:00",
+    "titulo": "Audiência com o Diretor-Geral da Organização das Nações Unidas para a Alimentação e a Agricultura (FAO), Qu Dongyu",
+    "local": "Complexo Sheraton-Hotel Park Tower",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "15:30",
+    "titulo": "Encontro com o Presidente do Conselho Europeu, Charles Michel",
+    "local": "Complexo Sheraton-Hotel Park Tower",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "16:00",
+    "titulo": "Encontro com a Primeira-Ministra de Barbados, Mia Mottley",
+    "local": "Complexo Sheraton-Hotel Park Tower",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "16:30",
+    "titulo": "Encontro com o Presidente da República de Cuba, Miguel Díaz-Canel",
+    "local": "Complexo Sheraton-Hotel Park Tower",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "17:00",
+    "titulo": "Adoção da Declaração de Buenos Aires",
+    "local": "Hotel Sheraton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-24:17:15:1",
+    "tipo": "agenda",
+    "data": "2023-01-24",
+    "hora": "17:15",
+    "titulo": "Encerramento da VII Cúpula da CELAC",
+    "local": "Hotel Sheraton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-24",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:10:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "10:30",
+    "titulo": "Partida para Montevidéu",
+    "local": "Base Aérea de Buenos Aires",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "11:00",
+    "titulo": "Chegada em Montevidéu",
+    "local": "Base Aérea de Montevidéu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "12:00",
+    "titulo": "Reunião privada com Presidente da República Oriental do Uruguai, Luis Lacalle Pou",
+    "local": "Residência Presidencial de Suárez e Reyes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:12:40:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "12:40",
+    "titulo": "Declaração à imprensa",
+    "local": "Residência Presidencial de Suárez e Reyes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:13:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente da República Oriental do Uruguai, Luis Lacalle Pou",
+    "local": "Residência Presidencial de Suárez e Reyes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "15:00",
+    "titulo": "Cerimônia de outorga da distinção \"Compromisso Ambiental\", da Prefeitura de Montevidéu",
+    "local": "Sede da Prefeitura de Montevidéu",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:16:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "16:30",
+    "titulo": "Encontro com o ex-presidente da República Oriental do Uruguai, José Mujica, e com Lucía Topolasnky",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "18:30",
+    "titulo": "Partida para Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-25:21:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-25",
+    "hora": "21:30",
+    "titulo": "Chegada em Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-25",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "11:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Flávio Dino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:12:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "12:00",
+    "titulo": "Telefonema com o Presidente da França, Emmanuel Macron",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "15:00",
+    "titulo": "Deputada Federal Gleisi Hoffmann e Deputado Federal Enio Verri",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "16:00",
+    "titulo": "Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-26:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-26",
+    "hora": "17:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-26",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-27:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-27",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-27",
+    "hora": "09:30",
+    "titulo": "Reunião com Governadores dos Estados e do Distrito Federal",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-27:14:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-27",
+    "hora": "14:30",
+    "titulo": "Almoço de trabalho com os Governadores dos Estados e do Distrito Federal",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-27",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.403-de-30-de-janeiro-de-2023-460985367",
+    "tipo": "ato",
+    "data": "2023-01-30",
+    "titulo": "DECRETO Nº 11.403, DE 30 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.375, de 1º de janeiro de 2023, que dispõe sobre a extinção de adidâncias tributárias e aduaneiras junto a representações diplomáticas brasileiras no exterior e regras transitórias.",
+    "datasAto": {
+      "assinatura": "2023-01-30",
+      "publicacao": "2023-01-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.403-de-30-de-janeiro-de-2023-460985367",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11403.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "09:00",
+    "titulo": "Ministro da Defesa, José Mucio, Ministro dos Direitos Humanos, Silvio Almeida, Ministra dos Povos Indígenas, Sônia Guajajara, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, Comandante da Aeronáutica, Brigadeiro Marcelo Kanitz Damasceno, Secretário-Executivo do Ministério da Saúde, Swedenberger Barbosa, Secretário Especial de Saúde Indígena, Ricardo Weibe Tapeba, e a futura Presidente da Fundação Nacional dos Povos Indígenas (Funai), deputada federal Joenia Wapichana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "11:00",
+    "titulo": "Ministro da Controladoria-Geral da União, Vinícius Carvalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "15:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira, e Assessor-Chefe da Assessoria Especial do Presidente da República, Celso Amorim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:15:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "15:30",
+    "titulo": "Cerimônia de chegada do Chanceler da República Federal da Alemanha, Olaf Scholz, por ocasião de sua visita oficial ao Brasil",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:15:45:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "15:45",
+    "titulo": "Reunião bilateral com o Chanceler da República Federal da Alemanha, Olaf Scholz",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:18:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "18:00",
+    "titulo": "Reunião com o Chanceler da República Federal da Alemanha, Olaf Scholz, e com as delegações empresariais do Brasil e da Alemanha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:18:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "18:30",
+    "titulo": "Declaração à imprensa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:19:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "19:30",
+    "titulo": "Jantar em homenagem ao Chanceler da República Federal da Alemanha, Olaf Scholz",
+    "local": "Palácio Itamaraty",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-30:21:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-30",
+    "hora": "21:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Justiça e Segurança Pública, Flávio Dino, Ministro da Secretaria de Comunicação Social, Paulo Pimenta, e Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-30",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.404-de-30-de-janeiro-de-2023-461067801",
+    "tipo": "ato",
+    "data": "2023-01-31",
+    "titulo": "DECRETO Nº 11.404, DE 30 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.333, de 1º de janeiro de 2023, o Decreto nº 11.350, de 1º de janeiro de 2023, e o Decreto nº 11.401, de 23 de janeiro de 2023, para dispor sobre a vinculação do Veículo de Desestatização MG Investimentos S.A. e da Empresa Brasileira de Participações em Energia Nuclear e Binacional S.A.",
+    "datasAto": {
+      "assinatura": "2023-01-30",
+      "publicacao": "2023-01-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.404-de-30-de-janeiro-de-2023-461067801",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11404.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.405-de-30-de-janeiro-de-2023-461067967",
+    "tipo": "ato",
+    "data": "2023-01-31",
+    "titulo": "DECRETO Nº 11.405, DE 30 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Dispõe sobre medidas para enfrentamento da Emergência em Saúde Pública de Importância Nacional e de combate ao garimpo ilegal no território Yanomami a serem adotadas por órgãos da administração federal.",
+    "datasAto": {
+      "assinatura": "2023-01-30",
+      "publicacao": "2023-01-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.405-de-30-de-janeiro-de-2023-461067967",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11405.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.406-de-31-de-janeiro-de-2023-461369516",
+    "tipo": "ato",
+    "data": "2023-01-31",
+    "titulo": "DECRETO Nº 11.406, DE 31 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Conselho de Participação Social da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2023-01-31",
+      "publicacao": "2023-01-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.406-de-31-de-janeiro-de-2023-461369516",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11406.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.407-de-31-de-janeiro-de-2023-461262467",
+    "tipo": "ato",
+    "data": "2023-01-31",
+    "titulo": "DECRETO Nº 11.407, DE 31 DE JANEIRO DE 2023",
+    "status": "publicado",
+    "ementa": "Institui o Sistema de Participação Social.",
+    "datasAto": {
+      "assinatura": "2023-01-31",
+      "publicacao": "2023-01-31"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.407-de-31-de-janeiro-de-2023-461262467",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11407.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:09:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:09:30:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "09:30",
+    "titulo": "Ministra dos Povos Indígenas, Sonia Guajajara",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:10:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "10:00",
+    "titulo": "Ministro dos Transportes, Renan Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:11:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "11:00",
+    "titulo": "Cerimônia de assinatura dos decretos que criam o Conselho de Participação Social e o Sistema de Participação Social Interministerial",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:15:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "15:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Flávio Dino",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:16:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "16:00",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2023-01-31:17:00:1",
+    "tipo": "agenda",
+    "data": "2023-01-31",
+    "hora": "17:00",
+    "titulo": "Presidente da Petrobras, Jean Paul Prates",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2023-01-31",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

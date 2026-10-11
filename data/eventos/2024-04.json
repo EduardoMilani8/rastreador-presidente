@@ -1,0 +1,4221 @@
+[
+  {
+    "id": "dou:decreto-n-11.970-de-1-de-abril-de-2024-551135737",
+    "tipo": "ato",
+    "data": "2024-04-01",
+    "titulo": "DECRETO Nº 11.970, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto nº 11.158, de 29 de julho de 2022.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.970-de-1-de-abril-de-2024-551135737",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11970.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.971-de-1-de-abril-de-2024-551186149",
+    "tipo": "ato",
+    "data": "2024-04-01",
+    "titulo": "DECRETO Nº 11.971, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê Gestor do Programa de Produtividade da Auditoria-Fiscal do Trabalho e sobre a base de cálculo de que tratam o § 1º e o § 4º do art. 16 da Lei nº 13.464, de 10 de julho de 2017.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-01"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.971-de-1-de-abril-de-2024-551186149",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11971.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "09:30",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "10:00",
+    "titulo": "Ministro da Secretaria-Geral, Márcio Macêdo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "11:00",
+    "titulo": "Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-01:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-01",
+    "hora": "16:30",
+    "titulo": "Assinatura do Novo Fundo Clima, com Ministro da Fazenda, Fernando Haddad, Ministra do Meio Ambiente e Mudança do Clima, Marina Silva, e Presidente do Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Aloizio Mercadante",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-01",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.972-de-1-de-abril-de-2024-551192375",
+    "tipo": "ato",
+    "data": "2024-04-02",
+    "titulo": "DECRETO Nº 11.972, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, função de confiança para o Ministério do Trabalho e Emprego.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.972-de-1-de-abril-de-2024-551192375",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11972.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.973-de-1-de-abril-de-2024-551203360",
+    "tipo": "ato",
+    "data": "2024-04-02",
+    "titulo": "DECRETO Nº 11.973, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.356, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Previdência Social, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.973-de-1-de-abril-de-2024-551203360",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11973.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.974-de-1-de-abril-de-2024-551206902",
+    "tipo": "ato",
+    "data": "2024-04-02",
+    "titulo": "DECRETO Nº 11.974, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.676, de 30 de agosto de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das Gratificações do Gabinete de Segurança Institucional da Presidência da República, e remaneja cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.974-de-1-de-abril-de-2024-551206902",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11974.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.975-de-1-de-abril-de-2024-551194830",
+    "tipo": "ato",
+    "data": "2024-04-02",
+    "titulo": "DECRETO Nº 11.975, DE 1º DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.631, de 11 de agosto de 2023, que institui a Comissão Interministerial de Qualificação Profissional, Emprego e Inclusão Socioeconômica do Programa de Aceleração do Crescimento.",
+    "datasAto": {
+      "assinatura": "2024-04-01",
+      "publicacao": "2024-04-02"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.975-de-1-de-abril-de-2024-551194830",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11975.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-02:08:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-02",
+    "hora": "08:30",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-02:09:55:1",
+    "tipo": "agenda",
+    "data": "2024-04-02",
+    "hora": "09:55",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Aeroporto Santos Dumont - Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-02:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-02",
+    "hora": "11:00",
+    "titulo": "Cerimônia de inauguração do IMPA Tech e início das aulas da 1ª turma de Bacharelado em Matemática da Tecnologia e Inovação",
+    "local": "IMPA Tech – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-02:13:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-02",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido ao Presidente Lula, à senhora Janja Lula da Silva e comitiva",
+    "local": "IMPA Tech – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-02",
+    "hora": "15:00",
+    "titulo": "Cerimônia de anúncio de início das obras de dragagem do Canal de São Lourenço, em Niterói",
+    "local": "Porto de Niterói-RJ",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-02",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-03:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-03",
+    "hora": "09:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Santos Dumont – Rio de Janeiro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-03:10:25:1",
+    "tipo": "agenda",
+    "data": "2024-04-03",
+    "hora": "10:25",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-03:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-03",
+    "hora": "16:00",
+    "titulo": "Encontro com lideranças da Confederação Nacional dos Trabalhadores Rurais Agricultores e Agricultoras Familiares – CONTAG",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-03:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-03",
+    "hora": "19:00",
+    "titulo": "12ª Conferência Nacional dos Direitos da Criança e do Adolescente",
+    "local": "Centro Internacional de Convenções do Brasil – CICB - Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-03",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "08:00",
+    "titulo": "Partida para Caruaru (PE)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:10:10:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "10:10",
+    "titulo": "Chegada a Caruaru (PE)",
+    "local": "Aeroporto de Caruaru – Pernambuco",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "11:00",
+    "titulo": "Visita à Estação Elevatória de Água Bruta (EEAB) Ipojuca",
+    "local": "Estação Elevatória de Água Bruta – Distrito de Ipojuca, Arcoverde (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:11:20:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "11:20",
+    "titulo": "Cerimônia de Inauguração da Estação Elevatória de Água Bruta (EEAB) Ipojuca e do Trecho Belo Jardim – Caruaru da Adutora do Agreste Pernambucano",
+    "local": "Estação Elevatória de Água Bruta – Distrito de Ipojuca, Arcoverde (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:13:15:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "13:15",
+    "titulo": "Partida para o Recife",
+    "local": "Aeroporto de Caruaru – Pernambuco",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:13:35:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "13:35",
+    "titulo": "Chegada ao Recife",
+    "local": "Base Aérea do Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "14:30",
+    "titulo": "Visita à Fábrica de Medicamentos da Hemobrás",
+    "local": "Complexo Industrial da Hemobrás – Goiana (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "15:00",
+    "titulo": "Cerimônia de Inauguração da Fábrica de Medicamentos Hemo-8r - Fator VIII Recombinante, da Hemobrás",
+    "local": "Complexo Industrial da Hemobrás – Goiana (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-04:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-04",
+    "hora": "19:00",
+    "titulo": "Cerimônia de Sanção do Projeto de Lei nº 9474/2018, que institui marco regulatório do Sistema Nacional de Cultura",
+    "local": "Teatro Luiz Mendonça, Parque Dona Lindu – Recife (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-04",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.976-de-4-de-abril-de-2024-552247447",
+    "tipo": "ato",
+    "data": "2024-04-05",
+    "titulo": "DECRETO Nº 11.976, DE 4 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.624, de 1º de agosto de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Pesca e Aquicultura, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-04",
+      "publicacao": "2024-04-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.976-de-4-de-abril-de-2024-552247447",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11976.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.977-de-4-de-abril-de-2024-552225969",
+    "tipo": "ato",
+    "data": "2024-04-05",
+    "titulo": "DECRETO Nº 11.977, DE 4 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.451, de 22 de março de 2023, que institui o Conselho Nacional de Desenvolvimento Rural Sustentável.",
+    "datasAto": {
+      "assinatura": "2024-04-04",
+      "publicacao": "2024-04-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.977-de-4-de-abril-de-2024-552225969",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11977.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.834-de-4-de-abril-de-2024-552216942",
+    "tipo": "ato",
+    "data": "2024-04-05",
+    "titulo": "LEI Nº 14.834, DE 4 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional da Mulher Sambista.",
+    "datasAto": {
+      "assinatura": "2024-04-04",
+      "publicacao": "2024-04-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.834-de-4-de-abril-de-2024-552216942",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14834.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.835-de-4-de-abril-de-2024-552224443",
+    "tipo": "ato",
+    "data": "2024-04-05",
+    "titulo": "LEI Nº 14.835, DE 4 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o marco regulatório do Sistema Nacional de Cultura (SNC), para garantia dos direitos culturais, organizado em regime de colaboração entre os entes federativos para gestão conjunta das políticas públicas de cultura.",
+    "datasAto": {
+      "assinatura": "2024-04-04",
+      "publicacao": "2024-04-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.835-de-4-de-abril-de-2024-552224443",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14835.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:08:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "08:30",
+    "titulo": "Assinatura da Autorização de Início de Objeto (AIO) das obras de contenção de encostas no Recife, com Ministro das Cidades, Jader Filho, e Prefeito do Recife, João Campos",
+    "local": "Recife (PE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:09:20:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "09:20",
+    "titulo": "Partida para Juazeiro do Norte (CE)",
+    "local": "Base Aérea do Recife",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:10:10:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "10:10",
+    "titulo": "Chegada a Juazeiro do Norte (CE)",
+    "local": "Aeroporto de Juazeiro do Norte – Ceará",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Assinatura da Ordem de Serviço para a Implantação do Ramal do Salgado e Visita às Obras da Ferrovia Transnordestina",
+    "local": "Acampamento da Transnordestina – Distrito Suassurana, Iguatu (CE)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:12:50:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "12:50",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Juazeiro do Norte – Ceará",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-05:14:50:1",
+    "tipo": "agenda",
+    "data": "2024-04-05",
+    "hora": "14:50",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-05",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-06:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-06",
+    "hora": "09:30",
+    "titulo": "Encontro com lideranças de movimentos sociais",
+    "local": "Residência oficial da Granja do Torto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-06",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "10:00",
+    "titulo": "Coletiva temática sobre Saúde e anúncios relacionados, com a Ministra da Saúde, Nísia Trindade",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "12:00",
+    "titulo": "Secretário de Estado do Vaticano, Cardeal Pietro Parolin",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "14:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "15:00",
+    "titulo": "Presidenta-Executiva do Banco Santander, Ana Botín",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-08:18:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-08",
+    "hora": "18:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-08",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.978-de-8-de-abril-de-2024-552792181",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "DECRETO Nº 11.978, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.353, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Planejamento e Orçamento, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.978-de-8-de-abril-de-2024-552792181",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11978.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.979-de-8-de-abril-de-2024-552791699",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "DECRETO Nº 11.979, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.354, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério de Portos e Aeroportos, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.979-de-8-de-abril-de-2024-552791699",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11979.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.980-de-8-de-abril-de-2024-552769560",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "DECRETO Nº 11.980, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Trigésimo Primeiro Protocolo Adicional ao Acordo de Complementação Econômica nº 36 (31PA-ACE36), firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai, pela República Oriental do Uruguai, Estados Partes do Mercosul, e pelo Estado Plurinacional da Bolívia.",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.980-de-8-de-abril-de-2024-552769560",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11980.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.981-de-8-de-abril-de-2024-552767795",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "DECRETO Nº 11.981, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 72.021, de 28 de março de 1973, para incluir a atuação no Conselho de Auditores da Organização das Nações Unidas no rol de atividades permanentes.",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.981-de-8-de-abril-de-2024-552767795",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11981.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.982-de-9-de-abril-de-2024-553012408",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "DECRETO Nº 11.982, DE 9 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.515, de 2 de maio de 2023, que revoga o Decreto nº 9.731, de 16 de março de 2019.",
+    "datasAto": {
+      "assinatura": "2024-04-09",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.982-de-9-de-abril-de-2024-553012408",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11982.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.836-de-8-de-abril-de-2024-552783207",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "LEI Nº 14.836, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.038, de 28 de maio de 1990, e o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para dispor sobre o resultado de julgamento em matéria penal ou processual penal em órgãos colegiados e sobre a concessão dehabeas corpusde ofício.",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.836-de-8-de-abril-de-2024-552783207",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14836.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.837-de-8-de-abril-de-2024-552783113",
+    "tipo": "ato",
+    "data": "2024-04-09",
+    "titulo": "LEI Nº 14.837, DE 8 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.244, de 24 de maio de 2010, que \"dispõe sobre a universalização das bibliotecas nas instituições de ensino do País\", para modificar a definição de biblioteca escolar e criar o Sistema Nacional de Bibliotecas Escolares (SNBE).",
+    "datasAto": {
+      "assinatura": "2024-04-08",
+      "publicacao": "2024-04-09"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.837-de-8-de-abril-de-2024-552783113",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14837.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "09:00",
+    "titulo": "Lançamento do Programa União com os Municípios pela Redução do Desmatamento e Incêndios Florestais na Amazônia",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "10:30",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "15:00",
+    "titulo": "Telefonema com o Primeiro-Ministro de Portugal, Luís Montenegro",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "15:30",
+    "titulo": "Telefonema com o Presidente do México, Andrés Manuel López Obrador",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "16:00",
+    "titulo": "Cerimônia de Assinatura da Medida Provisória das Energias Renováveis e da Redução dos Impactos Tarifários",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-09:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-09",
+    "hora": "17:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-09",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.983-de-9-de-abril-de-2024-553015232",
+    "tipo": "ato",
+    "data": "2024-04-10",
+    "titulo": "DECRETO Nº 11.983, DE 9 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Conselho Consultivo do Fundo Nacional de Desenvolvimento Florestal.",
+    "datasAto": {
+      "assinatura": "2024-04-09",
+      "publicacao": "2024-04-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.983-de-9-de-abril-de-2024-553015232",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11983.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.984-de-9-de-abril-de-2024-553013686",
+    "tipo": "ato",
+    "data": "2024-04-10",
+    "titulo": "DECRETO Nº 11.984, DE 9 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 6.605, de 14 de outubro de 2008, que dispõe sobre o Comitê Gestor da Infraestrutura de Chaves Públicas Brasileira - CG ICP-Brasil, sua Secretaria-Executiva e sua Comissão Técnica Executiva - COTEC.",
+    "datasAto": {
+      "assinatura": "2024-04-09",
+      "publicacao": "2024-04-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.984-de-9-de-abril-de-2024-553013686",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11984.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.985-de-9-de-abril-de-2024-553029530",
+    "tipo": "ato",
+    "data": "2024-04-10",
+    "titulo": "DECRETO Nº 11.985, DE 9 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui Grupo de Trabalho Interinstitucional com a finalidade de produzir subsídios para a Política Nacional de Educação Profissional e Tecnológica.",
+    "datasAto": {
+      "assinatura": "2024-04-09",
+      "publicacao": "2024-04-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.985-de-9-de-abril-de-2024-553029530",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11985.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.212-de-9-de-abril-de-2024-553016825",
+    "tipo": "ato",
+    "data": "2024-04-10",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.212, DE 9 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.991, de 24 de julho de 2000, e a Lei nº 14.182, de 12 de julho de 2021, e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2024-04-09",
+      "publicacao": "2024-04-10"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.212-de-9-de-abril-de-2024-553016825",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-10:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-10",
+    "hora": "09:00",
+    "titulo": "Presidente do Comitê Econômico e Social Europeu, Oliver Röpke",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-10:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-10",
+    "hora": "10:00",
+    "titulo": "Anúncio do resultado da seleção do Minha Casa, Minha Vida nas modalidades Rural e Entidades",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-10:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-10",
+    "hora": "11:30",
+    "titulo": "Reunião com representantes de movimentos sociais de moradia",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-10:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-10",
+    "hora": "14:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-10:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-10",
+    "hora": "15:30",
+    "titulo": "Reunião com especialistas do setor elétrico",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-10",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.986-de-10-de-abril-de-2024-553501095",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.986, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Comitê Executivo do Plano Nacional de Cultura.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.986-de-10-de-abril-de-2024-553501095",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11986.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.987-de-10-de-abril-de-2024-553567450",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.987, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.431, de 20 de julho de 2020, para dispor sobre a Comissão Executiva Nacional do Plano Setorial para Adaptação à Mudança do Clima e Baixa Emissão de Carbono na Agropecuária.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.987-de-10-de-abril-de-2024-553567450",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11987.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.988-de-10-de-abril-de-2024-553567635",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.988, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre a República Federativa do Brasil e a República do Peru para Facilitação do Trânsito de Veículos de Uso Particular, firmado em Lima, em 11 de dezembro de 2009.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.988-de-10-de-abril-de-2024-553567635",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11988.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.989-de-10-de-abril-de-2024-553501577",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.989, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo sobre Serviços Aéreos entre o Governo da República Federativa do Brasil e o Governo da República de Angola, firmado em Montreal, em 24 de setembro de 2019.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.989-de-10-de-abril-de-2024-553501577",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11989.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.990-de-10-de-abril-de-2024-*-553501897",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.990, DE 10 DE ABRIL DE 2024 (*)",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Segundo Protocolo Adicional ao Acordo de Alcance Parcial para a Facilitação do Transporte de Produtos Perigosos (2PA-AAP.PC7), firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai e pela República Oriental do Uruguai.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.990-de-10-de-abril-de-2024-*-553501897",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11990.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.991-de-10-de-abril-de-2024-553577156",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.991, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Terceiro Protocolo Adicional ao Acordo de Alcance Parcial para a Facilitação do Transporte de Produtos Perigosos (3PA-AAP.PC7), firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai e pela República Oriental do Uruguai.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.991-de-10-de-abril-de-2024-553577156",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11991.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.992-de-10-de-abril-de-2024-553571374",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.992, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.564, de 1º de janeiro de 2003, que define o órgão gestor do Fundo de Combate e Erradicação da Pobreza e o funcionamento do seu Conselho Consultivo e de Acompanhamento, e dispõe sobre doações de pessoas físicas ou jurídicas, nacionais ou estrangeiras, para o Fundo de Combate e Erradicação da Pobreza.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.992-de-10-de-abril-de-2024-553571374",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11992.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.993-de-10-de-abril-de-2024-553566844",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.993, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Desenvolvimento das Microempresas e das Empresas de Pequeno Porte - Política Nacional das MPEs e altera o Decreto nº 8.364, de 17 de novembro de 2014, para dispor sobre o Fórum Permanente das Microempresas e Empresas de Pequeno Porte.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.993-de-10-de-abril-de-2024-553566844",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11993.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.994-de-10-de-abril-de-2024-553566966",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "DECRETO Nº 11.994, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a Estratégia Nacional de Empreendedorismo Feminino - Estratégia Elas Empreendem e o Comitê de Empreendedorismo Feminino.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.994-de-10-de-abril-de-2024-553566966",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11994.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.838-de-10-de-abril-de-2024-553500492",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.838, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Cria a Rota Turística do Caminho das Missões, no Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.838-de-10-de-abril-de-2024-553500492",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14838.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.839-de-10-de-abril-de-2024-553500577",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.839, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Inscreve o nome de Cesare Mansueto Giulio Lattes no Livro dos Heróis e Heroínas da Pátria.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.839-de-10-de-abril-de-2024-553500577",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14839.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.840-de-10-de-abril-de-2024-553566371",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.840, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o dia 28 de abril como o Dia Nacional da Conscientização sobre a Doença de Fabry.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.840-de-10-de-abril-de-2024-553566371",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14840.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.841-de-10-de-abril-de-2024-553567051",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.841, DE 10 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Reconhece o Município de Cruzeiro, no Estado de São Paulo, como Capital da Revolução Constitucionalista de 1932.",
+    "datasAto": {
+      "assinatura": "2024-04-10",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.841-de-10-de-abril-de-2024-553567051",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14841.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.842-de-11-de-abril-de-2024-553580721",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.842, DE 11 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a atividade profissional de musicoterapeuta.",
+    "datasAto": {
+      "assinatura": "2024-04-11",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.842-de-11-de-abril-de-2024-553580721",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14842.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.843-de-11-de-abril-de-2024-553580887",
+    "tipo": "ato",
+    "data": "2024-04-11",
+    "titulo": "LEI Nº 14.843, DE 11 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a monitoração eletrônica do preso, prever a realização de exame criminológico para progressão de regime e restringir o benefício da saída temporária.",
+    "datasAto": {
+      "assinatura": "2024-04-11",
+      "publicacao": "2024-04-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.843-de-11-de-abril-de-2024-553580887",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14843.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-11",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Secretaria de Relações Institucionais, Alexandre Padilha, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-11:09:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-11",
+    "hora": "09:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-11:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-11",
+    "hora": "11:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-11:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-11",
+    "hora": "15:30",
+    "titulo": "Cerimônia de Lançamento da Pedra Fundamental do Campus Sol Nascente do Instituto Federal de Brasília (IFB)",
+    "local": "Sol Nascente – Distrito Federal",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-11:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-11",
+    "hora": "18:30",
+    "titulo": "Reunião com a Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior (Andifes)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-11",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:09:15:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "09:15",
+    "titulo": "Partida para Campo Grande",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:09:35:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "09:35",
+    "titulo": "Chegada a Campo Grande (-1h de fuso com relação ao horário de Brasília)",
+    "local": "Aeroporto Internacional de Campo Grande – Mato Grosso do Sul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "10:00",
+    "titulo": "Visita à planta frigorífica em Campo Grande (-1h de fuso com relação ao horário de Brasília)",
+    "local": "Rodovia BR-060 – Campo Grande",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "10:30",
+    "titulo": "Ato de comemoração da habilitação de 38 frigoríficos para exportação de carnes para a China (-1h de fuso com relação ao horário de Brasília)",
+    "local": "Rodovia BR-060 – Campo Grande",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:13:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "13:30",
+    "titulo": "Partida para São Paulo (-1h de fuso com relação ao horário de Brasília)",
+    "local": "Aeroporto Internacional de Campo Grande – Mato Grosso do Sul",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:15:50:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "15:50",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:16:20:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "16:20",
+    "titulo": "Reunião com representantes da Associação Nacional dos Fabricantes de Veículos Automotores (ANFAVEA) e de montadoras do setor automobilístico",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "17:30",
+    "titulo": "Cerimônia de inauguração da nova sede da ANFAVEA",
+    "local": "São Paulo - SP",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:19:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "19:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-12:20:20:1",
+    "tipo": "agenda",
+    "data": "2024-04-12",
+    "hora": "20:20",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-12",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-15:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-15",
+    "hora": "09:00",
+    "titulo": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira, Ministro da Secretaria-Geral, Márcio Macêdo, e Ministro da Secretaria de Comunicação Social, Paulo Pimenta",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-15:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-15",
+    "hora": "14:00",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-15:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-15",
+    "hora": "15:00",
+    "titulo": "Presidente do Instituto do Patrimônio Histórico e Artístico Nacional (Iphan), Leandro Grass",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-15:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-15",
+    "hora": "16:00",
+    "titulo": "Apresentação do Programa Terra da Gente para a Reforma Agrária",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-15:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-15",
+    "hora": "17:30",
+    "titulo": "CEO do Mercado Livre no Brasil, Fernando Yunes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-15",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.995-de-15-de-abril-de-2024-554174706",
+    "tipo": "ato",
+    "data": "2024-04-16",
+    "titulo": "DECRETO Nº 11.995, DE 15 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Terra da Gente e dispõe sobre a incorporação de imóveis rurais no âmbito da Política Nacional de Reforma Agrária.",
+    "datasAto": {
+      "assinatura": "2024-04-15",
+      "publicacao": "2024-04-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.995-de-15-de-abril-de-2024-554174706",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11995.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.996-de-15-de-abril-de-2024-554176637",
+    "tipo": "ato",
+    "data": "2024-04-16",
+    "titulo": "DECRETO Nº 11.996, DE 15 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Comitê Técnico Interministerial de Saúde da População Negra.",
+    "datasAto": {
+      "assinatura": "2024-04-15",
+      "publicacao": "2024-04-16"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.996-de-15-de-abril-de-2024-554176637",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11996.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-16:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-16",
+    "hora": "09:00",
+    "titulo": "Ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome, Wellington Dias",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-16:12:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-16",
+    "hora": "12:00",
+    "titulo": "Reunião Virtual Extraordinária de Chefes de Estado e de Governo da Comunidade de Estados Latino-Americanos e Caribenhos (CELAC)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-16:17:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-16",
+    "hora": "17:30",
+    "titulo": "Partida para Bogotá",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-16:20:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-16",
+    "hora": "20:00",
+    "titulo": "Chegada a Bogotá (-2h de fuso com relação ao horário de Brasília)",
+    "local": "Aeroporto Internacional El Dorado – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-16",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.997-de-16-de-abril-de-2024-554416394",
+    "tipo": "ato",
+    "data": "2024-04-17",
+    "titulo": "DECRETO Nº 11.997, DE 16 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.983, de 8 de abril de 2013, que estabelece regras e critérios para elaboração do orçamento de referência de obras e serviços de engenharia, contratados e executados com recursos dos orçamentos da União, e o Decreto nº 11.855, de 26 de dezembro de 2023, que dispõe sobre termos de compromisso relativos às transferências obrigatórias de ...",
+    "datasAto": {
+      "assinatura": "2024-04-16",
+      "publicacao": "2024-04-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.997-de-16-de-abril-de-2024-554416394",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11997.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "10:00",
+    "titulo": "Cerimônia oficial de chegada à Casa de Nariño",
+    "local": "Praça de Armas – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:10:15:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "10:15",
+    "titulo": "Fotografia oficial",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:10:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "10:30",
+    "titulo": "Reunião restrita com o Presidente da República da Colômbia, Gustavo Petro",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "11:30",
+    "titulo": "Reunião ampliada com o Presidente da República da Colômbia, Gustavo Petro",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "12:30",
+    "titulo": "Cerimônia de Assinatura de Atos",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:12:45:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "12:45",
+    "titulo": "Declaração à imprensa",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:13:15:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "13:15",
+    "titulo": "Almoço oficial oferecido pelo Presidente da República da Colômbia, Gustavo Petro",
+    "local": "Casa de Nariño – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "15:00",
+    "titulo": "Sessão de encerramento do Fórum Empresarial Brasil-Colômbia",
+    "local": "Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "17:00",
+    "titulo": "Cerimônia de inauguração da 36ª Feira Internacional do Livro de Bogotá (FILBo)",
+    "local": "Centro de Convenções de Corferias – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "18:30",
+    "titulo": "Visita ao Pavilhão do Brasil na 36ª Feira Internacional do Livro de Bogotá (FILBo)",
+    "local": "Pavilhão 4, Centro de Convenções de Corferias – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-17:19:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-17",
+    "hora": "19:40",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional El Dorado – Bogotá, Colômbia",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-17",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.998-de-17-de-abril-de-2024-554937802",
+    "tipo": "ato",
+    "data": "2024-04-18",
+    "titulo": "DECRETO Nº 11.998, DE 17 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.332, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Agricultura e Pecuária, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-17",
+      "publicacao": "2024-04-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.998-de-17-de-abril-de-2024-554937802",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11998.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-11.999-de-17-de-abril-de-2024-554926716",
+    "tipo": "ato",
+    "data": "2024-04-18",
+    "titulo": "DECRETO Nº 11.999, DE 17 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a Comissão Nacional de Residência Médica e sobre o exercício das funções de regulação, supervisão e avaliação de programas de residência médica e das instituições que os ofertem.",
+    "datasAto": {
+      "assinatura": "2024-04-17",
+      "publicacao": "2024-04-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.999-de-17-de-abril-de-2024-554926716",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11999.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-18:03:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-18",
+    "hora": "03:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-18:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-18",
+    "hora": "15:00",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-18:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-18",
+    "hora": "15:30",
+    "titulo": "Presidente da Agência Brasileira de Promoção Internacional do Turismo – Embratur, Marcelo Freixo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-18:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-18",
+    "hora": "17:00",
+    "titulo": "Reunião do Conselho Nacional de Política Indigenista (CNPI)",
+    "local": "Palácio da Justiça, Salão Negro",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-18",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.000-de-18-de-abril-de-2024-555166106",
+    "tipo": "ato",
+    "data": "2024-04-19",
+    "titulo": "DECRETO Nº 12.000, DE 18 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Aldeia Velha, localizada no Município de Porto Seguro, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2024-04-18",
+      "publicacao": "2024-04-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.000-de-18-de-abril-de-2024-555166106",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12000.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.001-de-18-de-abril-de-2024-555160509",
+    "tipo": "ato",
+    "data": "2024-04-19",
+    "titulo": "DECRETO Nº 12.001, DE 18 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Cacique Fontoura, localizada nos Municípios de Luciara e de São Félix do Araguaia, Estado do Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2024-04-18",
+      "publicacao": "2024-04-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.001-de-18-de-abril-de-2024-555160509",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12001.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-19:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-19",
+    "hora": "09:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro Substituto da Fazenda, Dario Durigan",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-19:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-19",
+    "hora": "10:00",
+    "titulo": "Cerimônia do Dia do Exército",
+    "local": "Quartel-General do Exército – Setor Militar Urbano",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-19:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-19",
+    "hora": "15:00",
+    "titulo": "Fundador e Controlador do Grupo América Móvil (AMX), Carlos Slim",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-19:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-19",
+    "hora": "16:00",
+    "titulo": "Presidente da Honda para a América do Sul, Arata Ichinose",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-19",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "10:00",
+    "titulo": "Cerimônia de Lançamento do Programa Acredita",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "11:00",
+    "titulo": "Presidenta do Banco do Brasil, Tarciana Medeiros",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "15:00",
+    "titulo": "Presidente Conselho de Administração da Cosan, Rubens Ometto",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "16:00",
+    "titulo": "Presidente do Grupo MSC, Diego Aponte",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-22:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-22",
+    "hora": "17:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, Ministro da Fazenda, Fernando Haddad, e Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-22",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.002-de-22-de-abril-de-2024-555690948",
+    "tipo": "ato",
+    "data": "2024-04-23",
+    "titulo": "DECRETO Nº 12.002, DE 22 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Estabelece normas para elaboração, redação, alteração e consolidação de atos normativos.",
+    "datasAto": {
+      "assinatura": "2024-04-22",
+      "publicacao": "2024-04-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.002-de-22-de-abril-de-2024-555690948",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12002.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.213-de-22-de-abril-de-2024-555711402",
+    "tipo": "ato",
+    "data": "2024-04-23",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.213, DE 22 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Programa Acredita no Primeiro Passo, o Programa de Mobilização de Capital Privado Externo e Proteção Cambial - Programa Eco Invest Brasil, altera a Lei nº 13.999, de 18 de maio de 2020, para instituir o Programa de Crédito e Financiamento de Dívidas de Microempreendedores Individuais e Microempresas - Procred 360, institui o Programa de...",
+    "datasAto": {
+      "assinatura": "2024-04-22",
+      "publicacao": "2024-04-23"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.213-de-22-de-abril-de-2024-555711402",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-23:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-23",
+    "hora": "10:00",
+    "titulo": "Café com jornalistas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-23:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-23",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-23",
+    "hora": "15:00",
+    "titulo": "Presidente do Banco Africano de Desenvolvimento, Akinwumi Adesina",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-23:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-23",
+    "hora": "16:00",
+    "titulo": "Ministra de Relações Internacionais e Cooperação da República da África do Sul, Naledi Pandor",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-23:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-23",
+    "hora": "17:00",
+    "titulo": "Presidenta Nacional do Partido dos Trabalhadores, Deputada Federal Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-23",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.003-de-23-de-abril-de-2024-555730013",
+    "tipo": "ato",
+    "data": "2024-04-24",
+    "titulo": "DECRETO Nº 12.003, DE 23 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.691, de 5 de setembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Educação, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2024-04-23",
+      "publicacao": "2024-04-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.003-de-23-de-abril-de-2024-555730013",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12003.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.004-de-23-de-abril-de-2024-555712399",
+    "tipo": "ato",
+    "data": "2024-04-24",
+    "titulo": "DECRETO Nº 12.004, DE 23 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Remaneja, em caráter temporário, cargos em comissão para o Ministério da Agricultura e Pecuária.",
+    "datasAto": {
+      "assinatura": "2024-04-23",
+      "publicacao": "2024-04-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.004-de-23-de-abril-de-2024-555712399",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12004.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.005-de-23-de-abril-de-2024-555712506",
+    "tipo": "ato",
+    "data": "2024-04-24",
+    "titulo": "DECRETO Nº 12.005, DE 23 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Comitê Editorial e de Programação da Empresa Brasil de Comunicação.",
+    "datasAto": {
+      "assinatura": "2024-04-23",
+      "publicacao": "2024-04-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.005-de-23-de-abril-de-2024-555712506",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12005.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "10:00",
+    "titulo": "Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:11:15:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "11:15",
+    "titulo": "Sanção do Projeto de Lei n° 5009/2019, que atribui medida especial de proteção aos trabalhadores em arquivos, bibliotecas, museus e centros de documentação e memória",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:11:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "11:30",
+    "titulo": "Sanção do Projeto de Lei n° 3724/2021, que reconhece como manifestação da cultura nacional os blocos e as bandas de carnaval",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:11:45:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "11:45",
+    "titulo": "Sanção do Projeto de Lei n° 3144/2021, que institui a região turística do Vale do Panema como Área Especial de Interesse Turístico",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "15:00",
+    "titulo": "Presidente da Federação das Indústrias do Estado de São Paulo (Fiesp), Josué Gomes",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-24:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-24",
+    "hora": "16:00",
+    "titulo": "Senador Rogério Carvalho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-24",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.006-de-24-de-abril-de-2024-556223723",
+    "tipo": "ato",
+    "data": "2024-04-25",
+    "titulo": "DECRETO Nº 12.006, DE 24 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Sistema Nacional de Acompanhamento e Combate à Violência nas Escolas e regulamenta a Lei nº 14.643, de 2 de agosto de 2023.",
+    "datasAto": {
+      "assinatura": "2024-04-24",
+      "publicacao": "2024-04-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.006-de-24-de-abril-de-2024-556223723",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12006.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.844-de-24-de-abril-de-2024-556202810",
+    "tipo": "ato",
+    "data": "2024-04-25",
+    "titulo": "LEI Nº 14.844, DE 24 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui a região turística Vale do Panema como Área Especial de Interesse Turístico, nos termos que especifica.",
+    "datasAto": {
+      "assinatura": "2024-04-24",
+      "publicacao": "2024-04-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.844-de-24-de-abril-de-2024-556202810",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14844.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.845-de-24-de-abril-de-2024-556227438",
+    "tipo": "ato",
+    "data": "2024-04-25",
+    "titulo": "LEI Nº 14.845, DE 24 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Reconhece como manifestação da cultura nacional os blocos e as bandas de carnaval.",
+    "datasAto": {
+      "assinatura": "2024-04-24",
+      "publicacao": "2024-04-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.845-de-24-de-abril-de-2024-556227438",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14845.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.846-de-24-de-abril-de-2024-556228845",
+    "tipo": "ato",
+    "data": "2024-04-25",
+    "titulo": "LEI Nº 14.846, DE 24 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Acrescenta dispositivo à Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para atribuir medida especial de proteção ao trabalho realizado em arquivos, em bibliotecas, em museus e em centros de documentação e memória.",
+    "datasAto": {
+      "assinatura": "2024-04-24",
+      "publicacao": "2024-04-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.846-de-24-de-abril-de-2024-556228845",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14846.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "10:00",
+    "titulo": "Sanção do Projeto de Lei n° 2221/2023, que dispõe sobre o atendimento a mulheres vítimas de violência em ambiente privativo e individualizado nos serviços de saúde prestados no âmbito do SUS",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Comemoração de Aniversário da Embrapa 50+",
+    "local": "Pavilhão da Sede da Embrapa",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:16:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "16:00",
+    "titulo": "Telefonema com o Presidente do Governo da Espanha, Pedro Sánchez",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "16:30",
+    "titulo": "Encontro com lideranças e coordenadores de organizações indígenas",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-25:20:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-25",
+    "hora": "20:00",
+    "titulo": "Jantar em comemoração dos 50 anos do 25 de Abril – Revolução dos Cravos",
+    "local": "Residência oficial da Embaixada de Portugal em Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.002-de-22-de-abril-de-2024-556244402",
+    "tipo": "ato",
+    "data": "2024-04-26",
+    "titulo": "DECRETO Nº 12.002, DE 22 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "(Publicado no DOU de 23 de abril de 2024) CAPÍTULO V (*) DA CONSULTA PÚBLICA Consulta pública sobre ato normativo Art. 27. A consulta pública poderá ser realizada: I - no caso de ato normativo a ser submetido ao Presidente da República, pelos órgãos competentes para referendar a proposta final sobre a matéria; e II - no caso de ato normativo inferior a dec...",
+    "datasAto": {
+      "assinatura": "2024-04-22",
+      "publicacao": "2024-04-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.002-de-22-de-abril-de-2024-556244402",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12002.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.007-de-25-de-abril-de-2024-556247737",
+    "tipo": "ato",
+    "data": "2024-04-26",
+    "titulo": "DECRETO Nº 12.007, DE 25 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Institui o Comitê Técnico Interinstitucional de Uma Só Saúde.",
+    "datasAto": {
+      "assinatura": "2024-04-25",
+      "publicacao": "2024-04-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.007-de-25-de-abril-de-2024-556247737",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12007.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-14.847-de-25-de-abril-de-2024-556251717",
+    "tipo": "ato",
+    "data": "2024-04-26",
+    "titulo": "LEI Nº 14.847, DE 25 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), para dispor sobre o atendimento de mulheres vítimas de violência em ambiente privativo e individualizado nos serviços de saúde prestados no âmbito do Sistema Único de Saúde.",
+    "datasAto": {
+      "assinatura": "2024-04-25",
+      "publicacao": "2024-04-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.847-de-25-de-abril-de-2024-556251717",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14847.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:08:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "08:00",
+    "titulo": "Partida para Belo Horizonte",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "09:00",
+    "titulo": "Chegada a Belo Horizonte",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:09:45:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "09:45",
+    "titulo": "Visita à planta de produção de insulina da Biomm",
+    "local": "Planta de produção da Biomm – Nova Lima (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:10:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "10:40",
+    "titulo": "Cerimônia de inauguração da planta de produção de insulina da Biomm",
+    "local": "Planta de produção da Biomm – Nova Lima (MG)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:12:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "12:30",
+    "titulo": "Partida para São José dos Campos (SP)",
+    "local": "Aeroporto da Pampulha – Belo Horizonte",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:13:20:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "13:20",
+    "titulo": "Chegada a São José dos Campos (SP)",
+    "local": "Aeroporto de São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:14:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "14:00",
+    "titulo": "Inauguração de prédio de alojamento para estudantes do Instituto Tecnológico de Aeronáutica (ITA)",
+    "local": "Instituto Tecnológico de Aeronáutica (ITA) – São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:15:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "15:30",
+    "titulo": "Reunião com Presidente e CEO da Embraer, Francisco Gomes Neto",
+    "local": "Fábrica da Embraer, Hangar F300 – São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:16:10:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "16:10",
+    "titulo": "Reunião com o Diretor-Presidente da Azul, John Rodgerson",
+    "local": "Fábrica da Embraer, Hangar F300 – São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:16:45:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "16:45",
+    "titulo": "Cerimônia de entrega de aeronave da Embraer à Azul",
+    "local": "Fábrica da Embraer, Hangar F300 – São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:18:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "18:30",
+    "titulo": "Partida para São Paulo",
+    "local": "Aeroporto de São José dos Campos (SP)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-26:18:50:1",
+    "tipo": "agenda",
+    "data": "2024-04-26",
+    "hora": "18:50",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-26",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-29:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-29",
+    "hora": "10:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-29:11:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-29",
+    "hora": "11:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-29:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-29",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-29",
+    "hora": "15:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-29:17:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-29",
+    "hora": "17:00",
+    "titulo": "Ministro da Fazenda, Fernando Haddad",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-29",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.008-de-29-de-abril-de-2024-557058508",
+    "tipo": "ato",
+    "data": "2024-04-30",
+    "titulo": "DECRETO Nº 12.008, DE 29 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 9.305, de 13 de março de 2018, que dispõe sobre a composição e as competências do Conselho de Participação do Fundo Garantidor do Fundo de Financiamento Estudantil - Fies e trata da integralização de cotas do Fundo Garantidor do Fies pela União.",
+    "datasAto": {
+      "assinatura": "2024-04-29",
+      "publicacao": "2024-04-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.008-de-29-de-abril-de-2024-557058508",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12008.htm",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.214-de-29-de-abril-de-2024-557029419",
+    "tipo": "ato",
+    "data": "2024-04-30",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.214, DE 29 DE ABRIL DE 2024",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 369.000.000,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2024-04-29",
+      "publicacao": "2024-04-30"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.214-de-29-de-abril-de-2024-557029419",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:09:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Relações Institucionais, Alexandre Padilha",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:10:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "10:00",
+    "titulo": "Entrevista a jornalistas de veículos de comunicação japoneses",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:14:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "14:30",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Wellington César Lima",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:14:40:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "14:40",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski, Ministro do Trabalho e Emprego, Luiz Marinho, Advogado-Geral da União, Jorge Messias, e Presidente do Tribunal Superior do Trabalho, Ministro Lelio Bentes Corrêa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:15:00:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "15:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro das Cidades, Jader Filho",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2024-04-30:16:30:1",
+    "tipo": "agenda",
+    "data": "2024-04-30",
+    "hora": "16:30",
+    "titulo": "Ministra da Ciência, Tecnologia e Inovação, Luciana Santos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-30",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]

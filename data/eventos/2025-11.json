@@ -1,0 +1,5260 @@
+[
+  {
+    "id": "agenda:2025-11-01:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-01",
+    "hora": "08:00",
+    "titulo": "Partida para Belém",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-01:10:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-01",
+    "hora": "10:10",
+    "titulo": "Chegada em Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-01:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-01",
+    "hora": "10:30",
+    "titulo": "Visita e inauguração das obras de modernização do Aeroporto Internacional de Belém",
+    "local": "Avenida Júlio César, s/n - Val-de-Cães, Belém (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-01:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-01",
+    "hora": "12:00",
+    "titulo": "Visita alusiva à conclusão das obras de requalificação do Terminal Portuário de Outeiro",
+    "local": "Ilha de Caratateua, Estrada BL 10, Distrito de Outeiro, Belém (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-01",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:07:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "07:00",
+    "titulo": "Partida para Santarém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "08:00",
+    "titulo": "Chegada a Santarém (PA)",
+    "local": "Aeroporto Internacional de Santarém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:11:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "11:10",
+    "titulo": "Roda de conversa com caciques do povo Kumaruara",
+    "local": "Aldeia Vista Alegre de Capixauã",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:12:05:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "12:05",
+    "titulo": "Visita à Aldeia Vista Alegre do Capixauã",
+    "local": "Reserva Extrativista Tapajós-Arapiuns",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "15:00",
+    "titulo": "Visita à Comunidade Jamaraquá",
+    "local": "Floresta Nacional do Tapajós",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "16:00",
+    "titulo": "Roda de conversa com moradores das comunidades ribeirinhas da Floresta Nacional do Tapajós",
+    "local": "Floresta Nacional do Tapajós",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:17:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "17:30",
+    "titulo": "Partida para Belém",
+    "local": "Aeroporto Internacional de Santarém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-02:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-02",
+    "hora": "18:30",
+    "titulo": "Chegada a Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-02",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.704-de-31-de-outubro-2025-666147758",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.704, DE 31 DE OUTUBRO 2025",
+    "status": "publicado",
+    "ementa": "Autoriza o emprego das Forças Armadas para a Garantia da Lei e da Ordem no período de 2 a 23 de novembro de 2025, por ocasião da Reunião da Cúpula de Líderes e da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima - COP30, a serem realizadas no Município de Belém, com a inclusão de ações em áreas com infraestruturas crít...",
+    "datasAto": {
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.704-de-31-de-outubro-2025-666147758",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.705-de-31-de-outubro-de-2025-666148942",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.705, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Estabelece a Taxonomia Sustentável Brasileira - TSB como instrumento do Plano de Transformação Ecológica do Poder Executivo federal.",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.705-de-31-de-outubro-de-2025-666148942",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12705.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.706-de-31-de-outubro-de-2025-666160379",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.706, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de utilidade pública, para fins de desapropriação integral, em favor da União, o imóvel que menciona, localizado no Município de Foz do Iguaçu, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.706-de-31-de-outubro-de-2025-666160379",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12706.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.707-de-31-de-outubro-de-2025-666151037",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.707, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Anexo I ao Decreto nº 5.751, de 12 de abril de 2006, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão do Grupo-Direção e Assessoramento Superiores - DAS e das Funções Gratificadas do Comando do Exército do Ministério da Defesa.",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.707-de-31-de-outubro-de-2025-666151037",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12707.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.708-de-31-de-outubro-de-2025-666159753",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.708, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.798, de 28 de novembro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Saúde, e remaneja e transforma cargos em comissão e funções de confiança.",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.708-de-31-de-outubro-de-2025-666159753",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12708.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.709-de-31-de-outubro-de-2025-666169236",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "DECRETO Nº 12.709, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Regulamenta a fiscalização de produtos de origem vegetal estabelecida pela Lei nº 7.678, de 8 de novembro de 1988, pelo art. 27-A,caput, inciso IV, e § 1º, inciso III, pelo art. 28-A e pelo art. 29-A da Lei nº 8.171, de 17 de janeiro de 1991, pela Lei nº 8.918, de 14 de julho de 1994, pela Lei nº 9.972, de 25 de maio de 2000, e pela Lei nº 14.515, de 29 ...",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.709-de-31-de-outubro-de-2025-666169236",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12709.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-220-de-31-de-outubro-de-2025-666057479",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "LEI COMPLEMENTAR Nº 220, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Sistema Nacional de Educação (SNE) e fixa normas para a cooperação entre a União, os Estados, o Distrito Federal e os Municípios para elaboração e implementação de políticas, de programas e de ações educacionais, em regime de colaboração.",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-220-de-31-de-outubro-de-2025-666057479",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.247-de-31-de-outubro-de-2025-666156485",
+    "tipo": "ato",
+    "data": "2025-11-03",
+    "titulo": "LEI Nº 15.247, DE 31 DE OUTUBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o Compromisso Nacional Criança Alfabetizada (Compromisso).",
+    "datasAto": {
+      "assinatura": "2025-10-31",
+      "publicacao": "2025-11-03"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.247-de-31-de-outubro-de-2025-666156485",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15247.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-03:09:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-03",
+    "hora": "09:10",
+    "titulo": "Visita ao Quilombo Itacoã Miri",
+    "local": "Acará (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-03:12:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-03",
+    "hora": "12:20",
+    "titulo": "Visita ao Projeto de Assentamento Agroextrativista (PAE) de Ilha Grande",
+    "local": "Ilha Grande – Belém (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-03:15:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-03",
+    "hora": "15:50",
+    "titulo": "Chegada à Base Naval de Val de Cães",
+    "local": "Base Naval de Val de Cães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-03",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.248-de-3-de-novembro-de-2025-666596684",
+    "tipo": "ato",
+    "data": "2025-11-04",
+    "titulo": "LEI Nº 15.248, DE 3 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional do Motociclista Profissional.",
+    "datasAto": {
+      "assinatura": "2025-11-03",
+      "publicacao": "2025-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.248-de-3-de-novembro-de-2025-666596684",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15248.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.249-de-3-de-novembro-de-2025-666586195",
+    "tipo": "ato",
+    "data": "2025-11-04",
+    "titulo": "LEI Nº 15.249, DE 3 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.098, de 19 de dezembro de 2000 (Lei da Acessibilidade), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para dispor sobre a instalação de sistemas de comunicação aumentativa e alternativa de baixa tecnologia em espaços públicos e abertos ao público, com vistas à promoção da acessibilidade da pessoa com necess...",
+    "datasAto": {
+      "assinatura": "2025-11-03",
+      "publicacao": "2025-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.249-de-3-de-novembro-de-2025-666586195",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15249.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.250-de-3-de-novembro-de-2025-666598218",
+    "tipo": "ato",
+    "data": "2025-11-04",
+    "titulo": "LEI Nº 15.250, DE 3 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre o exercício da atividade de condutor de ambulância.",
+    "datasAto": {
+      "assinatura": "2025-11-03",
+      "publicacao": "2025-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.250-de-3-de-novembro-de-2025-666598218",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15250.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.251-de-3-de-novembro-de-2025-666598905",
+    "tipo": "ato",
+    "data": "2025-11-04",
+    "titulo": "LEI Nº 15.251, DE 3 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a transferência simbólica da capital da República Federativa do Brasil para a cidade de Belém, no Estado do Pará, durante a 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima (COP 30), a ser realizada no período de 11 a 21 de novembro de 2025.",
+    "datasAto": {
+      "assinatura": "2025-11-03",
+      "publicacao": "2025-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.251-de-3-de-novembro-de-2025-666598905",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15251.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-04:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-04",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria-Geral da Presidência da República, Guilherme Boulos",
+    "local": "Base Naval de Val de Cães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-04:14:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-04",
+    "hora": "14:30",
+    "titulo": "Chefe do Gabinete Adjunto de Agenda do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Base Naval de Val de Cães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-04",
+    "hora": "15:00",
+    "titulo": "Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann",
+    "local": "Base Naval de Val de Cães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-04:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-04",
+    "hora": "16:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "local": "Base Naval de Val de Cães",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-04",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.252-de-4-de-novembro-de-2025-666795967",
+    "tipo": "ato",
+    "data": "2025-11-05",
+    "titulo": "LEI Nº 15.252, DE 4 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre os direitos da pessoa natural usuária de serviços financeiros.",
+    "datasAto": {
+      "assinatura": "2025-11-04",
+      "publicacao": "2025-11-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.252-de-4-de-novembro-de-2025-666795967",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15252.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.323-de-4-de-novembro-de-2025-666806597",
+    "tipo": "ato",
+    "data": "2025-11-05",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.323, DE 4 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.779, de 25 de novembro de 2003, que dispõe sobre a concessão do benefício de seguro-desemprego, durante o período de defeso, ao pescador profissional que exerce a atividade pesqueira de forma artesanal.",
+    "datasAto": {
+      "assinatura": "2025-11-04",
+      "publicacao": "2025-11-05"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.323-de-4-de-novembro-de-2025-666806597",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "09:00",
+    "titulo": "Audiência ao Presidente do Banco Africano de Desenvolvimento (BAD), Sidi Ould Tah",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:09:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "09:50",
+    "titulo": "Reunião bilateral com o Presidente da República do Congo (Congo Brazzaville), Denis Sassou N’Guesso",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:10:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "10:40",
+    "titulo": "Reunião bilateral com o Presidente da República da Finlândia, Alexander Stubb",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "11:30",
+    "titulo": "Reunião bilateral com o Presidente de Comores, Azali Assoumani",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:14:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "14:20",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro de Papua-Nova Guiné, James Marape",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:15:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "15:10",
+    "titulo": "Reunião bilateral com a Presidenta da República do Suriname, Jennifer Geerlings-Simons",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "16:00",
+    "titulo": "Reunião bilateral com o Vice-Primeiro-Ministro do Conselho de Estado da República Popular da China, Ding Xuexiang",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:16:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "16:50",
+    "titulo": "Reunião bilateral com a Presidenta da República de Honduras, Xiomara Castro",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-05:17:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-05",
+    "hora": "17:40",
+    "titulo": "Reunião bilateral com a Presidente da Comissão Europeia, Ursula von der Leyen",
+    "local": "Museu Paraense Emílio Goeldi",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-05",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.710-de-5-de-novembro-de-2025-667113571",
+    "tipo": "ato",
+    "data": "2025-11-06",
+    "titulo": "DECRETO Nº 12.710, DE 5 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Plano Nacional de Proteção a Defensoras e Defensores de Direitos Humanos.",
+    "datasAto": {
+      "assinatura": "2025-11-05",
+      "publicacao": "2025-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.710-de-5-de-novembro-de-2025-667113571",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12710.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.253-de-5-de-novembro-de-2025-667085923",
+    "tipo": "ato",
+    "data": "2025-11-06",
+    "titulo": "LEI Nº 15.253, DE 5 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria funções comissionadas e cargos de provimento efetivo da carreira de Técnico Judiciário - Área Administrativa - Agente da Polícia Judicial no quadro de pessoal do Supremo Tribunal Federal.",
+    "datasAto": {
+      "assinatura": "2025-11-05",
+      "publicacao": "2025-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.253-de-5-de-novembro-de-2025-667085923",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15253.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:08:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "08:30",
+    "titulo": "Recepção Oficial dos Chefes de Delegação da Cúpula do Clima",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "10:30",
+    "titulo": "Abertura da Sessão Plenária da Cúpula do Clima",
+    "local": "Salão Plenário",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "12:00",
+    "titulo": "Reunião bilateral com o Príncipe de Gales, Príncipe William, e com o Primeiro-Ministro do Reino Unido da Grã-Bretanha e da Irlanda do Norte, Keir Starmer",
+    "local": "Sala reservada do Presidente da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "13:00",
+    "titulo": "Almoço oferecido pelo Presidente da República aos Chefes de Estado e de Governo dos países integrantes do Fundo de Florestas Tropicais (TFFF)",
+    "local": "Mesa Redonda de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "15:00",
+    "titulo": "Reunião bilateral com o Presidente da França, Emmanuel Macron",
+    "local": "Sala reservada do Presidente da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "16:00",
+    "titulo": "Primeira Sessão Temática da Mesa Redonda de Líderes: “Clima e Natureza: Florestas e Oceanos”",
+    "local": "Mesa Redonda de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:18:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "18:15",
+    "titulo": "Fotografia dos Chefes de Delegação da Cúpula do Clima",
+    "local": "Área interna, Área de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-06:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-06",
+    "hora": "18:30",
+    "titulo": "Coquetel oferecido pelo Presidente da República e pela senhora Janja Lula da Silva aos Chefes de Delegação",
+    "local": "Área de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-06",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.711-de-6-de-novembro-de-2025-667433541",
+    "tipo": "ato",
+    "data": "2025-11-07",
+    "titulo": "DECRETO Nº 12.711, DE 6 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.419, de 7 de julho de 2020, para dispor sobre a inspeçãoante mortemepost mortemde animais destinados ao abate.",
+    "datasAto": {
+      "assinatura": "2025-11-06",
+      "publicacao": "2025-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.711-de-6-de-novembro-de-2025-667433541",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12711.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.254-de-6-de-novembro-de-2025-667416707",
+    "tipo": "ato",
+    "data": "2025-11-07",
+    "titulo": "LEI Nº 15.254, DE 6 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional da Proteção de Dados.",
+    "datasAto": {
+      "assinatura": "2025-11-06",
+      "publicacao": "2025-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.254-de-6-de-novembro-de-2025-667416707",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15254.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.324-de-6-de-novembro-de-2025-667413227",
+    "tipo": "ato",
+    "data": "2025-11-07",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.324, DE 6 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome, no valor de R$ 230.380.000,00, para o fim que especifica.",
+    "datasAto": {
+      "assinatura": "2025-11-06",
+      "publicacao": "2025-11-07"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.324-de-6-de-novembro-de-2025-667413227",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "10:00",
+    "titulo": "Fotografia oficial da Cúpula do Clima",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "10:30",
+    "titulo": "Sessão Plenária da Cúpula do Clima (continuação)",
+    "local": "Salão Plenário",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "11:00",
+    "titulo": "Segunda Sessão Temática da Mesa de Líderes: “Transição Energética”",
+    "local": "Parque da Cidade, Mesa Redonda de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:12:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "12:30",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro da Alemanha, Friedrich Merz",
+    "local": "Sala reservada do Presidente da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "15:00",
+    "titulo": "Reunião bilateral com o Presidente da República de Moçambique, Daniel Chapo",
+    "local": "Sala reservada do Presidente da República",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-07:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-07",
+    "hora": "16:00",
+    "titulo": "Terceira Sessão Temática da Mesa de Líderes: “10 Anos do Acordo de Paris: Contribuições Nacionalmente Determinadas (NDCs) e Financiamento”",
+    "local": "Mesa Redonda de Líderes",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-07",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:07:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "07:00",
+    "titulo": "Partida para Santa Marta, Colômbia",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:09:35:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "09:35",
+    "titulo": "Chegada a Santa Marta",
+    "local": "Aeroporto Internacional Simón Bolívar, Santa Marta",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "10:00",
+    "titulo": "Abertura da 4.ª Cúpula de Chefes de Estado e de Governo da CELAC e da UE",
+    "local": "Hotel Estelar Santamar",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "11:00",
+    "titulo": "Sessão Plenária de Chefes de Estado e de Governo",
+    "local": "Hotel Estelar Santamar",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "13:00",
+    "titulo": "Partida para Belém",
+    "local": "Aeroporto Internacional Simón Bolívar, Santa Marta",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-09:19:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-09",
+    "hora": "19:20",
+    "titulo": "Chegada a Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-09",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-10:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-10",
+    "hora": "10:00",
+    "titulo": "Abertura da 30.ª Conferência das Partes da Convenção- Quadro das Nações Unidas sobre a Mudança do Clima (COP30)",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-10",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.255-de-10-de-novembro-de-2025-668049745",
+    "tipo": "ato",
+    "data": "2025-11-11",
+    "titulo": "LEI Nº 15.255, DE 10 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 10.880, de 9 de junho de 2004, e a Lei nº 11.947, de 16 de junho de 2009, para dispor sobre o Programa Nacional de Apoio ao Transporte do Escolar (PNATE) e o Programa Nacional de Alimentação Escolar (PNAE) nas escolas da Rede Federal de Educação Profissional, Científica e Tecnológica e nas demais escolas federais.",
+    "datasAto": {
+      "assinatura": "2025-11-10",
+      "publicacao": "2025-11-11"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.255-de-10-de-novembro-de-2025-668049745",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15255.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-11:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-11",
+    "hora": "09:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-11:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-11",
+    "hora": "10:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-11:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-11",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-11:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-11",
+    "hora": "15:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-11:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-11",
+    "hora": "16:00",
+    "titulo": "Ministro do Trabalho e Emprego, Luiz Marinho",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-11",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.712-de-11-de-novembro-de-2025-668341267",
+    "tipo": "ato",
+    "data": "2025-11-12",
+    "titulo": "DECRETO Nº 12.712, DE 11 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.854, de 10 de novembro de 2021, para dispor sobre o Programa de Alimentação do Trabalhador e estabelecer parâmetros e condições aplicáveis às modalidades de auxílio-refeição e auxílio-alimentação, nos termos do disposto na Lei nº 14.442, de 2 de setembro de 2022.",
+    "datasAto": {
+      "assinatura": "2025-11-11",
+      "publicacao": "2025-11-12"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.712-de-11-de-novembro-de-2025-668341267",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12712.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-12:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-12",
+    "hora": "09:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-12:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-12",
+    "hora": "10:30",
+    "titulo": "Ministra da Secretaria de Relações Institucionais da Presidência da República, Gleisi Hoffmann",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-12:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-12",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-12:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-12",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-12",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.713-de-12-de-novembro-de-2025-668641583",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "DECRETO Nº 12.713, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Serra Azul Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Mateus Leme, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.713-de-12-de-novembro-de-2025-668641583",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12713.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.714-de-12-de-novembro-de-2025-668622906",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "DECRETO Nº 12.714, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Tibagi Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Apucarana, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.714-de-12-de-novembro-de-2025-668622906",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12714.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.715-de-12-de-novembro-de-2025-668637927",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "DECRETO Nº 12.715, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Rádio Televisão de Sergipe Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Aracaju, Estado de Sergipe.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.715-de-12-de-novembro-de-2025-668637927",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12715.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.716-de-12-de-novembro-de-2025-668626264",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "DECRETO Nº 12.716, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 7.646, de 21 de dezembro de 2011, que dispõe sobre a Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde e sobre o processo administrativo para incorporação, exclusão e alteração de tecnologias em saúde pelo Sistema Único de Saúde.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.716-de-12-de-novembro-de-2025-668626264",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12716.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.256-de-12-de-novembro-de-2025-668623062",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "LEI Nº 15.256, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 12.764, de 27 de dezembro de 2012, para incentivar a realização da investigação diagnóstica do transtorno do espectro autista em pessoas adultas e idosas.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.256-de-12-de-novembro-de-2025-668623062",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15256.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.257-de-12-de-novembro-de-2025-668621313",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "LEI Nº 15.257, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Revoga as Leis nºs 3.807, de 26 de agosto de 1960 (Lei Orgânica da Previdência Social), 5.890, de 8 de junho de 1973, e 6.367, de 19 de outubro de 1976, e dispositivos do Decreto-Lei nº 72, de 21 de novembro de 1966.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.257-de-12-de-novembro-de-2025-668621313",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15257.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.258-de-12-de-novembro-de-2025-668636136",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "LEI Nº 15.258, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o mês de novembro como o Mês Nacional da Segurança Aquática.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.258-de-12-de-novembro-de-2025-668636136",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15258.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.259-de-12-de-novembro-de-2025-668619008",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "LEI Nº 15.259, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Dia Nacional da Capoterapia.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.259-de-12-de-novembro-de-2025-668619008",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15259.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.260-de-12-de-novembro-de-2025-668631610",
+    "tipo": "ato",
+    "data": "2025-11-13",
+    "titulo": "LEI Nº 15.260, DE 12 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.934, de 18 de novembro de 1994, que dispõe sobre o Registro Público de Empresas Mercantis e Atividades Afins.",
+    "datasAto": {
+      "assinatura": "2025-11-12",
+      "publicacao": "2025-11-13"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.260-de-12-de-novembro-de-2025-668631610",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15260.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-13:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-13",
+    "hora": "09:30",
+    "titulo": "Reunião",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-13:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-13",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-13:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-13",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-13:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-13",
+    "hora": "16:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-13:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-13",
+    "hora": "17:00",
+    "titulo": "Ministro de Minas e Energia, Alexandre Silveira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-13",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.717-de-13-de-novembro-de-2025-668935380",
+    "tipo": "ato",
+    "data": "2025-11-14",
+    "titulo": "DECRETO Nº 12.717, DE 13 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 4.797, de 31 de julho de 2003, que dispõe sobre a Ordem Nacional do Mérito Educativo.",
+    "datasAto": {
+      "assinatura": "2025-11-13",
+      "publicacao": "2025-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.717-de-13-de-novembro-de-2025-668935380",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12717.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.718-de-13-de-novembro-de-2025-668958011",
+    "tipo": "ato",
+    "data": "2025-11-14",
+    "titulo": "DECRETO Nº 12.718, DE 13 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo entre o Governo da República Federativa do Brasil e o Governo do Grão-Ducado de Luxemburgo sobre Troca e Proteção Mútua de Informação Classificada, firmado em Nova Iorque, em 25 de setembro de 2018.",
+    "datasAto": {
+      "assinatura": "2025-11-13",
+      "publicacao": "2025-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.718-de-13-de-novembro-de-2025-668958011",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12718.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.261-de-13-de-novembro-de-2025-668935482",
+    "tipo": "ato",
+    "data": "2025-11-14",
+    "titulo": "LEI Nº 15.261, DE 13 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 6.791, de 9 de junho de 1980, para modificar a data do Dia Nacional da Mulher e incluir o Dia Internacional da Mulher no calendário nacional de datas comemorativas; e institui o Dia Nacional das Meninas e inclui o Dia Internacional das Meninas no calendário nacional de datas comemorativas.",
+    "datasAto": {
+      "assinatura": "2025-11-13",
+      "publicacao": "2025-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.261-de-13-de-novembro-de-2025-668935482",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15261.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.262-de-13-de-novembro-de-2025-668940860",
+    "tipo": "ato",
+    "data": "2025-11-14",
+    "titulo": "LEI Nº 15.262, DE 13 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria funções comissionadas no quadro de pessoal do Superior Tribunal de Justiça.",
+    "datasAto": {
+      "assinatura": "2025-11-13",
+      "publicacao": "2025-11-14"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.262-de-13-de-novembro-de-2025-668940860",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15262.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-14:09:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-14",
+    "hora": "09:30",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Marco Aurélio Marcola",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-14:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-14",
+    "hora": "15:00",
+    "titulo": "Cerimônia de Outorga da Ordem Nacional do Mérito Educativo",
+    "local": "Centro Internacional de Convenções do Brasil –CICB",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-14",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.263-de-14-de-novembro-de-2025-669256398",
+    "tipo": "ato",
+    "data": "2025-11-17",
+    "titulo": "LEI Nº 15.263, DE 14 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Política Nacional de Linguagem Simples nos órgãos e entidades da administração pública direta e indireta de todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios.",
+    "datasAto": {
+      "assinatura": "2025-11-14",
+      "publicacao": "2025-11-17"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.263-de-14-de-novembro-de-2025-669256398",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15263.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-17:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-17",
+    "hora": "10:00",
+    "titulo": "Cerimônia de Entrega do Projeto de Lei do Plano Nacional de Cultura (PNC 2025–2035)",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-17:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-17",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-17:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-17",
+    "hora": "15:00",
+    "titulo": "Ministro da Justiça e Segurança Pública, Ricardo Lewandowski",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-17:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-17",
+    "hora": "16:00",
+    "titulo": "Ministro da Casa Civil, Rui Costa",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-17:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-17",
+    "hora": "17:00",
+    "titulo": "Ministra da Ciência, Tecnologia e Inovação, Luciana Santos",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-17",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.719-de-17-de-novembro-de-2025-669535858",
+    "tipo": "ato",
+    "data": "2025-11-18",
+    "titulo": "DECRETO Nº 12.719, DE 17 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui a Comissão Intergestores Tripartite do Sistema Nacional de Cultura.",
+    "datasAto": {
+      "assinatura": "2025-11-17",
+      "publicacao": "2025-11-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.719-de-17-de-novembro-de-2025-669535858",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12719.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.720-de-17-de-novembro-de-2025-669536992",
+    "tipo": "ato",
+    "data": "2025-11-18",
+    "titulo": "DECRETO Nº 12.720, DE 17 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Kaxuyana-Tunayana, localizada nos Municípios de Faro e Oriximiná, Estado do Pará, e Nhamundá, Estado do Amazonas.",
+    "datasAto": {
+      "assinatura": "2025-11-17",
+      "publicacao": "2025-11-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.720-de-17-de-novembro-de-2025-669536992",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12720.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.721-de-17-de-novembro-de-2025-669550740",
+    "tipo": "ato",
+    "data": "2025-11-18",
+    "titulo": "DECRETO Nº 12.721, DE 17 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Uirapuru, localizada nos Municípios de Campos de Júlio, Nova Lacerda e Conquista D'Oeste, Estado de Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2025-11-17",
+      "publicacao": "2025-11-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.721-de-17-de-novembro-de-2025-669550740",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12721.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.722-de-17-de-novembro-de-2025-669542836",
+    "tipo": "ato",
+    "data": "2025-11-18",
+    "titulo": "DECRETO Nº 12.722, DE 17 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Homologa a demarcação administrativa da terra indígena Estação Parecis, localizada no Município de Diamantino, Estado de Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2025-11-17",
+      "publicacao": "2025-11-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.722-de-17-de-novembro-de-2025-669542836",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12722.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.723-de-17-de-novembro-de-2025-669544340",
+    "tipo": "ato",
+    "data": "2025-11-18",
+    "titulo": "DECRETO Nº 12.723, DE 17 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 98.827, de 15 de janeiro de 1990, que retifica os limites e homologa a demarcação administrativa da Área Indígena Irantxe, localizada no Município de Diamantino, Estado de Mato Grosso.",
+    "datasAto": {
+      "assinatura": "2025-11-17",
+      "publicacao": "2025-11-18"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.723-de-17-de-novembro-de-2025-669544340",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12723.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:08:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "08:00",
+    "titulo": "Partida para Araguaína (TO)",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:09:25:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "09:25",
+    "titulo": "Chegada a Araguaína (TO)",
+    "local": "Aeroporto Regional de Araguaína (TO)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:10:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "10:20",
+    "titulo": "Visita à ponte e corte de fita de inauguração",
+    "local": "Ponte Xambioá, BR-153/TO, Km 1,7 – São Geraldo do Araguaia (PA)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "11:00",
+    "titulo": "Cerimônia de inauguração da ponte entre Xambioá e São Geraldo do Araguaia",
+    "local": "Orla do Rio Araguaia – Xambioá (TO)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:13:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "13:40",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Regional de Araguaína (TO)",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:15:05:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "15:05",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:15:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "15:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "16:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-18:17:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-18",
+    "hora": "17:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-18",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.724-de-18-de-novembro-de-2025-670197664",
+    "tipo": "ato",
+    "data": "2025-11-19",
+    "titulo": "DECRETO Nº 12.724, DE 18 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a execução do Acordo de Complementação Econômica nº 76 entre os Estados Partes do Mercado Comum do Sul (MERCOSUL) Signatários do Tratado de Assunção e a República do Panamá - ACE76, firmado pela República Federativa do Brasil, pela República Argentina, pela República do Paraguai, pela República Oriental do Uruguai e pela República do Panamá...",
+    "datasAto": {
+      "assinatura": "2025-11-18",
+      "publicacao": "2025-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.724-de-18-de-novembro-de-2025-670197664",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12724.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.725-de-18-de-novembro-de-2025-670208756",
+    "tipo": "ato",
+    "data": "2025-11-19",
+    "titulo": "DECRETO Nº 12.725, DE 18 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Aprova a Política Nacional de Defesa, a Estratégia Nacional de Defesa e o Livro Branco de Defesa Nacional.",
+    "datasAto": {
+      "assinatura": "2025-11-18",
+      "publicacao": "2025-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.725-de-18-de-novembro-de-2025-670208756",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12725.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.726-de-18-de-novembro-de-2025-670208999",
+    "tipo": "ato",
+    "data": "2025-11-19",
+    "titulo": "DECRETO Nº 12.726, DE 18 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.337, de 1º de janeiro de 2023, que aprova a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão, das Funções de Confiança e das gratificações do Ministério da Defesa, e remaneja e transforma cargos em comissão, funções de confiança e gratificações.",
+    "datasAto": {
+      "assinatura": "2025-11-18",
+      "publicacao": "2025-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.726-de-18-de-novembro-de-2025-670208999",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12726.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-221-de-18-de-novembro-de-2025-670084287",
+    "tipo": "ato",
+    "data": "2025-11-19",
+    "titulo": "LEI COMPLEMENTAR Nº 221, DE 18 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre projetos estratégicos em defesa nacional.",
+    "datasAto": {
+      "assinatura": "2025-11-18",
+      "publicacao": "2025-11-19"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-221-de-18-de-novembro-de-2025-670084287",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "09:00",
+    "titulo": "Partida para Belém",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:11:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "11:10",
+    "titulo": "Chegada a Belém",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "12:00",
+    "titulo": "Audiência a Ministros do grupo negociador dos países emergentes",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "13:00",
+    "titulo": "Audiência a Ministros do grupo negociador da União Europeia",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:15:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "15:15",
+    "titulo": "Audiência a Ministros dos grupos negociadores dos Pequenos Estados Insulares",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:16:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "16:15",
+    "titulo": "Encontro com a sociedade civil e povos indígenas",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:17:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "17:15",
+    "titulo": "Encontro com setor produtivo e entidades subnacionais",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:18:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "18:15",
+    "titulo": "Encontro com o Ministro do Meio Ambiente da Alemanha, Carsten Schneider",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:18:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "18:30",
+    "titulo": "Reunião bliateral com o Secretário-Geral das Nações Unidas (ONU), Antonio Guterres",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:19:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "19:30",
+    "titulo": "Audiência a Ministros do grupo negociador dos países africanos",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:20:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "20:00",
+    "titulo": "Declaração à imprensa",
+    "local": "Parque da Cidade",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:20:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "20:50",
+    "titulo": "Partida para Brasília",
+    "local": "Base Aérea de Belém",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-19:23:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-19",
+    "hora": "23:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-19",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "11:00",
+    "titulo": "Ministra da Igualdade Racial, Anielle Franco, para assinatura de decretos que declaram de interesse social imóveis rurais situados em territórios quilombolas, alusivos ao Dia da Consciência Negra",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "12:00",
+    "titulo": "Advogado-Geral da União, Jorge Messias",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "13:30",
+    "titulo": "Partida para São Paulo",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:14:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "14:50",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "16:00",
+    "titulo": "Homenagem a Paulo Frateschi",
+    "local": "Paróquia São Domingos, Perdizes – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:18:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "18:15",
+    "titulo": "Visita e cerimônia de abertura do Salão Internacional do Automóvel de São Paulo",
+    "local": "Auditório do Salão Internacional do Automóvel – São Paulo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-20:22:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-20",
+    "hora": "22:00",
+    "titulo": "Partida para Joanesburgo",
+    "local": "Base Aérea de São Paulo – Guarulhos",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-20",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.727-de-19-de-novembro-de-2025-670213606",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.727, DE 19 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Diamante Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Caxias do Sul, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2025-11-19",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.727-de-19-de-novembro-de-2025-670213606",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12727.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.728-de-19-de-novembro-de-2025-670225639",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.728, DE 19 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Riviera Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Rio Verde, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-11-19",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.728-de-19-de-novembro-de-2025-670225639",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12728.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.729-de-20-de-novembro-de-2025-670220053",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.729, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Água Morna, localizados no Município de Curiúva, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.729-de-20-de-novembro-de-2025-670220053",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12729.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.730-de-20-de-novembro-de-2025-670215526",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.730, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Boqueirão da Arara, localizados no Município de Caucaia, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.730-de-20-de-novembro-de-2025-670215526",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12730.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.731-de-20-de-novembro-de-2025-670238626",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.731, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Buracão, localizados no Município de Mineiros, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.731-de-20-de-novembro-de-2025-670238626",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12731.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.732-de-20-de-novembro-de-2025-670214830",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.732, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Buri, localizados no Município de Maragogipe, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.732-de-20-de-novembro-de-2025-670214830",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12732.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.733-de-20-de-novembro-de-2025-670213477",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.733, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Cajá dos Negros, localizados no Município de Batalha, Estado de Alagoas.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.733-de-20-de-novembro-de-2025-670213477",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12733.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.734-de-20-de-novembro-de-2025-670239211",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.734, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Campo dos Polí, localizados no Município de Monte Carlo, Estado de Santa Catarina.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.734-de-20-de-novembro-de-2025-670239211",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12734.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.735-de-20-de-novembro-de-2025-670237429",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.735, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Cariongo, localizado no Município de Santa Rita, Estado do Maranhão.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.735-de-20-de-novembro-de-2025-670237429",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12735.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.736-de-20-de-novembro-de-2025-670225502",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.736, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Cedro, localizados no Município de Mineiros, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.736-de-20-de-novembro-de-2025-670225502",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12736.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.737-de-20-de-novembro-de-2025-670233534",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.737, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Engenho Mundo Novo, localizados no Município de Areia, Estado da Paraíba.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.737-de-20-de-novembro-de-2025-670233534",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12737.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.738-de-20-de-novembro-de-2025-670229364",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.738, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Fazenda Porteiras, localizados no Município de Entre Rios, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.738-de-20-de-novembro-de-2025-670229364",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12738.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.739-de-20-de-novembro-de-2025-670235918",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.739, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola do Fôjo, localizados no Município de Itacaré, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.739-de-20-de-novembro-de-2025-670235918",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12739.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.740-de-20-de-novembro-de-2025-670231827",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.740, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Forte, localizados no Município de Cumbe, Estado de Sergipe.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.740-de-20-de-novembro-de-2025-670231827",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12740.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.741-de-20-de-novembro-de-2025-670213437",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.741, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Invernada Paiol de Telha, localizados no Município de Reserva do Iguaçu, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.741-de-20-de-novembro-de-2025-670213437",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12741.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.742-de-20-de-novembro-de-2025-670219974",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.742, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Jiboia, localizados nos Municípios de Antônio Gonçalves e Filadélfia, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.742-de-20-de-novembro-de-2025-670219974",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12742.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.743-de-20-de-novembro-de-2025-670229285",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.743, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Lagoas, localizados nos Municípios de São Raimundo Nonato, Fartura do Piauí, Bonfim do Piauí, São Lourenço do Piauí, Dirceu Arcoverde e Várzea Branca, Estado do Piauí.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.743-de-20-de-novembro-de-2025-670229285",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12743.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.744-de-20-de-novembro-de-2025-670232824",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.744, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Mamãs, localizados no Município de Cerro Azul, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.744-de-20-de-novembro-de-2025-670232824",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12744.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.745-de-20-de-novembro-de-2025-670240749",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.745, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Mandira, localizados no Município de Cananéia, Estado de São Paulo.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.745-de-20-de-novembro-de-2025-670240749",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12745.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.746-de-20-de-novembro-de-2025-670224394",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.746, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Manoel Ciriaco dos Santos, localizados no Município de Guaíra, Estado do Paraná.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.746-de-20-de-novembro-de-2025-670224394",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12746.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.747-de-20-de-novembro-de-2025-670216348",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.747, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis abrangidos pelo território quilombola Morro dos Negros, localizados no Município de Aracaju, Estado de Sergipe.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.747-de-20-de-novembro-de-2025-670216348",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12747.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.748-de-20-de-novembro-de-2025-670230425",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.748, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Picada das Vassouras e Quebra Canga, localizados no Município de Caçapava do Sul, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.748-de-20-de-novembro-de-2025-670230425",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12748.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.749-de-20-de-novembro-de-2025-670217695",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.749, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Pontal da Barra, localizados no Município de Barra dos Coqueiros, Estado de Sergipe.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.749-de-20-de-novembro-de-2025-670217695",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12749.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.750-de-20-de-novembro-de-2025-670224354",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.750, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Sacutiaba e Riacho da Sacutiaba, localizados no Município de Wanderley, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.750-de-20-de-novembro-de-2025-670224354",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12750.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.751-de-20-de-novembro-de-2025-670224276",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.751, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola de Santa Rita do Bracuí, localizados no Município de Angra dos Reis, Estado do Rio de Janeiro.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.751-de-20-de-novembro-de-2025-670224276",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12751.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.752-de-20-de-novembro-de-2025-670234804",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.752, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola São Francisco do Paraguaçu, localizados nos Municípios de Cachoeira, Santo Amaro e Saubara, Estado da Bahia.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.752-de-20-de-novembro-de-2025-670234804",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12752.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.753-de-20-de-novembro-de-2025-670238549",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.753, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Serra dos Chagas, localizado no Município de Salitre, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.753-de-20-de-novembro-de-2025-670238549",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12753.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.754-de-20-de-novembro-de-2025-670225474",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.754, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Sítio Novo Linha Fão, localizados no Município de Arroio do Tigre, Estado do Rio Grande do Sul.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.754-de-20-de-novembro-de-2025-670225474",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12754.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.755-de-20-de-novembro-de-2025-670216225",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.755, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Sítio Veiga, localizados no Município de Quixadá, Estado do Ceará.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.755-de-20-de-novembro-de-2025-670216225",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12755.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.756-de-20-de-novembro-de-2025-670237295",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "DECRETO Nº 12.756, DE 20 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Declara de interesse social, para fins de desapropriação, os imóveis rurais abrangidos pelo território quilombola Famílias Araújo e Ribeiro, localizados no Município de Nioaque, Estado de Mato Grosso do Sul.",
+    "datasAto": {
+      "assinatura": "2025-11-20",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.756-de-20-de-novembro-de-2025-670237295",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12756.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.264-de-19-de-novembro-de-2025-670241023",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "LEI Nº 15.264, DE 19 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre ao Orçamento Fiscal da União, em favor da Presidência da República, dos Ministérios da Justiça e Segurança Pública, da Cultura, do Esporte e da Integração e do Desenvolvimento Regional, e de Operações Oficiais de Crédito, crédito suplementar no valor de R$ 2.151.590.306,00, para reforço de dotações constantes da Lei Orçamentária vigente. O PRESIDENTE D...",
+    "datasAto": {
+      "assinatura": "2025-11-19",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.264-de-19-de-novembro-de-2025-670241023",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15264.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.265-de-21-de-novembro-de-2025-670483630",
+    "tipo": "ato",
+    "data": "2025-11-21",
+    "titulo": "LEI Nº 15.265, DE 21 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Institui o Regime Especial de Atualização e Regularização Patrimonial (Rearp), dispõe sobre a tributação das operações de empréstimo de títulos ou valores mobiliários no País e a tributação das operações de cobertura de riscos (hedge) e altera as Leis nºs 8.213, de 24 de julho de 1991, 9.430, de 27 de dezembro de 1996, 9.481, de 13 de agosto de 1997, 9.796,...",
+    "datasAto": {
+      "assinatura": "2025-11-21",
+      "publicacao": "2025-11-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.265-de-21-de-novembro-de-2025-670483630",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15265.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-21:11:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-21",
+    "hora": "11:40",
+    "titulo": "Chegada a Joanesburgo",
+    "local": "Aeroporto Internacional de Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-21:14:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-21",
+    "hora": "14:50",
+    "titulo": "Reunião bilateral com o Presidente da República da África do Sul, Cyril Ramaphosa",
+    "local": "Centro de Convenções de Sandton",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-21",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "10:00",
+    "titulo": "Sessão de Abertura da Cúpula de Líderes do G20",
+    "local": "Centro de Exposições de Johanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:10:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "10:15",
+    "titulo": "Primeira Sessão: Crescimento Econômico Inclusivo e Sustentável (economias, papel do comércio, financiamento para o desenvolvimento e o fardo da dívida)",
+    "local": "Sala da Plenária",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "13:00",
+    "titulo": "Almoço de trabalho",
+    "local": "Sala da Plenária",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:13:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "13:50",
+    "titulo": "Fotografia de família",
+    "local": "Centro de Exposições de Johanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:14:10:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "14:10",
+    "titulo": "Reunião bilateral com o Chanceler da Alemanha, Friedrich Merz",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:15:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "15:50",
+    "titulo": "Reunião bilateral com o Presidente da Coréia do Sul, Lee Jae Myung",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:18:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "18:00",
+    "titulo": "Reunião bilateral com o Presidente da República da Turquia, Recep Tayyip Erdogan",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-22:19:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-22",
+    "hora": "19:15",
+    "titulo": "Jantar oferecido pelo Presidente da República da África do Sul, Cyril Ramaphosa, aos Chefes de Delegação do G20",
+    "local": "Salão de Jantar",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-22",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "09:00",
+    "titulo": "Reunião de Líderes do Fórum de Diálogo IBAS",
+    "local": "Sala da reunião do IBAS",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "10:00",
+    "titulo": "Terceira Sessão: Um Futuro Justo para Todos (minerais críticos, trabalho decente, inteligência artificial)",
+    "local": "Sala da Plenária",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "10:30",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro da Etiópia, Abiy Ahmed Ali",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "11:00",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro do Canadá, Mark Carney",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:11:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "11:30",
+    "titulo": "Reunião com o Diretor-Geral da UNESCO, Khaled ElEnany",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:12:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "12:00",
+    "titulo": "Reunião com o Diretor-Geral da Organização Mundial da Saúde – OMS, Tedros Adhanom",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:13:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "13:00",
+    "titulo": "Reunião bilateral com o Primeiro-Ministro da Jamaica, Andrew Holness",
+    "local": "Sala de Bilaterais",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:13:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "13:30",
+    "titulo": "Sessão de Encerramento da Cúpula do G20",
+    "local": "Sala da Plenária",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:14:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "14:30",
+    "titulo": "Entrevista coletiva à imprensa",
+    "local": "Centro de Exposições de Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:15:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "15:30",
+    "titulo": "Partida para Maputo, Moçambique",
+    "local": "Aeroporto Internacional de Joanesburgo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-23:16:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-23",
+    "hora": "16:15",
+    "titulo": "Chegada a Maputo",
+    "local": "Aeroporto Internacional de Maputo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-23",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.266-de-21-de-novembro-de-2025-670489951",
+    "tipo": "ato",
+    "data": "2025-11-24",
+    "titulo": "LEI Nº 15.266, DE 21 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021 (Lei de Licitações e Contratos Administrativos), para prever o uso do Sistema de Compras Expressas (Sicx) na contratação de bens e serviços comuns padronizados.",
+    "datasAto": {
+      "assinatura": "2025-11-21",
+      "publicacao": "2025-11-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.266-de-21-de-novembro-de-2025-670489951",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15266.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.267-de-21-de-novembro-de-2025-670501032",
+    "tipo": "ato",
+    "data": "2025-11-24",
+    "titulo": "LEI Nº 15.267, DE 21 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.797, de 6 de maio de 1999, para incluir a garantia de assistência fisioterapêutica aos pacientes submetidos a cirurgia de mastectomia.",
+    "datasAto": {
+      "assinatura": "2025-11-21",
+      "publicacao": "2025-11-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.267-de-21-de-novembro-de-2025-670501032",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15267.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.268-de-21-de-novembro-de-2025-670501619",
+    "tipo": "ato",
+    "data": "2025-11-24",
+    "titulo": "LEI Nº 15.268, DE 21 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a alínea \"a\" do inciso III docaputdo art. 136 da Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para substituir a expressão \"serviço social\" por \"assistência social\".",
+    "datasAto": {
+      "assinatura": "2025-11-21",
+      "publicacao": "2025-11-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.268-de-21-de-novembro-de-2025-670501619",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15268.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.325-de-24-de-novembro-de-2025-670719458",
+    "tipo": "ato",
+    "data": "2025-11-24",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.325, DE 24 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério do Desenvolvimento Agrário e Agricultura Familiar, no valor de R$ 190.000.000,00, para os fins que especifica.",
+    "datasAto": {
+      "assinatura": "2025-11-24",
+      "publicacao": "2025-11-24"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.325-de-24-de-novembro-de-2025-670719458",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:09:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "09:15",
+    "titulo": "Reunião restrita com o Presidente da República de Moçambique, Daniel Francisco Chapo",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:09:45:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "09:45",
+    "titulo": "Reunião ampliada com o Presidente da República de Moçambique, Daniel Francisco Chapo",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:11:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "11:15",
+    "titulo": "Cerimônia de assinatura de atos",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:11:25:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "11:25",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:11:50:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "11:50",
+    "titulo": "Assinatura do livro de honra",
+    "local": "Palácio Presidencial",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:12:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "12:20",
+    "titulo": "Almoço oficial oferecido ao Presidente da República pelo Presidente da República de Moçambique, Daniel Francisco Chapo",
+    "local": "Palácio da Ponta Vermelha",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:14:15:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "14:15",
+    "titulo": "Encerramento do encontro empresarial Brasil-Moçambique",
+    "local": "Polana Serena Hotel",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:15:25:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "15:25",
+    "titulo": "Cerimônia de outorga, ao Presidente da República, do título de Doutor Honoris Causa em Ciência Política, Desenvolvimento e Cooperação Internacional pela Universidade Pedagógica de Maputo",
+    "local": "Centro Internacional de Conferências Joaquim Chissano",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-24:18:20:1",
+    "tipo": "agenda",
+    "data": "2025-11-24",
+    "hora": "18:20",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional de Maputo",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-24",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.757-de-24-de-novembro-de-2025-670735942",
+    "tipo": "ato",
+    "data": "2025-11-25",
+    "titulo": "DECRETO Nº 12.757, DE 24 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 10.606, de 22 de janeiro de 2021, para dispor sobre o Sistema Integrado de Informações do Plano Setorial para Consolidação de uma Economia de Baixa Emissão de Carbono na Agricultura e extinguir o Comitê Técnico de Acompanhamento do Plano Setorial para Consolidação de uma Economia de Baixa Emissão de Carbono na Agricultura. O VICE-PRE...",
+    "datasAto": {
+      "assinatura": "2025-11-24",
+      "publicacao": "2025-11-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.757-de-24-de-novembro-de-2025-670735942",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12757.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.269-de-24-de-novembro-de-2025-670727120",
+    "tipo": "ato",
+    "data": "2025-11-25",
+    "titulo": "LEI Nº 15.269, DE 24 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Moderniza o marco regulatório do setor elétrico para promover a modicidade tarifária e a segurança energética, estabelece as diretrizes para a regulamentação da atividade de armazenamento de energia elétrica, prevê medidas para facilitar a comercialização do gás natural da União, cria incentivo para sistemas de armazenamento de energia em baterias, altera a...",
+    "datasAto": {
+      "assinatura": "2025-11-24",
+      "publicacao": "2025-11-25"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.269-de-24-de-novembro-de-2025-670727120",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15269.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.758-de-25-de-novembro-de-2025-671021647",
+    "tipo": "ato",
+    "data": "2025-11-26",
+    "titulo": "DECRETO Nº 12.758, DE 25 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a qualificação do Complexo Industrial de Biotecnologia em Saúde no âmbito do Programa de Parcerias de Investimentos da Presidência da República.",
+    "datasAto": {
+      "assinatura": "2025-11-25",
+      "publicacao": "2025-11-26"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.758-de-25-de-novembro-de-2025-671021647",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12758.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-26:10:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-26",
+    "hora": "10:30",
+    "titulo": "Cerimônia de sanção do Projeto de Lei nº 1.087, de 2025, que amplia a faixa de isenção e institui a tributação mínima do Imposto de Renda",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-26:14:40:1",
+    "tipo": "agenda",
+    "data": "2025-11-26",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-26",
+    "hora": "16:00",
+    "titulo": "Cerimônia de anúncio de novos investimentos do Governo Federal em municípios do Rio Grande do Sul",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-26",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.759-de-26-de-novembro-de-2025-671620396",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "DECRETO Nº 12.759, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à TV Tocantins Ltda., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Anápolis, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.759-de-26-de-novembro-de-2025-671620396",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12759.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.760-de-26-de-novembro-de-2025-671620317",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "DECRETO Nº 12.760, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Televisão Anhanguera S.A., para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, no Município de Goiânia, Estado de Goiás.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.760-de-26-de-novembro-de-2025-671620317",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12760.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.761-de-26-de-novembro-de-2025-671589711",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "DECRETO Nº 12.761, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Renova a concessão outorgada à Fundação Educativa e Cultural Planalto de Poços de Caldas, para executar, sem direito de exclusividade, serviço de radiodifusão de sons e imagens em tecnologia digital, com fins exclusivamente educativos, no Município de Poços de Caldas, Estado de Minas Gerais.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.761-de-26-de-novembro-de-2025-671589711",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12761.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.762-de-26-de-novembro-de-2025-671621114",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "DECRETO Nº 12.762, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 11.971, de 1º de abril de 2024, que dispõe sobre o Comitê Gestor do Programa de Produtividade da Auditoria-Fiscal do Trabalho e sobre a base de cálculo de que tratam o § 1º e o § 4º do art. 16 da Lei nº 13.464, de 10 de julho de 2017.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.762-de-26-de-novembro-de-2025-671621114",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12762.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-222-de-26-de-novembro-de-2025-671596373",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI COMPLEMENTAR Nº 222, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre condições e limites para a concessão, a ampliação ou a prorrogação de incentivos fiscais ao esporte pela União, pelos Estados, pelo Distrito Federal e pelos Municípios; altera a Lei nº 14.260, de 8 de dezembro de 2021; e revoga a Lei nº 11.438, de 29 de dezembro de 2006 (Lei de Incentivo ao Esporte).",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-222-de-26-de-novembro-de-2025-671596373",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.270-de-26-de-novembro-de-2025-671614220",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.270, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.249, de 26 de dezembro de 1995, para instituir a redução do imposto sobre a renda devido nas bases de cálculo mensal e anual e a tributação mínima para as pessoas físicas que auferem altas rendas; e dá outras providências.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.270-de-26-de-novembro-de-2025-671614220",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15270.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.271-de-26-de-novembro-de-2025-671604418",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.271, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Dispõe sobre a isenção da cobrança da taxa de verificação inicial e subsequente de taxímetro; institui o Dia Nacional do Taxista; altera a Lei nº 12.468, de 26 de agosto de 2011, para dispor sobre cessão de direitos decorrentes da outorga concedida para exploração do serviço de táxi e para permitir a realização de cursos na modalidade a distância; altera a ...",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.271-de-26-de-novembro-de-2025-671604418",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15271.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.272-de-26-de-novembro-de-2025-671605022",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.272, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para dispor sobre as circunstâncias que recomendam a conversão da prisão em flagrante em preventiva, sobre a coleta de material biológico para obtenção e armazenamento do perfil genético do custodiado e sobre os critérios para aferição da periculosidade do agente para concess...",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.272-de-26-de-novembro-de-2025-671605022",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15272.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.273-de-26-de-novembro-de-2025-671618711",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.273, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera a Lei nº 8.256, de 25 de novembro de 1991, para incluir o Município de Pacaraima, no Estado de Roraima, na Área de Livre Comércio de Boa Vista (ALCBV).",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.273-de-26-de-novembro-de-2025-671618711",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15273.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.274-de-26-de-novembro-de-2025-671603381",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.274, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Rota Turística do Capim Dourado, no Estado do Tocantins.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.274-de-26-de-novembro-de-2025-671603381",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15274.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-n-15.275-de-26-de-novembro-de-2025-671611954",
+    "tipo": "ato",
+    "data": "2025-11-27",
+    "titulo": "LEI Nº 15.275, DE 26 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Cria a Rota Turística das Serras Gerais do Tocantins, no Estado do Tocantins.",
+    "datasAto": {
+      "assinatura": "2025-11-26",
+      "publicacao": "2025-11-27"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-15.275-de-26-de-novembro-de-2025-671611954",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15275.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-27",
+    "hora": "10:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-27:11:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-27",
+    "hora": "11:00",
+    "titulo": "Cerimônia alusiva ao anúncio de criação da Universidade Federal Indígena e da Universidade do Esporte",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-27",
+    "hora": "15:00",
+    "titulo": "Presidenta do Instituto de Pesquisa Econômica Aplicada, Luciana Servo",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-27:16:30:1",
+    "tipo": "agenda",
+    "data": "2025-11-27",
+    "hora": "16:30",
+    "titulo": "Ministro da Casa Civil, Rui Costa, e Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-27",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-12.763-de-28-de-novembro-de-2025-671992165",
+    "tipo": "ato",
+    "data": "2025-11-28",
+    "titulo": "DECRETO Nº 12.763, DE 28 DE NOVEMBRO DE 2025",
+    "status": "publicado",
+    "ementa": "Altera o Decreto nº 12.448, de 30 de abril de 2025, que dispõe sobre a programação orçamentária e financeira, e estabelece o cronograma de execução mensal de desembolso do Poder Executivo federal para o exercício de 2025.",
+    "datasAto": {
+      "assinatura": "2025-11-28",
+      "publicacao": "2025-11-28"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.763-de-28-de-novembro-de-2025-671992165",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      },
+      {
+        "nome": "texto-planalto",
+        "rotulo": "Planalto (texto do ato)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12763.htm",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-28:09:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-28",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-28:15:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-28",
+    "hora": "15:00",
+    "titulo": "Ministra da Gestão e da Inovação em Serviços Públicos, Esther Dweck",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2025-11-28:16:00:1",
+    "tipo": "agenda",
+    "data": "2025-11-28",
+    "hora": "16:00",
+    "titulo": "Ministro da Educação, Camilo Santana",
+    "local": "Palácio do Planalto",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2025-11-28",
+        "coletadoEm": "2026-10-11T18:53:42.470Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  }
+]
