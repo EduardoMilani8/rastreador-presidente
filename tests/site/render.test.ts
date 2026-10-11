@@ -81,6 +81,8 @@ describe('renderEvento', () => {
     expect(a.textContent).toBe('Link permanente');
     expect(a.getAttribute('href')).toBe('?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
     expect(a.hasAttribute('target')).toBe(false); // navegação interna, na mesma aba
+    // o nome acessível começa pelo texto visível e diz de qual item é o link (numa lista de links, todos seriam iguais)
+    expect(a.getAttribute('aria-label')).toBe('Link permanente: Reunião');
   });
   it('a cópia de destaque (sem id) aponta para a mesma âncora', () => {
     const li = renderEvento(document, base, 3, false);

@@ -90,6 +90,9 @@ describe('site/sobre.html', () => {
     // títulos como o DOU imprimiu, com erros; alguns decretos podem faltar
     expect(texto).toMatch(/como o Diário Oficial (os )?(imprimiu|publicou), inclusive com erros de digitação/);
     expect(texto).toMatch(/[Aa]lguns (poucos )?decretos podem (faltar|não aparecer)/);
+    // leis do governo anterior publicadas em janeiro de 2023
+    expect(texto).toMatch(/[Ll]eis (assinadas|sancionadas) pelo governo anterior e publicadas em janeiro de 2023 não (são listadas|entram)/);
+    expect(texto).not.toMatch(/sem atualização|Sem atualização/);
     // visão padrão e cadência
     expect(texto).toMatch(/página inicial mostra (só )?os dois meses mais recentes/);
     expect(texto).toMatch(/a cada cerca de 10 minutos/);

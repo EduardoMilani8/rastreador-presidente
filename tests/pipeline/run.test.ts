@@ -29,6 +29,7 @@ const ato = (title: string, urlTitle: string) => ({
 const cfg = {
   agenda: {} as Record<string, string>, // data -> html (200). Ausente => 404.
   falhaAgenda: false,
+  falhaAgendaDias: [] as string[], // dias cuja página dá erro de rede
   loginAgenda: [] as string[], // dias cuja página o Plone manda para a tela de login (existe, mas não é pública)
   loginOutroDia: false, // o login aponta (came_from) para a página de OUTRO dia
   loginOutroHost: false, // a tela de login está em outro domínio
@@ -60,8 +61,8 @@ const MP_EXTRA = {
 async function buscar(url: string) {
   cfg.pedidos.push(url);
   if (url.includes('/agenda-do-presidente-da-republica/')) {
-    if (cfg.falhaAgenda) throw new Error(cfg.mensagemFalha);
     const dia = url.slice(-10);
+    if (cfg.falhaAgenda || cfg.falhaAgendaDias.includes(dia)) throw new Error(cfg.mensagemFalha);
     if (cfg.loginAgenda.includes(dia)) {
       const origem = cfg.loginOutroDia ? url.replace(dia, '2000-01-01') : url;
       const login = cfg.loginOutroHost ? LOGIN.replace('gov.test', 'outro.test') : LOGIN;
@@ -74,11 +75,11 @@ async function buscar(url: string) {
   if (url.includes('leiturajornal')) {
     const [d, m, a] = new URL(url).searchParams.get('data')!.split('-');
     const dia = `${a}-${m}-${d}`;
+    if (cfg.falhaDou) throw new Error('rede caiu no DOU');
     if (url.includes('secao=do1e')) {
       if (cfg.falhaExtraDou) throw new Error('rede caiu na edição extra');
       return { status: 200, corpo: htmlDou(dia === HOJE ? cfg.extraDou : []), url: cfg.redirecionaDou ?? url };
     }
-    if (cfg.falhaDou) throw new Error('rede caiu no DOU');
     return { status: cfg.statusDou, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
   }
   if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
@@ -105,6 +106,7 @@ beforeEach(() => {
     ]),
   };
   cfg.falhaAgenda = false;
+  cfg.falhaAgendaDias = [];
   cfg.loginAgenda = [];
   cfg.loginOutroDia = false;
   cfg.loginOutroHost = false;
@@ -382,7 +384,7 @@ describe('atualizar', () => {
     expect((await atualizar(deps)).arquivosEscritos).toBe(0);
   });
 
-  it('mesmo título em dias diferentes ou títulos diferentes no mesmo dia continuam separados', async () => {
+  it('títulos diferentes no mesmo dia continuam separados; o mesmo título repetido no dia seguinte não vira outro item', async () => {
     cfg.dou = {
       '2025-03-09': [ato('DECRETO Nº 12.391, DE 7 DE MARÇO DE 2025', 'decreto-n-12.391-de-7-de-marco-de-2025-1')],
       '2025-03-10': [
@@ -392,7 +394,10 @@ describe('atualizar', () => {
     };
     const deps = await novoDeps();
     await atualizar(deps);
-    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato')).toHaveLength(3);
+    const atos = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    expect(atos.map((a) => `${a.data} ${a.id}`)).toEqual([
+      '2025-03-09 dou:decreto-n-12.391-de-7-de-marco-de-2025-1', '2025-03-10 dou:decreto-n-12.392-de-7-de-marco-de-2025-3',
+    ]);
   });
 
   describe('retificação "(*)" publicada logo depois da assinatura', () => {
@@ -477,6 +482,122 @@ describe('atualizar', () => {
       await retroagir(deps, '2026-07-28', '2026-07-30');
       expect((await atos(deps)).map((a) => a.data)).toEqual(['2026-07-28']);
     });
+  });
+
+  describe('cada ato uma vez só (N1, N4, N7)', () => {
+    const dec = (title: string, urlTitle: string, resumo: string) => ({
+      title, urlTitle, artType: 'Decreto numerado', hierarchyStr: 'Atos do Poder Executivo', content: `${title} ${resumo}`,
+    });
+    const atos = async (deps: Deps) => (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'ato');
+    const D11906 = 'DECRETO Nº 11.906, DE 30 DE JANEIRO DE 2024';
+
+    it('Decreto 11.906: a retificação de 01/02/2024 (mesmo título, "(*)" só no corpo) não vira um segundo item', async () => {
+      cfg.dou = {
+        '2024-01-31': [dec(D11906, 'decreto-n-11.906-de-30-de-janeiro-de-2024-540569888', 'Altera o Decreto nº 11.830, de 14 de dezembro de 2023. O PRESIDENTE DA REPÚBLICA, no uso')],
+        '2024-02-01': [dec(D11906, 'decreto-n-11.906-de-30-de-janeiro-de-2024-540637381', '(Publicado no DOU de 31/1/2024) ANEXO II (*) (Anexo II ao Decreto nº 11.830)')],
+      };
+      const deps = await novoDeps();
+      let t = Date.parse('2024-01-31T15:00:00Z');
+      deps.agora = () => new Date(t);
+      await atualizar(deps);
+      t += DIA_MS;
+      await atualizar(deps);
+      const r = await atos(deps);
+      expect(r.map((a) => `${a.data} ${a.id}`)).toEqual(['2024-01-31 dou:decreto-n-11.906-de-30-de-janeiro-de-2024-540569888']);
+      expect(r[0].ementa).toBe('Altera o Decreto nº 11.830, de 14 de dezembro de 2023.');
+      expect(r[0].fontes.map((f) => f.url.split('-').pop())).toEqual(['540569888', '540637381']);
+      t += 600_000;
+      cfg.pedidos = [];
+      expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+      expect(cfg.pedidos.filter((u) => u.includes('planalto.gov.br/ccivil_03'))).toEqual([]); // a cópia não é consultada de novo
+    });
+
+    it('a retificação coletada ANTES da publicação original (carga fora de ordem): fica a mais antiga', async () => {
+      cfg.dou = { '2024-02-01': [dec(D11906, 'decreto-n-11.906-de-30-de-janeiro-de-2024-540637381', '(Publicado no DOU de 31/1/2024) ANEXO II (*)')] };
+      const deps = await novoDeps();
+      await retroagir(deps, '2024-02-01', '2024-02-01');
+      cfg.dou = { '2024-01-31': [dec(D11906, 'decreto-n-11.906-de-30-de-janeiro-de-2024-540569888', 'Altera o Decreto nº 11.830. O PRESIDENTE DA REPÚBLICA, no uso')] };
+      await retroagir(deps, '2024-01-31', '2024-01-31');
+      const r = await atos(deps);
+      expect(r.map((a) => a.data)).toEqual(['2024-01-31']);
+      expect(r[0].ementa).toBe('Altera o Decreto nº 11.830.');
+    });
+
+    it('duplicata do mesmo dia que só aparece numa execução POSTERIOR (N4) é unida à linha já gravada', async () => {
+      const mp = (n: string) => dec('MEDIDA PROVISÓRIA Nº 1.373, DE 29 DE JUNHO DE 2026', `medida-provisoria-n-1.373-de-29-de-junho-de-2026-${n}`, 'Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso');
+      cfg.dou = { '2026-06-29': [mp('715441349')] };
+      const deps = await novoDeps();
+      let t = Date.parse('2026-06-29T15:00:00Z');
+      deps.agora = () => new Date(t);
+      await atualizar(deps);
+      cfg.dou = { '2026-06-29': [mp('715441349'), mp('715441341')] };
+      t += 600_000;
+      await atualizar(deps);
+      const r = await atos(deps);
+      expect(r).toHaveLength(1);
+      expect(r[0].fontes.map((f) => f.url.split('-').pop()).sort()).toEqual(['715441341', '715441349']);
+      t += 600_000;
+      expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+    });
+
+    it('Lei 14.535 (17/01/2023): a linha que fica tem ementa "(Publicada no DOU…)"; vale a ementa de verdade da outra (N7)', async () => {
+      const lei = (t: string, u: string, resumo: string) => ({ ...dec(t, u, resumo), hierarchyStr: 'Atos do Poder Legislativo' });
+      cfg.dou = { '2023-01-17': [
+        lei('LEI Nº 14.535, DE 17 DE JANEIRO DE 2023', 'lei-n-14.535-de-17-de-janeiro-de-2023-458405520', '(Publicada no DOU de 17/1/2023, edição extra)'),
+        lei('LEI Nº 14.535, DE 17 DE JANEIRO DE 2023 (*)', 'lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010', 'Estima a receita e fixa a despesa da União para o exercício financeiro de 2023. O PRESIDENTE DA REPÚBLICA Faço saber'),
+      ] };
+      const deps = await novoDeps();
+      deps.agora = () => new Date('2023-01-17T15:00:00Z');
+      await atualizar(deps);
+      const r = await atos(deps);
+      expect(r.map((a) => a.titulo)).toEqual(['LEI Nº 14.535, DE 17 DE JANEIRO DE 2023']);
+      expect(r[0].ementa).toBe('Estima a receita e fixa a despesa da União para o exercício financeiro de 2023.');
+      expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+    });
+
+    it('títulos diferentes com o mesmo número (erro do DOU: Decreto "11.430" de 3/3 e de 8/3/2023) continuam separados', async () => {
+      cfg.dou = {
+        '2023-03-03': [dec('DECRETO Nº 11.430, DE 3 DE MARÇO DE 2023', 'decreto-n-11.430-de-3-de-marco-de-2023-467657997', 'Dispõe sobre A.')],
+        '2023-03-09': [dec('DECRETO Nº 11.430, DE 8 DE MARÇO DE 2023', 'decreto-n-11.430-de-8-de-marco-de-2023-468754527', 'Dispõe sobre B.')],
+      };
+      const deps = await novoDeps();
+      await retroagir(deps, '2023-03-03', '2023-03-09');
+      expect(await atos(deps)).toHaveLength(2);
+    });
+  });
+
+  it('fonte que não responde: a coleta dela para depois de 2 falhas de rede seguidas; as outras fontes e o estado seguem (N5)', async () => {
+    cfg.falhaAgenda = true;
+    cfg.falhaDou = true;
+    const deps = await novoDeps();
+    const r = await atualizar(deps);
+    expect(diasDeAgendaPedidos()).toHaveLength(2); // e não os 11 dias da janela
+    expect(edicoesDouPedidas()).toHaveLength(2);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('rede caiu');
+    expect(estado.fontes.agenda.mensagem).toContain('coleta interrompida');
+    expect(estado.fontes.dou.ok).toBe(false);
+    expect(estado.fontes.planalto.ok).toBe(true);
+    expect(estado.fontes['noticias-google'].ok).toBe(true);
+    expect((await lerNoticias(deps.dataDir)).length).toBe(1);
+    expect(r.arquivosEscritos).toBeGreaterThan(0);
+  });
+
+  it('falhas de rede isoladas (não seguidas) não interrompem a coleta (N5)', async () => {
+    cfg.falhaAgendaDias = ['2025-03-07', '2025-03-09', '2025-03-11'];
+    const deps = await novoDeps();
+    await atualizar(deps);
+    expect(diasDeAgendaPedidos()).toHaveLength(11);
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.mensagem).not.toContain('coleta interrompida');
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(2);
+  });
+
+  it('erro de conteúdo (layout, redirecionamento) em dias seguidos não é falha de rede: a coleta vai até o fim (N5)', async () => {
+    cfg.redirecionaAgenda = 'https://gov.test/agenda-do-presidente-da-republica';
+    const deps = await novoDeps();
+    await atualizar(deps);
+    expect(diasDeAgendaPedidos()).toHaveLength(11);
   });
 
   it('DOU com HTTP 404 é falha: dia sem edição responde 200 com lista vazia, nunca 404 (I2)', async () => {

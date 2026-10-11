@@ -1,4 +1,4 @@
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import {
   EstadoFontesSchema, EventoSchema, NoticiaSchema,
@@ -52,6 +52,20 @@ export async function gravarEventos(dir: string, eventos: Evento[]): Promise<num
     lista.sort((a, b) =>
       a.data.localeCompare(b.data) || (a.hora ?? '').localeCompare(b.hora ?? '') || a.id.localeCompare(b.id));
     if (await gravarSeMudou(join(dir, 'eventos', `${mes}.json`), json(lista))) alterados++;
+  }
+  // Mês que ficou sem eventos (o único item dele foi unido a outro, de outro mês): sem remover o arquivo, a leitura
+  // seguinte traria o item de volta.
+  let noDisco: string[] = [];
+  try {
+    noDisco = await readdir(join(dir, 'eventos'));
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e;
+  }
+  for (const nome of noDisco) {
+    if (/^\d{4}-\d{2}\.json$/.test(nome) && !porMes.has(nome.slice(0, 7))) {
+      await unlink(join(dir, 'eventos', nome));
+      alterados++;
+    }
   }
   const meses = [...porMes.keys()].sort().reverse();
   if (await gravarSeMudou(join(dir, 'meses.json'), json(meses))) alterados++;

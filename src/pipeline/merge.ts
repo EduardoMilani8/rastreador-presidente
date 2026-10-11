@@ -1,4 +1,5 @@
 import type { Evento, Fonte, Status } from '../shared/schema';
+import { ementaEhSoRemissao } from '../shared/text';
 
 export function calcularStatus(ev: Evento, hoje: string): Status {
   if (ev.tipo === 'ato') return 'publicado';
@@ -42,7 +43,8 @@ export function mesclar(
       ...e,
       titulo: c.titulo,
       local: c.local,
-      ementa: c.ementa ?? e.ementa,
+      // uma remissão ("(Publicada no DOU de ...)") não apaga o resumo de verdade já gravado
+      ementa: c.ementa !== undefined && !(ementaEhSoRemissao(c.ementa) && e.ementa !== undefined) ? c.ementa : e.ementa,
       historico: mudou
         ? [...e.historico, { titulo: e.titulo, hora: e.hora, local: e.local, registradoEm: agora }]
         : e.historico,

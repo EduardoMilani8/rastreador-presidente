@@ -7,7 +7,7 @@ import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collec
 import { mandatoDoDia, mandatoVigente } from '../config';
 import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
-import { dataSaoPaulo, somarDias } from '../shared/text';
+import { dataSaoPaulo, ementaEhSoRemissao, limparEspacos, somarDias } from '../shared/text';
 import { ligarComunicados } from './link';
 import { aplicarStatus, mesclar } from './merge';
 import {
@@ -107,14 +107,32 @@ function inicioDaJanela(hoje: string, recuo: number, anterior: EstadoFontes, fon
 // coleta é o site bloqueando o acesso: num bloqueio real os dias úteis pedem login e os fins de semana dão 404.
 const LOGINS_QUE_INDICAM_BLOQUEIO = 2;
 
+// Fonte que não responde custa 3 tentativas de 30 s por endereço; com ~11 endereços o job estouraria os 15 minutos do
+// workflow antes de gravar status.json, e a falha nem seria registrada. Duas falhas de rede seguidas bastam para dar a
+// fonte como fora do ar nesta execução; a seguinte tenta de novo e a janela recua para recolher o que faltou.
+const FALHAS_DE_REDE_QUE_INTERROMPEM = 2;
+const AVISO_INTERROMPIDA = `coleta interrompida depois de ${FALHAS_DE_REDE_QUE_INTERROMPEM} falhas de rede seguidas`;
+
 async function coletarAgenda(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
+  let falhasDeRedeSeguidas = 0;
   for (const d of dias) {
     const mandato = mandatoDoDia(deps.mandatos, d);
     if (!mandato) continue; // dia que nenhum mandato configurado cobre: não há agenda certa para pedir
     const url = urlAgendaDia(mandato.agendaBase, d);
+    let r: Resposta;
     try {
-      const r = await deps.buscar(url, ACCEPT_HTML);
+      r = await deps.buscar(url, ACCEPT_HTML);
+      falhasDeRedeSeguidas = 0;
+    } catch (e) {
+      c.erros.push(`${d}: ${String(e)}`);
+      if (++falhasDeRedeSeguidas >= FALHAS_DE_REDE_QUE_INTERROMPEM) {
+        c.erros.push(AVISO_INTERROMPIDA);
+        break;
+      }
+      continue;
+    }
+    try {
       if (ehLoginDaPaginaPedida(r.url, url)) {
         c.diasComLogin.push(d); // dia sem agenda pública: nada a gravar e, como não é "dia publicado", nada é removido
         continue;
@@ -135,26 +153,11 @@ async function coletarAgenda(deps: Deps, dias: string[], coletadoEm: string): Pr
   return c;
 }
 
-// O DOU às vezes lista o mesmo ato duas vezes no mesmo dia, com ids diferentes (MP 1.373 em 29/06/2026). Fica um só,
-// o de menor id (escolha que não depende da ordem da lista, que muda), com os links dos dois.
-function unirAtosRepetidos(atos: Evento[]): Evento[] {
-  const porTitulo = new Map<string, Evento[]>();
-  for (const a of atos) porTitulo.set(a.titulo, [...(porTitulo.get(a.titulo) ?? []), a]);
-  return [...porTitulo.values()].map((copias) => {
-    if (copias.length === 1) return copias[0];
-    const ordenadas = [...copias].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
-    const urls = new Set<string>();
-    return {
-      ...ordenadas[0],
-      ementa: ordenadas.find((c) => c.ementa)?.ementa,
-      fontes: ordenadas.flatMap((c) => c.fontes).filter((f) => !urls.has(f.url) && urls.add(f.url)),
-    };
-  });
-}
+const semAsterisco = (titulo: string) => limparEspacos(titulo.replace(/\(\*\)\s*$/, ''));
 
-// Cada ato aparece uma vez. A retificação "(*)" só fica enquanto for a única publicação conhecida do ato: sai se
-// existe (ou chega depois) a publicação comum, e de duas retificações fica a primeira.
-export function semRetificacaoRedundante(eventos: Evento[]): Evento[] {
+// A retificação "(*)" só fica enquanto for a única publicação conhecida do ato (tipo + número): sai se existe (ou chega
+// depois) a publicação comum, e de duas retificações fica a primeira.
+function semRetificacaoRedundante(eventos: Evento[]): Evento[] {
   const comPublicacaoComum = new Set<string>();
   const primeiraRetificacao = new Map<string, Evento>();
   for (const e of eventos) {
@@ -174,33 +177,78 @@ export function semRetificacaoRedundante(eventos: Evento[]): Evento[] {
   });
 }
 
-// Só o que vai de fato ser gravado merece a consulta ao Planalto: sem isto, uma retificação redundante seria
-// consultada de novo a cada execução enquanto estivesse na janela.
-function atosAGravar(existentes: Evento[], coletados: Evento[]): Evento[] {
-  const mantidos = new Set(semRetificacaoRedundante([...existentes, ...coletados]).map((e) => e.id));
-  return coletados.filter((e) => mantidos.has(e.id));
+/**
+ * Cada ato aparece uma vez. O DOU repete o mesmo título em três situações: o ato listado duas vezes no mesmo dia, com
+ * ids diferentes (MP 1.373, 29/06/2026); a retificação dias depois, com o "(*)" só no corpo (Decreto 11.906, 31/01 e
+ * 01/02/2024); e a retificação com "(*)" no título. Fica a publicação mais antiga (no mesmo dia, a sem "(*)" e a de
+ * menor id — nunca a ordem da lista, que muda), com os links das outras. Só título IDÊNTICO une: o DOU erra números,
+ * e "Decreto 11.430" de 3/3 e de 8/3/2023 são atos diferentes.
+ * Roda sobre a lista já mesclada, para valer também quando a cópia chega numa execução posterior.
+ */
+export function umPorAto(eventos: Evento[]): Evento[] {
+  const vistos = new Set<string>();
+  const unicos = eventos.filter((e) => !vistos.has(e.id) && vistos.add(e.id)); // id repetido: vale o primeiro
+
+  const porTitulo = new Map<string, Evento[]>();
+  for (const e of unicos) {
+    if (e.tipo !== 'ato') continue;
+    const t = semAsterisco(e.titulo);
+    porTitulo.set(t, [...(porTitulo.get(t) ?? []), e]);
+  }
+  const resultado = new Map<string, Evento | null>();
+  for (const copias of porTitulo.values()) {
+    if (copias.length === 1) continue;
+    const ordem = (e: Evento) => `${e.data} ${ehRetificacao(e.titulo) ? 1 : 0} ${e.id}`;
+    const [fica, ...saem] = [...copias].sort((a, b) => (ordem(a) < ordem(b) ? -1 : 1));
+    const urls = new Set<string>();
+    const fontes = [fica, ...saem].flatMap((c) => c.fontes).filter((f) => !urls.has(f.url) && urls.add(f.url));
+    const temResumo = (c: Evento) => c.ementa !== undefined && !ementaEhSoRemissao(c.ementa);
+    const ementa = temResumo(fica) ? fica.ementa : saem.find(temResumo)?.ementa ?? fica.ementa;
+    resultado.set(fica.id, { ...fica, ementa, fontes });
+    for (const c of saem) resultado.set(c.id, null);
+  }
+  return semRetificacaoRedundante(unicos.flatMap((e) => {
+    const r = resultado.get(e.id);
+    return r === undefined ? [e] : r === null ? [] : [r];
+  }));
+}
+
+// Só o ato que vai virar item merece a consulta ao Planalto: sem isto, uma cópia redundante seria consultada de novo
+// a cada execução enquanto estivesse na janela.
+function atosQueFicam(existentes: Evento[], coletados: Evento[]): Set<string> {
+  return new Set(umPorAto([...existentes, ...coletados]).map((e) => e.id));
 }
 
 async function coletarDou(deps: Deps, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [], diasComLogin: [] };
   const edicoes: [SecaoDou, string][] = [['do1', 'edição'], ['do1e', 'edição extra']];
-  for (const d of dias) {
-    const doDia: Evento[] = [];
+  let falhasDeRedeSeguidas = 0;
+  coleta: for (const d of dias) {
     for (const [secao, rotulo] of edicoes) {
+      const pedida = urlDouEdicao(d, secao);
+      let r: Resposta;
       try {
-        const pedida = urlDouEdicao(d, secao);
-        const r = await deps.buscar(pedida, ACCEPT_HTML);
+        r = await deps.buscar(pedida, ACCEPT_HTML);
+        falhasDeRedeSeguidas = 0;
+      } catch (e) {
+        c.erros.push(`${d} (${rotulo}): ${String(e)}`);
+        if (++falhasDeRedeSeguidas >= FALHAS_DE_REDE_QUE_INTERROMPEM) {
+          c.erros.push(AVISO_INTERROMPIDA);
+          break coleta;
+        }
+        continue;
+      }
+      try {
         exigirEdicaoDou(r.url, pedida, d);
         // Dia sem edição responde 200 com lista vazia (verificado): 404 nunca é "sem edição", é o endereço que mudou.
         if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
         // Lei sancionada pelo governo anterior e publicada já neste mandato não é ato de nenhum Presidente acompanhado.
-        doDia.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
+        c.eventos.push(...parseDou(r.corpo, d, coletadoEm).filter((e) =>
           !e.datasAto?.assinatura || mandatoDoDia(deps.mandatos, e.datasAto.assinatura) !== undefined));
       } catch (e) {
         c.erros.push(`${d} (${rotulo}): ${String(e)}`);
       }
     }
-    c.eventos.push(...unirAtosRepetidos(doDia));
   }
   return c;
 }
@@ -256,13 +304,13 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   }
 
   const idsExistentes = new Set(existentes.map((e) => e.id));
-  const atos = atosAGravar(existentes, dou.eventos);
-  for (const ato of atos.filter((e) => !idsExistentes.has(e.id))) {
+  const ficam = atosQueFicam(existentes, dou.eventos);
+  for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id) && ficam.has(e.id))) {
     await adicionarTextoPlanalto(deps, ato, agoraIso);
   }
 
-  let eventos = mesclar(existentes, [...agenda.eventos, ...atos], agenda.diasCompletos, agoraIso);
-  eventos = semRetificacaoRedundante(eventos);
+  let eventos = mesclar(existentes, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso);
+  eventos = umPorAto(eventos);
   eventos = ligarComunicados(eventos, comunicados, mandato);
   eventos = aplicarStatus(eventos, hoje);
   let escritos = await gravarEventos(deps.dataDir, eventos);
@@ -316,11 +364,11 @@ export async function retroagir(
     if (loginsSeguidos.length >= LOGINS_QUE_INDICAM_BLOQUEIO) for (const x of loginsSeguidos) falhas.add(x);
 
     const idsExistentes = new Set(eventos.map((e) => e.id));
-    const atos = atosAGravar(eventos, dou.eventos);
-    for (const ato of atos.filter((e) => !idsExistentes.has(e.id))) {
+    const ficam = atosQueFicam(eventos, dou.eventos);
+    for (const ato of dou.eventos.filter((e) => !idsExistentes.has(e.id) && ficam.has(e.id))) {
       await adicionarTextoPlanalto(deps, ato, agoraIso);
     }
-    eventos = semRetificacaoRedundante(mesclar(eventos, [...agenda.eventos, ...atos], agenda.diasCompletos, agoraIso));
+    eventos = umPorAto(mesclar(eventos, [...agenda.eventos, ...dou.eventos], agenda.diasCompletos, agoraIso));
     if (++contador % 15 === 0) await gravar(d);
   }
   await gravar(ate);

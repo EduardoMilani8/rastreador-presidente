@@ -55,7 +55,7 @@ describe('montar', () => {
 
   it('mostra há quanto tempo os dados foram atualizados e avisa quando uma fonte está com falha', () => {
     montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Dados atualizados há 30 min');
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 30 min');
     const aviso = document.getElementById('aviso-fontes')!;
     expect(aviso.hidden).toBe(false);
     expect(aviso.textContent).toContain('Diário Oficial');
@@ -198,9 +198,9 @@ describe('estados vazios e mensagens', () => {
     montar(document, com('não-é-data'), { aba: 'linha' }, HOJE, AGORA);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('');
     montar(document, com('2026-10-07T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Dados atualizados há 1 dia');
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 1 dia');
     montar(document, com('2026-10-05T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Dados atualizados há 3 dias');
+    expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 3 dias');
   });
 });
 
@@ -355,24 +355,26 @@ describe('linha do tempo longa aparece aos poucos (I6)', () => {
   });
 });
 
-describe('dados parados (I3)', () => {
+describe('dados sem alteração há muito tempo (I3/N2)', () => {
   const com = (ultimaNovidadeEm: string) => ({ ...DADOS, estado: { ...DADOS.estado, ultimaNovidadeEm } });
   const aviso = () => document.getElementById('aviso-desatualizado') as HTMLElement;
 
-  it('mais de 6 horas sem gravação: avisa desde quando, no horário de Brasília', () => {
-    montar(document, com('2026-10-08T08:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+  it('mais de 24 horas sem gravação: diz quando foi a última alteração, sem afirmar que a coleta parou', () => {
+    montar(document, com('2026-10-07T08:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
     expect(aviso().hidden).toBe(false);
-    expect(aviso().textContent).toBe('Sem atualização desde 08/10/2026 às 05:00 (horário de Brasília). Os dados podem estar desatualizados.');
+    expect(aviso().textContent).toBe('Última alteração nos dados: 07/10/2026 às 05:00 (horário de Brasília). Se as fontes publicaram algo depois disso, ainda não aparece aqui.');
     expect(aviso().getAttribute('role')).toBe('status');
   });
 
-  it('até 6 horas: sem aviso', () => {
-    montar(document, com('2026-10-08T09:30:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
-    expect(aviso().hidden).toBe(true);
-    expect(aviso().textContent).toBe('');
+  it('madrugada parada (12 horas sem notícia nova) não gera aviso; até 24 horas também não', () => {
+    for (const quando of ['2026-10-08T03:00:00.000Z', '2026-10-07T15:00:00.000Z']) {
+      montar(document, com(quando), { aba: 'linha' }, HOJE, AGORA);
+      expect(aviso().hidden).toBe(true);
+      expect(aviso().textContent).toBe('');
+    }
   });
 
-  it('sem data de atualização conhecida não afirma nada', () => {
+  it('sem data conhecida não afirma nada', () => {
     montar(document, { ...DADOS, estado: { fontes: {} } }, { aba: 'linha' }, HOJE, AGORA);
     expect(aviso().hidden).toBe(true);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('');
@@ -380,7 +382,19 @@ describe('dados parados (I3)', () => {
 
   it('o aviso também aparece na aba Notícias', () => {
     montar(document, com('2026-10-06T08:00:00.000Z'), { aba: 'noticias' }, HOJE, AGORA);
-    expect(aviso().textContent).toContain('Sem atualização desde 06/10/2026 às 05:00');
+    expect(aviso().textContent).toContain('Última alteração nos dados: 06/10/2026 às 05:00');
+  });
+});
+
+describe('período não sugere cobertura que não existe', () => {
+  it('"de" anterior ao primeiro mês com dados: o período começa no primeiro mês disponível', () => {
+    montar(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08', '2026-07'] }, { aba: 'linha', de: '2020-01-01' }, HOJE, AGORA);
+    expect(document.getElementById('periodo')!.textContent).toMatch(/^Mostrando 01\/07\/2026 a /);
+    expect(document.getElementById('mais-antigos')!.hidden).toBe(true);
+  });
+  it('"de" dentro dos dados continua como foi pedido', () => {
+    montar(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08'] }, { aba: 'linha', de: '2026-08-15' }, HOJE, AGORA);
+    expect(document.getElementById('periodo')!.textContent).toMatch(/^Mostrando 15\/08\/2026 a /);
   });
 });
 
@@ -412,6 +426,7 @@ describe('link permanente (spec §7.4)', () => {
     montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
     const link = document.querySelector('#ev-b a.permalink')!;
     expect(link.textContent).toBe('Link permanente');
+    expect(link.getAttribute('aria-label')).toBe('Link permanente: Compromisso b');
     expect(link.getAttribute('href')).toBe('?de=2026-10-07&ate=2026-10-07#ev-b');
     expect(document.querySelectorAll('#linha-do-tempo a.permalink')).toHaveLength(3);
     expect(document.querySelector('#proximos a.permalink')!.getAttribute('href')).toBe('?de=2026-10-09&ate=2026-10-09#ev-d');

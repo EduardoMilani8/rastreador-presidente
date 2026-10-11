@@ -100,3 +100,20 @@ describe('aplicarStatus', () => {
     expect(r[0].status).toBe('consta_na_agenda');
   });
 });
+
+describe('mesclar: ementa de ato', () => {
+  const ato = (ementa?: string): Evento => ({
+    id: 'dou:lei-n-14.535', tipo: 'ato', data: '2023-01-17', titulo: 'LEI Nº 14.535, DE 17 DE JANEIRO DE 2023', status: 'publicado',
+    ementa, datasAto: { assinatura: '2023-01-17', publicacao: '2023-01-17' },
+    fontes: [{ nome: 'dou', rotulo: 'Diário Oficial da União', url: 'https://x.test/a', coletadoEm: T1 }], confirmadoPor: [], historico: [],
+  });
+  const RESUMO = 'Estima a receita e fixa a despesa da União para o exercício financeiro de 2023.';
+  const REMISSAO = '(Publicada no DOU de 17/1/2023, edição extra)';
+  it('a remissão "(Publicada no DOU de ...)" recoletada não apaga o resumo de verdade já gravado', () => {
+    expect(mesclar([ato(RESUMO)], [ato(REMISSAO)], new Set(), T2)[0].ementa).toBe(RESUMO);
+  });
+  it('sem resumo gravado, a remissão é o que há; e um resumo novo substitui o antigo', () => {
+    expect(mesclar([ato()], [ato(REMISSAO)], new Set(), T2)[0].ementa).toBe(REMISSAO);
+    expect(mesclar([ato(REMISSAO)], [ato(RESUMO)], new Set(), T2)[0].ementa).toBe(RESUMO);
+  });
+});

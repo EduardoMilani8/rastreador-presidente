@@ -33,6 +33,15 @@ describe('eventos', () => {
     expect(await gravarEventos(d, lista)).toBeGreaterThan(0);
     expect(await gravarEventos(d, lista)).toBe(0);
   });
+  it('mês que ficou sem nenhum evento tem o arquivo removido (senão o item retirado voltaria na leitura seguinte)', async () => {
+    const d = await dir();
+    await gravarEventos(d, [ev('a', '2026-10-08'), ev('c', '2026-09-30')]);
+    expect(await gravarEventos(d, [ev('a', '2026-10-08')])).toBe(2); // 2026-09.json e meses.json
+    expect(await readdir(join(d, 'eventos'))).toEqual(['2026-10.json']);
+    expect((await lerEventos(d)).map((e) => e.id)).toEqual(['a']);
+    expect(JSON.parse(await readFile(join(d, 'meses.json'), 'utf8'))).toEqual(['2026-10']);
+    expect(await gravarEventos(d, [ev('a', '2026-10-08')])).toBe(0);
+  });
   it('recusa dados inválidos e não grava nada', async () => {
     const d = await dir();
     const ruim = { ...ev('a', '2026-10-08'), fontes: [] };

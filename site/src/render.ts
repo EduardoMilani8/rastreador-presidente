@@ -67,7 +67,11 @@ export function idAncora(ev: Evento): string {
 // Endereço estável de um registro: a página só do dia dele (que sempre o contém) mais a âncora.
 function linkPermanente(doc: Document, ev: Evento): HTMLElement {
   const q = new URLSearchParams({ de: ev.data, ate: ev.data });
-  return el(doc, 'a', { class: 'permalink', href: `?${q.toString()}#${idAncora(ev)}` }, 'Link permanente');
+  // Numa lista de links do leitor de tela todos seriam "Link permanente": o nome acessível leva o título do item
+  // (e começa pelo texto visível, para quem usa comando de voz).
+  return el(doc, 'a', {
+    class: 'permalink', href: `?${q.toString()}#${idAncora(ev)}`, 'aria-label': `Link permanente: ${ev.titulo}`,
+  }, 'Link permanente');
 }
 
 /** `comId: false` para cópias do mesmo item (destaques) — só a linha do tempo leva o id âncora. */

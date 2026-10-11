@@ -23,20 +23,21 @@ function haQuanto(iso: string, agora: Date): string | null {
   return `há ${dias} ${dias === 1 ? 'dia' : 'dias'}`;
 }
 
-// As fontes mudam o dia todo (só as notícias já garantem gravações frequentes): 6 horas sem nenhuma gravação quer
-// dizer que a coleta parou, e a página não pode continuar parecendo atual.
-const LIMITE_SEM_ATUALIZAR_MS = 6 * 60 * 60 * 1000;
+// O instante gravado é o da última ALTERAÇÃO nos dados, não o da última coleta: numa madrugada sem notícia nova ele
+// fica até ~12 horas parado com tudo funcionando. Por isso o aviso só aparece depois de 24 horas e não afirma que a
+// coleta parou — só diz até quando os dados vão.
+const LIMITE_SEM_ALTERACAO_MS = 24 * 60 * 60 * 1000;
 
 function avisoDesatualizado(iso: string | undefined, agora: Date): string | null {
   const t = iso ? new Date(iso).getTime() : NaN;
-  if (Number.isNaN(t) || agora.getTime() - t <= LIMITE_SEM_ATUALIZAR_MS) return null;
+  if (Number.isNaN(t) || agora.getTime() - t <= LIMITE_SEM_ALTERACAO_MS) return null;
   const partes = new Intl.DateTimeFormat('pt-BR', {
     timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit',
     hourCycle: 'h23',
   }).formatToParts(new Date(t));
   const p = (tipo: string) => partes.find((x) => x.type === tipo)?.value ?? '';
-  return `Sem atualização desde ${p('day')}/${p('month')}/${p('year')} às ${p('hour')}:${p('minute')} (horário de Brasília). `
-    + 'Os dados podem estar desatualizados.';
+  return `Última alteração nos dados: ${p('day')}/${p('month')}/${p('year')} às ${p('hour')}:${p('minute')} (horário de Brasília). `
+    + 'Se as fontes publicaram algo depois disso, ainda não aparece aqui.';
 }
 
 // Uma busca a partir de 2023 traz mais de 8 mil itens: desenhar tudo de uma vez trava o celular.
@@ -66,8 +67,7 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
   $(linha ? 'aba-noticias' : 'aba-linha').removeAttribute('aria-current');
 
   const quando = dados.estado.ultimaNovidadeEm ? haQuanto(dados.estado.ultimaNovidadeEm, agora) : null;
-  // "Atualizados", não "última novidade": o instante muda a cada gravação, mesmo que nada de novo tenha acontecido.
-  $('ultima-novidade').textContent = quando ? `Dados atualizados ${quando}` : '';
+  $('ultima-novidade').textContent = quando ? `Última alteração nos dados ${quando}` : '';
   const parado = avisoDesatualizado(dados.estado.ultimaNovidadeEm, agora);
   $('aviso-desatualizado').hidden = parado === null;
   $('aviso-desatualizado').textContent = parado ?? '';
@@ -115,7 +115,10 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
   // O período é o que foi de fato consultado: sem datas, só os meses carregados — e a página diz isso, para um
   // "nenhum registro" nunca ser lido como "não existe".
   const mesMaisAntigo = [...dados.mesesCarregados].sort()[0];
-  const inicio = f.de ?? (mesMaisAntigo ? `${mesMaisAntigo}-01` : undefined);
+  // Pedir "desde 2020" não faz existirem dados de 2020: o período nunca começa antes do primeiro mês disponível.
+  const primeiroDia = [...dados.mesesDisponiveis].sort()[0];
+  const pedido = f.de ?? (mesMaisAntigo ? `${mesMaisAntigo}-01` : undefined);
+  const inicio = pedido && primeiroDia && pedido < `${primeiroDia}-01` ? `${primeiroDia}-01` : pedido;
   const fim = f.ate ?? itens.reduce((max, e) => (e.data > max ? e.data : max), hoje);
   const contagem = itens.length ? `: ${contar(itens.length, 'registro', 'registros')} em ${contar(grupos.length, 'dia', 'dias')}` : '';
   $('periodo').textContent = !inicio ? ''

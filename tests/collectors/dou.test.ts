@@ -193,8 +193,13 @@ describe('parseDou: republicações não são atos novos (C1)', () => {
     expect(r.map((e) => e.titulo)).toEqual(['LEI Nº 14.642, DE 1º DE AGOSTO DE 2023 (*)']);
     expect(r[0].datasAto).toEqual({ assinatura: '2023-08-01', publicacao: '2023-08-03' });
   });
+  it('título sem o "DE" antes do ano (real: "DECRETO Nº 11.539, DE 31 DE MAIO 2023") tem data: valem a regra dos 10 dias', () => {
+    const d = item({ title: 'DECRETO Nº 11.539, DE 31 DE MAIO 2023', urlTitle: 'decreto-n-11.539-de-31-de-maio-2023-1' });
+    expect(parseDou(html([d]), '2023-06-01', COLETA)[0].datasAto).toEqual({ assinatura: '2023-05-31', publicacao: '2023-06-01' });
+    expect(parseDou(html([d]), '2023-09-01', COLETA)).toEqual([]);
+  });
   it('retificação "(*)" sem data de assinatura legível não entra (não dá para saber se é recente)', () => {
-    const d = item({ title: 'DECRETO Nº 11.539, DE 31 DE MAIO 2023 (*)', urlTitle: 'decreto-n-11.539-*-1' });
+    const d = item({ title: 'DECRETO Nº 11.539 (*)', urlTitle: 'decreto-n-11.539-*-1' });
     expect(parseDou(html([d]), '2023-06-02', COLETA)).toEqual([]);
   });
   it('chaveDoAto: tipo + número, sem depender de "Nº", pontos, data ou "(*)"', () => {
@@ -312,6 +317,11 @@ describe('textoPlanaltoEhDoAto (C2): a página só serve se trouxer a data do at
     expect(textoPlanaltoEhDoAto('', titulo)).toBe(false);
   });
   it('título sem data por extenso nunca é confirmado', () => {
-    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_D11430, 'DECRETO Nº 11.539, DE 31 DE MAIO 2023')).toBe(false);
+    expect(textoPlanaltoEhDoAto(PAGINA_PLANALTO_D11430, 'DECRETO Nº 11.430')).toBe(false);
+  });
+  it('título do DOU sem o "DE" antes do ano: a página, que escreve a data completa, confirma', () => {
+    const pagina = '<p>DECRETO N\uFFFD 11.539, DE 31 DE MAIO DE 2023</p>';
+    expect(textoPlanaltoEhDoAto(pagina, 'DECRETO Nº 11.539, DE 31 DE MAIO 2023')).toBe(true);
+    expect(textoPlanaltoEhDoAto(pagina, 'DECRETO Nº 11.539, DE 30 DE MAIO 2023')).toBe(false);
   });
 });

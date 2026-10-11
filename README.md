@@ -66,11 +66,13 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
   continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos quando ela volta. Os dados já
   publicados continuam no ar e o site mostra um aviso com o nome da fonte.
   - `páginas de agenda pediram login`: dois ou mais dias da agenda passaram a exigir login. Em geral é o site do
-    Planalto bloqueando o acesso; se forem mesmo dois dias não públicos, os avisos param quando eles saírem da janela
-    de coleta.
+    Planalto bloqueando o acesso. Se forem mesmo dois dias não públicos, os avisos só param quando um deles sair da
+    janela de coleta — e, como a janela recua enquanto a fonte está em falha, isso pode levar **até 14 dias**.
+  - `coleta interrompida depois de 2 falhas de rede seguidas`: a fonte não respondeu; a execução desiste dela para
+    não estourar o tempo do job e tenta de novo na próxima.
   - `HTTP 404` no DOU ou `Redirecionamento inesperado`: o endereço da fonte mudou; é preciso ajustar o coletor.
 - **Não há mandato configurado para a data de hoje** (ver abaixo). A coleta para por completo até a configuração ser
-  atualizada, e o site passa a mostrar "Sem atualização desde ...".
+  atualizada; depois de 24 horas sem mudança nos dados, o site passa a mostrar "Última alteração nos dados: ...".
 
 Se os e-mails incomodarem durante uma falha longa, desative o workflow em **Actions → Atualizar dados e publicar →
 Disable workflow** e reative depois; na volta, a coleta recua até 14 dias para recuperar o período (para mais do que
