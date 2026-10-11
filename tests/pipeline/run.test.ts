@@ -20,6 +20,8 @@ const HOJE = '2025-03-10';
 const cfg = {
   agenda: {} as Record<string, string>, // data -> html (200). Ausente => 404.
   falhaAgenda: false,
+  loginAgenda: [] as string[], // dias cuja página o Plone manda para a tela de login (existe, mas não é pública)
+  loginOutroDia: false, // o login aponta (came_from) para a página de OUTRO dia
   mensagemFalha: 'rede caiu',
   redirecionaAgenda: null as string | null, // URL final devolvida para as páginas de agenda
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
@@ -28,6 +30,11 @@ const cfg = {
   extraDou: [] as object[], // itens da edição extra do DOU (secao=do1e) em HOJE
   falhaExtraDou: false,
 };
+
+// Formato real (verificado em 2024-10-20, 2024-12-10, 2025-08-03 e 2026-07-25): a página do dia existe mas não está
+// pública; o servidor responde 200 na tela de login, com came_from apontando para a página pedida.
+const LOGIN = 'https://gov.test/acl_users/credentials_cookie_auth/require_login';
+const PAGINA_LOGIN = '<!DOCTYPE html><html lang="pt-br"><head><meta charset="utf-8"><title>Planalto</title></head><body><form id="login_form"></form></body></html>';
 
 const MP_EXTRA = {
   title: 'MEDIDA PROVISÓRIA Nº 1.157, DE 1º DE JANEIRO DE 2023', urlTitle: 'medida-provisoria-n-1.157-de-1-de-janeiro-de-2023-1',
@@ -38,7 +45,12 @@ const MP_EXTRA = {
 async function buscar(url: string) {
   if (url.includes('/agenda-do-presidente-da-republica/')) {
     if (cfg.falhaAgenda) throw new Error(cfg.mensagemFalha);
-    const corpo = cfg.agenda[url.slice(-10)];
+    const dia = url.slice(-10);
+    if (cfg.loginAgenda.includes(dia)) {
+      const origem = cfg.loginOutroDia ? url.replace(dia, '2000-01-01') : url;
+      return { status: 200, corpo: PAGINA_LOGIN, url: `${LOGIN}?came_from=${encodeURIComponent(origem)}` };
+    }
+    const corpo = cfg.agenda[dia];
     const final = cfg.redirecionaAgenda ?? url;
     return corpo ? { status: 200, corpo, url: final } : { status: 404, corpo: PAGINA_404, url: final };
   }
@@ -74,6 +86,8 @@ beforeEach(() => {
     ]),
   };
   cfg.falhaAgenda = false;
+  cfg.loginAgenda = [];
+  cfg.loginOutroDia = false;
   cfg.mensagemFalha = 'rede caiu';
   cfg.redirecionaAgenda = null;
   cfg.redirecionaDou = null;
@@ -170,6 +184,36 @@ describe('atualizar', () => {
     const agenda = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda');
     expect(agenda).toHaveLength(2);
     expect(agenda.every((e) => !e.removidoEm)).toBe(true);
+  });
+
+  it('dia cuja página só abre com login (não pública) é "sem agenda pública": sem falha e nada é removido', async () => {
+    const deps = await novoDeps();
+    await atualizar(deps);
+    cfg.loginAgenda = [HOJE];
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
+    const agenda = (await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda');
+    expect(agenda).toHaveLength(2);
+    expect(agenda.every((e) => !e.removidoEm)).toBe(true);
+  });
+
+  it('login que aponta para a página de outro dia continua sendo falha (redirecionamento inesperado)', async () => {
+    cfg.loginAgenda = [HOJE];
+    cfg.loginOutroDia = true;
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('Redirecionamento inesperado');
+  });
+
+  it('se TODOS os dias da janela pedem login, o site mudou: é falha, não "sem agenda"', async () => {
+    cfg.loginAgenda = Array.from({ length: 11 }, (_, i) => `2025-03-${String(7 + i).padStart(2, '0')}`);
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.agenda.ok).toBe(false);
+    expect(estado.fontes.agenda.mensagem).toContain('pediram login');
   });
 
   it('dia com 200 em que um compromisso sumiu o marca como removido', async () => {
@@ -284,6 +328,13 @@ describe('retroagir', () => {
     const eventos = await lerEventos(deps.dataDir);
     expect(eventos.filter((e) => e.tipo === 'agenda')).toHaveLength(2);
     expect(eventos.filter((e) => e.tipo === 'ato')).toHaveLength(1);
+  });
+  it('dia de página não pública (login) não conta como falha e a carga segue', async () => {
+    cfg.loginAgenda = ['2025-03-09'];
+    const deps = await novoDeps();
+    const falhas = await retroagir(deps, '2025-03-09', '2025-03-10');
+    expect(falhas).toEqual([]);
+    expect((await lerEventos(deps.dataDir)).filter((e) => e.tipo === 'agenda')).toHaveLength(2);
   });
   it('falha de um dia é reportada e não interrompe os demais', async () => {
     cfg.falhaAgenda = true;

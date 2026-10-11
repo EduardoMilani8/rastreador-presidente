@@ -45,6 +45,20 @@ function exigirAgendaDoDia(finalUrl: string, dia: string): void {
   if (!ok) throw new Error(`Redirecionamento inesperado: a página de ${dia} respondeu como ${finalUrl}`);
 }
 
+// Plone: página que existe mas não está pública responde 200 na tela de login, com came_from = página pedida
+// (verificado em 2024-10-20, 2024-12-10, 2025-08-03 e 2026-07-25; o dia sem agenda normal responde 404).
+// Só vale se o came_from for exatamente a página do dia pedida; qualquer outro destino segue sendo falha.
+function ehLoginDaPaginaPedida(finalUrl: string, pedida: string): boolean {
+  try {
+    const f = new URL(finalUrl);
+    if (!f.pathname.endsWith('/acl_users/credentials_cookie_auth/require_login')) return false;
+    const origem = f.searchParams.get('came_from');
+    return origem !== null && caminhoSemBarraFinal(origem) === caminhoSemBarraFinal(pedida);
+  } catch {
+    return false;
+  }
+}
+
 function exigirEdicaoDou(finalUrl: string, pedida: string, dia: string): void {
   let ok = false;
   try {
@@ -62,10 +76,15 @@ const janela = (hoje: string, de: number, ate: number) =>
 
 async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], coletadoEm: string): Promise<Coleta> {
   const c: Coleta = { eventos: [], diasCompletos: new Set(), erros: [] };
+  let semAgendaPublica = 0;
   for (const d of dias) {
     const url = urlAgendaDia(mandato.agendaBase, d);
     try {
       const r = await deps.buscar(url, ACCEPT_HTML);
+      if (ehLoginDaPaginaPedida(r.url, url)) {
+        semAgendaPublica++; // dia sem agenda pública: nada a gravar e, como não é "dia publicado", nada é removido
+        continue;
+      }
       exigirAgendaDoDia(r.url, d);
       const p = parseAgenda(r.corpo, r.status, d, coletadoEm, url);
       c.eventos.push(...p.eventos);
@@ -73,6 +92,10 @@ async function coletarAgenda(deps: Deps, mandato: Mandato, dias: string[], colet
     } catch (e) {
       c.erros.push(`${d}: ${e instanceof LayoutError ? e.message : String(e)}`);
     }
+  }
+  // Um dia solto pedindo login é normal; todos os dias de uma coleta de 3+ dias pedindo login é o site que mudou.
+  if (dias.length >= 3 && semAgendaPublica === dias.length) {
+    c.erros.push('todas as páginas de agenda pediram login: o site mudou ou bloqueou o acesso');
   }
   return c;
 }
