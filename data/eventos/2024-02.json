@@ -1,33 +1,5 @@
 [
   {
-    "id": "dou:decreto-n-11.906-de-30-de-janeiro-de-2024-540637381",
-    "tipo": "ato",
-    "data": "2024-02-01",
-    "titulo": "DECRETO Nº 11.906, DE 30 DE JANEIRO DE 2024",
-    "status": "publicado",
-    "ementa": "(Publicado no DOU de 31/1/2024) ANEXO II (*) (Anexo II ao Decreto nº 11.830, de 14 de dezembro de 2023) \"a) ............................................................................................................... UNIDADE CARGO/FUNÇÃO Nº DENOMINAÇÃO CARGO/FUNÇÃO CCE/FCE ..................................................................................",
-    "datasAto": {
-      "assinatura": "2024-01-30",
-      "publicacao": "2024-02-01"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.906-de-30-de-janeiro-de-2024-540637381",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11906.htm",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
     "id": "agenda:2024-02-01:11:00:1",
     "tipo": "agenda",
     "data": "2024-02-01",

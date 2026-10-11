@@ -2733,7 +2733,7 @@
     "data": "2023-01-17",
     "titulo": "LEI Nº 14.535, DE 17 DE JANEIRO DE 2023",
     "status": "publicado",
-    "ementa": "(Publicada no DOU de 17/1/2023, edição extra)",
+    "ementa": "Estima a receita e fixa a despesa da União para o exercício financeiro de 2023.",
     "datasAto": {
       "assinatura": "2023-01-17",
       "publicacao": "2023-01-17"
@@ -2749,6 +2749,12 @@
         "nome": "texto-planalto",
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14535.htm",
+        "coletadoEm": "2026-10-09T11:39:51.364Z"
+      },
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-n-14.535-de-17-de-janeiro-de-2023-*-458405010",
         "coletadoEm": "2026-10-09T11:39:51.364Z"
       }
     ],

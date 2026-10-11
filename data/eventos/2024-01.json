@@ -3661,6 +3661,12 @@
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D11906.htm",
         "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-11.906-de-30-de-janeiro-de-2024-540637381",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
       }
     ],
     "confirmadoPor": [],

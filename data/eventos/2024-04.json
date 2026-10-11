@@ -3076,6 +3076,12 @@
         "rotulo": "Planalto (texto do ato)",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12002.htm",
         "coletadoEm": "2026-10-11T19:55:15.539Z"
+      },
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.002-de-22-de-abril-de-2024-556244402",
+        "coletadoEm": "2026-10-11T19:55:15.539Z"
       }
     ],
     "confirmadoPor": [],
@@ -3635,34 +3641,6 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2024-04-25",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      }
-    ],
-    "confirmadoPor": [],
-    "historico": []
-  },
-  {
-    "id": "dou:decreto-n-12.002-de-22-de-abril-de-2024-556244402",
-    "tipo": "ato",
-    "data": "2024-04-26",
-    "titulo": "DECRETO Nº 12.002, DE 22 DE ABRIL DE 2024",
-    "status": "publicado",
-    "ementa": "(Publicado no DOU de 23 de abril de 2024) CAPÍTULO V (*) DA CONSULTA PÚBLICA Consulta pública sobre ato normativo Art. 27. A consulta pública poderá ser realizada: I - no caso de ato normativo a ser submetido ao Presidente da República, pelos órgãos competentes para referendar a proposta final sobre a matéria; e II - no caso de ato normativo inferior a dec...",
-    "datasAto": {
-      "assinatura": "2024-04-22",
-      "publicacao": "2024-04-26"
-    },
-    "fontes": [
-      {
-        "nome": "dou",
-        "rotulo": "Diário Oficial da União",
-        "url": "https://www.in.gov.br/web/dou/-/decreto-n-12.002-de-22-de-abril-de-2024-556244402",
-        "coletadoEm": "2026-10-11T19:55:15.539Z"
-      },
-      {
-        "nome": "texto-planalto",
-        "rotulo": "Planalto (texto do ato)",
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12002.htm",
         "coletadoEm": "2026-10-11T19:55:15.539Z"
       }
     ],
