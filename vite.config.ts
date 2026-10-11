@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { defineConfig, type Plugin } from 'vite';
-import { caminhoSeguro } from './scripts/dados-dev';
+import { caminhoSeguro } from './scripts/dados-dev.ts';
 
 // form-action 'self' (e não 'none'): o formulário de filtros de index.html é um GET para a própria
 // página; com 'none' o navegador bloquearia o envio. Todo o resto continua fechado.
