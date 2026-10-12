@@ -66,3 +66,8 @@ O site abre em `http://localhost:5173`, lendo os dados da pasta `data/`. Para ro
 - [CONTRIBUTING.md](CONTRIBUTING.md): como contribuir.
 - [docs/MANUTENCAO.md](docs/MANUTENCAO.md): publicação, e-mails de falha e troca de mandato.
 - [docs/superpowers/specs](docs/superpowers/specs): o desenho original do projeto.
+
+## Licença
+
+O código é aberto sob a [licença MIT](LICENSE): pode usar, copiar e modificar, mantendo o aviso de autoria. Os dados em
+`data/` vêm de fontes públicas oficiais e da imprensa, e cada item aponta para a sua origem.
