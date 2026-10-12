@@ -42,13 +42,16 @@ describe('site/sobre.html', () => {
     expect(document.documentElement.lang).toBe('pt-BR');
   });
 
-  it('não tem scripts, estilos inline, handlers, e-mail nem link de repositório', () => {
+  it('não tem scripts, estilos inline, handlers nem e-mail, e o único link externo de código é o repositório do projeto', () => {
     const html = ler('site/sobre.html');
     expect(html).not.toMatch(/<script/i);
     expect(html).not.toMatch(/<style[\s>]/i);
     expect(html).not.toMatch(/\sstyle=/i);
     expect(html).not.toMatch(/\son[a-z]+=/i);
-    expect(html).not.toMatch(/mailto:|@[a-z0-9-]+\.[a-z]|github\.com|gitlab\.com/i);
+    expect(html).not.toMatch(/mailto:|@[a-z0-9-]+\.[a-z]|gitlab\.com/i);
+    const repos = [...html.matchAll(/https:\/\/github\.com\/[^"<\s]*/g)].map((m) => m[0]);
+    expect(repos.length).toBeGreaterThan(0);
+    expect(new Set(repos)).toEqual(new Set(['https://github.com/EduardoMilani8/rastreador-presidente']));
     expect(html).toContain('href="./style.css"');
   });
 
