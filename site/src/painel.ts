@@ -101,20 +101,22 @@ function renderDetalhe(doc: Document, d: DiaPainel): Node[] {
 }
 
 function montarResumo(doc: Document, resumo: Resumo | undefined): void {
-  const dl = doc.getElementById('resumo') as HTMLElement;
-  dl.replaceChildren();
-  dl.hidden = true;
+  const ul = doc.getElementById('resumo') as HTMLElement;
+  ul.replaceChildren();
+  ul.hidden = true;
   if (!resumo) return;
   const n = new Intl.NumberFormat('pt-BR');
-  const pares: [number, string][] = [
-    [resumo.total, `registros desde ${formatarDataCurta(resumo.desde)}`],
-    [resumo.porTipo.agenda, 'compromissos na agenda'],
-    [resumo.porTipo.ato, 'atos no Diário Oficial'],
+  const itens: [string, number, string][] = [
+    ['', resumo.total, `registros desde ${formatarDataCurta(resumo.desde)}`],
+    ['resumo-agenda', resumo.porTipo.agenda, 'compromissos na agenda'],
+    ['resumo-ato', resumo.porTipo.ato, 'atos no Diário Oficial'],
   ];
-  for (const [valor, rotulo] of pares) {
-    dl.append(el(doc, 'div', {}, el(doc, 'dt', {}, rotulo), el(doc, 'dd', { class: 'resumo-numero' }, n.format(valor))));
+  for (const [classe, valor, rotulo] of itens) {
+    ul.append(el(doc, 'li', classe ? { class: classe } : {},
+      el(doc, 'strong', { class: 'numero' }, n.format(valor)),
+      el(doc, 'span', { class: 'rotulo' }, rotulo)));
   }
-  dl.hidden = false;
+  ul.hidden = false;
 }
 
 const comArrasto = new WeakSet<HTMLElement>();
@@ -146,6 +148,7 @@ export function montarPainel(doc: Document, dados: Dados, hoje: string, _agora: 
   const botoes = [...lista.querySelectorAll<HTMLButtonElement>('button.dia')];
 
   const selecionar = (data: string) => {
+    if (botoes.some((b) => b.dataset.dia === data && b.getAttribute('aria-pressed') === 'true')) return;
     const dia = dias.find((d) => d.data === data);
     if (!dia) return;
     for (const b of botoes) b.setAttribute('aria-pressed', String(b.dataset.dia === data));

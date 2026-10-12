@@ -111,7 +111,6 @@ describe('montarPainel', () => {
     expect(dia.querySelector('.marca-ato')!.classList.contains('tam-2')).toBe(true);
     expect(dia.querySelector('.marca-agenda')!.classList.contains('tam-1')).toBe(true);
     expect(dia.querySelector('.dia-num')!.textContent).toBe('07');
-    expect(dia.querySelectorAll('span').length).toBeGreaterThan(0);
     for (const s of dia.querySelectorAll('span')) expect(s.getAttribute('aria-hidden')).toBe('true');
     expect(botao('2026-10-06').querySelector('.marca-vazio')).not.toBeNull();
     expect(botao('2026-10-06').querySelector('.marca-ato, .marca-agenda')).toBeNull();
@@ -204,24 +203,47 @@ describe('montarPainel', () => {
     expect(document.querySelectorAll('#conteudo img, #conteudo script')).toHaveLength(0);
   });
 
-  it('números do topo: visíveis com resumo, escondidos sem', () => {
+  it('números do topo: visíveis com resumo, número antes do rótulo', () => {
     const resumo = { total: 8540, porTipo: { agenda: 5468, ato: 3044, comunicado: 28 }, desde: '2023-01-01' };
     montarPainel(document, { ...DADOS, resumo }, HOJE, AGORA);
-    const dl = document.getElementById('resumo')!;
-    expect(dl.hidden).toBe(false);
-    expect(dl.textContent).toContain('8.540');
-    expect(dl.textContent).toContain('5.468');
-    expect(dl.textContent).toContain('3.044');
-    expect(dl.textContent).toContain('registros desde 01/01/2023');
-    expect(dl.textContent).toContain('compromissos na agenda');
-    expect(dl.textContent).toContain('atos no Diário Oficial');
+    const ul = document.getElementById('resumo')!;
+    expect(ul.tagName).toBe('UL');
+    expect(ul.hidden).toBe(false);
+    const itens = [...ul.querySelectorAll(':scope > li')];
+    expect(itens).toHaveLength(3);
+    const lidos = itens.map((li) => [...li.children].map((c) => `${c.tagName}.${c.className}=${c.textContent}`));
+    expect(lidos).toEqual([
+      ['STRONG.numero=8.540', 'SPAN.rotulo=registros desde 01/01/2023'],
+      ['STRONG.numero=5.468', 'SPAN.rotulo=compromissos na agenda'],
+      ['STRONG.numero=3.044', 'SPAN.rotulo=atos no Diário Oficial'],
+    ]);
+    expect(itens[1].classList.contains('resumo-agenda')).toBe(true);
+    expect(itens[2].classList.contains('resumo-ato')).toBe(true);
   });
 
   it('sem resumo o bloco continua escondido e vazio', () => {
     montarPainel(document, DADOS, HOJE, AGORA);
-    const dl = document.getElementById('resumo')!;
-    expect(dl.hidden).toBe(true);
-    expect(dl.textContent!.trim()).toBe('');
+    const ul = document.getElementById('resumo')!;
+    expect(ul.hidden).toBe(true);
+    expect(ul.textContent!.trim()).toBe('');
+  });
+
+  it('o detalhe do dia não é região viva', () => {
+    montarPainel(document, DADOS, HOJE, AGORA);
+    expect(document.getElementById('detalhe-dia')!.hasAttribute('aria-live')).toBe(false);
+  });
+
+  it('dia já selecionado não redesenha o detalhe; outro dia redesenha', () => {
+    montarPainel(document, DADOS, HOJE, AGORA);
+    const detalhe = document.getElementById('detalhe-dia')!;
+    const h3 = detalhe.querySelector('h3')!;
+    const atual = botao('2026-10-07');
+    for (const tipo of ['focus', 'click', 'mouseenter']) atual.dispatchEvent(new Event(tipo));
+    expect(detalhe.querySelector('h3')).toBe(h3);
+    botao('2026-10-05').dispatchEvent(new Event('mouseenter'));
+    const outro = detalhe.querySelector('h3')!;
+    expect(outro).not.toBe(h3);
+    expect(outro.textContent).toBe('Segunda-feira, 5 de outubro de 2026');
   });
 
   it('montar de novo não duplica nada', () => {
@@ -229,7 +251,7 @@ describe('montarPainel', () => {
     montarPainel(document, { ...DADOS, resumo }, HOJE, AGORA);
     montarPainel(document, { ...DADOS, resumo }, HOJE, AGORA);
     expect(botoes()).toHaveLength(21);
-    expect(document.querySelectorAll('#resumo dt')).toHaveLength(3);
+    expect(document.querySelectorAll('#resumo li')).toHaveLength(3);
   });
 
   it('não tem violações de acessibilidade detectáveis pelo axe (com e sem resumo)', async () => {
