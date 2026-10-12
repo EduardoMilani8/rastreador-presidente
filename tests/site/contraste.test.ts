@@ -80,6 +80,14 @@ describe('guardas da folha de estilo', () => {
     expect(largo).toMatch(/#painel-linha:has\(\.destaques > section:not\(\[hidden\]\)\)/);
   });
 
+  it('links de fonte têm 44px por padrão e só ficam compactos com mouse', () => {
+    const inicio = css.indexOf('@media (hover: hover) and (pointer: fine)');
+    expect(inicio).toBeGreaterThan(-1);
+    expect(css.slice(0, inicio)).toMatch(/\.fontes a, \.permalink \{[^}]*min-height: 44px;/);
+    expect(css.slice(0, inicio)).not.toMatch(/\.fontes a, \.permalink \{[^}]*min-height: 0;/);
+    expect(css.slice(inicio)).toMatch(/\.fontes a, \.permalink \{ min-height: 0; padding: 4px 0; \}/);
+  });
+
   it('respeita prefers-reduced-motion: rolagem suave só para quem não pediu menos movimento', () => {
     expect(css).toMatch(/@media \(prefers-reduced-motion: no-preference\)\s*\{\s*html\s*\{\s*scroll-behavior: smooth;/);
     expect(css).not.toMatch(/\b(transition|animation)\b/);
