@@ -49,6 +49,16 @@ describe('build de produção', () => {
   }, 120_000);
 });
 
+describe('mapa de viagens', () => {
+  it('o contorno vai num pedaço separado de até 60 kB, carregado sob demanda', () => {
+    execSync('npm run build', { stdio: 'pipe' });
+    const pedacos = readdirSync('dist/assets').filter((f) => /^mapa-contorno-.*\.js$/.test(f));
+    expect(pedacos).toHaveLength(1);
+    expect(statSync(join('dist/assets', pedacos[0])).size).toBeLessThanOrEqual(60_000);
+    expect(readFileSync('dist/index.html', 'utf8')).not.toContain('mapa-contorno');
+  }, 120_000);
+});
+
 describe('scripts/copy-data.mjs', () => {
   const script = resolve(process.cwd(), 'scripts/copy-data.mjs');
 

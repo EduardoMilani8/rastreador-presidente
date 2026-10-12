@@ -1,5 +1,5 @@
-import type { Evento } from '../../src/shared/schema';
-import type { Dados, Resumo } from './dados';
+import type { Evento, Resumo } from '../../src/shared/schema';
+import type { Dados } from './dados';
 import { agruparPorDia } from './filtrar';
 import { el, formatarDataCurta, formatarDataLonga } from './render';
 

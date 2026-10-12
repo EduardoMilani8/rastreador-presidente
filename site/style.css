@@ -42,14 +42,14 @@ main { padding-bottom: 64px; }
 .rodape p { padding-top: 20px; padding-bottom: 32px; color: var(--suave); font-size: 0.8125rem; }
 
 /* Títulos e textos de apoio */
-h1, h3, .numero, .bloco-linha h2, .limites h2, .noticia-destaque h2 { font-family: var(--titulo); font-weight: 700; }
+h1, h3, .numero, .bloco-linha h2, .bloco-viagens h2, .limites h2, .noticia-destaque h2 { font-family: var(--titulo); font-weight: 700; }
 h1 { margin: 40px 0 4px; font-size: clamp(1.75rem, 6vw, 2.25rem); line-height: 1.15; letter-spacing: -0.01em; }
 h2 { margin: 32px 0 14px; color: var(--suave); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
-.discreto { margin: 0; color: var(--suave); font-size: 0.875rem; }
-#ultima-novidade, .evento-hora, .datas-ato, .dia-num, .detalhe-resumo, .quando, .noticia-destaque .selo, .noticias-grade .local, .passos li::before { font-family: var(--mono); font-weight: 500; font-size: 0.8125rem; }
+.discreto, .viagens-nota { margin: 0; color: var(--suave); font-size: 0.875rem; }
+#ultima-novidade, .cidades .contagem, .evento-hora, .datas-ato, .dia-num, .detalhe-resumo, .quando, .noticia-destaque .selo, .noticias-grade .local, .passos li::before { font-family: var(--mono); font-weight: 500; font-size: 0.8125rem; }
 .vazio { color: var(--suave); }
 .lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.evento-corpo, .bloco-linha, #bloco-proximos, .filtros, .noticia-destaque, .veiculo, .passos li, .limites, .aviso-imprensa { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; }
+.evento-corpo, .bloco-linha, .bloco-viagens, #bloco-proximos, .filtros, .noticia-destaque, .veiculo, .passos li, .limites, .aviso-imprensa { background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; }
 
 /* Marcadores: círculo para agenda, losango para ato, quadrado para comunicado */
 .marca-agenda, .marca-ato, .marca-comunicado, .marca-vazio { display: block; flex: none; width: 8px; aspect-ratio: 1; }
@@ -81,9 +81,9 @@ h2 { margin: 32px 0 14px; color: var(--suave); font-size: 0.75rem; font-weight: 
 .resumo-agenda .numero { color: var(--agenda); }
 .resumo-ato .numero { color: var(--ato); }
 .rotulo { display: block; margin-top: 6px; color: var(--suave); font-size: 0.8125rem; }
-.bloco-linha { margin-top: 40px; padding: clamp(16px, 4vw, 28px); border-radius: 16px; }
-.bloco-linha h2, .limites h2 { margin: 0 0 12px; color: var(--texto); font-size: 1.375rem; letter-spacing: 0; text-transform: none; }
-.bloco-linha h2 { font-size: 1.625rem; }
+.bloco-linha, .bloco-viagens { margin-top: 40px; padding: clamp(16px, 4vw, 28px); border-radius: 16px; }
+.bloco-linha h2, .bloco-viagens h2, .limites h2 { margin: 0 0 12px; color: var(--texto); font-size: 1.375rem; letter-spacing: 0; text-transform: none; }
+.bloco-linha h2, .bloco-viagens h2 { font-size: 1.625rem; }
 .legenda-linha { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 0 0 4px; padding: 0; color: var(--suave); font-size: 0.8125rem; }
 .legenda-linha li, .tipo, .status { display: inline-flex; align-items: center; gap: 6px; }
 #linha-rolagem { margin-top: 20px; padding: 5px; overflow-x: auto; scrollbar-width: none; cursor: grab; user-select: none; }
@@ -170,7 +170,7 @@ button.dia > :first-child, .dia-num { margin-top: auto; }
 .veiculo-recente { margin: 0; color: var(--suave); font-size: 0.9375rem; }
 .veiculo .lista { gap: 0; }
 .veiculo li { padding: 2px 0; border-top: 1px solid var(--linha); color: var(--suave); font-size: 0.9375rem; }
-.veiculo-mais > summary, .veiculos-outros > summary { min-height: 44px; padding: 11px 0; color: var(--link); font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+.veiculo-mais > summary, .veiculos-outros > summary, .cidades-mais > summary { min-height: 44px; padding: 11px 0; color: var(--link); font-size: 0.875rem; font-weight: 600; cursor: pointer; }
 
 /* Sobre */
 .prosa > * { max-width: 720px; margin-inline: auto; }
@@ -214,3 +214,32 @@ button.dia > :first-child, .dia-num { margin-top: auto; }
 }
 
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* Viagens internacionais */
+.viagens-nota { margin-bottom: 20px; }
+.viagens-corpo { display: grid; gap: 24px; }
+.mapa { aspect-ratio: 720 / 276; }
+.mapa-svg { display: block; width: 100%; }
+.mapa-terra { fill: var(--linha); }
+.mapa-rota { fill: none; stroke: var(--agenda); stroke-opacity: 0.5; }
+.mapa-rota.ativa { stroke-opacity: 1; }
+.mapa-cidade { fill: var(--agenda); stroke: var(--fundo); stroke-width: 1.5; }
+.mapa-cidade.tam-1 { r: 3; }
+.mapa-cidade.tam-2 { r: 4; }
+.mapa-cidade.tam-3 { r: 5.5; }
+.mapa-cidade.tam-4 { r: 7; }
+.mapa-cidade.tam-5 { r: 9; }
+.mapa-cidade.ativa { fill: var(--ato); }
+.mapa-brasilia, .mapa-rotulo { fill: var(--texto); }
+.mapa-rotulo { font-size: 11px; }
+.cidades { list-style: none; margin: 0; padding: 0; }
+.cidades li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 12px; padding: 8px 10px; border-top: 1px solid var(--linha); }
+.cidades li.ativa { background: var(--selecionado); }
+.cidades .cidade { font-weight: 600; }
+.cidades span { color: var(--suave); font-size: 0.875rem; }
+.cidades .contagem { margin-left: auto; }
+
+@media (min-width: 60rem) {
+  .viagens-corpo { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); }
+  #mapa-viagens[hidden] + #lista-viagens { grid-column: 1 / -1; }
+}

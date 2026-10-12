@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { ICONES } from '../../site/src/icones';
+import { CIDADES_A_VISTA, faixaDeCidade } from '../../site/src/viagens';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const ler = (arq: string) => readFileSync(resolve(process.cwd(), arq), 'utf8');
@@ -59,7 +60,11 @@ describe('site/sobre.html', () => {
     expect(html).not.toMatch(/mailto:|@[a-z0-9-]+\.[a-z]|gitlab\.com/i);
     const repos = [...html.matchAll(/https:\/\/github\.com\/[^"<\s]*/g)].map((m) => m[0]);
     expect(repos.length).toBeGreaterThan(0);
-    expect(new Set(repos)).toEqual(new Set(['https://github.com/EduardoMilani8/rastreador-presidente']));
+    // além do repositório, só a tabela pública de locais da seção das viagens
+    expect(new Set(repos)).toEqual(new Set([
+      'https://github.com/EduardoMilani8/rastreador-presidente',
+      'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json',
+    ]));
     expect(html).toContain('href="./style.css"');
   });
 
@@ -207,6 +212,72 @@ describe('site/sobre.html', () => {
       expect(termos, rotulo).toContain(rotulo);
     }
     expect(document.querySelector('main')!.textContent).not.toContain('Alterado / Removido');
+  });
+
+  describe('seção das viagens', () => {
+    const TABELA = 'config/locais.json';
+
+    // Itens da seção "Viagens" de docs/regras-painel.md, sem o subtítulo "Situação em…": linhas quebradas juntas
+    // com um espaço e sem crases.
+    function frasesDoDocumento(): string[] {
+      const md = ler('docs/regras-painel.md');
+      const inicio = md.indexOf('## Viagens (`data/viagens.json`)');
+      const fim = md.indexOf('### Situação em', inicio);
+      expect(inicio).toBeGreaterThan(-1);
+      expect(fim).toBeGreaterThan(inicio);
+      const itens: string[] = [];
+      for (const linha of md.slice(inicio, fim).split('\n')) {
+        if (linha.startsWith('- ')) itens.push(linha.slice(2).trim());
+        else if (linha.startsWith('  ') && itens.length > 0) itens[itens.length - 1] += ` ${linha.trim()}`;
+      }
+      return itens.map((i) => i.replaceAll('`', ''));
+    }
+
+    const lista = () => {
+      const h2 = document.getElementById('viagens')!;
+      expect(h2.tagName).toBe('H2');
+      return h2.nextElementSibling as HTMLElement;
+    };
+
+    it('tem o título "Como as viagens são reconhecidas", antes da seção de limites', () => {
+      const h2 = document.getElementById('viagens')!;
+      expect(h2.textContent).toBe('Como as viagens são reconhecidas');
+      expect(h2.compareDocumentPosition(document.querySelector('.limites')!) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+      expect(lista().tagName).toBe('UL');
+    });
+
+    const frases = frasesDoDocumento();
+
+    it('lê onze frases do documento de regras', () => {
+      expect(frases).toHaveLength(11);
+    });
+
+    it.each(frases.map((f, i) => [i + 1, f] as [number, string]))('o item %s está no Sobre, igual ao documento', (n, frase) => {
+      const itens = [...lista().querySelectorAll(':scope > li')];
+      expect(itens).toHaveLength(frases.length);
+      const esperado = frase.replace(TABELA, '');
+      const real = itens[n - 1].textContent!.replace(/\s+/g, ' ').trim().replace(TABELA, '');
+      expect(real).toBe(esperado);
+    });
+
+    it('a tabela vira um link https para o arquivo no repositório, sem abrir sem proteção', () => {
+      const a = lista().querySelector('a')!;
+      expect(a.textContent).toBe(TABELA);
+      expect(a.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json');
+      expect(a.getAttribute('rel')).toBe('noopener noreferrer');
+      expect(lista().querySelectorAll('a')).toHaveLength(1);
+    });
+
+    it('a nota da página inicial aponta para esta seção', () => {
+      const pagina = ler('site/index.html');
+      expect(pagina).toContain('href="sobre.html#viagens"');
+    });
+
+    it('as faixas de tamanho e o limite da lista seguem o que o código faz', () => {
+      expect(CIDADES_A_VISTA).toBe(10);
+      const fronteiras = [1, 2, 3, 7, 8, 15, 16, 30, 31].map(faixaDeCidade);
+      expect(fronteiras).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5]);
+    });
   });
 
   it('axe: sem violações de acessibilidade', async () => {

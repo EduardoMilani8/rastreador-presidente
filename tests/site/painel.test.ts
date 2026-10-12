@@ -28,7 +28,7 @@ const EVENTOS: Evento[] = [
 ];
 
 const DADOS: Dados = {
-  eventos: EVENTOS, noticias: [], estado: { fontes: {} }, incompleto: false,
+  eventos: EVENTOS, noticias: [], estado: { fontes: {} }, incompleto: false, viagens: [],
   mesesCarregados: ['2026-10'], mesesDisponiveis: ['2026-10'],
 };
 

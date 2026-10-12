@@ -123,4 +123,14 @@ describe('guardas da folha de estilo', () => {
     expect(css).toMatch(/#linha-rolagem\s*\{[^}]*overflow-x:\s*auto[^}]*scrollbar-width:\s*none/);
     expect(css).toMatch(/#linha-rolagem::-webkit-scrollbar\s*\{\s*display:\s*none;?\s*\}/);
   });
+
+  it('o mapa de viagens tem as cinco faixas de raio e a rota não define cor literal', () => {
+    const raio = (n: number) => css.match(new RegExp(`\\.mapa-cidade\\.tam-${n}\\s*\\{\\s*r:\\s*([\\d.]+)`))?.[1];
+    expect([1, 2, 3, 4, 5].map(raio)).toEqual(['3', '4', '5.5', '7', '9']);
+    const regra = css.match(/\.mapa-rota\s*\{([^}]*)\}/)![1];
+    expect(regra).toMatch(/stroke:\s*var\(--agenda\)/);
+    expect(regra).toMatch(/stroke-opacity:\s*0?\.5/);
+    expect(regra).toMatch(/fill:\s*none/);
+    expect(regra).not.toMatch(/#[0-9a-f]{3,8}\b|rgba?\(|hsla?\(/i);
+  });
 });

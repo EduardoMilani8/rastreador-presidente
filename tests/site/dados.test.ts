@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { carregarDados } from '../../site/src/dados';
-import type { Evento, Noticia } from '../../src/shared/schema';
+import type { Evento, Noticia, Viagem } from '../../src/shared/schema';
 
 const T = '2026-10-08T12:00:00.000Z';
 const ev = (id: string, data: string): Evento => ({
@@ -181,5 +181,48 @@ describe('carregarDados: resumo.json opcional', () => {
     const d = await carregarDados({});
     expect(chamadas).not.toContain('data/resumo.json');
     expect(d.resumo).toBeUndefined();
+  });
+});
+
+describe('carregarDados: viagens.json opcional', () => {
+  const VIAGEM: Viagem = {
+    id: 'paris-fr', cidade: 'Paris', pais: 'França', lat: 48.86, lon: 2.35,
+    compromissos: 32, dias: 7, primeiroDia: '2023-06-22', ultimoDia: '2025-06-07',
+  };
+  const OUTRA: Viagem = { ...VIAGEM, id: 'lima-pe', cidade: 'Lima', pais: 'Peru' };
+
+  it('lê viagens válidas quando a opção é pedida', async () => {
+    stubFetch({ ...BASE, 'data/viagens.json': [VIAGEM, OUTRA] });
+    const d = await carregarDados({}, { viagens: true });
+    expect(d.viagens).toEqual([VIAGEM, OUTRA]);
+    expect(d.incompleto).toBe(false);
+  });
+
+  it.each([
+    ['404', undefined],
+    ['500', 500],
+    ['JSON inválido', 'texto'],
+    ['corpo que não é lista', { cidades: [VIAGEM] }],
+  ])('%s: lista vazia e incompleto=false', async (_nome, resp) => {
+    const mapa = { ...BASE };
+    if (resp !== undefined) mapa['data/viagens.json'] = resp;
+    stubFetch(mapa);
+    const d = await carregarDados({}, { viagens: true });
+    expect(d.viagens).toEqual([]);
+    expect(d.incompleto).toBe(false);
+  });
+
+  it('item inválido no meio é descartado e os outros ficam', async () => {
+    stubFetch({ ...BASE, 'data/viagens.json': [VIAGEM, { ...OUTRA, lat: 123 }, { id: 'lixo' }, OUTRA] });
+    const d = await carregarDados({}, { viagens: true });
+    expect(d.viagens.map((v) => v.id)).toEqual(['paris-fr', 'lima-pe']);
+    expect(d.incompleto).toBe(false);
+  });
+
+  it('sem a opção o arquivo nem é pedido', async () => {
+    const chamadas = stubFetch({ ...BASE, 'data/viagens.json': [VIAGEM] });
+    const d = await carregarDados({});
+    expect(chamadas).not.toContain('data/viagens.json');
+    expect(d.viagens).toEqual([]);
   });
 });

@@ -32,7 +32,7 @@ const DADOS: Dados = {
   ],
   noticias: [noticia],
   estado: { fontes: { agenda: { ok: true, desde: T }, dou: { ok: false, desde: T, mensagem: 'x' } }, ultimaNovidadeEm: '2026-10-08T14:30:00.000Z' },
-  incompleto: false,
+  incompleto: false, viagens: [],
   mesesCarregados: ['2026-10', '2026-09'],
   mesesDisponiveis: ['2026-10', '2026-09', '2026-08', '2026-07'],
 };

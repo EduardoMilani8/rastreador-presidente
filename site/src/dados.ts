@@ -1,17 +1,9 @@
 import { z } from 'zod';
 import {
-  EstadoFontesSchema, EventoSchema, NoticiaSchema,
-  type EstadoFontes, type Evento, type Noticia,
+  EstadoFontesSchema, EventoSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
+  type EstadoFontes, type Evento, type Noticia, type Resumo, type Viagem,
 } from '../../src/shared/schema';
 import type { Filtros } from './params';
-
-const Contagem = z.number().int().nonnegative();
-export const ResumoSchema = z.object({
-  total: Contagem,
-  porTipo: z.object({ agenda: Contagem, ato: Contagem, comunicado: Contagem }),
-  desde: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-});
-export type Resumo = z.infer<typeof ResumoSchema>;
 
 export interface Dados {
   eventos: Evento[];
@@ -21,6 +13,8 @@ export interface Dados {
   incompleto: boolean;
   /** Totais do topo do painel. Arquivo opcional: se faltar ou for inválido, fica indefinido e nada é avisado. */
   resumo?: Resumo;
+  /** Cidades fora do Brasil com compromissos na agenda. Arquivo opcional: se faltar ou for inválido, fica vazio e nada é avisado. */
+  viagens: Viagem[];
   /** Meses (AAAA-MM, do mais novo ao mais antigo) consultados para esta página: é o período que ela cobre. */
   mesesCarregados: string[];
   /** Todos os meses que têm dados, do mais novo ao mais antigo. */
@@ -43,7 +37,7 @@ function validos<T>(schema: z.ZodType<T>, bruto: unknown): T[] {
   });
 }
 
-export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean; resumo?: boolean } = {}): Promise<Dados> {
+export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean; resumo?: boolean; viagens?: boolean } = {}): Promise<Dados> {
   let incompleto = false;
   // Nunca lança: em falha devolve o padrão e marca `incompleto`.
   const tentar = async <T>(fn: () => Promise<T>, padrao: T): Promise<T> => {
@@ -76,5 +70,13 @@ export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean; re
       resumo = undefined; // opcional: sem o arquivo os números do topo só não aparecem
     }
   }
-  return { eventos, noticias, estado, incompleto, resumo, mesesCarregados: escolhidos, mesesDisponiveis: meses };
+  let viagens: Viagem[] = [];
+  if (opcoes.viagens) {
+    try {
+      viagens = validos(ViagemSchema, await lerJson('data/viagens.json'));
+    } catch {
+      viagens = []; // opcional: sem o arquivo a seção de viagens só não aparece
+    }
+  }
+  return { eventos, noticias, estado, incompleto, resumo, viagens, mesesCarregados: escolhidos, mesesDisponiveis: meses };
 }
