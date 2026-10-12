@@ -73,6 +73,31 @@ export const ResumoSchema = z.object({
   message: 'total diferente da soma dos tipos',
 });
 
+const coordenada = (limite: number) => z.number().min(-limite).max(limite);
+
+/** Linha da tabela conferida à mão que liga textos do campo `local` da agenda a uma cidade fora do Brasil. */
+export const LocalConhecidoSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+-[a-z]{2}$/),
+  cidade: z.string().min(1),
+  pais: z.string().min(1),
+  lat: coordenada(90),
+  lon: coordenada(180),
+  exatos: z.string().min(1).array(),
+  contem: z.string().min(1).array(),
+}).refine((l) => l.exatos.length + l.contem.length > 0, { message: 'cidade sem nenhum padrão' });
+
+export const ViagemSchema = z.object({
+  id: z.string().min(1),
+  cidade: z.string().min(1),
+  pais: z.string().min(1),
+  lat: coordenada(90),
+  lon: coordenada(180),
+  compromissos: z.number().int().positive(),
+  dias: z.number().int().positive(),
+  primeiroDia: dataIso,
+  ultimoDia: dataIso,
+}).refine((v) => v.primeiroDia <= v.ultimoDia && v.dias <= v.compromissos, { message: 'período ou contagem incoerente' });
+
 export type Fonte = z.infer<typeof FonteSchema>;
 export type Evento = z.infer<typeof EventoSchema>;
 export type Noticia = z.infer<typeof NoticiaSchema>;
@@ -81,3 +106,5 @@ export type EstadoFontes = z.infer<typeof EstadoFontesSchema>;
 export type TipoEvento = z.infer<typeof TipoEventoSchema>;
 export type Status = z.infer<typeof StatusSchema>;
 export type Resumo = z.infer<typeof ResumoSchema>;
+export type LocalConhecido = z.infer<typeof LocalConhecidoSchema>;
+export type Viagem = z.infer<typeof ViagemSchema>;

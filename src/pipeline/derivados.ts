@@ -1,5 +1,6 @@
 import type { Evento, Resumo } from '../shared/schema';
-import { gravarResumo } from './store';
+import { gravarResumo, gravarViagens } from './store';
+import { calcularViagens, carregarLocais } from './viagens';
 
 /** Contagens de tudo o que está gravado em data/eventos. Sem eventos não há resumo. */
 export function calcularResumo(eventos: Evento[]): Resumo | undefined {
@@ -17,5 +18,6 @@ export function calcularResumo(eventos: Evento[]): Resumo | undefined {
 export async function gravarDerivados(dir: string, eventos: Evento[]): Promise<number> {
   let alterados = 0;
   if (await gravarResumo(dir, calcularResumo(eventos))) alterados++;
+  if (await gravarViagens(dir, calcularViagens(eventos, carregarLocais()))) alterados++;
   return alterados;
 }
