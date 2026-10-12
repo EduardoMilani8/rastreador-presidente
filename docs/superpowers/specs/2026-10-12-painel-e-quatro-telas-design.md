@@ -31,14 +31,33 @@ Estas quatro alteram regras do pedido original e do CLAUDE.md. Precisam de aprov
    a constante `CSP_ESPERADA` de `tests/site/build.test.ts`. Nenhuma outra diretiva muda.
 2. **Dependências de desenvolvimento novas**: `@fontsource/bricolage-grotesque`, `@fontsource/ibm-plex-sans`,
    `@fontsource/ibm-plex-mono` (arquivos `.woff2`, licença OFL) e `world-atlas` (contornos do Natural Earth, domínio
-   público). Nenhuma vai para o navegador como código: um script copia os `.woff2` usados e gera o desenho do mapa.
+   público, em formato TopoJSON). Nenhuma vai para o navegador como código: um script copia os `.woff2` usados e
+   outro decodifica o TopoJSON (decodificador próprio, dentro do script, sem dependência extra) e gera o desenho
+   do mapa. Os resultados são versionados.
 3. **"O Último registro precisa aparecer sem rolar a tela" deixa de valer.** No lugar: no celular, a primeira tela
    do painel mostra o dia mais recente com registros já selecionado, e a primeira tela de Registros mostra o
    registro mais recente.
 4. **Ids removidos**: `bloco-ultimo` e `ultimo-registro`. Os demais ids continuam, distribuídos entre as páginas.
 
-Os limites de peso também mudam: CSS até 12 kB; JS da página inicial até 110 kB; fontes até 160 kB no total; o
-desenho do mapa até 60 kB, carregado só quando a seção de viagens entra na tela.
+Os limites de peso também mudam: CSS até 12 kB; JS da página inicial até 110 kB; fontes até 90 kB no total (os quatro
+arquivos necessários somam 84 kB, medidos no npm); o desenho do mapa até 60 kB, carregado só quando a seção de
+viagens entra na tela. O peso do mapa é estimativa: só se confirma ao gerar o arquivo, na fase 2.
+
+## Fases
+
+Cada fase é publicável sozinha.
+
+1. **Fase 1, sem dado novo**: as quatro páginas, a linguagem nos dois temas, as fontes e a CSP, a linha do tempo
+   com pontos, o redirecionamento dos endereços antigos e o código que esconde as seções sem dado. Os números do
+   topo aparecem se `data/resumo.json` existir.
+2. **Fase 2, viagens**: o mapa e a lista, quando `data/viagens.json` existir.
+3. **Fase 3, gastos**: quando o recorte da coleta for aprovado e `data/gastos.json` existir.
+
+## Branches
+
+O frontend fica em `redesenho`. O pipeline trabalha em `redesenho-dados`, criado a partir de `redesenho`, em outra
+pasta de trabalho, e não altera nada em `site/` nem em `tests/site/`. `redesenho-dados` é juntado em `redesenho`
+no começo das fases 2 e 3. Só `redesenho` é juntado em `main`, depois de aprovação.
 
 ## Páginas e endereços
 
@@ -154,8 +173,12 @@ data/gastos.json
     "valorCentavos": 0, "fontes": [ { "nome": "...", "rotulo": "...", "url": "https://...", "coletadoEm": "..." } ] } ] }
 ```
 
-Os esquemas zod ficam em `src/shared/schema.ts`, escritos pela sessão do pipeline em `main`. Este branch
-desenvolve contra arquivos de exemplo nos testes e faz rebase quando os esquemas chegarem.
+Os esquemas zod ficam em `src/shared/schema.ts`, escritos pela sessão do pipeline em `redesenho-dados`. Na fase 1
+o site valida os três arquivos com esquemas próprios em `site/src/dados.ts`, iguais aos do contrato acima, e passa
+a importar os do pipeline quando `redesenho-dados` for juntado.
+
+O texto novo da página Sobre (viagens e gastos) é escrito neste branch, a partir das regras que a sessão do
+pipeline descrever em `docs/regras-painel.md`. Assim só uma sessão edita `site/sobre.html`.
 
 ## Código
 
