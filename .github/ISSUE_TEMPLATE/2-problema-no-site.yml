@@ -1,0 +1,50 @@
+name: Problema no site
+description: Algo quebrou, não carrega, ficou lento ou difícil de usar.
+title: "[Site] "
+labels: ["site"]
+body:
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu?
+      placeholder: "Cliquei em ... e ..."
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse?
+    validations:
+      required: true
+  - type: input
+    id: endereco
+    attributes:
+      label: Endereço da página onde aconteceu
+      description: Copie da barra do navegador, com os filtros.
+      placeholder: https://eduardomilani8.github.io/rastreador-presidente/?tipo=ato
+  - type: dropdown
+    id: aparelho
+    attributes:
+      label: Onde você estava usando?
+      options:
+        - Celular
+        - Computador
+        - Tablet
+    validations:
+      required: true
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador
+      placeholder: Chrome, Firefox, Safari...
+  - type: checkboxes
+    id: acessibilidade
+    attributes:
+      label: Acessibilidade
+      options:
+        - label: O problema atrapalha o uso com leitor de tela, teclado ou alto contraste.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Captura de tela ou outro detalhe
+      description: Opcional. Dá para arrastar uma imagem para este campo.

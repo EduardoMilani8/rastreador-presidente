@@ -1,0 +1,51 @@
+name: Erro nos dados
+description: Um compromisso ou ato está errado, duplicado ou faltando.
+title: "[Dados] "
+labels: ["dados"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por conferir! Esta é a contribuição mais valiosa para o projeto.
+        Não precisa saber programar: basta dizer o que você viu e onde está a informação correta.
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Qual é o problema?
+      options:
+        - Informação errada (título, data, horário ou local)
+        - Item duplicado
+        - Item faltando
+        - Link da fonte errado ou quebrado
+        - Não deveria estar na lista
+        - Outro
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Link do item no site
+      description: Use o "Link permanente" do cartão. Se o item está faltando, informe a data.
+      placeholder: https://eduardomilani8.github.io/rastreador-presidente/?de=2026-10-09&ate=2026-10-09#ev-...
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que está errado e como deveria ser
+      placeholder: "O site mostra ... mas o correto é ..."
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Link da fonte oficial que mostra o correto
+      description: Página da agenda no gov.br, do Diário Oficial (in.gov.br) ou do Planalto. Sem fonte pública não conseguimos corrigir.
+      placeholder: https://www.in.gov.br/...
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Mais alguma coisa?
+      description: Opcional.

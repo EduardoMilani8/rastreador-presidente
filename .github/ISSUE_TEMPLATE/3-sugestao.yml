@@ -1,0 +1,35 @@
+name: Sugestão
+description: Uma ideia de melhoria, de nova fonte pública ou de nova informação no site.
+title: "[Sugestão] "
+labels: ["sugestão"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Toda ideia é bem-vinda. Para caber no projeto, ela precisa respeitar três coisas:
+        só dados públicos com link para a fonte, nenhuma opinião, e nenhuma entrada de dados de quem visita.
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Que problema ela resolve, e para quem?
+      placeholder: "Hoje, quem quer saber ... precisa ..."
+    validations:
+      required: true
+  - type: input
+    id: fonte
+    attributes:
+      label: Se envolve dados novos, qual é a fonte pública?
+      description: Opcional. Link da página oficial onde a informação está.
+      placeholder: https://...
+  - type: checkboxes
+    id: ajuda
+    attributes:
+      label: Você quer ajudar a fazer?
+      options:
+        - label: Posso abrir um pull request para isso.
