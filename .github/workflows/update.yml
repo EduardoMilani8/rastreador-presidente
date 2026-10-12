@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '7-59/10 * * * *'  # minutos 7, 17, ... 57: fora da hora cheia, quando o agendador do GitHub atrasa mais
   workflow_dispatch:
+    inputs:
+      agendado:
+        description: 'Disparo automático (publica só se os dados mudaram)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths-ignore: ['data/**', 'docs/**']
@@ -52,7 +57,8 @@ jobs:
 
   publicar:
     needs: atualizar
-    if: ${{ always() && (needs.atualizar.outputs.mudou == 'true' || github.event_name != 'schedule') }}
+    # Disparo agendado (do GitHub ou do disparador externo) só publica quando os dados mudaram.
+    if: ${{ always() && (needs.atualizar.outputs.mudou == 'true' || (github.event_name != 'schedule' && !inputs.agendado)) }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
