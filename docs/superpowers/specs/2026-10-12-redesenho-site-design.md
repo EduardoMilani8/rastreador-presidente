@@ -104,7 +104,7 @@ li.evento.tipo-{tipo}.status-{status}[.com-hora]
 ### Data nos destaques
 
 Única adição de conteúdo. `renderEvento` ganha a opção de mostrar a data: nos cartões de "Último registro" e
-"Próximos compromissos" o `time.evento-hora` passa a trazer data e hora (`13/10 · 10:00`), ou só a data quando o
+"Próximos compromissos" o `time.evento-hora` passa a trazer data e hora (`13/10/2026 · 10:00`, com o ano, para o cartão nunca ficar ambíguo), ou só a data quando o
 item não tem hora (`datetime` com a data). Na linha do tempo nada muda, porque o título do dia já diz a data.
 Nos destaques a data fica dentro da caixa, acima da linha de tipo e status, e não em coluna lateral.
 
