@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { beforeEach, describe, expect, it } from 'vitest';
+import { ICONES } from '../../site/src/icones';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const ler = (arq: string) => readFileSync(resolve(process.cwd(), arq), 'utf8');
@@ -28,7 +29,9 @@ describe('site/sobre.html', () => {
     expect(titulos[0]).toBe('H1');
     expect(titulos.filter((t) => t === 'H1')).toHaveLength(1);
     expect(titulos[1]).toBe('H2');
-    expect(titulos.every((t) => t === 'H1' || t === 'H2')).toBe(true);
+    expect(titulos.every((t) => t === 'H1' || t === 'H2' || t === 'H3')).toBe(true);
+    // h3 só aparece depois de um h2, nunca pula nível
+    titulos.forEach((t, i) => { if (t === 'H3') expect(titulos[i - 1]).toMatch(/H2|H3/); });
   });
 
   it('tem link de pular para o conteúdo apontando para o main', () => {
@@ -41,7 +44,7 @@ describe('site/sobre.html', () => {
     // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
     expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
     expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
-    expect(document.querySelector('h1')!.textContent).toBe('Sobre e metodologia');
+    expect(document.querySelector('h1')!.textContent).toBe('Sobre');
     expect(document.querySelector('footer.rodape')!.textContent).toContain('Projeto independente, sem vínculo com o governo.');
     expect(document.title).toContain('Sobre e metodologia');
     expect(document.documentElement.lang).toBe('pt-BR');
@@ -60,6 +63,61 @@ describe('site/sobre.html', () => {
     expect(html).toContain('href="./style.css"');
   });
 
+  it('não fala mais em aba separada nem em página inicial mostrando meses', () => {
+    const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
+    expect(texto).not.toContain('aba separada');
+    expect(texto).not.toContain('página inicial mostra');
+  });
+
+  it('tem a linha de descrição abaixo do título', () => {
+    const textos = [...document.querySelectorAll('main > p')].map((p) => p.textContent);
+    expect(textos).toContain('Projeto independente, sem vínculo com o governo, feito só com fontes públicas.');
+  });
+
+  const PASSOS: [string, string][] = [
+    ['Fontes', 'Os dados vêm somente de fontes oficiais públicas e da imprensa.'],
+    ['Coleta', 'O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar.'],
+    ['Publicação', 'Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.'],
+  ];
+
+  it('Como funciona: três passos numerados com frases exatas, sob um h2', () => {
+    const h2 = [...document.querySelectorAll('main h2')].find((h) => h.textContent === 'Como funciona')!;
+    expect(h2).toBeTruthy();
+    const itens = [...document.querySelectorAll('ol.passos > li')];
+    expect(itens).toHaveLength(3);
+    PASSOS.forEach(([titulo, frase], i) => {
+      expect(itens[i].querySelector('h3')!.textContent).toBe(titulo);
+      expect(itens[i].querySelector('p')!.textContent).toBe(frase);
+    });
+    expect(h2.compareDocumentPosition(itens[0]) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
+
+  it('cada frase dos passos continua existindo no restante da página', () => {
+    const resto = [...document.querySelectorAll('main > *')]
+      .filter((e) => !e.matches('ol.passos') && !e.closest('ol.passos'))
+      .map((e) => e.textContent).join(' ').replace(/\s+/g, ' ');
+    for (const [, frase] of PASSOS) expect(resto, frase).toContain(frase);
+  });
+
+  it('a lista de status tem um ícone por item, com o desenho de ICONES', () => {
+    const h2 = [...document.querySelectorAll('main h2')].find((h) => h.textContent === 'O que cada status significa')!;
+    const itens = [...(h2.nextElementSibling as HTMLElement).querySelectorAll(':scope > li')];
+    const ordem = ['relogio', 'lista', 'visto', 'balao', 'documento', 'lapis', 'cortado'] as const;
+    expect(itens).toHaveLength(7);
+    itens.forEach((li, i) => {
+      const svg = li.querySelector(':scope > svg.icone')!;
+      expect(svg, li.textContent!).toBeTruthy();
+      expect(svg.getAttribute('viewBox')).toBe('0 0 16 16');
+      expect(svg.getAttribute('aria-hidden')).toBe('true');
+      expect(svg.querySelector('path')!.getAttribute('d')).toBe(ICONES[ordem[i]]);
+      expect(svg.nextElementSibling!.tagName).toBe('STRONG');
+    });
+  });
+
+  it('a seção de limites tem a classe limites', () => {
+    expect(document.querySelector('.limites')!.textContent).toContain('Limites que você precisa saber');
+  });
+
   it('é honesto sobre a metodologia', () => {
     const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
     // (a) o tempo sozinho não confirma
@@ -71,7 +129,7 @@ describe('site/sobre.html', () => {
     expect(texto).not.toMatch(/depois dos fatos|somente um comunicado oficial|só confirma um compromisso do mesmo dia/);
     // (c) fontes
     expect(texto).toMatch(/somente de fontes oficiais públicas e da imprensa/);
-    expect(texto).toMatch(/Notícias \(aba separada\)/);
+    expect(texto).toMatch(/Notícias \(página separada\)/);
     for (const termo of ['Agenda do Presidente', 'Diário Oficial da União', 'Comunicados do Planalto', 'Consta na agenda', 'Publicado no Diário Oficial']) {
       expect(texto).toContain(termo);
     }
@@ -102,7 +160,7 @@ describe('site/sobre.html', () => {
     expect(texto).toMatch(/[Ll]eis (assinadas|sancionadas) pelo governo anterior e publicadas em janeiro de 2023 não (são listadas|entram)/);
     expect(texto).not.toMatch(/sem atualização|Sem atualização/);
     // visão padrão e cadência
-    expect(texto).toMatch(/página inicial mostra (só )?os dois meses mais recentes/);
+    expect(texto).toMatch(/página Registros mostra (só )?os dois meses mais recentes/);
     expect(texto).toMatch(/a cada cerca de 10 minutos/);
     expect(texto).not.toMatch(/a cada poucos minutos/);
   });

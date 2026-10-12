@@ -13,7 +13,7 @@
     <div class="faixa">
       <div class="faixa-dentro">
         <a class="marca" href="./">Rastreador do Presidente</a>
-        <h1>Sobre e metodologia</h1>
+        <h1>Sobre</h1>
         <nav aria-label="Seções do site" class="abas">
           <a href="./">Painel</a>
           <a id="aba-linha" href="registros.html">Registros</a>
@@ -25,6 +25,24 @@
   </header>
 
   <main id="conteudo" class="prosa">
+    <p>Projeto independente, sem vínculo com o governo, feito só com fontes públicas.</p>
+
+    <h2>Como funciona</h2>
+    <ol class="passos">
+      <li>
+        <h3>Fontes</h3>
+        <p>Os dados vêm somente de fontes oficiais públicas e da imprensa.</p>
+      </li>
+      <li>
+        <h3>Coleta</h3>
+        <p>O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar.</p>
+      </li>
+      <li>
+        <h3>Publicação</h3>
+        <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
+      </li>
+    </ol>
+
     <h2>O que é</h2>
     <p>Um registro público e somente de leitura do que o Presidente da República fez e do que consta na sua agenda oficial. O site não tem login, comentários nem qualquer campo em que alguém possa inserir dados. É um projeto independente, sem vínculo com o governo.</p>
 
@@ -34,21 +52,22 @@
       <li><strong>Agenda do Presidente</strong> (Planalto): compromissos publicados pelo governo, desde 01/01/2023.</li>
       <li><strong>Diário Oficial da União</strong>: decretos numerados, leis e medidas provisórias, desde 01/01/2023. Entram também os atos assinados pelo vice-presidente no exercício da Presidência.</li>
       <li><strong>Comunicados do Planalto</strong>: notas do site do Planalto. A maioria é aviso de pauta ("a agenda será às 14h30..."), publicado um ou dois dias antes do compromisso. Cada comunicado aparece com a data em que o texto foi publicado. O histórico existe a partir do início da nossa coleta.</li>
-      <li><strong>Notícias</strong> (aba separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
+      <li><strong>Notícias</strong> (página separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
     </ul>
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
     <h2>O que cada status significa</h2>
     <ul>
-      <li><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
-      <li><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
-      <li><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>
-      <li><strong>Publicado no site do Planalto</strong>: o comunicado foi publicado. Isso não significa que o compromisso descrito já aconteceu.</li>
-      <li><strong>Publicado no Diário Oficial</strong>: o ato foi publicado. Mostramos a data de assinatura e a de publicação.</li>
-      <li><strong>Alterado na agenda</strong>: o título ou o local do compromisso mudou depois que o registramos. A versão anterior fica guardada no próprio item.</li>
-      <li><strong>Removido da agenda</strong>: o compromisso estava na agenda e saiu dela. O item continua aqui, riscado: nada some sem aviso.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM8 4.5V8l2.5 1.5"></path></svg><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 4.5h7M5.5 8h7M5.5 11.5h7M3 4.5h.01M3 8h.01M3 11.5h.01"></path></svg><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM5.2 8.2l2 2l3.6-4"></path></svg><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M2.5 3h11v7.5H7l-3 2.5v-2.5H2.5z"></path></svg><strong>Publicado no site do Planalto</strong>: o comunicado foi publicado. Isso não significa que o compromisso descrito já aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M4 1.5h5.5L12 4v10.5H4zM9.5 1.5V4H12M6 8h4M6 11h4"></path></svg><strong>Publicado no Diário Oficial</strong>: o ato foi publicado. Mostramos a data de assinatura e a de publicação.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M3 13l.6-2.8l7-7l2.2 2.2l-7 7zM9.4 4.4l2.2 2.2"></path></svg><strong>Alterado na agenda</strong>: o título ou o local do compromisso mudou depois que o registramos. A versão anterior fica guardada no próprio item.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM3.8 3.8l8.4 8.4"></path></svg><strong>Removido da agenda</strong>: o compromisso estava na agenda e saiu dela. O item continua aqui, riscado: nada some sem aviso.</li>
     </ul>
 
+    <section class="limites">
     <h2>Limites que você precisa saber</h2>
     <ul>
       <li>Os comunicados do Planalto são, na maioria, avisos de pauta publicados um ou dois dias antes do compromisso. Por isso a ligação automática com a agenda está desligada: nenhum compromisso vira "Realizado" por causa deles, e muitos compromissos que de fato aconteceram continuam como "Consta na agenda".</li>
@@ -62,10 +81,11 @@
       <li>Os títulos dos atos aparecem como o Diário Oficial os imprimiu, inclusive com erros de digitação no número ou na data. Quando a data de assinatura do título é impossível, mostramos só a de publicação.</li>
       <li>Alguns poucos decretos podem faltar: há decretos que constam no site do Planalto e não aparecem na lista do Diário Oficial que consultamos. Também pode faltar o ato que só encontramos numa republicação feita muito depois da assinatura.</li>
       <li>O link “Texto do ato” (Planalto) só aparece quando a página foi encontrada e confere com o ato. Nos atos coletados desde 11/10/2026 conferimos a data do ato na página; nos anteriores, a conferência foi pelo número. Sem isso, fica só o link do Diário Oficial.</li>
-      <li>A página inicial mostra os dois meses mais recentes. Para ver o restante, use “Ver meses anteriores” ou o filtro por data; a linha acima da lista sempre diz qual período está sendo mostrado.</li>
+      <li>A página Registros mostra os dois meses mais recentes. Para ver o restante, use “Ver meses anteriores” ou o filtro por data; a linha acima da lista sempre diz qual período está sendo mostrado.</li>
       <li>O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar. O alto da página diz quando os dados mudaram pela última vez.</li>
       <li>Não resumimos nem reescrevemos o que as fontes dizem: mostramos o texto oficial. O resumo dos atos vem cortado pelo próprio Diário Oficial quando é longo.</li>
     </ul>
+    </section>
 
     <h2>Código e dados abertos</h2>
     <p>Todo o código deste site e os arquivos de dados que ele mostra estão publicados em <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">github.com/EduardoMilani8/rastreador-presidente</a>. Qualquer pessoa pode conferir como cada item foi coletado e apontar erros por lá.</p>
