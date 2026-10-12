@@ -44,4 +44,22 @@ correspondente precisa mudar junto.
 
 ## Gastos (`data/gastos.json`)
 
-Ainda não há coleta. O recorte está em análise; esta seção será escrita quando ele for aprovado.
+Decisão de 12/10/2026: o site não mostra gastos por enquanto. O arquivo `data/gastos.json` não é gerado, e o painel
+esconde a seção quando ele não existe.
+
+Frases para a página Sobre:
+
+- O site não mostra gastos. As fontes públicas oficiais (Portal da Transparência) publicam cartão de pagamento,
+  diárias, passagens e despesas por órgão, e o órgão "Presidência da República" inclui centenas de servidores. Gasto
+  do órgão não é gasto do presidente, e mostrar um como se fosse o outro seria enganoso.
+- O presidente não recebe diárias nem passagens em nome próprio. O custo das viagens presidenciais (avião, segurança,
+  hospedagem) fica em outros órgãos ou sob sigilo, sem valor publicado por viagem.
+- Parte dos gastos com cartão da Presidência é publicada só como total, sem favorecido nem data, por sigilo previsto
+  em lei.
+- Se um dia houver um valor oficial que possa ser atribuído ao presidente com segurança, com link para a fonte em cada
+  item, ele entra aqui com um rótulo que diga exatamente o que o número cobre.
+
+Para retomar depois: o recorte que ficou como candidato é o subsídio mensal do cargo de presidente (individual), a
+confirmar na consulta de remuneração do Portal da Transparência. A API do Portal exige chave pessoal
+(`chave-api-dados`); os arquivos mensais do cartão e os anuais de viagens podem ser baixados sem chave. Em 12/10/2026 o
+mês mais recente do cartão era agosto e o arquivo de viagens de 2026 tinha data de 20/09.
