@@ -1,5 +1,6 @@
 import type { Evento, Fonte, Noticia, Status, TipoEvento } from '../../src/shared/schema';
 import { urlHttpsSegura } from '../../src/shared/text';
+import { icone, type NomeIcone } from './icones';
 
 type Filho = Node | string | null | undefined | false;
 
@@ -10,16 +11,16 @@ export function el(doc: Document, tag: string, atributos: Record<string, string>
   return e;
 }
 
-export const ROTULO_STATUS: Record<Status, { icone: string; texto: string }> = {
-  agendado: { icone: '🕐', texto: 'Agendado' },
-  consta_na_agenda: { icone: '📋', texto: 'Consta na agenda' },
-  realizado: { icone: '✅', texto: 'Realizado' },
-  publicado: { icone: '📜', texto: 'Publicado no Diário Oficial' },
-  alterado: { icone: '⚠️', texto: 'Alterado na agenda' },
-  removido: { icone: '⚠️', texto: 'Removido da agenda' },
+export const ROTULO_STATUS: Record<Status, { icone: NomeIcone; texto: string }> = {
+  agendado: { icone: 'relogio', texto: 'Agendado' },
+  consta_na_agenda: { icone: 'lista', texto: 'Consta na agenda' },
+  realizado: { icone: 'visto', texto: 'Realizado' },
+  publicado: { icone: 'documento', texto: 'Publicado no Diário Oficial' },
+  alterado: { icone: 'lapis', texto: 'Alterado na agenda' },
+  removido: { icone: 'cortado', texto: 'Removido da agenda' },
 };
 
-export const ROTULO_COMUNICADO = { icone: '📰', texto: 'Publicado no site do Planalto' };
+export const ROTULO_COMUNICADO: { icone: NomeIcone; texto: string } = { icone: 'balao', texto: 'Publicado no site do Planalto' };
 
 export const ROTULO_TIPO: Record<TipoEvento, string> = {
   agenda: 'Agenda',
@@ -75,28 +76,46 @@ function linkPermanente(doc: Document, ev: Evento): HTMLElement {
   }, 'Link permanente');
 }
 
-/** `comId: false` para cópias do mesmo item (destaques) — só a linha do tempo leva o id âncora. */
-export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId = true): HTMLElement {
+export interface OpcoesEvento {
+  nivelTitulo?: number;
+  /** `false` para cópias do mesmo item (destaques): só a linha do tempo leva o id âncora. */
+  comId?: boolean;
+  /** Nos destaques não há título de dia acima do cartão: a data vai junto da hora. */
+  comData?: boolean;
+}
+
+export function renderEvento(
+  doc: Document, ev: Evento, { nivelTitulo = 4, comId = true, comData = false }: OpcoesEvento = {},
+): HTMLElement {
   // Comunicado do Planalto é, em geral, um aviso de pauta publicado ANTES do evento: nunca mostra "Realizado".
   const st = ev.tipo === 'comunicado' ? ROTULO_COMUNICADO : ROTULO_STATUS[ev.status];
-  const li = el(doc, 'li', {
-    class: `evento tipo-${ev.tipo} status-${ev.status}`,
-  });
+  const li = el(doc, 'li', { class: `evento tipo-${ev.tipo} status-${ev.status}` });
   if (comId) li.id = idAncora(ev);
-  li.append(el(doc, 'p', { class: 'evento-meta' },
-    ev.hora && el(doc, 'time', { datetime: `${ev.data}T${ev.hora}` }, ev.hora),
+  const corpo = el(doc, 'div', { class: 'evento-corpo' });
+
+  const quando = comData ? [formatarDataCurta(ev.data), ev.hora].filter(Boolean).join(' · ') : ev.hora;
+  if (quando) {
+    const hora = el(doc, 'time', { class: 'evento-hora', datetime: ev.hora ? `${ev.data}T${ev.hora}` : ev.data }, quando);
+    if (comData) {
+      corpo.append(hora);
+    } else {
+      li.classList.add('com-hora');
+      li.append(hora);
+    }
+  }
+
+  corpo.append(el(doc, 'p', { class: 'evento-meta' },
     el(doc, 'span', { class: 'tipo' }, ROTULO_TIPO[ev.tipo]),
-    el(doc, 'span', { class: 'status' }, el(doc, 'span', { 'aria-hidden': 'true' }, st.icone), ` ${st.texto}`),
-    linkPermanente(doc, ev)));
-  li.append(el(doc, `h${nivelTitulo}`, { class: 'evento-titulo' }, ev.titulo));
-  if (ev.local) li.append(el(doc, 'p', { class: 'local' }, ev.local));
-  if (ev.ementa) li.append(el(doc, 'p', { class: 'ementa' }, ev.ementa));
+    el(doc, 'span', { class: 'status' }, icone(doc, st.icone), ` ${st.texto}`)));
+  corpo.append(el(doc, `h${nivelTitulo}`, { class: 'evento-titulo' }, ev.titulo));
+  if (ev.local) corpo.append(el(doc, 'p', { class: 'local' }, ev.local));
+  if (ev.ementa) corpo.append(el(doc, 'p', { class: 'ementa' }, ev.ementa));
   if (ev.tipo === 'comunicado') {
-    li.append(el(doc, 'p', { class: 'datas-ato' },
+    corpo.append(el(doc, 'p', { class: 'datas-ato' },
       `Data de publicação do texto: ${formatarDataCurta(ev.data)}. O compromisso descrito pode ser em outra data.`));
   }
   if (ev.datasAto) {
-    li.append(el(doc, 'p', { class: 'datas-ato' },
+    corpo.append(el(doc, 'p', { class: 'datas-ato' },
       ev.datasAto.assinatura ? `Assinado em ${formatarDataCurta(ev.datasAto.assinatura)} · ` : '',
       `Publicado em ${formatarDataCurta(ev.datasAto.publicacao)}`));
   }
@@ -105,9 +124,13 @@ export function renderEvento(doc: Document, ev: Evento, nivelTitulo = 4, comId =
     for (const v of ev.historico) {
       versoes.append(el(doc, 'li', {}, [v.hora, v.titulo, v.local].filter(Boolean).join(' · ')));
     }
-    li.append(el(doc, 'details', {}, el(doc, 'summary', {}, `Versões anteriores (${ev.historico.length})`), versoes));
+    corpo.append(el(doc, 'details', {}, el(doc, 'summary', {}, `Versões anteriores (${ev.historico.length})`), versoes));
   }
-  li.append(renderFontes(doc, ev.fontes));
+  // O link permanente fica na faixa das fontes, mas fora da lista: não é fonte e não entra na contagem do selo.
+  const fontes = renderFontes(doc, ev.fontes);
+  fontes.append(linkPermanente(doc, ev));
+  corpo.append(fontes);
+  li.append(corpo);
   return li;
 }
 

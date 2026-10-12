@@ -43,6 +43,17 @@ beforeEach(() => {
 });
 
 describe('montar', () => {
+
+  it('os destaques mostram a data do item; a linha do tempo, só a hora', () => {
+    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    const proximo = document.querySelector('#proximos time.evento-hora')!;
+    expect(proximo.textContent).toBe('09/10/2026 · 10:00');
+    expect(proximo.getAttribute('datetime')).toBe('2026-10-09T10:00');
+    expect(document.querySelector('#ultimo-registro time.evento-hora')!.textContent).toBe('07/10/2026 · 10:00');
+    expect(document.querySelector('#ev-b time.evento-hora')!.textContent).toBe('10:00');
+    expect(document.querySelector('#ultimo-registro h3.evento-titulo')).not.toBeNull();
+    expect(document.querySelector('#ev-b h4.evento-titulo')).not.toBeNull();
+  });
   it('mostra último registro, próximos compromissos e a linha do tempo agrupada por dia', () => {
     montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
     expect(document.getElementById('ultimo-registro')!.textContent).toContain('Compromisso b'); // 07/10 10:00 vence o ato sem hora

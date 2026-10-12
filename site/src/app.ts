@@ -100,11 +100,11 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
 
   $('bloco-ultimo').hidden = !ultimo;
   limpar($('ultimo-registro'));
-  if (ultimo) $('ultimo-registro').append(el(doc, 'ul', { class: 'lista' }, renderEvento(doc, ultimo, 3, false)));
+  if (ultimo) $('ultimo-registro').append(el(doc, 'ul', { class: 'lista' }, renderEvento(doc, ultimo, { nivelTitulo: 3, comId: false, comData: true })));
 
   $('bloco-proximos').hidden = prox.length === 0;
   limpar($('proximos'));
-  for (const e of prox) $('proximos').append(renderEvento(doc, e, 3, false));
+  for (const e of prox) $('proximos').append(renderEvento(doc, e, { nivelTitulo: 3, comId: false, comData: true }));
 
   // Sem filtro, exatamente o que aparece na faixa de próximos sai da linha do tempo;
   // agendados com data passada (defasados) continuam nela.
@@ -142,7 +142,7 @@ export function montar(doc: Document, dados: Dados, f: Filtros, hoje: string, ag
     const lote = grupos.slice(mostrados, mostrados + DIAS_POR_LOTE).map((g) =>
       el(doc, 'section', { class: 'dia' },
         el(doc, 'h3', {}, el(doc, 'time', { datetime: g.data }, formatarDataLonga(g.data))),
-        el(doc, 'ol', { class: 'lista' }, ...g.itens.map((e) => renderEvento(doc, e, 4)))));
+        el(doc, 'ol', { class: 'lista' }, ...g.itens.map((e) => renderEvento(doc, e)))));
     destino.append(...lote);
     mostrados += lote.length;
 
