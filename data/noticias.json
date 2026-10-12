@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:ef22cc416ddb",
+    "titulo": "Lula quer aumentar incentivos à cultura; Flávio defende patrimônio",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-12T18:00:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/conheca-propostas-de-flavio-e-lula-para-cultura",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "agencia-brasil:0f2e7f69385c",
     "titulo": "Técnicos do TSE não encontram conteúdo falso no canal Exército do Lula",
     "veiculo": "Agência Brasil",
@@ -13,6 +21,14 @@
     "veiculo": "Instagram",
     "data": "2026-10-12T16:20:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nSElsUi04d000VVhXbGVORjRmTThRRFYwOV9MenpndkhQX0dlQ09yQ045Rk5tT1I1VDJlbXNLU2VfME5fd0J4dFc1cnVwMkltSkE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:03ef283b8c16",
+    "titulo": "Campanha de Lula acusa Flávio de associar vídeo de usuários de drogas no Chile ao ato petista na Paulista",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-12T16:18:37.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQ1RLNGhsdjlFQVI3Xy1wZ05BWGFGVm1nbzliLVAwLWh6c0FHZ3NMZTFJMzVsZXRTUGVxNjdEcC11Z0dYallkZ05kY1FWeWR3R0hqcWFlYWZMWFNFR3MwaWFRZm10UDc1b2VQNVRSUW5vN1Zva0ZDa2prZlNZUlZoWlA4blNUaUU1RGV4azBBd2VtZ3djUTVaS3BQWUFsZHRtR3h3aGdKV0VJbDY5THJ4ZE5LeGV0TlRhcWZnbmU5cjFYemlLNFZYZm1VemlCX0xiRGl4MFZQSG85Vk1PMWxVcHFmWmc1Ui1XTGRLLTJGLWtZYm5FbmtfX1k0VllEOEZXcXcwdmRtaFXSAZcCQVVfeXFMT25CWGVvUm80TUQwOEFJNmo1MWJfSnowZTI5SEFjOVBmV3JNNndBNFo5Q0lEbnJKdGFpWXdseWhuNDE0MmJYcmVuQmZsODNZaXFLbmRQT3NTam52bWRsWm40a3VVTzA4ZFBHTHRSLV9ydnJxQ0NEYjFDM1dITWJpdW1mbTd1ZlI3Y0pQQUpuWm1LM1F0eGUzdzE3Q1ZQSHBOUllrYU5CeW4tYWJwUk1SbjRMZ0xUOFFleGk5OThfR2h4M21rdTAyUk5DcFpIUzFRWWJYQVJkUnpfQzJGYjVSYVltdGtidFkxeEh1aTliT3ZzaUd2ZUR5ZzRiTFFTR3pzcXNmSUZVcy1TemVqN2RVbXZscWx1Q1ZR?oc=5",
     "origem": "google-news"
   },
   {
@@ -413,6 +429,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-09T21:04:49.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcGRvSmtGbUZXT0hmMHM2alJZeXVyeF8wTmExa3lrMWhnYjFLWDNZWmZOUmNjSlJQSEpzcGl1OXY4QTh6ZTVXM204WGZ3Ul9kQjQwSVJmazRHNl9vdlNQOUZwMVBwWjQ2eklIeFRmOGRvSm90WFRSVEpHOGVvcGVXN1E4M0FzQnZWUDlRZC1YS0lqOVBUMU51WDFhT1BQbVZQLXhPNDBCMnV2WjVieDFtc3hSOEhSaDFlejZvTU1tdkVYdkVjczg0SktLNm9nZTZEUzd6RW5XTWNvUnRWUGJCUjl4djl0dDVCWGpheDdidnV1d9IBgAJBVV95cUxPV2xXSEtrcV9fc3ZJRG9rbkpNdGpSMld0eEo1aU5OZ3ZXYkdxeUVXLXJFN2xWaXlXbEQxemxJZ3NFMC1kOTlDcUd1Qm01NE5zSG5DOExpbFNCa3hRRkhldC01ekg4d0RIZkpqZEpEbURKRWNQSklJNnFmVGx5R2dPek13U3Eyc1hMRGk0VHVQSVJKRG15RjR6QzlmQ3FkN2tvVU1TZ0pVNXZiNzNhY1l1dlB6Y2VSWmxZaDhVZmJ1NzhWZUc3ek1jUkRnVlA1UGxTWmNRRE5zSmhXX3NEanljZ0VfTVdsSndIYVRDamZ5SlBIcGlua2JzOFhfSWZNeVlI?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b9b065dc2eef",
+    "titulo": "Nova pesquisa Quaest testa a disputa entre Flávio Bolsonaro e Lula no segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-09T17:00:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV3g4UmFEQWhkZmZGM2pTYzY0eG1GQVMxcTY2QmdackZjTkxIOGdKNGpsX1dQVmFhRHV1RHBnanNRUWFOaXRvM2w2ZEhCcnhTVjY3b2wzZ05FcFdTY3o0cGtkaVYxWENIc3c4bGd1Zm52aDI4Umw3OVlZbjVMTkc3TjkyUlRSZU1NbVJ3OFVCdVNacVZpem5kckQ0dndkU3Jxb3lrTnk5SXhzOFlXaGJpa0ZETW04ZU5HUVRn?oc=5",
     "origem": "google-news"
   },
   {
