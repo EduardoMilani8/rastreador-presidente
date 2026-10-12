@@ -166,6 +166,27 @@ describe('item removido', () => {
   });
 });
 
+describe('estrutura da página', () => {
+  it('título, última alteração e abas ficam na faixa; os avisos, no cabeçalho e fora dela', () => {
+    const faixa = document.querySelector('header.topo > .faixa')!;
+    expect(faixa.querySelector('h1')!.textContent).toBe('Rastreador do Presidente');
+    expect(faixa.querySelector('#ultima-novidade')).not.toBeNull();
+    expect(faixa.querySelectorAll('nav.abas a')).toHaveLength(3);
+    for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
+      expect(document.querySelector(`header.topo > .avisos > #${id}`), id).not.toBeNull();
+    }
+  });
+
+  it('os dois destaques ficam agrupados e vêm antes da linha do tempo na ordem de leitura', () => {
+    const destaques = document.querySelector('#painel-linha > .destaques')!;
+    expect([...destaques.children].map((e) => e.id)).toEqual(['bloco-ultimo', 'bloco-proximos']);
+    const cronologia = document.querySelector('#painel-linha > section.cronologia')!;
+    expect(cronologia.querySelector('#linha-do-tempo')).not.toBeNull();
+    expect(cronologia.querySelector('#caixa-filtros')).not.toBeNull();
+    expect(destaques.compareDocumentPosition(cronologia) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
+});
+
 describe('ids únicos', () => {
   it('o documento montado não tem ids duplicados (destaque repete item da linha do tempo)', () => {
     montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);

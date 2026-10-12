@@ -13,6 +13,12 @@ beforeEach(() => {
 });
 
 describe('site/sobre.html', () => {
+  it('usa a mesma faixa de cabeçalho da página principal e a área de texto corrido', () => {
+    const html = ler('site/sobre.html');
+    expect(html).toContain('<div class="faixa">');
+    expect(html).toContain('<main id="conteudo" class="prosa">');
+  });
+
   it('tem landmarks, um único h1 e h2 logo depois (sem pular níveis)', () => {
     expect(document.querySelectorAll('header, [role=banner]')).toHaveLength(1);
     expect(document.querySelectorAll('main')).toHaveLength(1);
