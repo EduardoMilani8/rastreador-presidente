@@ -5,12 +5,22 @@ import {
 } from '../../src/shared/schema';
 import type { Filtros } from './params';
 
+const Contagem = z.number().int().nonnegative();
+export const ResumoSchema = z.object({
+  total: Contagem,
+  porTipo: z.object({ agenda: Contagem, ato: Contagem, comunicado: Contagem }),
+  desde: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+});
+export type Resumo = z.infer<typeof ResumoSchema>;
+
 export interface Dados {
   eventos: Evento[];
   noticias: Noticia[];
   estado: EstadoFontes;
   /** true se algum arquivo necessário não pôde ser carregado (a página deve avisar). */
   incompleto: boolean;
+  /** Totais do topo do painel. Arquivo opcional: se faltar ou for inválido, fica indefinido e nada é avisado. */
+  resumo?: Resumo;
   /** Meses (AAAA-MM, do mais novo ao mais antigo) consultados para esta página: é o período que ela cobre. */
   mesesCarregados: string[];
   /** Todos os meses que têm dados, do mais novo ao mais antigo. */
@@ -33,7 +43,7 @@ function validos<T>(schema: z.ZodType<T>, bruto: unknown): T[] {
   });
 }
 
-export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean } = {}): Promise<Dados> {
+export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean; resumo?: boolean } = {}): Promise<Dados> {
   let incompleto = false;
   // Nunca lança: em falha devolve o padrão e marca `incompleto`.
   const tentar = async <T>(fn: () => Promise<T>, padrao: T): Promise<T> => {
@@ -58,5 +68,13 @@ export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean } =
     : [];
   const estado = await tentar(
     async () => EstadoFontesSchema.parse(await lerJson('data/status.json')), { fontes: {} } as EstadoFontes);
-  return { eventos, noticias, estado, incompleto, mesesCarregados: escolhidos, mesesDisponiveis: meses };
+  let resumo: Resumo | undefined;
+  if (opcoes.resumo) {
+    try {
+      resumo = ResumoSchema.parse(await lerJson('data/resumo.json'));
+    } catch {
+      resumo = undefined; // opcional: sem o arquivo os números do topo só não aparecem
+    }
+  }
+  return { eventos, noticias, estado, incompleto, resumo, mesesCarregados: escolhidos, mesesDisponiveis: meses };
 }

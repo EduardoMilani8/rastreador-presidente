@@ -32,6 +32,21 @@
   <main id="conteudo">
     <h1>A agenda e os atos do presidente, com a fonte de cada registro.</h1>
     <p id="ultima-novidade" class="discreto"></p>
+
+    <dl id="resumo" class="resumo" hidden></dl>
+
+    <section aria-labelledby="t-linha" class="bloco-linha">
+      <h2 id="t-linha">Linha do tempo</h2>
+      <ul class="legenda-linha">
+        <li><span class="marca marca-agenda tam-2" aria-hidden="true"></span> Compromisso da agenda</li>
+        <li><span class="marca marca-ato tam-2" aria-hidden="true"></span> Ato oficial</li>
+      </ul>
+      <p class="discreto">O tamanho indica a quantidade no dia. Arraste para ver outros dias.</p>
+      <div id="linha-rolagem" class="linha-rolagem">
+        <ol id="linha-dias" class="linha-dias"></ol>
+      </div>
+      <div id="detalhe-dia" class="detalhe-dia" aria-live="polite"></div>
+    </section>
   </main>
 
   <footer class="rodape">

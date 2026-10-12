@@ -150,3 +150,36 @@ describe('carregarDados: meses carregados e disponíveis (I5)', () => {
     expect(d.mesesDisponiveis).toEqual([]);
   });
 });
+
+describe('carregarDados: resumo.json opcional', () => {
+  const RESUMO = { total: 8540, porTipo: { agenda: 5468, ato: 3044, comunicado: 28 }, desde: '2023-01-01' };
+
+  it('lê resumo.json válido quando a opção é pedida', async () => {
+    stubFetch({ ...BASE, 'data/resumo.json': RESUMO });
+    const d = await carregarDados({}, { resumo: true });
+    expect(d.resumo).toEqual(RESUMO);
+    expect(d.incompleto).toBe(false);
+  });
+
+  it.each([
+    ['404', undefined],
+    ['500', 500],
+    ['JSON inválido', 'texto'],
+    ['campo faltando', { total: 1, porTipo: { agenda: 1, ato: 0 }, desde: '2023-01-01' }],
+    ['data malformada', { ...RESUMO, desde: '01/01/2023' }],
+  ])('%s: resumo indefinido e incompleto=false', async (_nome, resp) => {
+    const mapa = { ...BASE };
+    if (resp !== undefined) mapa['data/resumo.json'] = resp;
+    stubFetch(mapa);
+    const d = await carregarDados({}, { resumo: true });
+    expect(d.resumo).toBeUndefined();
+    expect(d.incompleto).toBe(false);
+  });
+
+  it('sem a opção o arquivo nem é pedido', async () => {
+    const chamadas = stubFetch({ ...BASE, 'data/resumo.json': RESUMO });
+    const d = await carregarDados({});
+    expect(chamadas).not.toContain('data/resumo.json');
+    expect(d.resumo).toBeUndefined();
+  });
+});
