@@ -56,7 +56,7 @@ Cada fase é publicável sozinha.
 
 O frontend fica em `redesenho`. O pipeline trabalha em `redesenho-dados`, criado a partir de `redesenho`, em outra
 pasta de trabalho, e não altera nada em `site/` nem em `tests/site/`. `redesenho-dados` é juntado em `redesenho`
-no começo das fases 2 e 3. Só `redesenho` é juntado em `main`, depois de aprovação.
+no começo da fase 2. Só `redesenho` é juntado em `main`, depois de aprovação.
 
 ## Páginas e endereços
 
@@ -154,9 +154,8 @@ decorativo para leitor de tela, porque a lista ao lado traz a mesma informação
 - Título "Como este site funciona" e uma linha de descrição.
 - "Como funciona" em três passos, a lista de status com os ícones, e os limites.
 - **Todo o texto atual é mantido.** Os blocos novos reorganizam as frases existentes; nenhuma informação sai.
-- Entram duas explicações novas, com teste em `tests/site/sobre.test.ts`: como as viagens são reconhecidas (tabela
-  de locais conferida, só cidades fora do Brasil, local não reconhecido fica fora) e de onde vêm os gastos (texto
-  entra junto com o coletor).
+- Entra uma explicação nova, com teste em `tests/site/sobre.test.ts`: como as viagens são reconhecidas (tabela
+  de locais conferida, só cidades fora do Brasil, local não reconhecido fica fora).
 
 ## Contrato com o pipeline
 
@@ -170,17 +169,13 @@ data/resumo.json
 data/viagens.json
 [ { "id": "nova-york-us", "cidade": "Nova York", "pais": "Estados Unidos", "lat": 40.71, "lon": -74.01,
     "compromissos": 64, "dias": 18, "primeiroDia": "2023-09-16", "ultimoDia": "2026-09-22" } ]
-
-data/gastos.json
-{ "itens": [ { "id": "...", "rotulo": "...", "periodo": { "de": "2026-01-01", "ate": "2026-09-30" },
-    "valorCentavos": 0, "fontes": [ { "nome": "...", "rotulo": "...", "url": "https://...", "coletadoEm": "..." } ] } ] }
 ```
 
 Os esquemas zod ficam em `src/shared/schema.ts`, escritos pela sessão do pipeline em `redesenho-dados`. Na fase 1
-o site valida os três arquivos com esquemas próprios em `site/src/dados.ts`, iguais aos do contrato acima, e passa
+o site valida os arquivos com esquemas próprios em `site/src/dados.ts`, iguais aos do contrato acima, e passa
 a importar os do pipeline quando `redesenho-dados` for juntado.
 
-O texto novo da página Sobre (viagens e gastos) é escrito neste branch, a partir das regras que a sessão do
+O texto novo da página Sobre (viagens) é escrito neste branch, a partir das regras que a sessão do
 pipeline descrever em `docs/regras-painel.md`. Assim só uma sessão edita `site/sobre.html`.
 
 ## Código
@@ -193,11 +188,10 @@ pipeline descrever em `docs/regras-painel.md`. Assim só uma sessão edita `site
 | `site/style.css` | reescrito nas variáveis novas, com `@font-face` |
 | `site/fontes/*.woff2` | novos |
 | `site/src/painel.ts` | novo: linha do tempo com pontos e detalhe do dia |
-| `site/src/viagens.ts`, `site/src/mapa.ts` | novos: lista de cidades e desenho do mapa |
-| `site/src/gastos.ts` | novo |
+| `site/src/viagens.ts`, `site/src/mapa-contorno.ts` | novos: lista de cidades, desenho do mapa e contorno gerado |
 | `site/src/app.ts` | dividido em `registros.ts` e `noticias.ts`; parte comum (avisos, última alteração) em `comum.ts` |
 | `site/src/render.ts` | link permanente aponta para `registros.html`; forma do tipo no cartão |
-| `site/src/dados.ts` | leitura opcional de resumo, viagens e gastos |
+| `site/src/dados.ts` | leitura opcional de resumo e viagens |
 | `site/src/main.ts` | uma entrada por página e o redirecionamento dos endereços antigos |
 | `scripts/gerar-mapa.mjs`, `scripts/copiar-fontes.mjs` | novos, rodados à mão; o resultado é versionado |
 | `vite.config.ts` | três páginas novas na entrada do build; `font-src 'self'` |

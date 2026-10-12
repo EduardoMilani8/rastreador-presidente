@@ -76,6 +76,12 @@ for (const bruto of aneis) {
     if (primeiro[0] === ultimo[0] && primeiro[1] === ultimo[1]) pontos.pop(); // o Z já fecha o anel
   }
   if (pontos.length < 4) continue;
+  const xs = pontos.map(([x]) => x);
+  const ys = pontos.map(([, y]) => y);
+  // Anel achatado pelo recorte (a Antártida vira uma linha na borda de baixo) não tem área para pintar.
+  if (Math.max(...ys) === Math.min(...ys)) continue;
+  // Ilha pequena cortada pela linha de data (Fiji, Wrangel) viraria um risco de um lado ao outro do mapa.
+  if (pontos.length < 20 && Math.max(...xs) - Math.min(...xs) > LARGURA / 2) continue;
   totalAneis += 1;
   totalPontos += pontos.length;
   partes.push(`M${pontos.map(([x, y]) => `${x} ${y}`).join('L')}Z`);

@@ -83,6 +83,24 @@ describe('contorno gerado', () => {
   });
 });
 
+describe('contorno gerado: sem riscos', () => {
+  const aneis = TERRA.split('M').filter(Boolean).map((a) => a.replace('Z', '').split('L').map((p) => p.split(' ').map(Number)));
+
+  it('nenhum anel é uma linha achatada pelo recorte', () => {
+    for (const anel of aneis) {
+      const ys = anel.map(([, y]) => y);
+      expect(Math.max(...ys)).toBeGreaterThan(Math.min(...ys));
+    }
+  });
+
+  it('nenhuma ilha pequena atravessa o mapa de um lado ao outro', () => {
+    for (const anel of aneis) {
+      const xs = anel.map(([x]) => x);
+      if (anel.length < 20) expect(Math.max(...xs) - Math.min(...xs)).toBeLessThanOrEqual(LARGURA / 2);
+    }
+  });
+});
+
 describe('montarViagens: lista', () => {
   it('lista vazia: a seção continua oculta e nada é criado', async () => {
     await montarViagens(document, [], CONTORNO);
