@@ -21,7 +21,7 @@ body:
     attributes:
       label: Endereço da página onde aconteceu
       description: Copie da barra do navegador, com os filtros.
-      placeholder: https://eduardomilani8.github.io/rastreador-presidente/?tipo=ato
+      placeholder: https://rastreadordopresidente.com.br/?tipo=ato
   - type: dropdown
     id: aparelho
     attributes:

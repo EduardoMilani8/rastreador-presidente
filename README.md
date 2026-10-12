@@ -2,7 +2,7 @@
 
 **O que o Presidente da República fez e o que está na agenda oficial dele, com link para a fonte em cada item.**
 
-🔗 **Site:** https://eduardomilani8.github.io/rastreador-presidente/
+🔗 **Site:** https://rastreadordopresidente.com.br/
 
 Projeto independente, sem vínculo com o governo, partido ou veículo de imprensa. Não tem login, não coleta dados de
 quem visita e não publica opinião: mostra o registro oficial e aponta de onde ele veio.
@@ -14,7 +14,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.
 - **Notícias** numa aba separada: o que a imprensa publicou, sem misturar com o registro oficial.
 - **Fonte em tudo**: cada item tem link para o documento público de origem. Item sem fonte não entra.
-- **[Sobre e metodologia](https://eduardomilani8.github.io/rastreador-presidente/sobre.html)**: o que cada status
+- **[Sobre e metodologia](https://rastreadordopresidente.com.br/sobre.html)**: o que cada status
   significa e os limites do que o site consegue saber.
 
 ## De onde vêm os dados

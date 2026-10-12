@@ -26,7 +26,7 @@ body:
     attributes:
       label: Link do item no site
       description: Use o "Link permanente" do cartão. Se o item está faltando, informe a data.
-      placeholder: https://eduardomilani8.github.io/rastreador-presidente/?de=2026-10-09&ate=2026-10-09#ev-...
+      placeholder: https://rastreadordopresidente.com.br/?de=2026-10-09&ate=2026-10-09#ev-...
     validations:
       required: true
   - type: textarea
