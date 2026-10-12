@@ -1,0 +1,880 @@
+[
+  {
+    "id": "buenos-aires-ar",
+    "cidade": "Buenos Aires",
+    "pais": "Argentina",
+    "lat": -34.6,
+    "lon": -58.38,
+    "exatos": [],
+    "contem": [
+      "buenos aires",
+      "casa rosada",
+      "centro cultural kirchner",
+      "palacio san martin",
+      "aeroestacao militar aeroparque"
+    ]
+  },
+  {
+    "id": "puerto-iguazu-ar",
+    "cidade": "Puerto Iguazú",
+    "pais": "Argentina",
+    "lat": -25.6,
+    "lon": -54.57,
+    "exatos": [],
+    "contem": [
+      "cataratas del iguazu",
+      "hotel gran melia iguazu"
+    ]
+  },
+  {
+    "id": "montevideu-uy",
+    "cidade": "Montevidéu",
+    "pais": "Uruguai",
+    "lat": -34.9,
+    "lon": -56.16,
+    "exatos": [],
+    "contem": [
+      "montevideu",
+      "residencia presidencial de suarez e reyes",
+      "chacara mujica-topolansky",
+      "aeroporto internacional de carrasco"
+    ]
+  },
+  {
+    "id": "assuncao-py",
+    "cidade": "Assunção",
+    "pais": "Paraguai",
+    "lat": -25.28,
+    "lon": -57.64,
+    "exatos": [],
+    "contem": [
+      "assuncao, paraguai",
+      "porto de assuncao",
+      "silvio pettirossi",
+      "palacio de lopez"
+    ]
+  },
+  {
+    "id": "santa-cruz-de-la-sierra-bo",
+    "cidade": "Santa Cruz de la Sierra",
+    "pais": "Bolívia",
+    "lat": -17.78,
+    "lon": -63.18,
+    "exatos": [],
+    "contem": [
+      "santa cruz de la sierra"
+    ]
+  },
+  {
+    "id": "santiago-cl",
+    "cidade": "Santiago",
+    "pais": "Chile",
+    "lat": -33.45,
+    "lon": -70.67,
+    "exatos": [],
+    "contem": [
+      "santiago, chile",
+      "palacio de la moneda",
+      "arturo merino benitez",
+      "centro cultural matucana 100"
+    ]
+  },
+  {
+    "id": "bogota-co",
+    "cidade": "Bogotá",
+    "pais": "Colômbia",
+    "lat": 4.71,
+    "lon": -74.07,
+    "exatos": [],
+    "contem": [
+      "bogota",
+      "casa de narino",
+      "aeroporto internacional el dorado",
+      "centro de convencoes agora"
+    ]
+  },
+  {
+    "id": "leticia-co",
+    "cidade": "Letícia",
+    "pais": "Colômbia",
+    "lat": -4.21,
+    "lon": -69.94,
+    "exatos": [],
+    "contem": [
+      "base aerea de leticia"
+    ]
+  },
+  {
+    "id": "santa-marta-co",
+    "cidade": "Santa Marta",
+    "pais": "Colômbia",
+    "lat": 11.24,
+    "lon": -74.2,
+    "exatos": [],
+    "contem": [
+      "simon bolivar, santa marta",
+      "hotel estelar santamar"
+    ]
+  },
+  {
+    "id": "georgetown-gy",
+    "cidade": "Georgetown",
+    "pais": "Guiana",
+    "lat": 6.8,
+    "lon": -58.16,
+    "exatos": [],
+    "contem": [
+      "georgetown, guiana"
+    ]
+  },
+  {
+    "id": "kingstown-vc",
+    "cidade": "Kingstown",
+    "pais": "São Vicente e Granadinas",
+    "lat": 13.16,
+    "lon": -61.23,
+    "exatos": [],
+    "contem": [
+      "kingstown, sao vicente e granadinas"
+    ]
+  },
+  {
+    "id": "havana-cu",
+    "cidade": "Havana",
+    "pais": "Cuba",
+    "lat": 23.11,
+    "lon": -82.37,
+    "exatos": [],
+    "contem": [
+      "convencoes de havana",
+      "aeroporto internacional jose marti",
+      "palacio da revolucao"
+    ]
+  },
+  {
+    "id": "cidade-do-mexico-mx",
+    "cidade": "Cidade do México",
+    "pais": "México",
+    "lat": 19.43,
+    "lon": -99.13,
+    "exatos": [],
+    "contem": [
+      "cidade do mexico",
+      "aeroporto internacional felipe angeles",
+      "palacio legislativo san lazaro"
+    ]
+  },
+  {
+    "id": "tegucigalpa-hn",
+    "cidade": "Tegucigalpa",
+    "pais": "Honduras",
+    "lat": 14.07,
+    "lon": -87.19,
+    "exatos": [],
+    "contem": [
+      "tegucigalpa",
+      "banco central de honduras"
+    ]
+  },
+  {
+    "id": "cidade-do-panama-pa",
+    "cidade": "Cidade do Panamá",
+    "pais": "Panamá",
+    "lat": 8.98,
+    "lon": -79.52,
+    "exatos": [],
+    "contem": [
+      "cidade do panama",
+      "aeroporto panama pacifico",
+      "centro de convencoes do panama",
+      "eclusa de cocoli"
+    ]
+  },
+  {
+    "id": "washington-us",
+    "cidade": "Washington",
+    "pais": "Estados Unidos",
+    "lat": 38.9,
+    "lon": -77.04,
+    "exatos": [],
+    "contem": [
+      "casa branca",
+      "blair house",
+      "base aerea de andrews",
+      "washington dc"
+    ]
+  },
+  {
+    "id": "nova-york-us",
+    "cidade": "Nova York",
+    "pais": "Estados Unidos",
+    "lat": 40.71,
+    "lon": -74.01,
+    "exatos": [],
+    "contem": [
+      "nova york",
+      "sede das nacoes unidas",
+      "sede da onu",
+      "aeroporto internacional john f. kennedy"
+    ]
+  },
+  {
+    "id": "anchorage-us",
+    "cidade": "Anchorage",
+    "pais": "Estados Unidos",
+    "lat": 61.22,
+    "lon": -149.9,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional ted stevens"
+    ]
+  },
+  {
+    "id": "houston-us",
+    "cidade": "Houston",
+    "pais": "Estados Unidos",
+    "lat": 29.76,
+    "lon": -95.37,
+    "exatos": [],
+    "contem": [
+      "aeroporto intercontinental george bush"
+    ]
+  },
+  {
+    "id": "calgary-ca",
+    "cidade": "Calgary",
+    "pais": "Canadá",
+    "lat": 51.05,
+    "lon": -114.07,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de calgary"
+    ]
+  },
+  {
+    "id": "kananaskis-ca",
+    "cidade": "Kananaskis",
+    "pais": "Canadá",
+    "lat": 50.92,
+    "lon": -115.14,
+    "exatos": [],
+    "contem": [
+      "kananaskis"
+    ]
+  },
+  {
+    "id": "lisboa-pt",
+    "cidade": "Lisboa",
+    "pais": "Portugal",
+    "lat": 38.72,
+    "lon": -9.14,
+    "exatos": [],
+    "contem": [
+      "- lisboa",
+      "em lisboa",
+      "base aerea de lisboa",
+      "aeroporto internacional de lisboa",
+      "aeroporto humberto delgado",
+      "figo maduro",
+      "mosteiro dos jeronimos",
+      "palacio de queluz",
+      "palacio de sao bento",
+      "palacete de sao bento"
+    ]
+  },
+  {
+    "id": "porto-pt",
+    "cidade": "Porto",
+    "pais": "Portugal",
+    "lat": 41.15,
+    "lon": -8.61,
+    "exatos": [],
+    "contem": [
+      "aeroporto francisco sa carneiro"
+    ]
+  },
+  {
+    "id": "matosinhos-pt",
+    "cidade": "Matosinhos",
+    "pais": "Portugal",
+    "lat": 41.18,
+    "lon": -8.69,
+    "exatos": [],
+    "contem": [
+      "(ceiia)"
+    ]
+  },
+  {
+    "id": "madri-es",
+    "cidade": "Madri",
+    "pais": "Espanha",
+    "lat": 40.42,
+    "lon": -3.7,
+    "exatos": [
+      "madri"
+    ],
+    "contem": [
+      "palacio da moncloa",
+      "base aerea de torrejon",
+      "casa de america"
+    ]
+  },
+  {
+    "id": "barcelona-es",
+    "cidade": "Barcelona",
+    "pais": "Espanha",
+    "lat": 41.39,
+    "lon": 2.17,
+    "exatos": [],
+    "contem": [
+      "barcelona-el prat",
+      "feira de barcelona",
+      "palacio de pedralbes",
+      "palacio real de pedralbes"
+    ]
+  },
+  {
+    "id": "londres-gb",
+    "cidade": "Londres",
+    "pais": "Reino Unido",
+    "lat": 51.51,
+    "lon": -0.13,
+    "exatos": [
+      "londres"
+    ],
+    "contem": [
+      "10 downing street",
+      "palacio de buckingham",
+      "abadia de westminster",
+      "aeroporto london stansted"
+    ]
+  },
+  {
+    "id": "paris-fr",
+    "cidade": "Paris",
+    "pais": "França",
+    "lat": 48.86,
+    "lon": 2.35,
+    "exatos": [
+      "paris"
+    ],
+    "contem": [
+      "aeroporto de paris-orly",
+      "torre eiffel",
+      "palacio do eliseu",
+      "palacio brongniart",
+      "esplanada dos invalidos",
+      "academia francesa",
+      "prefeitura de paris",
+      "universidade paris 8",
+      "grand palais"
+    ]
+  },
+  {
+    "id": "nice-fr",
+    "cidade": "Nice",
+    "pais": "França",
+    "lat": 43.7,
+    "lon": 7.27,
+    "exatos": [],
+    "contem": [
+      "aeroporto de nice cote d'azur",
+      "port lympia"
+    ]
+  },
+  {
+    "id": "lyon-fr",
+    "cidade": "Lyon",
+    "pais": "França",
+    "lat": 45.76,
+    "lon": 4.84,
+    "exatos": [],
+    "contem": [
+      "aeroporto de lyon",
+      "sede da interpol"
+    ]
+  },
+  {
+    "id": "evian-les-bains-fr",
+    "cidade": "Évian-les-Bains",
+    "pais": "França",
+    "lat": 46.4,
+    "lon": 6.59,
+    "exatos": [],
+    "contem": [
+      "evian resort"
+    ]
+  },
+  {
+    "id": "monaco-mc",
+    "cidade": "Mônaco",
+    "pais": "Mônaco",
+    "lat": 43.74,
+    "lon": 7.43,
+    "exatos": [],
+    "contem": [
+      "forum grimaldi"
+    ]
+  },
+  {
+    "id": "bruxelas-be",
+    "cidade": "Bruxelas",
+    "pais": "Bélgica",
+    "lat": 50.85,
+    "lon": 4.35,
+    "exatos": [
+      "bruxelas"
+    ],
+    "contem": [
+      "le berlaymont",
+      "edificio europa",
+      "edificio justus lip",
+      "palacio real de bruxelas",
+      "base aerea de melsbroek"
+    ]
+  },
+  {
+    "id": "genebra-ch",
+    "cidade": "Genebra",
+    "pais": "Suíça",
+    "lat": 46.2,
+    "lon": 6.14,
+    "exatos": [],
+    "contem": [
+      "genebra, suica",
+      "aeroporto internacional de genebra",
+      "nacoes unidas em genebra"
+    ]
+  },
+  {
+    "id": "berlim-de",
+    "cidade": "Berlim",
+    "pais": "Alemanha",
+    "lat": 52.52,
+    "lon": 13.4,
+    "exatos": [
+      "berlim"
+    ],
+    "contem": [
+      "berlim, alemanha",
+      "aeroporto berlim brandemburgo",
+      "palacio bellevue",
+      "bundesrat",
+      "chancelaria federal",
+      "casa da economia alema"
+    ]
+  },
+  {
+    "id": "hanover-de",
+    "cidade": "Hanôver",
+    "pais": "Alemanha",
+    "lat": 52.37,
+    "lon": 9.73,
+    "exatos": [],
+    "contem": [
+      "hanover-langenhagen",
+      "hannover",
+      "palacio de herrenhause",
+      "messegelande"
+    ]
+  },
+  {
+    "id": "wolfsburg-de",
+    "cidade": "Wolfsburg",
+    "pais": "Alemanha",
+    "lat": 52.42,
+    "lon": 10.79,
+    "exatos": [],
+    "contem": [
+      "volkswagen em wolfsburg"
+    ]
+  },
+  {
+    "id": "roma-it",
+    "cidade": "Roma",
+    "pais": "Itália",
+    "lat": 41.9,
+    "lon": 12.5,
+    "exatos": [
+      "roma"
+    ],
+    "contem": [
+      "roma - italia",
+      "prefeitura de roma",
+      "embaixada do brasil em roma",
+      "aeroporto internacional de roma",
+      "ciampino",
+      "palazzo quirinale",
+      "palazzo chigi",
+      "sede da fao"
+    ]
+  },
+  {
+    "id": "fasano-it",
+    "cidade": "Fasano",
+    "pais": "Itália",
+    "lat": 40.83,
+    "lon": 17.36,
+    "exatos": [],
+    "contem": [
+      "hotel borgo egnazia"
+    ]
+  },
+  {
+    "id": "brindisi-it",
+    "cidade": "Brindisi",
+    "pais": "Itália",
+    "lat": 40.63,
+    "lon": 17.94,
+    "exatos": [],
+    "contem": [
+      "aeroporto de brindisi"
+    ]
+  },
+  {
+    "id": "cidade-do-vaticano-va",
+    "cidade": "Cidade do Vaticano",
+    "pais": "Vaticano",
+    "lat": 41.9,
+    "lon": 12.45,
+    "exatos": [],
+    "contem": [
+      "vaticano",
+      "basilica de sao pedro",
+      "palacio apostolico",
+      "edificio paulo vi"
+    ]
+  },
+  {
+    "id": "moscou-ru",
+    "cidade": "Moscou",
+    "pais": "Rússia",
+    "lat": 55.76,
+    "lon": 37.62,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de moscou",
+      "kremlin",
+      "praca vermelha"
+    ]
+  },
+  {
+    "id": "cairo-eg",
+    "cidade": "Cairo",
+    "pais": "Egito",
+    "lat": 30.04,
+    "lon": 31.24,
+    "exatos": [],
+    "contem": [
+      "cairo, egito",
+      "aeroporto internacional do cairo"
+    ]
+  },
+  {
+    "id": "adis-abeba-et",
+    "cidade": "Adis Abeba",
+    "pais": "Etiópia",
+    "lat": 9.03,
+    "lon": 38.74,
+    "exatos": [],
+    "contem": [
+      "adis abeba"
+    ]
+  },
+  {
+    "id": "acra-gh",
+    "cidade": "Acra",
+    "pais": "Gana",
+    "lat": 5.6,
+    "lon": -0.19,
+    "exatos": [],
+    "contem": [
+      "acra, gana"
+    ]
+  },
+  {
+    "id": "tunis-tn",
+    "cidade": "Túnis",
+    "pais": "Tunísia",
+    "lat": 36.81,
+    "lon": 10.18,
+    "exatos": [],
+    "contem": [
+      "tunis-cartago"
+    ]
+  },
+  {
+    "id": "casablanca-ma",
+    "cidade": "Casablanca",
+    "pais": "Marrocos",
+    "lat": 33.57,
+    "lon": -7.59,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional mohammed v"
+    ]
+  },
+  {
+    "id": "ilha-do-sal-cv",
+    "cidade": "Ilha do Sal",
+    "pais": "Cabo Verde",
+    "lat": 16.74,
+    "lon": -22.95,
+    "exatos": [],
+    "contem": [
+      "amilcar cabral"
+    ]
+  },
+  {
+    "id": "praia-cv",
+    "cidade": "Praia",
+    "pais": "Cabo Verde",
+    "lat": 14.93,
+    "lon": -23.51,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional da praia"
+    ]
+  },
+  {
+    "id": "sao-tome-st",
+    "cidade": "São Tomé",
+    "pais": "São Tomé e Príncipe",
+    "lat": 0.34,
+    "lon": 6.73,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de sao tome"
+    ]
+  },
+  {
+    "id": "luanda-ao",
+    "cidade": "Luanda",
+    "pais": "Angola",
+    "lat": -8.84,
+    "lon": 13.23,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de luanda",
+      "antonio agostinho neto"
+    ]
+  },
+  {
+    "id": "joanesburgo-za",
+    "cidade": "Joanesburgo",
+    "pais": "África do Sul",
+    "lat": -26.2,
+    "lon": 28.05,
+    "exatos": [],
+    "contem": [
+      "joanesburgo",
+      "johanesburgo",
+      "sandton",
+      "o.r. tambo",
+      "summer place"
+    ]
+  },
+  {
+    "id": "maputo-mz",
+    "cidade": "Maputo",
+    "pais": "Moçambique",
+    "lat": -25.97,
+    "lon": 32.57,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de maputo",
+      "palacio da ponta vermelha",
+      "polana serena",
+      "joaquim chissano"
+    ]
+  },
+  {
+    "id": "riade-sa",
+    "cidade": "Riade",
+    "pais": "Arábia Saudita",
+    "lat": 24.71,
+    "lon": 46.68,
+    "exatos": [],
+    "contem": [
+      "al yamamah",
+      "aeroporto internacional rei khalid"
+    ]
+  },
+  {
+    "id": "doha-qa",
+    "cidade": "Doha",
+    "pais": "Catar",
+    "lat": 25.29,
+    "lon": 51.53,
+    "exatos": [],
+    "contem": [
+      "doha, catar"
+    ]
+  },
+  {
+    "id": "dubai-ae",
+    "cidade": "Dubai",
+    "pais": "Emirados Árabes Unidos",
+    "lat": 25.2,
+    "lon": 55.27,
+    "exatos": [],
+    "contem": [
+      "expo city dubai",
+      "dubai, emirados arabes unidos"
+    ]
+  },
+  {
+    "id": "abu-dhabi-ae",
+    "cidade": "Abu Dhabi",
+    "pais": "Emirados Árabes Unidos",
+    "lat": 24.45,
+    "lon": 54.38,
+    "exatos": [
+      "abu dhabi"
+    ],
+    "contem": [
+      "aeroporto internacional de abu dhabi",
+      "aeroporto internacional zayed"
+    ]
+  },
+  {
+    "id": "nova-delhi-in",
+    "cidade": "Nova Delhi",
+    "pais": "Índia",
+    "lat": 28.61,
+    "lon": 77.21,
+    "exatos": [
+      "nova delhi"
+    ],
+    "contem": [
+      "bharat mandap",
+      "raj ghat",
+      "aeroporto internacional indira gandhi",
+      "casa hyderabad"
+    ]
+  },
+  {
+    "id": "pequim-cn",
+    "cidade": "Pequim",
+    "pais": "China",
+    "lat": 39.9,
+    "lon": 116.4,
+    "exatos": [
+      "pequim"
+    ],
+    "contem": [
+      "aeroporto internacional de pequim",
+      "aeroporto internacional pequim",
+      "em pequim",
+      "grande palacio do povo",
+      "praca da paz celestial",
+      "zhongnanhai",
+      "china national convention center"
+    ]
+  },
+  {
+    "id": "xangai-cn",
+    "cidade": "Xangai",
+    "pais": "China",
+    "lat": 31.23,
+    "lon": 121.47,
+    "exatos": [
+      "xangai"
+    ],
+    "contem": [
+      "- xangai",
+      "aeroporto internacional de xangai"
+    ]
+  },
+  {
+    "id": "hiroshima-jp",
+    "cidade": "Hiroshima",
+    "pais": "Japão",
+    "lat": 34.39,
+    "lon": 132.46,
+    "exatos": [],
+    "contem": [
+      "hiroshima"
+    ]
+  },
+  {
+    "id": "toquio-jp",
+    "cidade": "Tóquio",
+    "pais": "Japão",
+    "lat": 35.68,
+    "lon": 139.69,
+    "exatos": [],
+    "contem": [
+      "aeroporto internacional de toquio",
+      "aeroporto internacional haneda",
+      "palacio akasaka",
+      "palacio de akasaka",
+      "hotel new otani",
+      "take-no-ma"
+    ]
+  },
+  {
+    "id": "seul-kr",
+    "cidade": "Seul",
+    "pais": "Coreia do Sul",
+    "lat": 37.57,
+    "lon": 126.98,
+    "exatos": [],
+    "contem": [
+      "base aerea de seul",
+      "cemiterio nacional de seul",
+      "casa azul, seul"
+    ]
+  },
+  {
+    "id": "hanoi-vn",
+    "cidade": "Hanói",
+    "pais": "Vietnã",
+    "lat": 21.03,
+    "lon": 105.85,
+    "exatos": [],
+    "contem": [
+      "noi bai",
+      "mausoleu do presidente ho chi minh",
+      "partido comunista do vietna",
+      "museu de historia militar do vietna",
+      "metropole hanoi"
+    ]
+  },
+  {
+    "id": "jacarta-id",
+    "cidade": "Jacarta",
+    "pais": "Indonésia",
+    "lat": -6.21,
+    "lon": 106.85,
+    "exatos": [],
+    "contem": [
+      "palacio merdeka",
+      "halim perdanakusuma",
+      "associacao das nacoes do sudeste asiatico"
+    ]
+  },
+  {
+    "id": "kuala-lumpur-my",
+    "cidade": "Kuala Lumpur",
+    "pais": "Malásia",
+    "lat": 3.14,
+    "lon": 101.69,
+    "exatos": [],
+    "contem": [
+      "kuala lumpur",
+      "centro de convencoes mitec"
+    ]
+  },
+  {
+    "id": "putrajaya-my",
+    "cidade": "Putrajaya",
+    "pais": "Malásia",
+    "lat": 2.93,
+    "lon": 101.69,
+    "exatos": [],
+    "contem": [
+      "putrajaya"
+    ]
+  }
+]

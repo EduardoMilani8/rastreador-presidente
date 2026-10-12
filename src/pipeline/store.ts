@@ -1,8 +1,8 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import {
-  EstadoFontesSchema, EventoSchema, NoticiaSchema,
-  type EstadoFontes, type Evento, type Noticia,
+  EstadoFontesSchema, EventoSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
+  type EstadoFontes, type Evento, type Noticia, type Resumo, type Viagem,
 } from '../shared/schema';
 import { normalizar, somarDias } from '../shared/text';
 
@@ -114,4 +114,13 @@ export async function lerEstado(dir: string): Promise<EstadoFontes> {
 
 export async function gravarEstado(dir: string, estado: EstadoFontes): Promise<boolean> {
   return gravarSeMudou(join(dir, 'status.json'), json(EstadoFontesSchema.parse(estado)));
+}
+
+export async function gravarResumo(dir: string, resumo: Resumo | undefined): Promise<boolean> {
+  if (!resumo) return false;
+  return gravarSeMudou(join(dir, 'resumo.json'), json(ResumoSchema.parse(resumo)));
+}
+
+export async function gravarViagens(dir: string, viagens: Viagem[]): Promise<boolean> {
+  return gravarSeMudou(join(dir, 'viagens.json'), json(ViagemSchema.array().parse(viagens)));
 }

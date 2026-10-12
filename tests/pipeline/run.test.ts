@@ -140,6 +140,19 @@ describe('atualizar', () => {
     expect(r2.arquivosEscritos).toBe(0);
   });
 
+  it('mantém data/resumo.json com as contagens do que foi gravado, sem reescrever quando nada muda', async () => {
+    const deps = await novoDeps();
+    await atualizar(deps);
+    const resumo = JSON.parse(await readFile(join(deps.dataDir, 'resumo.json'), 'utf8'));
+    const eventos = await lerEventos(deps.dataDir);
+    expect(resumo).toEqual({
+      total: eventos.length,
+      porTipo: { agenda: 2, ato: 1, comunicado: 0 },
+      desde: eventos.map((e) => e.data).sort()[0],
+    });
+    expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+  });
+
   it('coleta também a edição extra do DOU (MP publicada em edição extra não pode sumir)', async () => {
     cfg.extraDou = [MP_EXTRA];
     const deps = await novoDeps();
