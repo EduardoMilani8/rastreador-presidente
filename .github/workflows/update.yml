@@ -1,7 +1,7 @@
 name: Atualizar dados e publicar
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '7-59/10 * * * *'  # minutos 7, 17, ... 57: fora da hora cheia, quando o agendador do GitHub atrasa mais
   workflow_dispatch:
   push:
     branches: [main]
