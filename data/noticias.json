@@ -16,6 +16,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:48e9c552058d",
+    "titulo": "ELEIÇÕES | Neste domingo (11), o presidente Lula participou da Marcha Pela Democracia, ato organizado pela UNE e UEE em apoio à sua candidatura.⁣ ⁣ O candidato à reeleição pediu que idosos votem no segundo turno e cobrou participação dos joven",
+    "veiculo": "Instagram",
+    "data": "2026-10-12T00:30:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94eHBtWGZ0QnVlTTh3MFI2SklSRGRIMzVjal9LM3Y5eTBhTGc2N3pHRkN4VUFPb2tFNF9oeWU4SlNHLVFYYTUtdUNYS2daanFtOEE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:252cca06866d",
     "titulo": "Ato pela reeleição de Lula leva milhares à Avenida Paulista",
     "veiculo": "Agência Brasil",
@@ -136,12 +144,28 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:310a4f294b75",
+    "titulo": "Lula aposta em conquistas sociais e Flávio promete mudanças, para abrir campanha do 2º turno",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-11T00:40:43.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSnptdlJReEV4WHBxbkhuOWpoNlU2dTI3OGQ2YVNLSW9aUUhhQWxVNG5FTkVMVHM1ODY4UndhQ0xKdE42WlJGbXBxTHpSWk5GMjcyQWtrYTRWc3dzZndWN3ozaXVGQ3o5eWJfbVJUYmVZNGtjTU5BeUJBY1FuS1BrOHBBMUQwX1FWdldBNThjS2xzZ1ZRRy1sTldkUjNkZ085RUoyQUgxdU9tMnpuNTBpQ0VEcGdweUwxb0R2RkxaNThERXBldFZUM3dnanh6b25LVV9Ib1gydnZfQTVabFgya1JrRDN5V1Q1WURRQS1EOTJQd0hyZHJud9IBhwJBVV95cUxONVk1bmxDQzlaSWU4eXVzaktvbmxTb3RNOVo4U0lodnZUMEVKbU80R0E2Z0dfU2E3a09QZmNyZHEzZWduQnZiZ0cyOXBfMU0tRUlqR1VFc3QzMnMyczA5NHNTcll1WGdSWS1fOGNTanQ4aUhpY3BBNWNQWkQxaTBFczl6QkV6S1FPaENzNmFOdmVZMWtfclN6NTFyRWx1d3NBY2I2MzdVaWFSc0xXTUplOW45ODdCZV9HRWZ0X2xLX1FtSDY0SDJ2ekpCM0YtekRPUHZKSGhnRkExaThDQXZPSG5SMUR1LXQzWjZNbWEzaTdvZ1lSVG1hNF9FUVB6RjZrcC1XdC1iOA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:ef955f2347c2",
     "titulo": "Lula faz comício em Natal e Flávio participa de moto-carreata no Rio",
     "veiculo": "Agência Brasil",
     "data": "2026-10-10T23:49:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-comicio-em-natal-e-flavio-participa-de-moto-carreata-no-rio",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:632f12093f15",
+    "titulo": "TSE questiona Meta sobre restrições a conteúdos da campanha de Lula",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-10T21:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZWN5N19pMDNrWFR2cmxGNW50WkRyTXhReXVfQVJlS21mbE1PS2w1YkJuaXV5UmZwd1ZFU2lXVE40dWZrUjF5dzFUZkVfRXFnMi1jcThZekVKZUpDbUVhUWl6MExoeUFlQUg2dy1qY1BwYVFUeFZ1aGZOeDIzRGJhWEpUcHNrZjdwa05qd0o2VlJlNXgtWkR5SDFrUTd4MUg0dmRTNkthcTVTWEZH?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:eadb41de98fc",
@@ -216,6 +240,22 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:87c5f58a894f",
+    "titulo": "Os números da disputa Flávio x Lula nas primeiras pesquisas do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-10T14:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONndWS2JwTzZDVFp1NUtHV0lLaGFpZ3JnSldMTW5VYmliM09oUUU2bkdjeE9yd2haZE9kVGxoVjNBTEQ4bnhCSXcxcVdPSGpLMkQxajN6ek1pZ1h3RzlON3RPQVhNY1dFN1FDRlZTZjVzMmxRZkRBbU5nbnVUSUdJQUg1azZLV1Rnc3B3Q29VNXZ1dXlTS0tkOGVndzZRUFFJb2VCU00wU3VwUkwtUGJuSGJB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f5d148854ea2",
+    "titulo": "Lula cumpre agenda de 2º turno com caminhada no Alecrim, em Natal",
+    "veiculo": "G1",
+    "data": "2026-10-10T13:12:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU2cwZXlmQ2VuWXRwNGpWRE4xTGJSSW5Qd2FneDRkV3pveFh4MC1udmU5OXNVcEktNHltbE5Dd1dwcWZJOFh5S29xblRabFVMM2tJZlUzT3lDbEZQOThEMHhsRGRmZXlfd0RsX3ZKSFJncVBOOVJBaTZyejNQd01zVk9LaFM4NWVWYzhEc0tfNENjRGRKUjZvcTg2VjdyU21zNTNRRGZfa2d5RGFDOHdrb2hlclrSAcMBQVVfeXFMTlkzMjllNlpjUkJLTnEyZzV4Zkh1SFgtbVdaY3F3LUlWaDJqSVBKd3o5YWsyaFVuVEVVc09lSndRWDBlX2pNVkhzYWtmQWxPWGcySG0tcWpDNW96eEg3dDNPdlhhaE1rdUViOUU2OWtfbVpzVVo1aHRaSkFYbHFod3FXbFhYSW44M2o4eGxnQ2tsUmtLWnJTMDFOLUs1VElJenZ6eFMyYTVjaklmRkZVRVZSYmNScG8zLU5iTEl1M2ZfZ2RR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:24a5de13beb3",
     "titulo": "Eleições 2026: as propostas de Lula e Flávio Bolsonaro para a Cultura",
     "veiculo": "BBC",
@@ -285,6 +325,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-09T21:16:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVVFZZTMxZmVXSUcwM3hfNG5EWEtUeFVXbjZNSUpqeFhhUXRvSFBuXzJFUlFxdFh1RXBoenlhRkdNVGxmUTFPZnFfYThRUkZxTmhGQXl5TExVdUxfOVVoRC1QLWluQVVPM1lBWlk2V2g0WlM0ZnA5RjJ6Vjg2ekF1QTVJbDU3bGZYVjhKeTN2ZVZsQi03OXJwekJwOUhmMThlamk2S3ducXhWQzFqM1AzOS1fTTBXdm5pWTk2OHVOUmhMY24tNE90MUJRRlg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:912929e43d1f",
+    "titulo": "Mônica Bergamo: Lula dispara nas redes após 1º turno e supera Flávio Bolsonaro em engajamento",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-09T21:15:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTkxsMTNFcHlhRWhBYy1OYllEN21WaW9XUUYyU1d0ZGJrM2lsQUk3ZkU2eHF4Q21vaUlhYXZNcUtDWVB3ZlBodGhOaExhUm5lajdtQTl5NHdfeXRSYVBnNjkzUG9ZSExrdTZVLUR2c0pycVRtcXh1QUxIQ3BoS2tKT214S2E5TXY5ZjdpanFmdG1Ca1NYbzUtQVA4MGlZbGllN1RnS3hjXzNmTWZSMUU3a2FDSUpZZjVKYU9jYUR4WXJjRjU5YnlreEhjaWhLNHRjUkUwRFlUdWxCVkU?oc=5",
     "origem": "google-news"
   },
   {
@@ -365,6 +413,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-09T10:10:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUlONU1hNHpXSnQwajZUZVVaQVFxTWRKakFBNFZJR0ZRdEdiMkNaRjJEX1U2X09WNjdkVnV3TjBlRnVGVFVmaU9DQmpEVEVOYmFITTliOF96Z1JiQ0MtM0NXTXZ4SFFqQ09ETE51SkRRU01Vdjc3ak1TTHUzQkxZU3AtZERMajh6THg5RWlaOUkxVXhCeXc2ZUFnQ082YkRUMWFabEszYWVzX0VUMURBRnZxVUF5dw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3b8ea1a12227",
+    "titulo": "Datafolha, 2º turno: veja intenção de voto por região, gênero, idade, identificação política, cor e religião",
+    "veiculo": "G1",
+    "data": "2026-10-09T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXBWSFpuMXpHYk1mWjJBWFNPa2dISHpub3VmVERfN0JsT1ZSdmdGUGNqS2QxdXZfRlV3NG1ueFZsc2JyTjF0QzZDQU1WWUc4ZUg0R0tnZHdqVWZGNjB1em9Zc2hDcmZ2U0xnU0VzWmJsaUxlenhnY0VyVUlCeHZPSXNKcm93R1J5WWs2NXpVNXJrYWhaX1FncDdES3ktZ3B3blZqSWgxa0xpTkh1OXRzQUNZN0FrbENRb0tpbXAxMkhLQ1VQTFHSAdQBQVVfeXFMT2NMZkxPNVpuM0ZzTE1ZMTlDVUpSbUNFSEFHWDUxbW11NkNCSldXNm1xMzhXS0FZNXE3b0M0ekhVSGRiQnlJTm80cGl2M3oyYm52VDZvb3FXdHk1cDBQV1lPSXI0TndQRW82eG43MkxIM2EwY29XYWxyTTBUYmZPY01UX0NRZS1HVDZTV1VaZUJXd25RWkNJb2taNVpPU3FuZnpFd2VnSE5QUG5ncHJ0blIwM0g0Wi03UlNzY0dSVmotMEVCSTQ5SkhZSnl1REpuVlBvWU0?oc=5",
     "origem": "google-news"
   },
   {
@@ -461,6 +517,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-08T18:41:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMjU0VnhILUdPTnRSZll6R09RanJ4YU1YOGkwdVVNSXl3cnBGY05LenY2c0dqaFpUbVd3SE1lUGFrbnA1SHJidUNXUU1BalN6Z3JVbmhUT3hPZjNUQzlGWUNTUUw3aDJ5d3NrSC1fTzVJWHJFbUR5Z2d5NklHR3RQZmZGeTRuUkk4djY4UjFRUUxXSmhPamRDYzZjWHJNbkJHb3U0VWo0SGJTQlYyckhnZWNQNTVTZ3dLdDlRaWZFMzRCWmo1QWNkUGpneldsRTRYcEYxNEVLSm9DTklMbHZEUkozcVNUaW9u0gH3AUFVX3lxTE1vZlNNcFk2MGIxUzVIMlcydnpQelZ5eEdUUUdRdVBhOHVvT0xCRUE2N0FYRHh1cWtDYWlNUEsxU2RCNVJTZFVqd1M4YnZhOVF2ekJDNU0yNXU1amU0cEtNQy02cDdoWXc0SzBsSDRqcXNYMzEwajIzSWhYZ0k4akNmUHpyeXNQcWJ3RUs5eTFhNDcyNWNHLVlEVVM0MWU3eTk1WUtWd0J1VUdrYjUzaGZ0WFcwcjRpWmtrcGFKWFN2UmN0Q29jbGc4YzhSZXRuTHF4a1l1UXBXTHFXVzBQN0JNaEFPdlRXZjh2cXNUcXhqQ2VOa2VyTU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8105f9b13b03",
+    "titulo": "Lula volta às ruas com agendas no DF, Nordeste e Sudeste após semana de articulações para campanha do segundo turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-08T17:55:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNemdtRC1SQW9rbldyWHZUVzZ1bmVDWFpWRVQyUGNkTmdWaHRtdXdQdmFvU2RlazBwUVYxM2ZMRXotekFLbm44Zkt4X2hxQTdrVm43LXpOdWJxWE93b3VrUUlDV05FdDhvT0xIOW4yNVg5NFpScGdWV1B5R2VqTUF6Q2RsQ3ZIc0hueHE4NVB1SER1ZnhVZF9xVkJhc2k4UE1XMUhVek1lemY4XzFJTnBnbm9pN2g4alg3OEV1dGc5R0hobDNzMjBDWnRCaGN4S1l5U1dTSlhoRUxNOFNkSFgxTWc2R3hONXZJUWpnQWkyUVFmRmJZLXJ3Z3hkTW1Ea3hJRkRDNEZqV3BCMjhwbnVsN2gyQy1zd9IBpAJBVV95cUxPVmVHbEYxSGVDSFFESURoYWtDMzFIQlh6NlN6Z3g4Um4tWjY0VVhzMU5ZV2hIaWU3c3NBNXR6TTdJQjlyaWU3TWpMYlBRTWVBajlkdEpvanZyamEyTXRCUGFOUGdLZ2U5MGpVRk5ieHkyNDJSS0lqMmQyeUMyNzZCYTI2VW9PY1A1b1FDTFQ4UmpuTmt4LWZZUFpvajVEbFY4Q3RaN1J4dUlRdlNqRFJQTFRRS2t0V0lIN21FYnQ4d05CXzQ5VkFRWURUdm45TXhmZ2tNckZwOGVtcVFUMW0yam5mUmQwYTBTb0dkRHN6LThzdVJncDFrZGdpa05CX0w3S2Q0ckgwcWg3N0FRTjFkeUh1a1g3d29VOUNGbWhZdHJOd3V4?oc=5",
     "origem": "google-news"
   },
   {
@@ -632,11 +696,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:58dbf5c3e754",
+    "titulo": "Quais são os caminhos para Lula no segundo turno, segundo CEO de instituto de pesquisa",
+    "veiculo": "VEJA",
+    "data": "2026-10-07T00:54:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWm5HdmR1NkV2bTZGbVIwQndHNUg5QjRRdzhqSmhWY2pHaEdNSWxxWFlQbFdOSUJiV3h2NFRfWURrRjlUUlBhU1BYdE5jT0Q5SWxIcGxGRTI5NkU5dTFsVkhNV2NsenNVSE1XbjJfU1UzcTliNGpLeXJ6Y1JOY0JzT3dha0RjN2hMS1l3XzJzQlVmN2J3NGctem4tczRCS1R1NkdITWZ4a2Vya2NDOElMVVJua1ZZRExzb1hsY0hR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6ad3dd418237",
     "titulo": "Presidente do PT procura PSD, Republicanos e quadros do PP em busca de apoio a Lula",
     "veiculo": "O GLOBO",
     "data": "2026-10-06T23:42:28.000Z",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcUdITEpxakRWUlcxQklYME01YW5kRGN2N05kczl3SEUyWGdIUTZRRmNIME16YlBwMzJZQ251ekpLdXpuNEEzZ1hReG0tYS1YU0VtUndkWXNIVXpfMFNjYWdLUXIzWlh6UzhYazlYLUU4eHdoLXZ3SWNRRkhTV2JnTUd1VFliZjZzQmdZTVc0VGtZU2NFX28xT0wzZHQ2MXNJa1RxWjF5aWd3c3c0YzRFeUE0WmprcFMxeHdrdWdxNk5LQmd4eEt3QUFYMnlXdUhSeFc0RjZLWHVxVTRISUR4VDc5WXoxd3dFZnJj0gH6AUFVX3lxTE1YbnpLc1RyRGEzLUFlUENCSEdEQTZ6MUVkYU5LaGJ3OUU5dlJyTjZUNEs3eERUY2JKUHJwRERKZjNCQ0FwbUhVWmpnbWlwS29yaVZhek5nN0RaS0FfTm5wajFkY1E2MFFBazAtNXgyTnFldWFxMnJiYXlLZTdia1pNc2g5azR4ZlVuT0gydUVtd284dDZ6c094NkpLU04wTlpXS3BGSUpGQllGZW5ObnVaN21iM1M4UnJNOUpSX2hMeHNfYUpWSUdmVFluMHVwMkd0V010OF9wTWNqTWdIbmJKNk9JeEsxcnJnRUUyd1cxTkp2LUN3cDBaZlE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:adbb789eb714",
+    "titulo": "Flávio busca apoio de Caiado e Lula defende fim da 6x1",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-06T23:34:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSUdSMEY0Wk5UZ2x1UEEtZG9Ib190eVFsTVN4cVBmUksxcXJaYW9uaTBsRHN3LU9QblVEbXgwNDU5WU5UTHF3bF9OaEppNmlnX0tJOGM1VTAwbFVmSUJSc1NqNGpmWmxMTVZvZXNucHNETUd2R0hMVDN2NkNoVTVJOFpJYjdDZElLRE4wcllqcWFtdW9CZW1BWFJoek9yRTBSTWk4cDk0M1F4S1VLVnNXNE9B?oc=5",
     "origem": "google-news"
   },
   {
@@ -693,6 +773,14 @@
     "veiculo": "BBC",
     "data": "2026-10-06T18:15:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xQWRfY3NKc3RfVUtZNjRFVngyWWxQbXRwQU8zWXZqVThBLUh5cUVOeWdhb0lUVDJuc3ZJTVVpSUZjZzcwUGFXN2pwTXBvQVA2ZUxPX1NwVzFjY0FPYUZzN2NpTdIBaEFVX3lxTE9ncjNBYTB5STd6dHU4cVBjczgyc2Vpc09MVlZJMnM5X0FVVUVVU3R1QmtPZzZqaXBWOGZQelo3S0xib2t3eW5nYW5ESDhRVk82a3haV0VENEJHUHUyR251cTZFWFJaM1ZV?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d8807eef2188",
+    "titulo": "Mapas mostram quem foi o mais votado no 1º turno nos locais de votação das capitais brasileiras",
+    "veiculo": "G1",
+    "data": "2026-10-06T18:04:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSHZ0dW44bW14OUNya01LakF1eHZsQ3gwTXNXOVkzTkZHaWpHTGNQTTdGcFZmT2EzVER4X2g0WUhTeHgzRkU3RURfUUtWZ3dsNXZDQm9CdjU0YUVWTWx4UFlobVZmb2J4dXZjVElqVnVuY2liZ1R1Wmh6RENBU1RiSjlvdVlYQWZqSzZYa0JLMDFFSDBFZTQtdzg3M2ViS05wVlh4U0RwdFBfMFZqamRpcmJiaGJCOE3SAcYBQVVfeXFMTkFFVzQ5VGRqc0ZJQmx0Qll0QWtCTXZINmJWQ0xySWhhSkdnQmVkYzB5QW15M3lSSzFRMldHbEFmUjlLNEl2UW1ZSmMxNGFHM3VVSmE5N2h0R0pBY18wTE44VUtZWGtlbE1pLXE3T3dIcmQxOVFvTWNILVh6dk1MNVBEc2pjczNVQXRSc0xfUE5CdWtjNVFLNVJFV3J1bDg5cmg0c2FELWRLTGxjS3F2Y3RONlJRdmtKWHF6b0MyQ2VodE11Tjh3?oc=5",
     "origem": "google-news"
   },
   {
@@ -845,6 +933,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-05T13:40:55.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSDdQS1JVSXhyNHJtRDRGa1htUVRZYXhWbDF1T2dBOWNQSUNtelo4ZGFnbkZiNnhsSGpRZFY0OWl6Wm5ZbVY3Y3RraTRYTzZDUEw4Zm9TUTNNSGFlTDd3Rnd1dFUtd1g1S2hEVFRaMFZjTm9RLVdISlVmaHgyWUlFbENsRmJLTDg5aXk1S1hxczVEU1g2Q3lldVljdzlITlFfLTVSaVVhVjduRDlaUFBfcjR6VzRYU0JCNWo4ZmJlWGF2ZlVTWHBibGRIbEh5RTk2dGtRdmFiTDlrZGVhWlB2blF3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0346bb648b10",
+    "titulo": "Depois do susto com a 'avalanche' da direita, Lula terá de mudar campanha para tentar reverter resultado",
+    "veiculo": "G1",
+    "data": "2026-10-05T12:29:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQanJuSE9ZWkJqYlBWeFo4eGhQcmZVeEp2d1dMVFRad1d5VTQ2T0ZHM1VEQ0pDUXNERnBHRXJYajEyd1RhdGFvWFNXd0dIS2poU21YcWtGcmhRcDRPUmttMzB2Z2pHNWwwRi1fU0JQeDFtNEtUZWxZaXYzc3lPMXozZDJOREZ0el9zczhFdWxFS0owalJONVhSaC1KQklfb1lfcUFHNXpnQ1VYdVpXaF8zLXJUNXVjWDBkNkF5VmppU3JBMEdxa3N5NUduU041d0RMLXZKZF95MEMwQVhDanNna2t2cDlMczFqLUgzQVhVMlVFc2ZSc001bDRST29od9IBjAJBVV95cUxNSGFYYlNhSjNNT21GUU1kdFplSFhHb1VSSzd5cG9fRnkxOG9GZlJRSG9YdlBacVZyRHNjMGxObnR2eFRHRks2RzRpcjluMlR2bU10bEcyby0waUJKaFpSeEtER2NuZzVlN2lkWkV5NFo0TjU5SGlkMTB5T21DcjgxTHJWM21ybC1oYU93RXFIN0dySkNpNm1kNGdyREVJZmJ0WVloM01henlkamw3SUZCMmNMMklvNFpxYkFMM25YWFQ3SHo5WHJGSXdOY1VlTkRWZWFiWEY1SXg1N3dZdEtaU3BzM1lXZi11QTViQkRNNVJ4QlVETHZ2LUZlcVphS1FMb1pReDRWUWEzMzds?oc=5",
     "origem": "google-news"
   },
   {
