@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:72ccd00479b8",
+    "titulo": "Campanha do presidente Lula denuncia censura e parcialidade do presidente do TSE",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-10-12T01:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVpNNVlheHhQd1JTS1YwSE9wLTRpaGxMcGpzSk1naG5ILU01dFF2WWZZLU9ZdHlwTXAxYzlJVjYwOWFZaUx6UHVzNkpubDIxcnp4REZYb1pNblB4b0pUQ1lZSkZVSE9yWXFaYlJfc2gxZk1NSUkzY2dPazlqWUhDMGFDcERwN2tGUUhsSGtUZ204S2pMY0pQY0pxYmxxTTVO0gGoAUFVX3lxTE1VTS03cDIzMWs0UjBEMXVvUEpZdHV6RHcwUUM1TnFCblhZM0dwcWVQcVlUUklvUEI2MXdJek1WcEpPVTZxUlNMMHdVdUNLOHlQZjhMekVuZGhvVE1JUk1jaWVxd1RVczMwRDU3NDNHT1ByTzl5aG1BV3ozclVEbEY3WWt4d2dqNjdkZlFYaExrM1dMQ2RzRThnUTBXWlk4S3RLazhab1U5Vw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3ec1b5782725",
+    "titulo": "Lula reúne multidão na Paulista, e esquerda replica atos pelo país em busca de onda contra Flávio",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-12T01:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORUpuaThoNzR5OGpIVkUtdjNyU1lFUEhmcGF0eE1TNkx3NHh1dnhTRnNtWkpGMHJiWDlCSDNjMzYtdkh6d0VveWlrd3diLTRXd2hzcVcyWkZpTTR1MEVWT1RKTXQtTWVqdi1mczliSUJLeWVDc3hvOTdiTDg4aUFzZlpJTHBKQUExTnNMWmQxSVBGaGRXemNWRjc3QVNtYzNoTllEeS0zMzJMR1hWcm1yMmZxallva2lveHhwcDgyblVZZk5nWTZMaXdhMTBsdzQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:252cca06866d",
     "titulo": "Ato pela reeleição de Lula leva milhares à Avenida Paulista",
     "veiculo": "Agência Brasil",
@@ -40,11 +56,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a6beccf62359",
+    "titulo": "Coordenador da campanha de Lula prevê aprovação do fim da escala 6x1 em dois turnos nessa semana",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-11T17:19:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWXowWXRMTjVfSy1ucG1iajNSZkFoWkJaZ2xuaHprV1ItVWwwa2ZfY2ZhYUVQV1dtN0l5aGhpdXVLd1FObGVYcDNoSmtDTmRaVjdMclYtUm4tWldRcUZRdWxfMmNEZ3lSVVVJLUx2MGpmV09xMU1rYzNzY05MRTJZM3dDQ3EwblNNM1ZZbG5CSnFOcGFsZDQ1eWRGSWxfeTVRaWJtU3FiZXRMTjc5clVQZnRkbXk1ME11M3EzbzRhb2dOa18tNzZ5N0NTTHZCQ2sxVFFjSE5nbE1taExEVXlTeTY5WTNaZXg3VFNF0gH6AUFVX3lxTE1QcWswUjJUejJ1dlk1VzhzaWJSWmJvRkNPZlEtTlJSUFltVmdCbEJKcXgxLXctMV9BSXJBUGFKZF9UTURwZ09DZTBIQ2tCR3U4R25Id3E0MjUzcFZubGxmdGM4SG9kTTU1TERzSFh2SlVXUU5weUpqUmFVOVJ2N0ZBNXd2aHNYVmFReWN4LVJuYVFyX3NBQ0szQklfTjhrb0VkSFI0VEpGX0xnNHdVOUZxSVJFbUxZU2RtNU8wa3RDT1dlOUZpekpnV1I2UnZhWURqUVpmTVkwb3l0UUhFbDNlZ0VsN0xFcmZPTjVDVV9HaTN6N1RISE1HcHc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d20d24865e60",
     "titulo": "Lula afirma que PT entrará na Justiça contra suspensão de canal",
     "veiculo": "Agência Brasil",
     "data": "2026-10-11T17:06:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQWs5bldJN0UxVHRXWk9VdktHZFZoQ3V4ZVoyNmgwY0VhWHFHZDJqb1hublVyVzFwVDZMRmRqdEVQMEc5cWU1TkQ4SmdiNEJOeDdxRGZ6NXVjS25kblJaV2hpUW1LVi1QUVRvQ056TmRLZzJBdkcyQXhiLS1JelY0dXh0dTNzNDBUMnAxUHk4OVpLRC01bkczdkdROGhkcER1cTlpZ29yQlRXZDBzTW1DVFUxdFVITE9ueGNOYQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7d7849d32173",
+    "titulo": "Lula faz ato na Paulista e pede que eleitores convençam quem não foi votar no 1º turno: 'Temos obrigação de conversar'",
+    "veiculo": "G1",
+    "data": "2026-10-11T16:36:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbkV5SUtwbndqc19Fb0EwcGljMGpTUFpfby1NV2l4QWxrMFdTS2hBUWdCNnE0QW9TMWtPZVRlaWN3MEdEQUw5eTgwSmNfSEZDR0JscXhXdkI0aVhSNU13MXlmQW5PMW1JdXB3SEYyMmNMVzlOcWIzeFJYbmgxcDlNRDE5bC1Pbk1ITzhwRmJRREg2MTJkQ1puc2VrYUpSU0dBRFRPRmhTV3lyejV1Q1c0WXN4bU42R1hFTWNjRlM4elhlR0F4dWotaDZ0OUpTVnA0ejN5c0VacUx4Qld5VkdsVkt5YWZsUDRiT1Vfc1BtSdIB_gFBVV95cUxOZlAyN1dScEtJLWdid1FxRUQ3Ri1yMXVsaVlwVmZZNnJXZks0blJaeVlIYmRWRE5WQ0tqdktKNElPZXk0MFU1MUxEVjVyWEdWaEtmbmFqN0MzX2VMX0NXRUlBdEY5X21mdldNUE85V3oxS2FIbmRoRTJDaTRfZ0EtVUlheWVLcHBGUzhpQ3VyNmxKQmRhXzVCTTQ5STBYT2hDR1V0Nnp6VkpaSDM2ZEdLYVcxVkhiUDl5UlF3RmIybnJ3amNadHBFWmdGUm4zSWxxNXlvbXhGLVRneDg3SmloSG9vNkZBM0JzY1J3U1pnOFl6dFhhVWFrY3dpemh0QQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -72,11 +104,27 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:7a6cd3dbdf56",
+    "titulo": "Lula, Alckmin e aliados reúnem apoiadores em ato na avenida Paulista",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-11T14:55:30.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWERlcXoybHpWOGdrN2RYb2FodGstMGd0MmU3U0J1RlUtWnlINjBjRlNTMlM3MmtwbDA5Rm5QNDY4VFNwRm9Ea0d3UUJScWY1M0U4SXlSUmVQRi1GVnFfenhiVGk5T3N3VTJvaU4wUG12MEFYeTJ3MGRFdTY4TkV4b0szOGpKeXJTNXdKYlJfWTlPYzd4R0JvV2JKRWJkaVJ1U3hOaUF3dXlROFhrY2FHRNIBvwFBVV95cUxPVjNXN04zV2YzazdqZDdaU25qYzBaUEV4cUVVQ3dLeTBBN3pSNXoyNWs1ZWFldnNOQWQ3dGhXRTMwSzlWeXcwdzBVdW4xYmY2OThwcURRQ0RGaHZsbE5yNm15ZzhIV0dEdlM1NzZTcGJXZDZMS3BlREs2MlRyTGpWN1JkYjZMVkludXBqOGJZYmN3dnpNMmNhT1ZCdm15Q0o5d3JKWll5cEVZRmdBOFBreS1UNGtqZDBYNnJocjQ4VQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:0cd8626f85ef",
     "titulo": "Agenda dos candidatos: Lula faz ato na Paulista; Flávio tem encontro com prefeitos em SP",
     "veiculo": "CartaCapital",
     "data": "2026-10-11T12:56:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMENwa2FOSVhyMUtBMlNlblRyRW1zZlpFSFFqVVVybWRHcjNhZE9KX2ZyZFpZR1JXVFNEVkF2NUhkQ3hsQjV0TC03TmNoNEVFZjFaX3U2NDZRZS1ERnV4VFdkczZWeVNremFiblVpNy1zT0xHTmxXczF3ZmVtbUpqdVFNYU5nVEdFdWFxdnUwMzlxS19sNy1xdVhsRHhxX2ROQWhjVFYxYVhmV2x6TFJURVMxQllqVHJwYy1wNHktN013NDdKRzljdlVxMFdjdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:aa27f0a3bdb4",
+    "titulo": "TSE suspende propaganda eleitoral de Lula que chama chapa de Flávio de 'dupla de escândalos'",
+    "veiculo": "G1",
+    "data": "2026-10-11T12:29:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWnJSbVZ1U1JYY0NwbjZ2NUtDU2Ewc2phLTRiM0huYy1RQzNZSHlCQWMxMWFZdFB3TTdCMXB4dEZuTk9sXzVVdDk0RXJPb0tPOE1VUk85ZEI2bVM0Ulo5WmhWSU82T29Vckxqa0FqUXEyamE0QzNKcmt1RndlN0FoelQ1eGtyakV4Y1ZIbXZETndEdE81cXZLclhSZEpqdnduTUNqS2doYmFYOGFaU245cV9UaFRqMnBDUThRWE5XV2Nxa0RSaXFKVmpTZmVLQWpmS0NVZHZVRmQ4VEVXcUlmSVN4X2kwRTNGODRaQW42WmlaVDjSAYICQVVfeXFMTV9yWXJvMTZzdjVFMWpzVGJFbktwMmxVSkFHeVJwNmxaeU1WelNHYzVZWmxVQUJhLWlyMWFBZExHNHgzRjI2SmZBRXozMUJOTkpTampVcndObmc3bWRmanJpQ3NwbC1vd2JjckFpYmg3NG9kS0ZyS09MRTZWVVFRRWhKTWUwcGxBVGdIVklwZmVQNGpRXzlpNGdlclNOS212WEN2T2k1dGdYWF9fSi1YdXMxbVB5YVByQXU5TWRDNzFuYWpWR1IwVkNhSDdndVhaTzJPQm8tdG9xT0tRRW9wdnpBXzU4RDNHaWF2bVkyR2J1ZldwbFo0ZUZhQ3dPcEMtWld3?oc=5",
     "origem": "google-news"
   },
   {
@@ -125,6 +173,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-10T18:06:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa1BaWUtqX3V5NE5yQ3hEV2VNQXFfdDRFSmpPVGplUXdwVFVCNENjRGZGOTdyMno2LXZLUjVxQ2Z5NVh6RkExaC1KUU1rX2NwdWFxUldpaWlGME1iS21tM1I1QkRQN1M4aGNGR1dOUkpmTTNMSWRFaFVLeU5UQkQ5Z0Y1cHhyTExCTzBMd1RRdnd4cm80cEZXSC1yVzdEc1FUT2J1Z0lCdHBWNGx2WWh1M1V5UmMyeTdBV1VPMEtGMUlkMFp5?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1c1b2f213264",
+    "titulo": "Campanha de Lula acusa dona do Instagram e Facebook de interferir em favor de Flávio Bolsonaro",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-10T16:40:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR1ZYZE9zUGtjTEU4OG56OW8zN1poclFvSTFKdEwzNU1JbXNHNEFtdWh6ODFsUjB1VkxpWUdGZEdxcFEyU05JSUVRTzlqcEFiM2ppekxDd21CWGswUlJiOVVwYzJ5WkJjckRHemUtSEVpbzh2X0NhdzM0SWJpR1FOU2hZLVRqTjgyVUltdnMxTDZpTW1QM3dLMU92dkVCM2pCN01HRXlEOVZ2ZGVDV1FQM1NvVDMwMHpWN191QmlSeHlrXy05dnFlbGc0bFc1V0d1UWJLem54OXRKZGZT?oc=5",
     "origem": "google-news"
   },
   {
@@ -440,6 +496,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4b59b3bd1a68",
+    "titulo": "Bolsa Família: o que Lula e Flávio propõem sobre o programa",
+    "veiculo": "BBC",
+    "data": "2026-10-08T09:01:10.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1oWVJvbjZTNm1CaUZjd0NFNFhpY01KOFJPX3hQUmpYdFV5N2hWNy1LTDdzODRjaEtSU0RpNzg3QzB3eHJ2NW1QOG05TDVxLTFZbVB4RWZZTy1mWm43b29vTlNBTdIBaEFVX3lxTFBDX2RLaG05bjg3WC1YaWYwdzBqOVpFazlLZ3NCSFY4dF9sRXBRaXk1NTRONVRLaWdlTTc1TGhTeWhLOHRUd09pMjFPYV9Mc2hQZmF6Y1VwZklGd3VzcWhvV0FKZmt5MzNs?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d59fa6dcef2c",
     "titulo": "Virada de Lula sobre Flávio é possível? Entenda o que dizem especialistas",
     "veiculo": "Estadão",
@@ -608,6 +672,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:46188c069041",
+    "titulo": "Datafolha, Quaest, AtlasIntel; quando saem as pesquisas de 2º turno entre Lula e Flávio Bolsonaro",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-06T19:56:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2thZC1Ec2VmS2czSGdNaFhOaDY4blM4ek9PeXItZkEySXFvcDdGN1VpaHhoQVIxRFRydDhnVUs1QzN5ZVNiQXM2OFFwR3VDSFhuOXBXU1NDdjJPaVoxZDl1RG9WNjZRZU5IS0M3dUFCeWppWjdOcHJUd0dRbW55d3F0OGRHM0dkMjdVekVmblBjeC0wVDBCNVR4VlYzUlNEbTFYQnlxbkJnSy16T1NZcTR0M3Z2MjdtcVI1Mk03bURhQnp2VWI4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a3404389377e",
     "titulo": "Raquel Lyra diz ser grata a Lula, mas evita declarar apoio no 2º turno",
     "veiculo": "G1",
@@ -637,6 +709,14 @@
     "veiculo": "BBC",
     "data": "2026-10-06T16:12:57.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9INUhJaTNkVFZHcW96RTBSYVY5dW82bWotbXdtRUx4RUxlOXp0MzNoRVROS2tzeXlHLXI1RUtSUnpIUzF4RWR3cTZldjlHa3hxU0lnWC1kbzlhTzI0WXp1b2NRYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1bba9ff2bddf",
+    "titulo": "Mendonça multa Flávio por impulsionar post negativo contra Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-06T15:39:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMDJIall5WW9CckdCQUtRZUhrcUE3U1ZWbWg1azFsYmRrSW5NNXJNZ0ZUWk5MMzNuNWhzVEFTNTllUklPVFlmQV9OTF9fRl9UOHJOQjZFT3dPdFI4MmpuVm9Pdm94Um14d3F5ektaUGtyNmJiQk0wdHBRYlJCWkpGbjVyR1M5MVktX2hCZDhpcGlWa243d2lkSFNGMkdiMWd1NGtvLW1oYnRlUEI5cGlUV0VKNXFxcEZPQ0FSYzVR?oc=5",
     "origem": "google-news"
   },
   {
@@ -760,6 +840,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0b61fbc52719",
+    "titulo": "Flávio se esquiva de crises e capitaliza sentimento de mudança, que dificulta virada de Lula no 2º turno",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-05T13:40:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSDdQS1JVSXhyNHJtRDRGa1htUVRZYXhWbDF1T2dBOWNQSUNtelo4ZGFnbkZiNnhsSGpRZFY0OWl6Wm5ZbVY3Y3RraTRYTzZDUEw4Zm9TUTNNSGFlTDd3Rnd1dFUtd1g1S2hEVFRaMFZjTm9RLVdISlVmaHgyWUlFbENsRmJLTDg5aXk1S1hxczVEU1g2Q3lldVljdzlITlFfLTVSaVVhVjduRDlaUFBfcjR6VzRYU0JCNWo4ZmJlWGF2ZlVTWHBibGRIbEh5RTk2dGtRdmFiTDlrZGVhWlB2blF3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ffeb9b02e64d",
     "titulo": "Perda de votos no Nordeste e outros obstáculos de Lula para tentar virada inédita no 2º turno",
     "veiculo": "BBC",
@@ -776,11 +864,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:caf822673e25",
+    "id": "google-news:940ba0292168",
     "titulo": "Lula perde eleitores mesmo em cidades mais pobres",
     "veiculo": "BBC",
     "data": "2026-10-05T11:55:39.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aamFPQl9pZjdKMHpZX0daSDgwRGw0VTdBNktXeXRSWnhJQ0Q0SlE0MGJBaUFqWlJFRjl0RHdFS1hFOTBuM2d1YnpYYV85Z2ttWDhVeEJqTjlyWlNVRXB3VWRTSdIBaEFVX3lxTE1lTFZtUmpaM015Y2hjTUdVZHZJV3Jkb05CNkE2bkdzaE9XMDd5RXE1MUxVbzVSTVF5d2xWcWR6c2w3MERqWkpSdzhObDh1cFd6LXAySEFhMmg5ajFtamxOVHVfQXlqbjJ5?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aamFPQl9pZjdKMHpZX0daSDgwRGw0VTdBNktXeXRSWnhJQ0Q0SlE0MGJBaUFqWlJFRjl0RHdFS1hFOTBuM2d1YnpYYV85Z2ttWDhVeEJqTjlyWlNVRXB3VWRTSQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -829,6 +917,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-05T07:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRHZ4enlGQmhmTkdMU2I3SXhLZm5uZ1NGMGJTaHlKRnhxX3k3OVBaVHNadkIxcnV6a0s2RF9JTjlmdVpNWmFNam5EdXdfTEhiaFluM2NPV0Q0UWRITzRmbGx3RGZ5bmNsTW4tSkEyLUUxZEphb2tXYkkyRXVFZnA5anFIdjMzN1U5b3lVdjFVR3hHQS1yV3V6LUFzb0EwVEVqZFJ6MkZKc3dka2p0LWxUQWxBWWJxNDNpS1A3OXZCX2N1Q1pXS1kxNDlCYzliaUhEbjFZdE03bU9MYVR2WUHSAewBQVVfeXFMTXJQTy0wcWtKM0o2RTh0ZDdhaU5OQjNNV0NGQklLWGN2QlpSOTFOVU9ETVBWT1RVUHZQeE1ZaXdoeElRSS02WUotdWZwM1ZOdURXaEFlUFlxclhrZlNBSHJKLXRPQ0tyQzVlem0zM0cyX3ROc05tekQ5clJFUm1ERld4WmVnRjlqemU5dGUwb1BMcllteEdTV0xsYmNMSlZ0cGlodnhrcnNOUjRJbnVrS19veFFYOVVBSm45QzNaeHlHcDJQcU1xUEdqVnlNbUtEZm0yMC1nYldHaE1XdzdjbkVLMERlam4zbm9scXk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9396a940cfa9",
+    "titulo": "Lula teve 1,7 milhão de votos a menos em SP, RJ e MG do que em 2022; Flávio, 1,3 milhão a mais que Jair",
+    "veiculo": "G1",
+    "data": "2026-10-05T06:53:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaTJhYXJBWE5MZldOVmE5N3BWODRSYWFHWGVrbGtkX01CQWlIWkxpQThONXBzbnJ5Zzc3TkVVZ0ZkTUdLRjI0MnBrWFZ2aE9aZHkxbEItUWtZcWp6SE0xODRsaFFSTnh4RGZYQ01IaHFkVTVnd3NIUEdRVloyRTN4ajBpOWxlR3VnSThCSWJJVzFTWmVrSllLLWNPbFByQXhqamF6T083NGbSAbcBQVVfeXFMT0UyeUgtaGNQRExnS3JPQTJKZUJqQ0xmcnQtSEZGSlBvWlBLaFZPS19sSFJZX2w5ck5udTdGYXBXVVpzbjdtNzF2OWlxczZVbmp0NlVpYllhVzQyWldCRy1Ka0ZlN3pTY3BwQmI0blRiRzFnX095UDd0TG92VnpvTWpLNzg2eG9SeHVxRWxJRzRESGotWVF0UXhMQzBsaktOMk00ekN1b3FEU2hneG1RRk1DMnRad0tJ?oc=5",
     "origem": "google-news"
   },
   {
