@@ -94,7 +94,12 @@ describe('guardas da folha de estilo', () => {
   });
 
   it('não carrega nada de fora do site', () => {
-    expect(css).not.toMatch(/@import|url\(|@font-face/);
+    expect(css).not.toMatch(/@import/);
+    const urls = [...css.matchAll(/url\([^)]*\)/g)].map((m) => m[0]);
+    for (const url of urls) expect(url).toMatch(/^url\('\.\/fontes\/[a-z0-9-]+\.woff2'\)$/);
+    const blocos = css.match(/@font-face\s*\{[^}]*\}/g) ?? [];
+    expect(blocos).toHaveLength(4);
+    for (const bloco of blocos) expect(bloco).toMatch(/font-display:\s*swap/);
   });
 
   it('nada é reordenado pelo CSS: a ordem na tela é a do DOM (e a do foco)', () => {

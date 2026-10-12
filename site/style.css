@@ -1,3 +1,7 @@
+@font-face { font-family: 'Bricolage Grotesque'; font-style: normal; font-weight: 700; font-display: swap; src: url('./fontes/bricolage-grotesque-700.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url('./fontes/ibm-plex-sans-400.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url('./fontes/ibm-plex-sans-600.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('./fontes/ibm-plex-mono-500.woff2') format('woff2'); }
 :root {
   --fundo: #f4f5f6; --cartao: #ffffff; --texto: #16191d; --suave: #545b65; --linha: #d5d9de;
   --link: #0e4a94; --borda-campo: #6b727c; --aviso-bg: #fff3cd; --aviso-tx: #5c4400;

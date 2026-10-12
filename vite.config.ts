@@ -5,7 +5,7 @@ import { caminhoSeguro } from './scripts/dados-dev.ts';
 
 // form-action 'self' (e não 'none'): o formulário de filtros de index.html é um GET para a própria
 // página; com 'none' o navegador bloquearia o envio. Todo o resto continua fechado.
-const CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'self'";
+const CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'";
 
 function csp(): Plugin {
   return {

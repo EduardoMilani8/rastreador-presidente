@@ -1,12 +1,12 @@
 import { execSync } from 'node:child_process';
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, statSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 // form-action 'self' (e não 'none'): o formulário de filtros é um GET para a própria página.
 const CSP_ESPERADA =
-  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'self'";
+  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'";
 
 describe('build de produção', () => {
   it('gera as páginas com CSP exata, sem scripts/estilos inline, e copia os dados', () => {
@@ -23,6 +23,22 @@ describe('build de produção', () => {
     }
     expect(readFileSync('dist/sobre.html', 'utf8')).toContain('Sobre e metodologia');
     expect(existsSync('dist/data') || !existsSync('data')).toBe(true);
+  }, 120_000);
+
+  it('publica quatro fontes .woff2 (até 90 kB) e o CSS só aponta para elas, em caminho relativo', () => {
+    execSync('npm run build', { stdio: 'pipe' });
+    const fontes = readdirSync('dist/assets').filter((f) => f.endsWith('.woff2'));
+    expect(fontes).toHaveLength(4);
+    const total = fontes.reduce((soma, f) => soma + statSync(join('dist/assets', f)).size, 0);
+    expect(total).toBeLessThanOrEqual(90_000);
+    const arquivosCss = readdirSync('dist/assets').filter((f) => f.endsWith('.css'));
+    expect(arquivosCss.length).toBeGreaterThan(0);
+    for (const arquivo of arquivosCss) {
+      const css = readFileSync(join('dist/assets', arquivo), 'utf8');
+      const urls = [...css.matchAll(/url\(([^)]*)\)/g)].map((m) => m[1].replace(/^["']|["']$/g, ''));
+      expect(urls).toHaveLength(4);
+      for (const url of urls) expect(url).toMatch(/^(\.\/|\.\.\/)?[A-Za-z0-9_./-]+\.woff2$/);
+    }
   }, 120_000);
 });
 
