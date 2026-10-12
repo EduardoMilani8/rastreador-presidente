@@ -46,7 +46,7 @@ export function formatarDataCurta(data: string): string {
   return `${d}/${m}/${a}`;
 }
 
-function linkOuTexto(doc: Document, url: string, texto: string): HTMLElement {
+export function linkOuTexto(doc: Document, url: string, texto: string): HTMLElement {
   const href = urlHttpsSegura(url);
   return href ? el(doc, 'a', { href, rel: 'noopener noreferrer', target: '_blank' }, texto) : el(doc, 'span', {}, texto);
 }
@@ -136,11 +136,14 @@ export function renderEvento(
   return li;
 }
 
-export function renderNoticia(doc: Document, n: Noticia): HTMLElement {
-  const quando = new Intl.DateTimeFormat('pt-BR', {
+export function formatarDataHoraNoticia(iso: string): string {
+  return new Intl.DateTimeFormat('pt-BR', {
     timeZone: 'America/Sao_Paulo', dateStyle: 'short', timeStyle: 'short',
-  }).format(new Date(n.data));
+  }).format(new Date(iso));
+}
+
+export function renderNoticia(doc: Document, n: Noticia, titulo: 'h2' | 'h3' = 'h3'): HTMLElement {
   return el(doc, 'li', { class: 'noticia' },
-    el(doc, 'h3', { class: 'evento-titulo' }, linkOuTexto(doc, n.url, n.titulo)),
-    el(doc, 'p', { class: 'local' }, `${n.veiculo} · ${quando}`));
+    el(doc, titulo, { class: 'evento-titulo' }, linkOuTexto(doc, n.url, n.titulo)),
+    el(doc, 'p', { class: 'local' }, `${n.veiculo} · ${formatarDataHoraNoticia(n.data)}`));
 }

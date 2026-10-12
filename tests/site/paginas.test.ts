@@ -95,7 +95,7 @@ describe('o que cada página contém', () => {
 
   it('noticias.html tem o painel e a lista de notícias, com o aviso de que é imprensa', () => {
     abrir('noticias.html');
-    expect(document.querySelector('div#painel-noticias > ul#lista-noticias')).not.toBeNull();
+    expect(document.querySelector('div#painel-noticias ol#lista-noticias')).not.toBeNull();
     expect(document.querySelector('#painel-noticias .aviso-imprensa')!.textContent).toContain('Não são registros oficiais');
     expect(document.getElementById('painel-linha')).toBeNull();
     expect(document.querySelector('h1')!.textContent).toBe('O que a imprensa publica');

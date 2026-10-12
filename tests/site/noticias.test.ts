@@ -30,6 +30,15 @@ const DADOS: Dados = {
   mesesDisponiveis: ['2026-10', '2026-09', '2026-08', '2026-07'],
 };
 
+// i = 0 é a mais recente; veículos alternam entre A, B e C (A tem mais)
+function nova(i: number, veiculo = ['A', 'A', 'B', 'A', 'C'][i % 5]): Noticia {
+  return {
+    ...noticia, id: `n${i}`, titulo: `Titulo ${i}`, veiculo, url: `https://exemplo.org/${i}`,
+    data: new Date(Date.parse('2026-10-08T11:00:00.000Z') - i * 3600_000).toISOString(),
+  };
+}
+const hrefs = () => [...document.querySelectorAll('#painel-noticias a')].map((a) => a.getAttribute('href'));
+
 beforeEach(() => {
   document.documentElement.lang = 'pt-BR';
   document.documentElement.innerHTML = PAGINA();
@@ -39,8 +48,8 @@ describe('montarNoticias', () => {
   it('mostra as notícias, com a navegação já marcada no HTML, e nenhum registro oficial', () => {
     montarNoticias(document, DADOS, AGORA);
     expect(document.getElementById('painel-noticias')!.hidden).toBe(false);
-    expect(document.getElementById('lista-noticias')!.textContent).toContain('Manchete');
-    expect(document.querySelectorAll('#lista-noticias li.noticia')).toHaveLength(1);
+    expect(document.getElementById('noticia-destaque')!.textContent).toContain('Manchete');
+    expect(document.querySelectorAll('#noticia-destaque')).toHaveLength(1);
     expect(document.getElementById('aba-noticias')!.getAttribute('aria-current')).toBe('page');
     expect(document.getElementById('aba-linha')!.hasAttribute('aria-current')).toBe(false);
     expect(document.getElementById('painel-linha')).toBeNull();
@@ -49,13 +58,20 @@ describe('montarNoticias', () => {
 
   it('sem notícias mostra mensagem', () => {
     montarNoticias(document, { ...DADOS, noticias: [] }, AGORA);
-    expect(document.getElementById('lista-noticias')!.textContent).toContain('Nenhuma notícia');
+    expect(document.getElementById('lista-noticias')!.textContent).toContain('Nenhuma notícia disponível no momento.');
+    expect(document.getElementById('noticia-destaque')!.hidden).toBe(true);
+    expect(document.getElementById('noticias-veiculos')!.hidden).toBe(true);
   });
 
   it('montar de novo substitui a lista, sem repetir itens', () => {
     montarNoticias(document, DADOS, AGORA);
     montarNoticias(document, DADOS, AGORA);
-    expect(document.querySelectorAll('#lista-noticias li')).toHaveLength(1);
+    const muitas = Array.from({ length: 8 }, (_, i) => nova(i));
+    montarNoticias(document, { ...DADOS, noticias: muitas }, AGORA);
+    montarNoticias(document, { ...DADOS, noticias: muitas }, AGORA);
+    expect(document.querySelectorAll('#noticia-destaque a')).toHaveLength(1);
+    expect(document.querySelectorAll('#lista-noticias li.noticia')).toHaveLength(5);
+    expect(document.querySelectorAll('#noticias-veiculos li')).toHaveLength(2);
   });
 
   it('mostra há quanto tempo os dados foram atualizados e avisa quando uma fonte está com falha', () => {
@@ -88,6 +104,55 @@ describe('montarNoticias', () => {
   });
 });
 
+describe('layout das notícias', () => {
+  it.each([1, 3, 6, 40])('com %i notícias: destaque + lista + grupos = total, sem repetir', (total) => {
+    const ns = Array.from({ length: total }, (_, i) => nova(i));
+    montarNoticias(document, { ...DADOS, noticias: ns }, AGORA);
+    const h = hrefs();
+    expect(h).toHaveLength(total);
+    expect(new Set(h).size).toBe(total);
+    expect(document.querySelectorAll('#lista-noticias li.noticia')).toHaveLength(Math.min(5, Math.max(0, total - 1)));
+    expect(document.getElementById('noticias-veiculos')!.hidden).toBe(total <= 6);
+    expect(document.getElementById('noticia-destaque')!.hidden).toBe(false);
+  });
+
+  it('ordena por data, da mais recente à mais antiga, mesmo com entrada embaralhada, sem mudar o array recebido', () => {
+    const ns = [3, 0, 7, 1, 5, 2, 6, 4].map((i) => nova(i));
+    const copia = ns.map((n) => n.id);
+    montarNoticias(document, { ...DADOS, noticias: ns }, AGORA);
+    expect(hrefs()).toEqual([0, 1, 2, 3, 4, 5, 6, 7].map((i) => `https://exemplo.org/${i}`));
+    expect(ns.map((n) => n.id)).toEqual(copia);
+    const d = document.getElementById('noticia-destaque')!;
+    expect(d.textContent).toContain('Mais recente');
+    expect(d.textContent).toContain('Titulo 0');
+    expect(d.querySelector('h2 a')!.getAttribute('href')).toBe('https://exemplo.org/0');
+  });
+
+  it('agrupa o resto por veículo, em ordem de quantidade e depois alfabética', () => {
+    const veic = ['X', 'X', 'X', 'X', 'X', 'X', 'Z', 'B', 'B', 'Z', 'A', 'Z', 'B', 'C'];
+    const ns = veic.map((v, i) => nova(i, v));
+    montarNoticias(document, { ...DADOS, noticias: ns }, AGORA);
+    const grupos = [...document.querySelectorAll('#noticias-veiculos .veiculo')];
+    expect(grupos.map((g) => g.querySelector('h3')!.textContent)).toEqual(['B', 'Z', 'A', 'C']);
+    expect(grupos.map((g) => g.querySelectorAll('li').length)).toEqual([3, 3, 1, 1]);
+  });
+
+  it('mantém a ordem de títulos h1, h2, h3', () => {
+    montarNoticias(document, { ...DADOS, noticias: Array.from({ length: 10 }, (_, i) => nova(i)) }, AGORA);
+    const niveis = [...document.querySelectorAll('main h1, main h2, main h3')].map((h) => h.tagName);
+    expect(niveis[0]).toBe('H1');
+    expect(niveis.slice(1, 7)).toEqual(['H2', 'H2', 'H2', 'H2', 'H2', 'H2']);
+    expect(niveis.slice(7)).toEqual(['H2', 'H3', 'H3', 'H3']);
+    expect(document.querySelector('#noticias-veiculos > h2')!.textContent).toBe('Mais notícias, por veículo');
+  });
+
+  it('axe sem violações com 40 notícias', async () => {
+    montarNoticias(document, { ...DADOS, noticias: Array.from({ length: 40 }, (_, i) => nova(i)) }, AGORA);
+    const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
+    expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
+  });
+});
+
 describe('texto hostil', () => {
   const RUIM = '<img src=x onerror=alert(1)><script>alert(2)</script>';
 
@@ -100,9 +165,9 @@ describe('texto hostil', () => {
     expect(area.querySelectorAll('script, img')).toHaveLength(0);
     expect(area.querySelectorAll('a[href^="http:"], a[href^="javascript:"]')).toHaveLength(0);
     expect(area.textContent).toContain(RUIM);
-    expect(area.querySelectorAll('li.noticia')).toHaveLength(3);
+    expect(area.querySelectorAll('#noticia-destaque, li.noticia')).toHaveLength(3);
     // só a notícia com endereço https vira link
-    expect([...area.querySelectorAll('#lista-noticias a')].map((a) => a.getAttribute('href'))).toEqual(['https://news.google.com/x']);
+    expect([...area.querySelectorAll('#painel-noticias a')].map((a) => a.getAttribute('href'))).toEqual(['https://news.google.com/x']);
     expect(document.querySelectorAll('[onclick], [onerror], [style]')).toHaveLength(0);
   });
 });
