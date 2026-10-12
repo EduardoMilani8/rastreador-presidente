@@ -61,6 +61,18 @@ export const EstadoFontesSchema = z.object({
   ultimaNovidadeEm: instante.optional(),
 });
 
+export const ResumoSchema = z.object({
+  total: z.number().int().nonnegative(),
+  porTipo: z.object({
+    agenda: z.number().int().nonnegative(),
+    ato: z.number().int().nonnegative(),
+    comunicado: z.number().int().nonnegative(),
+  }),
+  desde: dataIso,
+}).refine((r) => r.total === r.porTipo.agenda + r.porTipo.ato + r.porTipo.comunicado, {
+  message: 'total diferente da soma dos tipos',
+});
+
 export type Fonte = z.infer<typeof FonteSchema>;
 export type Evento = z.infer<typeof EventoSchema>;
 export type Noticia = z.infer<typeof NoticiaSchema>;
@@ -68,3 +80,4 @@ export type Mandato = z.infer<typeof MandatoSchema>;
 export type EstadoFontes = z.infer<typeof EstadoFontesSchema>;
 export type TipoEvento = z.infer<typeof TipoEventoSchema>;
 export type Status = z.infer<typeof StatusSchema>;
+export type Resumo = z.infer<typeof ResumoSchema>;
