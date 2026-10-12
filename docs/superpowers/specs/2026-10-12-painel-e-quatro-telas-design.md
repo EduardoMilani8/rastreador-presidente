@@ -16,7 +16,7 @@ registros, as notícias e o Sobre. Nada entra em `main` antes de aprovação vis
 
 | Assunto | Decisão |
 |---|---|
-| Gastos | O bloco só aparece quando existir `data/gastos.json` válido. A coleta é trabalho do pipeline, em outra sessão. |
+| Gastos | O site não mostra gastos: gasto do órgão "Presidência da República" não é gasto do presidente (`docs/regras-painel.md`). |
 | Viagens | Só internacionais. A lista de cidades vem pronta de `data/viagens.json`, gerado pelo pipeline. |
 | Números do topo | Vêm de `data/resumo.json`, gerado pelo pipeline. |
 | Tema | Claro e escuro, pelo tema do aparelho. O claro é derivado da mesma paleta e passa por aprovação. |
@@ -51,7 +51,6 @@ Cada fase é publicável sozinha.
    com pontos, o redirecionamento dos endereços antigos e o código que esconde as seções sem dado. Os números do
    topo aparecem se `data/resumo.json` existir.
 2. **Fase 2, viagens**: o mapa e a lista, quando `data/viagens.json` existir.
-3. **Fase 3, gastos**: quando o recorte da coleta for aprovado e `data/gastos.json` existir.
 
 ## Branches
 
@@ -63,7 +62,7 @@ no começo das fases 2 e 3. Só `redesenho` é juntado em `main`, depois de apro
 
 | Página | Arquivo | Conteúdo |
 |---|---|---|
-| Painel | `index.html` | Números do topo, linha do tempo com pontos, viagens, gastos |
+| Painel | `index.html` | Números do topo, linha do tempo com pontos, viagens |
 | Registros | `registros.html` | Filtros, lista por dia, próximos compromissos |
 | Notícias | `noticias.html` | Mais recente em destaque, lista, restantes por veículo |
 | Sobre | `sobre.html` | Como funciona, status, limites |
@@ -118,7 +117,6 @@ sistema como alternativa.
   dedo ou andar com Tab. Ela começa rolada até o dia mais recente.
 - **Viagens**: mapa-múndi com um ponto por cidade (tamanho pela quantidade de compromissos) e linhas a partir de
   Brasília, mais a lista das cidades com período e contagem. Sem `data/viagens.json`, a seção não aparece.
-- **Gastos**: uma caixa por item, com rótulo, período, valor e fontes. Sem `data/gastos.json`, a seção não aparece.
 - Avisos de fonte com falha, dados incompletos e dados parados continuam no alto, como hoje.
 
 Os dados dos 21 dias vêm dos dois meses mais recentes, que a página já carrega hoje.
@@ -142,12 +140,18 @@ decorativo para leitor de tela, porque a lista ao lado traz a mesma informação
 ## Notícias (`noticias.html`)
 
 - Aviso de que não são registros oficiais, no alto.
-- A notícia mais recente em destaque; as cinco seguintes em lista ao lado; abaixo, todas as restantes agrupadas por veículo, do veículo com mais itens para o com menos. Nenhuma notícia deixa de aparecer.
+- A notícia mais recente em destaque, em largura total.
+- Logo abaixo, as seis seguintes numa grade de cartões: três colunas a partir de 60rem, duas a partir de 40rem e uma
+  abaixo disso.
+- Depois, as restantes agrupadas por veículo, do veículo com mais itens para o com menos. Cada cartão mostra só a
+  notícia mais recente do veículo; as outras ficam em "Mais N notícias" (`<details>`, fechado).
+- Só os oito primeiros veículos ficam à vista; os demais ficam em "Outros N veículos", também fechado.
+- Nenhuma notícia deixa de aparecer nem aparece duas vezes.
 - Título, veículo, data e link, como hoje. Nenhum texto além do que `data/noticias.json` já traz.
 
 ## Sobre (`sobre.html`)
 
-- Título "Sobre" e uma linha de descrição.
+- Título "Como este site funciona" e uma linha de descrição.
 - "Como funciona" em três passos, a lista de status com os ícones, e os limites.
 - **Todo o texto atual é mantido.** Os blocos novos reorganizam as frases existentes; nenhuma informação sai.
 - Entram duas explicações novas, com teste em `tests/site/sobre.test.ts`: como as viagens são reconhecidas (tabela

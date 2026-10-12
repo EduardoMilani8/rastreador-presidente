@@ -128,7 +128,7 @@ describe('o que cada página contém', () => {
 
   it('index.html é o painel: título, última alteração e nada das outras páginas', () => {
     abrir('index.html');
-    expect(document.querySelector('main > h1')!.textContent).toBe('A agenda e os atos do presidente, com a fonte de cada registro.');
+    expect(document.querySelector('main > h1')!.textContent).toBe('A agenda e os atos do presidente');
     expect(document.querySelector('main > h1 + #ultima-novidade')).not.toBeNull();
     expect(document.getElementById('painel-linha')).toBeNull();
     expect(document.getElementById('painel-noticias')).toBeNull();

@@ -44,7 +44,7 @@ describe('site/sobre.html', () => {
     // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
     expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
     expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
-    expect(document.querySelector('h1')!.textContent).toBe('Sobre');
+    expect(document.querySelector('h1')!.textContent).toBe('Como este site funciona');
     expect(document.querySelector('footer.rodape')!.textContent).toContain('Projeto independente, sem vínculo com o governo.');
     expect(document.title).toContain('Sobre e metodologia');
     expect(document.documentElement.lang).toBe('pt-BR');
@@ -80,8 +80,8 @@ describe('site/sobre.html', () => {
     ['Publicação', 'Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.'],
   ];
 
-  it('Como funciona: três passos numerados com frases exatas, sob um h2', () => {
-    const h2 = [...document.querySelectorAll('main h2')].find((h) => h.textContent === 'Como funciona')!;
+  it('Em três passos: três passos numerados com frases exatas, sob um h2', () => {
+    const h2 = [...document.querySelectorAll('main h2')].find((h) => h.textContent === 'Em três passos')!;
     expect(h2).toBeTruthy();
     const itens = [...document.querySelectorAll('ol.passos > li')];
     expect(itens).toHaveLength(3);
@@ -142,7 +142,32 @@ describe('site/sobre.html', () => {
     expect(texto).toContain('Compromissos removidos da agenda não aumentam a marca, mas são informados no texto do dia.');
     expect(texto).toContain('O detalhe do dia lista até três itens; a lista completa, com as fontes, está em Registros.');
     expect(texto).toContain('Os números do alto do painel só aparecem quando o total calculado pela coleta está disponível.');
-    expect([...document.querySelectorAll('.limites li')].at(-1)!.textContent).toMatch(/^O painel da página inicial/);
+    expect([...document.querySelectorAll('.limites li')].at(-3)!.textContent).toMatch(/^O painel da página inicial/);
+  });
+
+  it('o h2 dos passos não repete o título da página', () => {
+    expect([...document.querySelectorAll('main h2')].map((h) => h.textContent)).not.toContain('Como funciona');
+  });
+
+  it('diz o que os números do alto do painel contam', () => {
+    const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
+    expect(texto).toContain('Os números do alto do painel contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial e comunicados do Planalto, desde 01/01/2023. Compromisso que saiu da agenda oficial continua na contagem, porque continua guardado e aparece nos registros como "Removido da agenda".');
+  });
+
+  it('diz que o site não mostra gastos, e a palavra só aparece nesse item', () => {
+    const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
+    expect(texto).toContain('O site não mostra gastos. As fontes públicas oficiais (Portal da Transparência) publicam cartão de pagamento, diárias, passagens e despesas por órgão, e o órgão "Presidência da República" inclui centenas de servidores. Gasto do órgão não é gasto do presidente, e mostrar um como se fosse o outro seria enganoso.');
+    const principal = document.querySelector('main')!.textContent!;
+    expect(principal.match(/gastos/gi)).toHaveLength(1);
+    const item = [...document.querySelectorAll('.limites li')].find((li) => /gastos/i.test(li.textContent!))!;
+    expect(item.textContent).toMatch(/^O site não mostra gastos\./);
+  });
+
+  it('os dois itens novos vêm depois do item do painel, nessa ordem', () => {
+    const itens = [...document.querySelectorAll('.limites li')].map((li) => li.textContent!);
+    const painel = itens.findIndex((t) => t.startsWith('O painel da página inicial'));
+    expect(itens[painel + 1]).toMatch(/^Os números do alto do painel contam tudo/);
+    expect(itens[painel + 2]).toMatch(/^O site não mostra gastos\./);
   });
 
   it('conta os limites reais dos dados (I8)', () => {
