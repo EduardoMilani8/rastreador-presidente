@@ -202,6 +202,7 @@ export function montarPainel(doc: Document, dados: Dados, hoje: string): void {
     b.addEventListener('focus', escolher);
     b.addEventListener('mouseenter', () => { if (!arrasto.emCurso) escolher(); });
     b.addEventListener('keydown', (e) => {
+      if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
       const destino = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1
         : e.key === 'Home' ? 0 : e.key === 'End' ? botoes.length - 1 : null;
       if (destino === null) return;

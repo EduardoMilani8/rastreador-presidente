@@ -294,6 +294,18 @@ describe('montarPainel', () => {
       expect(selecionado().dataset.dia).toBe('2026-10-07');
     });
 
+    it('teclas com modificador (Alt, Ctrl, Meta, Shift) não são capturadas', () => {
+      montarPainel(document, DADOS, HOJE);
+      for (const mod of ['altKey', 'ctrlKey', 'metaKey', 'shiftKey']) {
+        const atual = selecionado();
+        const ev = new KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true, cancelable: true, [mod]: true });
+        atual.dispatchEvent(ev);
+        expect(ev.defaultPrevented, mod).toBe(false);
+        expect(selecionado().dataset.dia, mod).toBe('2026-10-07');
+        expect(botoes().filter((b) => b.getAttribute('tabindex') === '0').map((b) => b.dataset.dia), mod).toEqual(['2026-10-07']);
+      }
+    });
+
     it('seta para a direita no último dia não muda nada, nem a esquerda no primeiro', () => {
       montarPainel(document, { ...DADOS, eventos: [] }, HOJE);
       const ultimo = botao(HOJE);
