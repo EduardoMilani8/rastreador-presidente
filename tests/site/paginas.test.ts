@@ -89,6 +89,23 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
 });
 
 describe('o que cada página contém', () => {
+  it.each(['index.html', 'registros.html', 'noticias.html'])('%s avisa, sem JavaScript, que a página precisa dele', (arquivo) => {
+    const html = ler(arquivo);
+    const aviso = '<noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>';
+    expect(html).toContain(aviso);
+    expect(html.indexOf(aviso)).toBeGreaterThan(html.indexOf('<h1>'));
+    expect(html.indexOf(aviso)).toBeLessThan(html.indexOf('</main>'));
+  });
+
+  it('sobre.html não tem noscript', () => {
+    expect(ler('sobre.html')).not.toContain('<noscript');
+  });
+
+  it('o bloco de próximos compromissos de registros.html começa oculto', () => {
+    abrir('registros.html');
+    expect(document.getElementById('bloco-proximos')!.hasAttribute('hidden')).toBe(true);
+  });
+
   it('registros.html tem todos os ids dos registros e nada do bloco "Último registro"', () => {
     abrir('registros.html');
     for (const id of IDS_REGISTROS) expect(document.getElementById(id), id).not.toBeNull();

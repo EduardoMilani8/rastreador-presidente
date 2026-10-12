@@ -99,7 +99,7 @@ describe('guardas da folha de estilo', () => {
     for (const bloco of blocos) expect(bloco).toMatch(/font-display:\s*swap/);
   });
 
-  it('nada é reordenado pelo CSS: a ordem na tela é a do DOM (e a do foco)', () => {
+  it('o CSS não usa order nem direções invertidas', () => {
     expect(css).not.toMatch(/\border:\s*-?\d|flex-direction:\s*\S*reverse|flex-wrap:\s*wrap-reverse/);
   });
 
@@ -109,6 +109,14 @@ describe('guardas da folha de estilo', () => {
     expect([1, 2, 3, 4, 5].map((n) => lado('ato', n))).toEqual(['11', '13', '15', '18', '21']);
     expect(css).toMatch(/\.marca-agenda\s*\{[^}]*border-radius:\s*50%[^}]*var\(--agenda\)/);
     expect(css).toMatch(/\.marca-ato\s*\{[^}]*var\(--ato\)[^}]*rotate\(45deg\)/);
+  });
+
+  it('comunicado, dia vazio e compromisso removido têm marcador, e o comunicado tem as cinco faixas', () => {
+    expect(css).toMatch(/\.marca-comunicado\b[^{]*\{/);
+    expect(css).toMatch(/\.marca-vazio\b[^{]*\{/);
+    expect(css).toMatch(/\.marca-removido\s*\{[^}]*background:\s*transparent[^}]*border:\s*2px solid var\(--agenda\)/);
+    const lado = (n: number) => css.match(new RegExp(`\\.marca-comunicado\\.tam-${n}\\s*\\{\\s*width:\\s*(\\d+)px`))?.[1];
+    expect([1, 2, 3, 4, 5].map(lado)).toEqual(['10', '12', '14', '16', '19']);
   });
 
   it('a faixa de dias rola de lado sem barra visível', () => {

@@ -43,8 +43,11 @@ fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (
   tentativas e tempo limite), `text.ts` (datas e normalização).
 - `config/mandatos.json`: qual presidente o site acompanha em cada período e o endereço da agenda dele.
 - `data/`: `eventos/AAAA-MM.json` (um por mês), `meses.json`, `noticias.json`, `status.json`. É gravado pelo robô.
-- `site/`: HTML, CSS e TypeScript sem framework. `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os
-  elementos, `app.ts` monta a página, `params.ts` lê os filtros da URL.
+- `site/`: HTML, CSS e TypeScript sem framework, em quatro páginas (`index.html` é o painel, `registros.html`,
+  `noticias.html`, `sobre.html`). `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os elementos, `comum.ts`
+  cuida dos avisos, `painel.ts`, `registros.ts` e `noticias.ts` montam cada página, `redirecionar.ts` leva os
+  endereços antigos à página certa, `params.ts` lê os filtros da URL e há uma entrada `main-*.ts` por página. As
+  fontes tipográficas ficam em `site/fontes/`.
 - `.github/workflows/`: `ci.yml` (testes) e `update.yml` (coleta agendada e publicação).
 
 ## Regras que não podem ser quebradas

@@ -8,11 +8,13 @@ export interface DiaPainel {
   agenda: number;
   atos: number;
   comunicados: number;
+  removidos: number;
   itens: Evento[];
 }
 
 const MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
-const MAX_ITENS = 3;
+export const DIAS_DO_PAINEL = 21;
+export const ITENS_DO_DETALHE = 3;
 
 // Aritmética em UTC sobre a string AAAA-MM-DD: o dia não anda com o fuso da máquina.
 function somarDias(data: string, n: number): string {
@@ -21,12 +23,13 @@ function somarDias(data: string, n: number): string {
   return d.toISOString().slice(0, 10);
 }
 
-export function diasDoPainel(eventos: Evento[], hoje: string, n = 21): DiaPainel[] {
+export function diasDoPainel(eventos: Evento[], hoje: string, n = DIAS_DO_PAINEL): DiaPainel[] {
   const porDia = new Map(agruparPorDia(eventos).map((g) => [g.data, g.itens]));
   return Array.from({ length: n }, (_, i) => {
     const data = somarDias(hoje, i - (n - 1));
     const doDia = porDia.get(data) ?? [];
     const agenda = doDia.filter((e) => e.tipo === 'agenda' && e.status !== 'removido');
+    const removidos = doDia.filter((e) => e.tipo === 'agenda' && e.status === 'removido');
     const atos = doDia.filter((e) => e.tipo === 'ato');
     const comunicados = doDia.filter((e) => e.tipo === 'comunicado');
     return {
@@ -34,7 +37,8 @@ export function diasDoPainel(eventos: Evento[], hoje: string, n = 21): DiaPainel
       agenda: agenda.length,
       atos: atos.length,
       comunicados: comunicados.length,
-      itens: [...atos, ...agenda, ...comunicados].slice(0, MAX_ITENS),
+      removidos: removidos.length,
+      itens: [...atos, ...agenda, ...comunicados, ...removidos].slice(0, ITENS_DO_DETALHE),
     };
   });
 }
@@ -55,11 +59,12 @@ function contagens(d: DiaPainel): string {
     plural(d.agenda, 'compromisso', 'compromissos'),
     plural(d.atos, 'ato', 'atos'),
     d.comunicados > 0 ? plural(d.comunicados, 'comunicado', 'comunicados') : '',
+    d.removidos > 0 ? `${plural(d.removidos, 'removido', 'removidos')} da agenda` : '',
   ].filter(Boolean).join(', ');
 }
 
-function marca(doc: Document, tipo: 'ato' | 'agenda', n: number): HTMLElement {
-  return el(doc, 'span', { class: `marca marca-${tipo} tam-${faixaDeTamanho(n)}`, 'aria-hidden': 'true' });
+function marca(doc: Document, tipo: 'ato' | 'agenda' | 'comunicado', n: number, extra = ''): HTMLElement {
+  return el(doc, 'span', { class: `marca marca-${tipo} tam-${faixaDeTamanho(n)}${extra}`, 'aria-hidden': 'true' });
 }
 
 function renderBotao(doc: Document, d: DiaPainel, comMes: boolean): HTMLElement {
@@ -69,7 +74,9 @@ function renderBotao(doc: Document, d: DiaPainel, comMes: boolean): HTMLElement 
   });
   if (d.atos > 0) botao.append(marca(doc, 'ato', d.atos));
   if (d.agenda > 0) botao.append(marca(doc, 'agenda', d.agenda));
-  if (d.atos === 0 && d.agenda === 0) {
+  else if (d.atos === 0 && d.removidos > 0) botao.append(marca(doc, 'agenda', 1, ' marca-removido'));
+  if (d.comunicados > 0) botao.append(marca(doc, 'comunicado', d.comunicados));
+  if (d.atos + d.agenda + d.comunicados + d.removidos === 0) {
     botao.append(el(doc, 'span', { class: 'marca marca-vazio', 'aria-hidden': 'true' }));
   }
   botao.append(el(doc, 'span', { class: 'dia-num', 'aria-hidden': 'true' }, d.data.slice(8)));
@@ -79,14 +86,18 @@ function renderBotao(doc: Document, d: DiaPainel, comMes: boolean): HTMLElement 
   return el(doc, 'li', {}, botao);
 }
 
-function renderDetalhe(doc: Document, d: DiaPainel): Node[] {
+function renderDetalhe(doc: Document, d: DiaPainel, incompleto: boolean): Node[] {
   const longa = formatarDataLonga(d.data);
   const titulo = el(doc, 'h3', {}, longa.charAt(0).toUpperCase() + longa.slice(1));
   if (d.itens.length === 0) {
-    return [titulo, el(doc, 'p', { class: 'vazio' }, 'Nenhum registro publicado pelas fontes neste dia.')];
+    const frase = incompleto
+      ? 'Não foi possível carregar todos os dados; este dia pode ter registros que não aparecem aqui.'
+      : 'Nenhum registro publicado pelas fontes neste dia.';
+    return [titulo, el(doc, 'p', { class: 'vazio' }, frase)];
   }
   const rotuloQuando = (e: Evento) =>
-    e.tipo === 'ato' ? 'Ato' : e.tipo === 'comunicado' ? 'Comunicado' : (e.hora ?? 'Agenda');
+    e.status === 'removido' ? 'Removido'
+      : e.tipo === 'ato' ? 'Ato' : e.tipo === 'comunicado' ? 'Comunicado' : (e.hora ?? 'Agenda');
   const lista = el(doc, 'ul', { class: 'detalhe-itens' });
   for (const e of d.itens) {
     lista.append(el(doc, 'li', {}, el(doc, 'span', { class: 'quando' }, rotuloQuando(e)), ' ', e.titulo));
@@ -119,24 +130,44 @@ function montarResumo(doc: Document, resumo: Resumo | undefined): void {
   ul.hidden = false;
 }
 
-const comArrasto = new WeakSet<HTMLElement>();
+const LIMITE_ARRASTO = 5;
 
-function arrastavel(rolagem: HTMLElement): void {
-  if (comArrasto.has(rolagem)) return; // montar de novo não empilha ouvintes
-  comArrasto.add(rolagem);
+interface Arrasto {
+  /** O botão do mouse está apertado e o movimento já passou do limite. */
+  emCurso: boolean;
+  /** O último arrasto passou do limite: o click que o encerra não é uma escolha de dia. */
+  arrastou: boolean;
+}
+
+const arrastos = new WeakMap<HTMLElement, Arrasto>();
+
+function arrastavel(rolagem: HTMLElement): Arrasto {
+  const existente = arrastos.get(rolagem);
+  if (existente) return existente; // montar de novo não empilha ouvintes
+  const estado: Arrasto = { emCurso: false, arrastou: false };
+  arrastos.set(rolagem, estado);
   let ultimoX: number | null = null;
-  rolagem.addEventListener('mousedown', (e) => { ultimoX = e.clientX; });
+  let acumulado = 0;
+  rolagem.addEventListener('mousedown', (e) => {
+    ultimoX = e.clientX;
+    acumulado = 0;
+    estado.emCurso = false;
+    estado.arrastou = false;
+  });
   rolagem.addEventListener('mousemove', (e) => {
     if (ultimoX === null) return;
+    acumulado += Math.abs(e.clientX - ultimoX);
+    if (acumulado > LIMITE_ARRASTO) { estado.emCurso = true; estado.arrastou = true; }
     rolagem.scrollLeft -= e.clientX - ultimoX;
     ultimoX = e.clientX;
   });
-  const soltar = () => { ultimoX = null; };
+  const soltar = () => { ultimoX = null; estado.emCurso = false; };
   rolagem.addEventListener('mouseup', soltar);
   rolagem.addEventListener('mouseleave', soltar);
+  return estado;
 }
 
-export function montarPainel(doc: Document, dados: Dados, hoje: string, _agora: Date): void {
+export function montarPainel(doc: Document, dados: Dados, hoje: string): void {
   montarResumo(doc, dados.resumo);
 
   const dias = diasDoPainel(dados.eventos, hoje);
@@ -144,6 +175,7 @@ export function montarPainel(doc: Document, dados: Dados, hoje: string, _agora: 
   const detalhe = doc.getElementById('detalhe-dia') as HTMLElement;
   const rolagem = doc.getElementById('linha-rolagem') as HTMLElement;
 
+  lista.setAttribute('aria-label', 'Dias, do mais antigo ao mais recente. Use as setas para mudar de dia.');
   lista.replaceChildren(...dias.map((d, i) => renderBotao(doc, d, i === 0 || d.data.endsWith('-01'))));
   const botoes = [...lista.querySelectorAll<HTMLButtonElement>('button.dia')];
 
@@ -151,19 +183,35 @@ export function montarPainel(doc: Document, dados: Dados, hoje: string, _agora: 
     if (botoes.some((b) => b.dataset.dia === data && b.getAttribute('aria-pressed') === 'true')) return;
     const dia = dias.find((d) => d.data === data);
     if (!dia) return;
-    for (const b of botoes) b.setAttribute('aria-pressed', String(b.dataset.dia === data));
-    detalhe.replaceChildren(...renderDetalhe(doc, dia));
+    for (const b of botoes) {
+      const atual = b.dataset.dia === data;
+      b.setAttribute('aria-pressed', String(atual));
+      b.setAttribute('tabindex', atual ? '0' : '-1');
+    }
+    detalhe.replaceChildren(...renderDetalhe(doc, dia, dados.incompleto));
   };
-  for (const b of botoes) {
+  const arrasto = arrastavel(rolagem);
+  const irPara = (i: number) => {
+    const alvo = botoes[Math.max(0, Math.min(botoes.length - 1, i))];
+    alvo.focus();
+    selecionar(alvo.dataset.dia as string); // o foco já seleciona; isto garante o mesmo onde o foco não dispara evento
+  };
+  botoes.forEach((b, i) => {
     const escolher = () => selecionar(b.dataset.dia as string);
-    b.addEventListener('click', escolher);
+    b.addEventListener('click', () => { if (arrasto.arrastou) { arrasto.arrastou = false; return; } escolher(); });
     b.addEventListener('focus', escolher);
-    b.addEventListener('mouseenter', escolher);
-  }
+    b.addEventListener('mouseenter', () => { if (!arrasto.emCurso) escolher(); });
+    b.addEventListener('keydown', (e) => {
+      const destino = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1
+        : e.key === 'Home' ? 0 : e.key === 'End' ? botoes.length - 1 : null;
+      if (destino === null) return;
+      e.preventDefault();
+      irPara(destino);
+    });
+  });
 
   const maisRecente = [...dias].reverse().find((d) => d.agenda + d.atos + d.comunicados > 0);
   selecionar((maisRecente ?? dias[dias.length - 1]).data);
 
   rolagem.scrollLeft = rolagem.scrollWidth;
-  arrastavel(rolagem);
 }

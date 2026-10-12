@@ -39,7 +39,7 @@ Estas quatro alteram regras do pedido original e do CLAUDE.md. Precisam de aprov
    registro mais recente.
 4. **Ids removidos**: `bloco-ultimo` e `ultimo-registro`. Os demais ids continuam, distribuídos entre as páginas.
 
-Os limites de peso também mudam: CSS até 12 kB; JS da página inicial até 110 kB; fontes até 90 kB no total (os quatro
+Os limites de peso também mudam: CSS até 14 kB; JS da página inicial até 110 kB; fontes até 90 kB no total (os quatro
 arquivos necessários somam 84 kB, medidos no npm); o desenho do mapa até 60 kB, carregado só quando a seção de
 viagens entra na tela. O peso do mapa é estimativa: só se confirma ao gerar o arquivo, na fase 2.
 
@@ -65,7 +65,7 @@ no começo das fases 2 e 3. Só `redesenho` é juntado em `main`, depois de apro
 |---|---|---|
 | Painel | `index.html` | Números do topo, linha do tempo com pontos, viagens, gastos |
 | Registros | `registros.html` | Filtros, lista por dia, próximos compromissos |
-| Notícias | `noticias.html` | Mais recente em destaque, lista, blocos por veículo |
+| Notícias | `noticias.html` | Mais recente em destaque, lista, restantes por veículo |
 | Sobre | `sobre.html` | Como funciona, status, limites |
 
 Endereços antigos continuam funcionando. `index.html` redireciona, com `location.replace` e caminho relativo:
@@ -110,7 +110,7 @@ sistema como alternativa.
 
 - **Topo**: "Última alteração nos dados há X", o título e três números (total de registros, compromissos, atos).
   Sem `data/resumo.json`, os números não aparecem.
-- **Linha do tempo**: os 21 dias mais recentes, um botão por dia. Círculo para compromissos e losango para atos,
+- **Linha do tempo**: os 21 dias mais recentes, um botão por dia. Círculo para compromissos, losango para atos e quadrado para comunicados,
   com tamanho pela quantidade; dia sem registro mostra um ponto pequeno. Passar o mouse, focar ou clicar
   seleciona o dia, e o painel abaixo mostra a data por extenso, as contagens, até três itens e o link para os
   registros daquele dia. O dia mais recente com registros começa selecionado.
@@ -124,7 +124,7 @@ sistema como alternativa.
 Os dados dos 21 dias vêm dos dois meses mais recentes, que a página já carrega hoje.
 
 Acessibilidade do painel: cada dia é um `<button>` com nome completo ("sexta-feira, 9 de outubro de 2026:
-1 compromisso, 3 atos") e `aria-pressed`; o detalhe do dia fica numa região `aria-live="polite"`; o mapa é
+1 compromisso, 3 atos") e `aria-pressed`; o detalhe do dia não é região viva (o nome de cada botão já anuncia data e contagens); a linha do tempo usa tabindex itinerante: Tab entra no dia selecionado, as setas mudam de dia e o Tab seguinte vai ao link do detalhe; o mapa é
 decorativo para leitor de tela, porque a lista ao lado traz a mesma informação em texto.
 
 ## Registros (`registros.html`)
@@ -142,8 +142,7 @@ decorativo para leitor de tela, porque a lista ao lado traz a mesma informação
 ## Notícias (`noticias.html`)
 
 - Aviso de que não são registros oficiais, no alto.
-- A notícia mais recente em destaque; as cinco seguintes em lista ao lado; abaixo, blocos por veículo com as duas
-  mais recentes de cada um, para os três veículos com mais itens.
+- A notícia mais recente em destaque; as cinco seguintes em lista ao lado; abaixo, todas as restantes agrupadas por veículo, do veículo com mais itens para o com menos. Nenhuma notícia deixa de aparecer.
 - Título, veículo, data e link, como hoje. Nenhum texto além do que `data/noticias.json` já traz.
 
 ## Sobre (`sobre.html`)

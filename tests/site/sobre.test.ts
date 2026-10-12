@@ -66,7 +66,7 @@ describe('site/sobre.html', () => {
   it('não fala mais em aba separada nem em página inicial mostrando meses', () => {
     const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
     expect(texto).not.toContain('aba separada');
-    expect(texto).not.toContain('página inicial mostra');
+    expect(texto).not.toMatch(/página inicial mostra (os )?(meses|dois meses)/);
   });
 
   it('tem a linha de descrição abaixo do título', () => {
@@ -133,6 +133,16 @@ describe('site/sobre.html', () => {
     for (const termo of ['Agenda do Presidente', 'Diário Oficial da União', 'Comunicados do Planalto', 'Consta na agenda', 'Publicado no Diário Oficial']) {
       expect(texto).toContain(termo);
     }
+  });
+
+  it('explica o painel da página inicial', () => {
+    const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
+    expect(texto).toContain('O painel da página inicial mostra os 21 dias mais recentes.');
+    expect(texto).toContain('O tamanho de cada marca indica quantos registros há no dia.');
+    expect(texto).toContain('Compromissos removidos da agenda não aumentam a marca, mas são informados no texto do dia.');
+    expect(texto).toContain('O detalhe do dia lista até três itens; a lista completa, com as fontes, está em Registros.');
+    expect(texto).toContain('Os números do alto do painel só aparecem quando o total calculado pela coleta está disponível.');
+    expect([...document.querySelectorAll('.limites li')].at(-1)!.textContent).toMatch(/^O painel da página inicial/);
   });
 
   it('conta os limites reais dos dados (I8)', () => {
