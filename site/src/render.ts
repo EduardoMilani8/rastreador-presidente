@@ -66,21 +66,22 @@ export function idAncora(ev: Evento): string {
   return `ev-${ev.id.replace(/[^a-zA-Z0-9._-]/g, '-')}`;
 }
 
-// Endereço estável de um registro: a página só do dia dele (que sempre o contém) mais a âncora.
+// Endereço estável de um registro: a página de registros só do dia dele (que sempre o contém) mais a âncora.
+// Leva o nome do arquivo para valer em qualquer página que desenhe o cartão.
 function linkPermanente(doc: Document, ev: Evento): HTMLElement {
   const q = new URLSearchParams({ de: ev.data, ate: ev.data });
   // Numa lista de links do leitor de tela todos seriam "Link permanente": o nome acessível leva o título do item
   // (e começa pelo texto visível, para quem usa comando de voz).
   return el(doc, 'a', {
-    class: 'permalink', href: `?${q.toString()}#${idAncora(ev)}`, 'aria-label': `Link permanente: ${ev.titulo}`,
+    class: 'permalink', href: `registros.html?${q.toString()}#${idAncora(ev)}`, 'aria-label': `Link permanente: ${ev.titulo}`,
   }, 'Link permanente');
 }
 
 export interface OpcoesEvento {
   nivelTitulo?: number;
-  /** `false` para cópias do mesmo item (destaques): só a linha do tempo leva o id âncora. */
+  /** `false` para cópias do mesmo item (próximos): só a linha do tempo leva o id âncora. */
   comId?: boolean;
-  /** Nos destaques não há título de dia acima do cartão: a data vai junto da hora. */
+  /** Nos próximos não há título de dia acima do cartão: a data vai junto da hora. */
   comData?: boolean;
 }
 

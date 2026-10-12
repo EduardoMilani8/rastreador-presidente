@@ -33,7 +33,7 @@ function validos<T>(schema: z.ZodType<T>, bruto: unknown): T[] {
   });
 }
 
-export async function carregarDados(f: Filtros): Promise<Dados> {
+export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean } = {}): Promise<Dados> {
   let incompleto = false;
   // Nunca lança: em falha devolve o padrão e marca `incompleto`.
   const tentar = async <T>(fn: () => Promise<T>, padrao: T): Promise<T> => {
@@ -53,7 +53,7 @@ export async function carregarDados(f: Filtros): Promise<Dados> {
     : meses.slice(0, 2); // mês atual e o anterior
   const eventos = (await Promise.all(escolhidos.map((m) =>
     tentar(async () => validos(EventoSchema, await lerJson(`data/eventos/${m}.json`)), [] as Evento[])))).flat();
-  const noticias = f.aba === 'noticias'
+  const noticias = opcoes.noticias
     ? await tentar(async () => validos(NoticiaSchema, await lerJson('data/noticias.json')), [] as Noticia[])
     : [];
   const estado = await tentar(

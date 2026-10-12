@@ -40,7 +40,7 @@ afterEach(() => vi.unstubAllGlobals());
 describe('carregarDados', () => {
   it('tudo ok: eventos dos 2 meses mais novos e incompleto=false', async () => {
     stubFetch(BASE);
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(false);
     expect(d.eventos.map((e) => e.id).sort()).toEqual(['out', 'set']);
     expect(d.noticias).toEqual([]);
@@ -48,14 +48,14 @@ describe('carregarDados', () => {
 
   it('arquivo de mês com 404: incompleto=true e o outro mês continua', async () => {
     stubFetch({ ...BASE, 'data/eventos/2026-10.json': 404 });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.eventos.map((e) => e.id)).toEqual(['set']);
   });
 
   it('arquivo de mês que não é array: incompleto=true', async () => {
     stubFetch({ ...BASE, 'data/eventos/2026-10.json': { x: 1 } });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.eventos.map((e) => e.id)).toEqual(['set']);
   });
@@ -67,21 +67,21 @@ describe('carregarDados', () => {
       if (url === 'data/eventos/2026-10.json') throw new TypeError('rede');
       return ok(url);
     });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.eventos.map((e) => e.id)).toEqual(['set']);
   });
 
   it('meses.json com 404: incompleto=true e eventos vazios', async () => {
     stubFetch({ ...BASE, 'data/meses.json': 404 });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.eventos).toEqual([]);
   });
 
   it('status.json com falha: incompleto=true e estado padrão', async () => {
     stubFetch({ ...BASE, 'data/status.json': 500 });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.estado).toEqual({ fontes: {} });
     expect(d.eventos).toHaveLength(2);
@@ -89,59 +89,63 @@ describe('carregarDados', () => {
 
   it('item inválido dentro de mês válido é descartado sem marcar incompleto', async () => {
     stubFetch({ ...BASE, 'data/eventos/2026-10.json': [ev('out', '2026-10-05'), { id: 'lixo' }] });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(false);
     expect(d.eventos.map((e) => e.id).sort()).toEqual(['out', 'set']);
   });
 
-  it('aba notícias com noticias.json 500: incompleto=true', async () => {
+  it('página de notícias com noticias.json 500: incompleto=true', async () => {
     stubFetch({ ...BASE, 'data/noticias.json': 500 });
-    const d = await carregarDados({ aba: 'noticias' });
+    const d = await carregarDados({}, { noticias: true });
     expect(d.incompleto).toBe(true);
     expect(d.noticias).toEqual([]);
   });
 
-  it('aba notícias ok carrega notícias; aba linha nunca busca noticias.json', async () => {
+  it('com a opção noticias carrega notícias; sem ela nunca busca noticias.json', async () => {
     const c1 = stubFetch(BASE);
-    const d = await carregarDados({ aba: 'noticias' });
+    const d = await carregarDados({}, { noticias: true });
     expect(d.incompleto).toBe(false);
     expect(d.noticias).toHaveLength(1);
     expect(c1).toContain('data/noticias.json');
     const c2 = stubFetch({ ...BASE, 'data/noticias.json': 500 });
-    const l = await carregarDados({ aba: 'linha' });
+    const l = await carregarDados({});
     expect(l.incompleto).toBe(false);
     expect(c2).not.toContain('data/noticias.json');
+    expect(l.noticias).toEqual([]);
+    const c3 = stubFetch(BASE);
+    expect((await carregarDados({}, { noticias: false })).noticias).toEqual([]);
+    expect(c3).not.toContain('data/noticias.json');
   });
 });
 
 describe('carregarDados: meses carregados e disponíveis (I5)', () => {
   it('sem datas: carrega os 2 meses mais novos e informa todos os disponíveis', async () => {
     stubFetch(BASE);
-    const d = await carregarDados({ aba: 'linha', tipo: 'ato' });
+    const d = await carregarDados({ tipo: 'ato' });
     expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
     expect(d.mesesDisponiveis).toEqual(['2026-10', '2026-09', '2026-08']);
   });
   it('com datas: carrega só os meses do intervalo', async () => {
     stubFetch(BASE);
-    const d = await carregarDados({ aba: 'linha', de: '2026-08-15', ate: '2026-09-10' });
+    const d = await carregarDados({ de: '2026-08-15', ate: '2026-09-10' });
     expect(d.mesesCarregados).toEqual(['2026-09', '2026-08']);
     expect(d.eventos.map((e) => e.id).sort()).toEqual(['ago', 'set']);
   });
   it('meses.json fora de ordem não muda o resultado', async () => {
     stubFetch({ ...BASE, 'data/meses.json': ['2026-08', '2026-10', '2026-09'] });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
     expect(d.mesesDisponiveis).toEqual(['2026-10', '2026-09', '2026-08']);
   });
   it('mês que falhou ao carregar continua contando como consultado (o aviso de incompleto cobre a falha)', async () => {
     stubFetch({ ...BASE, 'data/eventos/2026-09.json': 500 });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.incompleto).toBe(true);
     expect(d.mesesCarregados).toEqual(['2026-10', '2026-09']);
   });
   it('meses.json indisponível: listas vazias', async () => {
     stubFetch({ ...BASE, 'data/meses.json': 404 });
-    const d = await carregarDados({ aba: 'linha' });
+    const d = await carregarDados({});
     expect(d.mesesCarregados).toEqual([]);
     expect(d.mesesDisponiveis).toEqual([]);
   });

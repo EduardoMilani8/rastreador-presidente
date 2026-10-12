@@ -11,7 +11,7 @@ const CSP_ESPERADA =
 describe('build de produção', () => {
   it('gera as páginas com CSP exata, sem scripts/estilos inline, e copia os dados', () => {
     execSync('npm run build', { stdio: 'pipe' });
-    for (const pagina of ['dist/index.html', 'dist/sobre.html']) {
+    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/sobre.html']) {
       const html = readFileSync(pagina, 'utf8');
       const metas = [...html.matchAll(/<meta http-equiv="Content-Security-Policy" content="([^"]*)">/g)];
       expect(metas, pagina).toHaveLength(1);
@@ -22,6 +22,13 @@ describe('build de produção', () => {
       expect(html).not.toMatch(/\son[a-z]+=/i); // nenhum handler inline
     }
     expect(readFileSync('dist/sobre.html', 'utf8')).toContain('Sobre e metodologia');
+    // cada página com dados leva o próprio módulo (o de sobre.html não tem script) e nenhum caminho absoluto
+    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html']) {
+      const html = readFileSync(pagina, 'utf8');
+      expect(html, pagina).toMatch(/<script type="module"[^>]* src="\.\/assets\/[^"]+\.js">/);
+      expect(html, pagina).not.toMatch(/(src|href)="\/(?!\/)/);
+    }
+    expect(readFileSync('dist/sobre.html', 'utf8')).not.toMatch(/<script/);
     expect(existsSync('dist/data') || !existsSync('data')).toBe(true);
   }, 120_000);
 

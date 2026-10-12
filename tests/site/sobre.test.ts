@@ -37,12 +37,11 @@ describe('site/sobre.html', () => {
     expect(document.querySelector('main')!.id).toBe('conteudo');
   });
 
-  it('usa a mesma navegação e o mesmo rodapé de index.html', () => {
-    const indexDoc = new DOMParser().parseFromString(ler('site/index.html'), 'text/html');
-    const hrefs = (d: Document) => [...d.querySelectorAll('nav a')].map((a) => [a.getAttribute('href'), a.textContent]);
-    const esperado = hrefs(indexDoc).map(([h, t]) => [h === '?aba=linha' || h === '?aba=noticias' ? `./${h}` : h, t]);
-    expect(hrefs(document)).toEqual(esperado);
-    expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre e metodologia');
+  it('marca a própria página na navegação e mantém rodapé, título e idioma', () => {
+    // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
+    expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
+    expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
+    expect(document.querySelector('h1')!.textContent).toBe('Sobre e metodologia');
     expect(document.querySelector('footer.rodape')!.textContent).toContain('Projeto independente, sem vínculo com o governo.');
     expect(document.title).toContain('Sobre e metodologia');
     expect(document.documentElement.lang).toBe('pt-BR');

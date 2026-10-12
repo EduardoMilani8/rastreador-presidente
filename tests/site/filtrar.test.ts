@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { agruparPorDia, ehProximo, filtrarEventos, proximos, ultimoRegistro } from '../../site/src/filtrar';
+import { agruparPorDia, ehProximo, filtrarEventos, proximos } from '../../site/src/filtrar';
 import type { Evento } from '../../src/shared/schema';
 
 const T = '2026-10-08T12:00:00.000Z';
@@ -19,12 +19,12 @@ const LISTA = [
 
 describe('filtrarEventos', () => {
   it('sem filtros devolve tudo', () => {
-    expect(filtrarEventos(LISTA, { aba: 'linha' })).toHaveLength(5);
+    expect(filtrarEventos(LISTA, {})).toHaveLength(5);
   });
   it('filtra por tipo, status e intervalo de datas (inclusivo)', () => {
-    expect(filtrarEventos(LISTA, { aba: 'linha', tipo: 'ato' }).map((e) => e.id)).toEqual(['b']);
-    expect(filtrarEventos(LISTA, { aba: 'linha', status: 'agendado' }).map((e) => e.id)).toEqual(['d', 'e']);
-    expect(filtrarEventos(LISTA, { aba: 'linha', de: '2026-10-07', ate: '2026-10-08' }).map((e) => e.id).sort())
+    expect(filtrarEventos(LISTA, { tipo: 'ato' }).map((e) => e.id)).toEqual(['b']);
+    expect(filtrarEventos(LISTA, { status: 'agendado' }).map((e) => e.id)).toEqual(['d', 'e']);
+    expect(filtrarEventos(LISTA, { de: '2026-10-07', ate: '2026-10-08' }).map((e) => e.id).sort())
       .toEqual(['b', 'c', 'e']);
   });
 });
@@ -34,20 +34,6 @@ describe('agruparPorDia', () => {
     const g = agruparPorDia(LISTA.filter((e) => e.status !== 'agendado'));
     expect(g.map((x) => x.data)).toEqual(['2026-10-07', '2026-10-06']);
     expect(g[0].itens.map((e) => e.id)).toEqual(['b', 'c']); // sem hora vem antes
-  });
-});
-
-describe('ultimoRegistro', () => {
-  it('é o realizado/publicado mais recente até hoje (mesmo dia: o de hora maior)', () => {
-    expect(ultimoRegistro(LISTA, '2026-10-08')?.id).toBe('c'); // 07/10 09:00 vence o ato sem hora
-  });
-  it('ignora comunicados: o feed do Planalto traz avisos de pauta, que não provam que algo aconteceu', () => {
-    const lista = [ev('c', '2026-10-07', { tipo: 'comunicado', status: 'publicado' }), ev('b', '2026-10-05', { tipo: 'ato', status: 'publicado' })];
-    expect(ultimoRegistro(lista, '2026-10-08')?.id).toBe('b');
-  });
-  it('ignora itens futuros e quem só "consta na agenda"', () => {
-    expect(ultimoRegistro([ev('x', '2026-10-06')], '2026-10-08')).toBeUndefined();
-    expect(ultimoRegistro([ev('f', '2026-10-20', { status: 'realizado' })], '2026-10-08')).toBeUndefined();
   });
 });
 

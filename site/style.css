@@ -32,6 +32,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 .faixa { background: var(--topo-fundo); color: var(--topo-texto); border-bottom: 1px solid var(--linha); }
 .faixa h1 { margin: 0; padding-top: 12px; font-size: 1.15rem; line-height: 1.3; }
+.marca { display: inline-flex; align-items: center; min-height: 44px; color: var(--topo-texto); font-size: 1.15rem; font-weight: 700; line-height: 1.3; text-decoration: none; }
 .discreto { margin: 0; color: var(--suave); font-size: 0.8rem; }
 .faixa .discreto { color: var(--topo-suave); font-size: 0.75rem; }
 .abas { display: flex; flex-wrap: wrap; gap: 0 16px; margin-top: 4px; }
@@ -102,9 +103,9 @@ h2 { margin: 20px 0 8px; font-size: 0.75rem; letter-spacing: 0.08em; text-transf
 
 @media (min-width: 60rem) {
   @supports selector(:has(*)) {
-    #painel-linha:has(.destaques > section:not([hidden])) { max-width: none; display: grid; grid-template-columns: minmax(0, 1fr) 20rem; align-items: start; gap: 0 32px; }
-    #painel-linha:has(.destaques > section:not([hidden])) > .cronologia { grid-column: 1; grid-row: 1; }
-    #painel-linha:has(.destaques > section:not([hidden])) > .destaques { grid-column: 2; grid-row: 1; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; margin: 0 -6px; padding: 0 6px 16px; }
+    #painel-linha:has(.lateral > section:not([hidden])) { max-width: none; display: grid; grid-template-columns: minmax(0, 1fr) 20rem; align-items: start; gap: 0 32px; }
+    #painel-linha:has(.lateral > section:not([hidden])) > .cronologia { grid-column: 1; grid-row: 1; }
+    #painel-linha:has(.lateral > section:not([hidden])) > .lateral { grid-column: 2; grid-row: 1; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; margin: 0 -6px; padding: 0 6px 16px; }
   }
 }
 

@@ -77,7 +77,7 @@ describe('guardas da folha de estilo', () => {
     const largo = css.slice(inicio);
     expect(largo).toMatch(/@supports selector\(:has\(\*\)\)/);
     expect(css.slice(0, inicio)).not.toMatch(/grid-template-columns:\s*minmax\(0, 1fr\) 20rem/);
-    expect(largo).toMatch(/#painel-linha:has\(\.destaques > section:not\(\[hidden\]\)\)/);
+    expect(largo).toMatch(/#painel-linha:has\(\.lateral > section:not\(\[hidden\]\)\)/);
   });
 
   it('links de fonte têm 44px por padrão e só ficam compactos com mouse', () => {

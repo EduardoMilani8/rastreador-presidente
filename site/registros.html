@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registros — Rastreador do Presidente</title>
+  <meta name="description" content="Agenda oficial e atos do Presidente da República em ordem de data, com a fonte pública de cada registro.">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/main-registros.ts"></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="faixa">
+      <div class="faixa-dentro">
+        <a class="marca" href="./">Rastreador do Presidente</a>
+        <nav aria-label="Seções do site" class="abas">
+          <a href="./">Painel</a>
+          <a id="aba-linha" href="registros.html" aria-current="page">Registros</a>
+          <a id="aba-noticias" href="noticias.html">Notícias</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
+    </div>
+    <div class="avisos">
+      <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
+      <p id="aviso-fontes" class="aviso" role="status" hidden></p>
+      <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <h1>Registros</h1>
+    <p id="ultima-novidade" class="discreto"></p>
+    <div id="painel-linha">
+      <aside class="lateral">
+        <section id="bloco-proximos" aria-labelledby="t-proximos">
+          <h2 id="t-proximos">Próximos compromissos</h2>
+          <ol id="proximos" class="lista"></ol>
+        </section>
+      </aside>
+      <section class="cronologia" aria-labelledby="t-linha">
+        <h2 id="t-linha">Linha do tempo</h2>
+        <details id="caixa-filtros" class="caixa-filtros">
+          <summary>Filtrar por data, tipo ou status</summary>
+          <form id="filtros" class="filtros" method="get" action="">
+            <label>De <input type="date" name="de"></label>
+            <label>Até <input type="date" name="ate"></label>
+            <label>Tipo
+              <select name="tipo">
+                <option value="">Todos</option>
+                <option value="agenda">Agenda</option>
+                <option value="ato">Atos oficiais</option>
+                <option value="comunicado">Comunicados do Planalto</option>
+              </select>
+            </label>
+            <label>Status
+              <select name="status">
+                <option value="">Todos</option>
+                <option value="agendado">Agendado</option>
+                <option value="consta_na_agenda">Consta na agenda</option>
+                <option value="realizado">Realizado</option>
+                <option value="publicado">Publicado</option>
+                <option value="alterado">Alterado</option>
+                <option value="removido">Removido</option>
+              </select>
+            </label>
+            <button type="submit">Filtrar</button>
+            <a href="registros.html">Limpar filtros</a>
+          </form>
+        </details>
+        <p id="periodo" class="discreto"></p>
+        <div id="linha-do-tempo"></div>
+        <p id="mais-dias" class="mais" hidden></p>
+        <p id="mais-antigos" class="mais" hidden><a href="registros.html">Ver meses anteriores</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto independente, sem vínculo com o governo. Todos os dados vêm de fontes públicas, linkadas em cada item. <a href="sobre.html">Como funciona</a>. O <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">código e os dados são abertos</a>.</p>
+  </footer>
+</body>
+</html>
