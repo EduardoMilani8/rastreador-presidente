@@ -106,7 +106,9 @@ export function renderEvento(
   }
 
   corpo.append(el(doc, 'p', { class: 'evento-meta' },
-    el(doc, 'span', { class: 'tipo' }, ROTULO_TIPO[ev.tipo]),
+    // A forma repete a da linha do tempo (círculo, losango, quadrado): o tipo nunca depende só da cor.
+    el(doc, 'span', { class: 'tipo' },
+      el(doc, 'span', { class: `marca marca-${ev.tipo}`, 'aria-hidden': 'true' }), ROTULO_TIPO[ev.tipo]),
     el(doc, 'span', { class: 'status' }, icone(doc, st.icone), ` ${st.texto}`)));
   corpo.append(el(doc, `h${nivelTitulo}`, { class: 'evento-titulo' }, ev.titulo));
   if (ev.local) corpo.append(el(doc, 'p', { class: 'local' }, ev.local));

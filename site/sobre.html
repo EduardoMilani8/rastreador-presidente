@@ -13,7 +13,6 @@
     <div class="faixa">
       <div class="faixa-dentro">
         <a class="marca" href="./">Rastreador do Presidente</a>
-        <h1>Sobre</h1>
         <nav aria-label="Seções do site" class="abas">
           <a href="./">Painel</a>
           <a id="aba-linha" href="registros.html">Registros</a>
@@ -25,6 +24,7 @@
   </header>
 
   <main id="conteudo" class="prosa">
+    <h1>Sobre</h1>
     <p>Projeto independente, sem vínculo com o governo, feito só com fontes públicas.</p>
 
     <h2>Como funciona</h2>
@@ -57,7 +57,7 @@
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
     <h2>O que cada status significa</h2>
-    <ul>
+    <ul class="lista-status">
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM8 4.5V8l2.5 1.5"></path></svg><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 4.5h7M5.5 8h7M5.5 11.5h7M3 4.5h.01M3 8h.01M3 11.5h.01"></path></svg><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM5.2 8.2l2 2l3.6-4"></path></svg><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>

@@ -42,6 +42,13 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
     expect(document.querySelector('main')!.id).toBe('conteudo');
   });
 
+  it('o cabeçalho só tem a marca e a navegação: o h1 é o primeiro elemento do main', () => {
+    abrir(arquivo);
+    expect(document.querySelector('header h1')).toBeNull();
+    expect(document.querySelector('main > h1:first-child')).not.toBeNull();
+    expect([...document.querySelector('.faixa-dentro')!.children].map((e) => e.tagName)).toEqual(['A', 'NAV']);
+  });
+
   it('tem a marca e a navegação iguais às das outras páginas, com a página atual marcada', () => {
     abrir(arquivo);
     const marca = document.querySelector('header.topo > .faixa > .faixa-dentro > a.marca')!;

@@ -172,6 +172,22 @@ describe('renderEvento', () => {
     expect(li.querySelectorAll('.fontes a')).toHaveLength(1);
   });
 
+  it.each([
+    ['agenda', 'marca marca-agenda', 'Agenda'],
+    ['ato', 'marca marca-ato', 'Ato oficial'],
+    ['comunicado', 'marca marca-comunicado', 'Comunicado do Planalto'],
+  ] as const)('o rótulo do tipo %s leva a forma decorativa antes do texto, e o texto continua sendo só o rótulo', (tipo, classe, rotulo) => {
+    const rotuloTipo = renderEvento(document, { ...base, tipo, status: tipo === 'agenda' ? base.status : 'publicado' }).querySelector('.tipo')!;
+    const forma = rotuloTipo.firstElementChild!;
+    expect(rotuloTipo.firstChild).toBe(forma);
+    expect(rotuloTipo.children).toHaveLength(1);
+    expect(forma.tagName).toBe('SPAN');
+    expect(forma.className).toBe(classe);
+    expect(forma.getAttribute('aria-hidden')).toBe('true');
+    expect(forma.textContent).toBe('');
+    expect(rotuloTipo.textContent).toBe(rotulo);
+  });
+
   it('tipo e título continuam dentro da caixa, com as classes do contrato', () => {
     const li = renderEvento(document, base);
     expect(li.className).toBe('evento tipo-agenda status-consta_na_agenda com-hora');

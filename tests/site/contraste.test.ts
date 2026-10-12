@@ -7,7 +7,7 @@ const css = readFileSync(resolve(process.cwd(), 'site/style.css'), 'utf8');
 const BLOCO_CLARO = /:root\s*\{([^}]*)\}/;
 const BLOCO_ESCURO = /prefers-color-scheme:\s*dark\)\s*\{\s*:root\s*\{([^}]*)\}\s*\}/;
 const cores = (bloco: string): Record<string, string> =>
-  Object.fromEntries([...bloco.matchAll(/--([a-z-]+):\s*(#[0-9a-f]{6})\b/g)].map((m) => [m[1], m[2]]));
+  Object.fromEntries([...bloco.matchAll(/--([a-z0-9-]+):\s*(#[0-9a-f]{6})\b/g)].map((m) => [m[1], m[2]]));
 
 const claro = cores(css.match(BLOCO_CLARO)![1]);
 const escuro = cores(css.match(BLOCO_ESCURO)![1]);
@@ -24,17 +24,17 @@ function razao(a: string, b: string): number {
   return (maior + 0.05) / (menor + 0.05);
 }
 
-// [frente, fundo, mínimo]. 4,5 para texto; 3 para borda de campo e traço de foco.
+// [frente, fundo, mínimo]. 4,5 para texto; 3 para borda de campo e para marcador sobre o dia selecionado.
+const FUNDOS = ['fundo', 'cartao', 'cartao-2'];
 const PARES: [string, string, number][] = [
-  ['texto', 'fundo', 4.5],
-  ['texto', 'cartao', 4.5],
-  ['suave', 'fundo', 4.5],
-  ['suave', 'cartao', 4.5],
-  ['link', 'fundo', 4.5],
-  ['link', 'cartao', 4.5],
+  ...[...FUNDOS, 'selecionado'].map((f): [string, string, number] => ['texto', f, 4.5]),
+  ['texto-2', 'cartao', 4.5],
+  ['texto-2', 'cartao-2', 4.5],
+  ...[...FUNDOS, 'selecionado'].map((f): [string, string, number] => ['suave', f, 4.5]),
+  ...['link', 'agenda', 'ato'].flatMap((c) => FUNDOS.map((f): [string, string, number] => [c, f, 4.5])),
+  ['agenda', 'selecionado', 3],
+  ['ato', 'selecionado', 3],
   ['aviso-tx', 'aviso-bg', 4.5],
-  ['topo-texto', 'topo-fundo', 4.5],
-  ['topo-suave', 'topo-fundo', 4.5],
   ['borda-campo', 'cartao', 3],
   ['borda-campo', 'fundo', 3],
 ];
@@ -42,7 +42,7 @@ const PARES: [string, string, number][] = [
 describe('contraste das cores', () => {
   it('os dois temas definem as mesmas cores', () => {
     expect(Object.keys(escuro).sort()).toEqual(Object.keys(claro).sort());
-    expect(Object.keys(claro)).toHaveLength(12);
+    expect(Object.keys(claro)).toHaveLength(14);
   });
 
   for (const [tema, paleta] of [['claro', claro], ['escuro', escuro]] as const) {
@@ -63,10 +63,6 @@ describe('contraste das cores', () => {
 });
 
 describe('guardas da folha de estilo', () => {
-  it('o tipo do item não tem cor própria', () => {
-    expect(css).not.toMatch(/--(agenda|ato|comunicado)\b/);
-  });
-
   it('elemento com hidden continua oculto mesmo com display definido', () => {
     expect(css).toMatch(/\[hidden\]\s*\{\s*display:\s*none\s*!important;?\s*\}/);
   });
@@ -77,7 +73,8 @@ describe('guardas da folha de estilo', () => {
     const largo = css.slice(inicio);
     expect(largo).toMatch(/@supports selector\(:has\(\*\)\)/);
     expect(css.slice(0, inicio)).not.toMatch(/grid-template-columns:\s*minmax\(0, 1fr\) 20rem/);
-    expect(largo).toMatch(/#painel-linha:has\(\.lateral > section:not\(\[hidden\]\)\)/);
+    expect(largo).toMatch(/#painel-linha:has\(#bloco-proximos:not\(\[hidden\]\)\)/);
+    expect(largo).toMatch(/> \.lateral\s*\{[^}]*position:\s*sticky/);
   });
 
   it('links de fonte têm 44px por padrão e só ficam compactos com mouse', () => {
@@ -104,5 +101,18 @@ describe('guardas da folha de estilo', () => {
 
   it('nada é reordenado pelo CSS: a ordem na tela é a do DOM (e a do foco)', () => {
     expect(css).not.toMatch(/\border:\s*-?\d|flex-direction:\s*\S*reverse|flex-wrap:\s*wrap-reverse/);
+  });
+
+  it('os marcadores da linha do tempo têm as cinco faixas de tamanho, em círculo e em losango', () => {
+    const lado = (tipo: string, n: number) => css.match(new RegExp(`\\.marca-${tipo}\\.tam-${n}\\s*\\{\\s*width:\\s*(\\d+)px`))?.[1];
+    expect([1, 2, 3, 4, 5].map((n) => lado('agenda', n))).toEqual(['13', '16', '19', '22', '26']);
+    expect([1, 2, 3, 4, 5].map((n) => lado('ato', n))).toEqual(['11', '13', '15', '18', '21']);
+    expect(css).toMatch(/\.marca-agenda\s*\{[^}]*border-radius:\s*50%[^}]*var\(--agenda\)/);
+    expect(css).toMatch(/\.marca-ato\s*\{[^}]*var\(--ato\)[^}]*rotate\(45deg\)/);
+  });
+
+  it('a faixa de dias rola de lado sem barra visível', () => {
+    expect(css).toMatch(/#linha-rolagem\s*\{[^}]*overflow-x:\s*auto[^}]*scrollbar-width:\s*none/);
+    expect(css).toMatch(/#linha-rolagem::-webkit-scrollbar\s*\{\s*display:\s*none;?\s*\}/);
   });
 });
