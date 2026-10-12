@@ -48,6 +48,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:de1fee07db9f",
+    "titulo": "Em clima de vira-voto, manifestantes vão às ruas para conquistar indecisos em SP",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-11T16:31:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1VnclZzTGZrNUJIaFcwSndiM2VWeGFPc3V0bTlBNHY4NWtmdW16bUdDWGh2U2t0Sk12eEJiSzlfTlNpSlJxREJFcVo0d0hOTTBVdG1zZUZfMEs3aV9oci1UcVVPZWxtSUVIMkVoM19jYlMyWThxakJiaHN5bWpxVU1vSHJ3Qnpfc3N4MnFPSUl5UXZlWm5ocU8yM3lBV2tKTmNkaE1hV1BVaXJKNkFfUjVXb1JIM25RaXN4Rw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:786f1d11d16e",
     "titulo": "TSE atende Flávio e manda suspender canal do whatsapp Exército do Lula",
     "veiculo": "Agência Brasil",
@@ -182,6 +190,14 @@
     "data": "2026-10-09T23:09:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/estudantes-fazem-atos-pelo-pais-em-apoio-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:e5ecc40cc395",
+    "titulo": "Datafolha: 43% acham que vida seguirá igual com Lula; eleitor se divide sobre como ficará com Flávio",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-09T22:04:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcURiN1NJNEpfbkZvY1RxLTN0VUtpY2lManNEUklZTmlkYWVERzB5QXBLcW96bk00V1BFZ2JTZ203QWdYemZybUpRcGdUSkJmLUZwb3dXdjZoWDhCX2dPQ2dvaFRxcXBqZUdyUGNLeVFCckFveDlleC1NVWlfMW9sWlVMQ0JnLTZZclJadjZiRzFIaU1zYUd4SG9tWVRYV1RDRGJzRzdsSTZwTURwOEJCTFRoR0hkT01EekNsa2R5czlVRUZIZVhVcVpfQVBFQ21MUnZBcGRlNHYzU1JVaWcyQw?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "agencia-brasil:7a647264fb99",
@@ -768,11 +784,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:038be824873f",
+    "titulo": "Lula publica vídeo de pronunciamento após primeiro turno e diz que é bom no 'mata-mata': 'Os bolsonaristas se preparem'",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-05T11:10:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOSzRDZG85cUM1MnVERkJnLVRaTWI1cU1nT2VLSGNFRUJ4SnJxU2FMOHQxU0F4czZsRUp4QU8wVmVCT0NHYWRTTUpIWUFGVzFfVDZJdmQxYlRralBlTjdJNXpiTzA4aVhjaFhQWFpkaDJ3aE9kN3ByVUFjZ2NORXRwcVUwVHVFRWVNaS1maDAyT0V5UzJqRXFldlk4dS1scTZ3NlpwdVFYSHp2UzhlNlZBN0ZndlFMcWJLQnVMWWgzdEMwejQ5TlZ6ZmdRd1NlaDhOSi1aOVdGWGhST2FQT0lfU05SYjVCQzVYaXN6VW5MSmtwblNjVG0xSUNNRDVNRWpfOE9GS1V1NG9LWVhYNDBjd0VjZ3J6QdIBpAJBVV95cUxOaVZCWk55Z05xSHRSdXBKZkttR0NpVWhpSThBM0N3eDRPLU9HT045d3Z2TWoyNk0zakdiTU05UDZYbWx4a0xLODNnbGwtN1ZSSF9NcFVDb3RGUGJWblNlZWp6dUs5Z3NGV2hiSENsM0I2azN2MTlsSmdpOFZyNWl5MEdBN3Q4dHR5cDNVNnU0amM4Q280UXhnQ2NxSFR0RF9kLXdLMXVLSXBSSzFBTV9nMFB5aHdwMy1WRV8yQ1I2bGJYd0loTndJMEp4clcxNE5lLUx6czUyZ0o3aGxvb3BuSkJSSUpzRzJCQUtQRUhGLUhiRkVuTEJkanAxd1MxdTZOc25aSVVVQlc4dEozSHpEMmJidmZ4dmVwUjc4LUFySDdwc1BU?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:63ded7d0583d",
     "titulo": "'Virada surpreendente': como imprensa internacional repercutiu vitória de Flávio Bolsonaro sobre Lula no 1º turno",
     "veiculo": "BBC",
     "data": "2026-10-05T11:00:04.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tZ1pCaHV2QmNJdEljVjZIaVFwMy1LV19rX1d4VXRkYnBfU2lQU0Rkamh5NU5lcVE3VnM3X1NmLTNjT3ZNLU0yaTdOeXppVWJWWjlZY0V6b3RnNHc4SFVBRnlTUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:29cdd12924c5",
+    "titulo": "Como ficou a eleição para presidente? Veja resultados do primeiro turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-05T10:55:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWFIwaWpXY2c1b1hObXJBSWJyZTVUWGZ4Wk9CcDIxNTVfT0JUMVZpRFZmVHhwaXpmbm1MX29NbDVMbGlMQTBFUl94WWZKUHhYTHZmUVdNbUstTE5ndGRQdWh3NS1VMXlKaUE4OUlQVGoyMlZ2NVZuQUE5bVZKbzVsb21RN3BFYV85NER6YmdKYVlzT3Q0U0QxWkYwdko4Yy1qdlhOY3FoRTJnLU9rRVh1MEdrLWhDNEZESDZGYzJZVmx4eTBVZDNCMnhzVkhRXzM2M253TnRpb2xLaFnSAeoBQVVfeXFMTmRXcko5ZnphLWRwZUJxY0htRS15a0Q0clRNR0VKOXVTZVR3amVWU0lEaXdvcV9JTXpEblFiRm9yWngzM1lyWjB2N3VFQVRNMFRaOWgyOHo0Q0kzWFNYams2UzlpSUh5LTFydlRhbU1QdlZsMkJvQzVIbDNPN3d4ZjZMYldSQTZzbm91Q0RPR3c5U1dtcnJfUFY1Y0dtbmxkU09hbUlWR3ZvdHc5LVQtMGpMcEpCVUgxenhyVzE3WngtOExtWGx5RzRrV3A4RzVLekZxSmJEWE4xUllxS01fOVhUdFlrT3lxdHdn?oc=5",
     "origem": "google-news"
   },
   {
