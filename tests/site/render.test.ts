@@ -90,6 +90,14 @@ describe('renderEvento', () => {
     // o nome acessível começa pelo texto visível e diz de qual item é o link (numa lista de links, todos seriam iguais)
     expect(a.getAttribute('aria-label')).toBe('Link permanente: Reunião');
   });
+  it('na faixa de fontes a ordem do DOM é a da tela: selo, link permanente, lista de fontes', () => {
+    const duas: Evento = { ...base, fontes: [...base.fontes, fonte('comunicado-planalto', 'https://www.gov.br/c')] };
+    const faixa = renderEvento(document, duas).querySelector('.bloco-fontes')!;
+    expect([...faixa.children].map((e) => e.className)).toEqual(['selo', 'permalink', 'fontes']);
+    expect([...faixa.querySelectorAll('a')].map((a) => a.textContent)).toEqual([
+      'Link permanente', 'Agenda do dia — Planalto (governo)', 'Comunicado — Planalto (governo)',
+    ]);
+  });
   it('a cópia de destaque (sem id) aponta para a mesma âncora', () => {
     const li = renderEvento(document, base, { nivelTitulo: 3, comId: false });
     expect(li.id).toBe('');

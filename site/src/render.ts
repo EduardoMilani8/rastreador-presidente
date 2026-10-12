@@ -127,8 +127,9 @@ export function renderEvento(
     corpo.append(el(doc, 'details', {}, el(doc, 'summary', {}, `Versões anteriores (${ev.historico.length})`), versoes));
   }
   // O link permanente fica na faixa das fontes, mas fora da lista: não é fonte e não entra na contagem do selo.
+  // Vem logo depois do selo porque é assim que aparece na tela: a ordem do foco segue a ordem visual.
   const fontes = renderFontes(doc, ev.fontes);
-  fontes.append(linkPermanente(doc, ev));
+  fontes.querySelector('.selo')?.after(linkPermanente(doc, ev));
   corpo.append(fontes);
   li.append(corpo);
   return li;

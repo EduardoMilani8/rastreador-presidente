@@ -18,6 +18,8 @@ export function icone(doc: Document, nome: NomeIcone): SVGSVGElement {
   const svg = doc.createElementNS(SVG, 'svg');
   svg.setAttribute('class', 'icone');
   svg.setAttribute('viewBox', '0 0 16 16');
+  svg.setAttribute('width', '16');
+  svg.setAttribute('height', '16');
   svg.setAttribute('aria-hidden', 'true');
   svg.setAttribute('focusable', 'false');
   const path = doc.createElementNS(SVG, 'path');

@@ -8,6 +8,8 @@ describe('icone', () => {
     expect(svg.namespaceURI).toBe('http://www.w3.org/2000/svg');
     expect(svg.getAttribute('class')).toBe('icone');
     expect(svg.getAttribute('viewBox')).toBe('0 0 16 16');
+    expect(svg.getAttribute('width')).toBe('16');
+    expect(svg.getAttribute('height')).toBe('16');
     expect(svg.getAttribute('aria-hidden')).toBe('true');
     expect(svg.getAttribute('focusable')).toBe('false');
     expect(svg.hasAttribute('style')).toBe(false);

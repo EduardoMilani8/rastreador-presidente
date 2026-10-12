@@ -96,4 +96,8 @@ describe('guardas da folha de estilo', () => {
   it('não carrega nada de fora do site', () => {
     expect(css).not.toMatch(/@import|url\(|@font-face/);
   });
+
+  it('nada é reordenado pelo CSS: a ordem na tela é a do DOM (e a do foco)', () => {
+    expect(css).not.toMatch(/\border:\s*-?\d|flex-direction:\s*\S*reverse|flex-wrap:\s*wrap-reverse/);
+  });
 });

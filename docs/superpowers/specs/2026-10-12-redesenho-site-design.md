@@ -89,14 +89,17 @@ li.evento.tipo-{tipo}.status-{status}[.com-hora]
     details                       "Versões anteriores (N)"
     div.bloco-fontes              faixa no pé do cartão
       p.selo
-      ul.fontes
       a.permalink
+      ul.fontes
 ```
 
 - A hora sai de `evento-meta` e vira coluna própria à esquerda (`li.com-hora` é um grid de `3rem 1fr`). Itens sem
   hora ocupam a largura toda. O `<time>` mantém o atributo `datetime` atual.
 - O "Link permanente" sai da linha de cima e vai para a faixa de fontes. Ele fica fora de `ul.fontes`: não é fonte
   e não entra na contagem do selo. O `aria-label` com o título do item continua.
+- Na faixa de fontes a ordem do DOM é a da tela (selo, link permanente, lista de fontes), para o foco do teclado
+  seguir a ordem visual. Links de fonte, link permanente e título de notícia têm 44 px de altura mínima; quando o
+  ponteiro principal é fino (`@media (hover: hover) and (pointer: fine)`), ficam compactos, com pelo menos 24 px.
 - Títulos são exibidos como a fonte publica. Atos do Diário Oficial vêm em maiúsculas e ficam assim: conversão
   automática erraria siglas e nomes próprios.
 - Item removido da agenda continua com o título riscado, além do ícone e do texto de status.
