@@ -59,6 +59,10 @@ describe('montarRegistros', () => {
     expect(timeline.textContent).not.toContain('Compromisso d'); // agendado só na faixa de próximos
     expect(timeline.querySelectorAll('section.dia')).toHaveLength(2);
     expect(timeline.querySelector('section.dia h3')!.textContent).toContain('quarta-feira, 7 de outubro de 2026');
+    const titulo = timeline.querySelector('section.dia h3')!;
+    expect(titulo.querySelector('time .so-leitor')!.textContent).toBe('quarta-feira, 7 de outubro de 2026');
+    expect(titulo.querySelector('time .dia-n')!.textContent).toBe('07');
+    expect(titulo.querySelector(':scope > .dia-conta')!.textContent).toBe('2 registros');
   });
 
   it('mostra há quanto tempo os dados foram atualizados e avisa quando uma fonte está com falha', () => {

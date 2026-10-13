@@ -46,6 +46,21 @@ export function formatarDataCurta(data: string): string {
   return `${d}/${m}/${a}`;
 }
 
+/**
+ * Título de um dia: a data por extenso para leitor de tela e as partes que a tela mostra separadas
+ * (numeral, mês e ano, dia da semana). As partes visuais ficam fora da leitura para a data não ser dita duas vezes.
+ */
+export function tituloDoDia(doc: Document, data: string): HTMLElement {
+  const longa = formatarDataLonga(data);
+  const [semana, resto] = longa.split(', ');
+  const visual = (classe: string, texto: string) => el(doc, 'span', { class: classe, 'aria-hidden': 'true' }, texto);
+  return el(doc, 'time', { datetime: data },
+    el(doc, 'span', { class: 'so-leitor' }, longa),
+    visual('dia-n', data.slice(8)),
+    visual('dia-mes-ano', resto.replace(/^\d+ /, '')),
+    visual('dia-semana', semana));
+}
+
 export function linkOuTexto(doc: Document, url: string, texto: string): HTMLElement {
   const href = urlHttpsSegura(url);
   return href ? el(doc, 'a', { href, rel: 'noopener noreferrer', target: '_blank' }, texto) : el(doc, 'span', {}, texto);

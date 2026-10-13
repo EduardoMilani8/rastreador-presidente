@@ -1,7 +1,7 @@
 import type { Evento, Resumo } from '../../src/shared/schema';
 import type { Dados } from './dados';
 import { agruparPorDia } from './filtrar';
-import { el, formatarDataCurta, formatarDataLonga } from './render';
+import { el, formatarDataCurta, formatarDataLonga, tituloDoDia } from './render';
 
 export interface DiaPainel {
   data: string;
@@ -87,8 +87,7 @@ function renderBotao(doc: Document, d: DiaPainel, comMes: boolean): HTMLElement 
 }
 
 function renderDetalhe(doc: Document, d: DiaPainel, incompleto: boolean): Node[] {
-  const longa = formatarDataLonga(d.data);
-  const titulo = el(doc, 'h3', {}, longa.charAt(0).toUpperCase() + longa.slice(1));
+  const titulo = el(doc, 'h3', {}, tituloDoDia(doc, d.data));
   if (d.itens.length === 0) {
     const frase = incompleto
       ? 'Não foi possível carregar todos os dados; este dia pode ter registros que não aparecem aqui.'
@@ -123,9 +122,11 @@ function montarResumo(doc: Document, resumo: Resumo | undefined): void {
     ['resumo-ato', resumo.porTipo.ato, 'atos no Diário Oficial'],
   ];
   for (const [classe, valor, rotulo] of itens) {
+    const tipo = classe.replace('resumo-', '');
     ul.append(el(doc, 'li', classe ? { class: classe } : {},
       el(doc, 'strong', { class: 'numero' }, n.format(valor)),
-      el(doc, 'span', { class: 'rotulo' }, rotulo)));
+      el(doc, 'span', { class: 'rotulo' },
+        classe && el(doc, 'span', { class: `marca marca-${tipo}`, 'aria-hidden': 'true' }), rotulo)));
   }
   ul.hidden = false;
 }

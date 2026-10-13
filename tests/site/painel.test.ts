@@ -149,7 +149,8 @@ describe('montarPainel', () => {
     expect(botao('2026-10-07').getAttribute('aria-pressed')).toBe('true');
     expect(botoes().filter((b) => b.getAttribute('aria-pressed') === 'true')).toHaveLength(1);
     const detalhe = document.getElementById('detalhe-dia')!;
-    expect(detalhe.querySelector('h3')!.textContent).toBe('Quarta-feira, 7 de outubro de 2026');
+    expect(detalhe.querySelector('h3 .so-leitor')!.textContent).toBe('quarta-feira, 7 de outubro de 2026');
+    expect(detalhe.querySelector('h3 .dia-n')!.textContent).toBe('07');
     expect(detalhe.querySelector('.detalhe-resumo')!.textContent).toBe('1 compromisso, 3 atos');
     const itens = [...detalhe.querySelectorAll('.detalhe-itens li')];
     expect(itens).toHaveLength(3);
@@ -170,7 +171,7 @@ describe('montarPainel', () => {
     expect(botao('2026-10-05').getAttribute('aria-pressed')).toBe('true');
     expect(botao('2026-10-07').getAttribute('aria-pressed')).toBe('false');
     const detalhe = document.getElementById('detalhe-dia')!;
-    expect(detalhe.querySelector('h3')!.textContent).toBe('Segunda-feira, 5 de outubro de 2026');
+    expect(detalhe.querySelector('h3 .so-leitor')!.textContent).toBe('segunda-feira, 5 de outubro de 2026');
     expect(detalhe.querySelector('.detalhe-resumo')!.textContent).toBe('1 compromisso, 0 atos');
     expect(detalhe.querySelector('a')!.getAttribute('href')).toBe('registros.html?de=2026-10-05&ate=2026-10-05');
     expect(detalhe.querySelectorAll('.detalhe-itens li')).toHaveLength(1);
@@ -229,6 +230,9 @@ describe('montarPainel', () => {
     ]);
     expect(itens[1].classList.contains('resumo-agenda')).toBe(true);
     expect(itens[2].classList.contains('resumo-ato')).toBe(true);
+    expect(itens[0].querySelector('.marca')).toBeNull();
+    expect(itens[1].querySelector('.rotulo > .marca.marca-agenda')!.getAttribute('aria-hidden')).toBe('true');
+    expect(itens[2].querySelector('.rotulo > .marca.marca-ato')!.getAttribute('aria-hidden')).toBe('true');
   });
 
   it('sem resumo o bloco continua escondido e vazio', () => {
@@ -253,7 +257,7 @@ describe('montarPainel', () => {
     botao('2026-10-05').dispatchEvent(new Event('mouseenter'));
     const outro = detalhe.querySelector('h3')!;
     expect(outro).not.toBe(h3);
-    expect(outro.textContent).toBe('Segunda-feira, 5 de outubro de 2026');
+    expect(outro.querySelector('.so-leitor')!.textContent).toBe('segunda-feira, 5 de outubro de 2026');
   });
 
   it('montar de novo não duplica nada', () => {
@@ -414,7 +418,9 @@ describe('montarPainel', () => {
     it('a legenda tem três entradas', () => {
       expect(document.querySelectorAll('.legenda-linha li')).toHaveLength(3);
       const ultima = document.querySelector('.legenda-linha li:last-child')!;
-      expect(ultima.textContent!.trim()).toBe('Comunicado do Planalto');
+      expect(ultima.textContent!.trim()).toBe('Comunicado');
+      expect([...document.querySelectorAll('.legenda-linha li')].map((li) => li.textContent!.trim())).toEqual(['Agenda', 'Ato', 'Comunicado']);
+      expect(document.querySelector('.bloco-linha .discreto')).toBeNull();
       expect(ultima.querySelector('.marca.marca-comunicado')).not.toBeNull();
     });
   });

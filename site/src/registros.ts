@@ -2,7 +2,7 @@ import { montarComum } from './comum';
 import type { Dados } from './dados';
 import { agruparPorDia, ehProximo, filtrarEventos, proximos } from './filtrar';
 import type { Filtros } from './params';
-import { el, formatarDataCurta, formatarDataLonga, renderEvento } from './render';
+import { el, formatarDataCurta, renderEvento, tituloDoDia } from './render';
 
 // Uma busca a partir de 2023 traz mais de 8 mil itens: desenhar tudo de uma vez trava o celular.
 const DIAS_POR_LOTE = 60;
@@ -68,7 +68,8 @@ export function montarRegistros(doc: Document, dados: Dados, f: Filtros, hoje: s
   const mostrarLote = (): HTMLElement | undefined => {
     const lote = grupos.slice(mostrados, mostrados + DIAS_POR_LOTE).map((g) =>
       el(doc, 'section', { class: 'dia' },
-        el(doc, 'h3', {}, el(doc, 'time', { datetime: g.data }, formatarDataLonga(g.data))),
+        el(doc, 'h3', {}, tituloDoDia(doc, g.data),
+          el(doc, 'span', { class: 'dia-conta' }, contar(g.itens.length, 'registro', 'registros'))),
         el(doc, 'ol', { class: 'lista' }, ...g.itens.map((e) => renderEvento(doc, e)))));
     destino.append(...lote);
     mostrados += lote.length;

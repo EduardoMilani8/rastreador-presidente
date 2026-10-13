@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { describe, expect, it } from 'vitest';
-import { ROTULO_COMUNICADO, ROTULO_STATUS, formatarDataCurta, formatarDataLonga, renderEvento, renderFontes, renderNoticia } from '../../site/src/render';
+import { ROTULO_COMUNICADO, ROTULO_STATUS, formatarDataCurta, formatarDataLonga, renderEvento, renderFontes, renderNoticia, tituloDoDia } from '../../site/src/render';
 import { ICONES } from '../../site/src/icones';
 import type { Evento, Noticia } from '../../src/shared/schema';
 
@@ -210,5 +210,24 @@ describe('renderNoticia', () => {
   });
   it('URL insegura vira texto puro', () => {
     expect(renderNoticia(document, { ...n, url: 'javascript:alert(1)' }).querySelector('a')).toBeNull();
+  });
+});
+
+describe('tituloDoDia', () => {
+  it('traz a data por extenso para leitor de tela e as partes visuais fora da leitura', () => {
+    const t = tituloDoDia(document, '2026-10-07');
+    expect(t.tagName).toBe('TIME');
+    expect(t.getAttribute('datetime')).toBe('2026-10-07');
+    expect([...t.children].map((c) => [c.className, c.textContent, c.getAttribute('aria-hidden')])).toEqual([
+      ['so-leitor', 'quarta-feira, 7 de outubro de 2026', null],
+      ['dia-n', '07', 'true'],
+      ['dia-mes-ano', 'de outubro de 2026', 'true'],
+      ['dia-semana', 'quarta-feira', 'true'],
+    ]);
+  });
+
+  it('não muda de dia com o fuso da máquina: primeiro e último dia do ano', () => {
+    expect(tituloDoDia(document, '2026-01-01').querySelector('.dia-mes-ano')!.textContent).toBe('de janeiro de 2026');
+    expect(tituloDoDia(document, '2026-12-31').querySelector('.dia-n')!.textContent).toBe('31');
   });
 });
