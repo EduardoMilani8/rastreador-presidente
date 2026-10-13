@@ -1,7 +1,7 @@
-@font-face { font-family: 'Bricolage Grotesque'; font-style: normal; font-weight: 700; font-display: swap; src: url('./fontes/bricolage-grotesque-700.woff2') format('woff2'); }
-@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url('./fontes/ibm-plex-sans-400.woff2') format('woff2'); }
-@font-face { font-family: 'IBM Plex Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url('./fontes/ibm-plex-sans-600.woff2') format('woff2'); }
-@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('./fontes/ibm-plex-mono-500.woff2') format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 400; font-display: swap; src: url('./fontes/newsreader-400.woff2') format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: normal; font-weight: 500; font-display: swap; src: url('./fontes/newsreader-500.woff2') format('woff2'); }
+@font-face { font-family: 'Newsreader'; font-style: italic; font-weight: 400; font-display: swap; src: url('./fontes/newsreader-400-italico.woff2') format('woff2'); }
+@font-face { font-family: 'Public Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url('./fontes/public-sans-600.woff2') format('woff2'); }
 :root {
   --fundo: #f4f3ef; --cartao: #ffffff; --cartao-2: #eceae4; --selecionado: #e0ddd4; --linha: #d6d3cb;
   --borda-campo: #6f6d66; --texto: #1a1a18; --texto-2: #33322f; --suave: #55534d; --link: #1d5a96;
@@ -18,11 +18,11 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html {
-  --titulo: 'Bricolage Grotesque', system-ui, sans-serif;
-  --mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+  --titulo: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --mono: 'Public Sans', system-ui, sans-serif;
   color-scheme: light dark;
 }
-body { margin: 0; background: var(--fundo); color: var(--texto); font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; }
 a { color: var(--link); text-underline-offset: 2px; }
 :focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .pular { position: absolute; left: -999px; }

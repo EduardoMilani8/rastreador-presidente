@@ -32,7 +32,7 @@ describe('build de produção', () => {
     expect(existsSync('dist/data') || !existsSync('data')).toBe(true);
   }, 120_000);
 
-  it('publica quatro fontes .woff2 (até 90 kB) e o CSS só aponta para elas, em caminho relativo', () => {
+  it('publica as fontes .woff2 (até 90 kB) e o CSS só aponta para elas, em caminho relativo', () => {
     execSync('npm run build', { stdio: 'pipe' });
     const fontes = readdirSync('dist/assets').filter((f) => f.endsWith('.woff2'));
     expect(fontes).toHaveLength(4);
