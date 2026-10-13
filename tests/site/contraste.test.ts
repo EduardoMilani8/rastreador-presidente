@@ -112,6 +112,9 @@ describe('guardas da folha de estilo', () => {
     const regras = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter((m) => m[2].includes('var(--rotulo)'));
     expect(regras.length).toBeGreaterThan(0);
     for (const m of regras) expect(m[2], m[1].trim()).toMatch(/font-weight:\s*600/);
+    const herdam = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter((m) => /font:\s*inherit/.test(m[2]) && /font-weight:\s*(?!600)\d+/.test(m[2]));
+    expect(herdam.length).toBeGreaterThan(0);
+    for (const m of herdam) expect(m[2], m[1].trim()).toMatch(/font-family:\s*var\(--sans\)/);
   });
 
   it('não carrega nada de fora do site', () => {
@@ -156,5 +159,15 @@ describe('guardas da folha de estilo', () => {
     expect(regra).toMatch(/stroke-opacity:\s*0?\.5/);
     expect(regra).toMatch(/fill:\s*none/);
     expect(regra).not.toMatch(/#[0-9a-f]{3,8}\b|rgba?\(|hsla?\(/i);
+  });
+
+  it('sem JavaScript a faixa de data não desenha fios soltos', () => {
+    expect(css).toMatch(/\.datado:has\(> #hoje:empty\)\s*\{[^}]*border-color:\s*transparent/);
+  });
+
+  it('a regra .so-leitor existe: sem ela o título da capa e as datas apareceriam duas vezes', () => {
+    const regra = css.match(/\.so-leitor\s*\{([^}]*)\}/)![1];
+    expect(regra).toMatch(/position:\s*absolute/);
+    expect(regra).toMatch(/clip-path:\s*inset\(50%\)/);
   });
 });

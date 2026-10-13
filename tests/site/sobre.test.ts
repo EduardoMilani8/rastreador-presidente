@@ -140,7 +140,7 @@ describe('site/sobre.html', () => {
     }
   });
 
-  it('explica o painel da página inicial', () => {
+  it('explica a capa', () => {
     const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
     expect(texto).toContain('A capa mostra os 21 dias mais recentes.');
     expect(texto).toContain('O tamanho de cada marca indica quantos registros há no dia.');

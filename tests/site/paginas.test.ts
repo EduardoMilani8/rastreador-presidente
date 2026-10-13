@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { describe, expect, it } from 'vitest';
-import { montarComum } from '../../site/src/comum';
+import { montarComum, montarHoje } from '../../site/src/comum';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const ler = (arq: string) => readFileSync(resolve(process.cwd(), 'site', arq), 'utf8');
@@ -183,5 +183,20 @@ describe('montarComum no painel', () => {
     for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
       expect(document.getElementById(id)!.hidden, id).toBe(true);
     }
+  });
+});
+
+describe('montarHoje', () => {
+  const AGORA = new Date('2026-10-08T15:00:00Z');
+
+  it('preenche a data de hoje sem depender dos dados', () => {
+    abrir('index.html');
+    montarHoje(document, AGORA);
+    expect(document.getElementById('hoje')!.textContent).toBe('quinta-feira, 8 de outubro de 2026');
+  });
+
+  it('não lança numa página sem a faixa de data', () => {
+    abrir('sobre.html');
+    expect(() => montarHoje(document, AGORA)).not.toThrow();
   });
 });

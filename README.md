@@ -9,7 +9,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 
 ## O que você encontra no site
 
-- **Registros** (e, na página inicial, um painel com os últimos dias) com os compromissos da agenda oficial e os
+- **Registros** (e, na página inicial, a Capa com os últimos dias) com os compromissos da agenda oficial e os
   atos publicados no Diário Oficial (decretos, leis e medidas provisórias), do mais recente para o mais antigo,
   desde 01/01/2023.
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.

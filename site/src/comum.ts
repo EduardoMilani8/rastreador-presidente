@@ -46,13 +46,18 @@ function textoAviso(estado: EstadoFontes): string | null {
   return falhas.length ? `Atenção: sem atualizar agora — ${falhas.join(', ')}. Os dados já exibidos continuam valendo.` : null;
 }
 
+/** A data de hoje não depende dos dados: as páginas a preenchem antes de carregá-los. */
+export function montarHoje(doc: Document, agora: Date): void {
+  // A página Sobre não tem a faixa de data nem chama montarComum: lá este elemento não existe.
+  const hoje = doc.getElementById('hoje');
+  if (hoje) hoje.textContent = formatarDataLonga(dataSaoPaulo(agora));
+}
+
 /** O que toda página com dados mostra: há quanto tempo os dados mudaram e os três avisos do cabeçalho. */
 export function montarComum(doc: Document, dados: Pick<Dados, 'estado' | 'incompleto'>, agora: Date): void {
   const $ = (id: string) => doc.getElementById(id) as HTMLElement;
 
-  // Sobre não tem a faixa de data: lá este elemento não existe.
-  const hoje = doc.getElementById('hoje');
-  if (hoje) hoje.textContent = formatarDataLonga(dataSaoPaulo(agora));
+  montarHoje(doc, agora);
 
   const quando = dados.estado.ultimaNovidadeEm ? haQuanto(dados.estado.ultimaNovidadeEm, agora) : null;
   $('ultima-novidade').textContent = quando ? `Última alteração nos dados ${quando}` : '';

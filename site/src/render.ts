@@ -52,12 +52,14 @@ export function formatarDataCurta(data: string): string {
  */
 export function tituloDoDia(doc: Document, data: string): HTMLElement {
   const longa = formatarDataLonga(data);
-  const [semana, resto] = longa.split(', ');
+  const instante = new Date(`${data}T12:00:00Z`);
+  const semana = new Intl.DateTimeFormat('pt-BR', { timeZone: 'UTC', weekday: 'long' }).format(instante);
+  const mesAno = new Intl.DateTimeFormat('pt-BR', { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(instante);
   const visual = (classe: string, texto: string) => el(doc, 'span', { class: classe, 'aria-hidden': 'true' }, texto);
   return el(doc, 'time', { datetime: data },
     el(doc, 'span', { class: 'so-leitor' }, longa),
     visual('dia-n', data.slice(8)),
-    visual('dia-mes-ano', resto.replace(/^\d+ /, '')),
+    visual('dia-mes-ano', `de ${mesAno}`),
     visual('dia-semana', semana));
 }
 

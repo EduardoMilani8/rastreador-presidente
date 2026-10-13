@@ -68,7 +68,7 @@ export function montarRegistros(doc: Document, dados: Dados, f: Filtros, hoje: s
   const mostrarLote = (): HTMLElement | undefined => {
     const lote = grupos.slice(mostrados, mostrados + DIAS_POR_LOTE).map((g) =>
       el(doc, 'section', { class: 'dia' },
-        el(doc, 'h3', {}, tituloDoDia(doc, g.data),
+        el(doc, 'h3', {}, tituloDoDia(doc, g.data), ' ',
           el(doc, 'span', { class: 'dia-conta' }, contar(g.itens.length, 'registro', 'registros'))),
         el(doc, 'ol', { class: 'lista' }, ...g.itens.map((e) => renderEvento(doc, e)))));
     destino.append(...lote);
