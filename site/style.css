@@ -22,7 +22,7 @@ html {
   --mono: 'Public Sans', system-ui, sans-serif;
   color-scheme: light dark;
 }
-body { margin: 0; background: var(--fundo); color: var(--texto); font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; }
 a { color: var(--link); text-underline-offset: 2px; }
 :focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .pular { position: absolute; left: -999px; }

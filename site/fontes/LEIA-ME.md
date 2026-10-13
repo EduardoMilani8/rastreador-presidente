@@ -10,4 +10,4 @@ Arquivos .woff2 servidos pelo próprio site (sem requisição a terceiros). Todo
 | `newsreader-400-italico.woff2` | `@fontsource/newsreader` | 5.3.0 | latino | 400 itálico | OFL-1.1 (`OFL-newsreader.txt`) |
 | `public-sans-600.woff2` | `@fontsource/public-sans` | 5.3.0 | latino | 600 normal | OFL-1.1 (`OFL-public-sans.txt`) |
 
-O peso 400 da Public Sans não é hospedado (o limite de 90 kB não comporta); esse peso vem da fonte sem serifa do sistema.
+A Public Sans é hospedada só no peso 600, por causa do limite de 90 kB. Com uma única face, o navegador a usaria para todos os pesos; por isso a folha de estilo aplica 'Public Sans' apenas ao texto em peso 600 (rótulos, navegação), e o texto sem serifa de peso normal usa a fonte do sistema.
