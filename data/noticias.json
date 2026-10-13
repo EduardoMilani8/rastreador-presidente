@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:6a5127180876",
+    "titulo": "Na TV, Lula associa Flávio Bolsonaro a milícias do Rio",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-13T18:39:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONk9tdURkb1ZzY212QUFUQUdpMEtzUEJfYXFLZDRSeVlxX1FrbTAtRFhhT1dNTzBnY2E2RlpEc2xQNWJSUTFXU2NpNmZHWWFkMENqUXBJdjM5QVRqQjVMSXhGN3lPenRCZHlHVGdJTWxIcm9TNVBDbmR5c2NtUElhS2JZeVZOTzVUT19zX1lqTXY2dTFRNjJ3R2dHQ3N2c0JpT05LSkY2OTVsMnRvY0JubnBQYmxQQUtRMnRkcldtWTfSAc8BQVVfeXFMTnpaYVZsSG01Ukg3WHgxa3JQMFpXSDhZd3dDY2RZYWUwQkhtR0F4X2FreWtlbGVIdG9tcDV2MDNfUTFMR3pCbE82eXZpU21kWnNjcEM4eno0al9RN0J0VE84eGZEamY4NVlTaDR0VWhETzVJZ05tOU5yanYtc1lSTUZPSnJvdWpmLWYwaDNPOUptTUtiWkhDZ19mV202WTNJNTRKQl8zN2VjdTJfeHpfam9wS2UyaS16ZWxEbXNIc0hxT1IxY3I5UkV1Xzg1Skk4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:22004fd7d354",
     "titulo": "MDB Norte e Nordeste declara apoio a Lula no segundo turno",
     "veiculo": "Agência Brasil",
@@ -14,6 +22,14 @@
     "data": "2026-10-13T17:59:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-registra-canal-exercito-do-lula-na-justica-eleitoral",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f733917ec4d7",
+    "titulo": "A 12 dias da eleição, Lula anuncia pacote para MEIs que inclui projeto para perdão de R$ 12 bi em dívidas",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-13T17:44:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNamJseExySEFGMERmUkRwRlJESnF0ZzhQbjE4RDV6V3RNLVdRb3NkMmFfd3ZraUZ2REFiYnRXNlVxeVlrZHNoR2dIQno3MUNxVS05S3c1RXpFNEQwUmhpUkhvSDd1WFZwbHFxdEhPVEQteEl6ZTlDQlFMUjhqRmU4V0Fpci00bExNakdKYk5FRTd1VHBsMjJ3UVg0Mk51MUoxTEpwTEgwNVdLdzFPcWtKT0g5OGdBRWFvY2RHZWNFVF9rdmJOYld5Vk9hNGwtU1ZHUHMxN05oUnY3c0JsblY1dDJn0gHwAUFVX3lxTFBKdzlZY080dFY2VnNmVmJfaGpUZ09ieGtndVhma3hES3g2Nm5SRjNMaER2SWVZNWdfQTFpbzktdDBDU3BXMWtNSkwyLXpYOEFBcVJfek94T3o0Uk5xaGdiY0dYaHBGaFZELUdsT1VFdWVRUDdZdy1EZHN3X0k2Y1plTmlyYnppRE5LdjRlbXFYbDc4dEpDTzl1V00yZDRld3BlUW4zRzJHQWJWRlUtcXBFcXZYYXNpdVFEVWdjbGNNWnFqdmdwbHQ1UHJZbTZLTnNjemI4TzZEcDBYZ0FkQXJvSndTMzlENnM1VnVSNzcxRw?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:461d14d50b31",
