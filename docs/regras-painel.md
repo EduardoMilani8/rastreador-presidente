@@ -27,9 +27,8 @@ correspondente precisa mudar junto.
 - Compromisso removido da agenda não entra na contagem das viagens.
 - Escala técnica não é viagem: cidade em que a agenda só registra chegada ou partida em aeroporto ou base aérea fica
   fora do mapa. Em cidade que tem algum compromisso fora do aeroporto, a chegada e a partida também são contadas.
-- "Compromissos" é a quantidade de itens da agenda naquela cidade. "Dias" é a quantidade de datas diferentes em que há
-  pelo menos um item. O período vai do primeiro ao último dia com registro, e pode juntar várias visitas à mesma
-  cidade.
+- O número ao lado de cada cidade é a quantidade de itens da agenda naquela cidade. Os anos vão do primeiro ao último
+  registro, e podem juntar várias visitas à mesma cidade.
 - A posição no mapa é a da cidade, não a do endereço do compromisso.
 - Dias inteiros no exterior em que a agenda não publica o local, ou só publica locais genéricos, não aparecem.
 - Só aparecem viagens que constam na agenda oficial publicada. Viagem sem agenda publicada não aparece.

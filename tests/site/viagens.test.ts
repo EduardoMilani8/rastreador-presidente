@@ -59,7 +59,7 @@ describe('faixaDeCidade e limite da lista', () => {
   it.each([[1, 1], [2, 1], [3, 2], [7, 2], [8, 3], [15, 3], [16, 4], [30, 4], [31, 5], [500, 5]])(
     '%s compromissos: faixa %s', (n, faixa) => expect(faixaDeCidade(n)).toBe(faixa));
 
-  it('dez cidades à vista', () => expect(CIDADES_A_VISTA).toBe(10));
+  it('nove cidades à vista', () => expect(CIDADES_A_VISTA).toBe(9));
 });
 
 describe('contorno gerado', () => {
@@ -126,36 +126,52 @@ describe('montarViagens: lista', () => {
     expect(document.querySelector('#lista-viagens details')).toBeNull();
   });
 
-  it('14 cidades: 10 à vista e "Outras 4 cidades" dentro de <details>, sem reordenar', async () => {
+  it('14 cidades: 9 à vista e "Outras 5 cidades" dentro de <details>, sem reordenar', async () => {
     const dados = lista(14);
     await montarViagens(document, dados, SEM_CONTORNO);
-    const vista = document.querySelectorAll('#lista-viagens > ol.cidades > li');
-    expect(vista).toHaveLength(10);
+    expect(document.querySelectorAll('#lista-viagens > ol.cidades > li')).toHaveLength(9);
     const mais = document.querySelector('#lista-viagens details.cidades-mais')!;
-    expect(mais.querySelector('summary')!.textContent).toBe('Outras 4 cidades');
-    expect(mais.querySelectorAll('ol.cidades > li')).toHaveLength(4);
+    expect(mais.querySelector('summary')!.textContent).toBe('Outras 5 cidades');
+    expect(mais.querySelectorAll('ol.cidades > li')).toHaveLength(5);
     expect(itens().map((li) => li.dataset.cidade)).toEqual(dados.map((v) => v.id));
   });
 
-  it('cada item tem nome, país, período e contagem', async () => {
-    await montarViagens(document, [viagem(1, { compromissos: 1, dias: 1, primeiroDia: '2024-03-05', ultimoDia: '2024-03-05' }), viagem(2)], SEM_CONTORNO);
+  it('cada item tem nome, pontilhado, contagem, país e anos', async () => {
+    await montarViagens(document, [viagem(1, { compromissos: 1 }), viagem(2)], SEM_CONTORNO);
     const [a, b] = itens();
-    expect(a.querySelector('strong.cidade')!.textContent).toBe('Cidade 1');
-    expect(a.querySelector('span.pais')!.textContent).toBe('País 1');
-    expect(a.querySelector('span.periodo')!.textContent).toBe('05/03/2024');
-    expect(a.querySelector('span.contagem')!.textContent).toBe('1 compromisso');
-    expect(b.querySelector('span.contagem')!.textContent).toBe('98 compromissos');
+    expect([...a.children].map((c) => `${c.tagName}.${c.className}`)).toEqual(
+      ['STRONG.cidade', 'SPAN.fio', 'SPAN.contagem', 'SPAN.pais', 'SPAN.periodo']);
+    expect(a.querySelector('.cidade')!.textContent).toBe('Cidade 1');
+    expect(a.querySelector('.fio')!.getAttribute('aria-hidden')).toBe('true');
+    expect(a.querySelector('.contagem')!.textContent).toBe('1 compromisso');
+    expect(a.querySelector('.contagem .so-leitor')!.textContent).toBe(' compromisso');
+    expect(b.querySelector('.contagem')!.textContent).toBe('98 compromissos');
+    expect(a.querySelector('.pais')!.textContent).toBe('País 1');
   });
 
   it.each([
-    ['um dia só', { dias: 1, primeiroDia: '2024-03-05', ultimoDia: '2024-03-05' }, '05/03/2024'],
-    ['dias corridos no mesmo ano', { dias: 4, primeiroDia: '2024-03-05', ultimoDia: '2024-03-08' }, '05/03 a 08/03/2024'],
-    ['dias corridos na virada do ano', { dias: 4, primeiroDia: '2023-12-30', ultimoDia: '2024-01-02' }, '30/12/2023 a 02/01/2024'],
-    ['dias espalhados no mesmo ano', { dias: 3, primeiroDia: '2024-03-05', ultimoDia: '2024-09-20' }, '3 dias em 2024'],
-    ['dias espalhados em anos diferentes', { dias: 5, primeiroDia: '2023-03-05', ultimoDia: '2025-09-20' }, '5 dias entre 2023 e 2025'],
-  ] as [string, Partial<Viagem>, string][])('período: %s', async (_nome, extra, esperado) => {
-    await montarViagens(document, [viagem(1, { compromissos: 20, ...extra })], SEM_CONTORNO);
+    ['um ano só', { primeiroDia: '2024-03-05', ultimoDia: '2024-09-20' }, '2024'],
+    ['um dia só', { primeiroDia: '2024-03-05', ultimoDia: '2024-03-05' }, '2024'],
+    ['anos diferentes', { primeiroDia: '2023-12-30', ultimoDia: '2026-01-02' }, '2023 a 2026'],
+  ] as [string, Partial<Viagem>, string][])('anos: %s', async (_nome, extra, esperado) => {
+    await montarViagens(document, [viagem(1, extra)], SEM_CONTORNO);
     expect(itens()[0].querySelector('.periodo')!.textContent).toBe(esperado);
+  });
+
+  it.each([
+    [[viagem(1)], '1 cidade em 1 país'],
+    [[viagem(1), viagem(2, { pais: 'País 1' })], '2 cidades em 1 país'],
+    [lista(3), '3 cidades em 3 países'],
+  ] as [Viagem[], string][])('resumo: %#', async (dados, esperado) => {
+    await montarViagens(document, dados, SEM_CONTORNO);
+    expect(document.getElementById('resumo-viagens')!.textContent).toBe(esperado);
+  });
+
+  it('a nota diz o que os números são e leva à explicação', () => {
+    const nota = document.querySelector('.viagens-nota')!;
+    expect(nota.textContent!.replace(/\s+/g, ' ').trim()).toBe(
+      'com compromissos na agenda oficial desde 2023. Cada número é o mínimo confirmado. Como reconhecemos as cidades.');
+    expect(nota.querySelector('a')!.getAttribute('href')).toBe('sobre.html#viagens');
   });
 
   it('nome hostil vira texto na lista, no <title> e no rótulo, sem criar elementos', async () => {
@@ -198,6 +214,7 @@ describe('montarViagens: mapa', () => {
     expect(d).toMatch(/^M[\d. -]+Q[\d. -]+$/);
     const b = projetar(-15.79, -47.88);
     expect(Number(d.slice(1).split(' ')[0])).toBeCloseTo(b.x, 0);
+    expect(rota('cidade-1-xx').getAttribute('pathLength')).toBe('1');
   });
 
   it('desenha do menor para o maior número de compromissos', async () => {

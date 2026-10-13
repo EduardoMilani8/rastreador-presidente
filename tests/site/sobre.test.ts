@@ -274,7 +274,7 @@ describe('site/sobre.html', () => {
     });
 
     it('as faixas de tamanho e o limite da lista seguem o que o código faz', () => {
-      expect(CIDADES_A_VISTA).toBe(10);
+      expect(CIDADES_A_VISTA).toBe(9);
       const fronteiras = [1, 2, 3, 7, 8, 15, 16, 30, 31].map(faixaDeCidade);
       expect(fronteiras).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5]);
     });

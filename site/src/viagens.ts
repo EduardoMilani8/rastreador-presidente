@@ -1,7 +1,7 @@
 import type { Viagem } from '../../src/shared/schema';
-import { el, formatarDataCurta } from './render';
+import { el } from './render';
 
-export const CIDADES_A_VISTA = 10;
+export const CIDADES_A_VISTA = 9;
 const ROTULOS_DE_CIDADE = 5;
 
 const LARGURA = 720;
@@ -31,30 +31,23 @@ export function faixaDeCidade(compromissos: number): 1 | 2 | 3 | 4 | 5 {
   return 5;
 }
 
-const MS_POR_DIA = 86_400_000;
-const diasCorridos = (de: string, ate: string) =>
-  Math.round((Date.parse(`${ate}T00:00:00Z`) - Date.parse(`${de}T00:00:00Z`)) / MS_POR_DIA) + 1;
-
-function periodo(v: Viagem): string {
-  if (v.primeiroDia === v.ultimoDia) return formatarDataCurta(v.primeiroDia);
-  const anoA = v.primeiroDia.slice(0, 4);
-  const anoB = v.ultimoDia.slice(0, 4);
-  if (v.dias === diasCorridos(v.primeiroDia, v.ultimoDia)) {
-    return anoA === anoB
-      ? `${formatarDataCurta(v.primeiroDia).slice(0, 5)} a ${formatarDataCurta(v.ultimoDia)}`
-      : `${formatarDataCurta(v.primeiroDia)} a ${formatarDataCurta(v.ultimoDia)}`;
-  }
-  return anoA === anoB ? `${v.dias} dias em ${anoA}` : `${v.dias} dias entre ${anoA} e ${anoB}`;
+function anos(v: Viagem): string {
+  const de = v.primeiroDia.slice(0, 4);
+  const ate = v.ultimoDia.slice(0, 4);
+  return de === ate ? de : `${de} a ${ate}`;
 }
 
-const contagem = (n: number) => (n === 1 ? '1 compromisso' : `${n} compromissos`);
+const plural = (n: number, um: string, varios: string) => `${n} ${n === 1 ? um : varios}`;
 
 function renderCidade(doc: Document, v: Viagem): HTMLElement {
   return el(doc, 'li', { 'data-cidade': v.id },
     el(doc, 'strong', { class: 'cidade' }, v.cidade),
+    el(doc, 'span', { class: 'fio', 'aria-hidden': 'true' }),
+    // Na tela o número fica sozinho, à direita do pontilhado; a unidade é dita para quem ouve.
+    el(doc, 'span', { class: 'contagem' }, String(v.compromissos),
+      el(doc, 'span', { class: 'so-leitor' }, v.compromissos === 1 ? ' compromisso' : ' compromissos')),
     el(doc, 'span', { class: 'pais' }, v.pais),
-    el(doc, 'span', { class: 'periodo' }, periodo(v)),
-    el(doc, 'span', { class: 'contagem' }, contagem(v.compromissos)));
+    el(doc, 'span', { class: 'periodo' }, anos(v)));
 }
 
 function montarLista(doc: Document, viagens: Viagem[]): HTMLElement[] {
@@ -101,7 +94,7 @@ function desenharMapa(doc: Document, destino: HTMLElement, viagens: Viagem[], co
     const cx = (origem.x + p.x) / 2;
     const cy = (origem.y + p.y) / 2 - dist * 0.2;
     raiz.append(svg(doc, 'path', {
-      class: 'mapa-rota', 'data-cidade': v.id,
+      class: 'mapa-rota', 'data-cidade': v.id, pathLength: '1',
       d: `M${arredondar(origem.x)} ${arredondar(origem.y)}Q${arredondar(cx)} ${arredondar(cy)} ${arredondar(p.x)} ${arredondar(p.y)}`,
     }));
   }
@@ -113,7 +106,7 @@ function desenharMapa(doc: Document, destino: HTMLElement, viagens: Viagem[], co
     const c = svg(doc, 'circle', {
       class: `mapa-cidade tam-${faixa}`, 'data-cidade': v.id, cx: arredondar(p.x), cy: arredondar(p.y), r: String(RAIOS[faixa - 1]),
     });
-    c.append(svg(doc, 'title', {}, `${v.cidade}: ${contagem(v.compromissos)}`));
+    c.append(svg(doc, 'title', {}, `${v.cidade}: ${plural(v.compromissos, 'compromisso', 'compromissos')}`));
     raiz.append(c);
   }
 
@@ -149,6 +142,11 @@ export async function montarViagens(
   for (const [id, item] of itens) {
     for (const entrada of ['mouseenter', 'focusin']) item.addEventListener(entrada, () => marcar(doc, itens, id, true));
     for (const saida of ['mouseleave', 'focusout']) item.addEventListener(saida, () => marcar(doc, itens, id, false));
+  }
+  const resumo = doc.getElementById('resumo-viagens');
+  if (resumo) {
+    const paises = new Set(viagens.map((v) => v.pais)).size;
+    resumo.textContent = `${plural(viagens.length, 'cidade', 'cidades')} em ${plural(paises, 'país', 'países')}`;
   }
   secao.hidden = false;
 
