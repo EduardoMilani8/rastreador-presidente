@@ -24,25 +24,23 @@ function razao(a: string, b: string): number {
   return (maior + 0.05) / (menor + 0.05);
 }
 
-// [frente, fundo, mínimo]. 4,5 para texto; 3 para borda de campo e para marcador sobre o dia selecionado.
-const FUNDOS = ['fundo', 'cartao', 'cartao-2'];
+// [frente, fundo, mínimo]. 4,5 para texto; 3 para marca, fio e borda de campo que carregam informação.
+const FUNDOS = ['fundo', 'terra'];
 const PARES: [string, string, number][] = [
-  ...[...FUNDOS, 'selecionado'].map((f): [string, string, number] => ['texto', f, 4.5]),
-  ['texto-2', 'cartao', 4.5],
-  ['texto-2', 'cartao-2', 4.5],
-  ...[...FUNDOS, 'selecionado'].map((f): [string, string, number] => ['suave', f, 4.5]),
-  ...['link', 'agenda', 'ato'].flatMap((c) => FUNDOS.map((f): [string, string, number] => [c, f, 4.5])),
-  ['agenda', 'selecionado', 3],
-  ['ato', 'selecionado', 3],
+  ...FUNDOS.map((f): [string, string, number] => ['texto', f, 4.5]),
+  ...FUNDOS.map((f): [string, string, number] => ['suave', f, 4.5]),
+  ['agenda', 'fundo', 4.5],
+  ['ato', 'fundo', 4.5],
+  ['agenda', 'terra', 3],
+  ['ato', 'terra', 3],
   ['aviso-tx', 'aviso-bg', 4.5],
-  ['borda-campo', 'cartao', 3],
-  ['borda-campo', 'fundo', 3],
+  ['linha', 'fundo', 1.2],
 ];
 
 describe('contraste das cores', () => {
   it('os dois temas definem as mesmas cores', () => {
     expect(Object.keys(escuro).sort()).toEqual(Object.keys(claro).sort());
-    expect(Object.keys(claro)).toHaveLength(14);
+    expect(Object.keys(claro)).toHaveLength(9);
   });
 
   for (const [tema, paleta] of [['claro', claro], ['escuro', escuro]] as const) {
@@ -85,9 +83,28 @@ describe('guardas da folha de estilo', () => {
     expect(css.slice(inicio)).toMatch(/\.fontes a, \.permalink \{ min-height: 0; padding: 4px 0; \}/);
   });
 
-  it('respeita prefers-reduced-motion: rolagem suave só para quem não pediu menos movimento', () => {
-    expect(css).toMatch(/@media \(prefers-reduced-motion: no-preference\)\s*\{\s*html\s*\{\s*scroll-behavior: smooth;/);
-    expect(css).not.toMatch(/\b(transition|animation)\b/);
+  it('movimento só para quem não pediu menos: transição e animação ficam dentro do bloco de prefers-reduced-motion', () => {
+    const inicio = css.indexOf('@media (prefers-reduced-motion: no-preference)');
+    expect(inicio).toBeGreaterThan(-1);
+    expect(css.slice(inicio)).toMatch(/^@media \(prefers-reduced-motion: no-preference\)\s*\{\s*html\s*\{\s*scroll-behavior: smooth;/);
+    expect(css.slice(0, inicio)).not.toMatch(/\b(transition|animation)(-[a-z-]+)?\s*:/);
+    expect(css.match(/@media \(prefers-reduced-motion: no-preference\)/g)).toHaveLength(1);
+  });
+
+  it('só animam opacidade, transformação, cor e traço', () => {
+    const quadros = [...css.matchAll(/@keyframes\s+[a-z-]+\s*\{((?:[^{}]*\{[^{}]*\})*)\s*\}/g)].map((m) => m[1]);
+    expect(quadros.length).toBeGreaterThan(0);
+    for (const q of quadros) {
+      const props = [...q.matchAll(/([a-z-]+)\s*:/g)].map((m) => m[1]);
+      for (const p of props) expect(['opacity', 'transform', 'stroke-dashoffset']).toContain(p);
+    }
+    const transicoes = [...css.matchAll(/transition:\s*([^;]+);/g)].map((m) => m[1]);
+    for (const t of transicoes) expect(t).toMatch(/^((color|background-color|border-color) \.12s(, )?)+$/);
+  });
+
+  it('o título do dia fica fixo em Registros, e a âncora de um registro não fica atrás dele', () => {
+    expect(css).toMatch(/section\.dia > h3\s*\{[^}]*position:\s*sticky/);
+    expect(css).toMatch(/\.evento\s*\{[^}]*scroll-margin-top:/);
   });
 
   it('não carrega nada de fora do site', () => {
@@ -128,7 +145,7 @@ describe('guardas da folha de estilo', () => {
     const raio = (n: number) => css.match(new RegExp(`\\.mapa-cidade\\.tam-${n}\\s*\\{\\s*r:\\s*([\\d.]+)`))?.[1];
     expect([1, 2, 3, 4, 5].map(raio)).toEqual(['3', '4', '5.5', '7', '9']);
     const regra = css.match(/\.mapa-rota\s*\{([^}]*)\}/)![1];
-    expect(regra).toMatch(/stroke:\s*var\(--agenda\)/);
+    expect(regra).toMatch(/stroke:\s*var\(--texto\)/);
     expect(regra).toMatch(/stroke-opacity:\s*0?\.5/);
     expect(regra).toMatch(/fill:\s*none/);
     expect(regra).not.toMatch(/#[0-9a-f]{3,8}\b|rgba?\(|hsla?\(/i);
