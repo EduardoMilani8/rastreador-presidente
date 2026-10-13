@@ -10,6 +10,7 @@ import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
 import { dataSaoPaulo, ementaEhSoRemissao, limparEspacos, somarDias } from '../shared/text';
 import { ligarComunicados } from './link';
 import { aplicarStatus, mesclar } from './merge';
+import { gravarDerivados } from './derivados';
 import {
   gravarEstado, gravarEventos, gravarNoticias, lerEstado, lerEventos,
 } from './store';
@@ -314,6 +315,7 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   eventos = ligarComunicados(eventos, comunicados, mandato);
   eventos = aplicarStatus(eventos, hoje);
   let escritos = await gravarEventos(deps.dataDir, eventos);
+  escritos += await gravarDerivados(deps.dataDir, eventos);
 
   const noticias: Noticia[] = [];
   const fontesNoticias: [string, string, Noticia['origem']][] = [
@@ -348,7 +350,9 @@ export async function retroagir(
   let eventos = await lerEventos(deps.dataDir);
   const falhas = new Set<string>();
   const gravar = async (dia: string) => {
-    await gravarEventos(deps.dataDir, aplicarStatus(eventos, dataSaoPaulo(deps.agora())));
+    const comStatus = aplicarStatus(eventos, dataSaoPaulo(deps.agora()));
+    await gravarEventos(deps.dataDir, comStatus);
+    await gravarDerivados(deps.dataDir, comStatus);
     aoProgredir?.(dia);
   };
 

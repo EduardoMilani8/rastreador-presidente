@@ -10,40 +10,92 @@
 <body>
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
   <header class="topo">
-    <h1>Sobre e metodologia</h1>
-    <nav aria-label="Seções do site" class="abas">
-      <a href="./?aba=linha">Linha do tempo</a>
-      <a href="./?aba=noticias">Notícias</a>
-      <a href="sobre.html" aria-current="page">Sobre e metodologia</a>
-    </nav>
+    <div class="faixa">
+      <div class="faixa-dentro">
+        <a class="marca" href="./">Rastreador do Presidente</a>
+        <nav aria-label="Seções do site" class="abas">
+          <a href="./">Capa</a>
+          <a id="aba-linha" href="registros.html">Registros</a>
+          <a id="aba-noticias" href="noticias.html">Notícias</a>
+          <a href="sobre.html" aria-current="page">Sobre</a>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <main id="conteudo">
-    <h2>O que é</h2>
+  <main id="conteudo" class="prosa">
+    <h1>Como este site funciona</h1>
+    <p>Projeto independente, sem vínculo com o governo, feito só com fontes públicas.</p>
+
+    <h2 class="passos-titulo">Em três passos</h2>
+    <ol class="passos">
+      <li>
+        <h3>Fontes</h3>
+        <p>Os dados vêm somente de fontes oficiais públicas e da imprensa.</p>
+      </li>
+      <li>
+        <h3>Coleta</h3>
+        <p>O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar.</p>
+      </li>
+      <li>
+        <h3>Publicação</h3>
+        <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
+      </li>
+    </ol>
+
+    <nav class="indice" aria-label="Nesta página">
+      <ol>
+        <li><a href="#o-que-e">O que é</a></li>
+        <li><a href="#fontes">Fontes dos dados</a></li>
+        <li><a href="#status">Status</a></li>
+        <li><a href="#viagens">Viagens</a></li>
+        <li><a href="#limites">Limites</a></li>
+        <li><a href="#codigo">Código e dados</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="o-que-e">O que é</h2>
     <p>Um registro público e somente de leitura do que o Presidente da República fez e do que consta na sua agenda oficial. O site não tem login, comentários nem qualquer campo em que alguém possa inserir dados. É um projeto independente, sem vínculo com o governo.</p>
 
-    <h2>De onde vêm os dados</h2>
+    <h2 id="fontes">De onde vêm os dados</h2>
     <p>Os dados vêm somente de fontes oficiais públicas e da imprensa. Nada é inventado, estimado nem completado por conta própria.</p>
     <ul>
       <li><strong>Agenda do Presidente</strong> (Planalto): compromissos publicados pelo governo, desde 01/01/2023.</li>
       <li><strong>Diário Oficial da União</strong>: decretos numerados, leis e medidas provisórias, desde 01/01/2023. Entram também os atos assinados pelo vice-presidente no exercício da Presidência.</li>
       <li><strong>Comunicados do Planalto</strong>: notas do site do Planalto. A maioria é aviso de pauta ("a agenda será às 14h30..."), publicado um ou dois dias antes do compromisso. Cada comunicado aparece com a data em que o texto foi publicado. O histórico existe a partir do início da nossa coleta.</li>
-      <li><strong>Notícias</strong> (aba separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
+      <li><strong>Notícias</strong> (página separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
     </ul>
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
-    <h2>O que cada status significa</h2>
-    <ul>
-      <li><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
-      <li><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
-      <li><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>
-      <li><strong>Publicado no site do Planalto</strong>: o comunicado foi publicado. Isso não significa que o compromisso descrito já aconteceu.</li>
-      <li><strong>Publicado no Diário Oficial</strong>: o ato foi publicado. Mostramos a data de assinatura e a de publicação.</li>
-      <li><strong>Alterado na agenda</strong>: o título ou o local do compromisso mudou depois que o registramos. A versão anterior fica guardada no próprio item.</li>
-      <li><strong>Removido da agenda</strong>: o compromisso estava na agenda e saiu dela. O item continua aqui, riscado: nada some sem aviso.</li>
+    <h2 id="status">O que cada status significa</h2>
+    <ul class="lista-status">
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM8 4.5V8l2.5 1.5"></path></svg><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 4.5h7M5.5 8h7M5.5 11.5h7M3 4.5h.01M3 8h.01M3 11.5h.01"></path></svg><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM5.2 8.2l2 2l3.6-4"></path></svg><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M2.5 3h11v7.5H7l-3 2.5v-2.5H2.5z"></path></svg><strong>Publicado no site do Planalto</strong>: o comunicado foi publicado. Isso não significa que o compromisso descrito já aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M4 1.5h5.5L12 4v10.5H4zM9.5 1.5V4H12M6 8h4M6 11h4"></path></svg><strong>Publicado no Diário Oficial</strong>: o ato foi publicado. Mostramos a data de assinatura e a de publicação.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M3 13l.6-2.8l7-7l2.2 2.2l-7 7zM9.4 4.4l2.2 2.2"></path></svg><strong>Alterado na agenda</strong>: o título ou o local do compromisso mudou depois que o registramos. A versão anterior fica guardada no próprio item.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM3.8 3.8l8.4 8.4"></path></svg><strong>Removido da agenda</strong>: o compromisso estava na agenda e saiu dela. O item continua aqui, riscado: nada some sem aviso.</li>
     </ul>
 
-    <h2>Limites que você precisa saber</h2>
+    <h2 id="viagens">Como as viagens são reconhecidas</h2>
+    <ul>
+      <li>O mapa mostra cidades fora do Brasil em que a agenda oficial registra compromissos do presidente.</li>
+      <li>A agenda escreve o local em texto livre ("Sede das Nações Unidas – Nova York", "Casa Branca", "Bharat Mandapam"). Para saber a cidade, usamos uma tabela feita e conferida à mão, que liga cada texto conhecido a uma cidade. A tabela é pública e está no repositório, em <a href="https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json" rel="noopener noreferrer">config/locais.json</a>.</li>
+      <li>Texto que a tabela não reconhece fica de fora. O site nunca adivinha a cidade por semelhança de nome.</li>
+      <li>Local genérico, como "Local de hospedagem", "Palácio Presidencial", "Sala de Bilaterais" ou o nome de um hotel que existe em várias cidades, não identifica a cidade sozinho e fica de fora. Por isso o número de compromissos de cada cidade é o mínimo que conseguimos confirmar pelo texto da agenda; o número real costuma ser maior.</li>
+      <li>Texto que termina com sigla de estado brasileiro ("Nova York - MA", "Buenos Aires (PE)") nunca é tratado como cidade de outro país.</li>
+      <li>Compromisso removido da agenda não entra na contagem das viagens.</li>
+      <li>Escala técnica não é viagem: cidade em que a agenda só registra chegada ou partida em aeroporto ou base aérea fica fora do mapa. Em cidade que tem algum compromisso fora do aeroporto, a chegada e a partida também são contadas.</li>
+      <li>O número ao lado de cada cidade é a quantidade de itens da agenda naquela cidade. Os anos vão do primeiro ao último registro, e podem juntar várias visitas à mesma cidade.</li>
+      <li>A posição no mapa é a da cidade, não a do endereço do compromisso.</li>
+      <li>Dias inteiros no exterior em que a agenda não publica o local, ou só publica locais genéricos, não aparecem.</li>
+      <li>Só aparecem viagens que constam na agenda oficial publicada. Viagem sem agenda publicada não aparece.</li>
+    </ul>
+
+    <section class="limites">
+    <h2 id="limites">Limites que você precisa saber</h2>
+    <h3>Agenda e comunicados</h3>
     <ul>
       <li>Os comunicados do Planalto são, na maioria, avisos de pauta publicados um ou dois dias antes do compromisso. Por isso a ligação automática com a agenda está desligada: nenhum compromisso vira "Realizado" por causa deles, e muitos compromissos que de fato aconteceram continuam como "Consta na agenda".</li>
       <li>Agenda, Diário Oficial e comunicados são do próprio governo: "confirmado por 2 fontes" significa dois documentos, mas não duas fontes independentes entre si.</li>
@@ -52,16 +104,26 @@
       <li>Se o horário de um compromisso muda, o horário antigo aparece como removido e o novo como um item novo.</li>
       <li>Mudanças e remoções na agenda só são detectadas a partir de 11/10/2026, quando a coleta começou. A agenda de 2023 até essa data aparece como estava publicada em 11/10/2026: se um compromisso foi alterado ou apagado antes disso, não temos como saber.</li>
       <li>Em alguns dias a página da agenda existe, mas não está pública. Nesses dias não mostramos nada, e isso não quer dizer que não houve compromissos.</li>
+    </ul>
+    <h3>Atos do Diário Oficial</h3>
+    <ul>
       <li>Cada ato é listado uma vez. O ato republicado com correção logo depois da assinatura (título com “(*)”) aparece uma vez só. Republicações posteriores e partes vetadas promulgadas pelo Congresso meses depois não são listadas. Leis sancionadas pelo governo anterior e publicadas em janeiro de 2023 não são listadas.</li>
       <li>Os títulos dos atos aparecem como o Diário Oficial os imprimiu, inclusive com erros de digitação no número ou na data. Quando a data de assinatura do título é impossível, mostramos só a de publicação.</li>
       <li>Alguns poucos decretos podem faltar: há decretos que constam no site do Planalto e não aparecem na lista do Diário Oficial que consultamos. Também pode faltar o ato que só encontramos numa republicação feita muito depois da assinatura.</li>
       <li>O link “Texto do ato” (Planalto) só aparece quando a página foi encontrada e confere com o ato. Nos atos coletados desde 11/10/2026 conferimos a data do ato na página; nos anteriores, a conferência foi pelo número. Sem isso, fica só o link do Diário Oficial.</li>
-      <li>A página inicial mostra os dois meses mais recentes. Para ver o restante, use “Ver meses anteriores” ou o filtro por data; a linha acima da lista sempre diz qual período está sendo mostrado.</li>
+    </ul>
+    <h3>O que o site mostra</h3>
+    <ul>
+      <li>A página Registros mostra os dois meses mais recentes. Para ver o restante, use “Ver meses anteriores” ou o filtro por data; a linha acima da lista sempre diz qual período está sendo mostrado.</li>
       <li>O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar. O alto da página diz quando os dados mudaram pela última vez.</li>
       <li>Não resumimos nem reescrevemos o que as fontes dizem: mostramos o texto oficial. O resumo dos atos vem cortado pelo próprio Diário Oficial quando é longo.</li>
+      <li>A capa mostra os 21 dias mais recentes. O tamanho de cada marca indica quantos registros há no dia. Compromissos removidos da agenda não aumentam a marca, mas são informados no texto do dia. O detalhe do dia lista até três itens; a lista completa, com as fontes, está em Registros. Os números do alto da capa só aparecem quando o total calculado pela coleta está disponível.</li>
+      <li>Os números do alto da capa contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial e comunicados do Planalto, desde 01/01/2023. Compromisso que saiu da agenda oficial continua na contagem, porque continua guardado e aparece nos registros como "Removido da agenda".</li>
+      <li>O site não mostra gastos. As fontes públicas oficiais (Portal da Transparência) publicam cartão de pagamento, diárias, passagens e despesas por órgão, e o órgão "Presidência da República" inclui centenas de servidores. Gasto do órgão não é gasto do presidente, e mostrar um como se fosse o outro seria enganoso.</li>
     </ul>
+    </section>
 
-    <h2>Código e dados abertos</h2>
+    <h2 id="codigo">Código e dados abertos</h2>
     <p>Todo o código deste site e os arquivos de dados que ele mostra estão publicados em <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">github.com/EduardoMilani8/rastreador-presidente</a>. Qualquer pessoa pode conferir como cada item foi coletado e apontar erros por lá.</p>
   </main>
 

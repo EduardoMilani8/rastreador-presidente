@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { describe, expect, it } from 'vitest';
-import { formatarDataCurta, formatarDataLonga, renderEvento, renderFontes, renderNoticia } from '../../site/src/render';
+import { ROTULO_COMUNICADO, ROTULO_STATUS, formatarDataCurta, formatarDataLonga, renderEvento, renderFontes, renderNoticia, tituloDoDia } from '../../site/src/render';
+import { ICONES } from '../../site/src/icones';
 import type { Evento, Noticia } from '../../src/shared/schema';
 
 const T = '2026-10-08T12:00:00.000Z';
@@ -52,7 +53,7 @@ describe('renderEvento', () => {
     expect(li.textContent).toContain('Palácio do Planalto');
   });
   it('nivelTitulo muda a tag do título', () => {
-    expect(renderEvento(document, base, 3).querySelector('h3')).not.toBeNull();
+    expect(renderEvento(document, base, { nivelTitulo: 3 }).querySelector('h3')).not.toBeNull();
   });
   it('texto malicioso da fonte aparece como texto, sem criar elementos', () => {
     const ruim = { ...base, titulo: '<img src=x onerror=alert(1)><script>alert(2)</script>', local: '<b>x</b>' };
@@ -84,24 +85,116 @@ describe('renderEvento', () => {
   it('tem link permanente para o dia do item, com a âncora do próprio item', () => {
     const a = renderEvento(document, base).querySelector('a.permalink')!;
     expect(a.textContent).toBe('Link permanente');
-    expect(a.getAttribute('href')).toBe('?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
+    expect(a.getAttribute('href')).toBe('registros.html?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
     expect(a.hasAttribute('target')).toBe(false); // navegação interna, na mesma aba
     // o nome acessível começa pelo texto visível e diz de qual item é o link (numa lista de links, todos seriam iguais)
     expect(a.getAttribute('aria-label')).toBe('Link permanente: Reunião');
   });
+  it('na faixa de fontes a ordem do DOM é a da tela: selo, link permanente, lista de fontes', () => {
+    const duas: Evento = { ...base, fontes: [...base.fontes, fonte('comunicado-planalto', 'https://www.gov.br/c')] };
+    const faixa = renderEvento(document, duas).querySelector('.bloco-fontes')!;
+    expect([...faixa.children].map((e) => e.className)).toEqual(['selo', 'permalink', 'fontes']);
+    expect([...faixa.querySelectorAll('a')].map((a) => a.textContent)).toEqual([
+      'Link permanente', 'Agenda do dia — Planalto (governo)', 'Comunicado — Planalto (governo)',
+    ]);
+  });
   it('a cópia de destaque (sem id) aponta para a mesma âncora', () => {
-    const li = renderEvento(document, base, 3, false);
+    const li = renderEvento(document, base, { nivelTitulo: 3, comId: false });
     expect(li.id).toBe('');
-    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe('?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
+    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe('registros.html?de=2026-10-08&ate=2026-10-08#ev-agenda-2026-10-08-10-00-1');
   });
   it('id com caracteres do DOU ("*", ".") vira âncora segura e igual à do link', () => {
     const ato: Evento = { ...base, id: 'dou:lei-n-14.701-de-20-de-outubro-de-2023-*-535292810', tipo: 'ato', hora: undefined, data: '2024-01-02', status: 'publicado' };
     const li = renderEvento(document, ato);
     expect(li.id).toBe('ev-dou-lei-n-14.701-de-20-de-outubro-de-2023---535292810');
-    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe(`?de=2024-01-02&ate=2024-01-02#${li.id}`);
+    expect(li.querySelector('a.permalink')!.getAttribute('href')).toBe(`registros.html?de=2024-01-02&ate=2024-01-02#${li.id}`);
   });
   it('id do elemento é seguro para âncora', () => {
     expect(renderEvento(document, base).id).toBe('ev-agenda-2026-10-08-10-00-1');
+  });
+
+  it('a hora fica em coluna própria, fora da caixa do cartão', () => {
+    const li = renderEvento(document, base);
+    const hora = li.querySelector(':scope > time.evento-hora')!;
+    expect(hora.textContent).toBe('10:00');
+    expect(hora.getAttribute('datetime')).toBe('2026-10-08T10:00');
+    expect(li.classList.contains('com-hora')).toBe(true);
+    expect(li.querySelector('.evento-corpo time')).toBeNull();
+    expect(li.querySelector('.evento-meta time')).toBeNull();
+  });
+
+  it('item sem hora não tem coluna de hora', () => {
+    const ato: Evento = { ...base, tipo: 'ato', hora: undefined, status: 'publicado' };
+    const li = renderEvento(document, ato);
+    expect(li.querySelector('time')).toBeNull();
+    expect(li.classList.contains('com-hora')).toBe(false);
+    expect(li.querySelector(':scope > .evento-corpo')).not.toBeNull();
+  });
+
+  it('no destaque (comData) a data e a hora ficam dentro da caixa', () => {
+    const li = renderEvento(document, base, { comData: true });
+    const quando = li.querySelector('.evento-corpo > time.evento-hora')!;
+    expect(quando.textContent).toBe('08/10/2026 · 10:00');
+    expect(quando.getAttribute('datetime')).toBe('2026-10-08T10:00');
+    expect(li.classList.contains('com-hora')).toBe(false);
+    expect(li.querySelectorAll('time')).toHaveLength(1);
+  });
+
+  it('no destaque, item sem hora mostra só a data', () => {
+    const ato: Evento = { ...base, tipo: 'ato', hora: undefined, status: 'publicado' };
+    const quando = renderEvento(document, ato, { comData: true }).querySelector('time.evento-hora')!;
+    expect(quando.textContent).toBe('08/10/2026');
+    expect(quando.getAttribute('datetime')).toBe('2026-10-08');
+  });
+
+  it('o status leva ícone svg decorativo e texto, sem emoji', () => {
+    const li = renderEvento(document, base);
+    const status = li.querySelector('.evento-meta .status')!;
+    expect(status.querySelector('svg.icone[aria-hidden="true"] path')!.getAttribute('d')).toBe(ICONES.lista);
+    expect(status.textContent!.trim()).toBe('Consta na agenda');
+    expect(li.textContent).not.toMatch(/\p{Extended_Pictographic}/u);
+  });
+
+  it('todo status e o comunicado apontam para um ícone que existe', () => {
+    for (const r of [...Object.values(ROTULO_STATUS), ROTULO_COMUNICADO]) expect(ICONES[r.icone]).toMatch(/^M/);
+  });
+
+  it('nenhum status usa desenho de alerta: alterado e removido têm ícones próprios', () => {
+    expect(ROTULO_STATUS.alterado.icone).toBe('lapis');
+    expect(ROTULO_STATUS.removido.icone).toBe('cortado');
+  });
+
+  it('o link permanente fica na faixa de fontes, fora da lista de fontes', () => {
+    const li = renderEvento(document, base);
+    expect(li.querySelector('.bloco-fontes > a.permalink')).not.toBeNull();
+    expect(li.querySelector('.fontes a.permalink')).toBeNull();
+    expect(li.querySelector('.evento-meta a')).toBeNull();
+    expect(li.querySelectorAll('.fontes a')).toHaveLength(1);
+  });
+
+  it.each([
+    ['agenda', 'marca marca-agenda', 'Agenda'],
+    ['ato', 'marca marca-ato', 'Ato oficial'],
+    ['comunicado', 'marca marca-comunicado', 'Comunicado do Planalto'],
+  ] as const)('o rótulo do tipo %s leva a forma decorativa antes do texto, e o texto continua sendo só o rótulo', (tipo, classe, rotulo) => {
+    const rotuloTipo = renderEvento(document, { ...base, tipo, status: tipo === 'agenda' ? base.status : 'publicado' }).querySelector('.tipo')!;
+    const forma = rotuloTipo.firstElementChild!;
+    expect(rotuloTipo.firstChild).toBe(forma);
+    expect(rotuloTipo.children).toHaveLength(1);
+    expect(forma.tagName).toBe('SPAN');
+    expect(forma.className).toBe(classe);
+    expect(forma.getAttribute('aria-hidden')).toBe('true');
+    expect(forma.textContent).toBe('');
+    expect(rotuloTipo.textContent).toBe(rotulo);
+  });
+
+  it('tipo e título continuam dentro da caixa, com as classes do contrato', () => {
+    const li = renderEvento(document, base);
+    expect(li.className).toBe('evento tipo-agenda status-consta_na_agenda com-hora');
+    expect(li.querySelector('.evento-corpo .evento-meta .tipo')!.textContent).toBe('Agenda');
+    expect(li.querySelector('.evento-corpo h4.evento-titulo')!.textContent).toBe('Reunião');
+    expect(li.querySelector('.evento-corpo .local')!.textContent).toBe('Palácio do Planalto');
+    expect(li.querySelector('.evento-corpo .bloco-fontes .selo')!.textContent).toBe('Fonte única');
   });
 });
 
@@ -117,5 +210,24 @@ describe('renderNoticia', () => {
   });
   it('URL insegura vira texto puro', () => {
     expect(renderNoticia(document, { ...n, url: 'javascript:alert(1)' }).querySelector('a')).toBeNull();
+  });
+});
+
+describe('tituloDoDia', () => {
+  it('traz a data por extenso para leitor de tela e as partes visuais fora da leitura', () => {
+    const t = tituloDoDia(document, '2026-10-07');
+    expect(t.tagName).toBe('TIME');
+    expect(t.getAttribute('datetime')).toBe('2026-10-07');
+    expect([...t.children].map((c) => [c.className, c.textContent, c.getAttribute('aria-hidden')])).toEqual([
+      ['so-leitor', 'quarta-feira, 7 de outubro de 2026', null],
+      ['dia-n', '07', 'true'],
+      ['dia-mes-ano', 'de outubro de 2026', 'true'],
+      ['dia-semana', 'quarta-feira', 'true'],
+    ]);
+  });
+
+  it('não muda de dia com o fuso da máquina: primeiro e último dia do ano', () => {
+    expect(tituloDoDia(document, '2026-01-01').querySelector('.dia-mes-ano')!.textContent).toBe('de janeiro de 2026');
+    expect(tituloDoDia(document, '2026-12-31').querySelector('.dia-n')!.textContent).toBe('31');
   });
 });

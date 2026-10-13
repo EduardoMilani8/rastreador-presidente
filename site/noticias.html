@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícias — Rastreador do Presidente</title>
+  <meta name="description" content="O que a imprensa publica sobre o Presidente da República. Não são registros oficiais.">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/main-noticias.ts"></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="faixa">
+      <div class="faixa-dentro">
+        <a class="marca" href="./">Rastreador do Presidente</a>
+        <p class="datado"><span id="hoje"></span> <span id="ultima-novidade"></span></p>
+        <nav aria-label="Seções do site" class="abas">
+          <a href="./">Capa</a>
+          <a id="aba-linha" href="registros.html">Registros</a>
+          <a id="aba-noticias" href="noticias.html" aria-current="page">Notícias</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
+    </div>
+    <div class="avisos">
+      <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
+      <p id="aviso-fontes" class="aviso" role="status" hidden></p>
+      <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <h1>O que a imprensa publica</h1>
+    <noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>
+    <div id="painel-noticias">
+      <p class="aviso-imprensa">Aqui está o que a imprensa publica sobre o presidente. Não são registros oficiais do que ele fez.</p>
+      <article id="noticia-destaque" class="noticia-destaque"></article>
+      <ol id="lista-noticias" class="lista noticias-grade"></ol>
+      <div id="noticias-veiculos" hidden></div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto independente, sem vínculo com o governo. Todos os dados vêm de fontes públicas, linkadas em cada item. <a href="sobre.html">Como funciona</a>. O <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">código e os dados são abertos</a>.</p>
+  </footer>
+</body>
+</html>

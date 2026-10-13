@@ -3,12 +3,12 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { irParaAncora, montar } from '../../site/src/app';
 import type { Dados } from '../../site/src/dados';
+import { irParaAncora, montarRegistros } from '../../site/src/registros';
 import type { Evento, Noticia } from '../../src/shared/schema';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
-const PAGINA = () => readFileSync(resolve(process.cwd(), 'site/index.html'), 'utf8');
+const PAGINA = () => readFileSync(resolve(process.cwd(), 'site/registros.html'), 'utf8');
 const T = '2026-10-08T12:00:00.000Z';
 const HOJE = '2026-10-08';
 const AGORA = new Date('2026-10-08T15:00:00Z');
@@ -32,7 +32,7 @@ const DADOS: Dados = {
   ],
   noticias: [noticia],
   estado: { fontes: { agenda: { ok: true, desde: T }, dou: { ok: false, desde: T, mensagem: 'x' } }, ultimaNovidadeEm: '2026-10-08T14:30:00.000Z' },
-  incompleto: false,
+  incompleto: false, viagens: [],
   mesesCarregados: ['2026-10', '2026-09'],
   mesesDisponiveis: ['2026-10', '2026-09', '2026-08', '2026-07'],
 };
@@ -42,83 +42,86 @@ beforeEach(() => {
   document.documentElement.innerHTML = PAGINA();
 });
 
-describe('montar', () => {
-  it('mostra último registro, próximos compromissos e a linha do tempo agrupada por dia', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('ultimo-registro')!.textContent).toContain('Compromisso b'); // 07/10 10:00 vence o ato sem hora
+describe('montarRegistros', () => {
+  it('os próximos mostram a data do item; a linha do tempo, só a hora', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    const proximo = document.querySelector('#proximos time.evento-hora')!;
+    expect(proximo.textContent).toBe('09/10/2026 · 10:00');
+    expect(proximo.getAttribute('datetime')).toBe('2026-10-09T10:00');
+    expect(document.querySelector('#ev-b time.evento-hora')!.textContent).toBe('10:00');
+    expect(document.querySelector('#proximos h3.evento-titulo')).not.toBeNull();
+    expect(document.querySelector('#ev-b h4.evento-titulo')).not.toBeNull();
+  });
+  it('mostra próximos compromissos e a linha do tempo agrupada por dia', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     expect(document.getElementById('proximos')!.textContent).toContain('Compromisso d');
     const timeline = document.getElementById('linha-do-tempo')!;
     expect(timeline.textContent).not.toContain('Compromisso d'); // agendado só na faixa de próximos
     expect(timeline.querySelectorAll('section.dia')).toHaveLength(2);
     expect(timeline.querySelector('section.dia h3')!.textContent).toContain('quarta-feira, 7 de outubro de 2026');
+    const titulo = timeline.querySelector('section.dia h3')!;
+    expect(titulo.querySelector('time .so-leitor')!.textContent).toBe('quarta-feira, 7 de outubro de 2026');
+    expect(titulo.querySelector('time .dia-n')!.textContent).toBe('07');
+    expect(titulo.querySelector(':scope > .dia-conta')!.textContent).toBe('2 registros');
   });
 
   it('mostra há quanto tempo os dados foram atualizados e avisa quando uma fonte está com falha', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 30 min');
     const aviso = document.getElementById('aviso-fontes')!;
     expect(aviso.hidden).toBe(false);
     expect(aviso.textContent).toContain('Diário Oficial');
   });
 
-  it('com filtro ativo esconde próximos/último e aplica o filtro', () => {
-    montar(document, DADOS, { aba: 'linha', tipo: 'ato' }, HOJE, AGORA);
+  it('com filtro ativo esconde os próximos e aplica o filtro', () => {
+    montarRegistros(document, DADOS, { tipo: 'ato' }, HOJE, AGORA);
     expect(document.getElementById('bloco-proximos')!.hidden).toBe(true);
-    expect(document.getElementById('bloco-ultimo')!.hidden).toBe(true);
     expect(document.getElementById('linha-do-tempo')!.querySelectorAll('li.evento')).toHaveLength(1);
   });
 
   it('sem resultados mostra mensagem clara', () => {
-    montar(document, DADOS, { aba: 'linha', de: '2030-01-01' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { de: '2030-01-01' }, HOJE, AGORA);
     expect(document.getElementById('linha-do-tempo')!.textContent).toContain('Nenhum registro');
   });
 
-  it('aba Notícias mostra notícias e esconde a linha do tempo', () => {
-    montar(document, DADOS, { aba: 'noticias' }, HOJE, AGORA);
-    expect(document.getElementById('painel-linha')!.hidden).toBe(true);
-    expect(document.getElementById('painel-noticias')!.hidden).toBe(false);
-    expect(document.getElementById('lista-noticias')!.textContent).toContain('Manchete');
-    expect(document.getElementById('aba-noticias')!.getAttribute('aria-current')).toBe('page');
-  });
-
   it('preenche o formulário com os filtros da URL', () => {
-    montar(document, DADOS, { aba: 'linha', tipo: 'ato', de: '2026-10-01' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { tipo: 'ato', de: '2026-10-01' }, HOJE, AGORA);
     expect((document.querySelector('#filtros [name=tipo]') as HTMLSelectElement).value).toBe('ato');
     expect((document.querySelector('#filtros [name=de]') as HTMLInputElement).value).toBe('2026-10-01');
   });
 
-  it('não tem violações de acessibilidade detectáveis pelo axe (linha do tempo e notícias)', async () => {
-    for (const aba of ['linha', 'noticias'] as const) {
-      document.documentElement.innerHTML = PAGINA();
-      montar(document, DADOS, { aba }, HOJE, AGORA);
-      const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
-      expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
-    }
+  it('não tem violações de acessibilidade detectáveis pelo axe', async () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
+    expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
+  });
+
+  it('a página não marca nem desmarca a navegação: aria-current vem pronto do HTML', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    expect(document.getElementById('aba-linha')!.getAttribute('aria-current')).toBe('page');
+    expect(document.getElementById('aba-noticias')!.hasAttribute('aria-current')).toBe(false);
+    expect(document.getElementById('painel-linha')!.hidden).toBe(false);
   });
 });
 
 describe('dados incompletos', () => {
   it('avisa de forma acessível quando algum dado não pôde ser carregado', () => {
-    montar(document, { ...DADOS, incompleto: true }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, incompleto: true }, {}, HOJE, AGORA);
     const aviso = document.getElementById('aviso-incompleto')!;
     expect(aviso.hidden).toBe(false);
     expect(aviso.getAttribute('role')).toMatch(/status|alert/);
     expect(aviso.textContent).toBe('Alguns dados não puderam ser carregados; a lista pode estar incompleta.');
-  });
-
-  it('não mostra o aviso quando os dados estão completos', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('aviso-incompleto')!.hidden).toBe(true);
-  });
-
-  it('o aviso também aparece na aba Notícias e não conflita com o aviso de fontes', () => {
-    montar(document, { ...DADOS, incompleto: true }, { aba: 'noticias' }, HOJE, AGORA);
-    expect(document.getElementById('aviso-incompleto')!.hidden).toBe(false);
+    // não conflita com o aviso de fontes
     expect(document.getElementById('aviso-fontes')!.textContent).toContain('Diário Oficial');
   });
 
+  it('não mostra o aviso quando os dados estão completos', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    expect(document.getElementById('aviso-incompleto')!.hidden).toBe(true);
+  });
+
   it('axe: sem violações com o aviso visível', async () => {
-    montar(document, { ...DADOS, incompleto: true }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, incompleto: true }, {}, HOJE, AGORA);
     const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
     expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
   });
@@ -127,7 +130,7 @@ describe('dados incompletos', () => {
 describe('próximos x linha do tempo', () => {
   it('agendado com data passada não é "próximo" e continua na linha do tempo', () => {
     const velho = ev('velho', '2026-10-05', { status: 'agendado' });
-    montar(document, { ...DADOS, eventos: [...DADOS.eventos, velho] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [...DADOS.eventos, velho] }, {}, HOJE, AGORA);
     expect(document.getElementById('proximos')!.textContent).not.toContain('Compromisso velho');
     expect(document.getElementById('proximos')!.textContent).toContain('Compromisso d');
     expect(document.getElementById('linha-do-tempo')!.textContent).toContain('Compromisso velho');
@@ -135,7 +138,7 @@ describe('próximos x linha do tempo', () => {
 
   it('agendado para hoje aparece só nos próximos', () => {
     const hojeEv = ev('hoje', HOJE, { status: 'agendado' });
-    montar(document, { ...DADOS, eventos: [...DADOS.eventos, hojeEv] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [...DADOS.eventos, hojeEv] }, {}, HOJE, AGORA);
     expect(document.getElementById('proximos')!.textContent).toContain('Compromisso hoje');
     expect(document.getElementById('linha-do-tempo')!.textContent).not.toContain('Compromisso hoje');
   });
@@ -147,7 +150,7 @@ describe('item removido', () => {
       status: 'removido', confirmadoPor: ['planalto:r'],
       fontes: [f('agenda-planalto', 'https://www.gov.br/r'), f('comunicado-planalto', 'https://www.gov.br/cr')],
     });
-    montar(document, { ...DADOS, eventos: [removido] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [removido] }, {}, HOJE, AGORA);
     const li = document.getElementById('ev-r')!;
     expect(li.textContent).toContain('Removido da agenda');
     expect(li.textContent).toContain('Confirmado por 2 fontes');
@@ -155,27 +158,60 @@ describe('item removido', () => {
   });
 });
 
+describe('estrutura da página', () => {
+  it('marca, data e navegação ficam na faixa; os avisos, no cabeçalho e fora dela', () => {
+    const faixa = document.querySelector('header.topo > .faixa')!;
+    expect(faixa.querySelector('a.marca')!.textContent).toBe('Rastreador do Presidente');
+    expect(faixa.querySelector('h1')).toBeNull();
+    expect(faixa.querySelector('.datado > #ultima-novidade')).not.toBeNull();
+    expect(faixa.querySelectorAll('nav.abas a')).toHaveLength(4);
+    for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
+      expect(document.querySelector(`header.topo > .avisos > #${id}`), id).not.toBeNull();
+    }
+    expect(document.querySelector('main > h1')!.textContent).toBe('Registros');
+  });
+
+  it('a lateral só tem os próximos compromissos e vem antes da linha do tempo na ordem de leitura', () => {
+    const lateral = document.querySelector('#painel-linha > aside.lateral')!;
+    expect([...lateral.children].map((e) => e.id)).toEqual(['bloco-proximos']);
+    expect(document.querySelector('.destaques')).toBeNull();
+    const cronologia = document.querySelector('#painel-linha > section.cronologia')!;
+    expect(cronologia.querySelector('#linha-do-tempo')).not.toBeNull();
+    expect(cronologia.querySelector('#caixa-filtros')).not.toBeNull();
+    expect(lateral.compareDocumentPosition(cronologia) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
+
+  it('a lateral fica oculta quando não há próximos compromissos ou quando há filtro', () => {
+    const bloco = () => document.getElementById('bloco-proximos')!;
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    expect(bloco().hidden).toBe(false);
+    montarRegistros(document, { ...DADOS, eventos: DADOS.eventos.filter((e) => e.status !== 'agendado') }, {}, HOJE, AGORA);
+    expect(bloco().hidden).toBe(true);
+    expect(document.getElementById('proximos')!.children).toHaveLength(0);
+    for (const filtro of [{ tipo: 'agenda' }, { status: 'agendado' }, { de: '2026-10-01' }, { ate: '2026-10-31' }] as const) {
+      montarRegistros(document, DADOS, filtro, HOJE, AGORA);
+      expect(bloco().hidden, JSON.stringify(filtro)).toBe(true);
+    }
+    // todo elemento direto da lateral oculto: o CSS (:has) volta a página para uma coluna só
+    expect(document.querySelectorAll('aside.lateral > section:not([hidden])')).toHaveLength(0);
+  });
+});
+
 describe('ids únicos', () => {
-  it('o documento montado não tem ids duplicados (destaque repete item da linha do tempo)', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
-    // 'b' é o último registro E aparece na linha do tempo
-    expect(document.getElementById('ultimo-registro')!.textContent).toContain('Compromisso b');
+  it('o documento montado não tem ids duplicados (os próximos são cópias sem id âncora)', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    expect(document.getElementById('proximos')!.textContent).toContain('Compromisso d');
     expect(document.getElementById('linha-do-tempo')!.textContent).toContain('Compromisso b');
     const ids = [...document.querySelectorAll('[id]')].map((e) => e.id);
     expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([]);
-    expect(document.querySelectorAll('#ultimo-registro [id], #proximos [id]')).toHaveLength(0);
+    expect(document.querySelectorAll('#proximos [id]')).toHaveLength(0);
     expect(document.getElementById('ev-b')).not.toBeNull();
   });
 });
 
 describe('estados vazios e mensagens', () => {
-  it('aba Notícias sem notícias mostra mensagem', () => {
-    montar(document, { ...DADOS, noticias: [] }, { aba: 'noticias' }, HOJE, AGORA);
-    expect(document.getElementById('lista-noticias')!.textContent).toContain('Nenhuma notícia');
-  });
-
   it('linha do tempo vazia sem filtros não culpa os filtros', () => {
-    montar(document, { ...DADOS, eventos: [], mesesCarregados: [], mesesDisponiveis: [] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [], mesesCarregados: [], mesesDisponiveis: [] }, {}, HOJE, AGORA);
     const t = document.getElementById('linha-do-tempo')!.textContent!;
     expect(t).toContain('Ainda não há registros');
     expect(t).not.toContain('filtros');
@@ -183,23 +219,25 @@ describe('estados vazios e mensagens', () => {
   });
 
   it('meses recentes vazios, mas com meses anteriores: fala do período e oferece os anteriores', () => {
-    montar(document, { ...DADOS, eventos: [] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [] }, {}, HOJE, AGORA);
     expect(document.getElementById('linha-do-tempo')!.textContent).toBe('Nenhum registro neste período.');
     expect(document.getElementById('mais-antigos')!.hidden).toBe(false);
   });
 
-  it('não monta a lista de notícias na aba Linha do tempo', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
-    expect(document.getElementById('lista-noticias')!.children).toHaveLength(0);
+  it('a página de registros não mostra notícias, mesmo que os dados tragam alguma', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
+    expect(document.getElementById('lista-noticias')).toBeNull();
+    expect(document.getElementById('painel-noticias')).toBeNull();
+    expect(document.getElementById('conteudo')!.textContent).not.toContain('Manchete');
   });
 
   it('"dados atualizados" ignora data inválida e usa singular/plural de dias', () => {
     const com = (ultimaNovidadeEm: string) => ({ ...DADOS, estado: { ...DADOS.estado, ultimaNovidadeEm } });
-    montar(document, com('não-é-data'), { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, com('não-é-data'), {}, HOJE, AGORA);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('');
-    montar(document, com('2026-10-07T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, com('2026-10-07T14:00:00.000Z'), {}, HOJE, AGORA);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 1 dia');
-    montar(document, com('2026-10-05T14:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, com('2026-10-05T14:00:00.000Z'), {}, HOJE, AGORA);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 3 dias');
   });
 });
@@ -217,24 +255,19 @@ describe('texto hostil', () => {
       fontes: [fonteRuim('http://inseguro.example/x'), fonteRuim('javascript:alert(1)'), fonteRuim('https://www.gov.br/ok')],
     };
     const futuro: Evento = { ...hostil, id: 'h2', data: '2026-10-09', status: 'agendado' };
-    const news = { ...noticia, titulo: RUIM, veiculo: RUIM, url: 'javascript:alert(1)' };
-    const news2 = { ...noticia, id: 'n2', titulo: RUIM, veiculo: RUIM, url: 'http://inseguro.example/n' };
-    for (const aba of ['linha', 'noticias'] as const) {
-      document.documentElement.innerHTML = PAGINA();
-      montar(document, { ...DADOS, eventos: [hostil, futuro], noticias: [news, news2] }, { aba }, HOJE, AGORA);
-      const area = document.getElementById('conteudo')!;
-      expect(area.querySelectorAll('script, img')).toHaveLength(0);
-      expect(area.querySelectorAll('a[href^="http:"], a[href^="javascript:"]')).toHaveLength(0);
-      expect(area.textContent).toContain(RUIM);
-    }
+    montarRegistros(document, { ...DADOS, eventos: [hostil, futuro], noticias: [] }, {}, HOJE, AGORA);
+    const area = document.getElementById('conteudo')!;
+    expect(area.querySelectorAll('script, img')).toHaveLength(0);
+    expect(area.querySelectorAll('a[href^="http:"], a[href^="javascript:"]')).toHaveLength(0);
+    expect(area.textContent).toContain(RUIM);
     // a única fonte https vira link, na linha do tempo
     document.documentElement.innerHTML = PAGINA();
-    montar(document, { ...DADOS, eventos: [hostil], noticias: [] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: [hostil], noticias: [] }, {}, HOJE, AGORA);
     expect([...document.querySelectorAll('#linha-do-tempo .fontes a')].map((a) => a.getAttribute('href'))).toEqual(['https://www.gov.br/ok']);
-    // fora das fontes, os únicos links são os permanentes, sempre relativos à própria página
+    // fora das fontes, os únicos links são os permanentes, sempre relativos e para a página de registros
     const outros = [...document.querySelectorAll('#linha-do-tempo a:not(.fontes a)')].map((a) => a.getAttribute('href')!);
     expect(outros.length).toBeGreaterThan(0);
-    expect(outros.every((h) => h.startsWith('?de='))).toBe(true);
+    expect(outros.every((h) => h.startsWith('registros.html?de='))).toBe(true);
   });
 });
 
@@ -244,52 +277,52 @@ describe('período mostrado e meses anteriores (I5)', () => {
   const hrefMaisAntigos = () => maisAntigos().querySelector('a')!.getAttribute('href');
 
   it('sem datas, diz qual período foi consultado (os meses carregados até hoje) e quantos registros há', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     expect(texto('periodo')).toBe('Mostrando 01/09/2026 a 08/10/2026: 3 registros em 2 dias.');
   });
 
   it('filtro de tipo sem datas e sem resultado: não diz que "não existe", diz o período e oferece os meses anteriores', () => {
-    montar(document, DADOS, { aba: 'linha', tipo: 'comunicado' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { tipo: 'comunicado' }, HOJE, AGORA);
     expect(texto('periodo')).toBe('Mostrando 01/09/2026 a 08/10/2026.');
     expect(texto('linha-do-tempo')).toBe('Nenhum registro neste período.');
     expect(maisAntigos().hidden).toBe(false);
     expect(maisAntigos().textContent).toContain('Ver meses anteriores');
-    expect(hrefMaisAntigos()).toBe('?aba=linha&de=2026-08-01&tipo=comunicado');
+    expect(hrefMaisAntigos()).toBe('registros.html?de=2026-08-01&tipo=comunicado');
   });
 
   it('"Ver meses anteriores" recua um mês disponível por vez e mantém tipo, status e a data final', () => {
-    montar(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08'] },
-      { aba: 'linha', de: '2026-08-01', ate: '2026-10-07', tipo: 'agenda', status: 'realizado' }, HOJE, AGORA);
-    expect(hrefMaisAntigos()).toBe('?aba=linha&de=2026-07-01&ate=2026-10-07&tipo=agenda&status=realizado');
+    montarRegistros(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08'] },
+      { de: '2026-08-01', ate: '2026-10-07', tipo: 'agenda', status: 'realizado' }, HOJE, AGORA);
+    expect(hrefMaisAntigos()).toBe('registros.html?de=2026-07-01&ate=2026-10-07&tipo=agenda&status=realizado');
     expect(texto('periodo')).toBe('Mostrando 01/08/2026 a 07/10/2026: 1 registro em 1 dia.');
   });
 
   it('pula meses sem dados: vai para o mês anterior que existe', () => {
-    montar(document, { ...DADOS, mesesDisponiveis: ['2026-10', '2026-09', '2026-05'] }, { aba: 'linha' }, HOJE, AGORA);
-    expect(hrefMaisAntigos()).toBe('?aba=linha&de=2026-05-01');
+    montarRegistros(document, { ...DADOS, mesesDisponiveis: ['2026-10', '2026-09', '2026-05'] }, {}, HOJE, AGORA);
+    expect(hrefMaisAntigos()).toBe('registros.html?de=2026-05-01');
   });
 
   it('sem nada mais antigo, o link some', () => {
-    montar(document, { ...DADOS, mesesDisponiveis: ['2026-10', '2026-09'] }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, mesesDisponiveis: ['2026-10', '2026-09'] }, {}, HOJE, AGORA);
     expect(maisAntigos().hidden).toBe(true);
-    montar(document, { ...DADOS, mesesCarregados: ['2026-07'] }, { aba: 'linha', de: '2026-07-10', ate: '2026-07-20' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, mesesCarregados: ['2026-07'] }, { de: '2026-07-10', ate: '2026-07-20' }, HOJE, AGORA);
     expect(maisAntigos().hidden).toBe(true);
   });
 
   it('com filtro, registros futuros entram na linha do tempo e o período vai até o último deles', () => {
-    montar(document, DADOS, { aba: 'linha', tipo: 'agenda' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { tipo: 'agenda' }, HOJE, AGORA);
     expect(texto('periodo')).toBe('Mostrando 01/09/2026 a 09/10/2026: 3 registros em 3 dias.');
   });
 
   it('data inicial no futuro não vira um período invertido', () => {
-    montar(document, { ...DADOS, mesesCarregados: [] }, { aba: 'linha', de: '2030-01-01' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, mesesCarregados: [] }, { de: '2030-01-01' }, HOJE, AGORA);
     expect(texto('periodo')).toBe('Mostrando a partir de 01/01/2030.');
     expect(texto('linha-do-tempo')).toBe('Nenhum registro neste período.');
   });
 
   it('números grandes usam o formato brasileiro', () => {
     const muitos = Array.from({ length: 1500 }, (_, i) => ev(`m${i}`, '2026-10-07'));
-    montar(document, { ...DADOS, eventos: muitos }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, eventos: muitos }, {}, HOJE, AGORA);
     expect(texto('periodo')).toBe('Mostrando 01/09/2026 a 08/10/2026: 1.500 registros em 1 dia.');
   });
 });
@@ -304,7 +337,7 @@ describe('linha do tempo longa aparece aos poucos (I6)', () => {
   const botao = () => document.querySelector<HTMLButtonElement>('#mais-dias button');
 
   it('mostra os 60 dias mais recentes e um botão para os seguintes', () => {
-    montar(document, CEM_DIAS, { aba: 'linha', de: '2026-06-01' }, HOJE, AGORA);
+    montarRegistros(document, CEM_DIAS, { de: '2026-06-01' }, HOJE, AGORA);
     expect(dias()).toHaveLength(60);
     expect(dias()[0].querySelector('time')!.getAttribute('datetime')).toBe('2026-10-07');
     expect(botao()!.textContent).toBe('Mostrar mais dias');
@@ -316,7 +349,7 @@ describe('linha do tempo longa aparece aos poucos (I6)', () => {
   });
 
   it('o botão acrescenta o lote seguinte, leva o foco ao primeiro dia novo e some quando acaba', () => {
-    montar(document, CEM_DIAS, { aba: 'linha', de: '2026-06-01' }, HOJE, AGORA);
+    montarRegistros(document, CEM_DIAS, { de: '2026-06-01' }, HOJE, AGORA);
     const primeiro = dias()[0];
     botao()!.click();
     expect(dias()).toHaveLength(100);
@@ -332,7 +365,7 @@ describe('linha do tempo longa aparece aos poucos (I6)', () => {
 
   it('com mais de dois lotes o botão continua até o fim', () => {
     const muitos = { ...CEM_DIAS, eventos: Array.from({ length: 130 }, (_, i) => ev(`d${i}`, dia(i))) };
-    montar(document, muitos, { aba: 'linha', de: '2026-05-01' }, HOJE, AGORA);
+    montarRegistros(document, muitos, { de: '2026-05-01' }, HOJE, AGORA);
     botao()!.click();
     expect(dias()).toHaveLength(120);
     expect(document.getElementById('mais-dias')!.textContent).toContain('120 de 130 dias');
@@ -342,13 +375,13 @@ describe('linha do tempo longa aparece aos poucos (I6)', () => {
   });
 
   it('poucos dias: sem botão', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     expect(botao()).toBeNull();
     expect(document.getElementById('mais-dias')!.hidden).toBe(true);
   });
 
   it('nada de handler inline (CSP) e axe limpo com o botão visível', async () => {
-    montar(document, CEM_DIAS, { aba: 'linha', de: '2026-06-01' }, HOJE, AGORA);
+    montarRegistros(document, CEM_DIAS, { de: '2026-06-01' }, HOJE, AGORA);
     expect(document.querySelectorAll('[onclick], [style]')).toHaveLength(0);
     const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
     expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
@@ -360,7 +393,7 @@ describe('dados sem alteração há muito tempo (I3/N2)', () => {
   const aviso = () => document.getElementById('aviso-desatualizado') as HTMLElement;
 
   it('mais de 24 horas sem gravação: diz quando foi a última alteração, sem afirmar que a coleta parou', () => {
-    montar(document, com('2026-10-07T08:00:00.000Z'), { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, com('2026-10-07T08:00:00.000Z'), {}, HOJE, AGORA);
     expect(aviso().hidden).toBe(false);
     expect(aviso().textContent).toBe('Última alteração nos dados: 07/10/2026 às 05:00 (horário de Brasília). Se as fontes publicaram algo depois disso, ainda não aparece aqui.');
     expect(aviso().getAttribute('role')).toBe('status');
@@ -368,53 +401,48 @@ describe('dados sem alteração há muito tempo (I3/N2)', () => {
 
   it('madrugada parada (12 horas sem notícia nova) não gera aviso; até 24 horas também não', () => {
     for (const quando of ['2026-10-08T03:00:00.000Z', '2026-10-07T15:00:00.000Z']) {
-      montar(document, com(quando), { aba: 'linha' }, HOJE, AGORA);
+      montarRegistros(document, com(quando), {}, HOJE, AGORA);
       expect(aviso().hidden).toBe(true);
       expect(aviso().textContent).toBe('');
     }
   });
 
   it('sem data conhecida não afirma nada', () => {
-    montar(document, { ...DADOS, estado: { fontes: {} } }, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, estado: { fontes: {} } }, {}, HOJE, AGORA);
     expect(aviso().hidden).toBe(true);
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('');
   });
 
-  it('o aviso também aparece na aba Notícias', () => {
-    montar(document, com('2026-10-06T08:00:00.000Z'), { aba: 'noticias' }, HOJE, AGORA);
-    expect(aviso().textContent).toContain('Última alteração nos dados: 06/10/2026 às 05:00');
-  });
 });
 
 describe('período não sugere cobertura que não existe', () => {
   it('"de" anterior ao primeiro mês com dados: o período começa no primeiro mês disponível', () => {
-    montar(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08', '2026-07'] }, { aba: 'linha', de: '2020-01-01' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08', '2026-07'] }, { de: '2020-01-01' }, HOJE, AGORA);
     expect(document.getElementById('periodo')!.textContent).toMatch(/^Mostrando 01\/07\/2026 a /);
     expect(document.getElementById('mais-antigos')!.hidden).toBe(true);
   });
   it('"de" dentro dos dados continua como foi pedido', () => {
-    montar(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08'] }, { aba: 'linha', de: '2026-08-15' }, HOJE, AGORA);
+    montarRegistros(document, { ...DADOS, mesesCarregados: ['2026-10', '2026-09', '2026-08'] }, { de: '2026-08-15' }, HOJE, AGORA);
     expect(document.getElementById('periodo')!.textContent).toMatch(/^Mostrando 15\/08\/2026 a /);
   });
 });
 
-describe('filtros não empurram os destaques (spec §1)', () => {
+describe('filtros não empurram a lista (spec §1)', () => {
   const caixa = () => document.getElementById('caixa-filtros') as HTMLDetailsElement;
   const antes = (a: Element, b: Element) => Boolean(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
 
-  it('o formulário fica recolhido e vem depois de "Último registro" e "Próximos compromissos"', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+  it('o formulário fica recolhido e vem depois de "Próximos compromissos"', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     expect(caixa().tagName).toBe('DETAILS');
     expect(caixa().open).toBe(false);
     expect(caixa().querySelector('summary')!.textContent).toMatch(/Filtrar/);
     expect(caixa().querySelector('form#filtros')).not.toBeNull();
-    expect(antes(document.getElementById('bloco-ultimo')!, caixa())).toBe(true);
     expect(antes(document.getElementById('bloco-proximos')!, caixa())).toBe(true);
     expect(antes(caixa(), document.getElementById('linha-do-tempo')!)).toBe(true);
   });
 
   it('com filtro ativo o formulário abre, para o filtro em uso ficar à vista', async () => {
-    montar(document, DADOS, { aba: 'linha', tipo: 'ato' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { tipo: 'ato' }, HOJE, AGORA);
     expect(caixa().open).toBe(true);
     const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
     expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
@@ -422,23 +450,23 @@ describe('filtros não empurram os destaques (spec §1)', () => {
 });
 
 describe('link permanente (spec §7.4)', () => {
-  it('cada item da linha do tempo e dos destaques tem link visível para o próprio dia e âncora', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+  it('cada item da linha do tempo e dos próximos tem link visível para o próprio dia e âncora', () => {
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     const link = document.querySelector('#ev-b a.permalink')!;
     expect(link.textContent).toBe('Link permanente');
     expect(link.getAttribute('aria-label')).toBe('Link permanente: Compromisso b');
-    expect(link.getAttribute('href')).toBe('?de=2026-10-07&ate=2026-10-07#ev-b');
+    expect(link.getAttribute('href')).toBe('registros.html?de=2026-10-07&ate=2026-10-07#ev-b');
     expect(document.querySelectorAll('#linha-do-tempo a.permalink')).toHaveLength(3);
-    expect(document.querySelector('#proximos a.permalink')!.getAttribute('href')).toBe('?de=2026-10-09&ate=2026-10-09#ev-d');
+    expect(document.querySelector('#proximos a.permalink')!.getAttribute('href')).toBe('registros.html?de=2026-10-09&ate=2026-10-09#ev-d');
   });
 
   it('abrir o link mostra o item: a página do dia contém a âncora, mesmo para compromisso futuro', () => {
-    montar(document, DADOS, { aba: 'linha', de: '2026-10-09', ate: '2026-10-09' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, { de: '2026-10-09', ate: '2026-10-09' }, HOJE, AGORA);
     expect(document.getElementById('ev-d')).not.toBeNull();
   });
 
   it('irParaAncora rola até o item da âncora e o destaca', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     const alvo = document.getElementById('ev-b')!;
     alvo.scrollIntoView = vi.fn();
     irParaAncora(document, '#ev-b');
@@ -448,7 +476,7 @@ describe('link permanente (spec §7.4)', () => {
   });
 
   it('irParaAncora ignora âncora vazia, inexistente, malformada ou que pareça seletor', () => {
-    montar(document, DADOS, { aba: 'linha' }, HOJE, AGORA);
+    montarRegistros(document, DADOS, {}, HOJE, AGORA);
     const espiao = vi.fn();
     for (const e of document.querySelectorAll<HTMLElement>('*')) e.scrollIntoView = espiao;
     for (const hash of ['', '#', '#nao-existe', '#%E0%A4%A', '#linha-do-tempo .evento', '#ev-b, #ev-a', '#"]<img src=x>']) {

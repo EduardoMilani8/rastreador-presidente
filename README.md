@@ -9,10 +9,12 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 
 ## O que você encontra no site
 
-- **Linha do tempo** com os compromissos da agenda oficial e os atos publicados no Diário Oficial (decretos, leis e
-  medidas provisórias), do mais recente para o mais antigo, desde 01/01/2023.
+- **Registros** (e, na página inicial, a Capa com os últimos dias) com os compromissos da agenda oficial e os
+  atos publicados no Diário Oficial (decretos, leis e medidas provisórias), do mais recente para o mais antigo,
+  desde 01/01/2023.
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.
-- **Notícias** numa aba separada: o que a imprensa publicou, sem misturar com o registro oficial.
+- **Notícias**, uma página separada (o site tem quatro: Capa, Registros, Notícias e Sobre): o que a imprensa
+  publicou, sem misturar com o registro oficial.
 - **Fonte em tudo**: cada item tem link para o documento público de origem. Item sem fonte não entra.
 - **[Sobre e metodologia](https://rastreadordopresidente.com.br/sobre.html)**: o que cada status
   significa e os limites do que o site consegue saber.
@@ -24,7 +26,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 | Agenda do Presidente (gov.br/planalto) | Compromissos publicados pelo governo |
 | Diário Oficial da União (in.gov.br) | Decretos numerados, leis e medidas provisórias |
 | Comunicados do Planalto | Avisos de pauta publicados pelo governo |
-| Google Notícias e Agência Brasil | Títulos e links da imprensa (aba Notícias) |
+| Google Notícias e Agência Brasil | Títulos e links da imprensa (página Notícias) |
 
 Um robô consulta essas fontes a cada 10 minutos, guarda o resultado em arquivos JSON na pasta [`data/`](data/) e
 republica o site. Tudo acontece aqui no repositório, à vista de todos: o código, os dados e o histórico de cada

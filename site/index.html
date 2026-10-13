@@ -6,76 +6,58 @@
   <title>Rastreador do Presidente</title>
   <meta name="description" content="O que o Presidente da República fez e o que consta na agenda oficial, com a fonte pública de cada item.">
   <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./src/main.ts"></script>
+  <script type="module" src="./src/main-painel.ts"></script>
 </head>
 <body>
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
   <header class="topo">
-    <h1>Rastreador do Presidente</h1>
-    <p id="ultima-novidade" class="discreto"></p>
-    <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
-    <p id="aviso-fontes" class="aviso" role="status" hidden></p>
-    <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
-    <nav aria-label="Seções do site" class="abas">
-      <a id="aba-linha" href="?aba=linha">Linha do tempo</a>
-      <a id="aba-noticias" href="?aba=noticias">Notícias</a>
-      <a href="sobre.html">Sobre e metodologia</a>
-    </nav>
+    <div class="faixa">
+      <div class="faixa-dentro">
+        <a class="marca" href="./">Rastreador do Presidente</a>
+        <p class="datado"><span id="hoje"></span> <span id="ultima-novidade"></span></p>
+        <nav aria-label="Seções do site" class="abas">
+          <a href="./" aria-current="page">Capa</a>
+          <a id="aba-linha" href="registros.html">Registros</a>
+          <a id="aba-noticias" href="noticias.html">Notícias</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
+    </div>
+    <div class="avisos">
+      <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
+      <p id="aviso-fontes" class="aviso" role="status" hidden></p>
+      <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
+    </div>
   </header>
 
-  <main id="conteudo">
-    <div id="painel-linha">
-      <section id="bloco-ultimo" aria-labelledby="t-ultimo">
-        <h2 id="t-ultimo">Último registro</h2>
-        <div id="ultimo-registro"></div>
-      </section>
-      <section id="bloco-proximos" aria-labelledby="t-proximos">
-        <h2 id="t-proximos">Próximos compromissos</h2>
-        <ol id="proximos" class="lista"></ol>
-      </section>
-      <section aria-labelledby="t-linha">
-        <h2 id="t-linha">Linha do tempo</h2>
-        <details id="caixa-filtros" class="caixa-filtros">
-          <summary>Filtrar por data, tipo ou status</summary>
-          <form id="filtros" class="filtros" method="get" action="">
-            <input type="hidden" name="aba" value="linha">
-            <label>De <input type="date" name="de"></label>
-            <label>Até <input type="date" name="ate"></label>
-            <label>Tipo
-              <select name="tipo">
-                <option value="">Todos</option>
-                <option value="agenda">Agenda</option>
-                <option value="ato">Atos oficiais</option>
-                <option value="comunicado">Comunicados do Planalto</option>
-              </select>
-            </label>
-            <label>Status
-              <select name="status">
-                <option value="">Todos</option>
-                <option value="agendado">Agendado</option>
-                <option value="consta_na_agenda">Consta na agenda</option>
-                <option value="realizado">Realizado</option>
-                <option value="publicado">Publicado</option>
-                <option value="alterado">Alterado</option>
-                <option value="removido">Removido</option>
-              </select>
-            </label>
-            <button type="submit">Filtrar</button>
-            <a href="?aba=linha">Limpar filtros</a>
-          </form>
-        </details>
-        <p id="periodo" class="discreto"></p>
-        <div id="linha-do-tempo"></div>
-        <p id="mais-dias" class="mais" hidden></p>
-        <p id="mais-antigos" class="mais" hidden><a href="?aba=linha">Ver meses anteriores</a></p>
-      </section>
-    </div>
+  <main id="conteudo" class="painel">
+    <h1 class="so-leitor">A agenda e os atos do presidente</h1>
+    <noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>
 
-    <div id="painel-noticias" hidden>
-      <h2>Notícias</h2>
-      <p class="aviso-imprensa">Aqui está o que a imprensa publica sobre o presidente. Não são registros oficiais do que ele fez.</p>
-      <ul id="lista-noticias" class="lista"></ul>
-    </div>
+    <ul id="resumo" class="resumo" hidden></ul>
+
+    <section aria-labelledby="t-linha" class="bloco-linha">
+      <h2 id="t-linha">Linha do tempo</h2>
+      <ul class="legenda-linha">
+        <li><span class="marca marca-agenda tam-2" aria-hidden="true"></span> Agenda</li>
+        <li><span class="marca marca-ato tam-2" aria-hidden="true"></span> Ato</li>
+        <li><span class="marca marca-comunicado tam-2" aria-hidden="true"></span> Comunicado</li>
+      </ul>
+      <p class="dica-linha">Arraste para ver outros dias.</p>
+      <div id="linha-rolagem" class="linha-rolagem">
+        <ol id="linha-dias" class="linha-dias"></ol>
+      </div>
+      <div id="detalhe-dia" class="detalhe-dia"></div>
+    </section>
+
+    <section id="secao-viagens" class="bloco-viagens" aria-labelledby="t-viagens" hidden>
+      <h2 id="t-viagens">Viagens internacionais</h2>
+      <p class="viagens-nota"><span id="resumo-viagens"></span> com compromissos na agenda oficial desde 2023. Cada número é o mínimo confirmado. <a href="sobre.html#viagens">Como reconhecemos as cidades</a>.</p>
+      <div class="viagens-corpo">
+        <div id="mapa-viagens" class="mapa" hidden></div>
+        <div id="lista-viagens"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="rodape">
