@@ -60,3 +60,12 @@ Para trocar, acrescente um item à lista (mantendo o anterior, que continua vale
 - `nomes` é usado para buscar notícias e reconhecer comunicados que citam o presidente.
 - Depois do commit, rode o workflow à mão (**Actions → Run workflow**) e confira se a agenda do dia apareceu.
 - Revise também `site/sobre.html` se o texto citar algo específico do mandato anterior.
+
+## Prévia de link (imagem e texto ao compartilhar)
+
+As quatro páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
+porque quem monta a prévia lê a página de fora e não resolve caminho relativo. Se o domínio mudar, troque o endereço
+nas quatro páginas de `site/` e em `tests/site/paginas.test.ts`.
+
+A imagem é `site/public/capa-social.png` (1200 × 630). Para refazê-la depois de mudar fontes ou cores:
+`python3 scripts/gerar-capa-social.py` (precisa do Pillow).

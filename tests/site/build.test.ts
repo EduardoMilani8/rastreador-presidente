@@ -30,6 +30,7 @@ describe('build de produção', () => {
     }
     expect(readFileSync('dist/sobre.html', 'utf8')).not.toMatch(/<script/);
     expect(existsSync('dist/data') || !existsSync('data')).toBe(true);
+    expect(existsSync('dist/capa-social.png')).toBe(true);
   }, 120_000);
 
   it('publica as fontes .woff2 (até 90 kB) e o CSS só aponta para elas, em caminho relativo', () => {
