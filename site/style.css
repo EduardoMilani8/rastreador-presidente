@@ -39,7 +39,7 @@ a { color: var(--texto); text-underline-offset: 3px; text-decoration-thickness: 
 .faixa-dentro, .avisos, main, .rodape p { box-sizing: content-box; max-width: 62rem; margin: 0 auto; padding: 0 clamp(16px, 4vw, 24px); }
 .faixa-dentro { display: grid; gap: 10px; padding-top: 16px; }
 .faixa-dentro::before { content: ''; border-top: 4px solid var(--texto); }
-.faixa .marca { color: var(--texto); font-size: var(--t-titulo); font-weight: 500; line-height: 1; letter-spacing: -.025em; text-decoration: none; text-wrap: balance; }
+.faixa .marca { display: inline-block; margin-block: -6px; padding-block: 6px; color: var(--texto); font-size: var(--t-titulo); font-weight: 500; line-height: 1; letter-spacing: -.025em; text-decoration: none; text-wrap: balance; }
 .datado { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 20px; margin: 0; padding: 7px 0; border-block: 1px solid var(--texto); min-height: 2rem; }
 .datado:has(> #hoje:empty) { border-color: transparent; }
 .abas { display: flex; flex-wrap: wrap; gap: 0 22px; border-bottom: 1px solid var(--linha); }

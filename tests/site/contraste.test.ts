@@ -112,6 +112,15 @@ describe('guardas da folha de estilo', () => {
     expect([...css.matchAll(/scroll-margin-top:\s*([^;}]+)/g)].map((m) => m[1].trim())).not.toContain('6rem');
   });
 
+  it('o link do título tem pelo menos 44 px de altura para toque, sem deslocar o cabeçalho', () => {
+    const regra = css.match(/\.faixa \.marca\s*\{([^}]*)\}/)![1];
+    // letra mínima de 2rem (32 px) com line-height 1, mais 6 px acima e abaixo; a margem negativa devolve o espaço
+    expect(css).toMatch(/--t-titulo:\s*clamp\(2rem,/);
+    expect(regra).toMatch(/display:\s*inline-block/);
+    expect(regra).toMatch(/padding-block:\s*6px/);
+    expect(regra).toMatch(/margin-block:\s*-6px/);
+  });
+
   it('a dica de arrastar só aparece onde a faixa de dias não cabe inteira', () => {
     expect(css).toMatch(/@media \(min-width: 58rem\)\s*\{[^@]*\.dica-linha\s*\{\s*display:\s*none/);
   });
