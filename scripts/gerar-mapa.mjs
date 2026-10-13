@@ -61,6 +61,19 @@ function projetar([lon, lat]) {
   return [x, y];
 }
 
+// Um anel que cruza o meridiano de 180° (a ponta leste da Rússia) tem dois saltos de um lado ao outro do mapa.
+// Dividido nesses dois pontos, vira dois anéis, um em cada borda.
+function dividirNaBorda(pontos) {
+  const saltos = [];
+  pontos.forEach(([x], i) => {
+    const [xSeguinte] = pontos[(i + 1) % pontos.length];
+    if (Math.abs(xSeguinte - x) > LARGURA / 2) saltos.push(i);
+  });
+  if (saltos.length !== 2) return [pontos];
+  const [i, j] = saltos;
+  return [pontos.slice(i + 1, j + 1), [...pontos.slice(j + 1), ...pontos.slice(0, i + 1)]];
+}
+
 let totalAneis = 0;
 let totalPontos = 0;
 const partes = [];
@@ -75,16 +88,18 @@ for (const bruto of aneis) {
     const ultimo = pontos[pontos.length - 1];
     if (primeiro[0] === ultimo[0] && primeiro[1] === ultimo[1]) pontos.pop(); // o Z já fecha o anel
   }
-  if (pontos.length < 4) continue;
-  const xs = pontos.map(([x]) => x);
-  const ys = pontos.map(([, y]) => y);
-  // Anel achatado pelo recorte (a Antártida vira uma linha na borda de baixo) não tem área para pintar.
-  if (Math.max(...ys) === Math.min(...ys)) continue;
-  // Ilha pequena cortada pela linha de data (Fiji, Wrangel) viraria um risco de um lado ao outro do mapa.
-  if (pontos.length < 20 && Math.max(...xs) - Math.min(...xs) > LARGURA / 2) continue;
-  totalAneis += 1;
-  totalPontos += pontos.length;
-  partes.push(`M${pontos.map(([x, y]) => `${x} ${y}`).join('L')}Z`);
+  for (const parte of dividirNaBorda(pontos)) {
+    if (parte.length < 4) continue;
+    const xs = parte.map(([x]) => x);
+    const ys = parte.map(([, y]) => y);
+    // Anel achatado pelo recorte (a Antártida vira uma linha na borda de baixo) não tem área para pintar.
+    if (Math.max(...ys) === Math.min(...ys)) continue;
+    // Ilha pequena cortada pela linha de data (Fiji, Wrangel) viraria um risco de um lado ao outro do mapa.
+    if (parte.length < 20 && Math.max(...xs) - Math.min(...xs) > LARGURA / 2) continue;
+    totalAneis += 1;
+    totalPontos += parte.length;
+    partes.push(`M${parte.map(([x, y]) => `${x} ${y}`).join('L')}Z`);
+  }
 }
 
 const saida = `// Arquivo gerado por scripts/gerar-mapa.mjs a partir do pacote world-atlas@2.0.2 (land-110m.json).

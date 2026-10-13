@@ -99,6 +99,15 @@ describe('contorno gerado: sem riscos', () => {
       if (anel.length < 20) expect(Math.max(...xs) - Math.min(...xs)).toBeLessThanOrEqual(LARGURA / 2);
     }
   });
+
+  it('nenhum segmento salta mais de meio mapa na horizontal', () => {
+    for (const anel of aneis) {
+      anel.forEach(([x], i) => {
+        const [xSeguinte] = anel[(i + 1) % anel.length];
+        expect(Math.abs(xSeguinte - x)).toBeLessThanOrEqual(LARGURA / 2);
+      });
+    }
+  });
 });
 
 describe('montarViagens: lista', () => {
