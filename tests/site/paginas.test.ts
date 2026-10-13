@@ -33,7 +33,34 @@ const IDS_REGISTROS = [
   'mais-antigos',
 ];
 
+const DOMINIO = 'https://rastreadordopresidente.com.br/';
+const IMAGEM_SOCIAL = 'capa-social.png';
+
+describe('imagem da prévia de link', () => {
+  it('é um PNG de 1200 × 630 com menos de 150 kB, em site/public (o Vite copia para a raiz do site)', () => {
+    const png = readFileSync(resolve(process.cwd(), 'site/public', IMAGEM_SOCIAL));
+    expect(png.subarray(1, 4).toString('latin1')).toBe('PNG');
+    expect([png.readUInt32BE(16), png.readUInt32BE(20)]).toEqual([1200, 630]);
+    expect(png.length).toBeLessThan(150_000);
+  });
+});
+
 describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
+  it('tem as marcações de prévia de link (Open Graph), iguais ao título e à descrição da página', () => {
+    abrir(arquivo);
+    const og = (nome: string) => document.querySelector(`meta[property="og:${nome}"]`)?.getAttribute('content');
+    expect(og('title')).toBe(document.querySelector('title')!.textContent);
+    expect(og('description')).toBe(document.querySelector('meta[name=description]')!.getAttribute('content'));
+    expect(og('description')!.length).toBeGreaterThan(40);
+    // endereços absolutos: quem monta a prévia lê a página de fora e não resolve caminho relativo
+    expect(og('url')).toBe(DOMINIO + (arquivo === 'index.html' ? '' : arquivo));
+    expect(og('image')).toBe(DOMINIO + IMAGEM_SOCIAL);
+    expect([og('image:width'), og('image:height')]).toEqual(['1200', '630']);
+    expect(og('image:alt')).toBe('Rastreador do Presidente: a agenda oficial e os atos do Presidente da República, com a fonte pública de cada registro.');
+    expect([og('type'), og('site_name'), og('locale')]).toEqual(['website', 'Rastreador do Presidente', 'pt_BR']);
+    expect(document.querySelector('meta[name="twitter:card"]')!.getAttribute('content')).toBe('summary_large_image');
+  });
+
   it('tem um só h1, link de pular e main#conteudo', () => {
     abrir(arquivo);
     expect(document.querySelectorAll('h1')).toHaveLength(1);
