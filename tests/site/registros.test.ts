@@ -155,17 +155,16 @@ describe('item removido', () => {
 });
 
 describe('estrutura da página', () => {
-  it('marca e navegação ficam na faixa; os avisos, no cabeçalho e fora dela; a última alteração, abaixo do título', () => {
+  it('marca, data e navegação ficam na faixa; os avisos, no cabeçalho e fora dela', () => {
     const faixa = document.querySelector('header.topo > .faixa')!;
     expect(faixa.querySelector('a.marca')!.textContent).toBe('Rastreador do Presidente');
     expect(faixa.querySelector('h1')).toBeNull();
-    expect(faixa.querySelector('#ultima-novidade')).toBeNull();
+    expect(faixa.querySelector('.datado > #ultima-novidade')).not.toBeNull();
     expect(faixa.querySelectorAll('nav.abas a')).toHaveLength(4);
     for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
       expect(document.querySelector(`header.topo > .avisos > #${id}`), id).not.toBeNull();
     }
     expect(document.querySelector('main > h1')!.textContent).toBe('Registros');
-    expect(document.querySelector('main > h1 + #ultima-novidade')).not.toBeNull();
   });
 
   it('a lateral só tem os próximos compromissos e vem antes da linha do tempo na ordem de leitura', () => {

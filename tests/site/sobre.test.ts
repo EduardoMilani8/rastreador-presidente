@@ -142,21 +142,21 @@ describe('site/sobre.html', () => {
 
   it('explica o painel da página inicial', () => {
     const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
-    expect(texto).toContain('O painel da página inicial mostra os 21 dias mais recentes.');
+    expect(texto).toContain('A capa mostra os 21 dias mais recentes.');
     expect(texto).toContain('O tamanho de cada marca indica quantos registros há no dia.');
     expect(texto).toContain('Compromissos removidos da agenda não aumentam a marca, mas são informados no texto do dia.');
     expect(texto).toContain('O detalhe do dia lista até três itens; a lista completa, com as fontes, está em Registros.');
-    expect(texto).toContain('Os números do alto do painel só aparecem quando o total calculado pela coleta está disponível.');
-    expect([...document.querySelectorAll('.limites li')].at(-3)!.textContent).toMatch(/^O painel da página inicial/);
+    expect(texto).toContain('Os números do alto da capa só aparecem quando o total calculado pela coleta está disponível.');
+    expect([...document.querySelectorAll('.limites li')].at(-3)!.textContent).toMatch(/^A capa/);
   });
 
   it('o h2 dos passos não repete o título da página', () => {
     expect([...document.querySelectorAll('main h2')].map((h) => h.textContent)).not.toContain('Como funciona');
   });
 
-  it('diz o que os números do alto do painel contam', () => {
+  it('diz o que os números do alto da capa contam', () => {
     const texto = document.querySelector('.limites')!.textContent!.replace(/\s+/g, ' ');
-    expect(texto).toContain('Os números do alto do painel contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial e comunicados do Planalto, desde 01/01/2023. Compromisso que saiu da agenda oficial continua na contagem, porque continua guardado e aparece nos registros como "Removido da agenda".');
+    expect(texto).toContain('Os números do alto da capa contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial e comunicados do Planalto, desde 01/01/2023. Compromisso que saiu da agenda oficial continua na contagem, porque continua guardado e aparece nos registros como "Removido da agenda".');
   });
 
   it('diz que o site não mostra gastos, e a palavra só aparece nesse item', () => {
@@ -170,8 +170,8 @@ describe('site/sobre.html', () => {
 
   it('os dois itens novos vêm depois do item do painel, nessa ordem', () => {
     const itens = [...document.querySelectorAll('.limites li')].map((li) => li.textContent!);
-    const painel = itens.findIndex((t) => t.startsWith('O painel da página inicial'));
-    expect(itens[painel + 1]).toMatch(/^Os números do alto do painel contam tudo/);
+    const painel = itens.findIndex((t) => t.startsWith('A capa'));
+    expect(itens[painel + 1]).toMatch(/^Os números do alto da capa contam tudo/);
     expect(itens[painel + 2]).toMatch(/^O site não mostra gastos\./);
   });
 

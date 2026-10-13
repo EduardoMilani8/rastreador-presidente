@@ -6,7 +6,7 @@ correspondente precisa mudar junto.
 
 ## Números do topo (`data/resumo.json`)
 
-- Os números do alto do painel contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial
+- Os números do alto da capa contam tudo o que está guardado no site: compromissos da agenda, atos do Diário Oficial
   e comunicados do Planalto, desde 01/01/2023.
 - Compromisso que saiu da agenda oficial continua na contagem, porque continua guardado e aparece nos registros como
   "Removido da agenda".

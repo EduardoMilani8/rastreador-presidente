@@ -15,13 +15,13 @@ const abrir = (arq: string): string => {
 };
 
 const NAVEGACAO = [
-  ['./', 'Painel'],
+  ['./', 'Capa'],
   ['registros.html', 'Registros'],
   ['noticias.html', 'Notícias'],
   ['sobre.html', 'Sobre'],
 ];
 const PAGINAS = [
-  { arquivo: 'index.html', atual: 'Painel' },
+  { arquivo: 'index.html', atual: 'Capa' },
   { arquivo: 'registros.html', atual: 'Registros' },
   { arquivo: 'noticias.html', atual: 'Notícias' },
   { arquivo: 'sobre.html', atual: 'Sobre' },
@@ -42,11 +42,15 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
     expect(document.querySelector('main')!.id).toBe('conteudo');
   });
 
-  it('o cabeçalho só tem a marca e a navegação: o h1 é o primeiro elemento do main', () => {
+  it('o cabeçalho tem a marca, a faixa de data (nas páginas com dados) e a navegação; o h1 é o primeiro elemento do main', () => {
     abrir(arquivo);
     expect(document.querySelector('header h1')).toBeNull();
     expect(document.querySelector('main > h1:first-child')).not.toBeNull();
-    expect([...document.querySelector('.faixa-dentro')!.children].map((e) => e.tagName)).toEqual(['A', 'NAV']);
+    const esperado = arquivo === 'sobre.html' ? ['A', 'NAV'] : ['A', 'P', 'NAV'];
+    expect([...document.querySelector('.faixa-dentro')!.children].map((e) => e.tagName)).toEqual(esperado);
+    if (arquivo !== 'sobre.html') {
+      expect([...document.querySelector('.faixa-dentro > p.datado')!.children].map((e) => e.id)).toEqual(['hoje', 'ultima-novidade']);
+    }
   });
 
   it('tem a marca e a navegação iguais às das outras páginas, com a página atual marcada', () => {
@@ -93,7 +97,7 @@ describe('o que cada página contém', () => {
     const html = ler(arquivo);
     const aviso = '<noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>';
     expect(html).toContain(aviso);
-    expect(html.indexOf(aviso)).toBeGreaterThan(html.indexOf('<h1>'));
+    expect(html.indexOf(aviso)).toBeGreaterThan(html.indexOf('<h1'));
     expect(html.indexOf(aviso)).toBeLessThan(html.indexOf('</main>'));
   });
 
@@ -113,7 +117,7 @@ describe('o que cada página contém', () => {
     expect(document.getElementById('ultimo-registro')).toBeNull();
     expect(document.getElementById('painel-noticias')).toBeNull();
     expect(document.querySelector('h1')!.textContent).toBe('Registros');
-    expect(document.querySelector('main > h1 + #ultima-novidade')).not.toBeNull();
+    expect(document.querySelector('header.topo .datado > #ultima-novidade')).not.toBeNull();
     expect(document.title).toBe('Registros — Rastreador do Presidente');
   });
 
@@ -123,13 +127,14 @@ describe('o que cada página contém', () => {
     expect(document.querySelector('#painel-noticias .aviso-imprensa')!.textContent).toContain('Não são registros oficiais');
     expect(document.getElementById('painel-linha')).toBeNull();
     expect(document.querySelector('h1')!.textContent).toBe('O que a imprensa publica');
-    expect(document.querySelector('main > h1 + #ultima-novidade')).not.toBeNull();
+    expect(document.querySelector('header.topo .datado > #ultima-novidade')).not.toBeNull();
   });
 
-  it('index.html é o painel: título, última alteração e nada das outras páginas', () => {
+  it('index.html é a capa: título só para leitor de tela e nada das outras páginas', () => {
     abrir('index.html');
     expect(document.querySelector('main > h1')!.textContent).toBe('A agenda e os atos do presidente');
-    expect(document.querySelector('main > h1 + #ultima-novidade')).not.toBeNull();
+    expect(document.querySelector('main > h1')!.classList.contains('so-leitor')).toBe(true);
+    expect(document.querySelector('header.topo .datado > #ultima-novidade')).not.toBeNull();
     expect(document.getElementById('painel-linha')).toBeNull();
     expect(document.getElementById('painel-noticias')).toBeNull();
   });
@@ -164,6 +169,7 @@ describe('montarComum no painel', () => {
       estado: { fontes: { dou: { ok: false, desde: T, mensagem: 'x' } }, ultimaNovidadeEm: '2026-10-07T08:00:00.000Z' },
       incompleto: true,
     }, AGORA);
+    expect(document.getElementById('hoje')!.textContent).toBe('quinta-feira, 8 de outubro de 2026');
     expect(document.getElementById('ultima-novidade')!.textContent).toBe('Última alteração nos dados há 1 dia');
     expect(document.getElementById('aviso-desatualizado')!.textContent).toContain('Última alteração nos dados: 07/10/2026 às 05:00');
     expect(document.getElementById('aviso-fontes')!.textContent).toContain('Diário Oficial');

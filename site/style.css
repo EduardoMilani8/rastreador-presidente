@@ -27,6 +27,7 @@ a { color: var(--link); text-underline-offset: 2px; }
 :focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
 .pular { position: absolute; left: -999px; }
 .pular:focus { left: 8px; top: 8px; background: var(--cartao); padding: 12px; z-index: 10; }
+.so-leitor { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 
 /* Cabeçalho, avisos e rodapé */
 .faixa-dentro, .avisos, main, .rodape p { box-sizing: content-box; max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 24px); }

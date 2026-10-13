@@ -1,5 +1,7 @@
 import type { EstadoFontes } from '../../src/shared/schema';
 import type { Dados } from './dados';
+import { dataSaoPaulo } from '../../src/shared/text';
+import { formatarDataLonga } from './render';
 
 const NOME_FONTE: Record<string, string> = {
   agenda: 'Agenda do Planalto',
@@ -47,6 +49,10 @@ function textoAviso(estado: EstadoFontes): string | null {
 /** O que toda página com dados mostra: há quanto tempo os dados mudaram e os três avisos do cabeçalho. */
 export function montarComum(doc: Document, dados: Pick<Dados, 'estado' | 'incompleto'>, agora: Date): void {
   const $ = (id: string) => doc.getElementById(id) as HTMLElement;
+
+  // Sobre não tem a faixa de data: lá este elemento não existe.
+  const hoje = doc.getElementById('hoje');
+  if (hoje) hoje.textContent = formatarDataLonga(dataSaoPaulo(agora));
 
   const quando = dados.estado.ultimaNovidadeEm ? haQuanto(dados.estado.ultimaNovidadeEm, agora) : null;
   $('ultima-novidade').textContent = quando ? `Última alteração nos dados ${quando}` : '';
