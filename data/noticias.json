@@ -40,6 +40,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:1ac8941ffb0c",
+    "titulo": "Lula anuncia pacote para MEIs com perdão de dívidas, crédito e aumento do teto de faturamento para R$ 140 mil",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-13T17:11:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWW1YUE0ySGNaZVQwRnhlaXN1MTgwWE84d2dFazhyNGgwRVpsdlRlRmh1S2NBV0l5a013eThFZXl1S3pESk1pTjNnNmVEN2wyUVBFR0h2SFZwNEdGZV9ENlowaFdmZ0dfdk55aTFXRTV0cGptVmVsWm0tM3BDejFWWDQ5eXJuUmhrWjRLRk41M3p3RjgtZGdqVHRnWWR5bVlmRzRIVXUtSzVLQUNaWUdsbUlWY0pzLUlBNERscmUxRlRkdG0xQkN1aFNhdjdYNTdMTXljcVZuSmthT0ZNLTFOV05XTEtoZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a526a3e69e60",
     "titulo": "Nunca vimos Lula desrespeitar uma mulher, um negro ou minorias, diz presidente do PT",
     "veiculo": "Partido dos Trabalhadores",
@@ -64,6 +72,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:da7983ff6423",
+    "titulo": "Governo anuncia perdão de dívidas e pacote de estímulo para MEIs",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-13T15:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZFBTZ1ZNa3Z3VEJkb2lnOUk4TThLbE0yWHpfdWJIUlplMm9sQXRvaUo5cWtHQzZyWjRhY2JROUJkQjJkVXBoeFl0MUxtRXNkTkY5SWtHUzNQT2puMFowME5jLTRfUmdhclhPUXdRcG1MWVRTZ3Bibl8zaUotRFlwVVZOT2lveGZQQ0xvTWxhYksyZVk5TUlsZkZZV3kwd0g1TGNiVU9QWGxoZUJlaFlMMjQ1V1ZSWEwzU1BBLV9QRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4433f456ca98",
     "titulo": "No Distrito Federal, Flávio Bolsonaro (PL) lidera com 49% das intenções de voto de 2º turno; Lula (PT) tem 43%",
     "veiculo": "UOL",
@@ -77,6 +93,14 @@
     "veiculo": "UOL",
     "data": "2026-10-13T15:20:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTGxJNEJHemFfRTF4OG1NbklkSXhnTXVpcElxaDZsR09OUVBkY25keVlXYlp2OTJfZ05SaHM1RU43U0V4bTF3dDJLbWtrWkVyXzNaTVRqMGlPY0FoUWRmTnVhNzhlalpwQnByMk81b2VEaDFPVzAtMWZqZm9iakpEVWFtbUl5NUhCUElhNGNqSHRtOENpSk5wVV9lOEtlSGJRbVdLWjlMSE9xVXAxb0NONFBKYXoxSnVISHM1VFFuZkhmS1FWLWZZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6afbf437c165",
+    "titulo": "Datafolha divulga nova pesquisa de 2º turno para presidente nesta quinta (15); live comenta resultados",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-13T15:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdFhsZnA2aXUzMGZqbUhmT2xOMmpBem1waDRBZjZNX295dGNxbVdIb1g4TzkzUDV1STI0OF9PYWI5MFBvMkRoVXd6WUZSemUzWVhMeW5fNkZyWXQ1dmtpbGpVcDc3UmNZVk80YnlDWlVodDkxRmFWNTFSbm9mVW03RzA0NVBNc1NsS09xZzM2ZWN4MDRZODNTT216SGpTSGRIdFdzTTNRR3k5TEtaZFFmdFM0RWV2cjVuQlVkMkpLZlUwY3ZqX0hMR1Q3SXVJdlZ2S1M3aHpzQWxEdERCc2o0QXIxWQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -493,6 +517,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-10-11T19:25:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUUZqQTNXaF9zaldnZ2RCUUhPbkEzMEUxcmJwdnFpUVN1S2JMckhwWVVMb29wNE0wLTJZMEM5a0lEajJiYXJmRUlkRmVPbllzTFllc2RXVWpycnNLQlAtODZ2OEs0eUVVNDRzYnphQTktcC1VdjZKaFdxUmp6ZFN2dkVGWjBaRnNtR3hhcUhMMXB0YmpxUmkwOWUyMEJXUGFOVkNTTlBRZ3FCcW9NSm9iU2M2aU9USUxQYXMzV1pqeTByd0dTY3owX3dKUG5lQ0xSNzc3ZDFhdzdHU1VpU3FVQ0dLSXdod0Rh?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f011fdaae981",
+    "titulo": "Lula diz que votação do fim da 6x1 antes do segundo turno já está acordada com Alcolumbre",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-11T18:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRlJaSFlEWlpKRXJJd3F0Ql9JVnhtMHExb1I4a090X2ptWFBQdlJXTXdKNFB2cmk0UG4tSXJPVFFGLTlRTEJWbEhQbF96ZTJxNjU4ODg0ZFRQRk5iaFBwb0ZFS3pnWTBBblBaVjFTUTZXQUFWV3pOalY2NmdMS3VYYkJfRndyTC0zWGNEcjdfbHVnRmJnQXJna0gzb09DdUxvUUZmeW4xS2JIS1VBVk1NY2hQaDNFQ3FyYjBFNzN6Zi1fUXg0U044Rk1KbU9tWDlkODNFNklfczI?oc=5",
     "origem": "google-news"
   },
   {
@@ -925,6 +957,14 @@
     "veiculo": "Poder360",
     "data": "2026-10-09T17:30:47.000Z",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaVBtYTFnMkhwemc0U0JLNmZjVm9ZMDVwb0xFZTBKTVpNUVdmUGFOc1ZjNDRaT0FuaHZSNC1XTG5iOGxkQ3ptU0YtVFNodlpvRmtoMFplZTVaVE9wdVVUMmgwdXpwWTNlRFVTYVhwam1hdm05TmloTUlHenMyQXZRbVZ5TXJzQ1plMjdkeGRTN2hDblJuYi02cmNhaHJScnVkcmctRg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3c331aaf4376",
+    "titulo": "É falso que PCC e CV declararam apoio a Lula",
+    "veiculo": "Aos Fatos",
+    "data": "2026-10-09T17:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DQ3BCR1p5SFZQcXZUSG5QUm5NOHNGeS1zTWhvRHVrWnNPWkpUUC1CTG5kUDVwQTI4ek1FaHl3MW1vQWRTcFBSWUxfemdXQi14ODRJTW1JZEZBY3BZdDZYSnZBNnQzZmI4VzQ1RVR5NGF1WjBHU2E3ZW5QeDk?oc=5",
     "origem": "google-news"
   },
   {
