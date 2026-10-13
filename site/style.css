@@ -114,7 +114,7 @@ button.dia > :first-child, .dia-num { margin-top: auto; }
 .detalhe-dia > h3 { grid-column: 1; grid-row: 1 / span 4; margin: 0; }
 .detalhe-resumo { margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--texto); color: var(--suave); }
 .detalhe-itens { list-style: none; margin: 0; padding: 0; overflow-wrap: anywhere; }
-.detalhe-itens li { display: grid; grid-template-columns: 5.4rem minmax(0, 1fr); align-items: baseline; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--linha); }
+.detalhe-itens li { font-size: 1rem; line-height: 1.35; display: grid; grid-template-columns: 5.4rem minmax(0, 1fr); align-items: baseline; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--linha); }
 .quando { color: var(--suave); }
 .detalhe-dia .vazio { font-style: italic; }
 .detalhe-dia > a, .filtros > a, .mais a, .evento-titulo a, .veiculo a { display: inline-flex; align-items: center; min-height: 44px; }
@@ -165,7 +165,7 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 /* Notícias */
 .aviso-imprensa { max-width: 65ch; margin: 14px 0 24px; color: var(--suave); font-size: var(--t-apoio); }
 .noticia-destaque { min-width: 0; padding: 14px 0 20px; border-top: 3px solid var(--texto); overflow-wrap: anywhere; }
-.noticia-destaque .selo { margin-bottom: 8px; font-family: var(--rotulo); font-style: normal; }
+.noticia-destaque .selo { margin-bottom: 8px; font-family: var(--rotulo); font-style: normal; font-weight: 600; }
 .noticia-destaque .evento-titulo { font-size: clamp(1.6rem, 5vw, 2.3rem); line-height: 1.12; letter-spacing: -.015em; text-wrap: balance; }
 .noticias-grade { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: 32px; border-top: 1px solid var(--texto); }
 .noticias-grade .noticia { padding: 14px 0; border-bottom: 1px solid var(--linha); }
@@ -183,7 +183,7 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 .prosa > * { max-width: 44rem; margin-inline: auto; }
 .prosa > h1 + p { margin-block: 4px 0; color: var(--suave); }
 .prosa li { margin-bottom: 10px; }
-.prosa > .passos { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 0 32px; margin-top: 14px; margin-bottom: 0; padding: 0; counter-reset: passo; }
+.prosa > .passos { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); gap: 0 32px; margin-top: 14px; margin-bottom: 0; padding: 0; counter-reset: passo; }
 .passos li { margin: 0; padding: 14px 0; border-top: 1px solid var(--texto); }
 .passos li::before { content: counter(passo); counter-increment: passo; font-size: var(--t-numeral); font-weight: 500; line-height: .9; }
 .passos h3 { margin: 8px 0; font-size: var(--t-destaque); }
@@ -204,11 +204,11 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 .mapa-rota { fill: none; stroke: var(--texto); stroke-opacity: 0.5; stroke-width: .6; }
 .mapa-rota.ativa { stroke: var(--agenda); stroke-opacity: 1; stroke-width: 1.2; }
 .mapa-cidade { fill: var(--texto); stroke: var(--fundo); stroke-width: 1; }
-.mapa-cidade.tam-1 { r: 3; }
-.mapa-cidade.tam-2 { r: 4; }
-.mapa-cidade.tam-3 { r: 5.5; }
-.mapa-cidade.tam-4 { r: 7; }
-.mapa-cidade.tam-5 { r: 9; }
+.mapa-cidade.tam-1 { r: 2; }
+.mapa-cidade.tam-2 { r: 2.8; }
+.mapa-cidade.tam-3 { r: 3.8; }
+.mapa-cidade.tam-4 { r: 5; }
+.mapa-cidade.tam-5 { r: 6.5; }
 .mapa-cidade.ativa { fill: var(--agenda); }
 .mapa-brasilia { fill: var(--fundo); stroke: var(--texto); stroke-width: 1.2; }
 .mapa-rotulo { fill: var(--texto); stroke: var(--fundo); stroke-width: 2.5px; stroke-linejoin: round; paint-order: stroke; font-family: var(--serifa); font-size: 11px; font-style: italic; }

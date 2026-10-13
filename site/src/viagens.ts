@@ -9,7 +9,7 @@ const ALTURA = 276;
 const SVG = 'http://www.w3.org/2000/svg';
 const BRASILIA = { lat: -15.79, lon: -47.88 };
 // Mesmos raios de .mapa-cidade.tam-N no CSS: o atributo vale onde o navegador não aplica `r` por CSS.
-const RAIOS = [3, 4, 5.5, 7, 9];
+const RAIOS = [2, 2.8, 3.8, 5, 6.5];
 
 type Contorno = { LARGURA: number; ALTURA: number; TERRA: string };
 

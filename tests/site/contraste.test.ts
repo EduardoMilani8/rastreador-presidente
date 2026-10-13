@@ -107,6 +107,13 @@ describe('guardas da folha de estilo', () => {
     expect(css).toMatch(/\.evento\s*\{[^}]*scroll-margin-top:/);
   });
 
+  it("'Public Sans' só entra em regra de peso 600: é o único peso hospedado", () => {
+    expect(css.match(/--sans:\s*([^;]*);/)![1]).not.toContain('Public Sans');
+    const regras = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter((m) => m[2].includes('var(--rotulo)'));
+    expect(regras.length).toBeGreaterThan(0);
+    for (const m of regras) expect(m[2], m[1].trim()).toMatch(/font-weight:\s*600/);
+  });
+
   it('não carrega nada de fora do site', () => {
     expect(css).not.toMatch(/@import/);
     const urls = [...css.matchAll(/url\([^)]*\)/g)].map((m) => m[0]);
@@ -143,7 +150,7 @@ describe('guardas da folha de estilo', () => {
 
   it('o mapa de viagens tem as cinco faixas de raio e a rota não define cor literal', () => {
     const raio = (n: number) => css.match(new RegExp(`\\.mapa-cidade\\.tam-${n}\\s*\\{\\s*r:\\s*([\\d.]+)`))?.[1];
-    expect([1, 2, 3, 4, 5].map(raio)).toEqual(['3', '4', '5.5', '7', '9']);
+    expect([1, 2, 3, 4, 5].map(raio)).toEqual(['2', '2.8', '3.8', '5', '6.5']);
     const regra = css.match(/\.mapa-rota\s*\{([^}]*)\}/)![1];
     expect(regra).toMatch(/stroke:\s*var\(--texto\)/);
     expect(regra).toMatch(/stroke-opacity:\s*0?\.5/);
