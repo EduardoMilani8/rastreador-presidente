@@ -31,6 +31,10 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
   - `HTTP 404` no DOU ou `Redirecionamento inesperado`: o endereço da fonte mudou; é preciso ajustar o coletor.
 - **Não há mandato configurado para a data de hoje** (ver abaixo). A coleta para por completo até a configuração ser
   atualizada; depois de 24 horas sem mudança nos dados, o site passa a mostrar "Última alteração nos dados: ...".
+- **A publicação falhou** (job "publicar", passo `deploy-pages`, mensagem `No artifacts named "github-pages"`). É uma
+  demora do GitHub em listar o pacote recém-enviado; o workflow já tenta de novo sozinho depois de 30 segundos. Os
+  dados continuam gravados e a próxima coleta com novidade publica tudo. **Não use "Re-run"**: a reexecução parte do
+  commit antigo e falha por outro motivo. Para publicar na hora, use **Run workflow**.
 
 Se os e-mails incomodarem durante uma falha longa, desative o workflow em **Actions → Atualizar dados e publicar →
 Disable workflow** e reative depois; na volta, a coleta recua até 14 dias para recuperar o período (para mais do que
