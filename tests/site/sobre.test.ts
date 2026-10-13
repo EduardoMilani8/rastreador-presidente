@@ -25,7 +25,7 @@ describe('site/sobre.html', () => {
     expect(document.querySelectorAll('header, [role=banner]')).toHaveLength(1);
     expect(document.querySelectorAll('main')).toHaveLength(1);
     expect(document.querySelectorAll('footer')).toHaveLength(1);
-    expect(document.querySelectorAll('nav[aria-label]')).toHaveLength(1);
+    expect(document.querySelectorAll('nav[aria-label]')).toHaveLength(2);
     const titulos = [...document.querySelectorAll('h1,h2,h3,h4,h5,h6')].map((h) => h.tagName);
     expect(titulos[0]).toBe('H1');
     expect(titulos.filter((t) => t === 'H1')).toHaveLength(1);
@@ -33,6 +33,21 @@ describe('site/sobre.html', () => {
     expect(titulos.every((t) => t === 'H1' || t === 'H2' || t === 'H3')).toBe(true);
     // h3 só aparece depois de um h2, nunca pula nível
     titulos.forEach((t, i) => { if (t === 'H3') expect(titulos[i - 1]).toMatch(/H2|H3/); });
+  });
+
+  it('o índice da página aponta, na ordem, para cada seção depois dos três passos', () => {
+    const links = [...document.querySelectorAll('main > nav.indice a')] as HTMLAnchorElement[];
+    const secoes = [...document.querySelectorAll('main h2')].filter((h) => !h.matches('.passos-titulo'));
+    expect(links.map((a) => a.getAttribute('href'))).toEqual(secoes.map((h) => `#${h.id}`));
+    for (const h of secoes) expect(h.id, h.textContent!).toMatch(/^[a-z-]+$/);
+    expect(document.querySelector('main > nav.indice')!.getAttribute('aria-label')).toBe('Nesta página');
+    expect(document.querySelector('main > nav.indice')!.previousElementSibling!.matches('ol.passos')).toBe(true);
+  });
+
+  it('os limites vêm em três grupos com título, sem mudar a ordem dos itens', () => {
+    const grupos = [...document.querySelectorAll('.limites > h3')];
+    expect(grupos.map((h) => h.textContent)).toEqual(['Agenda e comunicados', 'Atos do Diário Oficial', 'O que o site mostra']);
+    expect(grupos.map((h) => (h.nextElementSibling as HTMLElement).querySelectorAll(':scope > li').length)).toEqual([7, 4, 6]);
   });
 
   it('tem link de pular para o conteúdo apontando para o main', () => {

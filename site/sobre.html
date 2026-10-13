@@ -43,10 +43,21 @@
       </li>
     </ol>
 
-    <h2>O que é</h2>
+    <nav class="indice" aria-label="Nesta página">
+      <ol>
+        <li><a href="#o-que-e">O que é</a></li>
+        <li><a href="#fontes">Fontes dos dados</a></li>
+        <li><a href="#status">Status</a></li>
+        <li><a href="#viagens">Viagens</a></li>
+        <li><a href="#limites">Limites</a></li>
+        <li><a href="#codigo">Código e dados</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="o-que-e">O que é</h2>
     <p>Um registro público e somente de leitura do que o Presidente da República fez e do que consta na sua agenda oficial. O site não tem login, comentários nem qualquer campo em que alguém possa inserir dados. É um projeto independente, sem vínculo com o governo.</p>
 
-    <h2>De onde vêm os dados</h2>
+    <h2 id="fontes">De onde vêm os dados</h2>
     <p>Os dados vêm somente de fontes oficiais públicas e da imprensa. Nada é inventado, estimado nem completado por conta própria.</p>
     <ul>
       <li><strong>Agenda do Presidente</strong> (Planalto): compromissos publicados pelo governo, desde 01/01/2023.</li>
@@ -56,7 +67,7 @@
     </ul>
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
-    <h2>O que cada status significa</h2>
+    <h2 id="status">O que cada status significa</h2>
     <ul class="lista-status">
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM8 4.5V8l2.5 1.5"></path></svg><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 4.5h7M5.5 8h7M5.5 11.5h7M3 4.5h.01M3 8h.01M3 11.5h.01"></path></svg><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
@@ -83,7 +94,8 @@
     </ul>
 
     <section class="limites">
-    <h2>Limites que você precisa saber</h2>
+    <h2 id="limites">Limites que você precisa saber</h2>
+    <h3>Agenda e comunicados</h3>
     <ul>
       <li>Os comunicados do Planalto são, na maioria, avisos de pauta publicados um ou dois dias antes do compromisso. Por isso a ligação automática com a agenda está desligada: nenhum compromisso vira "Realizado" por causa deles, e muitos compromissos que de fato aconteceram continuam como "Consta na agenda".</li>
       <li>Agenda, Diário Oficial e comunicados são do próprio governo: "confirmado por 2 fontes" significa dois documentos, mas não duas fontes independentes entre si.</li>
@@ -92,10 +104,16 @@
       <li>Se o horário de um compromisso muda, o horário antigo aparece como removido e o novo como um item novo.</li>
       <li>Mudanças e remoções na agenda só são detectadas a partir de 11/10/2026, quando a coleta começou. A agenda de 2023 até essa data aparece como estava publicada em 11/10/2026: se um compromisso foi alterado ou apagado antes disso, não temos como saber.</li>
       <li>Em alguns dias a página da agenda existe, mas não está pública. Nesses dias não mostramos nada, e isso não quer dizer que não houve compromissos.</li>
+    </ul>
+    <h3>Atos do Diário Oficial</h3>
+    <ul>
       <li>Cada ato é listado uma vez. O ato republicado com correção logo depois da assinatura (título com “(*)”) aparece uma vez só. Republicações posteriores e partes vetadas promulgadas pelo Congresso meses depois não são listadas. Leis sancionadas pelo governo anterior e publicadas em janeiro de 2023 não são listadas.</li>
       <li>Os títulos dos atos aparecem como o Diário Oficial os imprimiu, inclusive com erros de digitação no número ou na data. Quando a data de assinatura do título é impossível, mostramos só a de publicação.</li>
       <li>Alguns poucos decretos podem faltar: há decretos que constam no site do Planalto e não aparecem na lista do Diário Oficial que consultamos. Também pode faltar o ato que só encontramos numa republicação feita muito depois da assinatura.</li>
       <li>O link “Texto do ato” (Planalto) só aparece quando a página foi encontrada e confere com o ato. Nos atos coletados desde 11/10/2026 conferimos a data do ato na página; nos anteriores, a conferência foi pelo número. Sem isso, fica só o link do Diário Oficial.</li>
+    </ul>
+    <h3>O que o site mostra</h3>
+    <ul>
       <li>A página Registros mostra os dois meses mais recentes. Para ver o restante, use “Ver meses anteriores” ou o filtro por data; a linha acima da lista sempre diz qual período está sendo mostrado.</li>
       <li>O site busca novidades a cada cerca de 10 minutos; fontes públicas podem demorar a publicar. O alto da página diz quando os dados mudaram pela última vez.</li>
       <li>Não resumimos nem reescrevemos o que as fontes dizem: mostramos o texto oficial. O resumo dos atos vem cortado pelo próprio Diário Oficial quando é longo.</li>
@@ -105,7 +123,7 @@
     </ul>
     </section>
 
-    <h2>Código e dados abertos</h2>
+    <h2 id="codigo">Código e dados abertos</h2>
     <p>Todo o código deste site e os arquivos de dados que ele mostra estão publicados em <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">github.com/EduardoMilani8/rastreador-presidente</a>. Qualquer pessoa pode conferir como cada item foi coletado e apontar erros por lá.</p>
   </main>
 

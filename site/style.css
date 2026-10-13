@@ -99,6 +99,7 @@ strong { font-weight: 500; }
 .bloco-linha h2 { margin: 0; padding: 0; border: 0; }
 .bloco-linha > #linha-rolagem, .bloco-linha > .detalhe-dia { grid-column: 1 / -1; }
 .legenda-linha { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; padding: 0; color: var(--suave); }
+.dica-linha { grid-column: 1 / -1; margin: 8px 0 0; color: var(--suave); font-size: var(--t-apoio); font-style: italic; }
 .legenda-linha li, .tipo, .status { display: inline-flex; align-items: center; gap: 6px; }
 #linha-rolagem { margin-top: 14px; padding: 5px; border-bottom: 1px solid var(--texto); overflow-x: auto; scrollbar-width: none; cursor: grab; user-select: none; }
 #linha-rolagem::-webkit-scrollbar { display: none; }
@@ -184,10 +185,15 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 .veiculo-mais > summary, .veiculos-outros > summary, .cidades-mais > summary { min-height: 44px; padding: 11px 0; font-family: var(--rotulo); font-size: var(--t-apoio); font-weight: 600; cursor: pointer; }
 
 /* Sobre */
-.prosa > * { max-width: 34rem; margin-inline: auto; }
-.prosa > .passos, .prosa > .passos-titulo { max-width: 44rem; }
+.prosa > p, .prosa > ul { max-width: 34rem; margin-block: 12px 0; }
 .prosa > h1 + p { margin-block: 4px 0; color: var(--suave); }
 .prosa li { margin-bottom: 10px; }
+.prosa h2 { scroll-margin-top: 16px; }
+.indice { margin-top: 48px; padding-top: 6px; border-top: 3px solid var(--texto); }
+.indice ol { list-style: none; margin: 0; padding: 0; columns: 2 9rem; column-gap: 24px; }
+.indice li { margin: 0; break-inside: avoid; }
+.indice a { display: flex; align-items: center; min-height: 44px; border-bottom: 1px solid var(--linha); color: var(--suave); font-family: var(--rotulo); font-size: var(--t-apoio); font-weight: 600; line-height: 1.3; text-decoration: none; }
+.indice a:hover { color: var(--texto); }
 .prosa > .passos { list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 32px; margin-top: 14px; margin-bottom: 0; padding: 0; counter-reset: passo; }
 .passos li { margin: 0; padding: 14px 0; border-top: 1px solid var(--texto); }
 .passos li::before { content: counter(passo); counter-increment: passo; font-size: var(--t-numeral); font-weight: 500; line-height: .9; }
@@ -196,8 +202,10 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 .lista-status { list-style: none; margin-block: 0; padding: 0; }
 .lista-status li { position: relative; margin: 0; padding: 12px 0 12px 34px; border-top: 1px solid var(--linha); }
 .lista-status .icone { position: absolute; left: 0; top: 16px; width: 20px; height: 20px; }
-.limites ul { margin: 14px 0 0; padding-left: 20px; }
-.limites li { font-size: 1rem; }
+.limites h3 { margin: 28px 0 0; font-size: var(--t-destaque); }
+.limites ul, .prosa > #viagens + ul, .prosa > .lista-status { max-width: none; margin: 14px 0 0; columns: 2 20rem; column-gap: 40px; }
+.limites ul, .prosa > #viagens + ul { padding-left: 20px; }
+.limites li, #viagens + ul li, .lista-status li { font-size: 1rem; break-inside: avoid; }
 
 /* Viagens internacionais */
 .viagens-nota { max-width: 64ch; }
@@ -231,6 +239,7 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
   .fontes a, .permalink { min-height: 0; padding: 4px 0; }
   .evento-titulo a { min-height: 0; padding: 4px 0; }
   .veiculo a { padding: 4px 0; }
+  .indice a { min-height: 0; padding: 7px 0; }
 }
 
 @media (max-width: 40rem) {
@@ -244,7 +253,6 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
   .dia-mes-ano { margin-bottom: 0; }
   .detalhe-dia > h3 { padding-bottom: 8px; }
   section.dia > h3 { top: 0; z-index: 1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; padding: 8px 0; border-bottom: 1px solid var(--linha); background: var(--fundo); }
-  .evento { scroll-margin-top: 6rem; }
   .evento.com-hora { grid-template-columns: 3.4rem minmax(0, 1fr); column-gap: 10px; }
   .detalhe-itens li { grid-template-columns: 4.2rem minmax(0, 1fr); }
 }
@@ -254,8 +262,17 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
   .noticias-grade { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
+@media (min-width: 58rem) {
+  .dica-linha { display: none; }
+}
+
 @media (min-width: 60rem) {
   .noticias-grade { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .prosa { display: grid; grid-template-columns: 11rem minmax(0, 1fr); column-gap: 48px; align-items: start; }
+  .prosa > * { grid-column: 2; }
+  .prosa > h1, .prosa > h1 + p, .prosa > .passos-titulo, .prosa > .passos { grid-column: 1 / -1; }
+  .prosa > .indice { grid-column: 1; grid-row: span 20; position: sticky; top: 16px; }
+  .indice ol { columns: auto; }
   @supports selector(:has(*)) {
     #painel-linha:has(#bloco-proximos:not([hidden])) { display: grid; grid-template-columns: minmax(0, 1fr) 20rem; align-items: start; gap: 0 48px; }
     #painel-linha:has(#bloco-proximos:not([hidden])) > .cronologia { grid-column: 1; grid-row: 1; }

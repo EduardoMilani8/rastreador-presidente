@@ -107,6 +107,20 @@ describe('guardas da folha de estilo', () => {
     expect(css).toMatch(/\.evento\s*\{[^}]*scroll-margin-top:/);
   });
 
+  it('no celular o recuo da âncora é um só: scroll-padding do documento, sem somar com o do registro', () => {
+    expect(css).toMatch(/html\s*\{[^}]*scroll-padding-top:\s*6rem/);
+    expect([...css.matchAll(/scroll-margin-top:\s*([^;}]+)/g)].map((m) => m[1].trim())).not.toContain('6rem');
+  });
+
+  it('a dica de arrastar só aparece onde a faixa de dias não cabe inteira', () => {
+    expect(css).toMatch(/@media \(min-width: 58rem\)\s*\{[^@]*\.dica-linha\s*\{\s*display:\s*none/);
+  });
+
+  it('Sobre: índice fixo ao lado em tela larga e listas longas em colunas', () => {
+    expect(css).toMatch(/\.prosa > \.indice\s*\{[^}]*position:\s*sticky/);
+    expect(css).toMatch(/\.limites ul[^{]*\{[^}]*columns:\s*2 20rem/);
+  });
+
   it("'Public Sans' só entra em regra de peso 600: é o único peso hospedado", () => {
     expect(css.match(/--sans:\s*([^;]*);/)![1]).not.toContain('Public Sans');
     const regras = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter((m) => m[2].includes('var(--rotulo)'));

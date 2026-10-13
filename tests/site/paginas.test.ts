@@ -58,7 +58,9 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
     const marca = document.querySelector('header.topo > .faixa > .faixa-dentro > a.marca')!;
     expect(marca.getAttribute('href')).toBe('./');
     expect(marca.textContent).toBe('Rastreador do Presidente');
-    expect(document.querySelectorAll('nav')).toHaveLength(1);
+    // o Sobre tem também o índice da página, dentro do main
+    expect(document.querySelectorAll('header nav')).toHaveLength(1);
+    expect(document.querySelectorAll('nav')).toHaveLength(arquivo === 'sobre.html' ? 2 : 1);
     const links = [...document.querySelectorAll('header.topo nav[aria-label] a')];
     expect(links.map((a) => [a.getAttribute('href'), a.textContent])).toEqual(NAVEGACAO);
     expect(links.map((a) => a.id)).toEqual(['', 'aba-linha', 'aba-noticias', '']);

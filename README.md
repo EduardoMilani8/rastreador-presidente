@@ -13,7 +13,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
   atos publicados no Diário Oficial (decretos, leis e medidas provisórias), do mais recente para o mais antigo,
   desde 01/01/2023.
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.
-- **Notícias**, uma página separada (o site tem quatro: Painel, Registros, Notícias e Sobre): o que a imprensa
+- **Notícias**, uma página separada (o site tem quatro: Capa, Registros, Notícias e Sobre): o que a imprensa
   publicou, sem misturar com o registro oficial.
 - **Fonte em tudo**: cada item tem link para o documento público de origem. Item sem fonte não entra.
 - **[Sobre e metodologia](https://rastreadordopresidente.com.br/sobre.html)**: o que cada status

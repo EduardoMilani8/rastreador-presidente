@@ -421,6 +421,8 @@ describe('montarPainel', () => {
       expect(ultima.textContent!.trim()).toBe('Comunicado');
       expect([...document.querySelectorAll('.legenda-linha li')].map((li) => li.textContent!.trim())).toEqual(['Agenda', 'Ato', 'Comunicado']);
       expect(document.querySelector('.bloco-linha .discreto')).toBeNull();
+      expect(document.querySelector('.bloco-linha > .dica-linha')!.textContent).toBe('Arraste para ver outros dias.');
+      expect(document.querySelector('.dica-linha')!.nextElementSibling!.id).toBe('linha-rolagem');
       expect(ultima.querySelector('.marca.marca-comunicado')).not.toBeNull();
     });
   });
