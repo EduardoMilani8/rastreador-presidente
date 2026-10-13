@@ -40,6 +40,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:904b0c601a82",
+    "titulo": "Lula faz um anúncio de medida com apelo popular a cada quatro dias às vésperas das eleições",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-13T19:02:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUlBtOTJ4aDVXOFc0Q1BwS2Qzdmt0aXVGTk9oZXRFTVhYV2MzYXZ2V2FpZXZxdHl1dDRKMHZqUUp0djlHdDZ1Z25LM0hvOTVnOTRXWHNYYTJXcjVLRXFRTDRtRXNPX2RmTFlJSW5UMFd3NTVVUk5GWUM3dHRKdG0xYnREU2FlZmxYSGZXSzNGalAwUkdvZ1AwNEpiRUlzbHNoUEVSUENlenVvenFyRWI3cmVZaFNjQU1MdUNrMXhuY2lpV3BiV2VLa2htdVFyWHpwS1lxcVpoVk9xYnZGaGpNRHE3eEPSAfMBQVVfeXFMT25sYVZQYnMtTm5EUEFKWXQxRTdkOVVqUTdxNHFmVjJ0RENnNkZVRDF2djJlSUE4eFkzeG1CTmxwbFc2LUQ3bnZBZ1IwNFU4WnFPTjNmNlY5QllveWlmU3ZBTG1yalpHaVVaUTlROUp3TXotb0tucmJyeUc4bjNZNEhVcmF5dlNXRGNkdG92cEpkZjgwbFRTdHM2T1gyUGk3SW5qRElWR2U0UzBaVF9TdkNuWlc0bFRpUm1EUWZWTkFUdFZZMDZ3YVd1UWs0c2gyWWdjaUdEQXU4YWpJdGlBc0ZmVUFBdk1oUmN4dmNZN0xTX2dV?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:34296a1d4682",
     "titulo": "Carta ao presidente Lula: um manifesto pelo futuro",
     "veiculo": "CartaCapital",
@@ -104,11 +112,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:a526a3e69e60",
+    "id": "google-news:ea17e05cc41a",
     "titulo": "Nunca vimos Lula desrespeitar uma mulher, um negro ou minorias, diz presidente do PT",
     "veiculo": "Partido dos Trabalhadores",
-    "data": "2026-10-13T16:13:19.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0pwbWdCTkdQMUlMVkdfQjZMMkhWcmZPT21qa3l3M2pUM1FNU085V1JVZ2xCMlg1anpCOUtFMlQyNzQxdWRYajl2VnByX3RISnB0V0RKd3NEa3FSblZRdTJUX1BqU0FVTUpuUHdtdEg5b2J3UEdtbnlrRjFXZWYxMmdNZHVMcWdKS2dSX0VGU2swRWNDek5zYmdnWEY1a1hTTURSRUEzTU5HYzjSAasBQVVfeXFMTjdKcG1nQk5HUDFJTFZHX0I2TDJIVnJmT09tamt5dzNqVDNRTVNPOVdSVWdsQjJYNWp6QjlLRTJUMjc0MXVkWGo5dlZwcl90SEpwdFdESndzRGtxUm5WUXUyVF9QalNBVU1KblB3bXRIOW9id1BHbW55a0YxV2VmMTJnTWR1THFnSktnUl9FRlNrMEVjQ3pOc2JnZ1hGNWtYU01EUkVBM01OR2M4?oc=5",
+    "data": "2026-10-13T16:13:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2V5bExteXNPYm04Rmhmb0lyRGVEcVI2LU56eUt6RHljay1OV2RJMzZ5Q09FS2FrNDA5a1dtZEU0WkctN2o5WF84RGp3Ti16V2hUMUphYnZudFViWTdJdmRFeHdhZlp2VTdaOVp6QlRCa05MN05aLWd1SzFjNXluR19LY29PQXFueGNCQ29RZXhPb0w3bHo1T1hjRXhtbVlpM3RN0gGrAUFVX3lxTE43SnBtZ0JOR1AxSUxWR19CNkwySFZyZk9PbWpreXczalQzUU1TTzlXUlVnbEIyWDVqekI5S0UyVDI3NDF1ZFhqOXZWcHJfdEhKcHRXREp3c0RrcVJuVlF1MlRfUGpTQVVNSm5Qd210SDlvYndQR21ueWtGMVdlZjEyZ01kdUxxZ0pLZ1JfRUZTazBFY0N6TnNiZ2dYRjVrWFNNRFJFQTNNTkdjOA?oc=5",
     "origem": "google-news"
   },
   {
@@ -1181,6 +1189,14 @@
     "veiculo": "Agência Lupa",
     "data": "2026-10-08T23:16:51.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa2w1VnNWb3NsX2I2dmdxN3JfYnpkVzFEdk0xaFBuM09RQjgyM01RdUVtOG8wbG54WW1KR0pPN2d2MlhkaEF2QkV3MlFkR0FEa3RIUjJLNkRObVJtdXJDNTRodm93bGpnQUxzZGNNdExDWmFnX1BGZU9VWXFCYjU4MGlWMmdSTWVOMG93V1lUdXNqTFJtalFhbTREVWZlcUIwdkhuUFRUMzh5aWdxUnRPZ1k2aGtpSDAxLXpwUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f93be7173272",
+    "titulo": "Corte no Orçamento significa meter a mão no bolso do trabalhador, diz Lula",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-08T22:56:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS2dReWJINU9ERnFpSXdZYTJnN1NoSzBFNnpySUFlcm5UblRyTno5X2lSanM3NUEzTnFfQTVLRXB0NlpsZFVWOFBJeGxMUVVVcDBnX0VHQU9qRHFrdXh6MWRtMVh2WEFpUHROWW9MZ1NjQXF2VVBkdzB0MXBVbTR6aFVPUk94VFRUQ0d4UXdSRWFiUHFsWi0wdUtROUd5clk0dklpQWNmYUJMdl84ZDQ4ZlZR?oc=5",
     "origem": "google-news"
   },
   {
