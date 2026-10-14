@@ -399,7 +399,7 @@
     "hora": "10:00",
     "titulo": "Cerimônia sobre medidas para microempreendedores individuais",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
