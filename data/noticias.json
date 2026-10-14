@@ -600,11 +600,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:af1a98b8e78e",
+    "id": "google-news:eb4af4fbea03",
     "titulo": "Mobilização pró-Lula se espalha por Copacabana, com pedidos para que o povo vote",
     "veiculo": "Partido dos Trabalhadores",
-    "data": "2026-10-12T23:18:24.000Z",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMVRiV0k0dkp3WUg2elpaVTZaemVkRDhBU2VwT0VVNFFKallqZ1E3Ny1HOVg1Wk5wMHBGbGFSRTE3Q01sSmw0ZFg1MV9FNXVxX09tR1JwWHI1amk3NWwxbGh6dGdKV0hWZkt3RHQ4VzdBbl85ckFGWDMyODI1TENhUTVSU1JTci1FdzFpTE1QdUV1SUtsa1JoTXByVU52NUNlM2FXTkJPONIBpwFBVV95cUxOMVRiV0k0dkp3WUg2elpaVTZaemVkRDhBU2VwT0VVNFFKallqZ1E3Ny1HOVg1Wk5wMHBGbGFSRTE3Q01sSmw0ZFg1MV9FNXVxX09tR1JwWHI1amk3NWwxbGh6dGdKV0hWZkt3RHQ4VzdBbl85ckFGWDMyODI1TENhUTVSU1JTci1FdzFpTE1QdUV1SUtsa1JoTXByVU52NUNlM2FXTkJPOA?oc=5",
+    "data": "2026-10-12T23:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUXV2MEpxS0tSRzJoekozc05RQnJlT0Y2UTZucW1fc0N6ZWdpNmhUNGdJanVKeThaSzBiNGZ4WG9qX2hTaDRTbFpyYUMxU0VNUE5VTDVHRlVjUldybTloRG9LQVpBY2pUUVNod3djaG9zNGZZRXNtMkl2d2VFc3NadElfTUlLNHNjVFdZNkpYXzZpeVJTVVFEaEp3MkNhOUHSAacBQVVfeXFMTjFUYldJNHZKd1lINnpaWlU2WnplZEQ4QVNlcE9FVTRRSmpZamdRNzctRzlYNVpOcDBwRmxhUkUxN0NNbEpsNGRYNTFfRTV1cV9PbUdScFhyNWppNzVsMWxoenRnSldIVmZLd0R0OFc3QW5fOXJBRlgzMjgyNUxDYVE1UlNSU3ItRXcxaUxNUHVFdUlLbGtSaE1wclVOdjVDZTNhV05CTzg?oc=5",
     "origem": "google-news"
   },
   {
@@ -678,6 +678,14 @@
     "data": "2026-10-12T16:57:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tecnicos-do-tse-nao-encontram-conteudo-falso-no-canal-exercito-do-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f1a5a4ca36be",
+    "titulo": "Painel: MDB lulista reage a articulação de alas pró-Flávio Bolsonaro e anunciará apoio ao presidente",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-12T16:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUY0WExXRm1qV1ZMZl9ya21yZElOWHEtajctaUFFd3QzdGRLSWduYmhJV2dZQllaVk1hY09zRmNackJzWERmLTJFMXk0c3lmUk5KU09MZEEyRkpsalRpdnpWVldDdDRHTGFQRTBXeFBWNm1DWmNtWmM5b1Z3b0szd19ETDk0RmhieGU5ODVNUXBlQzM2MFh0MGVnRV81SVBlOVpXZ3QtTWpPR3BZV1BtSkt2c3U4eUpDeHRyNkpiM3NjX3hEMVQyLTI3WklMUDloeTNqcXJyUTFvRTVkNUczMElFV1NZdw?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:66a73366983d",
@@ -1264,6 +1272,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:452a15eda6e8",
+    "titulo": "Datafolha no DF, 2º turno: Flávio Bolsonaro, 49%; Lula, 43%",
+    "veiculo": "G1",
+    "data": "2026-10-09T21:23:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLVZlZXN1UU1fRTJOam9yRWlMc2VKSUNSaWNPYTNGYzVYRlJZUjc1Wm51bWdET0ExaFhFRWo4d09iVXNzSnp4ZEVMVDFtZkUtQTVsM3NxNV9MaEo0eHZ2QmMyYXZuenVpSVlxZl95amdLQktiYUt3Wnh6b0hLT0tiTGlWY3YxdmlYZFVmd3ZqcGYzVklXMHJKV1BWdEFFTkRBTGdqYVFGTU5zeU1YTEZLbV9CcVhvTlNHeENqZ3pDdWRUVUExX3fSAdQBQVVfeXFMTTZjdmdHWk8wY21NQWgycHBjMXdWZm5xQjdhX1N6MHdSQ1ppTjFVbV9sR3VDV0I0THZDYno2Z2d3NWIzTUN1YjVDQklXYkZjQV9aUWYyLWloNWpPUnFNZ1Y3Qk5DdkFzQ3lEbElUMktGeUd2TXcxXzJmTDFuZ3p5VHpOWWhFSVhBeFp5bVZWZUVHRW53WFMtbkc3b1hXbHVldGE1Q0FKSXhqRVYzb2RUZktLb0VhRFcyTWhUTGE1dU9uNmUyX2ZwYVpZb2lqSlhkempCYUM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e351fd100c9d",
     "titulo": "Pesquisa com Lula e Flávio para segundo turno: veja últimos números recentes",
     "veiculo": "UOL Notícias",
@@ -1469,6 +1485,14 @@
     "veiculo": "G1",
     "data": "2026-10-09T03:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXBWSFpuMXpHYk1mWjJBWFNPa2dISHpub3VmVERfN0JsT1ZSdmdGUGNqS2QxdXZfRlV3NG1ueFZsc2JyTjF0QzZDQU1WWUc4ZUg0R0tnZHdqVWZGNjB1em9Zc2hDcmZ2U0xnU0VzWmJsaUxlenhnY0VyVUlCeHZPSXNKcm93R1J5WWs2NXpVNXJrYWhaX1FncDdES3ktZ3B3blZqSWgxa0xpTkh1OXRzQUNZN0FrbENRb0tpbXAxMkhLQ1VQTFHSAdQBQVVfeXFMT2NMZkxPNVpuM0ZzTE1ZMTlDVUpSbUNFSEFHWDUxbW11NkNCSldXNm1xMzhXS0FZNXE3b0M0ekhVSGRiQnlJTm80cGl2M3oyYm52VDZvb3FXdHk1cDBQV1lPSXI0TndQRW82eG43MkxIM2EwY29XYWxyTTBUYmZPY01UX0NRZS1HVDZTV1VaZUJXd25RWkNJb2taNVpPU3FuZnpFd2VnSE5QUG5ncHJ0blIwM0g0Wi03UlNzY0dSVmotMEVCSTQ5SkhZSnl1REpuVlBvWU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:85e4000b0899",
+    "titulo": "Horário eleitoral volta nesta sexta-feira (9) para o 2º turno",
+    "veiculo": "G1",
+    "data": "2026-10-09T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOXpBa1VUZEM0a3lUdWx1aGF2WVI4RFhCSUNvczJLaDdPVUNVVWVyUE9uczJjcnd0TmJnLWI2dGJvVDYwVE9ENTVMRUV6Qm15bFNkX0FpV3JSSVBQbHloOFZPczNjT3dKM1dtbk1jSi03UHRuY2JISW1ydkJCYVNXWkx4bGZuS0s1U3M1TmxuS2JMU2hzb3B6ZnFPSXFib0t6cF9SRXMxdXdRd0xMa2xUTm1HdzJ0eExkZ2cxMGxfNDZQRllweDhN0gHWAUFVX3lxTE13azJjckRRQVhCR3FXTnFDTzhETGxCMVJBRkVUa2RHRTctQUNOXzJaUFJpMmpYZ0tXWjNsQzFDNlBIZmxPQlAwTkl6Qi13TVE5M0dOYWZWVExDa2RiWk53X1JtSk16UUtOWW9WalNNN20wY2o2OUc0RlhNaEREUWVtaU5hQVIyblY5em00NzQ1b05scy1PMGdFeGpJWW5jTVViR3B2bjdsSmxNSFJXVDV5N1V1anlDdjRxY0RnNUN1cUh3Y3I1SzlmZG5lcDlyaVFsT0k5T0E?oc=5",
     "origem": "google-news"
   },
   {
@@ -1709,6 +1733,14 @@
     "veiculo": "G1",
     "data": "2026-10-08T03:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcUZUY0FtSVZveXFqNG1PMjZMUDllUlB5MHBfeXk3TV9WOHQwYl96MEN0OVV1aC1IaFFpQ1d3OHRqOTFnVTJoMmNBN2pGcXE5WkRGS1VJQ09UdTFOV3phYVdBWXY5Rk5mRGc5QzR3bUlLZEFDUjBaN0gzX01FZ0FLX3lFRjFJZHR0UmoycDFmRURWbm0xV3ZPTk1vLUgwS1BuNEoyWjFRenY2dXpGWURrdtIBvwFBVV95cUxOb3VwNzNrM09NdXhyLWNmbXhCOV8xQXR1a0FmZks5VUIxekh3UHJEZGF0YWZsWUFRZ1h1b29PQjRIVWFIbDFpRHkxX2ZmcTlaNWpabGIyOG45WHRDbkhRZ19qVVVwbzUtNzFZZ2RHUUtScGtTNVJjYnpfekh4Y0tacmhZQXVOS1J2Qy1vTTF5VUNLVHYzRUpzekFBMVlzYVh2MlRDMGx6VlFxZ3I5VTZhM2o2ZnRCN19PXzVXNWQ1RQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b8d7876dec0a",
+    "titulo": "Fã-clubes de artistas pop se mobilizam para reforçar presença de Lula nas redes sociais",
+    "veiculo": "G1",
+    "data": "2026-10-08T01:55:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORDJ3ZElHSjhfVjVfQjBtRHdFdUZXV041UjdYdkEtenlxMnFoS04xQVhZWU1MQW94VnAxV0R5angzTkgwdGhBcDlGaXl0djdSOHJyejRWVU1ZcGNPaDc4Q0xFNnlMRUtPSHdIR2J6eERUNWo4MURqVXU1OXhTYktCdzM4ZEtMTW9pRFBvUmMyQUJGdE9hY2txMVRSZnByM0xldGRmOGVTX0lFZkpHT2dTTG9MVzM0U3dIV29ucWRfY3FGOEx2NFd6Q0QtRVo3Z1JvczZCMnREQkhzbVJZbHfSAewBQVVfeXFMTVAxQ0ZBSmNwWGJtQnYxWjZJNk1aSnN1b24yRXNiNXl0XzJrWkdUOFR1R3hPdW0yQ3VmT0VKNmY3eUNBbzdQMmp5S3NPUHk1Qmp5NG50RUZRaUhyNVZmLTFyRmVXZTZ2RkxxUnc5emU2NVllTm5ORFJqSUZfcnQwRk0wRnZTaGlDcGpPRUpQSU1oNDg2Q1M2R1FzVkUyOG1helpNNTJUOXFkRHVhYXBGb0RDMFFOLUpPYXZsVnNEaVZrbG5iSW5McEtzOW8xaThKUWpSOWxMV3NkYjN2dmVBWWxEVVdGanpVMElQLUs?oc=5",
     "origem": "google-news"
   },
   {
