@@ -440,7 +440,7 @@
     "hora": "12:00",
     "titulo": "Assinatura do Decreto que regulamenta o Marco Legal da Indústria de Jogos Eletrônicos",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
