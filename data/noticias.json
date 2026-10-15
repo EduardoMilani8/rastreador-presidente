@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:26f3165139b5",
+    "titulo": "Datafolha: Lula é rejeitado por 46%, e Flávio Bolsonaro, por 44%",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-15T21:31:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWXZjQjZXMENFLW9PVWJTTWtLSjlyRTU1SGktQWl0S1BoVUZuSlJ3bVhUdXI5Y0NHX293bVB3YVVDME5Fc1JZTDlqZ01HcFYyUHpHVHVrd2NLS0s1bEM1bUFCX1BVSkwtLVJqWU9sSUtiNHQ1RUtKU0NXdGtiMzJJYW01c2FPb0hiVHM0RUxHMnpKdWdRWWhXblNGU0RmMHpEYm9wcWJBaW4tQUtZMGc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:88dd559d30c5",
     "titulo": "Datafolha: Flávio Bolsonaro tem 51% e Lula, 49% dos votos válidos, um empate técnico",
     "veiculo": "Folha de S.Paulo",
@@ -101,6 +109,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-15T11:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdlEtbTU3ejhmRmpMaDZTOEtxSEJNMUZjQWVPNlJHcHRZY1JHdV9kd0RVbWE2Rks0Z1FzUjFaODF1R1hLVlBlMDNEaHRMUWE2ZUFIUkV4Z0FMWGRJQm5tS0dsdF9rR0paWU04TGI0M3hkdW5lT0I5OVg3Slk0R0xzWHVhbnZYYTk5NVdvYWlQNDFlZTladDNYMXBhSG1wM291RGdYcDZHaEstLVZ2ZHJaekdTS18xYWJidHFCZWFmWTZCenc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:927a36aebf1a",
+    "titulo": "Lula e Flávio Bolsonaro cumprem agendas a dez dias do 1º turno",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-15T11:23:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVXFaVlZQQVFXbWw1b1BxUU5ZaEVoYnRRbkdEVHVLall0clZQdUhmdVBCV0pqSlV5ZE9KaDhESkU3TFRkalZub3hLZENycFFkVWswUDZTQ3g4ZWpia2NMclg2eTZiMUZTQTdFMm1ESEhtWDFoemNKVE04d2pZT05GSUY1ck04bDZJLUFXOGlHNXJCSnNHYmZaNGVaa0VDbldHT2xzQmxXZk9MSENSOERaZ2k1a0hxQlZWc2pkR2p1ckg5LU1Cb0VYR3RNc3dxbHZk?oc=5",
     "origem": "google-news"
   },
   {
