@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:f8bdca93b9d9",
+    "titulo": "Lula reforça compromisso com evangélicos; Flávio recebe apoio no RS",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-15T01:27:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-reforca-compromisso-com-evangelicos-flavio-recebe-apoio-no-rs",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:33a60acdc524",
     "titulo": "Tem debate para presidente hoje? Veja horário e data de Lula x Flávio na Band",
     "veiculo": "UOL Notícias",
@@ -165,6 +173,14 @@
     "veiculo": "Assembleia Legislativa de Mato Grosso do Sul",
     "data": "2026-10-14T16:08:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeDNteVdHYjBKaGlCWS1FTnlLX282U1NoTFNMSG9wdjlFWHBXUmtVMWhsbmx2REJHQkdCNUFINWZYMGlfM3BIWE9haGg5dzRtN1QwSEgxTTQ1azRTRUNLUU9Qc2pDX29vN2VjNUdTNzg2QVdYRlJCMlpPUUVXeWptNHRjM1IwQW1mRTBRVDRwTlBUMjZiNGNzNWxqUUNHM0NQMzZmamVuTjRyMUpsTjc0VQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ae9561f3cdf6",
+    "titulo": "IA da Meta bloqueia criação de imagens com nome de Lula e libera peças com Flávio",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-14T15:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaU5VLUk1T2hCQWQwbjRHa2xZemxaTHZfTUVrQ3p3dWFtU0pYTXFMWXd5TDd3RFF5bzVyTWRJdEFTZS1pN3JmSGYycjV0YTBOMnRKTGlEanc1WjdKS19xRGdKbG1xb2wteXNzdGNYbHpBcEJEbnBNSGpHWFFrY1B1NnBRc2QtWE8yajJxYml1bVQxd0p5WDR6TGVnZ1ZiTXJ4dVRrQk1PeVZTd2tZZnJMWUhGR1lTbjJqMkpCTGxNdThmUWM?oc=5",
     "origem": "google-news"
   },
   {
