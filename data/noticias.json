@@ -1,5 +1,37 @@
 [
   {
+    "id": "google-news:d526911471b5",
+    "titulo": "Debate na Band no segundo turno: o que esperar do primeiro confronto entre Lula x Flávio Bolsonaro",
+    "veiculo": "BBC",
+    "data": "2026-10-16T21:11:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qYUI1clFKdmhUdExORVdoSHg3SldoQ3B5X29BdENoUGxybE85Rkt1YW1WQjRLYnVSVkI2ZGloWlUzbFo0NXpDc1pFRHAxZ01pbksteDdkZkdfVnJUY3JLMk1FY9IBaEFVX3lxTE02WF9oR0NIZk10MWVoMWJNU1BaT0RRVUtGTXp0VjJzNnFSM3NjNUxZTDRybzZLUXRwLUdvOWhuNlVMYjE4UWt3NllsVGVnWGVSeHpDd0FZRFMwY2hFb1p0Qndjei1qcFNj?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c465fed2f724",
+    "titulo": "Luna Zarattini: ‘O futuro passa pela reeleição do presidente Lula’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-16T21:07:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNktLN0V0TXpqZ0RNS2VaWFlqWHBINHd6VGhwZ3JxQy0xeFNYbTVLMXJMbHlUX1J6amExNEV3TDlfOUNyRlZKRm5RM0RJWmk2S2J6SkVITWJfTU10QjlMNUo0VXJCMzhuTDd2VHhaRUU4Y1hycWVXOTFMdUVUcW5QSTFmZnBzMHp6S0pWelIyWlp6dUJWVjhjN1QxT3NwMFJLTVZuVVNVYmNhekIxQTc3eGVzdVJpUElUQkQ2NmF0ZHozaFVjSWhBSDIxRzF0VzJnbmFQSEdodU4?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a0f0a86cb845",
+    "titulo": "Nova pesquisa mostra disputa entre Flávio e Lula a nove dias do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-16T21:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXF4YXByYnRGdmp3VjNPQzlVTVpGYWRabmVRaW9Qd0FFb2F2dGpWaldEUlZZUXV3MkFzQmZ6SFNteDhjbEZpemtXX2xCU3hhZllZRmgtdkYteTNDcll1d0JzQk0tYmczQlAtSmVNcXp6QWVCODF0LXdXWHV0Slo4bVlubDF0NGZBZ1VNM29MMHYxQ3A1MnllOTBrckQ3WmRpWVpIZm5GS3NSVnI4TDhYTnVoNA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3373a2d646ac",
+    "titulo": "Com decisão do TSE, canal de Janones não precisa mais de vínculo com campanha de Lula",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-16T20:13:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVXMyeUxPQXYyMnNKLWpCb21XVEtOYzZpWld2OHZDTzZGOGNHNUJiSnVfQzM5d1lYeE4tdjFhZzJVeElHTUJhblczRlhqQlFrUm4ybTIwTlVMODFzMTUxTjViMmlvallwRlJRQXZ2VnMydHFPemVJcnNnOXg3STJNQlB0WjZkclZtOGQtejk5WVVTWVJ4TGZGSlJTaDRfemo2dDlWYlRmeWFZS1ZscWx4Vm5hOUZpandPT1VOOE5lS2RwSk5xUER4VF93NzFSdk1KZnhoWGJSTkVaMFAzd3NMZVJ6RGVPVVVf0gH3AUFVX3lxTFB2RzB3dWdRdG5PMHFBbi1rQThTZ3pteUlRNTNGLTFXOENXaXZLb3d6V3E4eEdLdkpSR3RKdncyZHBaMm1KcEZzQUxvSTVXT0pHZmtzR2x0RHl5TmNra0RPVHV5Sk9KaG9PV19mMnZUTlAxZGxraVBnbmdvNDF3dXdrQmFINHVveVJlNW13ckVVaGllLUlMVlZBSnpVOHZiTEx4eG1US1V1bHlkby1XZVNaRnJ0b2VKVmQyRndoOHVpRjVGdlkxejJfV2stdUZzN2F2R2tCZHRqdlMtOUlBeDNqTTR0OHNFV3BpYkZMVG9rbG9mdnN6Q3M?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:38ce98d1df35",
     "titulo": "Pesquisa Lula e Flávio no segundo turno: veja quem está na frente nos levantamentos mais recentes",
     "veiculo": "O GLOBO",
@@ -8,11 +40,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:01b32d14752f",
+    "titulo": "Campanha de Lula considera ‘estranho’ almoço de Flávio Bolsonaro com direção da TV Globo antes de sabatina",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-16T19:59:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVXJrTmxPSldxbzB4dnBZUzJNTzI2Z1ZzWUZ5LWRZYzF4N2R1aE5xcmhlTjVFc3cwRVE2cjNtdS1TUkFXN1JEbGV5RkJZT1FSQmN2RWRVb1pnOUV4UkwwNEU5Q19sdUdYWjlNRVRMVTVkOWtzaDJZY3poYmNWV2poNnJveU9IajhYc08zbVJ2QmJOdWhTbUtCdVVVdzlUV3dNQ0JGOGJhRWZEQTZRYk1PSHBsX19tUFMyYW9oYzJBS3hBRkJXSVAxZUZVSEZWNFpOYmxzODNJdFRoMUwwSzZrTF9n?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2e14db107530",
+    "titulo": "Em um eventual Lula 4, Brasil não deve participar do ‘Escudo das Américas’",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-16T19:23:49.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMHNFUmM2Wnc1T1dFbXhrYnFxTU0yWThBN0tETGFyUVJPQmV0ZjJOcENZVkV2UTlHdHdFWnhpcnRJZzhIWGdUNXBHaHJvejNKT2hQeXV3UGdOU1NnRHJZdmtWVnZ3OHpnczhuNXgtaDJJT2N5NzhKLTJDeWFzaHktWTM1clJCaEw1eW5YZUVuTk9hUmxMcGxLN2FrQUdXc2pvaXRlRkVBTUdzZ3NIRTJ2c2NXdUJiRFpaYlRxN3hJcTg5bURZb0piR1pBY29JYUowdV9DblRoOVrSAecBQVVfeXFMTVV3TWVacWVWMHpMUW5fTmFSbHNKUmFBUzk3M0dBZWhFTTNPZTB3OTkyMkZzcjRsdEVRSGE3dTN4SzlHQmFlVkx6UTFkelNYd2hjRVptQ2pkcFF2UURIb2JfdVp5VmhSWUlsWF8yN2tyc3BpWngweHJCdm5XckFLTXBISkdxMDhOM0VReHByVHdFdTdxUG1OSkZ4cGpoYTVVbG12QTFhNTE0NGlKaUN5SzU0MS1rU3RWSzFtVWZxaC0yRjYxR2RVeE9lMTRVTjBTRHdWdGtMc2FPUnNNTXREaGV6RGFNT3U4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ab88b5651a92",
     "titulo": "Lula diz que escala 6x1 será retomada se Flávio Bolsonaro ganhar a eleição",
     "veiculo": "Valor Econômico",
     "data": "2026-10-16T19:11:43.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSWRQWFpoT1F4SWl4Z3B2UVdMSVAydVFQWWVTRlJfMHFxRWZKcmZsbDJ6WGF6RUR4RHVnRVdoWUl1eXVFQzE4SVlnaVFmcUVtaXhmZEY2YUl3MUJPWnF6R0dKMUtwMFZBUGdiWUhEdXVmUzRwOFhKXzl6S3h3NUZNcUJFc1QxM0czZnFLNXZmUi1KQU9wWEU4UmFSLVhVdldPQ0ZsU1k2WUUxejhaZVUtMHZzbnV1R0VTTUZyOWtxMVpSVy1GWHFYbVFEMGtmVEJEUVB4c0xwZm8xNTZHa0RF0gHuAUFVX3lxTE9vZjY1bXp1RkplSDFHNENyRHdzckZJY3FEUlViTUo4WDhBQktuRHB2bloxclBfLTE1QzdWbDJaUmMzWEF5R1ViMW1mUUJFMDZ0dHJHMFFYR1YxZmRVdGpQRGRDaVZVazZFN2wxMThESmtqSjVFSXI0WDhQb212azJiaEktSS1CRFN1M3g3Z2ktOWVKTF9ZNi1aLWE4djFnNlNpY3pMMkdTMmtNNWhhZFRzNlNmSUFZV3NZc3FnR25aSGNwbmZXYlpaU3BEMTZwUTJXTWxzWXRqYWNiVlBrUzluRmViMXdRZHNJVm03R1E?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a87641dd95ac",
+    "titulo": "Em MG, Lula acena a Cleitinho: \"Não precisa me apoiar, só ficar quietinho\"",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-16T18:50:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0VUZ2xXRFdLZjFIdk1CYTA2SVJHaFE2T0tqM0VvZGtTdWdKcHhaTG90VnlVYWpMYVZxZ05tZm9FN3ZIeTF5TFdvZ0NHMTlkamRQOFdLdHc1cVNQRHhZUUhIcVZCLTN5eHQyeFBIMHhtckRpNG94MFBkSmRLNUhQbGVOOTQ0YXVtOF9PZVM5V2FKQW1NTWZEY0JjWWNjMnpxc3ZocVZRcXByUTlq?oc=5",
     "origem": "google-news"
   },
   {
@@ -120,6 +176,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:2463c89ea6b7",
+    "titulo": "CNT/MDA: Flávio Bolsonaro tem 46,8% e Lula tem 45,9%, em empate técnico no 2º turno",
+    "veiculo": "Estadão",
+    "data": "2026-10-16T14:45:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1hfQTM2WlpBZ0xDbXUyT1FaX2o5NVVrcUU5V3ZyZnBITU9Oc0NWVmxUdmVabkhiUV9ONlltTnNnVmVKbEZWbkJJSHRNbUVKaTFyUlpKM19CZnRtOWRZUWdTUHNGS0JKU05DMl9VYm5CdW1ZMlo5bXFnbTVJcEdtVU01N3FGV0kzRjFaZTRmeEhQZ1ZXdVdRZlN0RFZmQnduMGVHSndVemhncEpQeXFJX1hBdTFFMUhsZDhrdUx30gHDAUFVX3lxTE4zU2tWR0loUkdJc0ptWW03Uy1fNnJqSk1waEk5b3VJZHVlUS13ZWM2U3pzUnQ4RzdJTDlZSllXc1JXN011NUU2Tm5OLV9PUHZTR1RoVkJNRzZVS1RoU0dRWXEzTm1wQzhlb3pCOWxLSU83SFNqYXN6dmo3TDViVkxyR1MxbTRjMVo3X0g2NmI5QzZINkRwdExwdkV3MnBqM0FTNzFDUWdob182dkdZTndVT1BMbGpoeGFPbC0zYjBhMVNuUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6434d73609bc",
     "titulo": "Quem está na frente para presidente no segundo turno? Veja resultado das últimas pesquisas",
     "veiculo": "Valor Econômico",
@@ -197,6 +261,14 @@
     "veiculo": "G1",
     "data": "2026-10-16T13:20:59.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOHgtbnJCZjZ1WkJ4M0U5V2I1UUE3UzFhN2dvaS1KbTdURFhHYUFDMzQxUkdNZ1FxU1JsUnlEZC12WndnR0dCWHptSG90TGxya1k2LWdVRkFIUk56em9YZTJITVo1MXJ4ejloNWFreWJIR3QxZ1BvX0R4Y2J1RVVTaDltay0wMnFXQ1Vqc1c5MnhHYzh2dmV1UGIwTHVwSTdtcnNRVkFzQVNxTG05NjFNMmhCWE4zeUlEdUhZWHFFRmZNeDB1RnBjaGhybWJuQdIB3AFBVV95cUxPMlJPZHFwU01HNkRQRWV3VHVqc1ZlV3JHakVnZy1mZmV3RERrQXlkbURMclNiX0J2aEhkS3FjM3VpUnBRNzFDanZ3OWlac1NHUGszZTRNdjlMX2txQWVhZFNabU9MTGU0R09hVFBmRXhxTktnNDVyZlJfM0d0S1dyZGs2VWl6UUd4a3FMZDJPYnpVMkU2eVJOMmtRNXpENzBQaDVjS3dsWFc0MW9Yd25BZUdfZkY5UWZkdkQyWV9HYVhwT2lMRVlhYTk0TDRuV2I5d3Byc3g0bEFIZ1kz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7ca587822ff4",
+    "titulo": "Andifes manifesta apoio à reeleição do presidente Lula e reafirma compromisso com a democracia, a educação e a ciência",
+    "veiculo": "Apufsc-Sindical",
+    "data": "2026-10-16T13:09:51.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRGYzWVpKQlA1S1Y4Q1RfVU1ZbnM0RE9WVEI1eWFIcl91ZUFKeUlWcHhMM2pwLUJnOTQ3ZFFyOFZ5cVQzdlRzcHQwTk1hLUcyd1FLeEtBdjliVjMwUzlKTmk3UzJUVVB6UFJrVndrT1QzbG9GVEI0XzFqQU5LMGhZTDhLY256dXA3c2xVZHlWd1F5Q0tFU3VlbkxzektscWxsN1FhTDUyRVVsUk5NbzVmM3ZVc3l2UTdIdUNlWGJlV01lR1IzNFBLZFJ0MGFxTFBCZHFnR01tZ0RVZERaRTZaRW1xQlgzaS1vQ1Jn?oc=5",
     "origem": "google-news"
   },
   {
@@ -469,6 +541,14 @@
     "veiculo": "G1",
     "data": "2026-10-15T22:20:21.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWZSUTNKYlVGdVNjREprdm1sYU1nYjl2Ym1rTDZldzdRQ3VsdnFWbWZRcU5BdEowMDVlWTQyb01INXZUNHBESXJrTUItWDBCUGdDSmhOenBZZm1nUVZudXRoTVExNFI0QW1JaGdIUVFmcTl5Zmw5RXNKRnNkdjhrRGV6N244LUF5VDlQTEV4ZFRMY2RYYTRCSHpzNzQ4dmNFTU5xSHVvanc3b0xjcy0zbU5Od1RDTUtrZ1NlQdIBywFBVV95cUxNMzNpcE5WZU5PSnZuNTlNWGtHTHlxdzF1ekQ0bGZ4a2x0c1hreTU4SmJlZEloZUtVem9nYzhTUVVmNkp2WEkyM3RDZWVHRmlwVEZwZmx4QlV0WFlTdEJtY3VMX28tb1Fmb1BJMjVNRF81WTZuZU41YndtWFpFR3BHUGl6SEtGOUxMbEY1WXJpSG9RaTVaMmo0OW9vUGYtbFpoTVdaRWgyNWpBM04zRTkyLWRCMDNLQ0Fvak1NSml6NWNMUzNCeVF5UEItSQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5fb303a49d64",
+    "titulo": "Datafolha: Lula é rejeitado por 46%, e Flávio Bolsonaro, por 44%",
+    "veiculo": "G1",
+    "data": "2026-10-15T22:02:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZi1KNFljXzA4bFVKX2F5WjdUR0x2SW5HYXVfR2JFbDRaeVludFpIVFh3V3A3Z1BmbWp4SjBva1Z0M3d6VjlQS1hxM3hXRXd5T0JxelN6RnlkOXRDVzVJcnN2N0tMWnN2anhpMG9QWGt6cGpkRVFndzROZ2VrLTRLVlNrTjZSOUFVNW1Jd3JxN1BBbUFIUG9rcEJCVE8zM2d3MlZUOC1VNDBPamRqLVlYTXlYbG0zUGJmOTRFa0pQNXZES0lWZ2x30gHWAUFVX3lxTE04LVFUVDdTQko4SWlpY3RodlNsVGViSXh2aXlyY28yX2dLOXd0cjVQTlJrUlRRM29OR0paTkliOGpQY1daRXJSWGRnUHdpd25JV19lMDBrNWUzTHR6RnVEUTh5YW05Y2hQZWQ4WUpJV1UtSHVueVYzS0QzQmVYMGpNSmk2WlpXVGxwZHY4c1lHb2lWdGpUUDNBZ2FZSllCNEhKS0hpZHo5ajJWSGZmMDhCSWY0bE5hS1RtbHVTQ2s5WG5OSUcwbkozc2ZiN2pFXzZaYmhKb1E?oc=5",
     "origem": "google-news"
   },
   {
@@ -853,6 +933,14 @@
     "veiculo": "G1",
     "data": "2026-10-15T03:00:02.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOUZCQ0FRQWR2N3NJWURHdTc2U3NBMWFPT0ZyZDZXYm9idzJkZmN1X2lwSVl2YTV1M18zMlQwSHY4cFNSYzNiUHRacmdKZ0VETVdzdldsZUJxN0RhNWtGc1dpcmNadTl0ZG93VG50eE9zaHpTZHRJQjc3M1o2eUJsVWQxdGpQcEV3aDRDQkNvaXc0dWZzYTlrYWdUYjZnTXRaeEIycXR6MjBVZk16dzFjQjcwN3k1SEZMX1IyWUFYbVp5N3c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0111d6c0b442",
+    "titulo": "Entrevista de Lula na Globo acontece nesta quinta (15); veja onde assistir",
+    "veiculo": "G1",
+    "data": "2026-10-15T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMnlNNFJjZ0pfR0tuN1VfZHpmQlBRTTZPLWs2cWg2MDEtN3JSeUlQWHBzYTlqS2Y1QkpOZ2kwbElwY1NHYkFlZVBMZXhWMVFVTHh2LXNkZmtsYXlfVkg1RGtmUmRSaTBCNzJHbHRwWXcxaW5GU0swVUxkbE1mRkFMeVBfb2Ntc010ejFXUU5mOTVYbUFCSUhkR9IBpwFBVV95cUxOQUhTUFJTVU1ZLWxvdVlPNnVJV1FuNzVMdVR3c1FHemptbThEdy1SRS1qVC1NTHgxaWtoam5QcXdsams0Ym0wRWw4cFRFeG1mS1k1WndlT3IyUnZOM3BIUkRabjNtdzUybzZxV3dxRzZaSGp4YnpWTm1BV2NzYU1qWGE0Z0xOU3F5cElvb0xpSVRKTUZGUFpYRGhQTm5wbno3YkRVc0t6dw?oc=5",
     "origem": "google-news"
   },
   {
