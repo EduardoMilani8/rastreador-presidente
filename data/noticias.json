@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:087d8992bfdd",
+    "titulo": "Lula concede entrevista à Globo",
+    "veiculo": "G1",
+    "data": "2026-10-16T00:18:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZEdvOW9URTVHcklnVldjR3ZvaGpTbEVsTTZVc3RJSmpXLURCNGRMeWdQSVlvVFBIbWp3ZGxKQWFqMllCYW1YNHJRMU1QQVl6NFNLel9EYW9Cc1MtRHJ6WXByNWJuWTcyTHhqU2JLeDNLeHlONkEtRzMtYmVoU1d5aTYyaDZvdkxzMFYtQTEwbGt4NXNhMEZfWGljX3jSAasBQVVfeXFMTl9wbzlicUQ4UTE5S0lQaFJWYmdvSlZCVVBjYkZYYUlMVUtIQnZNMTRzczEtNEN0RjNVaFMtY1hMNHRSZGFyWXFLWVc5cFNuUEJYc0YwVXRkOXB5LVFCVDRrUjVXbnNtVHpoeWFsNFBOUVZLb0t1V0VsTEZ1ajhselBzZjFaOUdCTWhONUtWQk5RZmZzcDZFbHdGd3BvcE1wVzdqTlFjczRaQmRj?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:7adcb43ced77",
     "titulo": "Lula concede entrevista à Globo",
     "veiculo": "Valor Econômico",
@@ -197,6 +205,14 @@
     "veiculo": "G1",
     "data": "2026-10-15T03:00:02.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOUZCQ0FRQWR2N3NJWURHdTc2U3NBMWFPT0ZyZDZXYm9idzJkZmN1X2lwSVl2YTV1M18zMlQwSHY4cFNSYzNiUHRacmdKZ0VETVdzdldsZUJxN0RhNWtGc1dpcmNadTl0ZG93VG50eE9zaHpTZHRJQjc3M1o2eUJsVWQxdGpQcEV3aDRDQkNvaXc0dWZzYTlrYWdUYjZnTXRaeEIycXR6MjBVZk16dzFjQjcwN3k1SEZMX1IyWUFYbVp5N3fSAdIBQVVfeXFMTWdKLTJmekRHbmZlWEdRSUlpQ0ZNS0N3VVpVN2NtZmUwVnYwQzB4NG91cGVCZ1h3TGFlTS0wNnViZmFWQmUzVFc5MC1zTkJjZXVCckRoYTNPaDMxU1dVWmFrSTFON2p6anpMZnctNXdGNXJVOVRhQnZHRU9tc0ZiTWpDU1lMUHJrd1BGR3ozX0hJQXNLeFBuNllEVHFrVGt6bmVSNV9PUm1ibWxkTnJmVXRfTWVacTB6YTV3dGU0RWI0QS1iNmUwa0NQN0w1d3A2Sk5n?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a0aa70a6cb09",
+    "titulo": "Pesquisa Quaest 2º turno: Flávio Bolsonaro 46% e Lula 44%",
+    "veiculo": "G1",
+    "data": "2026-10-15T03:00:02.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOUZCQ0FRQWR2N3NJWURHdTc2U3NBMWFPT0ZyZDZXYm9idzJkZmN1X2lwSVl2YTV1M18zMlQwSHY4cFNSYzNiUHRacmdKZ0VETVdzdldsZUJxN0RhNWtGc1dpcmNadTl0ZG93VG50eE9zaHpTZHRJQjc3M1o2eUJsVWQxdGpQcEV3aDRDQkNvaXc0dWZzYTlrYWdUYjZnTXRaeEIycXR6MjBVZk16dzFjQjcwN3k1SEZMX1IyWUFYbVp5N3c?oc=5",
     "origem": "google-news"
   },
   {
