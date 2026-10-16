@@ -451,5 +451,24 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-10-16:09:20:1",
+    "tipo": "agenda",
+    "data": "2026-10-16",
+    "hora": "09:20",
+    "titulo": "Cerimônia de Promulgação das Propostas de Emenda à Constituição que Põem Fim à Escala de Trabalho 6x1 e Estabelecem a Aposentadoria Diferenciada para Agentes",
+    "local": "Plenário do Senado Federal",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-16",
+        "coletadoEm": "2026-10-16T01:50:17.225Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
