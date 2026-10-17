@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:8d101d6842c8",
+    "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-17T02:01:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:eafde915c729",
     "titulo": "Pesquisas indicam uma ‘onda de virada’ da campanha de Lula, afirma cientista política",
     "veiculo": "Brasil de Fato",
@@ -469,6 +477,14 @@
     "veiculo": "Estadão",
     "data": "2026-10-16T01:41:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVndiQXVwZVdCcFkwd2ZXVGM5TjdzQ2tuVmtlN1lTUC1EVThWQTlIRTRKTWNsSTBYa1hlYy1DbXplTFV0UUM0anlRUEhldFY2dlpWVjc0VmJjVnVzdHR2MzhVc2J6SmJTUHhOUWw5ekUtZTNkVF9nVUFCMEFIcU9YNHRCVm1hVzJhYzcxRHd4ZXBBNmZBT2paVVNPNNIBoAFBVV95cUxNbDhkcVNjbDRLd000TGlCZXpqSlNpSjJYUDVyNHRBY2hyOVphRV9WTVhBTVdTQXc1b1k2YU9yeTJrUzZwcnEwcnljVk80WkluNTJNZ29JNGlMMkRPSzFfOXVkY3NoOGk5RGJvNF9kZFUxc3VOa0diWWxUTEF0aEtnQi1tVmpjRFh4NGFySndkVUMxS3lfSXZYMHgwNFhpbWRx?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:595282d140d6",
+    "titulo": "Em sabatina, Lula reafirma que vai manter reajuste do salário mínimo acima da inflação",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-16T01:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZXltWll5dmpUNDRIQmdMWVdMSXpHVllxQUhNbDlEOV9CeUkwRk51b2xOZk41WF9xeEY4WHh5RGllV3VTOHNLeDVKRTQ0a0JVR0VsWDRJNnlGSXNldHl5Nlk4MG9mSWR6b3JlQ3lkcVJhZGhabnRlNnlIM0lTVGstRHZvT1BIWFh6dFhTQkpoYVVsUl9MbDFpNnhQNzlZbzktamlnbEI2MGNWVHBNTkphUHd0NjdnYVEzTzdQRjBiMzloeGFlMS0tUXRVSHNMd0RybUpKcjFZRmtoLURuaENwX2lB?oc=5",
     "origem": "google-news"
   },
   {
