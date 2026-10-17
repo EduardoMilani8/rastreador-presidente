@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:2bd8df2ff6ba",
+    "titulo": "Datafolha: eleitores de Flávio dizem buscar mudança; os de Lula, proteção social",
+    "veiculo": "G1",
+    "data": "2026-10-17T16:38:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQXdiLWg1WXdEdHlzcndiZ0kyUEZVZi1RRGZmVmZON0FuRms2bzF0WGNtMkFEMV9rUmxUSTJKbUVGNzFLT1VOdUJicHBVRjh1MkpETm8tejVuR3FPckxlNWVTQlV0SGhBNzQ0SEh0R3l6TEdRSUNJcXVWTjNUcElrdGZPamlJWlF1c3RjM2dhN0k4cFNfSjRLSV9weF82OGlQWWpvcURXQVFBTnQyZDFQbWV0SnFWRWZ0U1h2LW5qbFRxMkJQV25mMG9iLVFhZDNkSFZQWjI1ejZxOWMteHpZZl95VnA3YmNBTDVMVWNRRWQ5M3BGc3czb9IBhwJBVV95cUxQQ1JiRi1yd3pySDNiaXY4c2FrZGZYRFZDa0ctbDlOdlRFNTgtZXFsQjRadWo0UmQ5SkNEa0FoWjFtVTBRUmVEaEhicklzczJvajJva0dTX2VOOG9zdmk4azJKMVBUNzl4dGNVZHdJci0yRmkyZmlSNzFId3g0TEZnLXhKQmlOYjVyVmVTaWFBcnRvN2NjZVYtZVcwM1dTM2ZiSTBBQ1hBWjFDQmtQTlRGYWhRUVltbERLWDZEcFUteU9sajdMR1VpSS1RMk15MnQtX1lyU0RKb0J6LVlRUnpFdlM5R2VuS0xBczlGSFRTRTJMcUJZVk0zb0NseUtsZTZ3bzhCLW14OA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1164d66314b7",
     "titulo": "Datafolha: eleitores de Flávio dizem votar por mudança, e os de Lula, por proteção social",
     "veiculo": "Folha de S.Paulo",
@@ -901,6 +909,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-10-15T21:34:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTkJqb0tvYTNLbVR5cWpDUDJWcm5GU0FyaWhCRUluLUVtWnJPZHV4eVdsV1hZbEVZLVNuS1kyWU1pVDl0XzNQUzNUTV83bGlsbzRZS2txaE12c3dSRFJvd3Atd2hMdFltYUJ0RkFheThlMUMyRlB1akpzNHFhYjZYVGYyTTFRMEdEM1BVUUtHUERzZTd4MmhiYmZKNms5Nk9fQ0R4QXZFSzZocWZmOFVKWUV5TnR6TFE1eG5qOTNSSnByNlFubnZXQ0tXSm9OMFdoZjZ2S3oxbmlUTi02MnZvb0otWXZSUdIB9AFBVV95cUxNY09meVZGWndRRkZNWEZNTV9tT3JnNHFUc2JFOWtUQUpJUHpXNkVyZjM0b0NlOWxpTzRmUmRYcl85bnRsa3BUWWw3RG56Tk9TZDlWYVd2cVpGMnl4YWVfaXhVcGpHNnl5eDZtcXoxb0tpc1ZyYVVrdTM3bGNXQjJGMnFFUDFIckhaaGRtN0o2ZHhRWmhFbVBkZ2FGUGZ4NE8tS0ZGclRiN1ZiVDV2UHRLc2dQZGIxczFXaWJLalBUZVZqbjV4WG5vb3FmdUtQVy1BeEgtZ3JGNFZBd1I4cTJHNDNVSlIxWWRjM19LWGpQUUVxa1Nm?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3bdc34064375",
+    "titulo": "Pesquisa Datafolha: Flávio Bolsonaro tem 47% e Lula soma 45%",
+    "veiculo": "Estadão",
+    "data": "2026-10-15T21:34:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONEFIeHlJVzdfMkZhajNPOGJVbmk0WmxnaFdtakhnTU1ZMWRESUwwYlNxWXM4UWxHLWlkU1lzeTNLaHp1WTdEc0Q0RF8wbTFfcnlub2Z0dW1qSGNBejNHd3BiNWJyWUg5c09neS1ZcEVpY1JxU3MzOGJySkFhQ3ZXRXJ1Ul8zNjlNd180TzdNSm4zVUNlWUVERVhCRndwWkt5cGVHMGdB0gGrAUFVX3lxTE14R3dCZTd6MWp1NHFRSlVKalNOME5jUnMwSVZDSTYtaF9rN2dQOUFLNkR3bmcwWmp2SGR4MXF6RF9fMWp3SWppZktUNWxNbmdTdHNrVDhMdXE2OVR3NG9jUGNoRVZudU5EWTd3bS04dk8wZHI5UUFMWG13Y0x3b2h3cHVmMkRYRk85bDVkY09JMmhWZnVxMS1obW5neDNYTTZLalZhUlAwYVc5cw?oc=5",
     "origem": "google-news"
   },
   {
@@ -2133,6 +2149,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-13T19:14:58.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZnlwRkdSVWlvU3dpaXF0aVdYZndYejlTVmx3bFJkSkY1V2VaZlM4NVBSS0cxdzVfVFVNN0FxTF9iWldzYVNpaGFweFB2b29wMERfZjJ6RTZkOVFkOG5ROHFoc0xQcHRCQVIwNW5qTmE2NlNXWmFhR2NTdFZqNHlUemZCWlotRE5SbmFCMU96NDVrQkVCSzlmeTZ4VGU5R1dPQ1VxOC1fWlZKaEU2MEtmeGZkRDU1WldvaGNXWXFsNkVYaHk5VG9OX19IOUtHb2Z5?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c6951e7065a3",
+    "titulo": "MDB declara apoio a Lula em dez Estados do Norte e Nordeste",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-13T19:08:44.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGYtd2lXaDA5UDUtQ0ZBYzl4bDBzS1BGYTB4enJZaUFYZzRxNDRVZTM4TDBfVFFyV3VVWHJhc0FvQ0I1MWlXRzN1Ty1FT3ZyenRSaXFIOWZyRFhXS0p0REFUQ0d2OXNaTXNWV21DWm9VMThsUjByY09DcS1fTGF5VDFMYm1XU1pId1F1bFN0VmIwME4wekN1UnVaU3FOUzhiQ3VLWTBJU1dQSUtKQUE?oc=5",
     "origem": "google-news"
   },
   {
