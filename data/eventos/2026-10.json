@@ -459,7 +459,7 @@
     "hora": "09:20",
     "titulo": "Cerimônia de Promulgação das Propostas de Emenda à Constituição que Põem Fim à Escala de Trabalho 6x1 e Estabelecem a Aposentadoria Diferenciada para Agentes",
     "local": "Plenário do Senado Federal",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
