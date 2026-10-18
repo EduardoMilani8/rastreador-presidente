@@ -5,8 +5,9 @@
       "desde": "2026-10-18T02:50:15.003Z"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-10-17T23:40:18.215Z"
+      "ok": false,
+      "desde": "2026-10-18T03:00:27.001Z",
+      "mensagem": "2026-10-16 (edição): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=16-10-2026&secao=do1: TypeError: fetch failed; 2026-10-16 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=16-10-2026&secao=do1e: TypeError: fetch failed; coleta interrompida depois de"
     },
     "planalto": {
       "ok": true,
@@ -21,5 +22,5 @@
       "desde": "2026-10-11T21:31:31.268Z"
     }
   },
-  "ultimaNovidadeEm": "2026-10-18T00:50:15.953Z"
+  "ultimaNovidadeEm": "2026-10-18T03:00:27.001Z"
 }
