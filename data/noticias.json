@@ -440,6 +440,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:a0f81de714ad",
+    "titulo": "Atos em apoio a Lula levam mobilização política às periferias de SP no domingo (18); veja agenda",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-16T15:36:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQjZleWhjR3F5Q3F5aGdYS0ZBeF9IOUczREdhaFJvbC1EZzRuRUVUMGRycVk3b2lXRFVUenhDRVJJcU5sdk5fUWl4VU1UTkdCdVpJY1FTaE1kQnJPMFZHeDN4MEFienhZeWdlS0djQlg4SFM0bmVKY1ZDbnBTTUQwMnE2NnhJWE4teDBpdUFfYXZBNkJpQU9DUFJBSTloSUNON3YzM3k2ZmEweFZwclphTkV5anJPeW50Y2ZLd0lhT0Vac21YTlVYc25DdWpqNGx0d2JWbFR6M3dIN0VxMkhR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f1c6471d5ffd",
     "titulo": "Nova pesquisa Quaest para presidente no segundo turno revela se debate da Band pode mudar votos",
     "veiculo": "Valor Econômico",
@@ -1584,6 +1592,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:dce2242eca48",
+    "titulo": "Pesquisa Quaest aponta empate técnico entre Lula e Flávio Bolsonaro no 2º turno",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-14T21:16:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY0pmMU41TVFzT0VhbFZ3b0Q3cGtGQ2pReTQ3WHZMY2dXRGdpUEZxOFNUSi1nNzNBSGVGcHJpNl9zVWhWd1Jnd3hUWGRuRV9BZkxHa0JnZWUwenZQM0hGcVNfWTVSQ1ZidlY4b2dUMTU4d20ya2ZMM3NBSFlyMUxPbml2ekV1a1NBNHQ3SjhFTkQ5NFRvMlQ3WnRFbl91eDJrNlZJT192VFBUbXFHZmNEMERKU0NVczJ0cWc2N3U4X0Q?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5318d707900e",
     "titulo": "Quaest: Flávio Bolsonaro marca 46%, e Lula tem 44% no 2º turno",
     "veiculo": "Folha de S.Paulo",
@@ -2661,6 +2677,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-10-13T08:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOc0xkVFVKTmQxbkF1WTFFRDdEU3JLRTh0TkZrcFVYdVV5RVV0ZmQxa1hGZEJJM0phRmRqbHBfWV9LY1Z2QlVpczBUdk9KdndnRXpXcVVIa3c0NVA4RVRGVkgtbFZQNjZzQUs4RWZkVUk2bjktNVpkWXU5M2pTSTF3RlYxYjdMelRTMjJNOVlfbDJFWFo5TG1WdXBHemJxc1NkVFFDSlZuTU8xMlNGSWxRNUpMZWM2VlhSSWJ3aDRsT1VQbW9UbnBKcmMxRzRwSVF4WGstZlZROVBhZ3VKNnlQb2duU2RhUVdQMVJyRXhB0gH8AUFVX3lxTFAzbm00SVNUb2hYNGV0SV9UU0ZxZ19YclRqTldISXVOa2ZldjhHQzN4OENRV1ZhZ3VWMTQ4c25kMV9iOU5xSUIzT3NZMU5BM0RlbVZGeDZJelk4WG8yX0wyWW1YY1JzOFdwV3c0ZW1aS1ZteWF4NVhIazYzWUhjblJXTE5Pa0liY25PSWF6U0FVMllzNC13S1dHaW1uWF9tZHRwQ1hsMjY1dmVYaXdLbzV2cVVtUG1mYUJiWWhrQ1BDOXBFRXdibngtZVZHSF9SVWRibTdKX2plSFI2TDQzZ2lUbTNBaFByX01ZbUZJd3NxWXRZQk14WmFPX1FlZg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:edcb3f91216b",
+    "titulo": "Tanto Lula quanto Flávio vão precisar do apoio de Gilmar Mendes no STF para governar, diz constitucionalista",
+    "veiculo": "BBC",
+    "data": "2026-10-13T07:56:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sNnBYdktqN1dxN3pQZGRQcHQxQ3BxdjN0cFhMNFRBLUd0NnpCWm44Sk14VWtCdWhQTzhoTkcyN1FWS01qOGVCVHo0ek1ZZ1VfU191R1pNT0xhSEtMdjQxVGVoSdIBaEFVX3lxTE94dFkxd1BORC1TXzRuNjFjWGhicnNMSzUzRHBSSXFpYkNNeXZWSnA4bTJaX0ZBVWowUHdCN2dBUkJGRFZvZVdiN2J3UDgtQy1udnNOcDBQNzJBczBrV3NWekZSX3hyVkFY?oc=5",
     "origem": "google-news"
   },
   {
