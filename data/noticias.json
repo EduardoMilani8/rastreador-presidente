@@ -1,5 +1,29 @@
 [
   {
+    "id": "agencia-brasil:4099fa712fcd",
+    "titulo": "Ato em apoio à democracia e a Lula reúne milhares em Copacabana",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-19T01:53:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-em-apoio-democracia-e-lula-reune-milhares-em-copacabana",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:d869524d240a",
+    "titulo": "A primeira pesquisa para presidente após o debate entre Flávio Bolsonaro e Lula na Band",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-19T01:36:28.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUDEtbmk0NEhBU2UteW5zMUFlM19DaklZZ29ob2w0dGM4QVNXWmxtVG1kTFNQY1VaUnVDOVNRdUpVaVI1YVpETnFDWTlCZ3U4QnFucjdUSF9TQVhjTE44UlNobE1fUFEzcHgxZkRJekVPMTVnZk43Qlk4MU5CVlhuN3prVnVzaDVUNnBMcm9GYjRyWk10cnJkSTRacEUybkV2Z3lRQzV0WDJKUWFMbHFFWjRLdG5YRjkxQzJXUURndGNnWEQtVTkwLXYtVHl1ek9NTjBWeFVQUnE5c3poQlZzMzRTNNIB8gFBVV95cUxPaGtVZVZMYWFKQzZuaDB6QjdmSUdoalViRFNjQTdVbDM5V1U5NWpUNU8tczl5ZTE2Y0NuRWlkT2oyZ1FmWU0tNDRGT2RkeExSRGx6TERwWUhoVUdJRkdVc3c1bEI0Zk1CTGQ4TWx2dFhjdWF5em9CMFQ2MVFsY0FoVk9feU9uZmxMM1dQTE5CS2xUci1OeEJzOHVXcHhReE9FeGNubW1yWG5ETGJoT0lscHpEZ0N2VTN0cG1XdTVEX3J6dUljN0FzeEs5dEotZGlheHJFQW9nWEU1NHcxeWRWdTNSX2kycWFQUFVEeGY0VWZiZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c1126e3e8dcf",
+    "titulo": "Veja destaques do debate entre Lula e Flávio Bolsonaro na Band",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-19T01:24:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTDd6R2xWUUthODYzTHBIYTJzQk5zSVlpMmxXQ1BqMmJLMjl1WC11RFo1N3FRaUF5UTV1WVJtMm1SVTd6QVVtbXBZOHA4RjdpZ3BjWEtEaGItQW9FTXpDdWM5MlBsSDltZnVaV2hiYl9IN3R1UU9vcGhPZGxNdE0tNi1GWUtWajZQbjNPS0hyOU5GcFM3ODBHa2lQUTZKblR4M3JhVWxuZmpxaXowTHBJ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f1e86a29d68d",
     "titulo": "AO VIVO Debate da Band: Lula e Flávio debatem pela primeira vez nas eleições 2026; acompanhe",
     "veiculo": "JOTA Info",
@@ -1984,6 +2008,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0fb2e3e8871c",
+    "titulo": "Quaest no TO, 2º turno: Flávio Bolsonaro, 48%; Lula, 42%",
+    "veiculo": "G1",
+    "data": "2026-10-14T22:15:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSS1NWEMyVnFyeXJCTVFFYU9nQlJ1TmV6UGZqQXB4cG9lV3E0aUtvMGFfWnlDRmllRy14Z3laQVl2bk5yQkx1QXdObE5KLWxaT0NfZEpsZ3BDNG1iRHhMRTBjcmtXQWNnSUdqUjQ2bkxKeEw2NEhvai1tT190VkxnZGNJTjE3YUtESlZYZmtDQ0pYaENqTk5EanJJMnIyc0ctRFBXWUxOc1lhelQyTnliN09NTEE4emZhRUHSAcgBQVVfeXFMT3NZMi1xT3M3c1BQVEJjeF84QWhieWVWYllDSGtKbUs0T2hNZW1mSnBXcGNXYVM1TzhlbGlhVGd2X2hpaWFNV1lkZ3dzSW9EZU9EUE9DemtmbjBoMVprV1JjVUlMaW1IR2RpZF9ONDkyVmJNYjRYcXZNQ2tPZEpWcGREdjdhTGJSWC1wMGNsR3U0M2NUMnNZZFFIZnJBTks3V3k4U2NmT05PQjhOdkZfVlB2VVhWSTFuUVN0MWs4Wk5mNzNSNDBReGw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2c1a422aec2c",
     "titulo": "Flávio Bolsonaro tem 46% contra 44% de Lula no segundo turno, diz pesquisa Quaest",
     "veiculo": "JOTA Info",
@@ -3301,6 +3333,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-12T19:37:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM3lYbEszcHg4TGhQQ2NBeUpiRHJIa3g4dmg4ZjhQY2hoaF9ydXl4TUZYdGZwRHo5cjFleXB3NW83eXYwT1JCdVFUUE1oeFJKVFphT3dzaHFydUtDaVhKOXVWTzN4STR6am1tbzBHVXdVaEtnTHRRaUI3ZXhsNElTTUZzVVoxeVpLdjlwcTBIWmdtVGlQZnIxN2V5Mnp5dU42VThsTUtJblR6eks1bS1lTjdXbkZ6SFBsM29NNmpIUXN3N1lJ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6bf3a888de86",
+    "titulo": "Lula e Flávio têm 49% cada um no 2º turno no Amazonas, diz PoderData",
+    "veiculo": "Poder360",
+    "data": "2026-10-12T19:32:46.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVHV6emJiTHE4NWZtVFljNnpYLVByRW5vVHE4MGlUWk0zRmJuMGMzd0piNW9LLWpUd0lKalROTnZRZWoyS19jLXk0amJWUE9GRFNvTmp5ckhwdFhjZVFDNWQ1YkthRkY0VEhobGVCY1VRVlIxX1VxRkc5ZTYzMnkyRnNQSGF2dzRkRXZtS0hMNTVUU05aYWNjc0l5REdPUQ?oc=5",
     "origem": "google-news"
   },
   {
