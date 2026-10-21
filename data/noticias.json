@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:85c48f1a161b",
+    "titulo": "Qual é o número de Lula, candidato do PT à Presidência da República",
+    "veiculo": "G1",
+    "data": "2026-10-21T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmR6M0pFWlJ6cHo3cUxzbzFKSzdYdEoyalZidnNxVTZWSnFUb3g5LUdhNFZjYzNzcTZRa0JTekMyZDVULVpCY0t5R3JCZEdPYWoyTjVXRXNpTDBpcEdJbnI1OUY4UjBnTU84aTBLb1htUmVZRHVWLVl1WjQ2M1huREtSc19DdlRfWm9ZdXh5aEhkLTVNa0k00gGmAUFVX3lxTFBOVlB6anNrUVYzUFpFYlJYVVA3WjZBVzZKYWVFalgteFYtdlcycUY1R0U0cDZBNVhoVHlfQjlPQ2ZpVnRINm1wZU50bmRGbzVCN3k2aU5DLXE5b2tId1JjeEpWRHY3Ry1OSVM5M1hLSjg0eVdCb1dsSG1XdHFzSHdEbnZtV1U3eWR1VmRMWUVhelJvNmxCYUNJMFp2RmR6VHFrTWFIamc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8c8e0d7e241c",
+    "titulo": "Quaest divulga nova pesquisa presidencial nesta quarta-feira (21)",
+    "veiculo": "G1",
+    "data": "2026-10-21T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcWxqODdSa195ZmJuN2JLSm01c2htMWdsYktkUlp0MjJoUC00RVlmS1ZYMUtyVmtXLWIyWVZXU251bGdJWFZMaUZfaUFMSWF5bW1CS1hUaU5jdkd4MGdDdEtaSGI4dnVEY2JicEV5RzVhWnVJbm5Kd0VFWGF3M1pEWE1uVkdwWjZ6LS1RLXIxMks3Rlo2dlRNYlZ4cUsyc0t4ZU9uQ1NxNHhzeHZMYmhhUFFQZUJzckJNNFBOblYweGk5ZlQ2d2o3VjB4UnpyXzdPRTNrRkczc0xZb2RiU185XzNNYVQxZ9IB9AFBVV95cUxOX3VZV3hacjRueFY3TWdQYXlJRzg1b1VZSW5YR2xsZlNYb29CamZ1RHN3TXdUM29GT0hvZnJIOWNEQkJWdDR5dW1qUGtuYUtlaTN6aWtMS0YzZjB5eWY0MnlqV1JpMGYzLVlEVWkxbG9IblJGUG5wVmlxemJaY0hQVC1DSG9hZ0g2VGRuRzF4RHZKZzN3c0Jjc21hR00yTnZlelVDV3hXaEhfclQ1MWQtRFItZ01YNHpGbTBxd0Yyb0d2NF9VVTdjRkR3cXZGclJYbEU1S0l6UnJLeTZqYnViZzFlV09TODRBdFAtU0lBMXZjbkJN?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c06249f2f347",
     "titulo": "Lula mantém liderança sobre Flávio Bolsonaro em índice de popularidade digital após debate",
     "veiculo": "Folha de S.Paulo",
@@ -784,6 +800,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:886ba9c255af",
+    "titulo": "Quem foi melhor no debate da Band: Lula ou Flávio Bolsonaro? Veja notas e avalições dos colunistas do GLOBO",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-19T12:20:14.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORkVNdjlLQmNoeUtFYWlkSW00OHNjRUxfZ29PT2tqRkkxS0ZLVEFnUjgxM0ZFUmRpOFBPbWNYdVNhc1MtcXNFU01mT0dxOXJ0NUxESzVqY2RHQ3FOaXJrZWsxTS1LTURLMGJIeC1WUUlyZGJCdXM1THJlZE1TT0FvMHRwYU4zYUtkRGx0bmlOM0xNd2dnX1hOenZLbEt6MVdoTTdpTTdxdGNXLUl4SFBlaF9rekxmWkxmU0VTNzYwYVVkV05mTVE2MHdtakd1ZVBYSTl5clZud3lwYk1SclczLUFVckNKRENINzR5NTdOQnptMF9fQlh3eTR3U0pLUkFzam5WQ2xYblJXZ9IBmAJBVV95cUxOV1JMOW50ZHhIc3M2eVRsMVBqTGJwQXZaUDVoMC1tWGxoUllHTTdLNHpUWUNJUmlFaTctZFhfQUF3NUs2S2Y5N2dmUzNOcHNweXFlUFZqeWRoZUR1bE5NVV9yZTBiQ0ZfN0NWMVBsQ1dlT1hwSVRmS1lVQ2lyNWc3b3RhbHRYQWNGc2FMaEtacFVQSGlVdjNBMkNYbEJYM0M2R0ZQRExMUXVQNTF6Z1FWN3gxQ0VJNmpEQjJfTkQtZE9fOS1lTGxneHAyYzdhYkFNUjM0WE1Uc1pEZnVULUh3SkExdnhEYzd2NWF2eVRKdmZ6bVNwdDdNLWFCYlV0aEdnZWNmWTFFQm85RmZwZEVibUZaenVDMGZU?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:08fb2a0df19d",
     "titulo": "Veja quando serão divulgadas as próximas pesquisas eleitorais",
     "veiculo": "G1",
@@ -1501,6 +1525,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-10-18T07:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT3JCNnFxc1BHc2NCZkQ1eElGam1Ed2lsUlZYb1lHekF3bGs4cVhGZTlTSG5sUE80MTE4b1BiM2pMVVBNNmhnZ3NoMm93NHl1ZmoxVkdBTkVTWGFiMzFjOXNKSlg0Zjl3LWtzaEJUaGx5cEYxNHZHNUVBbERrT3llTkd2aDAxSUQ2eFhhTTc1ckxfN09zR3BsaWx6cXpyN1VQUm5Xc3NLZVBScG1VSEUzSDFn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:65e4d0345d49",
+    "titulo": "Lula 'importa' estrategistas de aliados e monta frente ampla com marqueteiros no segundo turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-18T06:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSW5Oc0paYW5vVENsdkpVZnFpX0lmZVBmOHdUeHFWVkJQMFJSWlRTUWN2aW4tTFFxYm1kaXNJMFhGZUJ2bGM0U1ZMTDBqVHpwUXZDU2cxVXZ5dUV4dEpVeWk4TmdNb0UzQVBkYm1vRUlLWTNObnhpM215bVNSZmpCVlVLeUg3TWpEbjY1TEdObXFQT09XMnhxYTZOcXVfM1NDRjlnSG1HQzNfeF9rZTJkSXRocGs0Y2phb2d6dXZyQWRDSzhVQUpha2c0TnZwb0otVUl4eWxYQ2Q4ODFvc3dKS1RmcVVpY1lPcDh1X3pKQmtmNGlTTWtiU9IBhwJBVV95cUxNLWpKSGRtSmg4dG43WmJuWnFGQkg5ZnBZS3g2UnFyYWN0QUVZbm1WQjlzd29kd2w0bDktSjhnVU9NTmVJUEFqVUhnRExkYmxITWdYdHh0MURfSjhTR0J1YmZsdjJQT3Itd01wMUt3ME11X3lCWmtKSWpDY0Z5LVVRdXlhdkRkRmhpODFCYWNnZUxaS0hlTTVmSTN6QnpKX0NKNGtrS0ZQSUd2NS12eklPeUtrUVBzNzVLbHJHTnE2cmpWZnFreS11OWpocVZoRUtiQm1ieFpDNktUaDN4MXkzWEFTTXJWNjhSbTZWcDkzeDIxNjhIT0FYQVBLMlNjTzNoVnZRVWFDSQ?oc=5",
     "origem": "google-news"
   },
   {
