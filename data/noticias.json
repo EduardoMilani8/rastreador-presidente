@@ -16,12 +16,28 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:757d02c64de6",
+    "titulo": "Itamaraty acusa Milei de tentar interferir na eleição brasileira",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-21T01:23:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObG54R25uS2hsQy1pNjVrN2g2cHZ1SHloVmk0VzJnNWhxNkNxNS1VZVUyRFdHeUQtZHU1a0ZiUnhBaldVNzg1cUYtTXRSN25yZC1SUkpSOTloVlJuN0F0VU5GdmV1U0Q2TFZlWGVncDFQcDZ0TDVHZGxrVmZVTVZuRXhvSTZEb2pYRVk3QTlHZFRSem05UWJnTDdHRncxNEtScF95U0hCYkZCZlNYWjVvUVpEUGtjM3k4WUdsUTRnbUxKaU9ZdVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:9a3fb0ad01cd",
     "titulo": "Lula confirma PEC da Tarifa Zero; Flávio tem apoio de sertanejos",
     "veiculo": "Agência Brasil",
     "data": "2026-10-21T01:00:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-confirma-pec-da-tarifa-zero-flavio-tem-apoio-de-sertanejos",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:01c6f35a6fc5",
+    "titulo": "O quanto o desafio dos sigilos pode expor Flávio Bolsonaro",
+    "veiculo": "Nexo Jornal",
+    "data": "2026-10-20T22:25:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamVOWVZGTWJWR0V3TUZoMDhVd2wtQ1FDeWtfR0I1aXlIcFdkRlgyeDUyb0tYSkFHTmpTTXJZRmFkVWlBQmF1SGhudVIxb2R0MnN3SlVPazZpTTRIUzJVNTNyWUNQSjNSRUxQLVlkUFJVMHBkYnJSa09sNlhPZXN0SXQ0SnA2Rl9xZnBqU3dxUG1CT2N0ZHBtSGFLWlU4RGw0SlJOaVpvU0Q?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:6ef8eb561353",
@@ -88,11 +104,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:d910c0d22a51",
+    "titulo": "Lula visita José Sarney após ato de campanha em São Luís",
+    "veiculo": "G1",
+    "data": "2026-10-20T18:01:17.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEpRVGRFd1gyaDI5cVNFS0NyZlNfMlBTVldjR0NPVkdBZ0t1dU5ycjd1LS12aUFYWXdmazM5Z2E2cjhNMnUydUM2eFJSV2xITzBPNGdscFY1Y3FYaDJHNmtNM2RmYjI4YXFOMUhEbkxVck5ueFJLRmEyVGt1VG5sNFNPQUVvbXFDVmZSelhwOVRuV0haWjF6emNqbDdST09ia2R2QkUtYVRZVXFfMkNjbkZfYnfSAcMBQVVfeXFMUHNSY0xXOWZWSTFkNmwyRTVSc1ZPdVd5NkdEMEZxRGVXdVU5aEZERktYWXBLLTN1MlkzbXoySTNRQTdBSnMwRE1aZHBVODBtaDlrYVJrcHM5MEljdEppM1ppeWVwWnBpY2h0ZGlwU2JMclRKTldtbTg4VnA4em8yMzczTzNCazN5NURRT0NocHRuSE9rZXBhbG1RbGNhcXowbE9rcDhreXhuel8tR2x0VUJrb3p3Z05nMkdlTVRBaWJRdlgw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a05049c0f6fd",
     "titulo": "O que são os sigilos bancário, fiscal e telefônico que Lula desafiou Flávio Bolsonaro a abrir",
     "veiculo": "Brasil de Fato",
     "data": "2026-10-20T17:22:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa3ZPUmN5bjV1aG1SQ1k4OXhDd3M4OVBid1Fzd0ZFVjlpVWdmZHotZXhZQmRwQ0FZSGJVRnMxLXpFNHBmUl9icVloQ3kyNnJQU2FsSWJ0MldhU0kybWV1RUFtSmQ2VV9nTkVqaFhud2s2U1g5MmF2UU0yczBxdXhJbXBDYW92N1hRaldtZWNfRGU2aEZ5VW9fdjgtTnBLTUdJWnNCaENiUkU3V19CNEVBcG9LTU1SdDJkVGo5Ml9RY2hGNDduQ2VKYUdldTVfdkJUQUE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:cb8f245cc6ed",
+    "titulo": "Minas Gerais volta a ser peça-chave para decisão da disputa presidencial",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-10-20T17:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVTJJc0E1VzJLd1VUVzUyb29EX21fVEtQUGxLWjcxc2lVc3lJRzB2TElNaXFlYWRMRDNhSUZEdDFKOEYxeG5ISDF3dzdadERaVFhDelkzaURtc2JZVXlXeFpONXI3LWI5RTBtX25peU04aWE3SHhRdFlPdjlsU0JYMkJsNGZIRVgwMHRldlFnbVRTRjg4OFE?oc=5",
     "origem": "google-news"
   },
   {
@@ -144,6 +176,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4bf4046c772c",
+    "titulo": "Rafael Greca declara apoio a Lula e critica submissão de Flávio aos EUA",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-20T16:15:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeXlHd3VFQUotZlNNM1BrOFZlaU5MZlRfZm52YWxYa1p0T21CR3JRaE9zY1lNakRjaWtMd2tZQXFiOHdnNzdiTlQ0RlUxbDI0bmZSYkxPMkxsYWozU3pWZWVXY0lqUzQwSER5bFlCQW1qQWFNa0pBTmt2YUxLdnVWY280SUltWlhvR3NHcURvWjRSNTR2UlE5dEd6S2lEN3pXeThUZUJKaUJROEpRTVFCMmNaaw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:dda0f01c1225",
     "titulo": "Mendonça vai relatar no TSE pedido de Lula sobre abertura de seus sigilos e de Flávio",
     "veiculo": "O GLOBO",
@@ -192,11 +232,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3e33b4ca6102",
+    "titulo": "‘Fique vivo’: indígenas se mobilizam pela reeleição de Lula e para proteger seus direitos",
+    "veiculo": "Mongabay Brasil",
+    "data": "2026-10-20T15:32:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYngyUlVPUjJSTzNUOXF1OXdxdWlJOXY0SDBNNVc4SmhGbDVWQl9LZWhNUmVrTnV6cEVINnJpZDQtSEdxd2xadzdnUXk5UXpBbDJmdE1NaHBmYTRVbGpyZzdkQ193OW5aZWlKTG9fS1pXdnliNGV1dXNvQVVDTXhHc21VY280WXJ3aVFVVWxubjVGNVFuMU12bVlJcncxNC1XbGl1aDY2Mm9tVkk1dVVHb2hrcngxR2NpdktaNlpXR2hHRUtyYXVCdmhhLU9ud0FBZDNn?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:25e8a68e7ddf",
     "titulo": "Pesquisas para presidente: veja os últimos números de Lula e Flávio divulgados",
     "veiculo": "UOL Notícias",
     "data": "2026-10-20T15:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGhLZWt1QThTMkF6SDluNXlsbGh1NnBRRE14VENkY2h1MTRKZnRkUkdXb0FrVEpyYVlqZlB1MERIXzBjTUpJcjRjNDUzOHNsdzlJNms3aUxibXE3eU1sQ0NsLXAzenZsNmNoUVdfaDg2Z3JrSzItalRGREtnS0xVNksxZWNpdzE3bFctWDdMdnR5Mmg5bnNYYmRsMEEwZzNhMGo4MVdrSXliY291Sm5fQXcwbGhSNGgxY2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d9ad15ed5875",
+    "titulo": "Lula autoriza quebra de sigilos dele, Janja e Lulinha e desafia Flávio a fazer o mesmo",
+    "veiculo": "Assine Abril",
+    "data": "2026-10-20T15:29:56.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWndUdVFlZFFJQVo5QWJzSGVyekhTZm52LVhrZmJuRXd4akFwbUhZc3BqeGJ2S29oZ2dVVWFSdUZpWXFYNy1lR0ZwcERhc1ZNODVmSkZ5NXRXMmRPblBfWjlSX2pGREROZlVnWDlRRTkxNmZWN21RTk4tOHF6Z25GRkRWUmpFeUIybmhKdHg5el9CbDUtbXBfTC1kZXY5RjE2dFl3SnJJZnpwdlN5aTkzdHBVcFE3bW82RnEyVmdB?oc=5",
     "origem": "google-news"
   },
   {
@@ -264,11 +320,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:ccac8ec872c0",
+    "titulo": "Opinião - Antonio Lavareda: Como abstenção pode dar vitória a Flávio Bolsonaro ou a Lula",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-20T13:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObkRFa1BTODcydWVsSlo4Yk81MExOblFyVW5yQlBPQk9Ec2x5cTN3M2tIV1dVWnByQXdpRGlRZDNOOGlwandLc0tTM0oxYmZxU0Z2MHpaOXFQMUU2SXhhdUF5d294TnBUbFZWeDVOU2EzN3N2YmlxVEpCV1dKNU92QWJTUmFaaHJzSHdsZnlhOC1UMmZfWXdmRWhraU1NR1pOZDhjY0JLdC1qRk5HNWp5MlJiTDdsUjQ1?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:aa257b723a53",
     "titulo": "Lula supera Flávio Bolsonaro em engajamento nas redes após debate na Band, aponta levantamento",
     "veiculo": "Valor Econômico",
     "data": "2026-10-20T13:18:19.000Z",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR0ViZVJwR1FheTRFRFRDUldhYzdjNEZSRkhWWDRQUjZ4MG5OUGNBQ2llT0stQ0VyOTVYV0dwT1RpcnJuZjR6SDFBT2l2Z1lNVXhVT1NTcWRmRXNYZkprYTVxTjFkWUZyS3NOa3lMTjVEaFp3dG1ZN25BYW9IOGZNOFMydTRSbW50Rm5JZzdzMkQ3c0doS1FIQjB2X1l1b25XTjIyMG85b25YYTVpX0FWdjBYbVdoRlNSN2FUdnJ0SWJBVWZYS0pYTW9PUTVIeDFXWk9VamNzVEROejEycUZGSDdhYXZFNTJzWUN6RGQ1dk53cnBOclRXX9IBhwJBVV95cUxOM2ZCcnFFR1B0QnVlMF8tSWtlSE1aN3lranZSMWlQUlg1ZW5KdHFaSGdHUUp4elZzeGNSaXFwRGJzRWstSlhPX3pZX2dKVmd2elBDYjhTZ09Idnh1d2xTNlE2ZFZVYnhrek9PNUc1NmhaNWF6UmtkX3lka1Ixcm5BWlp1ZlFsZkpVZS1wS05xTDV0MW9DZmtQWmgtNEt6Uk1UZmc2QXhrcDZ3ZV9wS3ZLUElObEVkX3FsNmcxdlBYUEtYMkE1QTdnQ21xazRrNGdwbGNUZ2ZHVDcxczFpYkt1aTBJRjRVSksxQ1lENTRPb3JxdG14dkhoZmRwNGthRmFXUmxnSWVfRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4ec72e103a4b",
+    "titulo": "'Manipulação algorítmica': o que alega a campanha de Lula contra a Meta em acusação de favorecer Flávio",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-20T11:33:16.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQYURlSnFPZ0Iyb2oxRlhnUWFEa0JLUERLbXdtaWdVa3lCZUFVbzRta21MUXdBTG5CdjgxU1h4dm9MNVVvbFV1cC1qb3lSVy1BMnUxaGxHYUpYQUpfeTVQamZnakJmR0lsV0FoQlp0SHJyQ3RUdVdfUmRPck81RXNGZnd5U3lGaGlqYUpQWkduNm5RakxNdmdMYXc1Nmxybm9VUGQ3SG5KU0QzWG9RZEFtM3Z5SnZwWm5vU1RBcjRkOUgxTENIdzNIbHIyT0dTcnk3aExHWnNvd3R5WjlnYzFiNFhQbDF1SXlFSzltVDVPZEtwVFdfTzVrNlBGY3RfTHlPRmJR0gGSAkFVX3lxTE5JZmN1ck9TS3Q0RUNDcTFZOXpUUmtXMy1uWVRiRG1ISG8zWEtjYl82aVBNM0Y2Rmk5WVMtYVVPS1RZREpMWFdGVmI4b2owYjFxOW9IMFhGWDVjOHFoMklqVmgzdkRJRUVCSG52b3EwaVhla0xqWHJLNU1Ta3dOSWtScnU5SThPaXpfUVBBajVjOWU1dWNlLVRVeWs1bWdDVE5QZkZONTFjb1RQS0ZsYkJra01wZU9mdG1HdkRTMndaTGZsV2RMYXNvQzVKWVpuYzd6eDdvcExnTmJDUFo0T2daSFBHbHRrYVEyTDdqOTB1U3JuaWlrNXhyVTFqdnlVdmQxRmVXZUVuSGRmZG9Fdks4a0E?oc=5",
     "origem": "google-news"
   },
   {
@@ -296,6 +368,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a3208a664219",
+    "titulo": "Alfa: Flávio tem 51,5% dos votos válidos no 2º turno; Lula, 48,5%",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-20T10:00:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS1JCNFJ0c256Y1Uxc2hQRk4xUFVoaHl2SWdaOXRKeUtlXzkxbmcxLW5WZEhWekVHX0lBQVZHeTJ3cHV6ejhrRU5qMlhaMUhwMnpxZ0FKT0EyY1BzUmtpZVp3WTFhTlJEVTY1MFpIMVZENVk5aU84Ukxnd3NvNW9RbHZ6a1pJQS1yUUFaMFFPZEhCX0hLTEpNQzhyZ3ViQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:980471ac3992",
     "titulo": "Lula repete Bolsonaro ao antecipar Bolsa Família para antes do segundo turno",
     "veiculo": "O GLOBO",
@@ -317,6 +397,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-10-20T08:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcU43RVAwZGRXV25nMzV4aFBiOUdVUVB5ZlJBVjdjU1MzclY1U1VIQmhZWjhpQWIwOHR5emVpTFYtU3hwVEtrMGtDVVM1cmZ2cGxENEs4bkJJal95cWtTaGxreDRPLXFYQ0N3eDVoVjhoSlBUbFB5M3h5WnE0d0hCSk0tRXg3MTh5d3U1RmZIRjdDZ2pkMm5LN05HX1dZSmhjTFZ6cmlMR0Fka0gyc3k3YlVEaTNhRWlzbTNmOWpkLXFsOE1UZGlpMk5zaHNUYXZ1VE1nWXBR0gHkAUFVX3lxTE1qS2xpYTZibkF5eThCajhtM1RwSFNMc2pJSmVLdGUzN0pVbW15NTVnUUZ5ZDFFbHlZZEg5OUtMcFVyWmNCd3U5QzhNR1kxN2ZnQlBqVHhjZkROV1J6NVB2OWt5blU5RVlHb082Z3VOY25CY3FIeUcwdk1yOHJYNlk5NnZjbDdFOG5kcjRrS0xmbTF6WDdWajNiMHBTSkV4SU9pVTdPcDJSOWM5Zm9OYXFLcXR0OGVMNl9FZHFnR1J6RkVzYkRIZlVvRU5KRklob204OVoxbFBtUGttaVVaRlFRbjZkYg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:362398705035",
+    "titulo": "Do cansaço à agressividade: campanhas admitem erros e recalculam rota após indecisos reprovarem Flávio e Lula em debate",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-20T06:30:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNRmFwNmZ5d0xGclphckxJMFpzSjRSQTFVa2tJcEc0V1NWRVlETWhCbWZocmtyYUxaeU1GS3poSk05U1JXZXBZX3NxaUhlYTVyV2hwZG1oUXNHZFA2NHVjYkRZUnp0UGNCRkRPbC1fZE1sWDJOX19QQmlOSGFpcmxLckgzYXk0alY1MVBsSkdxNFp2RDR2RkFOemVhbEhHTnRYV25sMGdCdHMzMmQtQVJDckdfRVJubHRBTHBibUxkTXJUT01YQXk2T1NjaUFGdFB1VTQyVi1CdWlBaXl0Y3dfUmV6N2g0Vk1HbXdGVi15dGFNaHUtTk9KS2s2Y2RKOG5IYUZiN2gwX0JGQlV6Mno1cVFTVmdJUjN1VnVz0gGqAkFVX3lxTE8xZVpwbzFReEVSUWMtUlUwcmd3Y2xGRnZkSEVRVWJWODdpUU5JdTA3STlOQ3dGSlhwYkdvX2ctQWJjNmR0YzlLbG1MTHdiRVVORHZfRFl3aXktLXRWVEszUVZJRWhZdDJGTDZSY2lvVkJMNFZtMjV4SHU4MVZjaVR5M0h1dGRyZjR6dzJWbGpBVllaMnJTZGkyMHg5RHdGd0tZWlo5Q2tNQ0pacEppb19jMXlSNkFyVUdBVnVPS1c0d3g0ckU0OWJOQnNKT0VpLXA0V0F2cVFCMS1FT1NBQU1keEU3QnlPVUhJWjRqS2U4TmEzeVJvQzVaSW9yMkF5TUtDb0J5N2xvRENSd09oYWFrTld2dDdQdS1TbWZYUFNUeWlmOUJvOVRTWXc?oc=5",
     "origem": "google-news"
   },
   {
@@ -357,6 +445,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-10-19T23:49:47.000Z",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOGNzRkpJdU9yMWdHSUpULVU3UkxiOUR6MUhZRkVya0NZVkJ1N0hpQklQWlFMRTZGbjdwZC1URkcxcnJGTzVHYkdSRE1YMi1BbmFyNDlPWWJnaTItcE0yNjZibmJiRkJvdXYxZTRxQVVTeDFBbXp1SlE3cldYYnk0Q3dQMXZreXFlVXBnYWlKZEUwYVRTOFJ4XzdlU0VXNG9kQXN5MHV5ZUtVanVmdTMxS0tsZWx3T1k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2ed535ff342d",
+    "titulo": "Lula diz duvidar que novo Congresso derrube fim da 6×1: ‘Foi uma conquista do povo brasileiro’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-19T23:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdHBySldrWHBlbWluaUFzODdLbkVWQmNkS21MQ2hQbUpmbVM0RmhaM3A1bHVDTjcyOU05azNIdFlZM0o3ek5INUF4YWdTR0hON29QZFZ0dmNyZGVob2EwMmFtTWZuNlNqNGIzempkNTZzeGd0V0dVVjlNMHU5SmlZelNQSmVwVnpsY3h2dWVZUkY1SDZRV3BPbHNBT1dEYV94Qm4tak1XTWJ0QWJYNWJ6X0xVeTZEZjRxdTFzZkkwZ205dTViM1N1UEpPeDJEMEFw?oc=5",
     "origem": "google-news"
   },
   {
@@ -469,6 +565,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-19T21:11:03.000Z",
     "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNcGZ4SlNkV3huMnlUTHpzSkJFWFI1M2VGREVrb1pQZEpiUE5KY0ZuWTRIenJubF9qRzVFdG5MUldlUDFHVDVWNkd4YkhmRVFjUkdyZU9VaWYtSWctMTQ3U3hzVGFMZi1mSHN1UDBJODlYclhZTjVqWEpzMXl1MnBEUGdLdkFzNllWZFpxV1lfd2lXdFJiRWdrSzVrWjFwQ1hEYmNyY3o4Rjg5eTF1aFE0MDJCdC1Jd290QXY2M2RxN1AtOVk3bldQLWlwTlp6UGpaWkItTXp2b2N6b0xydVp5ajZsX2N6RHRkREJRZFRGZlFjS0R5ejBYdklNbm1heUhqU2pqMUdsUldBU05JS2xhcldQMWJ2OXc4SEtZ0gGqAkFVX3lxTE9sYVRzTU1scUJ0VF96SnYtQVRxdzNDVTVERnRpN2x5ODA1RDdJaVh6dHp3Uk5qbG1kVExJeThiTUxGN2ljNWRudWk5UkROLXFsSmVGdGlHTmRrWUF0cFdtbXlYMUsxNUstdlZfNmxCX1NucU4yTlM1S1ZDUlJ0cDJzSlg5cVdsY0xjRklTT1hNWVhZc0VHSjluVzFRaWRZdkw4bC1YQ1JKd1NvckplMWtPOUJLdGxWLTJFTktWVnVoX25Ea2RkRHlUZlQxeWE0TmtnNGdUMVluanVrb01wZ01ZMWlCRmx3c1RUaGFjeVNxUW9VWmREYnVYckhOdlItZHN6SFdBeE5NanpxVHROckM4aTN6VjBPa3hwXzNMVDV3aUNmQllyaVFydnc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f43196848ed1",
+    "titulo": "Lula anuncia ofício ao TSE abrindo sigilos dele e de 5 filhos e exigindo o mesmo de Flávio Bolsonaro",
+    "veiculo": "Estadão",
+    "data": "2026-10-19T21:08:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQnZsOUJpcWMyMXEyMWtBX05tYzRlSU9XQnVtTnA4b1hYUmJDY29JeThRalhvcXQxVUoxakZicFFsYTJHZHBlQ0ctangxMVpTeWxpTmRJbkFKcUFIWm13LU51MTd1RkhCLWwtRzJOdjlnT0VwVkR6VE1pZUJoRUpCTC1ZbnR5TWJxVnJ0cVZqLWVTd3QzMlltcUhua0pTNTFmVGUxMEEzd1JZekxxd1BZaEpRTmQza3NnZnJjd3pidkcwc1hDeHBPZDVyNUFRWUJqd0JYVXFfa3pibDY5X2hJ0gHkAUFVX3lxTFBZZG1Cdl9UVFZaOUlUeklTdnhXX0JzLUN1Q2JzUWc4NXFNV3VNaG9HZWxXVE1JZnFWRk0wNFRJT2p3ankwMWM5RXZ3bk1CdFpjZWdISjNnczZ6aDg2S2czSm1vbUtrakoxX2FxWGd3SkRnMUdMV3NhYmhmRzlCYVNzRnZJdjVLVUNvTzVpUFJ6dmJ1dEZsSkVHNXAtSy16YmJWdFJaS1ZENEZqbDVrQzhNcTFkNm0zSTNyVlRkWFhNRkhoR2F3WUJhcGVMVGtfME5JRXBvcmJZRXg3OHJ6RlNUaHU1Qw?oc=5",
     "origem": "google-news"
   },
   {
@@ -624,11 +728,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:cfcae11fb50e",
+    "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno das eleições 2026",
+    "veiculo": "G1",
+    "data": "2026-10-19T12:54:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQaUZZUmNQaW9SWS10YjFZYm5zQ3lJMWhyN241MHhjT3hFVjF0QVNwSzM5NUtsSXk3NEJqc3Y5MXZOYW9RWkgya0lfbmQtNmRIb2lyb1ZQVDR4WXF1Y01PMkJ5Yl96cUdTa3VHc3Nja0Vla1hzZW8xd0pYUThCMlNwa0pZMFNHNnpVMVE5a19DWmU4Yjk1RmdQNnZMV1ZOdXRUUHREQ1VqbDhUdThnUVNQV1c0anhHVldaMzhEd1NOcVlZRWJuZ3NMM1dRLXpRV3NyRmhRMEdBeFNrOVh6OHhEazZEbTU1MVVncTZaYTRFWGI4ZExRY2xRU1prY1NuSV9CUFhFNXVzTldzZ9IBmAJBVV95cUxQVENnSmlQZ3M0Sm1zRG5lQ2dvSGptZDVwdVFOeVp4clJnTS04b3AtbHZIaWdfRkpJTzViODZJYTBVTmpWandlTDRmbEtGLV9zem1IYk0yeXFjZks5TDJoWWM4M1puLWNwbmMyamVUOE9DMmVfcVJRSmxpNldKeHMwOXF4Y3NXc1hPM1V1d0dUYi0wbGlwZEJkZnFpcEZyUkoxMm9sOFdYaGNlUzRPSXpDdkVPdXRiRlZoMkRmTzRzeU5qeDRtYzJlcVFlRVU4dlVGV25sa1pfeFVFU1ctWEpaVVNacVYtcUh1SFdyLXVydjJuXzFQUk5XaDNFQjJDSFBwSzZieHJMNHViaXM1bnJ1NjZSb3NZLVl1?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:993e9e13c916",
+    "titulo": "Roberta Luchsinger rebate Lula após ser citada durante debate com Flávio Bolsonaro: 'Mentiroso é você'",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-19T12:53:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZTBzekFWbm94cWQ0US0zSmpnRTFYamdPblVXSkFBMUdObnFWclk3a1cxbkNvVzB0bHRjdW1JWjZHWGFXNDRjdE1JVlJuNDMtOXU0V19XbUpLV1NCUDg0aHU2Rkx4UExLNFdLSFVtS1RyQlRIR0NvVGk5Z1NlYlJCR2dDbzhnb09RZFZCTGt1cmxJR1MyLWE0R2hObUkwcHdxNVFxZGJBREV0MGRzaTd5aFF5SW11cG55ckx1dG1SeXNEWG0yaVBqMGphcnJRRGkzU2ExSUhNSEY4cHk3akJEUGRBdTFEUUluVlpXNkZtUzhfdVhXRVlsSmt1WmJXb2Z0Y3fSAZACQVVfeXFMUEZOT2lSdFZRMlpLMWhDVXY2UHI0X1k5QnNyNkNVNFpyNkd4aTAwazBhNmJ4V0FOd1VmRzcxaXpMTzVPckxBd1NaRU84S01WUW85YzVRcU1yOEFQeGVwZGNyQk9QQnNxNlEwTkhxOUEzcVdfLVZnOWQ3T0xUVkUtWFNaeklBQWVfLWFvN21OX3h1RElvM1Z1Z2RJRVpxejY3X0Q0dnYzZlEwaHBON1JKX0hLOS10RDROWWthZHRLMVVrYmxhU1k3U0VXU3FPbG5Yd1NPTzYzeWU5TWNfblVFQ3RfV2JDR2lpRElLYktGdVluVEJKdFIwTmY0TndycENWU1V2aHpLSlFxZjhDQnRWZlo?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2b199f6c28f3",
     "titulo": "Veja quando e onde será o próximo debate entre Lula e Flávio",
     "veiculo": "Congresso em Foco",
     "data": "2026-10-19T12:53:02.000Z",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRzRfTWdsLWxwUDJJNkttT3laYTlBYWRTdEF0cUVuQ2RpY3dxTGNWQUtiWGxXemM1bVA1anRVNEpRclhwM3pvTW94YWUzWE9VX0dvbFJEV3FwV0N5MFN6R2RsWnhvSFJuYlZEak1jdmpCcldPUEx4S0NDcjl5Um1Fd0NDMHVqbVFQLU84WDNYZTJtczlENmpwSldEaXNYNTVLYVZsY0xtdmVCLUtKYV9B?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:710401fb2552",
+    "titulo": "Debate da Band: Flávio treinou aparições atrás de Lula com marqueteiro para produzir cortes para as redes",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-19T12:32:02.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQTjdrajZTdGhnTHdkNzBsN29KUnhOUFZPc3RjZ3daS0xTWThnX1FBSmZheThFdmd2M1k2N3V4WUNkQVdTQUZUZDlaSWNtQUdMTjRydTdZYVluUTZEa3NTdm40ZExWSlpHZlJ2S28wMTJVYjhRWHljRVpFYzVzQ2l4R25lY3psUjB4ZDlMRVQ2dnlBVUZkU1RsZFdwQU1Ld09IWFl2bThzM1Mtdm85bGxES09oSVlRbE9VVTA2UngxbDBvaC16eDBzTkdxRU9nWVh4bG11OGh1bHVEQ0lDMExsOGp4b0dpWUFvM2JhdlpTR09XMEdYUmg3WE4wVWkwWEJxMl9pSHN5c2TSAZcCQVVfeXFMTWp0Y3B4Y19pMjVHdmxTUTFfUWNwQVFaRC1waEJnMl9ZbTRvS1doVk5VaXpxbnVBOTZ1c0Z5UDBhNXN4SDR1YXE2clowYVBkOWlCNEpReldOcl9wYm9VVXVoR0ZMdms4LU0xNGhjRmtNekNhRi12TmJ3S2pHNWJQeGxYRHdIQWJ3MlkwSndDbGhYdmxtNHhjQjhUTU0yVjY4cmJyUkstc1FMbUJRZE1pRmVGT0ZicTZBNHdFR1cycjluZHVPbUYzbDdKZmJjb1dXTU5CbTFWY280R1l4cXdZdDZrR25DbXdMNDhQbU92WWN4bTU1cXJHZ1QtN2hpbEVqdlY4bHJCUXN6WE44UVhERkpMTjJkSDAw?oc=5",
     "origem": "google-news"
   },
   {
@@ -1109,6 +1237,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-10-18T22:44:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGcxUThDOEtqN01LYmJ4MUp5OE9ObF9GWGpJUU01aTNieFRrTVZRSlo4Q3paaW5GQ3pfVUhFdzZRME5zcGNVT1FTZnk1RkVId0YxakhsRlptdnQ4UHZveDNxdGx2cmI3djU0Wk50Uy1tNW14SW5wdVJpQ0pWdFZrTERsLW0wa3BnRXkxNjBSMGUtT1dWbS1TQkJkRlpQY0hTN3RWM0hCa0_SAbcBQVVfeXFMTzlhQmRlWVEtVEFkSTExN20zblQ3U1NVd3NUQXNyVGlHR2R0NWNHWjhacUVjZzJmMW0zakotTkhLN2VIWVQ4WlN3SWRiVDktdUlVX1NCdkpVc0pyVXlfeGUtQ3BibnFnamFLZ2JKajZ6b196WV83a1lPc0VRR0paa2xMSkgyZEhGNUphVjFEbFZHcGNWTG9TNEdtY0hUQ2pSTXpweFZqalFrQkZjMElaMUdyN1VRa053?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8719f17a20d6",
+    "titulo": "Lula se prepara para debate com consultora que usa técnica de arte marcial japonesa",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-18T22:24:27.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWm45LXdOMFo2RlViWXNSYTlqZkRLVEo2aDZQWHQ3cWRTZWxBTVdqdVVaOGYtem45ZmY0V1hLZWkyeE96WjhUWE5XQW9pQXE5YjI0TTc2RU9Ja0VnRUYtOENWQXp6cFowUE01Y0tPTXF6OGhJNGpWaXoxZjlYdk9VZlVLZWVhYko3bWREcnJLOFJYb2k3bVRnMGJIdl9meHFsS3p0b3F2V2FlWVBhRDBNLWRjY2NiN2pURC1EUGNFX3RLSm85WkUtWVNldXNINWIxcHQ4anBqYXptWmc3eEdGV21FcjRNVVhDdFRpWl9nQ0VkakQ1N2VZVGxn0gH6AUFVX3lxTFBabjktd04wWjZGVWJZc1JhOWpmREtUSjZoNlBYdDdxZFNlbEFNV2p1VVo4Zi16bjlmZjRXWEtlaTJ4T3paOFRYTldBb2lBcTliMjRNNzZFT0lrRWdFRi04Q1ZBenpwWjBQTTVjS09NcXo4aEk0alZpejFmOVh2T1VmVUtlZWFiSjdtZERycks4UlhvaTdtVGcwYkh2X2Z4cWxLenRvcXZXYWVZUGFEME0tZGNjY2I3alRELURQY0VfdEtKbzlaRS1ZU2V1c0g1YjFwdDhqcGphem1aZzd4R0ZXbUVyNE1VWEN0VGlaX2dDRWRqRDU3ZVlUbGc?oc=5",
     "origem": "google-news"
   },
   {
@@ -1669,6 +1805,14 @@
     "veiculo": "UOL",
     "data": "2026-10-17T01:32:57.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdldYRlJSYVRqa0FUU0pYdWtWZG9YQU5lNFI4d3J1NDhsRDNJVUw3ekE2ZnZsMDJGNFRITnJ6QnliVEdPVVJYN2M5NFZIWThyNjBFeFFqVi1DTHgydzMwNy1PYmd4aE50c0EwYjg2WHQ0MWpIN3pua1BOR19mYmwxWHdacFZzdkZPZUtXSmNRX1FFUjBkLVIwVHFUTUh0dktXUlk2YU9tRWFnVXJXVEd3M3FLaUg2YjRpeUVkNXV0Tm0zWFVBQ01HTk9uWDhpWlBSMjNlNw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:95e4676a6fdd",
+    "titulo": "Confira alguns cliques da manifestação de apoio à reeleição do Presidente Lula (PT), que aconteceu na noite desta sexta-feira (16), em Mogi das Cruzes 📸 @robertabertolimusicphoto/NM #mogidascruzes",
+    "veiculo": "Instagram",
+    "data": "2026-10-17T01:21:04.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WQWVNdW5lLVFGNGpuLTJScnp0NmZLS3pscXA4SDdDUVVjS0VrYUhzeWRZNTdqR1dxLVM0N0ZnRndYeHNrT0NMZHBZOHY4T0I5Qmc?oc=5",
     "origem": "google-news"
   },
   {
@@ -2286,6 +2430,14 @@
     "data": "2026-10-16T02:44:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:a5f890713e64",
+    "titulo": "Lula vê caminho para acordo com Trump: ‘Quem deve estar preocupado conosco são os EUA’",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-10-16T02:25:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkI4N0ZaU0xORFEybk5nU0xCcFlOSi1qUmNLRnRlbnU5a0tMN3E0c0NkX3lkX2Nfbkxsby1UUjFWX3UyalFncW5qaHVNaDU2UVJEcEljNlZ2cjFRNGluTDF1Yzc2MXBseXYyWFlBWmgyU2FXWFZsbF9XbDNTOTBPLWJVdGdsTjg4QXpBODB4QmpTcVE3MXdlUkRueW16UUlkai1jddIBrAFBVV95cUxOSk5IRVB4T2lmMy1NZWdhOS1GS2hNRWNwM1ZpNEhRMEZkVFFiVzFtcWZYVkh3dVhrdVhrbjFuYkdTZGdPTzA2NkJaMVc4S1pGU1U1WlRub0JxeUpkNUN0Njgwdk84eGFSRDFRUWRNYlkyQUgzb0EtSTBvbzRaNTBKZ1ZOTUJwUXNjNTA5UnJuZThpQlBNalhuX1JUc1VNZXNxNGdkRFhGdkJwNzAy?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:8e8dc286c217",
