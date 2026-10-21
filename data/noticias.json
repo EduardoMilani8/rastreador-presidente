@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:3008c7d05ac9",
+    "titulo": "Meio/Ideia: Flávio tem 51,1% e Lula, 48,9% a quatro dias da eleição",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T10:18:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWt3VWNlczFWOFEwZU5wSERsR0RMR2o3cXNpRGZFZ1BTcjY5d1M5RWpEQUNXdTZfQ0tEQ3pZaTQ4RUtkTjVuNjdGVl9ZeENMZmc1dDZVbld0OXVyOWUwZmZOQVB0Vy1URGlVaFZRMVNBVkVyX2VRS3dNMFZUN0lGR0tIMGFQRC1hRnhXYzRRVGNqMklhemxRdDJ4dk9aLWxsZDJSM2FVRnV5cWZyS3dmUlctZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:300d26e8adfa",
+    "titulo": "Meio/Ideia: Flávio tem 51,1% dos votos válidos no 2º turno; Lula, 48,9%",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-21T10:00:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMFFrVE5YdGxhajRCc0UwczlUVS1RaFlzeTc2dFlWTmJ3b1hTV3ktR1ptdU1FMEhGUXF1bG9aal9ubUdLb0doWDZrSTNVd01vZGtacWlfM3VkSC1NTDdhbmhxUklYY0JmaEV1THh0eldGdlQ2bGwzS001cmVTS1ZJak5OY2JPajRqX3ZHYnJEUnVHYlJaZ3lxSl9SWWI5TFNKZThUWllR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3e6bc2f9c80f",
     "titulo": "Meio/Ideia: Flávio tem 51,1% dos votos no 2º turno; Lula aparece com 48,9%",
     "veiculo": "UOL Notícias",
@@ -8,11 +24,43 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a193bef8b31f",
+    "titulo": "Flávio Bolsonaro tem 51,1%, e Lula, 48,9% dos votos válidos, e seguem empatados, diz Meio/Ideia",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-21T10:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa1duYzU1V1RFWUlqR3UzRlZBeHQ5VFl6Z0NDREN5ajlGdnRwZUtYN0tvOVlMcjVEZnpKZ2thQUI3N0xIZF9RSHBBX3dta2NHQ0lyM25uM2Y2dFNEdi1yMU1Lc25Hb3o3VUJBSU0xdTNSNGJLZHVwd1VMamcxYTNDN3BzQUIwS1VYTjFYYndzTUFtSFJlcXV2dlYzUnkxNUNUYmcyMF9qQkU4TjNCLUNMbUVCa1FLQl9tMUR0NzZGWmZJVzQ0N2tWLV9hWS0tWC1xbGc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3c294988e521",
     "titulo": "Última pesquisa Datafolha para presidente no segundo turno testa se Lula vira sobre Flávio Bolsonaro após debate da Globo",
     "veiculo": "Valor Econômico",
     "data": "2026-10-21T09:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOdjVoNVNILVI2bjRtT0M2aHNfMC1hTkFLYkxaSDYwM3k0ajNCQ3NwZ195blFSNDdyY0NlYzR5U3ZfSWVSOXNWXzFRWnNodkQ2Y3NfYUtsQXBpaTl3cmE3eGUwNmNRa2VqU1Y5bFlMMm10aElqQlZKX01ManpfMDlhZ2VzNGxFb0wzMjJ1WmJQbVVHV0lXbFVrY2VId1hwa1pRMmdldnY4Qy1RZWRpYUhFRFp6NkduU2k4WFd3aW1lSlI3MS1ZN2pBOUpiM0tPSWt1YXFJb3ViSjhjSHdLQ2FXc21pdjJsWGZfQy1odXZJVWlmX21tank0R3pTZEpYclVvYnZLSE8ydVRXdkRYTUlLSTJxN1FkVTdIYW1uOVp30gGsAkFVX3lxTE9nck50NmdodTlXUDFHWi1uTXFWRTg2ZU5IUnBLUkhtVDJaSzZCX3paSV9NaWdrMFZnbWpWdEUwUFFsc1FQdWV6SXktdnZyTHBDS3IyYW00NWFQdDZUbEVhazZPYmladnMwV3cxRmVaUHh4YXJPNDVnNXkta1FMUWJTQ3dEdjItNXVFLVlsaTFBS2Z0emowcXNwVmhMS2pYME5zNGhkbG96SWxBUjJhNVczNTFKb0lmOC1tckNUYkszRW1ScWhQSFlTNVZ0UVNyNnJaMDFFaTkxWlFDX2VCanVpemVoMmZYUml5d0czMWROTEd4N0l0QkVJaVEwLVQtemRWM2hBR0s3OWZaWE9CZndlSV9sa2FrQ1QtNnAyOGM2M0hSUF96cW1vYW02eA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3404f7820205",
+    "titulo": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de faturamento para MEI",
+    "veiculo": "G1",
+    "data": "2026-10-21T03:00:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPM1ZuZndPOEFuNUdXVm5OWkQtN0Z1VjV1UWhQaUVTRW0xY0xtblFtOWpxOW5UYThENi1rR2tuQ2tyNnpuck15YkwzN0NGYmdpck1XbUNkbDEyQ0wybGJ1dVljc3lmcUo3WDlLbTBhVDltckZFck4yOGw1YmctaWNnZ1N2V0RLaUxHT3lDN3QtNlJQb2hFVWc2ZUxzMGc0VTlMUXJhbkplMEI2S3k1NlhxMVpBVjlwTmhqaGFPdFdrT3E1NEhvUlRsWWVyNWp4SkdEbXBybU15Y2R2NEQ0a2FCNEVNZmpNR2V3dkRj0gH6AUFVX3lxTE9jQmxOUURsTm9hcmRiOFlkc1RGT25Vc1BDby16Rzc3YWRXRVRwVHNHQnFyU1ZSdDNxQ3YwdHdGbWVfdERlR2RadDNaemZBUXAxUC1LSWc4MV9obURuX1labWRYMXdCSTM1bS05RlpQR0NGM0RRRVZDSkwwUm9NSUsxUUczb19mbFY2TmxvMmVJY3p4VjA3S3EyeVlnVkZwVVV0ejhGcHJfNXdpdEx4ZUhIdE93YjZQN0NhUnRkX21KQVlIc1Bfc2NtRjNxNmhWNDA0RWkwYlZEWE1ReWFkbmt1dDVsWlhYTHhFMEY3ck5nS3Q2T2ZiTkVzc2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6cc3a5d449c8",
+    "titulo": "Primeira pesquisa Quaest para presidente após debate entre Flávio e Lula é divulgada",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-21T03:00:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeXhJdlV4bnQzM2UxSXR0aEZmMkVxSXZTcktFN2xfc2lqT1Z0WFEtTS1PS014dTFISHdGLXJzLUNhY1JQaUhtcWZ6QmFiclZrNlR4T0dXaHdOLWVXZDM1UkhiX1NhdXNkbjhJNGcwMkIwUGFMQkJDV2swZ2ktY195Uy0zdXdRaWhYN1kyemV3RmFHM3FVbU51SjFsUzFJLXA5OWFXWUZXZXM4OUVFZFZQRXF2UlFxVDhSQkR5RVMwZEZqZEN6RkdDM01WM3AwcTh5RmtGcl9Yd9IB5gFBVV95cUxOeVphVUVkZjh3WEpRdlFkYWVwY3dENTBxaUJuMXhodFNkSTF3SW1HNkxtcVc4cWV1MFJscEU1NnRqV0ZJUFBoQzJwQl9FMlppRjN6RGNIUFUyM3FXcTJYTERoSlZkakJjOXdYaHNyRjVhYjM0dVhUdmdsSzRKVmVWUnRVUzZxdmxBOURleU1rVk1HRGwyOHVlQm9nSWNaS3BJNzgtb2RNOEM3WE1abmMtSERYV2stNlpsSXVZMy1tSzVrc1ZyWTlFa3JBQXF6WS1NYkNNSndvOGdmOE9sdDJPLURhc05VQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a262e2c51616",
+    "titulo": "Lula envia ao Congresso nesta quarta PEC que prevê tarifa zero para ônibus aos finais de semana",
+    "veiculo": "G1",
+    "data": "2026-10-21T03:00:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzVhd2gwaUNEVVcxWHpJRDVuVHkyUHNkSXFyOUpyVXBWRllkeFgwVm1aMGhHTWVZcUlhbEdhaFRVejd6UVJrd1AwdjQ2NmNBSjlWOURLMFpWd0lCVnRZaFUtb3cxYzRSbU45ZVN3TlZnNEdQWkZRZlZ3MWE4bFNxVVRfX3Bwa3VDT05IN0lNbndXQmZwdTZCalNxcE5LS1VIV1dFcE9yV1dzamxOMkI5Q3g1WUJCVVI5YkE0WGxfZk1zUXd6M2diRUxMWEdsc1FEQllGTXdaa19ELThfMklyNzVuRF_SAfMBQVVfeXFMTkRNRGlvZE4ta3U3NmxOTUlmVkNKZXBXUS1sZTl3VW90V085em85Z2V2Z202Y3hkcmVoUHo5UmhsX1VzbFY4M1Z5dUlKc1lCWGk0NkZMbktWNndYMmZ5cU9naUh4TGN1RWhTVUJiekJZTF9rdFdUeldkUDhsWFpKTVFBRU1LZFNTbzhCUm01Sm9pSGxlUHdEQWFfZFM1aFZmdnpQTlY3RTV4UktFbDJEQk9XMGV0S2ZyYlBTOU5SZTVxQk9UZjBhakJ5SEVrRVRsX1JZSG1ZajNKZlp2dDJSTFVqQnY3a1NJQUw2cUx3TlpFRXJn?oc=5",
     "origem": "google-news"
   },
   {
@@ -48,6 +96,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a440f415b3dc",
+    "titulo": "‘Nunca permiti que o Nordeste fosse tratado como terra de segunda qualidade’, diz Lula em Petrolina (PE)",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-21T01:37:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQY1gyRVJpMWhLdl9hRVRJY05Mc1BkRS0xMzRENjlmXzFxZk1MSlhMOWtsYnNQNVhZb21Ka1FQYUhtcmRfR1ZrcjVjWHN3UFJPLXNKRlNoYkc5bHlsUEM5ZmRDUjJnVkRzVHdNZGJLTHpSTmpibVNYMGI1NWZnLXM2djNTRHduMUhSRnY5U25JQUpKTG41NDl6aVdOVkNUZWJpV0d1dkJzLV9GdjhwTWxMT0hqZVFuMm5RVHlCS21YR3hZMmVIZWY5ZUwxWDNMSlVjeDk1QjRRbVhMR2M?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:757d02c64de6",
     "titulo": "Itamaraty acusa Milei de tentar interferir na eleição brasileira",
     "veiculo": "Agência Brasil",
@@ -62,6 +118,14 @@
     "data": "2026-10-21T01:00:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-confirma-pec-da-tarifa-zero-flavio-tem-apoio-de-sertanejos",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:0d8ea8c7e385",
+    "titulo": "Da ponte entre Juazeiro e Petrolina, Lula convoca seu exército: ‘Não pode sair da rua e das redes’",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-10-20T22:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX0J4MnRTV2tKbnJLQVRIeE9OTnZCazlUUHVIY0dmU2Y2X1hOVEh4c1hHQ2hsdmJPSDlGLTFoWlVVeGl0cGdITFVFZHFLek1jQ0xxRVNKbWh4ZmdjRHN4ZEpWMkhHd3lZck5FTlg1ZzllblZKLXU1WmlPYnU3aU5qc0F5XzNXVTRBM1JnYlphcXVUb2oxb2VuLWYwNGhaVWZUWmUtVFdiN0pKQ3RiUTBtalNoc9IBuwFBVV95cUxQQlRRdlIxTzFaTTRKLUFBYWxGWFFtY1FlT1RhSFBpY1JKMTVKb0oyOWY4VW13N1pjU01MMzRlRFhrdXhPaVkyV0w0cnAzb2dxR2pnWElialdONWZYd3oteUtsdVRuSDVWN25BcEZCSXJFZ1I3bVJSeGtOX1ZIcEk3YmxpcHhOR1FPcVFUeWpsSFRQYjVGMnJob19CeUc1eThrS2oxd2U5OUoxUUVyTE5wUTc0TE5adkxUZGgw?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:0069b7d6e714",
