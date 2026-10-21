@@ -1,10 +1,42 @@
 [
   {
+    "id": "google-news:3de0f3bdec01",
+    "titulo": "Tríplex no Guarujá, sítio em Atibaia: as investigações contra Lula",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-21T11:45:43.000Z",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBER1Roc3BmWWlRczFXTEJrcTVOVlBFdFZUc3dJSFNqblhWa1diTDc0dVVtR05oMVpENGZMYUdVN0swclFTRUJrZURSMUtKTDg5cGRjSXNwSzZzdEc2emxPcUtjTlhCeUVYSk9Qbk1WV2FobkJxbFE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b4f54d2fe621",
+    "titulo": "Saiba como estão Lula e Flávio nas pesquisas a 4 dias da eleição",
+    "veiculo": "Poder360",
+    "data": "2026-10-21T10:27:52.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQck5oUFRmQkVmM0VfSnZOeDZTZmJhWVdJb3ZLWGFja1dleE43bFJuOUJrVEo2dFZDbldJUlo0RGZyUFFIbXFUMFZ0QXlQNFhJdVJKWmFyTy1XMF90M1F6cmlwMW41ZlY4R0xIdnR5MXpDM0FZQzhOWEJFWnFZZFJ5UElEVWUzaU1hcnZEWjQ4Wko1NDJlc19xazAxSFpxNlRlZmJHRUY4WTdUS2ljQ3lkVUhUbDM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3008c7d05ac9",
     "titulo": "Meio/Ideia: Flávio tem 51,1% e Lula, 48,9% a quatro dias da eleição",
     "veiculo": "Congresso em Foco",
     "data": "2026-10-21T10:18:22.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWt3VWNlczFWOFEwZU5wSERsR0RMR2o3cXNpRGZFZ1BTcjY5d1M5RWpEQUNXdTZfQ0tEQ3pZaTQ4RUtkTjVuNjdGVl9ZeENMZmc1dDZVbld0OXVyOWUwZmZOQVB0Vy1URGlVaFZRMVNBVkVyX2VRS3dNMFZUN0lGR0tIMGFQRC1hRnhXYzRRVGNqMklhemxRdDJ4dk9aLWxsZDJSM2FVRnV5cWZyS3dmUlctZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:39b605baed96",
+    "titulo": "Agenda dos candidatos: Lula faz comício em BH; Flávio Bolsonaro tem atos em SP e Fortaleza",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-21T10:16:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb0xmWTFObjduZUF3TVE0SUwzZGNYa0pKX0dLMG5va1NFRVlsOWd6eE9qcGMtTFJ2S3QyMVBEeW85bjlINm5qWEYyaFMweE1aamd0UXF5a25jMkZrTDJIZWZVOG1MVURtdE1xUTZiYl9mOTMzQUVESDI2Ym5QclVJX3M3T2doODlPS1Qydmo1aWduZUtSTFRaeGpBRFlXMHpPYWFEb1paTG5TdGFxZ3F4T2Z6YlBSYUFuOXBNSUFjYnNtWVVyYldJcWlB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:90ca51ab002d",
+    "titulo": "A nova pesquisa Meio/Ideia sobre a disputa Flávio Bolsonaro x Lula a quatro dias do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-21T10:00:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdGJxM3RVdGxrT3JNMl9tQnkwM3NtZkFLMTZDM2hneVhSSk5nMklGelJuUnozTnVwWGxjNWRDT19GcUwwQlc2MUw5OHNPcGFmQ2NWa1hyX295Y2s5a295Y0NRWWJHZDdJcl9LSFJmUENTZXdfVGVfbEo4RnNKbzFOaVlDMVZIRGJnOGdla1pxLUVwUFFPZnpvRGVCanZMSGVoMEluQU5URUhSVUtpVHhDNTJYWERRQXZZdmVjT19jbFRDU0NGNkRNUg?oc=5",
     "origem": "google-news"
   },
   {
@@ -29,6 +61,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-21T10:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa1duYzU1V1RFWUlqR3UzRlZBeHQ5VFl6Z0NDREN5ajlGdnRwZUtYN0tvOVlMcjVEZnpKZ2thQUI3N0xIZF9RSHBBX3dta2NHQ0lyM25uM2Y2dFNEdi1yMU1Lc25Hb3o3VUJBSU0xdTNSNGJLZHVwd1VMamcxYTNDN3BzQUIwS1VYTjFYYndzTUFtSFJlcXV2dlYzUnkxNUNUYmcyMF9qQkU4TjNCLUNMbUVCa1FLQl9tMUR0NzZGWmZJVzQ0N2tWLV9hWS0tWC1xbGc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ba123251bda2",
+    "titulo": "Saiba quais famosos apoiam Lula e Flávio Bolsonaro nas eleições 2026",
+    "veiculo": "UOL",
+    "data": "2026-10-21T09:04:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQjZFQTA3RGt2U0lNSEJNbmlIckJ3ZC1NcHNaaUFkd254MnNYYzBQOWVkaHc1MzV4U1YtVkVXX2ZMdlFOcnVhTng3MDdIM05qNDljZkR3VV9zNVVwUlVtVmdNVWtmVVFHWktXZm9obmpNVnQ3QmhyQ0FvaVJrbXNnWXJwck03VzFpVEZvMnh4QWd0NkJtWmdMelFtSU51V0pTVkJpSkF1WkZ3U2RUejFaNGdJanNQRHdvcDAxRWpYR3M?oc=5",
     "origem": "google-news"
   },
   {
@@ -61,6 +101,14 @@
     "veiculo": "G1",
     "data": "2026-10-21T03:00:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzVhd2gwaUNEVVcxWHpJRDVuVHkyUHNkSXFyOUpyVXBWRllkeFgwVm1aMGhHTWVZcUlhbEdhaFRVejd6UVJrd1AwdjQ2NmNBSjlWOURLMFpWd0lCVnRZaFUtb3cxYzRSbU45ZVN3TlZnNEdQWkZRZlZ3MWE4bFNxVVRfX3Bwa3VDT05IN0lNbndXQmZwdTZCalNxcE5LS1VIV1dFcE9yV1dzamxOMkI5Q3g1WUJCVVI5YkE0WGxfZk1zUXd6M2diRUxMWEdsc1FEQllGTXdaa19ELThfMklyNzVuRF_SAfMBQVVfeXFMTkRNRGlvZE4ta3U3NmxOTUlmVkNKZXBXUS1sZTl3VW90V085em85Z2V2Z202Y3hkcmVoUHo5UmhsX1VzbFY4M1Z5dUlKc1lCWGk0NkZMbktWNndYMmZ5cU9naUh4TGN1RWhTVUJiekJZTF9rdFdUeldkUDhsWFpKTVFBRU1LZFNTbzhCUm01Sm9pSGxlUHdEQWFfZFM1aFZmdnpQTlY3RTV4UktFbDJEQk9XMGV0S2ZyYlBTOU5SZTVxQk9UZjBhakJ5SEVrRVRsX1JZSG1ZajNKZlp2dDJSTFVqQnY3a1NJQUw2cUx3TlpFRXJn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6539b5d00d27",
+    "titulo": "Abstenção, nulo e terceira via: como migram os votos do primeiro turno para Flávio ou Lula",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-21T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUmZvVzEwZTRxb29fenVCYzI5ZzdBbXN5NUFSaElCeDhPUXk0R0Jsdkc4RWJZQU9xT21ta1ZQX1YxNWpoRjdMQkNzbHRGckt1SU91TmJYYm0xanU3UGg0Z3NvQmRrT09wVzdTZUk3eXFSYjZXQk9kalc0X3Y0QTBoUk5aLWdKMFpRdjRBSndVREdiSUJzRXVnU3FOZnNVbFlwYUw3VjZmeXNXYUVnVzNXZDJTU2tGcnhNU0JIQkRQeEtjZUZXLVE2cFhod1VLVnFzZXJnZE5oT2tpbDlF0gHrAUFVX3lxTFA2Q0JwYUhuaFdPajJ5RlJUaGdHM3hUWnl2ZlB0NDlqTG9YRVBvM2E5U2hFdzVCdnVvS2hBaWZ5SDlIY3d2YWprbVNlUnFtMzRSUFlzZVkwQjdQYUFtZV9XeGxVV3Q4ZFNUdXpoemVreldqZ2pQZGRCNFRtN21qcXFnUFFVd1RicmZnanVDSUx6ZFRLS19Sd2ZUT0JvVF9SYXdzYTI2X2lqX0lyNUlrbFBSZWtvdTlydzF6UHQ2dE5BN2dsU0pUTlM1Q05xSTk3bUUtOXZRWU9ZWWtHYlZNN2J1bUUwYjlQeWdGTGs?oc=5",
     "origem": "google-news"
   },
   {
@@ -109,6 +157,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-21T01:23:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObG54R25uS2hsQy1pNjVrN2g2cHZ1SHloVmk0VzJnNWhxNkNxNS1VZVUyRFdHeUQtZHU1a0ZiUnhBaldVNzg1cUYtTXRSN25yZC1SUkpSOTloVlJuN0F0VU5GdmV1U0Q2TFZlWGVncDFQcDZ0TDVHZGxrVmZVTVZuRXhvSTZEb2pYRVk3QTlHZFRSem05UWJnTDdHRncxNEtScF95U0hCYkZCZlNYWjVvUVpEUGtjM3k4WUdsUTRnbUxKaU9ZdVE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:53230ba0716f",
+    "titulo": "Comitê da Meta aponta falhas de moderação nas eleições brasileiras",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-21T01:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX1ZuQkZpdmVDUGZ4bnNOU2FPT3BRb2NvWFR4QXBHcHBibjJqYjRpMzlZOXlmak1UeEtMaVRZNGtweFhRTmx3SEtvM2NxQ2twOG9EN3ZWU2NFZ2cxSDJIay11bkIyeE81aWN6N1BTWkFtblM2dGhhd3cxUXNEMzZQM0hUdzFYcUY2Rk5MUHRoNmlwUHpYYkZibWdsNlBhcy1IZW8wVlhEaU9OYWF1X3B1b2pkLWdpcUlObmZaSDh5MDlHZw?oc=5",
     "origem": "google-news"
   },
   {
@@ -221,6 +277,14 @@
     "veiculo": "BBC",
     "data": "2026-10-20T18:29:04.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6bGk0bElMQlVXeV95N0czci1kb2JqLWxDc29JT0xQeldGelU1R2Q0N0NrMTZPX3lIS0RvVzM2TmtiekJYdWo1QVZJSmdFcVBGaWhpYUtFNUNFOWFXbWMxektlONIBaEFVX3lxTE9fX2laSGMzVExhdmVvaUpDTzFSZTE2QmhCSmZRaTh1YzI0NTJBTXJuTkQ5Um02Y3NVQzllWmF3SkZpejhKQm1oVEc0dnEwRTNHZl9GNzZnUk5DTVZiakpOUUJEcW5TcV94?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4cf99f3deae0",
+    "titulo": "Saiba quais pesquisas eleitorais ainda serão publicadas até a votação do segundo turno",
+    "veiculo": "Estadão",
+    "data": "2026-10-20T18:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdV9EcXhOOWoyNzhrVnhmejdnVHVKSE1Ud1JWZlJSc1ZzZEV2MHU3ZGh5Y2NvQXlQUmpGbUxoVzhTcTZXVW1RQ002WEo5RjNaMDViSnJJZTB5MmxSekcwalV2WEphV3VkVUNWZVpfRkJ1aEljTF9QWExMQUdIUmRBaU5rV1R2dy1veFljbU1rQ01HTUpsNnVUam54TngtcE5FZnZOMkc0amF3VXVUemlXTldfNWFFdWJDQUNzNU5RQ05PR2JwRzZBTXh1MGrSAdIBQVVfeXFMT0NnVDVHTVI4R0RmV0tXTDBCclFVXzhndzlJRGVXVmlzTmtoSC16cUpqeWVSUmlqUENqSXFFY09FTE03OXhCUzZYNWtlRVhlS2EyMWdxUXhDVlNWcW1HdVk0cjNsOTh5U29aWGRSLTZlbXFJcUF3SmlhalhBWkN2SXlPdXp1b0sxTklIQkRLS2p1Ty1pNFRDWDd2TVo3WEo1T0xHYVlZNTlCLVhsVGZ3NFNCSUtGMXZyaUdPUUplSl9oajE3RDV3VU9rUHRhY21DbzdB?oc=5",
     "origem": "google-news"
   },
   {
