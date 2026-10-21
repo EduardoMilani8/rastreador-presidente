@@ -32,11 +32,27 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:0069b7d6e714",
+    "titulo": "Perfis usam mulheres de IA em campanha por Flávio Bolsonaro e Lula para atrair público e até vender conteúdo adulto",
+    "veiculo": "BBC",
+    "data": "2026-10-20T22:47:04.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10RlJlSDdFNUk3OXl0ZnZNTm5pZDdIN3RULWZ3X1V4RDllcHZ5dkg0a3JKWTlUY2NJR003OGhZdzRCMFlZMnppdTYyZ204MWdKT01lekx6dHNhc3ZqZFNNTU1vYw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:01c6f35a6fc5",
     "titulo": "O quanto o desafio dos sigilos pode expor Flávio Bolsonaro",
     "veiculo": "Nexo Jornal",
     "data": "2026-10-20T22:25:24.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamVOWVZGTWJWR0V3TUZoMDhVd2wtQ1FDeWtfR0I1aXlIcFdkRlgyeDUyb0tYSkFHTmpTTXJZRmFkVWlBQmF1SGhudVIxb2R0MnN3SlVPazZpTTRIUzJVNTNyWUNQSjNSRUxQLVlkUFJVMHBkYnJSa09sNlhPZXN0SXQ0SnA2Rl9xZnBqU3dxUG1CT2N0ZHBtSGFLWlU4RGw0SlJOaVpvU0Q?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5fad8e10cd67",
+    "titulo": "Lula quer associar Flávio à corrupção em debate na Globo e é aconselhado a manter tom sobre lobista amiga de Lulinha",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-20T20:39:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRjBoTEhpM2YteW16ckxjRW9McmZjU3FuYXNpZ0NuRVlLcXBCNi1tTGJ0dERBT3NTQ19fUVJYMGdvYW80dGRkVEhwX04wNFExc25UeGJnSWoybjJ0N3BUbXBZUllrcnZjVV9NUDVQU2VIUFB2aXBVV2RXOEVOaWlVaW1tR0N0ZFMxOHJGcHpsclV6Z0xlZjFQbXFlUmRESmNnaGluVkhJOXprTjBad01jTFhPbGNZVlZ5MGZHbzJUU3c2M2oydnBoQkVEREhGM1FuaVg3WlR5ZHc5UW1SNE40UE5zSGxDUUhQNVg5ZVpESzE5V1F5cEVGSEpqaEpGM3ZYdFZSckQ3OVZpR25TR0tZS2Z2dzBoMi040gGnAkFVX3lxTE5sX1RPd2JHMGhKdlR5dkN2YUd2MGhhQkdwOFhESTlFRDU2UkdOdjd4NElFQ0kyNUwwMHRuTGVSRXhWbUdzSzdPMTJTVjdRaGRFSXI2clNNTUcyMU51OTRnVkRVeHFPU3U3RS1jMjNBQ3ZsbnU4ZkZKWXozMGZ1ZGRJOFRJTS1SeUxSUUNLclAzUzE3MVl6MHdzRXI0MU1aTGxId1ZReXRoQjBZR2I2eVJfTjcwdDI5Rm42ODRiY1hYLUlPMUlQSUxyX2U5S0xNcEN0YkxpakxxX3Atd3M4bHVzWVpwaXdXV29hUkF1bWQwRmRlZ09oRkY2SldQREJOc1hvdW1xOFJ0M3E3UmlCbnhhMDlzTloxNHFROVRtTUcxNHgzXzNmOTQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -61,6 +77,14 @@
     "veiculo": "VEJA",
     "data": "2026-10-20T19:42:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQamxId2VUM010cU1CeU1LNGpPTVM5S21LQkozS3FYRWU3RnBjMlZneUZjOUZCekprWXk0bVNYVFd1UU45NEhCOEsydWUwanlQdVZ5MWpMME8zNE5GdTdRLUdxRExJUVYyUHBPLVlnaWk2bVV6X01BbTFIalNXV1dIM1VKeGZOV2taa3NpV3FpV0I3WDkyay1VRkJpOTdDWHJRYkFVTWIwNDZZVzl3X3BLZUVSZFdqSzQxUVFz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f98f624328af",
+    "titulo": "De Gusttavo Lima e Zezé Di Camargo a Caetano e Djavan: saiba os artistas que apoiam Lula e Flávio na reta final da campanha",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-20T19:36:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOU3l4cnJZYWx6cmYtNEsya016d2JaQVpGR3JuLUlDOVVzS2k1OTZjaEtZZEtWQWliZl9IaUxsZGxBdEh4bW5VbWNyV1paaGYyaVQ0a3M4a29DTHlIdzNNaWtaaEVkZHk4d2ZpdmdLYVZSWFFpSWZXQS1nN1E3Z3RzUEw2RzVIb2U3RXVoU3JNOGk2ak1qRnZ1VWRwc2l1NEt4ZGhqYkZsTE9TZnRfQTZNRjNvYjlnenpLTnpyS0JaT0Q0b21MeXJNQnp2WEdYSVg2S3YwOEZfTF9xX1Uwa3FUUHRVd0VndjFJNkJvdjQtdlFVbjhLV2N4LVpIZkFZZ01hMUxFLXJ4a05rTUhkcmxhVmMwcVBUWUgw0gGnAkFVX3lxTFBGT2M0ZjB3amM0cnN3c1lscHMxRF9ELWM3QlFaZUlmQk1ZRkZTZVMyellvSDFiRFR3WXAzS19xeS15S09xSnFjLW9HQ3BnS3pJazM2TGlFekVGaG40V3lYTS1STHhLcE9xQ3Y2WGNBMUppQmtjc3Uwa2FRTDdnbUZ5ek9OaHRNY1VhZGx4cTBXOF9CaDIwTUNaLXFSZWt4amFDdXItY0tBRFZNRkNsS2hWSkpTTHljRDNEZkNFTHd2SjJtaGV5dVpEakpnZ2NQbTYxVDNKd0xMdFFZYVA2Zm9qQ3pJNE84WUFySF9WcnEtUzI5Z2xTamcwckV3SGFidWZBV0hqd013TUozX1hjeXF2YUVua0xOS25idi1xOGowRHBnQUtkRmc?oc=5",
     "origem": "google-news"
   },
   {
