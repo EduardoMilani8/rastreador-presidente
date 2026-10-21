@@ -494,6 +494,50 @@
     "historico": []
   },
   {
+    "id": "dou:decreto-n-13.140-de-21-de-outubro-de-2026-739686339",
+    "tipo": "ato",
+    "data": "2026-10-21",
+    "titulo": "DECRETO Nº 13.140, DE 21 DE OUTUBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Dispõe, no âmbito da União, sobre as hipóteses de dispensa de inscrição no Cadastro Nacional da Pessoa Jurídica - CNPJ e de emissão de documentos fiscais eletrônicos aplicáveis ao nanoempreendedor e ao microempreendedor individual.",
+    "datasAto": {
+      "assinatura": "2026-10-21",
+      "publicacao": "2026-10-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.140-de-21-de-outubro-de-2026-739686339",
+        "coletadoEm": "2026-10-21T17:50:18.252Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:lei-complementar-n-238-de-21-de-outubro-de-2026-739686316",
+    "tipo": "ato",
+    "data": "2026-10-21",
+    "titulo": "LEI COMPLEMENTAR Nº 238, DE 21 DE OUTUBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Altera a Lei Complementar nº 123, de 14 de dezembro de 2006 (Lei do Simples Nacional), para atualizar o limite de receita bruta anual e o número de empregados do Microempreendedor Individual (MEI), conceder remissão de créditos de titularidade da União de sua responsabilidade e dispor sobre a aplicação da medida.",
+    "datasAto": {
+      "assinatura": "2026-10-21",
+      "publicacao": "2026-10-21"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/lei-complementar-n-238-de-21-de-outubro-de-2026-739686316",
+        "coletadoEm": "2026-10-21T17:50:18.252Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "dou:medida-provisoria-n-1.397-de-20-de-outubro-de-2026-739393573",
     "tipo": "ato",
     "data": "2026-10-21",
