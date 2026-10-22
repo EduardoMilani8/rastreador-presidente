@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:9b1668d72340",
+    "titulo": "Flávio Bolsonaro e Lula estão empatados com 50% dos votos válidos cada um, diz Datafolha",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-22T22:18:50.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnhFYnJDckZ6U3pIWE85V0U2bGtmZWl5ZU1PMTVwakxCZ2dRT1NxZ2V3S1VzZUlGenB1Z1Q5ay13WTBjTzk4UklvenBhS1dhMlV2d2J0SUpzME1XSlRiRWZoQktvUVhzVGhCVURrcUNQQ0EtU3I5MGhJc294Q2VaX3R6OG1BVURYTWdMSGV1N21ONUdyVm15YTN0bFFsUGF2SU8zdjBfQnlhaF8teFdsamJiemYtTWtqb1gyX0tJUi1MU0VjemZUUWFsYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:014d6e41ab77",
+    "titulo": "A penúltima pesquisa Datafolha sobre a disputa Flávio x Lula",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T22:07:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcEpEd3pLNVFpb2tSMXJzamp2VnpTNmpUNndoQXJkTGFQWEVBZ21jWHMxd1pWaklETks3d3BNcmNjd1lWcTBxdDh3XzNQSEFFel9rVGwtSFZhblM2UDJiOGN0YjN0SFVLQ0dwMWhhb0dGV1lKdDEwMHpzeFpKdzFjVmFPNUhPZjRWRFRlLXBubHgwTnZyenpXWnNQdGI?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6ffbcba52099",
     "titulo": "Datafolha: Lula e Flávio Bolsonaro empatam com 50% cada a 3 dias da eleição",
     "veiculo": "CartaCapital",
@@ -8,11 +24,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:100d816a77eb",
+    "titulo": "Datafolha: 49% aprovam governo Lula, e 48% desaprovam",
+    "veiculo": "G1",
+    "data": "2026-10-22T22:06:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZG53S2ZLZ3VPSTNIanhITFdHTzlFbHhPUGIzT0Flb3AyMGpOdTAyT0RTWmg5VDBCRHJ5MTFkZlJTNERVUDVuUDFiS0xaMjhDcnF6d2NmNTBMcmUtNHhTSHNHbXF4QTdXQl9OcENlb3UyZFdHd0dUS3NJM1AzY0hpTEx6eEFXX1hYZWJjaG5OY1lEUTFEdkpaOVVndlN3d3B3WmN2eEMxa1ZtVlVmZ25Bd2JwRzJtSnc3ZTlZdXY2ellaMl9CWmlnRDFXc2ZwUdIB3AFBVV95cUxPMTlQZmJiRTZ0MUpwUXNsS0Q1NjFPblBRUTJBa1hoUXJZUmpFR0dVX09GZjlxZzh5QjV2Rjh0b1hnZmZXNERfcWxTbW1jb3NpR0xOZTR1R3Y1Wm83WEhrZDJJZElaVnRhanhYaEl4cTZpem5peWlGLUN4bFE0cmFYUmdSM0pUM09XNGh2eTFta2hERGFCemdaQ0x4SHVZaWozZlE2aFlRMmZ6U3VFRk9nbEcyU3Y0cHg3VlpMbUQyMml2Q2Z4SS02WXlNTW95eVgtNFM1SDVXczZaMnho?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a065475988d5",
+    "titulo": "Pesquisa Datafolha: Flávio marca 47%, e Lula tem 46%; distância diminui a três dias da eleição",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-22T22:05:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQXNHeE9aOEhUODBMeTZwMjFKaXhzcnFKOGlYVGVISWFrVkppclVuQjFGQ212MjhxeU1LRlZIdkUtejN5dDFZQjZIaTJfMmVlMjd6Tm11eHBFY1IzS2pESFdxSk42aFk4QlNUX2pQWFZqUlhfWnBkUzFQMHhnYUxMWVV4ek5aNTFkTFNxVW5BalB5a2w1S0NpUm1mc3V5a3hOWTBfdDRsLXFiRjlXb3BReVl3WmY0c1ZTbWNPZFVBSE01b3dVY0tQSXNYcl9UdktxOTYzLXV0bXdHRjNKeVFwOTZIOEkzS2ZMTEtfUmFOaWLSAf8BQVVfeXFMTWp3N25BSkV6SzdjMDlNd3dPc0lEQWllUWJ1dDE0OEdhOVp0VjRzb1g4d2hSNk9oQU10SmZxYjVfeUo1VGxVLVZjcXJZaXBKMmJBSUFCRV8tS1FhczJZN0V6dk1pNXdDSlRXNEtPQ1JPekVrRVNPbmY0cXYxS0N2VUlydGw4ZXVOWXByV1FxenNxb21ENWd1blZONFI3ZUhBSzdUWHZsSWxEMTR5VGV1VjVIRHNKVzZoeEZSVWl5Smx4Ylo0b25LSVBxT1hZSlBWMmhPczdGc1lxOUJxZDQ3b1lrNC1LVHV2OWhzWWxzTjJZT3FKdlRYRVRoVVVSSExJ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:323a86af0397",
     "titulo": "Datafolha: Flávio Bolsonaro e Lula empatam com 50% dos votos válidos cada",
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-22T22:05:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONzdYdUl6TTI2VzFSNlNvOVo2M0pWbEJiMmJDdW9IczhGWEhabHMwSE81MGFBLUNvOXdtN0c2TktwLU13dHJ1TmNUVXR4UUZCSmdBQkFfajhhaEo2OE9pLUcxZHdvS2lIb1JPMVlzSEc0am82cmJjamtNbFp4NHVPcjZ2WnQzcFRyTVhGQlVnd29yZkp6SnY1UFViQWp1RXZwY3VCQ0tIUm9NNFVlX2hNeWlrUmVTMWFJbklJUlR3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f3fb66b0ee9e",
+    "titulo": "Datafolha: Avaliação negativa do governo Lula é de 39%, e positiva, de 36%",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T22:05:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWDNXMVJSYm1TX2RoeldfdUJ3NE5laU44a0x5aHQ2RHRiYi1ZWG5tMGJiTDhOakVXUXE5MkRqSlhyUTlWZUQ5cjhTdElYSHlCdS04NjlNdDdvZjRHWE1ZQVI3dzBSbE9WMXlpY2EzdmI0V3hnckZCNWRLcGRwNzNlMDc2MERLZHV1clBDNzNsNU51ZUJqQUZDS29zNkZ1N0JCUWJWZjViR1JDWWlyUjJ2LWNRTW84d041Um53?oc=5",
     "origem": "google-news"
   },
   {
@@ -29,6 +69,22 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-22T21:46:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQjV5N3J2T195Q3JENUgyRUs5bGpkSWQzNmczTDFYMFV3X1RDOFRuSnlZOE5QMlpmYm9oemJNQzRtUU4tREhUOFIzMWRkS3RlMm42YzNqTzdFZEJuTXR4LTdaYkxBaGhSUXVIV1kyeWphRVM5czVvZWhKTVB0V1hpeXFtNG9QekRsWEpWeXVDZ3JPWlRaQ1FFLUU5V1Jqc2NvQzhOTDF0X0RpR2Q0cnU2ZmVLMGp1b2NW?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4729ccc80429",
+    "titulo": "Mendonça diz que Lula e Flávio podem disponibilizar sigilos por conta própria e não cabe ao TSE definir divulgação",
+    "veiculo": "G1",
+    "data": "2026-10-22T21:40:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQlFXXy0zaFdYUHlsSU1qaFZoMWFMaWxvYV9mZ2hCTnlDcjYzWV92NFNuMk9XYkNGcEVXME1wWHFuRzZ5d3RmY09XZXpqY2wzdEw2T0c1QXNrSWhDdG0tWGwtUVg0ZlRyNVpHNkRQeDZZQ01GcW5nS1lSXzRaZGJORWxCUDM2TkNHNmYwQXAzcWxpbkxlNUJ1eUJ4cVFYZ3F1X05qSGFwbWxZaG1hTk5ZX0hPa1g5ZDA5cVlQQ1o2WmtaQUhoc3R0SVVBLVlpSzJVZ084Mld5ZklnbzR3Z1Jmd2EtVzFnNFZ2bjlTQ3ZlS0dLLVFRYUxTS0ZsSllDQlJx0gGPAkFVX3lxTE5RZ0psNnFqdEJ2Sko0RlQ4UUE2akxLQWs4TXlJMVZKXzItTWotTWZuQVo3dFotSTdKZ3pPbGpWRFVRRWo2ZnBVMlV0bm1XMVRob2tZYlhScXRVSmE5OUJ1dVR0SHoxLUwxZmVPeWxzeUpSd2FfRUwydUV5LTB0ZUZSZjBNbk5qLVZDc2VGbmV3Y2tnX2lhbTloa2dSZXhSSmY0RkJCcFFaNGptX2E4UTVjSkxsRHFGeWRsZDVucVZhd21kQkpTc0NhVGMzd0szQ1JRd3ZibnNYdXNGUHFuNllWYXR6TW9nTUhva1dFd0ZESGQ1ek1UbDVhejJlVHpZSFdCdENETENZV3Z1SlBZX2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a3e7eb51b764",
+    "titulo": "Flávio Bolsonaro x Lula: veja quem Augusto Cury, Renan Santos e outros candidatos a presidente derrotados no 1º turno apoiam",
+    "veiculo": "G1",
+    "data": "2026-10-22T21:23:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOOXl6R0xnZFFzam5Zb05HSkpJWlYyTjFWY0FuS0xnMXg3ckRiVFdWVlZCVWJMSS1ScHB5Q0VnYjhlVS1zdVJxanRMNjhBMnlxTUdzUnZDcWIxNmpxcEZUVjVNSG4xWXhzRnlCNnVwMXVOalFoSVBSRUcxUW5MRldXS3BKN2xkeDRwWmJZLTc2VkdkV3cyUEFIZUF0MXhpblMyRlRsNkJyNkVSb25fVUZQUXIxdmJ2NG9OZ0hsMi1ydG42VW5EOUVRdGpqVGVjVEJQdVZOREZQTE9VajBsY0ljWFRyRm05T1FmVGs4ZGRR0gH8AUFVX3lxTE9jdVFiU0tHcUVoT2lfWEluMHZDWHlJdzJucVFMcnpCVzFfRnozYkctRWNGdEJWYUVmZDlSV1JkSlRxNjBOUE1NXzJUMFFxT1dTZXRYMGQ0WGMxZmxqQk9pNExibFlXc1BCZEw1d0c2RFk2b2h4Qy1WZTRVZEQwcGNlNGdORHFSOUF5WGg3OVJldG9PSGpCTlZBWDZKRmhOaE5PZ0JKcHVFZG9NcndoRHVCRUpadUpoMWJNaXB2M2VRMmtqb25ldFpKcXRwRmMwLXh1WXlxTWdfX181aXVyNzYtcmdvbzY1Y3ZSejZsRjVQMS1tMm9hY1RDX1JqUg?oc=5",
     "origem": "google-news"
   },
   {
@@ -229,6 +285,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-22T16:32:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZTRsUDNNdHVkbTRmVEVLc1ZqWkdITEZ0NWZtS01iMjhoY0pfN3AxT1hjUXdtUHlkNHJlenB6SWZGcmtuSXI1U3NUM0xJRWNuT1dTTERsZWVsSlBqRHpLbURJMmJ5RHRRcHp0QXlGeUJrNU51NEg0Q29uTC1Gd0xqelNiSzFQUzk1alRENlNfaXhjam8zUloyVDV2bVFJOVpma29USU5wdndTdnFiQVJ4cmhEdHBETEgyN1hNVl9GTUxvMF8zNDI2UTNIcl9RZERCZ29PNXB4a21lcTg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ba38f5b2f15c",
+    "titulo": "As propostas de Lula e Flávio Bolsonaro sobre CLT e relações trabalhistas",
+    "veiculo": "BBC",
+    "data": "2026-10-22T16:30:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DeWE4dHVYTWl1ZERoY2Y0WVc3VzVjWUZMbjR0WGRlNkppQjNEb05OM0hGYllJcjNfM0lkY1AwLVpGQV9RaDdSelZTdkhrWnFFMzNPb2JIOHcwVUZpVVZDVVdCUQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -3592,11 +3656,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:da2515de15f7",
+    "id": "google-news:3f30e3d4e4f4",
     "titulo": "Presidente Lula, candidato à reeleição pelo PT, tem agenda em Minas Gerais e em Brasília",
     "veiculo": "G1",
     "data": "2026-10-17T00:33:52.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMExkTl80aVRTbkVaSDgwbWZoQUN0YzdRYmZwYTlzY0JCNW4wS0JxX3BGSUUxZFpuZkVMQVdldTlaMkxyQU9veTgwTHo2bUV6Z2x2ZEwwbmd1NXoxeFVKci1aX1hrendZdmdyTU9Hb3dIOTBHb2tvYndKQlpjelVfdnNuWTZoVC1iUjJmdzdvU2tpZms5eElMV19CZUN6SVIzX0FCUnF6azBvM2J0NlVseWp1SWRWSG1YVnIzWFZ1dkZkNzhKeDRPRzdIMlJGb0dkSEJoMlFIal9FaVhQWURxQ09n0gHwAUFVX3lxTE4yRDRmQTVBdmRvWnB1LWZIMnV0c0JhQWNIeFkxMWcxRnZndXNEWU1HZWljcEtudjdROWxuYXhtbkphMndKS01IVGh3aGFPSUxSTG1sY3o2eWhlNFI4cmlNbmFDa3ZnZE1PbjRvLXBWUzJma19VSlpVUEFLZjFmdV9MWDFYRUY3Zk1ENTNYY015V1U5b0hTUVZ3aDhUQllnMGppaUJ1aXl1emI2LUFpbmhlX2ZEclZLZ24xaWhMWFU2ZzY5MlNlOWtubnlXcGFydWd2SXRkb3MtQy00aU45V0xLU3R4Z1VDajhQdGFpZVVBSA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMExkTl80aVRTbkVaSDgwbWZoQUN0YzdRYmZwYTlzY0JCNW4wS0JxX3BGSUUxZFpuZkVMQVdldTlaMkxyQU9veTgwTHo2bUV6Z2x2ZEwwbmd1NXoxeFVKci1aX1hrendZdmdyTU9Hb3dIOTBHb2tvYndKQlpjelVfdnNuWTZoVC1iUjJmdzdvU2tpZms5eElMV19CZUN6SVIzX0FCUnF6azBvM2J0NlVseWp1SWRWSG1YVnIzWFZ1dkZkNzhKeDRPRzdIMlJGb0dkSEJoMlFIal9FaVhQWURxQ09n?oc=5",
     "origem": "google-news"
   },
   {
