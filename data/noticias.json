@@ -1,5 +1,29 @@
 [
   {
+    "id": "google-news:9c6783e85186",
+    "titulo": "Para virar a eleição, Lula depende de exército de ‘Donas Lindus’",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-22T15:23:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZEhPT0Vja0hqbDRGR04wdlYzcDVFb0VPS1RHbTF3R29BdnpyQno3bHJLQmNrQmowLW5ObkJ1RDhvLUhRQllPYm10M2ZUQmdJemItaVd3VnE5eURZV3dDQU5wdGRTNTllWkk2dVpmblgxdDA3TWQzNUx5MmUyT21iQnhjLUJLQTZnVDlHVEtoZHVFMDlLRi04YzVtOGpYc2xDNEUxbEhxVHVIY1JCYnpuaXZ6VWlVVVJPMHM1WXpqTnUyNXdvaU41ZnFn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7296209b7da2",
+    "titulo": "A distância entre Lula e Bolsonaro na penúltima pesquisa Datafolha antes do segundo turno de 2022",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T14:32:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVnFIcGpNYkNXbjBibERpTWtYeWVjX0tIdG1DV2M2N3A0aWFTNUtmYjFsSS1vcXdqRldrMHZGWm9wUzFVT2tWdkdFbGctS0RWVjVTeEpNenFDT3V2NE5GZ1hrcFhFVHcxdThRNkxGdHM3SHdudldVc2hYcThjTkVoaG1OMTVWTTlqUzJWUDdVTWZ4YjZlb040Qk5rMnJSQ2xUREhnRUVwc0xWRkZybzZEdktHa0VsY2lFa2FHdTluS2xSYnhBMDlkNmVrWTlIQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:cf17e5f08bb1",
+    "titulo": "Flávio escolhe Deltan para examinar documentos de sigilos de Lula",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-22T14:05:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQXAyeDFVU1BTbTZrX1ZtLUIyYWpQd2tPUGdWYXMwWnpETnFwTzRxU2ZxUldVX05KTWVTbnpTeFZMRlZIbkRwa2NNSS1hMFhya25yMV8wQTl0aHNuN0ZVc2gzaG1YbG9DcUgzWWRERnJhT0x1TXJzNERjQlNLdHJvZkp0b2RIV09tSmIzYk1VblZTYWprSVRJa2d1UFBPNG1jME9HVk5qYThCZ3VkUnRGc2ladFNEdw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2d5bb99d9c29",
     "titulo": "Flávio Bolsonaro tem 50,6% dos válidos enquanto Lula tem 49,4%, diz pesquisa Indexa/Broadcast",
     "veiculo": "JOTA Info",
@@ -56,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:f16878672bc0",
+    "titulo": "Nova pesquisa Datafolha mostra disputa entre Flávio e Lula na reta final para segundo turno: saiba o horário",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T11:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUVsQ0ZnenlVX2RlUWRWVHlKZTJyWjlENVc3dkJuSkVrOElCN04tcThYR3ZENUs2WHVDYlV2NmdralFrOFB5VmNQNVBORFk1Zk5NR2pQRTFiem5Rby1jVFNrem85Z3RCbXpfV2ZBcUkyQ29vNzIzaTRQVmlaUE5ELUpxYkZjYXcxRFJCU2lIRGo5ak5udVMtYjFwZXBjSUg1QTRnbGFtYTJNQlA1c2EtbnRGQ09IeXFlZF9KUzFwc1UyYjYyRVlrLU1HZFQwOUYtVjBNSWVrRlhWRk0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:c17ad10f5a5e",
     "titulo": "RN: eleitores vão escolher entre Allyson e Cadu de Lula para governo",
     "veiculo": "Agência Brasil",
@@ -77,6 +109,14 @@
     "veiculo": "VEJA",
     "data": "2026-10-22T10:35:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSzJSUjZfLVVDTjJISG5LZ0s5X3Z1b1U0eFRPZEItakpleHAyZnFBSjJOWXFER0dJWUo3bFUyWUtNMTZYaFBlU1ZScDY4WUV3aV9uWGwwcTY2RWVxNUhUb041aHhYeW0tTEZ4dnM4ZXVHRVExQmY2Nng0N1hwUGFqZmxjMW15R3VxN01UN2M4NzNia09vTXNlTDVDTlNCVTdyTWxURHprN3d0ak54SGlINVdWV0J2Uk40U1ZSQnNhbVhhQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c8243ace76cd",
+    "titulo": "Saiba como estão Lula e Flávio nas pesquisas a 3 dias da eleição",
+    "veiculo": "Poder360",
+    "data": "2026-10-22T10:32:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUpjVTQ3eWNGdnBXY0p0MnlpSi1FT3ExWThZS1dlaENmVmp2VHBjSGZ6R2ltNzRtQ21sNXZHRUp3aEF6VVQwcU9heXpIN1N3eTV1SXlhSW1yWjA1LVZRZi05cmZ0aXZ4MG1HdDFDeVBQczJpbDJKb1BSWGdUT0dLZkFlRkpqYjBNUzFIQy1vZ1pNYlhldWt0Nm4zblJhR21sQ1FpQnI3c1hseVMwWGc?oc=5",
     "origem": "google-news"
   },
   {
@@ -517,6 +557,14 @@
     "veiculo": "G1",
     "data": "2026-10-21T17:46:38.000Z",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVTJ1WGtTME93bWtZMjcwcUh5akpULUswTzQxMFBBTllVNDhscEd6ZkRhQnQ5V3NHOGo3TGRST3NKaTdyUEZlUlVQcVh5ZDU0NU5fd3c0M0RhbTZyc3J4R29qMkV6NE9seUduOTJ4LWhCX0dtQWNBYVA2OWd5bnpsM2wwbjFfdG1wakQwSWVoUGlFb0tTcEhlU2ljM1ZzWHNCSXh5TGFXUHNaRnhPZXBRVVhLSlpwZXdsUno2T0ZxTGZvVGhJcEw2UE5jZ9IB2gFBVV95cUxNM3JSZDh0Q2VCX2t3TkJVTTU2SWZpai1oMWlER3VEUkZCaXgzQ2VuVTVEOTNpVHZ3ZmltR01FZ0ZhTTBBOVFzckZSeVdIQUc5all4a0dINjNqTl9Pek40blM2OG9GcUVDSHZ2Sk9zQTBFblFWc3Q3STIwdXEtOWVoaTRSdW8tejMtZjJzYUJyT2QtdDhNMmRXUXBqS1hib0tXMnBXSi1jZTdvcEJ6OExnazgwRUZTZjdlSl9aNldKcGtKQ0NWWVdSZFN5OHYtX2E3Y0dieDk5N1FqZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:32ea6c0f84b8",
+    "titulo": "Flávio reage a Lula e cobra sigilos de Marcola e gastos com Janja",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-21T17:35:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTi00Ny1Ccm55bTRCcFVNTUdHenNKWEFTSTg5UE9qbklacHRpblpkcXZ0N3U5REdVbFlsNHNJQlcyRk1vTWJwMG15T1VSYmRfMlRKQkttT1NZVGNXenZIYTFKUE53eG5FMlVpSy1BcW54VXpDT0NFZzh5RUVpX1hxaVI4bzQ4U21rOUpIaWJqazJSVXhiV1h1d0hfdzlvMTd3d3NQdEJLRjhUZi03OEZHQkE4ZnZSTkt5Tm95UElmdHJsQkU?oc=5",
     "origem": "google-news"
   },
   {
@@ -1061,6 +1109,14 @@
     "veiculo": "Estadão",
     "data": "2026-10-21T08:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWnZhM0JQR0wzalp3WTJGT1VSUThWcmNsTTlGSnFya29HRjVnOTRIYmJpV3NIRDIxc2t1TnUyOWNfekhEUWhIWGdqT0k2NWEwTkoweGh0cU5SazFaR3dfTVI2a3RsWjByVTJCSTRQMmotQ2ZHczRTaElaSktuLUJJeS1pUWxQTERVRy1yUEpsT0I0U0xlRDcxY1UtRUNVUkx3YXJXUGxiVHFtd25OVXdrNkVEOGtJcHpLZENhaHZCZV96cUlPOUp3TnpwVUpRa01lTlhiRk1iOVd2R2Z2SEEtS0tab1hialHSAewBQVVfeXFMTUhaSVM4NEoyeEtkeEdkRGtxZmVoc09KWlJsT01nQXZ3YXE3UjlmOWVPSlRwWUZVeDlKSWRwXzgySUtBYUYtWnhZdnZfVnRLZndPQ1dIalcwLWZ0UUdkWkZ5U09sbFBXR2l6cFBiNlk3WjBna1Q5MjhaNjNqbWZuamdUSU0xaHAzaGJQWFVtQ1VaLW53Vkg5aEZRWm5JZEZFOEN3bThqOU1raVo5THFTSmN0aU9JNE45dE1KYmxGY1l0b2xnbWFjVkdCMVZjUFFYT25HaTVaMnBtdUdRbzRJUW5tLU44emV5NkFPbVA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a7db89e22095",
+    "titulo": "Flávio tem 50,6% e Lula, 49,4%, diz pesquisa Indexa/Broadcast",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUlLdTJYbkZMNmZZdW9PN0hJajdBZl95alpneFBESS1IY0xTcEw0UUtGLUE1b0JlMjUyUlN6QllOYnZlV0gxY2Vlb3JjdmpYd3ZHYmVHUkxDd2w1WWtpZEROSllCY1hpVkVLN2FBMGpGcVA4WUVrNUs3eVVpVXA1bmJGRWlSN1ZzVnZxdFNlZmJocGpYX1RVSU5UVUFycksyaUY4RWRaODZOM1pW?oc=5",
     "origem": "google-news"
   },
   {
