@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:507950104385",
+    "titulo": "Veja as regras do último debate entre Lula e Flávio Bolsonaro",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T18:58:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcjB6dUl6LUhvMTJOVVVPTVNQSloxQXl3REp1QWN1RVE5TTNxNFpLdkNUSkFlRzU5WjNGZFUwblBCSEs4Mm1nRi1idjdYWTJGRU0tZ3JnQ3QySnVROG0xbWwzQmlOTU5scHczaHBUa0drRkp1aWxuVG9fUWV2Yi0zX002VUtIZ19XT1l2NERjLXhfUUVMaTBydUdYWUk0ZlpDQjVWdnJR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2c0f41c51af2",
+    "titulo": "Nunes Marques manda Meta fazer pente-fino no canal 'Exército do Lula'",
+    "veiculo": "G1",
+    "data": "2026-10-22T18:34:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOUhhMk13cnY1NTVfXzNydDIyYVJIQVZwcVhNUUpubGVxaTdVaXdUSWN4c0hSeTk1TE5IaW9oY3p1a0RSSldsaHNlR2k3bWRkUmlfQnBObkJnYVJ1czhMRzNnb25Ecy0zMkRJVHlLTXRXd2JQakpvZ01TRU1IaTNEUDhYOUk0Umxtekh0UXI5S1FUTDFtbVpuWDJjNHYxZ1BXYkJCeE8wNDFfNXRfQlhVVWdZc0dhTEZxX25jLVRmaGFlbHFNVnBfUnJB0gHYAUFVX3lxTFA3WE81WGl2b3MxS25FYTJaQnlncmRFSi02YWhKbHd6OVgtTDRKbDAzWW1pY3RaY1lGVlVzbkpNbi1hM3VQeFlJaUtmR25fWWo2b0RHaDBfaWFWdEU4Wnh4NDMyTVAzcGJrU0RWbXNBR3l1SW5JU3M1Z21HSDdpQUpwamd2Y2ViTjhrenZVMV9uYy11NEtEQUN3WjRfNzdtQ2tkNXJ5MWRvTzgtQzRmbUFqYUI5bjM0aDlESllVbDd3bC1iakJkWXJVblNISkhFZXh1VHdNTkxYNw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:3cd53390f7dd",
     "titulo": "Campanhas de Lula e Flávio fecham acordo para abrir sigilos",
     "veiculo": "Agência Brasil",
@@ -14,6 +30,14 @@
     "data": "2026-10-22T18:33:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:c11f999be82d",
+    "titulo": "‘TV Globo’ limita circulação de Lula e Flávio Bolsonaro em debate",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T18:32:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM2ZVWi0yR2VmUl9JMERZcHNZM2xqSnpGQVpCZHp5MTE3aXFpVHo2QUhiUHNEVk41bEowQVltZThJZjZxbGhjMkpidTdWaU5NbGxBOEJWYnpydDJpbTl3dEV1NWtyNkVyZmRjQ3dBV0VLQWtzdUl2ZjBJQjZweUNxQTM2Nm5UN0hVbEsyVlJxRjdINU1oazc3M1pCYXpscjJqRkR5VHl5MVc?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:e2aad5753e81",
@@ -53,6 +77,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-10-22T17:02:09.000Z",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTWFjN2NYN0dtcEJrREN1cUtwclMwVzBsbVBMS2ItWlZRUTUxbm1xWnYzTzdUZ2Y0dDV3cEY1TGRlTm10QjFZdmsya1F6aHZSa1hiLWlsRk82YzhKUjBWR3I5NTN0NUFwNnM2dm1MQ3I2Q1ZrSlJIR0FCcV9faHJVQjlMTGZJMExTelRuYkdxdFBHdE1ibHVIZWxyM3dXUkUwYVdLU1BxeThLRmVqSFJPMEFQd01JMld5TDlJ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3c7035ea046e",
+    "titulo": "Campanhas concordam em abrir sigilos, mas Flávio condiciona entrega a análise de dados de Lula",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-22T16:52:56.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORl9XUzYxRDdRTlZscTQ1V1VrLVZhdTlqZlZHY3QwSzBadVhvcnRMMXNnSmZyRlRyc0wwWHZQM25WVkVnODdDcjFyOWpvN0pzQ0l1QXg4LTFEMjZJdzdNWnMyZU96bEk0S3VMMUZkOWVyNXBhSGU2M0ZQd3U4ajh5S0ZHVjNGMHRjaERaczlfdmh4c3Q2RHRCNDRJNHB5VkFKQ0R5VXowMGRhdGVuaWdhRVprbk9RcU94WU10Ymh1SFFZaERVQTBta09DSkVZbExnSWRKYg?oc=5",
     "origem": "google-news"
   },
   {
@@ -109,6 +141,14 @@
     "veiculo": "G1",
     "data": "2026-10-22T15:28:32.000Z",
     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTEZrV0pGSHhRUUVfV181aFdMSUVvS2VXM2daM0lTa2xfNVotZ0dvUmtKSnpZR1JCbHkzNkFKUmNLVzczM2NLMzJzaHpoRWQ5TzRQS0YyUEV2UlZnNzBSM3BMTFZjQmZ6Y3RTTDNBZzBZREhSSXl4cVdHQ3J4SUFyRi1YSlFabllxS0FPM04xdFhWSThTcTh6bUFLNEV5SjFtM3p3ckR3YmNDQnlZcVlpTDFOcjQtRnU3T0I2SHhreVVLdjAwY2xOeUl2YnA0bkpGbWJZWkctT0dYd1BiWTRTU0t0VTBkX2Z5T3MwdVROX0Vwc3p2MG11ZVFLQnpQX1VxUml1SVBZZ3BJSTcyMXNKOXJWMjZUeDjSAaYCQVVfeXFMT2hOZWFQem9JS2pDaEVaVTlHRmZrWjA2S0pJNVZNUDJuZ2NrZWduWWdnMGRNcEVyOVE4aHhBRHYyc0pjRkVSYU5heUlqQ1dKVUFBanptVWRvcmE1U1JCeWZKV0pRLXZFY2E5WUV2UnMyYjFTVDZJb2ZlSVB4UHNlTVBRX1V5YkRKUFpaSnJ4RHp3b25vMTZ3allpNXU2UjNmNjdfLXBNM21QWXZ2dlJjYmFnalgtM0Z0MmNBd1hXR20yZnM4QkxxRlV3amdUOTREYTFtUGRQay13NE9Da1dOS2FrcXBUYWEzUlZCUmd1T0c2TTZVclNYRGtmak1VNkpoQkg2M0J5aW5EMWFhODdQM1FIaHB5TEtSXzhGU1V5T3lseXQyVGd3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:352fc285ab66",
+    "titulo": "'Pêndulo' eleitoral, MG espelha divisão entre direita e esquerda",
+    "veiculo": "G1",
+    "data": "2026-10-22T15:28:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTEZrV0pGSHhRUUVfV181aFdMSUVvS2VXM2daM0lTa2xfNVotZ0dvUmtKSnpZR1JCbHkzNkFKUmNLVzczM2NLMzJzaHpoRWQ5TzRQS0YyUEV2UlZnNzBSM3BMTFZjQmZ6Y3RTTDNBZzBZREhSSXl4cVdHQ3J4SUFyRi1YSlFabllxS0FPM04xdFhWSThTcTh6bUFLNEV5SjFtM3p3ckR3YmNDQnlZcVlpTDFOcjQtRnU3T0I2SHhreVVLdjAwY2xOeUl2YnA0bkpGbWJZWkctT0dYd1BiWTRTU0t0VTBkX2Z5T3MwdVROX0Vwc3p2MG11ZVFLQnpQX1VxUml1SVBZZ3BJSTcyMXNKOXJWMjZUeDg?oc=5",
     "origem": "google-news"
   },
   {
@@ -221,6 +261,14 @@
     "veiculo": "CartaCapital",
     "data": "2026-10-22T12:09:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU3c0c3E3V0J1MDFURlljbmg2UVJ6QjF1Zm9rWC12NzRkOHlBeHF6ZmY0OGJHYUpUa0FJdnhBRy1tUkFhWEhqclA1UmV6Q0NEdk0xQlpZazhWYXhBeW9UWktsMmZxcUpzMWVFME5DdUNmWjJuRzZUZXZJVW5iVHNtOGJPYlM3X1RWZ1EzM1plUldkTWFPaGRGdlZFR1lFTWc4UlBQdnJwWnE1Vnp3SjdoeHZ4ZzBRekQwbkJpY1psU1l3ZzNaSHZTSVg4TkQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a70b442fe5f8",
+    "titulo": "Lula pode ser 'varrido' em breve por onda de direita na América Latina, diz revista americana",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T11:39:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTGJSWGp4UGFOMG5XWlRFY19ha1NlYldXaDh1MnY3ME9iTkVrVVFaSkttMEc3MHVXem1kQktzSzlobzhHYU5uQVZVc2NGeHU1bjAxd0VmZEt1S01sRlptaVNrUG5KM1F5V2s3RU9MM1JvVFc0LTR1Mi1lYVZzYndOQ3hadC1IQ1RYcTNvZjctRVBMX0Q1YS1HVkJ0X2F2VzFMRlRuOThzZFRSWFV4ajNUTi1rOU9tZzM3TE5valY3QnZfRmd5VE9NSVUtckR1OGY0bE1SbW02UQ?oc=5",
     "origem": "google-news"
   },
   {
