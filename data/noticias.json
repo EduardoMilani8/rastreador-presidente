@@ -8,6 +8,22 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:952800ff03c8",
+    "titulo": "CORRIDA PRESIDENCIAL | A quatro dias do segundo turno, a Quaest divulgou um novo levantamento sobre a intenção de voto para a Presidência da República. O senador Flávio Bolsonaro (PL-RJ) tem 45% da preferência no cenário estimulado, e o presid",
+    "veiculo": "Instagram",
+    "data": "2026-10-22T01:22:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BeXBpZGtRNjYtSUIyemw3X1Rqek9UWHdYOHRRV0lNU1ZidFc4RTY1VzVJNlF1MEltZVBUYV9HSFVkWG5lNnlGRWkyZnY2b0RZT3c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f6c2b596c815",
+    "titulo": "Janones anuncia live com Lula nesta quinta-feira (22): ‘avisa o Brasil inteiro’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-22T00:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQjdEOERLT21vUFdzVURjcnRGYm5ld01mdUtxRkVIeE16NHhJS3l6QlZKT29fQW5xNjRiOF9NdmEzM3NJU2tqeUdyTFBKMmhsMmlaaWxTdXdyc2l1RXJBUXFIeEZSZGkydWJ1S2d5ZHNOQXZFVnRqSmpDbEVLRVNJMEZVeDRSTnRQdkZwaW9qcnppanM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:841aa7bde620",
     "titulo": "Nunes Marques suspende postagens ilegais contra campanha de Lula",
     "veiculo": "Agência Brasil",
@@ -21,6 +37,22 @@
     "veiculo": "G1",
     "data": "2026-10-22T00:21:58.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTkl6NWRlcGwxblRybVFLd3p0VDJKcHkyWlFvYjFLeXdod21pcFV6Q0ZIZzIzSVlrV09vZ2tITElBbGJ3Q1BBZVJyYVdicVQ3MFE0LUo2Ql95UzBkSnZUc1lTTk1nRF9KTkoyTTlKYkE1X2NyT2lLNTBTTDM5amdBbEk1VUF2UmQ0YTc1ZloxV0ZIZk15RzdfQnVFWXcyN3VhZ19DWHFlOXpVeXFvSVdzdUtXX1U5bEZlVlVwMzVuZzd6c1JOVVlVUURKYWE4OGItZzk2aV9XQVZ0SHlwZFA3MzF30gHwAUFVX3lxTE82WHQyTEo0WDhtdDNfQjFSb0JwMlRRYjc5RHhWQ3pEYnZUR3VxUzlCZnNva3ExQzRaRlNBNGNEVDh0OUpkVlVFaF9HZndBVk41WTBpTXBPc0NKUDBLblZaRnM5V3B4dDRtcmJOdVdjN2VtX2FzNGVpR2RDMUQ2UXBNVXJJTGl3Nk1XY3ZZRXB6TUt2dS1VaGt4bnFjMHdQS1FzUUlVTEc5U21KUnNvaXRJM0lxNE1EenN4cHRyMm9Vc0tkVlhlNXJTYnZCMHNBZ3B1anlpSEsyQjl2TDlybV9rSWZHYndvMmhxTkdLcGhScg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ab35a347484a",
+    "titulo": "Governo Lula mantém sigilo de R$ 83 milhões no cartão corporativo",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-10-22T00:15:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1lVMkZsUWlkbFkxanpLNk4yTGxjMFkxdUFmdVZtQWczT1lGclBoUFRsdGVNTWdmd0Q2dHBGYlZvSjN4NzRvQmwwNmd6T2lfT2Y2XzQ2NjYtOWxxckZJdk5kUUp1Mk5TMmVVeW9QR2VQaWRCWlY5N19yXzFKTTBqenBUMTBXaWhfLVBMZFRJTExhYWNBbGFob0NWM042X19ibXhlcDFtOEEtd0ZLTGtWMUZuVTQ5MTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:68eece8082d6",
+    "titulo": "Presidente do TSE derruba 20 postagens contra Lula e proíbe que Flávio e aliados republiquem conteúdo",
+    "veiculo": "G1",
+    "data": "2026-10-21T23:25:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbTVhZ1d2ajY5d0tNbjJqT1ZCRkdhMTcyaEFGR1N1UDh2YW8zUTQxd3lwWGJSbF83dnJoNnFxTjl3Y3JvYnc2Mk1JVVdCTnZFcmtDYU1SV3FIYk85VWtaZ0k5WE1qQXQyODhhZWJJbkRpYlN0UVA3bjJ6NVBLMEUyOUtxeUh6MW9jRDVBMzNwb2d4Nk1SN3FJcTZ3UHhUQWZQNkcweWxobFdYYkN3ZkotNDBQNWkzUnVVY2lkZm1nU3dZVG9WcEZZY05KSWxlaXdqY2lLYW13Smw3NnV4QjIxX3BKX2RFQ1RPWXlvM2d6emh6ZElXaGR3RWhWajlXdG_SAY4CQVVfeXFMT0V6VjVYWU9aTzUtMWdQcjB1WERTTVItSHFsSG9QZWpKRHJDeGwwSmNSSGNDQVN6UEJ6azYxQS13cmZzT3NRNk5QLUtEbzdNbEtCdEEycGRJX0VoMGdhWFNIc1I2TTZHcDc3RHl2aFA5aDJXcVd2LVlXa09fT01URkVXOUMwclYwbHVfeG1rT1BpcHk0NFVHRFJrakxGQTNzbmhqeVg1SHlzdUZsMk9KVjRjNkJxcDhBaUtjbUNlaUdZdTIyVFFrWjRGbXNrTjdjTEdxSWVxb3VoTkROc3hyM0VxRGV3UzFHRTBqQm02akZ0WENmbUw4ZTBQSWlzZXlNWnYtRHJHZ21uSG5la0d3?oc=5",
     "origem": "google-news"
   },
   {
@@ -48,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:2db37a059870",
+    "titulo": "Flávio trucou com um 6 e vou meter um 9 na cara dele, afirma Lula ao aceitar abrir mais sigilos",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-21T22:45:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYTBOSXY0dWxTOTFBM0lfUHBEZkdGY0FjSVhwemtuYnlhRkd3N2xGTDl1a3hzWEZQZUVKdWllWFIzNDV0T01BUmo5bUJ4cHdPXzdackVDQTYtLVBTaWhkYzZHcFM4cmZSVnFLRkczZldkbUhCOGtCMjdDQ2oxb3I1Q3dMeUF5MW02VHU4QWw1ZHJLYWpxWW5sMFc3RHQwa1V3QWhyYVhxWnRRUGlHQk1RY2locWlrY1N5QkxjODVweGp5TjhlaWdGVVU3MGxNck9KTkxYMnNoM1I4ZkV2TXYySDVVYThqVTl6bkJNYjl2SnNGdzFvOWF6Nzd3TnBtRTY2a1HSAZACQVVfeXFMTzdLNk53aU5DTklDaWR2WjBCNzBpZWdNVFM5ZHR4Uk1LT2g0d25fN2stalRhRDdmcTd2UW93WDVuOHRjazFpM1p6R3FmZ2VNR2RFeFliWkszY0h4NURVeWVQNm0yeVBBcjNXb2dPZEhBSFpidTBhYkZLUWwySEtxMHljS3QzZUhvb2lyVm8xNmlXNWFTRUx4UlpNbFIxVFBOV3A5RkxLdDVSMzcyQ3hTUFIwR1JZZ3hjcUphWGRXSjh0UklkMWU5Q0FxOEt6Z0dROE9CakR4YWxjN0NDaVlQRWtMQkZJZjBhY2UwOGVBSTZvMGRyMkRuaDVfTWpJckhudG5INi01UUplRzZDa3FjNnM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:264c46051b1a",
     "titulo": "Lula aceita proposta de Flávio para quebra de sigilo bancário",
     "veiculo": "Agência Brasil",
@@ -61,6 +101,14 @@
     "veiculo": "G1",
     "data": "2026-10-21T22:26:09.000Z",
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRGg5S1VWMDY3V0h3YzczRnNWMFBSbUltRFBabU5zeXpEaDExZFZEd1FhTXpVSWJzajdVQkJKTEN1NXhROUlVSlhGYnZDYW90aDczZ3dLQlhyRWZMU3o0NEpELTk5OWVIQ3otejJfLXBwZmFWQnBQdFlRRkNlcWhKOG5wWUdjQnlyby0wRDJLMTVUY0xPeUFwT2FpdkZYNklidzlsc25VM01oM2xRdEJnSDNrSDR2ZE82c3N2ODlHYkNmWlRramlnZmZsNXEtZHhWc3l6NUdlTzhyaE5uVWpySnE1bGdEdWQ1bjJ4UUxR0gH8AUFVX3lxTE14TjZuUW96ckJYZjBLM3JxdWpiYnRPY3pNbk0zSVA3RFJjSXRQRTNIQkdaYkZ1Y1pNQVktREZfNG5qckRkclJiMndmR2RwNGpOWGZEbE1pM2F4bXVyRFhkd0RMbG1lblEtY3BBN3g5SEk5TmUxWEZBZkpGdXpheXdNbzQ4VDBOOFg3MzJXV0hxOHdlSXNKRS1tZG5Na19NTG9lNjNOamhyMjJaWTlINGxtWklySmxldTNDbVRwUzRqcFRTUzU4dEttd0hRbjIycWMxQXBFQmpDMlNqUUNCN3gyeEtPZXdmbzdWdk41dndRbjNlYWFYMm5wcDJEUA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7badbcdd1918",
+    "titulo": "Lula irá ao último debate antes do 2º turno, confirma campanha",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T22:04:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0NJOGg2V0ZLTU1Ec0xtcHF6LVQyNF9Bd3loQ0Nna3g5ZHBDQVMxYUNkOW96SFFCMExKWV9XOVJKSklxNFZvYTFEcEc3TGgxZzU4RzlydTZYcFVkSVJXV0JzT19mdHlzaXBJRmltcW9FNkYtcm8tNTAzNnozV3VRVVVoLXp0TEgyemNTVnBMd1YwNTVYQWNkUWNHOXhhVUwtMEFIMkxiYUZ2M0o5Q2RZ?oc=5",
     "origem": "google-news"
   },
   {
@@ -85,6 +133,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-10-21T21:42:24.000Z",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRTViVzE1X2Y4Yzd6QmJUSld3dkFPY3lqQUI4WGFzZElSVnRBdk9PcXBTWE5CQ2x2aXlTdnNsYk4tVDhZS294RTJHRXJGLXZSb05TbktKUFU2cXJkeDlJaFY1TTVxbmRfUHdId0g0YVM0T1I0T3NFUDJmTTZNV1lfQkZNdWxBd29kMmhrekp6bXlsQlNJLXFIbzZ3ZTR6TkwyTV8xQkxrQW9YYjZhVjZFWHlNZWFGLWxDLUdB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e18f3897314d",
+    "titulo": "Lula e Marcola não se opõem a abrir sigilos, afirma coordenador de campanha do PT",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-21T21:20:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQLUhKTEdJUlVYblB5VlVpQ1VJbGpoaDhZanBHUW4xZkw4eDVvN05MRnBESHBjSmNaT1pFbDZPSmFSdHpudlQ5MUhQSXhaMkcySVFpRlhKMExMZ2dxUlJGWXpnZF9xX1VSRkZyTkRpRjk1WGJVeTVoU2VXc0ZzRVVpUE5jX2ZLN2g2UE0wbFpJLUZUTERVeXpnVkpGRnFqMk9IbGlLeU1nSTduanBkZXBFTFFLNzEtSTFGRFlaX0VnNkNHMGN5V0Y0Z1RlX2ZLSzU0NVp6ejY2b1otcHU1UU45WmdVNlJPdUFQVmc1OXNvS25INXV30gGDAkFVX3lxTE5LU1FGNFpzN3JyQ3NPUkctalZPWTlYbVE3UDFrUmNDeXFyWW9ybWtkM0tuWWRXeVNFQWczTFZ6a2ZpYm5FWURSVWt0aHc0RXNleS1kRmN1QklDUGg3U3RIZ21WQjZtRkZscUpMSFE0S2RWSC1qNGlubHIwSGhRdTFGQjhCXzQ2akoxS3pSUERVZWJFVTF1ODVBNXBPQ09Ia3JxRkFreHJmb2tkeUQwOEFCV2NpcFpLTEpTQ0M1WmhrUXBsZG1UazI3NTl2R1lpdVNhOHRBeTRHVjZhdHBFQmhRZ09wdUJGMU95SlZCQ1JTVExCS190aTg5TlNzdklaUXU0eVU?oc=5",
     "origem": "google-news"
   },
   {
@@ -189,6 +245,14 @@
     "veiculo": "G1",
     "data": "2026-10-21T20:05:06.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONkd2QkI5dGhGUTZ4VkpfZVd6QkF2QlBLZHJrZ1YybzVBTmJWNEZ4M1lhT3FHQ0lLNDFxV0dKQnRZN0c4aFZDcFhkcHVlbUF0elY1TE1uU1loZFVWWEhNM044Tk4xM21jTXV3aFZtaklrRnhlNld4VUV3aVVVYWlQVGp5aXduSDZ0Ymh3cjJPTkxFcWpTUVl4TEM1MHBvdldaSDUzNEFYUVRydkJtZEJ0a2RNSTdrYU94cS1tNEJ1SWNiZkHSAdIBQVVfeXFMTTR2bnZhd3J6Xzd3eXcxLXVESEZVTXZ5ZnNaeFFnclhURVVFbFp2WmkyVVNmWWIxQkV3MXlSZFVBT2JnV2ZRRzlIQktsUlAxY3dmQm1QRWs4UGFPNXRoRl9CMmdXVmkyV2R1dUdZanFleUV2Zi1rU3Bhdjk4dEk3ZmQ1OWJYdS1CakFfb2h1bERBZnoyUGVja1Y2NjZEV01OdEJNUDhVUElLN01YX05XQkhkUlZTV25sODZBVU5qclFEcElIR1NVaVNCcHNwVkRxQlFn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a49a1b199de4",
+    "titulo": "O Brasil é Lula",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-21T19:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYYmpWXzVodDdyZFY1OVp0cW13OWFEOVFlbl8ycXBleEVVcFYyZkM1N3E5Q0hqUGVjYWtNclRCU0pIYUJlMjBjelc2RmdqZXh3TTFWb3VOMGd0SmdLcGQ4cU1nanZ2M0p2UFlv?oc=5",
     "origem": "google-news"
   },
   {
