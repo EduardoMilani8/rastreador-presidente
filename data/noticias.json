@@ -1,5 +1,45 @@
 [
   {
+    "id": "agencia-brasil:841aa7bde620",
+    "titulo": "Nunes Marques suspende postagens ilegais contra campanha de Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-22T00:39:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/nunes-marques-suspende-postagens-ilegais-contra-campanha-de-lula",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:575a0ded671c",
+    "titulo": "Presidente Lula, candidato à reeleição pelo PT, tem agenda em Brasília e em Minas Gerais",
+    "veiculo": "G1",
+    "data": "2026-10-22T00:21:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTkl6NWRlcGwxblRybVFLd3p0VDJKcHkyWlFvYjFLeXdod21pcFV6Q0ZIZzIzSVlrV09vZ2tITElBbGJ3Q1BBZVJyYVdicVQ3MFE0LUo2Ql95UzBkSnZUc1lTTk1nRF9KTkoyTTlKYkE1X2NyT2lLNTBTTDM5amdBbEk1VUF2UmQ0YTc1ZloxV0ZIZk15RzdfQnVFWXcyN3VhZ19DWHFlOXpVeXFvSVdzdUtXX1U5bEZlVlVwMzVuZzd6c1JOVVlVUURKYWE4OGItZzk2aV9XQVZ0SHlwZFA3MzF30gHwAUFVX3lxTE82WHQyTEo0WDhtdDNfQjFSb0JwMlRRYjc5RHhWQ3pEYnZUR3VxUzlCZnNva3ExQzRaRlNBNGNEVDh0OUpkVlVFaF9HZndBVk41WTBpTXBPc0NKUDBLblZaRnM5V3B4dDRtcmJOdVdjN2VtX2FzNGVpR2RDMUQ2UXBNVXJJTGl3Nk1XY3ZZRXB6TUt2dS1VaGt4bnFjMHdQS1FzUUlVTEc5U21KUnNvaXRJM0lxNE1EenN4cHRyMm9Vc0tkVlhlNXJTYnZCMHNBZ3B1anlpSEsyQjl2TDlybV9rSWZHYndvMmhxTkdLcGhScg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:558a03f76a50",
+    "titulo": "Quaest divulga segunda pesquisa do 2º turno da eleição presidencial; veja os números",
+    "veiculo": "G1",
+    "data": "2026-10-21T23:13:16.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbHpULUMwaG10WE5ZazRDOXhfQ0xDUWotTU9ZN19SSks3T2NBdHdtWExscngwbmdsNXRuSVFZdWlYOXNJTDZWaWhadzYxRXo0c3U2VzA4M0hNeFppRElnXy1nSWpyVDF4c21kVEV5bjBoQU1oZ1lIbFJEeFJ6Y2JIYmt4a3Zmb1ppcXFDQzNJQTFZa2xpeERFalp3STZOZmcwckRQcTFGWnRUREtwMHlKYmNOQ0k2a1lfU0ozUHNtM21mQTZiTE4yZXBDcjJoQzk4aUpOd2hYTXdzLVlNM0HSAewBQVVfeXFMTncwbHFGLTAzbFpJLTR5aHFsQUpJT1A0ckxTcXhWeERSNzZDZ0FERWFvN2pPMGtoUHBqV3NGYVpGTWdDLWxiWUhuYWZmZDFjQ243VTN1S0o0WW55YjlGUHVQMndmWUpMcFNvb0R5OGIzaUxrQWdrcUhsVGN0c2ZaN1RXRmNvTHhOT204V0xLM1ltRHFMMk9tR0VFeS1wTk9taG1idUtkLWdGU0xER0pOQmFLYkpHdnF5enFIS3plaG9PaDZlZ3F3S0lheVNUOE9mRFNyY0pRWXpoa1RWZi1Gdjh4em5TNDdSa08xWEU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:be1888292ea2",
+    "titulo": "Após Flávio dizer que Lula não tem celular, presidente diz ter ganhado um",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-21T22:52:46.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWlYUWVMM1M5Q0JGOWNCV3VxeWJtTnU4bURqZWZEREl3WUpzbDZhYWlNZEZlSU9ZRG1vUFVGdndrdTZFSkFGZ3RsTGJuVlB0NDVJY3Y1YW1GUGw5RXJ1S1U5dExjYkdveVU1X1YtZFd5WnF6b2ktSjQ5V1dxYnVnSkY5cW5KUks1elczb3J4aHdpVDhQVXBQVm42eWQzYzBHUy15VXVfT3Y4cjZpbXYycg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e8980f38bff6",
+    "titulo": "Lula ganha celular para entrar no 'Exército' de Janones e promete usá-lo em live se grupo chegar a 10 milhões",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-21T22:51:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQWWEzeFd1UDlkODVILTJHLWtkUHBBSnhxd0lON21NdF9hYVdia1dvNjJSQ25Oc3dxQ2JXOGtzUU9nNktZNE8wSmtheHVITzlDd1kxd05XYllHTi1NV09GS2VKOFJsWlVwMi1qa1N5NGVzcTUtZFdtMEtsSlc1dExVNDlTbjRiUzNJdkFSb28teEVqSVlwUHc2ZTdZelAwZ1BvcWdrQmxoTTYzN2FxNXV4RjNGYnRsZFJzZE5BMnVlc3FPS1haT3lkWXY1aUQzbk1RZ1ZvM2hELW1Wc1pIYkZkamVpUC00ZlZKVVhMRWhTQkhqTHppZUg1X3Z4eGgxZFk2SUw5UlRrUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:264c46051b1a",
     "titulo": "Lula aceita proposta de Flávio para quebra de sigilo bancário",
     "veiculo": "Agência Brasil",
@@ -16,11 +56,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:dd1cf409997d",
+    "titulo": "A última pesquisa Quaest sobre a disputa Flávio x Lula antes do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-21T22:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLXlWc3BEN3NFYzBqVXVMbmhQUEN0RDk3alpsUUIzblpuZ3c1akxkQkZQUE10LXF2RU5fVWlYdGYxM1cwc3BDWjZMQWxDZlJWV0JsTGxPX1dvbHNnSXpsRVhHMlYtNXJ4TDdnc0ptamN1WVJ1bk1KNHJKUXI3ZEs3LXhrOTJhLVJlUDliNlplRk01M2hiaUJBRzRkdEE3WEtqWTFPTTRpNW1fOEpXX0w2OVhSQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:513f032a2f45",
     "titulo": "Flávio Bolsonaro condiciona abertura de sigilo a mais dados do presidente Lula",
     "veiculo": "JOTA Info",
     "data": "2026-10-21T21:47:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOampBX3F6Yko2WFFTUDlSelY2QmZDajMwQldzU1ZVc1Y2bTV0T2Vlakc0bTRjNURrQlhPUjc5SHBuN1JVMUZhT1dLTkt4My12eWI1WEVHNFYyNzEtdWxJYVIwemlNYmp2YlJRbFBLYi01bF82b0ZnNjVjQlJuUUhSRzdwMmVoWkZuZkpNQkc3UkxKU0VYUE1uTk43SnFZSk5mc0wyWDFXSTljR25STi1uS29mSkNZOFcxaWlpb3Ztb24?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3819e0b8beeb",
+    "titulo": "Campanha diz que Lula aceitará exigências de Flávio para quebrar sigilo",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T21:42:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRTViVzE1X2Y4Yzd6QmJUSld3dkFPY3lqQUI4WGFzZElSVnRBdk9PcXBTWE5CQ2x2aXlTdnNsYk4tVDhZS294RTJHRXJGLXZSb05TbktKUFU2cXJkeDlJaFY1TTVxbmRfUHdId0g0YVM0T1I0T3NFUDJmTTZNV1lfQkZNdWxBd29kMmhrekp6bXlsQlNJLXFIbzZ3ZTR6TkwyTV8xQkxrQW9YYjZhVjZFWHlNZWFGLWxDLUdB?oc=5",
     "origem": "google-news"
   },
   {
@@ -53,6 +109,14 @@
     "veiculo": "VEJA",
     "data": "2026-10-21T21:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ1lDM1ZJakg5X3VDV0p3a2ZXTXU0Ykw0RmJoR2hLM3Z0LWplS0luNWZ2dnEtUGtXNW5ZQmdzQ2UzalNMMzhsd2Q3QXFFRHZ4azVpd2c5YUJiLVNkbDVRMUpxYkhKUUUyVjRMU3RTSlRhS0FmblRfbXE0allLVVJvNjdmcU1LOTVUNGVPSjF0V0JocUlVZEVRUkNLZU02Xy1YVEVBZ3FVSVJfQVhjdEp1a1ZFemVma3ZYdTNuMXd4OG1QRkF2Qnc1aFlxWjV4QQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dfafb1f7fad3",
+    "titulo": "Flávio Bolsonaro impõe condições para liberar sigilos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-21T20:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOUJ5VXR5R09KamVUWTljNEJxT2VCNlJJRC00dmduMU80Q0tpMGdidm5KMk9YNjBOaWhVMDV5Y1hNZmlLX0RDeVZZdWMxNDZpSUJKeWZYTlNud09LeXJ6aHBuS0NaLVVPTjlocUJ5RWVZYlVJTENKUEZDYkZfaWZtOW9RX0R0cThuTmU5YmdxRnd2c3hiSklPeklPT2d5NkdzaXAzSzlPbFV4QVRXUlZuNQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -109,6 +173,14 @@
     "veiculo": "Instagram",
     "data": "2026-10-21T20:10:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMaTBzUGF2YV93TG5ObF83Ukg3dDhHcGwyejRhell4ZkNTZXVpaXExdzR4N0s2VjBZUk5Ga01LWVdsSGJnclpaMWF6aVRMQzM4eFhCT3dB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d23942b3b086",
+    "titulo": "Quaest no DF, 2º turno: Flávio Bolsonaro, 50%; Lula, 39%",
+    "veiculo": "G1",
+    "data": "2026-10-21T20:05:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONkd2QkI5dGhGUTZ4VkpfZVd6QkF2QlBLZHJrZ1YybzVBTmJWNEZ4M1lhT3FHQ0lLNDFxV0dKQnRZN0c4aFZDcFhkcHVlbUF0elY1TE1uU1loZFVWWEhNM044Tk4xM21jTXV3aFZtaklrRnhlNld4VUV3aVVVYWlQVGp5aXduSDZ0Ymh3cjJPTkxFcWpTUVl4TEM1MHBvdldaSDUzNEFYUVRydkJtZEJ0a2RNSTdrYU94cS1tNEJ1SWNiZkHSAdIBQVVfeXFMTTR2bnZhd3J6Xzd3eXcxLXVESEZVTXZ5ZnNaeFFnclhURVVFbFp2WmkyVVNmWWIxQkV3MXlSZFVBT2JnV2ZRRzlIQktsUlAxY3dmQm1QRWs4UGFPNXRoRl9CMmdXVmkyV2R1dUdZanFleUV2Zi1rU3Bhdjk4dEk3ZmQ1OWJYdS1CakFfb2h1bERBZnoyUGVja1Y2NjZEV01OdEJNUDhVUElLN01YX05XQkhkUlZTV25sODZBVU5qclFEcElIR1NVaVNCcHNwVkRxQlFn?oc=5",
     "origem": "google-news"
   },
   {
@@ -216,11 +288,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:91dabaa7ef50",
+    "id": "google-news:61a700d2571e",
     "titulo": "Presidente Lula mandou proposta de emenda à Constituição (PEC",
     "veiculo": "Agência Brasil",
     "data": "2026-10-21T16:27:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYmxTeTl3Y002T1FYb2Z3QW8yeFJLdkhHdmhlOXc5RG5meWNYSm9IU3ZWengxOXpSWnI5aG5MTHdrR2NJN3V5cV85NEU4UklXelVrNjZaVE1ZclhsNUVnclNkODJNX3NCNDVwa2I4elVVTzJNanpiczdJZTB6aUktUi1SdHRTN1M2OW5Ob2xaWkJCcjNjUVRPX0NvWDVDQVBqYWJ4a3ZyVDBpR19HYTJOVTdub1N4QWQwWVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbTlYdl9TajlKYU9vVDJmbVJGX0JpWXI4ckFRVExldEJEejdycUp4elFlZm10cmYxU01LYzctYnY1NWNsRFBDeVllZERWU2VGT1dKNmgzZ1NScDdCNlNzMDJ3c0FfZWF2T2s3dS1sX0ZHQlJvOWVDT2lnLUZ0TU9zdWdXbXZSUEhQVm5lX0g2VWxPVjFyYnI0WDJibHFHYVJ3cWxIcmJteHc0UmwyMGVoTXhXWjduX1FtUUlCUQ?oc=5",
     "origem": "google-news"
   },
   {
