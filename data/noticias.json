@@ -8,6 +8,22 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:f39a4cde8579",
+    "titulo": "Pesquisa Indexa mostra Flávio Bolsonaro com 50,6%, ante 49,4% de Lula",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T13:24:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ1NSWVU0aHRfUmxNSTRJdG4xcEJ2NXZTRkN1VGN1OEF5b0hfZjZpdWh4cGt1M1Z3WS1PZzBWUnBnSjhNUWZOVGdoVjN0MWpyajNqcURyWDc2ZU9WTXdQMFZKTWp2UUJydF9WeWcxZktKOUE2ellvb2RMSGZoR1dPQXJXa1dENlVKR2JCYUZSbFdLVDRNYnFzLV9PN3NqQjBCeVozYUpsZ21sUEcyM2UwUw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f5bda18aa845",
+    "titulo": "Como será o debate da TV Globo entre Lula e Flávio a dois dias da votação",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-10-22T12:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEdSalJCbThDZk83LWJqZGNJOXoyVFN2MVdXVC1TQUZLTmZISnUyeHBYRGJWYnhJb2NvNzZ2ekVrMjluOWZYMlJZdDBnbmVTZ19YbFhQb0tLcHVGRDlidUdza3o1QVB2QzREXzRqUkdWbVpkNjJkRDR3cy02d2pnSDVOalJhM3FNa1NsRnQ3TmlpZXM1dWdmbElCYjJ6dmRjUEhvNVdsMGcxZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:46da8489c174",
     "titulo": "Indexa/Broadcast: Flávio Bolsonaro tem 45,2% ante 44,1% de Lula no 2º turno, em empate técnico",
     "veiculo": "Estadão",
@@ -24,12 +40,44 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a23916c73564",
+    "titulo": "Lula e Flávio Bolsonaro formalizam abertura de sigilos no TSE a três dias do segundo turno",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T12:09:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU3c0c3E3V0J1MDFURlljbmg2UVJ6QjF1Zm9rWC12NzRkOHlBeHF6ZmY0OGJHYUpUa0FJdnhBRy1tUkFhWEhqclA1UmV6Q0NEdk0xQlpZazhWYXhBeW9UWktsMmZxcUpzMWVFME5DdUNmWjJuRzZUZXZJVW5iVHNtOGJPYlM3X1RWZ1EzM1plUldkTWFPaGRGdlZFR1lFTWc4UlBQdnJwWnE1Vnp3SjdoeHZ4ZzBRekQwbkJpY1psU1l3ZzNaSHZTSVg4TkQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:252b3e4c4838",
+    "titulo": "Lula aceita exigências de Flávio e marca troca de sigilos no TSE",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-22T11:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT2NpeUhLZDVWa0xnNVd3Z1FxSkJyV1dMVXBvLTRMblZGOC1uTGVIVDlkbXpVVXdNM3VPOWt4QU5UUWhHbEVCSDhQVkZFdm9KUHV4Z0xuYXFMYUlHM3VyZHVKdEFVZWFYYzlBMlBRYUZZVGpIeENQYjIwS244blk2c21iM1YtUVVsR1M0U1VuMkoxTldqbXVWV202Q2Y1RkMzdGR1QXctNDJVVVA3d1BCNVN5MEVKQUNEcFhIMWFFYVoyZk9JdWxrZ3ZQeTZxUHhhbUU5eFZoTkRsZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:c17ad10f5a5e",
     "titulo": "RN: eleitores vão escolher entre Allyson e Cadu de Lula para governo",
     "veiculo": "Agência Brasil",
     "data": "2026-10-22T11:00:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/rn-eleitores-vao-escolher-entre-allyson-e-cadu-de-lula-para-governo",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:9951bf35809e",
+    "titulo": "Lula diz que espera Flávio hoje às 11h no TSE para abrir sigilos",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-22T10:47:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmk2LTZVU2V2MndQYXlZT0ZQNGdKc2lMY0JtY0wyc2pfOFY2NGlxcmxiUkx6Q1BzemZxTlUxbzVhcENXVURxT0xqb3JJYVNTb0VMV0thWXNGTnVObmVWVWNEQng1OFV5X1F1UTdXcVZCZVMyXzYtbFlWOXhBYVhSRVFiSDVwY2VEbFhXazUwdHJwYXlMTjlLUXV3d2FCSFJvZEJnOEk0dGxXVkNNV0tiejFHTEY?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:08926ffa2bea",
+    "titulo": "A nova pesquisa PoderData/Aya sobre a disputa Flávio x Lula a três dias do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T10:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSzJSUjZfLVVDTjJISG5LZ0s5X3Z1b1U0eFRPZEItakpleHAyZnFBSjJOWXFER0dJWUo3bFUyWUtNMTZYaFBlU1ZScDY4WUV3aV9uWGwwcTY2RWVxNUhUb041aHhYeW0tTEZ4dnM4ZXVHRVExQmY2Nng0N1hwUGFqZmxjMW15R3VxN01UN2M4NzNia09vTXNlTDVDTlNCVTdyTWxURHprN3d0ak54SGlINVdWV0J2Uk40U1ZSQnNhbVhhQQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:565fc92f7414",
@@ -40,11 +88,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:c9c70d1efee1",
+    "titulo": "Flávio tem 51% e Lula tem 49% dos votos válidos, diz PoderData/Aya",
+    "veiculo": "Poder360",
+    "data": "2026-10-22T10:22:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHdvSktPXzJXTTZnWl9aeGxjSC1UN3lkbXJNOFFhRG1mVExPR1lVRVF1cEkxOTU0YTQ4QkdZdzFLb19hM1hSVy04R0daYkVNY1k2dkw3VEUzUkZTNkhUVmU4ZDk3WXVBTVp1c0x2Q2h4SXI0dndzTjYwNmlBbVR5b3JuYkhrX0lvRndoTjNLMDFpVFBGM0M3MXNMT2lfZ21KNFB4TQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3b407ee0876c",
     "titulo": "Economist questiona se Lula, 'agora azarão', ainda tem 'uma última carta na manga'",
     "veiculo": "BBC",
     "data": "2026-10-22T10:15:56.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwS0ZMZVRCMEI1d1B0ZU50MzBqSzN0aVhNd2pwTzNCb0JXVVhMc2ZzaE9Va29FQ2RUcWdoaVRSeGRHS25UZW5PaUpjUllQVG1pRFo0RHlXSFJ6Rl9Za2EtUGs0dw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:41db03a38b3b",
+    "titulo": "A batalha de Flávio e Lula pelo voto grisalho: por que eleitores 70+ podem decidir eleição para presidente",
+    "veiculo": "BBC",
+    "data": "2026-10-22T09:33:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Hd0t1bHZueVc2dWRNb2ZvbS1YTExUbmlCUUJ4SnZrczhtVXZwV1I5S0k2MjJnV3VPWVFoX3Z2c1VrY2FjNF9vSHVfWHBrSHVQVlhCaERCSUNGRG9HQm5rbHhERQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -64,11 +128,27 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:c9f13e906f36",
+    "id": "google-news:147b68c6822e",
+    "titulo": "Segurança, economia, saúde; veja propostas de Flávio Bolsonaro e de Lula para governo",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T03:36:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVzhvVEc5TVhrTUNkQ2lEdFFtUHpIMkhjWkxaQlpNcjd6Z3dNSkowbGpDYS1JaWF0MzFfbTNaNllqaDFtUy1ORVRDaFhnZ1VENl9TV0FPT21BTnlZUEVWb3B5LXZQdEsxZ3ozVDBsMDlWZ2x6dXhQVUdSamR2RUhxTThPSzhIOVNxb1ViQWZnYjBmSGxveWdGdWN0ZUxyOXpNcy14WjBsNVBDbGdBY2Y5bkFuWDE0YUFiWTZPNk1xVHl3M0dKLXV2el9PVXU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7e199295778b",
+    "titulo": "Quaest, 2º turno: veja intenção de voto por região, gênero, idade, identificação política, renda, cor e religião",
+    "veiculo": "G1",
+    "data": "2026-10-22T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVVVoRjVYdjhqcXJCUmI3d0FfU3dHMFRaUWF1TVVfcS1Ta25VWkpveGpfNmp2TGhsWE9jdmltZ0NwX1piTXVkTWkzd1ZlTG5yWlE3OTNWaTlnV09JNXRUMDRQQ2NCbUVkRG5GUXJTQVNIWFVWdldYaHNSVUVfak9yQjl4ZGhwR3l4Q2FGem9YMzVaN3cyOHpwVXpNMll1S2pfbnZxMzNENkUyNEtkTHNDUXNKaXhPSmpTNnJaSFlFeWR1TlXSAdIBQVVfeXFMUE55bDlTY1QwUWp6emFmQ0tScnhOUXJNQk0xYzVwdkVQd1hKYWtoSkxVMlJoZkdQRTB1UXA1RVNKak5Bc0hMYUh1b2tnQUpXVFYteGd6TE1pS3MwMWxoQVVudWs3cEhMVU13d2IzSEJJNklqbThwUzZDV3ZRd242NkRQSTRHRUVEODhaUTF3eE5icnJYdFJ5TGxBUUF6eGJyeVczZE53dTlOQTVoTHFBUVRYNWZBVHVJdlBaM0NMRE5LREs3RUU3Tkg5M2pxaktGSFhR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ad2d1624a04e",
     "titulo": "Lula pode ser 'varrido' em breve por onda de direita na América Latina, diz revista americana",
     "veiculo": "BBC",
     "data": "2026-10-22T02:12:42.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yc3JwRUlQSGtLdk9YSUh4M3k0V1VCZmdtUktoOW9CdWpyVU1GbWtXdnU4WmdzelhMdmIySzI0UWlwWTgwbVZHRms3WHNkNm82NU9uZFJPNklCQXBud0ZiVk83UdIBaEFVX3lxTE9ONl9nSVZiX3NiSU9tVlk5ZG1ob1BKUTdPcnJnYndYOC1fRzlZdmxoSG9rd2N3bDVvUzM0ZVNwVHc5MllYZk90Nkp4em9fWjZMbXpuQlFuV090YlBfY3JINXBNY1RPMWxJ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yc3JwRUlQSGtLdk9YSUh4M3k0V1VCZmdtUktoOW9CdWpyVU1GbWtXdnU4WmdzelhMdmIySzI0UWlwWTgwbVZHRms3WHNkNm82NU9uZFJPNklCQXBud0ZiVk83UQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -104,6 +184,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:909605d3a4c7",
+    "titulo": "Lula compara desafio do sigilo a Flávio a truco e diz que terá celular para entrar no canal de Janones",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T00:36:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVS1wZXkzczZHMFF5bmh4dUNSekp1TUVTM3dFZDA0a1BYOXhjd1gtUTg0SzNuOFZ5cFpldzlqaXVsWFAzeG9qNnFmaVM3VVFQeHR1bHZNbVdoRXpNbk81YUJ0eDY4Rm9tNXhmMVhtNVVJaV9sQW9nZHBDXzFwdWJPMXZDSGVoa0sxd0I0UWFrOEF1Q183VVF1SWxDdFZDczZZNURZaDJPN25fSlhaTEtsMjRhc1J1YjM1c3MybktQQzlSNVRocFFCSWdKYTNsT2pTWTExaHU1ZUNDNC0wUU9mSmZFWkdETjQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:575a0ded671c",
     "titulo": "Presidente Lula, candidato à reeleição pelo PT, tem agenda em Brasília e em Minas Gerais",
     "veiculo": "G1",
@@ -125,6 +213,14 @@
     "veiculo": "Gazeta do Povo",
     "data": "2026-10-22T00:15:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1lVMkZsUWlkbFkxanpLNk4yTGxjMFkxdUFmdVZtQWczT1lGclBoUFRsdGVNTWdmd0Q2dHBGYlZvSjN4NzRvQmwwNmd6T2lfT2Y2XzQ2NjYtOWxxckZJdk5kUUp1Mk5TMmVVeW9QR2VQaWRCWlY5N19yXzFKTTBqenBUMTBXaWhfLVBMZFRJTExhYWNBbGFob0NWM042X19ibXhlcDFtOEEtd0ZLTGtWMUZuVTQ5MTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3f5b0e0eb35b",
+    "titulo": "Lula cancela gravações para preservar voz antes do último debate",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-21T23:56:29.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ0pjUU5SdUdGb1FvOXJuQjFkUExhOGJHRTcwS3hHZmRUb3I0c2NoUmxPalVsQ2ZhYWthOUlHQzdXem11azNvM011TUZuVk45VEFfTGZTTlVnWDVBQTQ1cXJRSnpTcnBYOEhVRE5WcmlFeVZzYTUya2NOM1pKMFotMnk0aTlLX0RFUDFTNFU2cFVlYWxGdWRHNlA4dTFUTjVtLWphclVn?oc=5",
     "origem": "google-news"
   },
   {
@@ -232,6 +328,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a814648b674d",
+    "titulo": "Campanha de Lula diz não se opor a exigências de Flávio para abrir sigilo: 'Amanhã às 11h estaremos no TSE'",
+    "veiculo": "CBN",
+    "data": "2026-10-21T21:31:27.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNU1dGaUtkenlJY3NaUlM4LWM3aW9ZZExUQ1RFQnlCTW5EOWJLNXZfWnBNYml0VUs1X1YxVWhEZkszZFJybFR6U2xrQVRibUtFM0tMOU45cmg4QktqdkRybDNtLUlieUNfYmt5UmstbkZNUVVRb1RnT0ZDcFpKZzZjSWgxbzhPdFJkbldwX2Exbnl1dlhjRFNoMHVadGp0Tk5vUVZsTXktMmVMQW5XYnVBaDBIVHJLZ05EVzV4OHNNZzltTHlSbFJLZk1qdlU3OFlfRGRLV3VfanhCNTNkeWZ4NXdqS25tUWFOUjJWbXZ2V0U3QTlSVUhIaVNmaWU3U3JzN3JzYTFZTdIBlgJBVV95cUxOVEtqeVJTNEtjY1RMTU8tR0lqdk9zZ25WZTJQRS1qNGgxTlItOVQ1ZlY0YW5fZV82Rnl3ekJzSlVlX1FDM3dLYWk2STBLTkltX1BBWDI0d0k2UG04a2JjOVdzSjdBd040eW5WMjZRZVFsOTJUYVVtcXROTkZEQWctaHEtX091TTFPQUUycmptaWFNNFU3eHlWRHcyN0VHOWtjZ0tBVFZieGQ5SF9rTzNLcDVWUHRWYnVWRVJvLUJzNmEzanNSSWc4bkNDZWlRSF8xNnd5YkVOQ3NGc2VBOUxOd2RZWWl6QXptbXE0cFdQbEprZ1h0cUhjSThJdzlIR1c5SjBKWjVtZkpJQ05WblU1RzhIVENadw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e18f3897314d",
     "titulo": "Lula e Marcola não se opõem a abrir sigilos, afirma coordenador de campanha do PT",
     "veiculo": "Valor Econômico",
@@ -269,6 +373,14 @@
     "veiculo": "VEJA",
     "data": "2026-10-21T21:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ1lDM1ZJakg5X3VDV0p3a2ZXTXU0Ykw0RmJoR2hLM3Z0LWplS0luNWZ2dnEtUGtXNW5ZQmdzQ2UzalNMMzhsd2Q3QXFFRHZ4azVpd2c5YUJiLVNkbDVRMUpxYkhKUUUyVjRMU3RTSlRhS0FmblRfbXE0allLVVJvNjdmcU1LOTVUNGVPSjF0V0JocUlVZEVRUkNLZU02Xy1YVEVBZ3FVSVJfQVhjdEp1a1ZFemVma3ZYdTNuMXd4OG1QRkF2Qnc1aFlxWjV4QQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:487ff16e1d98",
+    "titulo": "PT vai ao TSE contra decisões de Nunes Marques sobre Exército do Lula",
+    "veiculo": "Poder360",
+    "data": "2026-10-21T20:57:56.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSDdSa1lGYTNsSjlnWUZjWFk4V1VmZ2pIUmtIWF9BZTNhcEx4WEVHbEdNeGpYdC1YSUIxU0NKOC02SV90TEpYcGh1ZVh1S0hpdmFfb19fQ1AxSENsWENtNXN0d1Rsc1RVcUNtYXoxeHN0LUJFZjRuZ3dqR3JwX1RManNQTXhRQWNKc1Z6T2l3bXVPUHBNSHFmWU1LMS1mSEkwTmpraDhrNXBMNGhhU0hPcmNoQWJWRm1QZXc?oc=5",
     "origem": "google-news"
   },
   {
