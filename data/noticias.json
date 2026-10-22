@@ -1,10 +1,66 @@
 [
   {
+    "id": "google-news:6ffbcba52099",
+    "titulo": "Datafolha: Lula e Flávio Bolsonaro empatam com 50% cada a 3 dias da eleição",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T22:07:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaVVFM3VYN1d2TnNwSjRpcHhMM0dlaGl3OVdlVEc3QVFneXZfdjZyVmdCM1c0bjZyVE9GaWJEelJYVmdYT3pDZVNVZm9mWlFobjlZbjlPSGJTYTAxTjB6Z1NTQjZjVTFYVllnd0QzRmhpakhkZkNBc2pMRm9HRHNLcUlQNU1ITGNJXzJLTW9FR1ZjSHY4aldiQUNDTWUwLXpxNkt1czNFZGk4RWxxVTdkQkdZblZkUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:323a86af0397",
+    "titulo": "Datafolha: Flávio Bolsonaro e Lula empatam com 50% dos votos válidos cada",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T22:05:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONzdYdUl6TTI2VzFSNlNvOVo2M0pWbEJiMmJDdW9IczhGWEhabHMwSE81MGFBLUNvOXdtN0c2TktwLU13dHJ1TmNUVXR4UUZCSmdBQkFfajhhaEo2OE9pLUcxZHdvS2lIb1JPMVlzSEc0am82cmJjamtNbFp4NHVPcjZ2WnQzcFRyTVhGQlVnd29yZkp6SnY1UFViQWp1RXZwY3VCQ0tIUm9NNFVlX2hNeWlrUmVTMWFJbklJUlR3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:675d14dab64f",
+    "titulo": "Datafolha, 2º turno: Flávio Bolsonaro, 47%; Lula, 46%",
+    "veiculo": "G1",
+    "data": "2026-10-22T22:04:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYndlb0tHSDA2blp5R2FqXzJQak5nZE9wLVZGZWZ5emxEdVJZLVlNdDd0Y2RFYnp1UnA3RnNuMDdVWVptSlhOZ2dtMHpLSUtDUUpnNy1RY2gyVzQ3bkpNT20zMjJIUDFyMXJNVldEa2QtbFQzZFM0TGFvNHBoZndmQlBNUmlETWk5R1BjWW1FOUhJVGZyWlFGSU5RLTNJMG1ZUGI3dVlUYldvdHhWQ2Fla0YwYU5DX09ib1VRM3plR2ZFTkNSd3pYVW9BY09LZ9IB3AFBVV95cUxOU2dyS0hHU01ERWJDZmFKRUg0V0JIelZuYjNxeF9jZHAyUDUtUm5aeEtEMzRzMmR2QXowUGE4cml2Rml2TUdvWnRoZFhGc2xhWmt6bFFXQlJMQXVYU3N3TGZaeExUUWhWb1BtUVo0cUZJT3pCcXhmbFp5aVRKTTl3R0RtMF9JOXhIVEhSMjlZUXNTS3d5d1J0aURxWDVPVTA3Mk9wSDJiYU5FU2w1OVZMcXZObU5rdEM1WEI5R3dHQldVdzRwQ2xOdkhVd05wcGpKeW9sYXVmM2tPaUxp?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f9ce76680c51",
+    "titulo": "Live do Lula ao vivo: veja que horas começa e onde assistir agora",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T21:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQjV5N3J2T195Q3JENUgyRUs5bGpkSWQzNmczTDFYMFV3X1RDOFRuSnlZOE5QMlpmYm9oemJNQzRtUU4tREhUOFIzMWRkS3RlMm42YzNqTzdFZEJuTXR4LTdaYkxBaGhSUXVIV1kyeWphRVM5czVvZWhKTVB0V1hpeXFtNG9QekRsWEpWeXVDZ3JPWlRaQ1FFLUU5V1Jqc2NvQzhOTDF0X0RpR2Q0cnU2ZmVLMGp1b2NW?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:fb89718759a7",
+    "titulo": "Pesquisa hoje: quem está na frente no segundo turno entre Flávio e Lula para presidente",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T21:03:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNME5ZV3RyaEp4aVNXU2h4ZmkwcDAwZGszUkw2V21oUnF4WmdSQ0lIakFzY3JjTmxGRmEyQlJUMEhpb0Nfc0pyTThGRk5xMkZHVXkwSEtVMnlEckNzWURSOFFFTGVUSElpR3g1VDlDalBkcFZvUllYMk9CNjJYZGtLdDl5WndkQVR4a1BabUtQYTIzVE9hTjFZNUpuV3hyNjlKdHhYam9LSFNtSXRkRWg1dl93N1ZuWEkwek1BRGRoaTlrV09zRGMtTVZQRmo1bGhhNFZjbXZn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9d6f31f1d44d",
+    "titulo": "Pesquisa presidente 2026: veja os números recentes de Lula x Flávio no 2º turno",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T20:47:30.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYm9lNi1OdlRhVHBTZ0FPaUFvMUM4OXd0R1Z6d2gyRGY4QVBWYlVIUU4yaXhGYnlvUEVHdzl0c3FRWTlVTlZjSTN1b3B1bU10NTN2SnAxQnFIdE1IS3p0ZmFCSFZwb291bnVmVHR0Zl9OMEFqU0l3MmN4dGpYYTN0UjB1aXNJZlBkWVhISnVlanVTT3VOcFpMbVF5ZjNyRWFRZ1BWYVhzSlhIOVhpTlRUazlEQkV4c1F1QU9relFyMkJ1eURKSmNySFhB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:73fb9bf2cc42",
     "titulo": "Lula e Flávio Bolsonaro participam de lives no YouTube nesta quinta",
     "veiculo": "Agência Brasil",
     "data": "2026-10-22T19:59:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbmZnY3VmOGtpalctU2t2V1BBcFJFUTlqb20xaE5xNjhDdVR0ZzRFcnA5c2hIdVBkMjg2SUxSWWc1d3MwZ1dNWHBQbmZsdlhnckNXb3hHX0dEOTdRSTZrZ0pydDZwMENGLTVVM1JZSGREZmFVRWNjN0hrNHM2Y1JDc3E2NTdNemlBcDRCZFZuN1o5LUYwTE1TMEtJdjB4SUVCLUhrd1lXNW9jTEJZX0JuTGl3X1F1MWU0VnRRLWJKWDhqNTRsbzhaNmVoOFplT1U3S0hRaFJza3lfcG8wbmc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ade725f95467",
+    "titulo": "Globo divulga regras, checagem e horário do último debate entre Lula e Flávio Bolsonaro",
+    "veiculo": "BBC",
+    "data": "2026-10-22T19:49:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wWko4MWZlZ0FiU0NxZ1BMakZzVXlKZ2tFNFYtUndFSzdoeTdabkxtekVZeVdJRklUQ2dSQUpsT281VmdLdjNyNGVuazJqRWhCSlZzRzNhWW92dnhsSUVzd2tpZw?oc=5",
     "origem": "google-news"
   },
   {
@@ -16,6 +72,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:c6aa13a25074",
+    "titulo": "Pública assina carta ao presidente Lula em defesa do serviço público",
+    "veiculo": "Assetj",
+    "data": "2026-10-22T19:14:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUjRyR3A5SGdGcEJhSTlvNXNzMkpscW9GRmh3MTVHS1YzWVNhNWNxalhaQXV1TkpKam94WEVIUmEtamtmdVZIcnBEbFhVWnI4VTZPZ0ZJdFdaRzAtbzdJaXByLXA4b18wbnBZUDI0b0lTcDV3T3IwZVZpak5WOGhEMUktdVZQMWFhNFU5WjdibWxLWkdTT1F2RnVWVmJGRU91Ukx3NzNpaExPZkdlaXE3N1ROTGlqbDA0eVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:158d0c452582",
     "titulo": "‘Viramos’: pesquisa interna do PT aponta virada de Lula sobre Flávio Bolsonaro, diz Rafael Fonteles, governador do Piauí",
     "veiculo": "Brasil de Fato",
@@ -24,11 +88,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:21e796adedd7",
+    "titulo": "Campanha de Lula entra em acordo com a de Flávio para abrir sigilos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-22T19:03:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRWlmbG9rMTZyTkZ2YkVURndNMlR6UllYX3Nrb3c1OFBKdThFek1qOHpXNXZpWm9FdFFqSVZUdEhnNVFibEVJaFduWUcwLTROam9nak9HOU9qUHNjZ1FNRmJPN0dNeTBYbUdvcGMtTFEyZUxFMXVwYzBWdi1YYnoxcGJMZU00VnFFQ1ZpMDMzbnlwVm56emhoMHE1SU5tSkp4TkxieDIzdGhyRk9jQkhIMTREY0RmdEFFSjJ6QTBjd296MFBNbWpsZnlITVZoaFl1Q0gxWFdHYTVhdE0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:507950104385",
     "titulo": "Veja as regras do último debate entre Lula e Flávio Bolsonaro",
     "veiculo": "CartaCapital",
     "data": "2026-10-22T18:58:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcjB6dUl6LUhvMTJOVVVPTVNQSloxQXl3REp1QWN1RVE5TTNxNFpLdkNUSkFlRzU5WjNGZFUwblBCSEs4Mm1nRi1idjdYWTJGRU0tZ3JnQ3QySnVROG0xbWwzQmlOTU5scHczaHBUa0drRkp1aWxuVG9fUWV2Yi0zX002VUtIZ19XT1l2NERjLXhfUUVMaTBydUdYWUk0ZlpDQjVWdnJR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:168c2fdc4613",
+    "titulo": "Flávio disse ter patrimônio de R$ 8,18 milhões, e Lula, R$ 4,77 milhões; veja o que foi declarado",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T18:42:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQkdiYlRVODUtb0w1cXlZQk0wMy01c0UyWldIbThtVE1Ka1pBaXg3elhGeEJQX0kyaVdzaFFDTHBSZDl5cEhpVnhCWEJxUjdLRGVySGd2d1RfUkVzeDRKQy0tdUEtMUZpV3JEZzRTdlRzUnUwX0Z6d1FwVnE2SkRxaS1UZ2lJZzdQd0Fra2EzbzlNZHdGNWpwSnBJQ1hrWDBGaU1vNlVNUnB0a2FSU2tvZUt2OE1ybW9oX2FDMVRKak5BMXpqQ2N2WTlvRnpVUHZlVUdjWjJ1SQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -64,6 +144,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3c6d7718117f",
+    "titulo": "Campanhas de Lula e Flávio fecham acordo para abrir sigilos",
+    "veiculo": "Extra Classe",
+    "data": "2026-10-22T18:25:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGdTWlFJQmNwSVRMNTFiWVVJRFI3RlRyOHdFS1NmT3ZYVVBnekFzdjZHelcwZFcxSVZjOHBHY3VTbzJoNWNsQ2FCY3VPaVJKV3YxUm5wUlhKaXlYcDRJOHZfSXdtdUgtRDVpV2FlUFZXaVk2b0ZvajIwQ2NxcVJTMkYyRWptU3ozVWt1dUZUV0M4NEUwUzZTcXA1SGplMWVsdVRnVGxwQUozc2I4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e2aad5753e81",
     "titulo": "Quando será o dia e horário do debate da Globo entre Lula e Flávio Bolsonaro nas eleições 2026",
     "veiculo": "JOTA Info",
@@ -88,6 +176,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:6763b1bb7d99",
+    "titulo": "É falso áudio em que Lula reclama de entrevista de Roberta Luchsinger à CNN",
+    "veiculo": "Aos Fatos",
+    "data": "2026-10-22T17:33:14.000Z",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcHlPTWdRYjJETXMzNlkyakxmcmgxS0NUS1Y4Z2xzN3dpX0lTaUNRTFB4WVpKYkxoX1pDTUtwYkh1T3VPcUFBazgyVjBMa0RqZGNLaHZzb3pEa3BXQzFKb0xwVFk5cVlXYlBjMDZjRDNrQ2xOS1FjZVpPVC15SW8?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e5cc4bcc7f16",
     "titulo": "Condenado por PowerPoint falso contra Lula, Dallagnol é escolhido por Flávio Bolsonaro para analisar dados de sigilos do presidente",
     "veiculo": "Brasil de Fato",
@@ -109,6 +205,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-22T16:52:56.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORl9XUzYxRDdRTlZscTQ1V1VrLVZhdTlqZlZHY3QwSzBadVhvcnRMMXNnSmZyRlRyc0wwWHZQM25WVkVnODdDcjFyOWpvN0pzQ0l1QXg4LTFEMjZJdzdNWnMyZU96bEk0S3VMMUZkOWVyNXBhSGU2M0ZQd3U4ajh5S0ZHVjNGMHRjaERaczlfdmh4c3Q2RHRCNDRJNHB5VkFKQ0R5VXowMGRhdGVuaWdhRVprbk9RcU94WU10Ymh1SFFZaERVQTBta09DSkVZbExnSWRKYg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:710903dae0e4",
+    "titulo": "Campanhas de Lula e Flávio dizem ter chegado a acordo para abrir sigilos de candidatos, que dependem de decisão de Mendonça",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-22T16:36:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWXRseDg1Z09Da3ItTFBiMmotUUdvQWJPMWlZSTU4OWhsS2NRbnRFOXdhbm1rVlVGVUI5LWFMY3hqNlIzTjY0ckpVdTNUX0JVSDBRN0FxMGJORndvdW9DWmxpN080emUwZHZITGVxWU9hMVFTS2tISVM4MFJ3ZlpWeERscGVCSWhJM0VPRmdOSWFuQUZ0NHFSQlp1a2ZYQndWSldJT2IxN1BIRXZ1dC10TFZENVhvZnpIWVFHQU1FM0NYczJnb0JnbFgwcFVpQnZGNW81QmVwU1ROZXF1anc5VFY2NWpxQVVIZHBoTmhaS0xwVnNOTjEtTWpxU2NUVWg4UEZ1emZQeVEzNnlDQjlF0gGeAkFVX3lxTE9aX29HNmlDR2NzYng4RnBBZWJpUXVJbGFZdTB6aWhSVnEzdnp1Zm9sWkg3Y3ptVzhZR0JpTDk1VWdJOG16cThaOVhIZGNNeTJQZm92VTl5dkNqVG9zenE4MFJRbWNaSFNRakZuSElyX191UzdwUkNmQ29DSHlmcFVFekJ3WXVQaTRZTVc4b21XY05NTUR2UTlPS3lXcE5jdWFKVmM2TWZEZW45RjBoVGdmNUJUTHJfdWthZU9WZTZwWkdSOEVyOFBxZl9yejRQbXJzSHNwLUVodjR4NGlsdWxlalhKYWdkYXpPNDl5cUYzMm1Ba2pVV0tlQTg1SG14LWNqV3VaZlBDalMtbnpNaHdBN0hQN2g5OXVSNXRsN3c?oc=5",
     "origem": "google-news"
   },
   {
@@ -152,11 +256,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:057da8766cf2",
+    "titulo": "Lula e Flávio Bolsonaro autorizam quebra de sigilo bancário e telefônico até fim desta quinta-feira (22)",
+    "veiculo": "CBN",
+    "data": "2026-10-22T15:50:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPQW5FV2UweVhRNE9ycWFoSHl0SlloTDFmeGJTb1cwNXVIM3ZHN2ltSndrSVRfMjdvNDdQMEIwY3lLSTNNQ1pkSGxiUEFMRzVtUEdqTzhJbXRoX0hqSE5aZ2VZT3FOUmJkTGdZd2dJbzduWWNFdmZ0elh5UHZHcEd1RmVKZnFBTW1SaWZ2WWJ1ay1zNkNxVVVYRjM1bDAxakRWQnMydGVZQmU4ektHTnQwUjRmUVdBNFhsd0hiUWM5TXpRa3h2dUNCX05VWnVLeHhxVmN6UGRxX01fUDVTdEJ6RGV2Q1JMVlN4dkxDOFktMkd4Ymc4bGd5TVd1dFhfSG9RRnFyV9IBkwJBVV95cUxPNlpJcU9QQlZlbU5Xbl9ZQU5zUi1ybS1ZanJSdnZ3OFRVTEhnYnFEUFNZRmh5ZXhncUR4OVJXVms3eWRmVTl1ZTVrU2J4ZU5EaW1YNGUzZEN3N2NQTnV5SnZydEZ4MzVLSmR6WUsyamU0NGNMNDQ4NjI0cVhWU2YtMGpVYWQyUFlWS3JmX0E2bEp4VWFRNkluaEpHLWNNakN5aFF4UFJjQTJJaU94Wko3RDVfU1BBSEVUYzZjYURsTF9YdGNvdncyVm5ibzJHM2RYc01NNG9JQzN4VmYzNVhERUxxc3gtY1FPRXBSOWRUZkJfeWhDM3BhbFhXRWVuNlV5OUg2NVBjSERtd0VKWG5Jd1dsTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6c5f8c195da4",
     "titulo": "Pesquisa presidente 2026 segundo turno: veja Lula e Flávio nos institutos",
     "veiculo": "UOL Notícias",
     "data": "2026-10-22T15:45:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTGpTcVN2dW1QTlhUcE5oN3hOWEFVR0NuSnNQNnFPUFZ5VURRamRNQlVvUlZwOFZQdFphdXJpenlkemg2c2VEbm1rZm1sNlppQjFITEFIcm4tM29YQmVlWmRkTVpubmMwOFQ2Zk8tQ3NxbTFhSjM0QXNiZ0x6ODVMTl9IckVEQlRMTGgzb1FXeFlaUEtTNzA0UUxTUmJzZzRoVGY4aVZKcVFfakJDZG42VFVvRlRGZ0VndW94OWp0V2lJaEk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:05de2d413208",
+    "titulo": "Como será o decisivo debate entre Lula e Flávio Bolsonaro na Globo",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T15:34:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlVIcFpSX3l0QmRWT0xSYkI5cGZpZWNOVlpyWm1GMUxxc3ZOMGlTWDVuNEI0cHZ2MTAzSFM3VE1xM2tvV1RJQmV3U2xHNDR3WTFBdWpiZ3ViR1FfczFjMGhPNlJfZk9rVEJVdkthQkhvZFZPREJYektRdkpvY1dXZjN5Qzg1X1JEay1zWWxhQjlPWmNvMFNsdzJvQWJFTVo5MzZ4bg?oc=5",
     "origem": "google-news"
   },
   {
@@ -197,6 +317,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-22T15:11:04.000Z",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTzd2OWJ4d2pkVi1tWHFoQUtFODBieTI4d181MHloX3hSd052N1NET0xxVElLVWZ5aS1nZi1UMVZhYlpUVTBESFJTVGMyVDAxSjZaOXNfUnRYR1kwTndWV0ctenBDSzd3SDhLX0d5WTR2WUQ2UWFQU0pxNGNudHlqOTVueDZFRlU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6cfa3f072e55",
+    "titulo": "Lula diz ao TSE que não se opõe a liberar sigilos, mas insiste em dados de empresa de amigo de Flávio",
+    "veiculo": "G1",
+    "data": "2026-10-22T14:52:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbDFqRDNveU40LWJIS2podEppZmJKdEVBQUtyaElsLXczWTRuWDdUYjVCYzlYdnpxbmNKdmNadzN3d0N5ZHJYSC1BWUttQ1hQZHc3ZFlUVXA0ZUp4MXBta21UMkhyXy1CTXpZbXBqei0tSTR2Mm8walJxaWZDaV8tejg1NzhrVHRZb1dsNmk5ZXJoOE1yNFlubWViNDVkU2t1S09yQlVrd2NINDZTUXprcFczRlBQcGdZZWZCQjdvOG9mbnQ5aWRpMzdCa09qaEplYXZoTUpwYmNQQmlzazBVUl9ZU0hKcVBncTNONHQ0WFhzNXcyQkFBdjRaLUFoUdIBjAJBVV95cUxQMUxkMEljaDZnX3BYa2hPY0NKSDBuRk94X1B4MmVNZmFXdVlWWnZobUZOdkI0V2s5bHpRbTFwVzY2YklRdjA3NngwU0RDM3RLQ2xRMFliSnJzeDB0ZjVudkg4alE2eUlpcFNMYVBHWEV1OWpPbFk1OGxCODVhVGE4VVhBWG1SZVNXaHhZSWltOXUzZFBnd1U0T3lTT2pqbFpLWGhCYzdzSE5CR1N5blhJWlJZU3JKOWh2VDdMLXpkeEpDQjc0UkFYTGFvcTNCRjhLXzh0UXcweWlOM3dDZ2l3TkotWVhYaUZWaktQak1hdFpsd01ObThYUUFhNVYwXy1UTl9MNlV0QlY1Ym0x?oc=5",
     "origem": "google-news"
   },
   {
@@ -245,6 +373,14 @@
     "veiculo": "CartaCapital",
     "data": "2026-10-22T13:24:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ1NSWVU0aHRfUmxNSTRJdG4xcEJ2NXZTRkN1VGN1OEF5b0hfZjZpdWh4cGt1M1Z3WS1PZzBWUnBnSjhNUWZOVGdoVjN0MWpyajNqcURyWDc2ZU9WTXdQMFZKTWp2UUJydF9WeWcxZktKOUE2ellvb2RMSGZoR1dPQXJXa1dENlVKR2JCYUZSbFdLVDRNYnFzLV9PN3NqQjBCeVozYUpsZ21sUEcyM2UwUw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6351bc030330",
+    "titulo": "Flávio Bolsonaro promete avanço na educação em temas que Jair esvaziou; Lula quer mais bolsas",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-22T13:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNnpwUFNWODNUUDAxalEza0Nfd3kydmdON2hZRklJZzkzQVJOa3B3VjBHU0ZXZy1QOHpGVVZBVmVjY0NMWF9pRW01YzJpNjhucmVpNjBPTW54ajRhZ2JFeGxRTkRfOVlHeldIYzRKOVpLblRwTkl6eDVaTTVnTkhnSmdsT2VSZS1xTC1hRmlZZks2THZScnZncGgyRzhDUnU0VTlTZlNFVWNFVFNEOXlBLS1Mb18zYW5PYnhodTJTRGlpWjgydDhLdkI5UHF3SzhkdWJaWVk3aUZjTGdQemc?oc=5",
     "origem": "google-news"
   },
   {
@@ -336,6 +472,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:d7b1362b2a82",
+    "titulo": "A nova pesquisa PoderData sobre a disputa Flávio x Lula a três dias do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T10:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX1FVRlVZQUxUS09xMXg0Mk1ydWhOTGxoTjhiN09Zbi1ORjhVVmZjdXFHM3I4czlMejIxdzZXVmxXdUFXT29MRzlzTnQwUDBPSmRKTXZKMnhSa2JaUHVHU3hpN2FMcFptREk3UTlaRmxxS2RicXJBeVNTQVB3WndiM1g0QTB3b2NyZHpNUURiXy15SlZQZTlPNDBJX2laMng2dUs3Rmw3d2hsMjl4R3Q0YUtJaFZkQkdxZkNIMA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b9e0c022174c",
     "titulo": "PoderData/AYA: Lula é desaprovado por 49%; aprovação é de 46%",
     "veiculo": "CNN Brasil",
@@ -405,6 +549,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-22T06:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSVFoQUxxSjBUcTNndE1lQkE5LVZwQ1Z3WVd4T2cwWXRWR0l0dFdnOHFUODgxbTJpSnIxT2xwSWUzT19sM0FDRk5xVThjbExtWHFRanE1WVQ4Q1JDX3IwU1Q4VkJDakJIVHV4ZUJwT3U2bS1MaVRMeXdlTDFwcFlHV1M1UldFWWNiUVkxYjBZeWZPZUVyOHNDeVZSaHFvTXotM0ZiSHg2NEdlZGxIeHhCLXhvSGpjUy1KT3F4XzFlNTIyTW44OHVGeU1SUDRqRHdnMGM4OG1NV3p3QVBWcVJ4VDg2Y2ZHTmFoSFE2YlYwU1Njb0F1QVRj0gGGAkFVX3lxTE03Q29YZXlxRFhiczFZV0tScHJVR3JqM3FYbzJTdHkwdUtYVlRrNTFjUzNNS21OZDFldzZralYzaC14c2dkN2RHeHA2dUI4TnBvWDRZMXU1NzVqLWk5LXc3YjBONXZTLVVqZldxVHBBdTRjZ0tjRHlCZGhxeGZ6ZTI4NkZZNHZGd1M2dkc4aGNvQi1WWEtJYTdLbGlybUMtLU04TXNZeUVQUHlNWmlHME9WQ3lsa2tvWDd4cExqU3NFNW9JaVJRY2hZV2ppbXNZQmFaN05qUk4xT0FHSFhOcThzTHA4T3otYk9RakVJS2g4eXBnbWctaWxESHFTY0cwb003SV9FSGc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:33d6ad2d75a1",
+    "titulo": "Qual o futuro dos concursos públicos? Veja o que propõem Lula e Flávio Bolsonaro",
+    "veiculo": "G1",
+    "data": "2026-10-22T06:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaE1FdVJYajJ6YWd5QU9uQXppTkloUkVud3FnZUVpZ2JROVlRa0NxT3BUZk1QN2M5MTJ0Ti1uU0pxcFRZTy00T3ExTm1TRkgzcXMtTG1zczlJZ2YxZlBJdEo3dkE4Zm1aWUNHZzlLLXViRDRIcWZRRlFOSGZybU95V0NjaEFDM0N6YmxFcVNrV2RMTDRIajN3X1BSSEVoSGgtRHZXbF9kalFZUndXZFZaU0VaTEN6cU5yRTRuMF9memRhLUp2NWtJOWhNZDlPeFN2NWZiNXN2aVNYblI4LUxmQWtveHJNX3NmdFdZ0gH6AUFVX3lxTE5DTnVGSUdWN184U19wakRIdE5qY2hmbXNybFoyQ1p3aVhvSlJqamlTQURSUGZQa19ZdWdxWEJEeTZCZTM4SGdES3o1czVRVDlzOXFPOEpHZmxJcFBlRnhyNm1Od216TnBOZHZpMGNMd3c1bWhwOXRzTXNGVGFPbnBlNUktSGxnNlJlS2N4YmpvQjdqX1ZBMnRSU20wTjlfXzZIbFQ3VFA3dUFCLV9vbG4xNnlkOE9fTlRVdU9KcU1rMzVWMGlPS1NWc1lYYTZPQjNXY2EtZ2Fhc1FZUkgtRm1QbjBXVko0VElQNU5mMk11b3NaVHZJWEtyZ3c?oc=5",
     "origem": "google-news"
   },
   {
@@ -1405,6 +1557,14 @@
     "veiculo": "Estadão",
     "data": "2026-10-21T08:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWnZhM0JQR0wzalp3WTJGT1VSUThWcmNsTTlGSnFya29HRjVnOTRIYmJpV3NIRDIxc2t1TnUyOWNfekhEUWhIWGdqT0k2NWEwTkoweGh0cU5SazFaR3dfTVI2a3RsWjByVTJCSTRQMmotQ2ZHczRTaElaSktuLUJJeS1pUWxQTERVRy1yUEpsT0I0U0xlRDcxY1UtRUNVUkx3YXJXUGxiVHFtd25OVXdrNkVEOGtJcHpLZENhaHZCZV96cUlPOUp3TnpwVUpRa01lTlhiRk1iOVd2R2Z2SEEtS0tab1hialHSAewBQVVfeXFMTUhaSVM4NEoyeEtkeEdkRGtxZmVoc09KWlJsT01nQXZ3YXE3UjlmOWVPSlRwWUZVeDlKSWRwXzgySUtBYUYtWnhZdnZfVnRLZndPQ1dIalcwLWZ0UUdkWkZ5U09sbFBXR2l6cFBiNlk3WjBna1Q5MjhaNjNqbWZuamdUSU0xaHAzaGJQWFVtQ1VaLW53Vkg5aEZRWm5JZEZFOEN3bThqOU1raVo5THFTSmN0aU9JNE45dE1KYmxGY1l0b2xnbWFjVkdCMVZjUFFYT25HaTVaMnBtdUdRbzRJUW5tLU44emV5NkFPbVA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:21fbbc06884b",
+    "titulo": "Campanha de Lula apresenta ao TSE documentos para abrir sigilos",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHR0V1VBUkxCdGNlaG5RdHk5djNlLUJWUFBmc25WY0xsMlV4RENzM0hoYUw2YTg5Zk15UWJsSmlGMWtCX002SXVHRHpXakp1aVRMZG9DazdUZjNKdUF1WUs0SF9aQ3FvdDN1YjQ3SzFpdnNzRG9ORmZSVm5uWkNPUzFISmNKQ180TU13MjhUV05VX3JuUlRnUlZSODJZaW1ZM0ppdzVmMEhhUWsyX0w2ZkdQbw?oc=5",
     "origem": "google-news"
   },
   {
