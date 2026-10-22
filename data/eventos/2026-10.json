@@ -594,7 +594,7 @@
     "hora": "11:00",
     "titulo": "Sanção do PLP nº 186/2026 (limites do MEI e remissão de créditos da União) e envio de PEC sobre tarifa zero no transporte coletivo aos fins de semana e feriados",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
