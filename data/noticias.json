@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:3cd53390f7dd",
+    "titulo": "Campanhas de Lula e Flávio fecham acordo para abrir sigilos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-22T18:33:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanhas-de-lula-e-flavio-fecham-acordo-para-abrir-sigilos",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:26644b13c66e",
     "titulo": "Acordo assinado por campanhas de Lula e Flávio Bolsonaro prevê divulgação simultânea de sigilos pelo TSE",
     "veiculo": "Brasil de Fato",
@@ -80,6 +88,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:216261326da0",
+    "titulo": "'Pêndulo' eleitoral, MG espelha divisão entre direita e esquerda na corrida para Presidência e pode ser decisivo para 2º turno",
+    "veiculo": "G1",
+    "data": "2026-10-22T15:28:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTEZrV0pGSHhRUUVfV181aFdMSUVvS2VXM2daM0lTa2xfNVotZ0dvUmtKSnpZR1JCbHkzNkFKUmNLVzczM2NLMzJzaHpoRWQ5TzRQS0YyUEV2UlZnNzBSM3BMTFZjQmZ6Y3RTTDNBZzBZREhSSXl4cVdHQ3J4SUFyRi1YSlFabllxS0FPM04xdFhWSThTcTh6bUFLNEV5SjFtM3p3ckR3YmNDQnlZcVlpTDFOcjQtRnU3T0I2SHhreVVLdjAwY2xOeUl2YnA0bkpGbWJZWkctT0dYd1BiWTRTU0t0VTBkX2Z5T3MwdVROX0Vwc3p2MG11ZVFLQnpQX1VxUml1SVBZZ3BJSTcyMXNKOXJWMjZUeDjSAaYCQVVfeXFMT2hOZWFQem9JS2pDaEVaVTlHRmZrWjA2S0pJNVZNUDJuZ2NrZWduWWdnMGRNcEVyOVE4aHhBRHYyc0pjRkVSYU5heUlqQ1dKVUFBanptVWRvcmE1U1JCeWZKV0pRLXZFY2E5WUV2UnMyYjFTVDZJb2ZlSVB4UHNlTVBRX1V5YkRKUFpaSnJ4RHp3b25vMTZ3allpNXU2UjNmNjdfLXBNM21QWXZ2dlJjYmFnalgtM0Z0MmNBd1hXR20yZnM4QkxxRlV3amdUOTREYTFtUGRQay13NE9Da1dOS2FrcXBUYWEzUlZCUmd1T0c2TTZVclNYRGtmak1VNkpoQkg2M0J5aW5EMWFhODdQM1FIaHB5TEtSXzhGU1V5T3lseXQyVGd3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4cdb6cbfd4ec",
     "titulo": "Campanha de Lula entrega documentos autorizando a abertura do sigilo; Flávio, não",
     "veiculo": "CartaCapital",
@@ -93,6 +109,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-22T15:23:31.000Z",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZEhPT0Vja0hqbDRGR04wdlYzcDVFb0VPS1RHbTF3R29BdnpyQno3bHJLQmNrQmowLW5ObkJ1RDhvLUhRQllPYm10M2ZUQmdJemItaVd3VnE5eURZV3dDQU5wdGRTNTllWkk2dVpmblgxdDA3TWQzNUx5MmUyT21iQnhjLUJLQTZnVDlHVEtoZHVFMDlLRi04YzVtOGpYc2xDNEUxbEhxVHVIY1JCYnpuaXZ6VWlVVVJPMHM1WXpqTnUyNXdvaU41ZnFn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f393e0bad39e",
+    "titulo": "No TSE, campanhas de Flávio e Lula têm acordo sobre sigilos após jogo de empurra",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T15:11:04.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTzd2OWJ4d2pkVi1tWHFoQUtFODBieTI4d181MHloX3hSd052N1NET0xxVElLVWZ5aS1nZi1UMVZhYlpUVTBESFJTVGMyVDAxSjZaOXNfUnRYR1kwTndWV0ctenBDSzd3SDhLX0d5WTR2WUQ2UWFQU0pxNGNudHlqOTVueDZFRlU?oc=5",
     "origem": "google-news"
   },
   {
@@ -285,6 +309,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-22T06:30:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQc2dIVGJnTGEyVWEtbFE4NVd2aF9MZ19zUmhLNXM2VmV1RmVsZ1lLWmEzUWJJeUxRY191T1ZyUEw1djlhUUZ2bDZmMjFJdG1BdVliTGE5VkZtR2FyQk5TQ0w2dTl0VXM5TmZiRHhEQ2lCNXdGSDRET3djZTZMODh2Z25ONjlwQkU2TVZkRW9ZYWx5cGt4bnVpVnppeVAya21nczZrQWJKV0dtVERQTmdoclZPblk1MlhqNWpjY2hFM2NjZVcyclpvQmtqVU9KbDM1OEpaTHMyQjMwbzdMc0hkRnNrN1E4bDdYcGxIMktPVnBUSjdNQWdBeFdjOTgtbXBjSWZuVHA4SmdKZ25WSjkxNjlVQ0RfdEXSAaYCQVVfeXFMTlpzaU5Sb19zYmkxVUJzdi1IWGtZQVdKUnp3TUNlVWttNWZtRnJGdEV5WHVMUWxGNkJiajNJZjVEMGpSY18tbHNCNTVkMnc2cVFRbGpiR0tDUUlMM1hTelFmY3BKWkd5bkZ1MEczRTBhWDZ6S1JWYm5rbXFxVUVjMnQ3Nm56X1JnOS1MQ0NUNmVHUjNwQ1RuSE9Ba214clJhX3hoNkVFMG9YdlpoUzBxLVVFRllJdDlNR2dVeHlmWFljYVB4cGtENXhRVUo5Yjlkc3lPdm5qNlk1VHYzRDc3eFhycGNiSmZmTXV4el90TVNRVjQzeTlVNEQzb2JwN2FDbkJpZ01Zd0UycXljcVpoenRxUm1XMHktUUlNV3pNdFdhQ3F5RWpB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:79178f730adf",
+    "titulo": "Rejeição a Flávio, medo do retorno dos Bolsonaro, aprovação do governo: os sinais positivos para Lula na Quaest",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-22T06:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSVFoQUxxSjBUcTNndE1lQkE5LVZwQ1Z3WVd4T2cwWXRWR0l0dFdnOHFUODgxbTJpSnIxT2xwSWUzT19sM0FDRk5xVThjbExtWHFRanE1WVQ4Q1JDX3IwU1Q4VkJDakJIVHV4ZUJwT3U2bS1MaVRMeXdlTDFwcFlHV1M1UldFWWNiUVkxYjBZeWZPZUVyOHNDeVZSaHFvTXotM0ZiSHg2NEdlZGxIeHhCLXhvSGpjUy1KT3F4XzFlNTIyTW44OHVGeU1SUDRqRHdnMGM4OG1NV3p3QVBWcVJ4VDg2Y2ZHTmFoSFE2YlYwU1Njb0F1QVRj0gGGAkFVX3lxTE03Q29YZXlxRFhiczFZV0tScHJVR3JqM3FYbzJTdHkwdUtYVlRrNTFjUzNNS21OZDFldzZralYzaC14c2dkN2RHeHA2dUI4TnBvWDRZMXU1NzVqLWk5LXc3YjBONXZTLVVqZldxVHBBdTRjZ0tjRHlCZGhxeGZ6ZTI4NkZZNHZGd1M2dkc4aGNvQi1WWEtJYTdLbGlybUMtLU04TXNZeUVQUHlNWmlHME9WQ3lsa2tvWDd4cExqU3NFNW9JaVJRY2hZV2ppbXNZQmFaN05qUk4xT0FHSFhOcThzTHA4T3otYk9RakVJS2g4eXBnbWctaWxESHFTY0cwb003SV9FSGc?oc=5",
     "origem": "google-news"
   },
   {
