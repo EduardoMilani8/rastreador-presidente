@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:94f66b273dc5",
+    "titulo": "Vox Brasil volta a apontar Lula à frente de Flávio Bolsonaro no 2º turno",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-23T03:01:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaW1KMFgxVnBpTzJRcmo1V2tXRktuZWJIWTFjUkxzdDdvTjA2SHpkQnBHUlhTNnB1VDQ3UFU1SWRDcWU4WklORDctWFp4SUd3Y1BIOG5POHp5SW1KN1F2bVhJZUZtbXk2aFptUnNOX09qOXo3M1YyWDJ5S01rb3Blc0NFSGhETzZDa3lfMFBJY0dsWWxqbWpmSzZSdlY2TnBiMmJQYXAwWQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b2fcc1cf6c2d",
     "titulo": "Lula tem 50,6% dos votos válidos contra 49,4% de Flávio Bolsonaro, diz pesquisa Vox Brasil",
     "veiculo": "JOTA Info",
@@ -32,6 +40,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:5022f3723091",
+    "titulo": "O que acontece se Flávio Bolsonaro e Lula empatarem nas urnas, no 2º turno?",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-23T02:22:02.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXZWODFIZVYwUV9pcEVibWhuTkJOXzZiRFFwZnNPMDNqbEtVN1BOdFhDRVJ3ZkhVMTBiMzltdlZYZmJiZGhqX0l5dTAyQlphQzVVdzYwZzdUNWFWS01fanpmaFRJZk1tdWhXWWZZaTlnOWJWcThMQ0hud19FTU9QYk5zV05mVmFqaC15S1NvT1JHR0xYOVk0OUxwUWhfS0RzX1RGTw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:66330df9d9a8",
     "titulo": "Apoiadores do presidente Lula, candidato à reeleição pelo PT, vão para as ruas",
     "veiculo": "G1",
@@ -48,11 +64,27 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:9d3e9da337ff",
+    "titulo": "Datafolha: Veja intenção de voto em Lula e Flávio Bolsonaro por gênero, idade, renda e religião",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-23T01:02:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVHJRY0JXRFRJbkZ6ZVdRMmhmYlA3VTZuNXRCNlJJQ0p6ZHJDaEdhNG1scWRRZzJZSUxmdEUwbWhHM3hGZ2lmSmFOYnVzWmJXbWdQLWRONjRmbzA0R3pSbDljVi1FU3I5cFhQSE9IODhEd1JvOTJ6U2FNUzdoVmVtaGloVi1MVTM5QjhBMXpNc3pKalpsNWtoOHRMbHU3eWdhSUs1eHBiMXZ0TGY2X0ZuR1N2N0hpRjNZUHY3YjB6X3h0ZGVWNlNBTFgxYmRaY0VqVlowSFJKTlF4Zw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e867c1b4f68c",
     "titulo": "Datafolha divulga nova pesquisa do 2º turno da eleição presidencial; veja números",
     "veiculo": "G1",
     "data": "2026-10-23T00:22:17.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZ1RBWjgtemd3dzNOUENBREVLQ1ZyclhVWFBOdjd3VHp2OUQ0RmttbWtKeUlvWGsxNzdRb0o1dXFYWC1HRE5ZaVVQMWxLNUtnV09FdzBvbTBTUUlSSFdxRVp4NkxXVUZDNEFxTkJFMzZyTUhpOUlxLU1vbWFOT25yVVZWWDlVRGFEMEIyd1RnWERJOVB6cFpSRVpqZ3NZbUs3ZnUyWXNfNHFaMURnRVBsMHN3UDdZd0VTVTFaX1owT0xmVlNLY3BLSjVEeVM4OWZscmFNbElQRlU0Z9IB6AFBVV95cUxOZURCcXNKN28xYVI2Y1M1NVRFSm0zU1JZcE8yMTBDaU1RRHU2WWY3NUhnZTM5RzlDVHJWYTNvTl9YY0c2cVZqZTk5eTQtWTc4QTM3UWc3UU5lUjJNMVI3UDlXb2ZCS3g5bGNsMVpOV183azYtYnFFQ2ZIaHlxNzNfRkdDWDVObEJHa2V3NHQyQko1Tm8tcE43VW92N0tveGIwYm9sSlVNR0ZoRUFaWVRzd201cWJ1eFEwSHN1OWktd3REc2tzUTFUSWhCdFZ4WFpHS3ZCTjVXRWxkVmRSM05pSERWV3JhdUlE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:93659ec988a3",
+    "titulo": "Campanha de Lula pede que TSE execute acordo de quebra de sigilo com Flávio Bolsonaro como um intermediador imparcial",
+    "veiculo": "G1",
+    "data": "2026-10-23T00:21:28.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQaHMtejNDRkRUYXVpc0stTUNIa3ZqbnBuVkRzUEdWa2sxODd1VmVmV2RZNXBmV0dFaVRLV0JxNnNCMTU1TFh5dWxCSTlvZDdWX205azNnMUhzWkRHb0pvYWtHNHZGME4yLWZHQWRyTVV3RFhocVlHSERhcDYyZ0dpTWNUa0VkSFhNSHo0Z2ZoZ0hiVDJjNlNjWlhfc194dmFKendOTDA1Sm45NkpmZV92WVFKN2V0T1d1RDJ1TW5ZSlJ5N2dDTkpYbmdlT2cxcTdud0lsN1lFenJuZW13V2o1UTJVWDFfMm5xa0JzZFF0U2U0Umg3TWNnQjU5NkUxUDUxQU4xRC1lWdIBlgJBVV95cUxPWmJaMVpkTWFvQV9jd1BrY0tnVVhEWmxrS2h6MHlmaWFBZEQ1TklMTURTQlVTQjZGWjkxWmRwUzRydFVxd2VyVDhORnR0QllKd1ZJX25sN3pycnVieFFfbmNZY1B5TjZLbmNIUDY1OWpQekVZU29JYlRKdjFDME1KX3pka25zVUZ1T0RRUVI5YmNQLVpfRmc3TmhaWGVJQlNHY1g4djNNVHVzQkJQdnNtd3lXX2QtRWg4YnRjbzlIam9iLXA2Z2FOM2FvelhHQUpsdkdJM3NxakpWYUk4Mmh0M1h3MVR6UzdlT0w5YkxPTEhmYW54UmdhTWJEd1BwZVhxTzNHci1sTDBuN0d0cXJyTXRyZjh3QQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -77,6 +109,14 @@
     "veiculo": "G1",
     "data": "2026-10-23T00:00:23.000Z",
     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZUtlY09zbFBjdmZ4S0J6eUx6cWh1MkQ3UnFSSU1PUWFEanpSTE1qNE9mcTJjTEM0WGlJZGZxQzUzTnhlWUFrY19PMkdkWmJPRWNCeFlJT080ZnRoYW9lWUQtTndhbkNLYU1ibGVIYm9rb2QxOGJmNXlYRVRDelRDdUVYdlNwbHFkRkY2eXAwRi1ZLW53a05rNkE5RzJCdDR1aEZHNDZ2R0lZeWNIby1hYXBUeTdUQVZ6X0xtM2lYdk05MGdvdldwRDlHZkhiRFljTUhyX01IeWN0R1d2cmFlSVBTdExqWFlKdW10eVJVUWxUaVdUeHRzcGk4SzFjSGIyZ1V3MEtR0gGUAkFVX3lxTFBnTkhhcTBVeW1oQTBCaXF0TzN1NDAtYTMwN01hTFNTQ19ab0plaVRMNWdqS29KbHM0d1pYY2UweVludTlYQTdSQmdMS3FuU2dpUHhacE5wMWhxOWtfb0gzY0U2bElUR09DR09JUDJjTnl4ZXhkaHRiblQ2SVNqdXlzTGRycGxSa1BEckhWUWxISkhlZWd1d3cwdFlka2VWUHRtRm4wMWtEX1RPNkVLaUFXY2dBRm9qNUJiekg5NzZEWjBzaE1XLVJNUWxGSTNtN3Nmb2lhTkIzN3JuaEpTYklYYkJ5N2ZKZVRsYmluMzNnZjA1Z24ySjluNENhNHA4U3l4a2N1V192VkF4Y0J3Z3NkOEs1Rw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:77930e4fdf92",
+    "titulo": "Nova pesquisa Datafolha presidente segundo turno 2026: veja números de Lula e Flávio",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T23:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYmU0RWlEd3FKbElSc3Q2NEtGOG4teGJ0RHRZSHg0SWd0RE8tV1NzazRUQ2pJMzJQNHNSM2ZqNHlpczBBUlNPc1Nld0RCMlZFUXlhQU5rNXBaR3cxeGpoV2t4WnQwYlhoSGVvZDBwYzhzbzBvTW1xYmhJZlFnRl9tcnA5WDdjMXEtMWFZZDlSMjlTVWVLN0RBZ3BJT29jQURHSnRXYXdRSExLbTlNdzRweDktZEppeTNYZ3E2Q2tNcGdpVEZjVXpIM1ZmajFuaTZjYUE?oc=5",
     "origem": "google-news"
   },
   {
