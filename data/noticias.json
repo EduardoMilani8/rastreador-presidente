@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:25221197cab3",
+    "titulo": "Lula participa de live do “exército” e estimula ida de idosos às urnas",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-23T01:02:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-participa-de-live-do-exercito-e-estimula-ida-de-idosos-urnas",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:9b1668d72340",
     "titulo": "Flávio Bolsonaro e Lula estão empatados com 50% dos votos válidos cada um, diz Datafolha",
     "veiculo": "JOTA Info",
@@ -1637,6 +1645,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-10-21T07:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZHR0V1VBUkxCdGNlaG5RdHk5djNlLUJWUFBmc25WY0xsMlV4RENzM0hoYUw2YTg5Zk15UWJsSmlGMWtCX002SXVHRHpXakp1aVRMZG9DazdUZjNKdUF1WUs0SF9aQ3FvdDN1YjQ3SzFpdnNzRG9ORmZSVm5uWkNPUzFISmNKQ180TU13MjhUV05VX3JuUlRnUlZSODJZaW1ZM0ppdzVmMEhhUWsyX0w2ZkdQbw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2cacd17c0ba9",
+    "titulo": "Datafolha: Flávio Bolsonaro e Lula aparecem empatados com 50%",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-21T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbkczZzBjeUdCYVFUZ0syUjlfY3VLUEZ1U1FZaS1KQmp0NWQyX1hVVGY3bVdDUFo5aFB3b2psci1wMW1SVkFDWHpzNUkxNkM4UHVHUnRiSUxmTGxocUZHWllqZk02d1dwdUc5cHJTcmZCdDRxWHRsLXFFcjExLURMbkRhdUU4Q0dnODFiMTdjOEVBTHhHRjRVX0cyb1ZSR19xOEdYWmlaVjNpMEtZMHc?oc=5",
     "origem": "google-news"
   },
   {
