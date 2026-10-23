@@ -1,11 +1,67 @@
 [
   {
+    "id": "google-news:66330df9d9a8",
+    "titulo": "Apoiadores do presidente Lula, candidato à reeleição pelo PT, vão para as ruas",
+    "veiculo": "G1",
+    "data": "2026-10-23T01:23:29.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNkZGZ1pyUGdjS0I4MnZPSFM2cjVBOW9VdVJPWl84NXdHckNjNTZvbWVwcHpIMVNsbUtET051SF9VVVZ1Nktka0lMV1d1YnBwSnRuZ2t5ZXIzNmVzQ2RkSUxvN1lpbHhnZGlHSTR5azhBeXBHQXFRWmVUS2JFODllZy1md2lIb0lOMW5vdHJyUDVjVlo3R3Mya3V4dVFkT2xNcFZoSDJPdzFmZWh6QXgyRXBSU1pfVDhMLUQxMGJSdHFMWWhkY0pYUnlOZlVmVzdyTi16cdIB4wFBVV95cUxPeWlUS3l3YktiQTBWR0RRdDl0SHNFYTRvTlRSWElyUWdNb3l4aTZzYkFBTk0zdElDYkxJWlY3Rm1xQThoa2pnaDJpS2w0MkZOOFlMWC1PRHRrX2Vpb0pvUlA0bkNpcnlkb3NrcEJRNEJ4c2VpRTh0N3VjQkdLd3FPMVVXME90aE1lQjR6bWJIYVg2WU1HMm9HSHIzb1JybGRYQXhjeWxlLTJrT0JUeFA5dWhDTk1HS2owZjZNTmFNcGR6M0xUUHpldE40Yk9FbEdXMEpQbEg4MTJncG5ET3ZNNlhKQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:25221197cab3",
     "titulo": "Lula participa de live do “exército” e estimula ida de idosos às urnas",
     "veiculo": "Agência Brasil",
     "data": "2026-10-23T01:02:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-participa-de-live-do-exercito-e-estimula-ida-de-idosos-urnas",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f3c8bdb797d8",
+    "titulo": "Live de Lula tem 'urgente' de Janones, celebração de Datafolha, críticas a Flávio e participação de artistas",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-23T00:17:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNTFqSFV4Vy1CbkxzcVVtd01lcXFGeVdCaDZZYm9NNDdsMVEtMlZaTEtoaVlVZk5TclpmM1Q4ajY5UTAyQ1NlY0kza3FHZkNtZlVJQVJjaFJsS0pfZEd6TmVneVI1NVRPdFpHZjF3Wkh4TWFXcmdac1lqaUFyRFMyQXpVVXBIOTE3QWRiTjVPNHNlRWxIVHA5cFJ1QVRmWXRvb2tkckJrMGFEbWEwTDQ4QTYza0xEanlnOGlyaXJOb3RLSWE3V3VSZWxqcU9KNzlCbGlkX2VhMjF3T0RUc2xJWE9McUV1SDVKUXc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c85cbb6ae755",
+    "titulo": "Em live de Janones com Lula, Jão e Marieta Severo convocam jovens e idosos para o vira-voto",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-23T00:16:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVU9laUJQOXMya0YxRGpieXRWdlFtM2stcHVnLXZxUElBMjIyTm9PSnpCalpsMi1NZ3FpY3hzREFWeUZWUHV4a2RCRU1Xa193U0lhMnVzZ3JyR0xKcUR5VGNtYVVWNFdEaWp5bUcxS05CQ25iaXppSUlLWG5ydnp3djRvNldGUUpUX0NjbHRpaE1Pc2xDWW1ncVpnQmQ3a0xyVnI5VC1YQ0NSVW1ZcUtVWkZBdjlCa09aeVVRNXB5Q0dfemdTRl92bkxDQnN0VEU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1cabdbc19aa1",
+    "titulo": "Campanhas de Lula, do PT, e de Flávio Bolsonaro, do PL, afirmam que vão abrir os sigilos bancário, fiscal e telefônico",
+    "veiculo": "G1",
+    "data": "2026-10-23T00:00:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZUtlY09zbFBjdmZ4S0J6eUx6cWh1MkQ3UnFSSU1PUWFEanpSTE1qNE9mcTJjTEM0WGlJZGZxQzUzTnhlWUFrY19PMkdkWmJPRWNCeFlJT080ZnRoYW9lWUQtTndhbkNLYU1ibGVIYm9rb2QxOGJmNXlYRVRDelRDdUVYdlNwbHFkRkY2eXAwRi1ZLW53a05rNkE5RzJCdDR1aEZHNDZ2R0lZeWNIby1hYXBUeTdUQVZ6X0xtM2lYdk05MGdvdldwRDlHZkhiRFljTUhyX01IeWN0R1d2cmFlSVBTdExqWFlKdW10eVJVUWxUaVdUeHRzcGk4SzFjSGIyZ1V3MEtR0gGUAkFVX3lxTFBnTkhhcTBVeW1oQTBCaXF0TzN1NDAtYTMwN01hTFNTQ19ab0plaVRMNWdqS29KbHM0d1pYY2UweVludTlYQTdSQmdMS3FuU2dpUHhacE5wMWhxOWtfb0gzY0U2bElUR09DR09JUDJjTnl4ZXhkaHRiblQ2SVNqdXlzTGRycGxSa1BEckhWUWxISkhlZWd1d3cwdFlka2VWUHRtRm4wMWtEX1RPNkVLaUFXY2dBRm9qNUJiekg5NzZEWjBzaE1XLVJNUWxGSTNtN3Nmb2lhTkIzN3JuaEpTYklYYkJ5N2ZKZVRsYmluMzNnZjA1Z24ySjluNENhNHA4U3l4a2N1V192VkF4Y0J3Z3NkOEs1Rw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1eaed6bb8b00",
+    "titulo": "Presidente do TSE pede à Meta relatório sobre o canal Exército do Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-22T22:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOekVLVTdtOXE3NjdORVh0WnVkMnJoZGttMFM3WTJOOGNRNWl1Y0oxS1BzTFFBb2FCbG1zZi1NZUREaExOeEF0b1VYXzh6cVJQYU0zdlJsVjdSVDB3a1BwRVYtbWF6T1gxOVhJMEdvSkZsdmFBQmJLNG9WNzYxX1hRWEo3cVNiME9BblZKWXhhbzRHLTVyU3pwLTRjTXlmY2oxSmtFa3V5SXpRbl9iSExpSnNzWHdKTHQ2LVpVTk1peDNrbjRfMm5IVlpNWVZkUWI3NmtsWEZRQzVQMjlBZmc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:44b17e704326",
+    "titulo": "Pesquisa mostra mudança na aprovação do governo Lula às vésperas da eleição",
+    "veiculo": "VEJA",
+    "data": "2026-10-22T22:39:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcjBkczdIMzhZSEJwMlB3YWhidHpya0taLWVtT2U4OU1ETWtxWm5TTlEzVzNDM1BPU0NYdDZSOVRfY293ZkVkQUtVd0pNOWR1MURfdlNNZzR0TjVTNFNVenh5RkFBVWYwUVVvYWtEXy1fTWY0WVctMy12VDBNZjVVVWx0TG9kaU5NX3NLZ1JBVV84TTExbDFQcFk0NTZaZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c9b082125db4",
+    "titulo": "Datafolha: 46% rejeitam Flávio Bolsonaro e Lula é rejeitado por 45%",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-22T22:34:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmgwUnNsXzZubnRzU2xzR2JPRndfTzZwNTN3OHVlYXF1dkZ3eVhyMWRZZmJOX3J2S1FkT1FvcXdEaFBJZ09kTkMwTk5tU0RiUHM4YkpDclFvS0xENElkblZ6Qm5hRk82dGF5b3h4Umt0UUpSMDZoN29oT2czVFZ4REhmMHkxNHlHS2FQTldPVWNNU0lvUFF6cWRETEdfZGd2UURfVVd3?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:9b1668d72340",
@@ -24,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3df5954b7865",
+    "titulo": "Datafolha: Flávio e Lula empatam em 50% de votos válidos no 2º turno",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-22T22:07:02.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNTlIdDdJM1hSZ3hwNGtDbVBLZTV0bmJBaXZKUDhOUGh0X0pOU0E5dmhKMXBDUnRaa1V6TjRuWWVrZVZBZ2NhVjZjZWxVcHlDMEpDTHpXdXhlVEswX3BncUJyMnJGVTVkUmRVcml6Qkt2LWJVeklJSGh3dVhxZGVwQ2o4VEJ4ekp5b19iS3VlNktKbFRQR3VZdUVTdm9aU1NkWllGSmdQSUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6ffbcba52099",
     "titulo": "Datafolha: Lula e Flávio Bolsonaro empatam com 50% cada a 3 dias da eleição",
     "veiculo": "CartaCapital",
@@ -37,6 +101,14 @@
     "veiculo": "G1",
     "data": "2026-10-22T22:06:40.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZG53S2ZLZ3VPSTNIanhITFdHTzlFbHhPUGIzT0Flb3AyMGpOdTAyT0RTWmg5VDBCRHJ5MTFkZlJTNERVUDVuUDFiS0xaMjhDcnF6d2NmNTBMcmUtNHhTSHNHbXF4QTdXQl9OcENlb3UyZFdHd0dUS3NJM1AzY0hpTEx6eEFXX1hYZWJjaG5OY1lEUTFEdkpaOVVndlN3d3B3WmN2eEMxa1ZtVlVmZ25Bd2JwRzJtSnc3ZTlZdXY2ellaMl9CWmlnRDFXc2ZwUdIB3AFBVV95cUxPMTlQZmJiRTZ0MUpwUXNsS0Q1NjFPblBRUTJBa1hoUXJZUmpFR0dVX09GZjlxZzh5QjV2Rjh0b1hnZmZXNERfcWxTbW1jb3NpR0xOZTR1R3Y1Wm83WEhrZDJJZElaVnRhanhYaEl4cTZpem5peWlGLUN4bFE0cmFYUmdSM0pUM09XNGh2eTFta2hERGFCemdaQ0x4SHVZaWozZlE2aFlRMmZ6U3VFRk9nbEcyU3Y0cHg3VlpMbUQyMml2Q2Z4SS02WXlNTW95eVgtNFM1SDVXczZaMnho?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6c278de37e00",
+    "titulo": "Pesquisa Datafolha: Flávio tem 47% e Lula 46% a três dias das eleições",
+    "veiculo": "Estadão",
+    "data": "2026-10-22T22:06:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZkowQktJSUdLaVZoQnd6dTFZQjUyblFLRFdWaVFQNEp4Q0wzLTBhT3BzVTZYRUVwWHVORlJ3dE1tNjBKMTJYOURIZ1o5YkhGYlUwZzhrOURVMmlKOU1Rc3BPZHZnSjFFUUlpUnBEbEcxQm9Pb1B1S1ZMcmI1aWhvS2trU2llZlpNTExESjQ0LUw4R0hLd2NuTjMxN0N0ckxJLTQwbDR1ejBCVmxSWTRtYnJHTdIBuAFBVV95cUxObmZxRG53Y3JlUUJCbEVfRmtSUElnR3BkX3BNOTI5QkhwY3hHOWNfcDl5M05odVhuWElRejNyRXQ3clp2d1JHQ25qd0EyRXZ3SzVEVUtzeHU5cUx4TXd0ZkVQRTlWM1g1ZXd6WEI4cV9aVkNPUVlFM1FTcGNHZFEwWDBYZXlXaFM0YldLOWxOb0dmWkU5dk9aOVlNbjVieERVazkzaUJLWWJlcVRBSm5LalVmZUhmQzNG?oc=5",
     "origem": "google-news"
   },
   {
@@ -96,6 +168,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:d962ddf14fac",
+    "titulo": "Pesquisa segundo turno, Lula e Flávio: o que dizem os levantamentos para presidente",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-22T21:34:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQm1mamMwZ09odXJ5MDdsblFubnRaRzVLNE5HdmVOTm9FVHNCd3BUY3dpbndLV19pTHljcE1tbmFUc1hIY1ZPRmUzVTJVOVgtaFRSZE9JeUhKbkJhODdVeHVxMlFjdWNpTlY5aXZVQnEzeGNmNkt1dlZaVDQ1S1FMd0wzUGItT29nS1prMkRwbEpmNnFZNHhwdmRnMUlJTFVISU1MTTFwRGdVUXlVdVNROFVXTHdGWkpFZm1XcGJGSzFwSWtPY2hHS2o5U0pYNzA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a3e7eb51b764",
     "titulo": "Flávio Bolsonaro x Lula: veja quem Augusto Cury, Renan Santos e outros candidatos a presidente derrotados no 1º turno apoiam",
     "veiculo": "G1",
@@ -125,6 +205,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-22T19:59:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbmZnY3VmOGtpalctU2t2V1BBcFJFUTlqb20xaE5xNjhDdVR0ZzRFcnA5c2hIdVBkMjg2SUxSWWc1d3MwZ1dNWHBQbmZsdlhnckNXb3hHX0dEOTdRSTZrZ0pydDZwMENGLTVVM1JZSGREZmFVRWNjN0hrNHM2Y1JDc3E2NTdNemlBcDRCZFZuN1o5LUYwTE1TMEtJdjB4SUVCLUhrd1lXNW9jTEJZX0JuTGl3X1F1MWU0VnRRLWJKWDhqNTRsbzhaNmVoOFplT1U3S0hRaFJza3lfcG8wbmc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3f2bd4e93b66",
+    "titulo": "Nunes Marques determina pente-fino em canal ‘Exército do Lula’",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T19:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQm1OR3ZiT0JmU0dMYXhuemIxeTZCbXRMWmFvakpiT2pfay04Q1hfQVgxRUxieGdxb1RDbTF0ZTFydDE3Q1hiaTVOX013SUJDQ0V3S05pVHR0c1dnNlNhbTI0Y1FqendwME9leVZWcU8ySmxYWUhudmw0ZFdOMkluRFVxbTBNZjVwMXlveFNuSmJlNmlwR3VkMjk5OWJ3bmxLNHdENw?oc=5",
     "origem": "google-news"
   },
   {
@@ -232,11 +320,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:f5dc57e19201",
+    "titulo": "Na TV, Lula fala em risco de cortes em programas sociais e de caso Ana Clara; Flávio Bolsonaro prioriza críticas à economia e propostas para segurança",
+    "veiculo": "G1",
+    "data": "2026-10-22T18:19:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYzJiSVZkVEtPU1ZNM3BOeVR6WndRZlhQRFBfeWM2VWFES0k2SFM4TUJmLVpNbndrZ09KM2I4UXdUVmFja1FxQl8ybDNlV19wMzYzSDA4bkZsbW5SbDBPa1RQR3o3dU1JOEJYMWY4MjdIWVQ2d2FTTUFibmRtODFOZ3NWaDV0cFNYZ1ZkUXZfU0p6czhZaGlKdUUzeE5MMXZiQ2VqU1d4RnZUbE9rc2R2bXE0dkFBT3dGbldpTzhMUk4tVEQ4cS1RSER30gHYAUFVX3lxTE1Xd3dSaW9uVnhiMG5rQUhXUjJnWjRVTERnbXhmN3dZc1AzVXo4cE1jRU56dk1HR09PLWpkSzhKVmdlcGN0MVJjOVktTUFJald3YWpLNFhBVF84MnI3OXhwTW4wZkVISTVUVUlnMGhpVkRzWlBiS21FeExoajJTS0VKb0FpaDBBY0RsaUdxOXJXeUFrRUt3T2ZIaGNjRXhCTUdaU1dqZTNVQ0JXelNXMzFycDBTNzRVOFpVSjYzbnlTcU9iaXhBcWVXYmJ6bHNXNUlGM0ZVcjJpVw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:26644b13c66e",
     "titulo": "Acordo assinado por campanhas de Lula e Flávio Bolsonaro prevê divulgação simultânea de sigilos pelo TSE",
     "veiculo": "Brasil de Fato",
     "data": "2026-10-22T18:17:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZ0NIaTgybjI0RnJLa3gyTUh6LWVaOURweVhZX0ZIWmJyczRROG9rWHVxTFYyY2NxNXIxS1drZDBsZ1d1TjFULVU2MzhmMVZEUmRRU21vX3pQMTFOZGUwbU9POUZaeEN5cHhQNzhmU1dlRkxaMWVKdUFCdTZWbURXY21yNk9JMjBBSFBKYkRMNWJ5aUw5ZENLTHFoRW1IUXZGUlNWTURwRlZQMWkwQWRHUV9OWURjSVhuMnZJOXk2N19BRXdvclV2b09RNjJMVVdEWXhjN1hvWDZSTDgwVGRyR213?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:27a79fc981c0",
+    "titulo": "Voz do Lula: entenda por que está mais rouca e o que o presidente está fazendo para melhorar",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-22T18:09:51.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTElrdzZ2MVU4bEpRNkJFdE5hc25LZUtfa1k4QlYtbkk1OU1KUF9WeURSNXlsUjh6MllLVkZNTWxPNmU4SUplY3hNTnZqSkdzSGNhUUU3SnZuOFNZeXd1NmY2Q3hzTTJfeWhNeXJrZ1Yyb3N3aGFiVVZqaG04ZXdHTU5xVjJOSWF4VlF3WkJzaWZwMXBHMUhTbNIBpwFBVV95cUxOQkZkaHhtTXdycHk3S2FMOW1EUmNQLTdJWU5VNGNPSTVpY3c0cG9mOGJVa1BRRVVMajlCMV9Vc2N4RkMyQVQ1TmQ2dHZPYlVYLVQzZ3VodlFiNzNIbmUxcElHaXJ5NHJWbWszSEh4azlxWDd0b25RenMxd1ZyM3VWWGlYYngxWklpTVZXRmNkMnBoU1BnTHY2WmxEXzhRZ3R4UGhxQTBhdw?oc=5",
     "origem": "google-news"
   },
   {
@@ -336,6 +440,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:bf5cdd8b589a",
+    "titulo": "Janones inclui Lula em canal com 8 milhões de seguidores: 'Agora o velhinho vai estar aqui com o celularzinho na mão'",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-22T15:50:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRE43YUowcHl6QUdKeVhPTU80WG50S3B5VEZCcWoxbkI2TXBBeGV4MFEtX1kxYms1X3pIVzFIYVE4WW5rTTZlWml0ekhRbE5SeXhTZWtTLXFIbHZydV9NVk1XNVRRdTBvMm51V2JUZzhKdUF5b0FyWk1scmptbFhpOTdya0tKVGw3aWQwUmxEUWg1SXF3bk11V2dkdy1hOGMwZ05tYXg3bGJoM3VwLUx5anJHQzNvOUJDd0cxSXhUQ0dpcnNsZE5JbEZmMDRIbzNDbHdzYnRFQXkxRlRTQ2ZXT2VQbkxGaFBseWFUeGgtUV9VTWF6VGRzWk5fLUNmMVU2Qm9lMG5XemdLMkVNYzk5NGZuU3RabTRf0gGnAkFVX3lxTE9aME9mZm9MVkhPdW85OHBxaU9SYm1GVzhNWE5qTGdrSGZoa1hhYm05TmRZNWJuZkp6b1dJMjFFX3U1dWhLdHlVMHd2b1owRU14RlM4SFVod25sUDA1WmNVSkV0S1JJRl9fRlVzTlBTbnI3VGUtTTdZTEJkZ0NzdHNYNzR3MlhKTmdWR1NfQXZpS3liM2tWZUJfV2RFNW1XaDJueEFQbHZkZVMyaVVkLWJ4cmJ5M3hHaW1iWGVFUGJYd2RDS2JXaTNLX0JhQ0VEa0pjNG9PYWdLd1pJU3I0dlFSR2dkMHJ6UXhVazFCOXJGS1h1VW9GbG85blhVQndrM1J1bURTbnBnLWozTTFDcjBzUEdBdDBGR1RKYjdwbnk2ZndSOXVNXzg?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:057da8766cf2",
     "titulo": "Lula e Flávio Bolsonaro autorizam quebra de sigilo bancário e telefônico até fim desta quinta-feira (22)",
     "veiculo": "CBN",
@@ -349,6 +461,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-22T15:45:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTGpTcVN2dW1QTlhUcE5oN3hOWEFVR0NuSnNQNnFPUFZ5VURRamRNQlVvUlZwOFZQdFphdXJpenlkemg2c2VEbm1rZm1sNlppQjFITEFIcm4tM29YQmVlWmRkTVpubmMwOFQ2Zk8tQ3NxbTFhSjM0QXNiZ0x6ODVMTl9IckVEQlRMTGgzb1FXeFlaUEtTNzA0UUxTUmJzZzRoVGY4aVZKcVFfakJDZG42VFVvRlRGZ0VndW94OWp0V2lJaEk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:93642aef2222",
+    "titulo": "Flávio condiciona entrega de sigilos à análise de documentos de Lula",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-22T15:37:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbDVmdmstczVLVFpyTnNHVmpJQWtPQ1gxWV91a19fVWo3OEJWV19VZjh0bzk5UmZTaVZsazNKY0p6OXNSM0t5NjM3djNsbzFZWW9mM1ZwT25WTzJCVE5FaFlsSXNkaHdOaFF3WVM1ejhsWmlWYVdFNVFndjBhcVB5clNKdWx5Z0dEY291bjFoOW01N3FHZzMxQlAwMGN4VGI4alliNHlqeHIyQW9wa29BbHcxVXhYRU1md0E?oc=5",
     "origem": "google-news"
   },
   {
