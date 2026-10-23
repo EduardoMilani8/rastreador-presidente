@@ -8,11 +8,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a8dc48339360",
+    "titulo": "Três pesquisas eleitorais divulgadas nesta sexta mostram a distância entre Flávio e Lula",
+    "veiculo": "VEJA",
+    "data": "2026-10-23T14:19:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSzlMRDZ5a2NIeHl0NDc2dkpYNlRnYWMwNkxNNS1zWEVQYzY1T21ST2FVM01CdmVPTmJhU1dlNFdqcVRJVk5TeUprLWJmMXhpTkt2VHd3bGVOR2taUkNHMWtNcEpRSERYUTEwamNXMTVmTndLRktyLU9yN0tjMkJQd2hSWlV0NTQtSFRzSFhuc2lPcVpXTlR3a29GVXlRNkNuT0R0SGxIWVhRTWRpUzdMZ0pUcHRpR3p0Z0tBbTJCaEhrdw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:62678b46fa42",
     "titulo": "Madonna demonstra apoio à candidatura de Lula nas redes sociais",
     "veiculo": "UOL",
     "data": "2026-10-23T14:04:44.000Z",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTVRLaXIwR1lHTUVUYVRUc0RUejVBRUZNenVHSFZMSmNNdTJPU1lMempEOUNpMFUzZEtGd194WlEwZTluTERzaEhTa2pEWms1NzZLeHQzMUpqbHd0WEh6Ym9NWTVoWlo3YUNrcW5ERkhmMEJHdHppdUFpNWl5TmFZWDZSTl9sc1RkbDcwUXhiSk5nb1Fsc1QzQUE1aDV2LVduQzhlSnNxNHJ5RGFNejl6V0tJaFlnZjRHTkE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a732ec46e5c1",
+    "titulo": "'Brasil dividido', 'batalha pela Amazônia' e vídeos de IA: imprensa mundial repercute disputa entre Flávio e Lula",
+    "veiculo": "G1",
+    "data": "2026-10-23T14:04:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWTFtUV96dW5ZVHBScm02NlFPMDg4SGtibVQtcmhJYTVqRTdXQk43Q0JkUGhtODhwM2pYUk9xOEFEM3RpS3E4WUdSQzVCZ0MtUWJCUTdvUFlrUmY5ZzBQMUlPYjZMdUo0S3F0RWRRVUZKYVRJZGVxdkhCd3RuRnI2b25ZcGEzREJWZkRoZEEwTWwySjRzdURoRGdJSHNOd2JydFdpXzNQbDRQTHln0gG7AUFVX3lxTE4tVHU2dFBMc19uUGJCb255c3hMckNJYmhObUJTeGVOUm1OTEpldDhDUEFUUUp1UERpeDdCeEE4Y294YnpiYjFac2dSVkhUY002TWRYZTZWUkYzXzlXZW1xTy1YZDNJb2tkNHNzNEFaOEhmY2E4UF95N2d6TUs1ZWZrT2htWFU0RTdTa05PbjRHNTBTZE9ZVlNhbHFJemo1bDlTSW5aYXo3UkZzSjRtcEk2MnoxakpoWURLRWM?oc=5",
     "origem": "google-news"
   },
   {
@@ -45,6 +61,22 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-23T13:40:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZVE1ZG9kMUpROUNpV19SblRhajR5YTYtd28yLUlhVV9id2J1LXp1U1RTOGtTSjd6S1VnM1gzT3E1MWYxT1M2Sno0bkZ2ZnAxZ1ozaEhUREFleUtmYWN0ZFhfQTlPTjBQRjlrVE1ERERpYW5iX3RMUHo2OExQU29PblhXUC1rRkZzNzlBU1FfRTB3blloWmZYaC1mU0pyY1E3RVRMZ042cnlLLU9LRk1aWjRpaThoTS1VOEVCYmlGUW5rOHdOM01BV0RscFkxdFE3enNVNjRvbw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ffb92c90b57a",
+    "titulo": "Madonna publica apoio a Lula; veja outros artistas estrangeiros que comentaram a eleição no Brasil",
+    "veiculo": "G1",
+    "data": "2026-10-23T13:17:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYmIzb3cwZFNKX1hBVkd5ZDRoLWdqaE81c0FNQ1Q1cmVxenVJSDlFa1BEbXF1VUlqZEY0RG40TEwwbVpiWElYVGNHQ2FDTWZNN3gzemFpTGt1X0wwRy1rV0c2QjVTc2xBODIwZ0RuTk1MZnJ1RkxMQS01Z1JzdWI4eVJ0X2RpRWU4aUJuT3k4R3g1VXZJZDlpbmhYVEVYTWtkQmIwSzNxc2I3NjMycWpxYXRhak5LTERMX0YtNk4xS2RKcEpFYkxwa1Q3VktmRFlXYUpXbDNDaWszTTdpZXNaTklwcmljZkHSAfYBQVVfeXFMTVJmbGdNWmt0a04xd1NnMHV1d2owR3F6MzFLQTBjeENtdlhTalA1dlpfSEpZZHJDMFY1dHJDZnV4N3hBelozdHNkb1RaR2lCQUM3QWo0b2tyYVQ5Z3IxdG12ZnFJdGtpaGNrbmhMY3hMN3VtanV0TjJlNnZ3ZDhqWmdFRWJFOHI2aDRUS1k4T1hCeE5MODBCOU5SSURqM3pOTEw4MDJCV0k2MkpwUlBzUTRxTW5NWHlCazktSlA1cTUwT0d1LW9zNEk3VHptTWtmWEtHR0ppNUNnYWhneUVrdE1ncXBiTlZUbzZldVZLQjJna1hpc09n?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:88637ce58e08",
+    "titulo": "Flávio e Lula abriram o sigilo? Candidatos entregam autorização de quebra de dados bancários",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-23T13:12:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdmNOR3k1NVl0TEMyc25lNC1xclZhYXJ0cUQyNHJ3Y1c2UjItLVZteTc1ckVmSmxZRjNIY3RvTV9hV1VxOC1HVjVXWWhGMEJmMDlmV3hxV0NpVW94RTcxdlBIRkJHaFQ2NGxSR2pJRU5wLUY3OV9iVlV3Vl9OczRLbEhGSmVZNTQzcU9obWFZUnlqMWpvWnY5RXM1ZlRPUXdMN1FtQnp0NTMyaVo3Um94eGlYQWxCaVdjQ21XNHJ5UWkyVkpmZVBPYlRYanB5MElET0JLMm1BLUdaZ0Q5OGI4UkM1NW1oOTMwR01Tb0pXWE44R0pGQk1z0gGGAkFVX3lxTE9kZTFrMmNKT0lNZGJBdDRadDZlRTFkV0FNWF9KVEpDUWp1STR0SU54SEVOZ1ZsSHljbkZueWZaQTVsZjFqenpndnp0dDhUUGlPcFR6QlYwZDZGWExpQlRwa2dlTUdWS0NkR3RBZXBfN0FUNWM4MDd0YmpfQzdzZ19CSUQ2ck55ZTZHVzlzUkVEellYdkk4TkhLY05rSTJiNjJkWVVEcXQ1TzE3WlloZkVDVUh2NHM1V3NrZVAxTFl6LU5rTk94Q2Yxd09Obm5zYW81cUhkamd0N1ZDZWNCdzJuWW1JNTNWdWZDRTF6dTJXczRuVVpZQU1POVZ3VXQ4MUJzaENaNkE?oc=5",
     "origem": "google-news"
   },
   {
