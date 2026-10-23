@@ -1,5 +1,53 @@
 [
   {
+    "id": "agencia-brasil:bc94dc40754d",
+    "titulo": "Primeiro governador, depois presidente: saiba qual a ordem de votação",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-23T11:20:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/primeiro-governador-depois-presidente-saiba-qual-ordem-de-votacao",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:3c44dcd645f7",
+    "titulo": "Pesquisa Real Time aponta empate técnico entre Lula e Flávio Bolsonaro a dois dias do segundo turno",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-23T10:47:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSmRfRGVwVWlpTEtvRGl1MkpILVJPblh1M2RwRDEtMmlENWVvaDBONDVBRkRJY1VVYkZkMGdJUUZKM2ozVjJOQUJDRVp3d3lXR2JZS1VYU0RhWVlfSks3RGNzQkJGYlhOdlR2eU1GUm04ZE42cGdWSFRBOTVvZ21mSWplSS1ieEZSeHAxZjJFVGV1a1JsM1M4S3VpdFlEV2Z6cGdScTZzRkEwLWJudTZuajFIcjV0X1RhRzBJVWtDbkR1TW1peGQ3RS1FWDY5MG8yVUU2SE43Q3A1dU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:01d1c2f85924",
+    "titulo": "Real Time: Flávio tem 52% dos votos válidos no 2º turno; Lula, 48%",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-23T10:00:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1FJOFVWRndwbUhfaGN3Q1ctcVpuYmx1NXFidEx4cFA4anpqZ2RwOTQ4WXdueEdNNXVzSnhucHpFNFpfSGpwTHF1M2ZzQlFBVGR6VkFidWF1cmhRM1RXTWJpanNjQ1VkbndmNVlabHlfMFVhM3lJaHE3dXRvZXVra1NZaGlGOHBxaG5CLXNBbkdfa09sR3VuZHBIaEViRVF5c0E?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c2cc4a974343",
+    "titulo": "A última pesquisa Datafolha sobre a disputa Flávio x Lula antes do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-23T10:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSDNfWHc0U1VZQk5UeVlnMS15S2x5ckRIdkE4TXk5SFlUM0Z2a1NjQU1YRGFwLS1IVzJRcjhSb2lZWmxxSmJoNWNEc1U0a0ZMempVbXpJUXZ0OVNwb3M3ZDRBVUpDdC1Kd2gzQUw3M3VMcWVjRUM5a0t4VkFjSmpCcFhDNGpkRFBvV0ZvTWpBTXJEY0c1YVpwNXM2OEhScnlRLUYzYTdLaThmajFVUncwU0NRaTA5RHM?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f918d9696d5c",
+    "titulo": "Saiba como estão Lula e Flávio nas pesquisas a 2 dias da eleição",
+    "veiculo": "Poder360",
+    "data": "2026-10-23T09:03:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnVDNm9pUzBINUZLYUFXamVXU0hPcWViSUpJVjBPVWZUVlJIamFQTE5EX2JjMUJkaFRxakVHOHZ2T1ZvNFZseGgta3NZRVk0dGdHSjdhUXhzQWNycEVnZHhxSDc4dUtBWGJ1NkRja1dnODZlMk5RejN6WExWWFJfVkw2ckR3R3JCdXplNlNTLTlVckhTcEFKNFlGNzFyT1l0LWI2WDI4anBQSmxZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d6be56710212",
+    "titulo": "Empatados, Lula e Flávio ajustam tom para debate na Globo a 2 dias da eleição",
+    "veiculo": "Estadão",
+    "data": "2026-10-23T08:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQTZpWVBSM3RLZURmSUI3RlBEXzlLc25KUDlFRGU1LTN5aFZxdVpmd1FUQXIyaDd6dllXQmp5MlRjLXVBb0JOWXQ3UmRqVzBEOEtLMmwzbXp5UzljaTVvQTY5RFA1djlqYk1ISmtLdTFhYjRjek9RTEV0Q3B0Tnhzb0xkZ1N6MmNobjBiZnEzcGhwRU0tX0x5MHZMTUpGdnA0RnFoeWJjM1A4RjFkZnhGUjQzellSdVJ0R3NjMTRJb9IBxAFBVV95cUxOY01DYVF0RERTTmd2TW9HaFVMVHNmN2ZOenBPZmdpeG15Wk5rQU1IUEhXQzhYbFlFNjNJMGFvRlN5amVnb19RMFl6ZTlWVC1mX3hpRC0wWjVDaVlZeTZPMndJM3I0T29uaUlFQ1YxZV9jcU5rbEZ4LTIxUE5kTDBXaXNTXzBhUGxiTTllYVpKTHZ0NmVXcThNRzFpcGliTjQ2U3pvMHREUGRWTzV3VHptOVRySzZ6Z0t1eXRFamE2YkVhRWRp?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4a4a7444942b",
     "titulo": "Datafolha, 2º turno: veja intenção de voto por região, gênero, idade, identificação política, renda, cor e religião",
     "veiculo": "G1",
@@ -80,6 +128,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:c918b08059f7",
+    "titulo": "Com 1,5 milhão de pessoas na live, Lula mobiliza seu exército: ‘A causa chama-se Brasil. Chama-se democracia’",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-10-23T01:09:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMGJEWG5vcWVyMDBORFZRZmFzMXdnNzRqNlpBZGRNOUZ6VVhITF9fVUltejk0ZGZmRWFEUjRpTEs4RHVQZXRNZUczNEh0S0hobzhwM3hFQmdudWVxR09pWHQxS3llQkttSjY5RmVuVlJxUk1WaldnRUhwd0t0bGNoTS1iSFc2aXNBM3hKTUI5Q2hKZWE5cW5NcGpLQzhtWGJLM3o5YzBXS2NKdjRlQzRUc2NvTEgzN0ZrR0FQbldUTdIBxwFBVV95cUxQNG5HUGpMX2hPcW1aSVZCMlBpdEJqaDZUZEJWX2F6X2ZVdVl1V3RNT3p2QjE2VnZ1eUVXc0NlcHE2RHR4M005NVZwR3BmSDRyUm4ybU13MU9MOXVWM2lmbnlEYUNPTlhmU0NzMnIxZTlvQ0FqM0dRMVdLWDhQd2l3cjh0T2tKUzY1em1nLUJRbGM1TkxmY2VaOWs2UzJFZWVzeGlhMG9nRF9YVUJVLUN0SVZMdXkxWlJ5Z1hjWkI2Qk9zOElsSlI0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:25221197cab3",
     "titulo": "Lula participa de live do “exército” e estimula ida de idosos às urnas",
     "veiculo": "Agência Brasil",
@@ -93,6 +149,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-23T01:02:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVHJRY0JXRFRJbkZ6ZVdRMmhmYlA3VTZuNXRCNlJJQ0p6ZHJDaEdhNG1scWRRZzJZSUxmdEUwbWhHM3hGZ2lmSmFOYnVzWmJXbWdQLWRONjRmbzA0R3pSbDljVi1FU3I5cFhQSE9IODhEd1JvOTJ6U2FNUzdoVmVtaGloVi1MVTM5QjhBMXpNc3pKalpsNWtoOHRMbHU3eWdhSUs1eHBiMXZ0TGY2X0ZuR1N2N0hpRjNZUHY3YjB6X3h0ZGVWNlNBTFgxYmRaY0VqVlowSFJKTlF4Zw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6f305e9f13a0",
+    "titulo": "Veja quem Augusto Cury apoia no 2º turno entre Flávio e Lula",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-23T00:57:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzZJeThZazJJdmdyejVlSlI4dHdUZ2NwQmxEVktwd3RjamhzbTlFRHpyVjdIT0doa2NoRXBXS2hzd0YwUDdlMFBiaE03X1ZnMlRhOTBaUnV2aE9rb3hkWXZBUkJubnFYN3BjZThueEl3TGwxMWJrbkNGM0xsdXRsTUN4cnE5TjR2M3BBWlpDcmtxOUwxYi1LZTM1alo5eXpP?oc=5",
     "origem": "google-news"
   },
   {
@@ -133,6 +197,14 @@
     "veiculo": "G1",
     "data": "2026-10-23T00:00:23.000Z",
     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZUtlY09zbFBjdmZ4S0J6eUx6cWh1MkQ3UnFSSU1PUWFEanpSTE1qNE9mcTJjTEM0WGlJZGZxQzUzTnhlWUFrY19PMkdkWmJPRWNCeFlJT080ZnRoYW9lWUQtTndhbkNLYU1ibGVIYm9rb2QxOGJmNXlYRVRDelRDdUVYdlNwbHFkRkY2eXAwRi1ZLW53a05rNkE5RzJCdDR1aEZHNDZ2R0lZeWNIby1hYXBUeTdUQVZ6X0xtM2lYdk05MGdvdldwRDlHZkhiRFljTUhyX01IeWN0R1d2cmFlSVBTdExqWFlKdW10eVJVUWxUaVdUeHRzcGk4SzFjSGIyZ1V3MEtR0gGUAkFVX3lxTFBnTkhhcTBVeW1oQTBCaXF0TzN1NDAtYTMwN01hTFNTQ19ab0plaVRMNWdqS29KbHM0d1pYY2UweVludTlYQTdSQmdMS3FuU2dpUHhacE5wMWhxOWtfb0gzY0U2bElUR09DR09JUDJjTnl4ZXhkaHRiblQ2SVNqdXlzTGRycGxSa1BEckhWUWxISkhlZWd1d3cwdFlka2VWUHRtRm4wMWtEX1RPNkVLaUFXY2dBRm9qNUJiekg5NzZEWjBzaE1XLVJNUWxGSTNtN3Nmb2lhTkIzN3JuaEpTYklYYkJ5N2ZKZVRsYmluMzNnZjA1Z24ySjluNENhNHA4U3l4a2N1V192VkF4Y0J3Z3NkOEs1Rw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:aaff2fd76726",
+    "titulo": "Em live com Janones, Lula critica Meta e diz que empresa não pode enganar a humanidade",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-22T23:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQURFUjdNbW5ZcmpBZDVuZU4wQXVYRjVZVDZLeFpOZnJzcnZ3S2xLUEx4WElzakdZbDVpRGZ5aTFIRFVnRUFxdnRWV2ZUT1l1NEwtcWN0LTJsQktHQ08wbFJIaXc1cjN3Vk9DamdMeDdEU0RJTWI1cUpIdjlBSG9IMWJSRUFaa1F1UW5idGpTSVpTcE0tZGFlTGpvS01GOC15bVFkbXkxM3dabW5ibkRLWVpsbzBPWndfdlg5YktScTJONmNQUmc?oc=5",
     "origem": "google-news"
   },
   {
