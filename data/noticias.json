@@ -1,10 +1,34 @@
 [
   {
+    "id": "google-news:ee0912f313f6",
+    "titulo": "Lula x Flávio: a nova pesquisa do instituto que mais acertou no 1º turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-23T20:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYmE5a3R0R1FweFR3UXg2SHJNNHZPampNeUpyYkFOYWViV3NEYThTOS1HT3k2SjdiM0RDN2tMMEhfbVByb2FiRk5NMF9BUnlSNVVxQ2JnT2hJYlpISFZBNUNyQTBTYmhmZ0dtVi00TW83NFBudnpvRXJidmRTZEhMekc5QWhwQlV1SzZPeEptY0x5bHA5NVBEdl9Ob0NkeFc0c1NsLTQta3BvQjcwX2RJOTRFN040UQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:76effab62bb3",
+    "titulo": "Últimas pesquisas para presidente: veja os números na reta final do segundo turno das eleições 2026",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-23T20:17:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcUlPTXlET2RRT2V4X0h3N0g5eG5VWTMxaEQydERpQ0d1b1ZVMTY0eWU0a3N3WW0xbTZRajdNYTNpNDB1NGRrdTI2RTRDU1lQWjZBMEs3UWxkNVhMSHRVVkhBS2R0UTd0RFU3UjNGczRpcUZZd0E1dmF3MmdiWEZULVU2Rkp0TGtFWXVSSzFWMUIzT3UzN0IxTy1EQU04ZmNaTS1tbUVwUnRVb21QMEdFT3JZWHhydlEydC1tZEZsTnFuMkJjczBrbXZmMmZJdXlxTTFYUHN2Ql9wTExQaGN5RnZXVV9JMkNtVnfSAfgBQVVfeXFMT2k1OVVzajZXQjB1a0twckNGMmRJN3gyeTZUUkltakJUQ0ZpQUVyb0xFcDRWY21rVVkzNzJ2UDRMQkVrSUh6bWFGWXhzQ0RvS0x2TzdlaUhuSGh2UVF2LUdjMEJDa2dnRDZHQ3I1UVVqdmVJejZ6LTVIT184UzY0TDk1bWUwUEZvYzlBSk9WY0ptaG5hVkRQRjRnYzJOSmJZZ2lLNE1HdWdCX3AyUklRYlJfaVBYaTk3RDZyTFNjeWE1UEdIdWpMTkVLS1ZJZ0lWQWRmU0lmTVNKVTBDdjlLV3lmclFRVnVMNVVOOTZWUmJ5c1VMX3BmeXQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a2ac61de194e",
     "titulo": "Qual é o horário e como assistir ao debate da Globo entre Lula e Flávio Bolsonaro nas eleições 2026",
     "veiculo": "JOTA Info",
     "data": "2026-10-23T20:10:05.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRjJ4WTRMaHVBSHJRZWpvMEpLcjB1bHVUMC1xd2FnWWlDeGsyOS1DbzNBQ1RhelZmN3l5V2ZZLWhfMDN1aG5TYTJjT0tNS0dRSFBOWUFoS3NIR3pyM3N3anpCR1MxOFBQWkFfZUM4LUJUMFFaNEdIYnRHaTNxZ3BPemxHUWd6SEx0ZkQ2OUZlSTB5eUdwRE54b2ZKU3AxWV9teDI5Ymh1bUlKTm5jYUFmbWNYS2VmaGpuNE8tMDZHbGNsdGQ5Y3hTdFNKWXA2YmF3TlNzS3ZDdVNzUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c7184af61f44",
+    "titulo": "CORRIDA PRESIDENCIAL | Faltando dois dias da eleição, Lula (PT) e Flávio Bolsonaro (PL) terão nesta sexta-feira, 23, o último debate na disputa pela Presidência da República. Os dois chegam à reta final tecnicamente empatados nas principais pesquisa",
+    "veiculo": "Instagram",
+    "data": "2026-10-23T20:06:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtWC1mM1ZpWnRvZEd5Qm51VFQxNmZ4SHRlUl9IRDlndlZMSjZHdWhVZEJ4MExIYTlLQ290eGdBX3NZZG4zYUpWZF9RSW5fOFJSM0E?oc=5",
     "origem": "google-news"
   },
   {
@@ -16,11 +40,51 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:68bfefd9820c",
+    "titulo": "4 pesquisas desta 6ª mostram cenário indefinido entre Flávio e Lula",
+    "veiculo": "Poder360",
+    "data": "2026-10-23T19:31:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejEtV2RLS2pULXQ1V2dzUndBRjY3NWk4TEZfYUhVdnZqZUxTYTZXc1A3LUNPTTBzNjk2V1BHRW4wNDZveUgtSVk3dHN0SUpVOGpnb2Y0M1gwRF9rRk1HNG8yNE82Ym9aWFhUUFlreEhobWJpbnFFR1Z6Nm9nSnJvQ2hDUkU1ckdaMDFNMjZMbVFGYkE5M3lNUGFpSldMU3c1NU12TkF5QndKaFVoRU1sUE5TeFNadFU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2f840666e66f",
+    "titulo": "Eleições 2026: O que pesa contra Lula?",
+    "veiculo": "BBC",
+    "data": "2026-10-23T19:13:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lenhhejR2MVNqdHRYVkRUeWktaXdVWU53eUpmdFFFdG9KM0llUk1GWEwzVFBESEpmWlhWcVBjQ01iRmpkQnptUXJZcS1odkZ2NDl5ejNwVHlia3pBUUQ3NHlGa9IBaEFVX3lxTFBpR3hDdy02NE9kMVowekd2NmtoSjNFN3Y3VUFfajc1NThNQWtlMFlrWE5YTEY0VFBQNDdzOGdnMVNDM1J6R1UyVVRtTWNVRG0wSXpJMVZ1Y1RCNEdCTFRYRmJqbjJ0cW01?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:0e99b0edc9e2",
     "titulo": "Quantos votos Lula precisa 'virar' de Flávio Bolsonaro para vencer no domingo",
     "veiculo": "O GLOBO",
     "data": "2026-10-23T18:33:38.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVldKNWYwTDBReGkxdVhJSjZsUVRiRHVzZmttN1RNdUFuWllnYmdiREkyOTl0cVdiaTltMW1kVVpOMFp3SjJGQThab21KYVlPWlVqX2FkSkpISXIwYlF4X2xjY3NXSVVNYVRxelRZdENqYWVERERXTkZvLVkyWTN6M0tHeWxuNl94Xzc4ZDRmYjFhYmNYR2l0NGdqalFhM1JLYWg5VHdvNllTNmVmdThBSUlOVTQzdk96U2V4U3lHZW1FQkk4YmtxVVVMRV9sOHFmUXdmSdIB4wFBVV95cUxPZGQ2RjdQeEd4anY0UmRzblEtVVZ2b09aXzdWaVUwMGs5RVpqMnhmME5NZHBKWEVOcTRidTJINWdXbHhfbzRDTGpYcEZ6MnJsUVNuTENsaXJKdFVrV1ZnNUVrX2lFb0J5VUdMYU1WRHFVOFNaR0tmTTJRemo0aW9zM3hOOTNhQ3lWVU5rXzBmalhsRmtxTm5XRk9ZWVRaQWxaUHVwNGJKaS11TFhvQ3k1WElXaFR1TzZtbWp3cUhVOHdGWDFPWTJxc3Q5WnZkV1JxazRQWlpBSnZTZmlxS0xqdk5mdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a7da89d5af0f",
+    "titulo": "Horário do debate na Globo hoje: veja regras e onde assistir ao embate entre Lula e Flávio Bolsonaro",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-23T18:15:59.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbG1Vb3B3WUhMWTkwMzRadnVIZnpub2ZwVERDT2Q3dnIyT0JsREN4MUdkRURHRDJCejV1bnlHeHp0MXZpSkFjWHNlVWJDUElvVUthZHNjYUlNNURQUDZPcHZqRl9YZG1fZW5lWGxBbDFLbTZEWHpMeVdVQTdvZmZhWTUwY2VUX1JZNHRnNHA4X21DcW55V0NhZjREOWVMZFlGVlUtR2pGX0lhczhzSnBkaktjaVZsT2o1QklPRXlqaTRYaHlsM3pPRnc5T0tEcEJ6VmFxMHhMbklINEVDQlNLeWxXRk9FendZOWtwTFZXUV9DdXVITG03Nk5Ua203N3BERmfSAZACQVVfeXFMUGRDVkJsMzZrcW9XaVk2TmppQVV4LVU2d0hsY2lZdWNoRnRjalZCZnU0RHFlUXZieFNnQVU4cDVOcnliQnEzcW1iT25jMDh2d3o0Ny1maVozUDBSY1dJSjQ4ejJRTW1ERVJVbWZvbXlJR3pDdEp4Y0lVcHU0dExLTHJ6NEFYbm1CaGlNbFVXRUFfNUFWQjFueHZ1Zkk5SERrX01MNW9PeXRpN0otaHVPU3JWU283bnlyMXZQQWRqQ3JMVkcxRkRTWVVKVFV2QWVZd2RLNXpIb1ZJR19xamdYWWlBV1pVQUVPaDdKYVV2bkdHbXVSSkgyNmJDSE9KckpWSWhHMllVUmxtMVhjdTI3V3k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:761dc3750387",
+    "titulo": "Ministro do TSE proíbe suspensão do canal Exército do Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-23T18:11:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON0hYWVlPVWpqSHJORWlZWHBBd2xjSmNwUHc3ajR5TmRURHNYOUMzRGoyUXB1RTljYi00MEM5NXltYmFkSmpPYVMyMnlmXzlyRkM1VmE0VDRpamJ6S203dGpLTEZmYlMyZEppdnZ4VkluUjAtVUJmdnhWSW80SWlzQjBzbHNkTmtXNXBSU3BhWXBlajBxcnc3Z0ZFRVBwWEtpbzRMUnNxWjQ3UVVtZGpLMVJTczZKZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5441aebe9eec",
+    "titulo": "As novas (e últimas) pesquisas Datafolha e Quaest sobre a disputa entre Flávio e Lula no segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-23T18:00:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObDBFb1phaEZLR3otMXZ6Y3ZEeGFCQlNDd0RnT05sZmZweDVzaFA4Qk93ckxzSDB5UkNCdG5sLW5jNk1JSEsyZ3ViZXYyVHZUM3BxLTl2ZUVmeXdkZ2VzVGoxUU0xdVZmUVg4UFZaUkNYSENnQTU4S0VDZW15T3E3ZU1EM1JnbGNUYWJQUzdncXpyYXJnbWdkaVY2dkFpTlUxNkxfQzR0ckRyR3lZRkl5UTNOWE8yNTNDanI4N2hldGlzcF9TM2NZ?oc=5",
     "origem": "google-news"
   },
   {
@@ -37,6 +101,38 @@
     "veiculo": "BBC",
     "data": "2026-10-23T17:40:08.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5raDZYWmJIdVhySlQxcG9pZjZPZGJKdDN0WEJ5OVphZU5TRGNEOVNiakdMVGtyX2djb1lfWXIxWGZGSEhCLXFEaDJZTGtlT3ZYOUNTcE5qUjZvVE10VmNjcXFIaw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f983d82469c4",
+    "titulo": "Após decisão de Mendonça, campanhas de Flávio e Lula entregam novos documentos e seguem sem abrir os sigilos",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-23T16:43:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOd1hGV2R0Z2xtRjZtRnA1ZGxPTzBlSDFaUjZyRDREVmc4dWdPRzlCZE93QUgtZ0VvV0t0ODg1SWVGOXE5d1J3WFljcEwtSGc4eFdiZWZ5bDF5Z3RuMG16OS1kb3VyQURqUkJRZ2VlNUNzV3RFTHc2MG1FWEpwZVNHUURPb180OWZoc3c1bFNEcXI1dG4zcFctYUVfNDVTZzJLY1VDaEpPWE8wQlJ2OHA5Q2dybTQxYThyOHdwczdrWTZmUXlOYzFidkZvTVhrakpMQkxvb0h6NlVaamgtcHpEc1M4RzJ2cElNSFRha3ptMTBTSlZMczM3TkdR0gGIAkFVX3lxTE5hekdPWGJNdFo4Y0hFN0FKSW1rbFh5OVVvLWNDOTdKNmkyWUpka0hCd3NtYXdfQVRHSlhxMTVhdFM2b3FqQmU1QnBfTDhfbXVRRS1ldWl4eWVKYWFPRmNJMGI4dVdjblh4bzdfUlUwSkx3U1h1cFc1N1c0bUI2MlBxcUFLRzRqZjZVNkh4WWtOSEVvbVFYek1YSV83a0JiVFZvLTk4M3VHVTlLQWF1V3EtSzcwS1RlR1M3MW1qNWxZVnBWRGJudmF5RmxkNEhQTkZIaW8tRDk4SWNqS1pQYU00Rmw5RGlCbGVScjVkbEtrTW5EOEhVYjIwSDNQbEdRQVlua0RwRkhjRw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:fc840315f9c7",
+    "titulo": "Oito casos em que o governo Lula colocou sigilo em dados e documentos oficiais",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-10-23T15:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMGZoMm1nRlRlc09yUmxDbGlrWUl3cS1LcDJ6S3pKekZFVkFnRTVNbHJCSWs3M1NtM3lHRzFYYlFXUmF4YWRQdDFXenU5ZXpwUkRJa19QNW56M293ZE5aZVhsSDRNMkNwOEdvZTNyanFsWE0tem1lNm5FNTcwT0FtT2RtRXdqS042MnduNHVwUXIzTlYzWDFKNS11aXY3a2tjcEdTS1JlOU1SZHZKTWow?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6196b5e46a35",
+    "titulo": "Nem Lula, nem Flávio Bolsonaro 'têm estômago' para reforma que Brasil precisa, diz Economist",
+    "veiculo": "BBC",
+    "data": "2026-10-23T14:54:11.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hM3VhaUtBdExiZ3lTNjFGbW45cC1STW1feDJtLWNIa3JiUWRzTFNNZDUwUzZISVFWQXhIMENIZEE5cWtKWXY2eTNrV3pHRzNFb3htSlhuQmFYMXFIQk0zNEFXaw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:efebf9949482",
+    "titulo": "Saiba quais pesquisas chegaram mais perto ou acertaram no 1º turno",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-23T14:39:44.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeHdRR2U2MWxYZXhYVC1lVEg2QlRkR2QxWGZseVdpX3dKemNXVTI1N3dyYlg2U202WC01UjFVUGM1NWxHeDZILWFGT0xidC1oOVNXM1kyc2xYZ09GcGQtRm5yRC0tdk1hVkRfQjcxTkZDcVVLWXhMS0FXODJDMXo4MUZZTXZHd2NXRV9kdHBnMXVlNU9FY25FTmtuWXpnMUdCcUhoSnFsU211TDh1OVUyZXRvaEM5UQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -77,6 +173,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-23T13:57:18.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWcwYjRoYml2VWMwTzZ2U2ZfcHl4T1dCMVpOeVA1SXFJX2t2bUNHLUNTVmJ0SkN2c3lzMjF1Mk9pYlloRXJWU01JYVNtTnFaNlZwQWJTdThyY0NtWkRZZUo3WWg0bk5JUE1QN21lY0E2RG1WRkN2ZWxmUXNKaXBqSDNqUDZmX2RwSEJCdjNRRXB5OTJzZ2RTZTNWVUZkUExYcWNFcC1FQ2h4NXc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f60c8070f371",
+    "titulo": "A dois dias das eleições, governo Lula diz que vai propor perdoar dívidas de empresas de eventos do Simples com a União",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-23T13:50:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPblRXS205SGhNNk10VTRQNEI5SHJnbjdsZHEzekVsZjVUT1BRa1RuNUM1Vy04OWtpRXBiTjNtemE5Y3VKaHQzbHFTbkdmWjVuV1M1SWlxNHdBaFMtdjVZck03SzdZODdDd0wyQWRUeHJSel9NVUR3c0ZENXVzaGZ2Z0Q0eXFHUDZLSzN5dU9oTTB1LWVZWmVaLWNYUHo3MnMxbmFhdmVYejJ5TjI4SndCZ0pRUzRWZFNqbUQtOEZ1ZzF3VlNvNDFDMWdGSnJlOEJYQ0M5VWlmbEpaWkdva2hYSzZMU1QwdGp0UjBxXzBpOW81a0pHcUFXcWR0YzVXR2psUUM2Q3h2d0jSAZcCQVVfeXFMTVBCQlpCeU1yaFV4OFY5QnFrUnFxdUVYb2xzdHVoM2tKUHBFVl9RZEdfN1hWYUdBcVFOZ0RaSVpzMzQ2eU5IR3dnS0dFNEF1YXN3ZDJpY3BKbG4tSzJDbkNOMnNrdlZQQmY3MXpNWm1RS3ZjUE5UUUpRUlhBVEx0d2JETkVNeC1IOTdQSHJyRmNCenV2blpDSHBhSWN4RlBDa0toczJMVlRnd3JMMlVKZmgzdVpLZ3J2c1FOWmNaR1VWSGIyWXFvdkZtbV9kMXoyX2V5dlVBVXI0MElqY3VPZGV5SVAyTUY5QXptb0RWLXc1ZUpGSTQ3V3pod29zSkF5dzYydjVOYnBmc0F2UmRnaWI0VjRzU0Z3?oc=5",
     "origem": "google-news"
   },
   {
@@ -181,6 +285,14 @@
     "veiculo": "CartaCapital",
     "data": "2026-10-23T12:11:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXJQMXJNaUJYMUdqbzZmNW4zX0hDSnlvUlZEZGFJX2hXc0txTlNhWC10LW5nS3VFNlJ4bHhnRVhDOHA1ZTAwSFdjejB3TFBNQ25zQzlKaDRGbV80VG9pVXk4NHNEbnRGTENQc2FhbmVDdl9XQzdxanpyMlNDd1BSSmMyQmViM1lQWGxpQ1lBQ2RORDZMaWg4aTFvVEVsaDZFNGpJYjhrZzlURW8?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9b6f249e1510",
+    "titulo": "Último debate entre Lula e Flávio; veja horário e regras",
+    "veiculo": "SBT News",
+    "data": "2026-10-23T11:43:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcG4yUDJ2VHBPMUdBY196S2FOQTVfVkNxbWJhM0hEVzAwZTlqdEgyNmV3TmNqb2NUMFM3Y3RPajNEQTNEUUdZM3NHUGYzT1hxVFJ2MGVWZUZlOGo2Y2dPejhUMTFxNXozLUZ4WlltMmRhNWozT0xKWG9qNk9EME9hQ3BwX0JHbVJESm15dGVrS3Q5U0c5c29RcUFRVERqRHBV?oc=5",
     "origem": "google-news"
   },
   {
@@ -309,6 +421,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-23T03:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUlp6LUVDT2dUcWhBSEZRLURkNGl0eDg4R1BMaU5xNWluTHlpTV90MnB0ckJCWWZZSVVrTnV2UDJpOHVDNUI0OFB0ZGNOd1QyOENaMXhwMGJrMVQtNkI5R0VKMGJvdHRzM1lJV1ptbFA3ZTE0ZnpUd3kxVnZRUlEtY2lyUzU1Rzc5dlZ0NVdDSzVhR19tSWJlcE5WaEIwSmdXWE5JMDg4T1NyNEo1M0pRY3ZiNWlYeGtqdE5wNWhlS0x1VG1mQ3NpUW43ZjBqdkZNNWVOUno5NUlkYkFaUUJzcUxPMNIB8gFBVV95cUxQY1psZHRjZ01uV1dnUldpUUxQdVhLLXc2R1Y4RW1oSU03Mm1iV3ZfaEtoZDQzNjc3Q1BhZ295SDRDT05wZ3k1S3VGcEF3TVJxZElwaWZaRzFDeTMyQnJhNnRSRU5fT21yQmtTSU54QlV6aEhPWEV3MVpVMTFYMXlqM0hxNWEzWkFDc3pXRm5fMkI4bFJESlVfZFhGRE5CSHNZaGVTZ1I0ZWQ5d0FSUHJ6WHdCeTFrSkFMb0lueUpTbEhmUEJuMm1WRk1VM3FWUjdwdTB6by04eG5CbUMxSERjRU51cHVNd1VpZU1JX2QxbVRGZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6171a761de6a",
+    "titulo": "Flávio Bolsonaro é orientado a baixar o tom, e Lula, a evitar provocações no debate da Globo",
+    "veiculo": "G1",
+    "data": "2026-10-23T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHVLajRoZXptYUE3Q2lWcG1jYTlPNHNQMTNBeGV5dTlWd3NOeGRxWkgwM0xrWVZqemFjOG5Kb0ZGem9HQzZWX1hJWmgydUs2aE0yVDh3ajN4YmxwSThla21YM3IxLW5LRG5Db0VCcFl3VXdOdEFtbE9wazk4NWxOdW1DbDZIby01dWlVUnJna3B2T29IYUdfUDc4akVTOWlZcEdmLWIyVUNHcUxqMGptT9IBvwFBVV95cUxNRlI2X2V1elJUV1JiVElFQk1IUHZSMjNwZFZjQ2VuTTlIMUVfdXpGNGQ1dmN2a3AxcGdwaUtDb2s5T3l0bkJyc1ZjX01RWGlXQ0hsX2FrbmpjUWxjSzRzeWp6WkJIazFPcWN4RkFtOU0yZ3c4Vnh4TGw2SzdWQTVCbU5lemV4YVp4VV9Uci1PX0U3OUR2blRXUVpkWVdlT2pra3hZNUd5NlpKYzExMzNjelAydlRYRXVDWFVxV09VYw?oc=5",
     "origem": "google-news"
   },
   {
@@ -485,6 +605,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-22T22:18:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnhFYnJDckZ6U3pIWE85V0U2bGtmZWl5ZU1PMTVwakxCZ2dRT1NxZ2V3S1VzZUlGenB1Z1Q5ay13WTBjTzk4UklvenBhS1dhMlV2d2J0SUpzME1XSlRiRWZoQktvUVhzVGhCVURrcUNQQ0EtU3I5MGhJc294Q2VaX3R6OG1BVURYTWdMSGV1N21ONUdyVm15YTN0bFFsUGF2SU8zdjBfQnlhaF8teFdsamJiemYtTWtqb1gyX0tJUi1MU0VjemZUUWFsYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:07fb504d85dc",
+    "titulo": "DATAFOLHA | PRESIDENTE | Pesquisa do Datafolha aponta que Flávio Bolsonaro (PL) e Lula (PT) estão empatados na disputa pela Presidência, que será decidida no segundo turno a ser realizado domingo (25). Tanto o senador quanto o presidente têm 5",
+    "veiculo": "Instagram",
+    "data": "2026-10-22T22:10:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xUEN5RXpSTll0QmtxUGt6d0c2ZWhKSWIxb2JVQzhzT0hUVHBnbmg2NVdOQWYxRjl5VFRRYjdjSVRQUW95RUZid0lKUklBVmtQVUE?oc=5",
     "origem": "google-news"
   },
   {
@@ -701,6 +829,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-22T18:54:09.000Z",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUXFOaFVTVVRhbkpxWmYxMU1hWW4xWWQ5MWhQMGY1Mm9XMU5KUWV3WmFwWG93eHFmaHQ3LThEUWtKYzI2WkQ0cGVHa0Y0LW9BbHhMV0JyZVJ4c2xBX29QX2JyMU1NUHgzQXAwc3o0ckZ5cjNxakdRMWpoNUZkZ3hqWFhZV3ZMMnB1NEdRSVFfbHpXdEtCSlU0X1JMdHgyb1FpZFVUN2hZYThEQzl3a2VyLU9lU09aNDBmRDl1M3p1cTQ2bVFtdHI3alRVMi1Kb2dFNzBGVDBBSkx3ZkdGM0JISE9yS2NoUUZySmZnbHoxNWxvMHRIdmfSAYQCQVVfeXFMUHI1UTZjQXduckdGYnJETENvZlF5a2pmN2M3ZnJZYXBtQ0hKS1N4MXFxeUluQktqdzJJZmpKSDlvWEQwYmVjTnNFbE9nSnFZZG1ieFRMY3dPOUljaVgxeUJSdF9PN2xOLXNVRl81dl91bGJVOC1yQkJXY3B1WnpCbGhXbnY3QUxTT3BIM09EU29Kak9maHQyeXotZGo1Rk1jcVl0a2hsUzIwVHVFMnJDOUlQdkU0d2NxVnZ6UWFsTnNaNlVnMjBFZzZSWnN1VWxpUGwxZlFNUnc0UW90ZHlZVDlnYkhVUTdMXzk2Z2hSSDZxUmFDVjh4bnRLUGZMdWpSdnc5OHk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:11719a870c38",
+    "titulo": "Globo define regras para o debate entre Flávio Bolsonaro e Lula; saiba como vai funcionar",
+    "veiculo": "Estadão",
+    "data": "2026-10-22T18:52:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdHNwVnc1bVNvZ2tFNGZTcGcwcWUtZFV5R1lMeVl6SERUR3pQY2tPS01Sc05ZMXpVZUhYbXNtRlVvaEotZnRlSW9nVDRvaFhwc0JNVDcxbEZEQ2E3RDR1cFFtMlE2eWV4Q1NUbkdlalpIS0J5TEJ2Slp6VVc5Z1BWLXhkYzlVZVlmclJnNmM2SnVKWHd5QVNqa0lMOVNjcUVpeVNKOGlxT3Uwc3RmQjh1ZVFzWm1MSktaay1TSC1lOHFWR2RHZkJrN3dIVFhsbE3SAdQBQVVfeXFMT2xxYzhQSGR6ZlIxTC1md183TXFZZlBnVE02cmwyNnhpUDI1aGRlRjZUeTA2Y0wwTnRrdkNkalVqN0J4Q19MZ0dpQkVCcUFTT0dHbm9BUTU2Wkp2RVZ6QXpyWHhmZlRvUkZQRDN5dG1Ub2JBalpSZEZpYW1UX2V2cmhxRVZoQzJpT3hVb3RwMUI2SG1zYmlqS05DNVJsZjRqcG9wWnByU05MX29SamR2d2JaZ29OWjZJNW1tTnhtalZ6ZHAyR1ljX0FNcjRxUElvMG5jeTY?oc=5",
     "origem": "google-news"
   },
   {
@@ -3677,6 +3813,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-10-18T22:44:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGcxUThDOEtqN01LYmJ4MUp5OE9ObF9GWGpJUU01aTNieFRrTVZRSlo4Q3paaW5GQ3pfVUhFdzZRME5zcGNVT1FTZnk1RkVId0YxakhsRlptdnQ4UHZveDNxdGx2cmI3djU0Wk50Uy1tNW14SW5wdVJpQ0pWdFZrTERsLW0wa3BnRXkxNjBSMGUtT1dWbS1TQkJkRlpQY0hTN3RWM0hCa0_SAbcBQVVfeXFMTzlhQmRlWVEtVEFkSTExN20zblQ3U1NVd3NUQXNyVGlHR2R0NWNHWjhacUVjZzJmMW0zakotTkhLN2VIWVQ4WlN3SWRiVDktdUlVX1NCdkpVc0pyVXlfeGUtQ3BibnFnamFLZ2JKajZ6b196WV83a1lPc0VRR0paa2xMSkgyZEhGNUphVjFEbFZHcGNWTG9TNEdtY0hUQ2pSTXpweFZqalFrQkZjMElaMUdyN1VRa053?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ebe6b3110527",
+    "titulo": "ELEIÇÕES 🗳️ Milhares de apoiadores do presidente Lula se reuniram na Praia de Copacabana neste domingo (18), onde estava marcado o Ato Musical pela Democracia, organizado pelo cantor Caetano Veloso. Estiveram presentes artistas como Sônia Br",
+    "veiculo": "Instagram",
+    "data": "2026-10-18T22:30:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xckUwQmYwdlNDT2F5TXNZX2RoQ0NLeUlNWGJWVFh4am5SbERMVlZYTmN5TENKdnRKU00yczVkNFVnM1N3cVNVbkNzM3p4Mm9vOHc?oc=5",
     "origem": "google-news"
   },
   {
