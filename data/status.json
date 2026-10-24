@@ -5,8 +5,9 @@
       "desde": "2026-10-24T05:40:17.131Z"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-10-24T14:10:16.707Z"
+      "ok": false,
+      "desde": "2026-10-24T15:20:17.051Z",
+      "mensagem": "2026-10-24 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=24-10-2026&secao=do1e: TypeError: fetch failed"
     },
     "planalto": {
       "ok": true,
