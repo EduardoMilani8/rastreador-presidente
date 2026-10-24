@@ -5,9 +5,8 @@
       "desde": "2026-10-24T05:40:17.131Z"
     },
     "dou": {
-      "ok": false,
-      "desde": "2026-10-24T14:06:28.784Z",
-      "mensagem": "2026-10-23 (edição): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=23-10-2026&secao=do1: Error: HTTP 502"
+      "ok": true,
+      "desde": "2026-10-24T14:10:16.707Z"
     },
     "planalto": {
       "ok": true,
@@ -22,5 +21,5 @@
       "desde": "2026-10-11T21:31:31.268Z"
     }
   },
-  "ultimaNovidadeEm": "2026-10-24T14:06:28.784Z"
+  "ultimaNovidadeEm": "2026-10-24T14:10:16.707Z"
 }
