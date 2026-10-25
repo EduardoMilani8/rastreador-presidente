@@ -19,9 +19,11 @@ O primeiro `push` já dispara a coleta e a publicação. O endereço do site apa
 
 O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso acontece em dois casos:
 
-- **Uma fonte falhou em duas execuções seguidas.** A mensagem do passo "Coletar fontes" diz qual
-  (`Fontes com falha em execuções seguidas: agenda, dou...`), e `data/status.json` guarda o motivo. Enquanto a fonte
-  continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos quando ela volta. Os dados já
+- **Uma fonte está fora do ar há mais de 6 horas.** O log do passo "Coletar fontes" mostra o erro de cada fonte nessa
+  execução (`Falha em dou: ...`) e diz quais passaram do limite (`Fontes com falha há mais de 6 horas: agenda, dou...`);
+  `data/status.json` guarda o motivo da primeira falha. Falhas mais curtas só aparecem como aviso no site, sem e-mail.
+  Passado o limite, enquanto a fonte continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos
+  quando ela volta. Os dados já
   publicados continuam no ar e o site mostra um aviso com o nome da fonte.
   - `páginas de agenda pediram login`: dois ou mais dias da agenda passaram a exigir login. Em geral é o site do
     Planalto bloqueando o acesso. Se forem mesmo dois dias não públicos, os avisos só param quando um deles sair da

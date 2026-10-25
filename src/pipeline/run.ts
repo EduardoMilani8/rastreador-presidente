@@ -22,9 +22,14 @@ export interface Deps {
   mandatos: Mandato[];
 }
 
+/** Uma fonte só derruba o workflow depois de tanto tempo fora do ar: falha curta fica no aviso do site, sem e-mail. */
+export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
+
 export interface ResumoAtualizacao {
   arquivosEscritos: number;
   falhasPersistentes: string[];
+  /** Erros desta execução por fonte (o `status.json` guarda só o da primeira falha). */
+  errosDestaExecucao: Record<string, string>;
 }
 
 interface Coleta {
@@ -276,7 +281,9 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   const anterior = await lerEstado(deps.dataDir);
   const estado: EstadoFontes = { fontes: {}, ultimaNovidadeEm: anterior.ultimaNovidadeEm };
 
+  const errosDestaExecucao: Record<string, string> = {};
   const marcar = (nome: string, erro?: string) => {
+    if (erro !== undefined) errosDestaExecucao[nome] = erro;
     const ant = anterior.fontes[nome];
     const ok = erro === undefined;
     // Só uma transição ok <-> falha gera estado novo; enquanto o estado se mantém, o texto do erro não importa
@@ -338,9 +345,9 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   if (await gravarEstado(deps.dataDir, estado)) escritos++;
 
   const falhasPersistentes = Object.entries(estado.fontes)
-    .filter(([nome, s]) => !s.ok && anterior.fontes[nome]?.ok === false)
+    .filter(([, s]) => !s.ok && agora.getTime() - Date.parse(s.desde) >= LIMITE_FALHA_PERSISTENTE_MS)
     .map(([nome]) => nome);
-  return { arquivosEscritos: escritos, falhasPersistentes };
+  return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao };
 }
 
 export async function retroagir(

@@ -272,23 +272,32 @@ describe('atualizar', () => {
     expect(c).toMatchObject({ id: 'planalto:visita-barretos', status: 'publicado' });
   });
 
-  it('fonte fora do ar: mantém os dados, registra ok:false, e só vira falha persistente na 2ª seguida', async () => {
+  it('fonte fora do ar: mantém os dados, registra ok:false, e só vira falha persistente depois de 6 horas', async () => {
     const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
     await atualizar(deps);
     const antes = await lerEventos(deps.dataDir);
 
     cfg.falhaAgenda = true;
+    t += 600_000;
     const r2 = await atualizar(deps);
     expect(r2.falhasPersistentes).toEqual([]);
+    expect(Object.keys(r2.errosDestaExecucao)).toEqual(['agenda']);
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(false);
     expect(await lerEventos(deps.dataDir)).toEqual(antes);
 
+    t += 5 * 3_600_000 + 50 * 60_000; // 5h50 depois da primeira falha
+    expect((await atualizar(deps)).falhasPersistentes).toEqual([]);
+
+    t += 600_000; // 6h depois da primeira falha
     const r3 = await atualizar(deps);
     expect(r3.falhasPersistentes).toEqual(['agenda']);
     expect(r3.arquivosEscritos).toBe(0); // estado idêntico não gera commit
 
     cfg.falhaAgenda = false;
-    await atualizar(deps);
+    const r4 = await atualizar(deps);
+    expect(r4.falhasPersistentes).toEqual([]);
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
   });
 
@@ -787,6 +796,7 @@ describe('atualizar', () => {
     const { desde, mensagem } = (await lerEstado(deps.dataDir)).fontes.agenda;
     expect(mensagem).toContain('rede caiu A');
 
+    t += 5 * 3_600_000 + 50 * 60_000; // a falha passa a contar como persistente na volta seguinte
     for (const texto of ['rede caiu B', 'HTTP 502', 'HTTP 503']) {
       cfg.mensagemFalha = texto;
       t += 600_000;
