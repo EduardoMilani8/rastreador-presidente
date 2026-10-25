@@ -47,6 +47,8 @@ a { color: var(--texto); text-underline-offset: 3px; text-decoration-thickness: 
 .abas a:hover, .abas a[aria-current='page'] { color: var(--texto); }
 .abas a[aria-current='page'] { border-bottom-color: var(--texto); }
 .aviso { margin: 12px 0 0; padding: 10px 14px; border-radius: 6px; background: var(--aviso-bg); color: var(--aviso-tx); font-size: var(--t-apoio); }
+.aviso a { color: inherit; text-decoration: underline; }
+.aviso-eleicao { border-left: 4px solid var(--aviso-tx); font-weight: 600; }
 main { padding-bottom: 64px; }
 .rodape p { margin-top: 0; padding-bottom: 32px; color: var(--suave); font-size: .85rem; }
 .rodape p::before { content: ''; display: block; margin-bottom: 14px; border-top: 1px solid var(--texto); }
