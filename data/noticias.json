@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:d41029cfad9c",
+    "titulo": "Lula ou Flávio Bolsonaro? Veja quem está ganhando em cada país no exterior",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-25T14:54:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmFtQnFpbmZ4alVVVlVaSllPeENBazJWZ2UxNTdQbTR6WTBkMEtWNlBZa1VTWC1hVG9HNy1DUVkzbk1ia2FucWpfNWVMNlRjUFlaNG81VzMwMHM4RHF1d1pOWm1ua1ZJMllnMWNRRE5GcWRjTmd1eFNWNHhkXzBnVVVnXzNNWjdzYzkxT19jT3hqMjY0Y09BWG1icE14V2FIODVNaW56aFR3VkhpZkFF0gG-AUFVX3lxTE1XQ0YwV2luZUJ0WlBzXzlCOE9GUzlDMFI2cUNYYXBWeUEyUUxDVmNCTERIT0ZBRm9XLUtKT0pqN21iN012WldBV2hLX0lOTzFNWFFkZE9GbUtPajVEOUcwS3JNLW5WWjJnekZUTldIQWFLUmlZU0NRNEZvTWI5bVVwaW9JU3BleTludU5vWldZdG9yenZQZzlCOHZZVGMyT1NhejJSbUhTY1RNZUI5cC0tV05XYUxiMGdkS0tmOWc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:bf0d31041aaa",
     "titulo": "Lula vota e enaltece mobilização popular: \"nunca vi nada igual\"",
     "veiculo": "Agência Brasil",
@@ -16,11 +24,51 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:bf81189db5ef",
+    "titulo": "O que acontece se Lula e Flávio Bolsonaro empatarem neste domingo de segundo turno das eleições 2026?",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-25T13:38:30.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTkszdm1vOThwdHRHbndFRjVFZUF4N013R2JacURkVmFKZFVaQ1lXUEQwTWJ1SEQzemNPaS1uUlUyWE82OXU4TGZrWkdUQlljUnVRQ2dMTGVyMzhnR214Qkl2OXFneVJNcUVXQW5WZUd3RVdWOUhPVHo0U2QwRl9mTXczNUNtQ3FrdzFkUklHX2lnc2JhV2dfRkE4OE1yUU5sQnRTUmxEMGl2R1hBeE5XMjc4aktpXzFLdnE4THVHOHZBRzdzWm9jMGNnYXV4S21JNHNibUNZa3hRUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7fe2a389728f",
+    "titulo": "Lula vota em São Bernardo: ‘O que o povo fez comigo nesses dias, não tenho como pagar’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-25T13:34:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaS1sN0toRDdYX3AtVFdQUDJhcVdlZzg5Qk1lb3hMWGdpM1l1ekNVeDYtYWV6QlFNX3VaNmlSOXNpTU1GOE10R0pnVUV2MDZCd3dVc2ZKUXpRSG5PdGxDWWQ3NTgwSGkyUTJaYmFveDhObElNcE9IRkFpbTZaakpBQUNDZmdWQ0xJVm10OTg5OE1tRWtIRzBWd2hmLVV5TU1Sd1lJRnRBQ2JZWGtUNnB3T2ExbDJzMTRIVXZJaDhWMXdraXho?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2d10f9890618",
+    "titulo": "‘Por cada Silva do nosso imenso Brasil, nós iremos vencer’, diz Lula em artigo",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-25T13:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXZKUy1MaEs1dk8xMWJ2T21xb2l4ckRrbG5mLWFQYlFBMF9Dal9ZNDFDYjhxVERiM3pLUTB1eWN5cFFTYkoxVjcyYjJYaHlqWnhYY1Q4WFVqNWo3cTV0SmZhdnBseENfS0dISWxMQjFZZ0N0OEc5RXdodDViUWIzTG5qd1ktZ18tcU9FOUFPTjBiRzhEM0JOd3I2WXoxbWs4cUlwdFFHaVU3ODBFZ0NSWGhSSVBnZWo0ZkE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f3b8c26ce2dc",
+    "titulo": "ELEIÇÕES 2026 ✅ Dilemas, futuro e o que move o eleitor: o capítulo final da disputa entre Lula e Flávio em análise A disputa pela Presidência chegará ao fim neste domingo, 25, quando os brasileiros retornam às urnas para escolher por Luiz Inácio Lula da",
+    "veiculo": "Instagram",
+    "data": "2026-10-25T13:00:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5VWhLVUV2dWw5X2hVVE1lR0xmN1Z3M1RYbUwxQVlzcVlPbzR0UE1Jc3RPZjlhSWVnUUw2aDlvUGFFQ2RqSnl0U0l3TTBKcWNWalE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b1774526d821",
     "titulo": "Lula destaca mobilização popular, e Flávio Bolsonaro defende mudança; candidatos votaram pela manhã",
     "veiculo": "G1",
     "data": "2026-10-25T12:20:08.000Z",
     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUW55akd1ZU1BM0VNa2ctTTd4ZkphRklwZkNjdnAtNmpyV0VSaWEzWlA3SDR0emxjbDN4NnNDSFlhbGlZNlFlLUFPVl9KdVFwVlduSG1qVE4wY3pXSUVDbEdqRUdoRkJrMnFjcFh1eTdyb09YTi05dHBMakNfMmFMRzdPSHpCUjI5QVVYNXAtOU5ZWGF4Tll3VnM1Q2pYSmVIdndSV0owbklIdlREVnpFaFRJaGxMNjlFUXlTMks0R1MtTkRkaFg2aWE2Q2RHNWxYbUFIMmIwZUhSM01DNFgtVTFfSWp3QTFhSWfSAfgBQVVfeXFMTk9VbEpyVVp3VE53eEktRzVRaXMtWnExODI0MmdDUlBvSDdIZGcyMWpFelYzZlB0TnFKS29WQW91ZmZ5RFFaOWIydzhVWHNlTDJJdW1WUm1fOTBDTzlKTjFnaE93aEVLMjQ4NkVKNFU4OHBJMTR4bXJCeXNoU1JVcHJzREIyaW1fcURnZGxlTmFLMzM2cG5nZEVKQlUtN3NRZVZGc05Wb1pGMEFROEJjMHZmUktrVUtWR0RCc19MM3cxTWlmVnlzVjl6cnExQlhidWFPVnlHN0s2ZVVSd2lOeUUzRkpRYnVzV0dQZXJiUFlhWFlnVVFQMVo?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:589468d4213d",
+    "titulo": "Ao votar no Rio de Janeiro, Flávio diz que representa a mudança",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-25T12:15:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3lJMlRZajJwYzRSSWczcTNhWDU2bGNvdFVUdWR1Z2FyZVhxUWQ5YkxtdDk0ZWpvQTVDcUkyQkxhM2pmanBLQ2JTOENBM3ZOa25LQ3cyQW5jeUVHZHJjdTN6WU5qQ1lwM2FTUHNXaUtsalhIZjgyQ0ZQT2hoanhrVmdibDZNS1Ixay1TSHY4d1ViNzhoV1IydkZhTjFJbFc5eUl6alh5am56eDdZQUg3eDJTdUxvNDViQXc?oc=5",
     "origem": "google-news"
   },
   {
@@ -32,11 +80,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:306155f52ace",
+    "titulo": "Segundo turno: Quem venceu a votação entre Flávio e Lula no Japão, China e outros países da Ásia",
+    "veiculo": "VEJA",
+    "data": "2026-10-25T12:02:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWExN3U5VUZUN1VmbFMtZXBxLWVseEZaWi1XOTBqNVBYUWNHMFgza3VQUXVXUjRBaFRXYzhwYUpidmxXV1N3N2ZQVzZQVklGcjZ6VmJ3TlNPdUVEenlKbWZOdWtmQVJWWlFmNVkzMGpfNWhFekRTSWpHWlFQMGlWeE9BZU4yeUI3VWU4bjE1MW52Ni1ua3dodWpsalBSejZGSVpoSkdUNEZ2UkV5Uk1VZkNtNVEtdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3b3b50b2480f",
+    "titulo": "ELEIÇÕES 2026 | Os eleitores voltam às urnas neste domingo, 25, para escolher entre Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) o presidente que comandará o País até 2030. ⁣ ⁣ O segundo turno foi marcado por três semanas de troca de acusa",
+    "veiculo": "Instagram",
+    "data": "2026-10-25T12:00:16.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82MWN3NXB4ZW1ZWFk3TnlxR1ZVZ0M5QjctaXk3WEpzRldkZHU3bGQyVlUxcGVya0hmbzQ0c1Z4cWppbWNXbTRPSWhaMWhqSU82eVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:9cf97230b6e8",
     "titulo": "Votação no exterior: quem ganhou no Japão no 2º turno das eleições 2026?",
     "veiculo": "G1",
     "data": "2026-10-25T11:14:46.000Z",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcTMxYWNLb1BvcFpoM2RfeEtacHVGWlNrazJqWVpNSVFhTGRtT2dSM0EzakdtRk94X3FKRktrTGhEM0hSb1hncExpOE0tWGJmZkpMNG5zSktoNFF4WHdvdnZYaWlQcDc2TkktcTdPTHl0d1NRNmtPU1BxV0l4RWRRc3hmRDNiZWtYRnp5bDU0UdIBngFBVV95cUxPOVdncnZRZXlHNE1xLUE3U041cUR6bWhhZEVqVjBMVEFZdXJXYVh6VlRTa05NRlZIZ2dLWFR0NnNpYnZienVULTZTMlZiaE1GbE5FUmNTVVRXdkFaUU9nakl1WmpUaWwwbHJCaTRWdXFWcW5rNnp5NWdaZk9XdUUwWUw5aHJOWTZUYlZ5U3hFUTZHVGNuZ2RkVVVZbjJSUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c89f3aef9fae",
+    "titulo": "Votação no exterior: quem ganhou na China no 2º turno das eleições 2026?",
+    "veiculo": "G1",
+    "data": "2026-10-25T11:14:43.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmVwZC0zTjlPSWUzLW93RnNpWGF5WmxrYjJzUlJGb0NNUWJ6Y1ktaE44WFNTSE5leFR5blg2aGdndWF5M2Fwam0wRUtTUXVXdG1jLXRHa0ppQXl5dEROcVlNNUVlN29FSEppeVVVRjZNU0hvc2ZpQTJYTGF4Y1k5NUJWTUJnOUxRd0U2Z3RSTdIBngFBVV95cUxOVGl1cDRSZkM4RFZWMndGbUlxZlBmLWppRDFEbmZ6LWp2MlZyYlpzNmpVRVhDdW5OZm93bzhrNXJ5ZHNSdXd6Zmw5eUQ3S09TQzZ6U0xMemFVa2NSTk11bEc2NF9jRG5WWVdfdXpkWVlyajZWcDlfd0d4V2hfX3VSdnNqU1FVSWlkMTRQcjlHakdVVWhiU21uTVBZeDZKQQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -48,11 +120,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:9d7b37c6b1b6",
+    "titulo": "Eleições 2026: relembre como a Paraíba votou para presidente no 1º turno",
+    "veiculo": "G1",
+    "data": "2026-10-25T10:30:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMk5aU0t3cVB5ZHRHdWptVUc0NVdJeVI4d1FqS0wyQ1VhbFJGbUxucGxsSHJxclFzVllOMFp0U1VFSV9XX0RJOFRuckN4YUQ1MUx5VGZCWjRIN05tcWJVMms1QTBLeDVNR21LZTJFRV9qM2pVU1lWdVctdF9DZGU2TWxXbWpfdjdodWRJZ1ZSQ2Y3NnBSZHcwM0YwaUlnbURzUUduTWNzeGpEYTBCMHR4Yk9HM2U4RWhMcHcxQ3VHNGNrRUVMTDU4LXJscmkzOWhDZ251QkcwSUlGQdIB6AFBVV95cUxQb0ZTYXFNS2JTcmVYb2NBN3F0VlQ0YzFPMUFOQnFRYUUxSFNnTXhiTHVWQlpjczBkM0c3V2ptRVNZa3ZQTHFSZnNyMzNVUUx3WkVlQW1iS0VUSVl0VVlPcU9VRXhza0pnM3hEbUZXTWN2QVlJUG9Qbm1DbTc4YlVVT01VNjRNTXRna25yR21XVDYwc0UyMWxFOUtIVjZacGNuRFVhLXlDSDRFbU1CTmtqN0V1TTFMMm5GeVNNaWpUb1JXY09laEtUTWlpemwzY2VscWFDUlZEMVk5UWhSSkM0ME5GWFllbGR1?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:be57520f3ced",
     "titulo": "Lula faz ‘campanha perfeita’ no 2º turno, mas pode ter sido tarde demais",
     "veiculo": "JOTA Info",
     "data": "2026-10-25T10:12:11.000Z",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVDhhU2FOZE9iYkZ5Mmx5MVFIeXNycjZuMnZSVFdXeHc0dVIwWFhoMVVTZmFiZ09Ucl9vb1ZEOGhCeTR3VVFTRENvdEdKaTBSY0xoTkZTa0dnbTJ2NUFjcGJtNkptTnRIc090UjVzemhDWVZmNkRGN0JnTzVrRVVXS1dSVmt1a1JYN0xJYmJob0Q0VzJiNWx1aFVxSGxwdEhXc2RmWDRLNlNmMmhPYl9qRmFYU2k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dedac69aaaf6",
+    "titulo": "Lula ou Flávio Bolsonaro? Eleitores explicam motivos que os fizeram optar pelos candidatos",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T10:08:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcnptWHFqRC1SOEc0QzFSWDd2ajdDNE5SUlVfT0Rad3pMZURGYjhDOXpYSUZaVXJSRkJWUjVqeUVaYldsTVpwU3lFRFN5Z1dON2hjSkI2VXBiTnlqU21ERFhDYzlIc04xUV80dU1LdWpsWnJ2dHh0dTVpdVNTNTFOWjctWldfeV9uel9UR01yZnhickpYSGZUQVhwdWVWa3FVVzZ3SGwwV3VnSlNhMFdkSno2ckIxY09fVGE4aUM0d2JpT3NxN1dVazhhb21ibFc3azdKVXhPT2h4dzVOczJGTWdwRkxyUkZHbGpIakRkalN6Rktr0gGDAkFVX3lxTE41Q1RtNV9Xc19ZMnpWQXlvRmJpNmdqd2ZOclFCUGthczZWZEpLSjJLUmhubktmV21FbmhEY015N0xlY2l5OTh2VWttOHZaeVh4aHR1Z2pNdHZWc19seVd1Wl9yMmZvaHVFQUF5WFFCbjBVSF9DYXBLOW5pQ3hTRjBGaFliRGZsVDhMNXd1ZEZQcHIyRXA2WFlWWFczaGZmY3Y1QmgxU3VUUW44d3lLTzcybFEwckx3bFllSWEtcHN1SThDTXdIN0NxeUczVzNWLWdMbHg2WmlFNE1CMFlWWXU5dkVMbE1oZm56TEdJb2g2NFNRbkJQVEZHdFhIUUFoV2pwQUU?oc=5",
     "origem": "google-news"
   },
   {
@@ -88,6 +176,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:970e217ec6e2",
+    "titulo": "Lula vence na Austrália e na China; Flávio leva Japão, Emirados Árabes e Catar",
+    "veiculo": "Estadão",
+    "data": "2026-10-25T06:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWnhxMk1zUkYyVWE0OXhmOW5kRHRBQjgyODNDSy03eGtwaXVuYllTRmplcnI3TW4tRURzWm1Gb3I5M3BkYTRha3NROHlFYkExWU5DSHVGa0Q1OGpWYjBmbF96T0tpQ19DVUdNMVlMak5uV2xKVHI1ZlhSb0pJOXZaWVJoc2g2S1BYa3lXSmFsOV9DdkRxQV9VYmh4dmRaZFp2UHRHLU1fQVFvWUoxWF9YeWdCUTctNEdwZ3FvNQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8f51d32a2503",
     "titulo": "Lula ampliou vitória sobre Flávio Bolsonaro em quase 10 pontos na Nova Zelândia no segundo turno",
     "veiculo": "Brasil de Fato",
@@ -112,6 +208,22 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:9b691b31f571",
+    "titulo": "Eleições 2026: que horas o TSE anuncia o resultado do segundo turno?",
+    "veiculo": "G1",
+    "data": "2026-10-25T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlRVUXd0T3V0V2NGeUZGVlpOVnl2OE1uWkdXOFBUcXRURXFWT3dCeV80dkRtLU12ZDFBb0t4ZklYTGZNWEVSZWNNYkR1V2pMMGczYnVoTXo3dmh5UndQTjQ1RW42OW0xbTFWaG93NXphNU1SeG5uWHlONjczZE5jMHFlM1JwMkk2TnJBb3V2MHFrUkNXOW00dGRFVWNyd2tfN3B0QkQ1dXlzVVBpOG1VNkRuUkNCaG5qemNzZWwyMHBNb0XSAdIBQVVfeXFMT2tZb1FfR3ROWVdSbFVOdGtDdWlxRklWTFJsakhiZ3diSWpaUENQTURqT1pLSlhGelFidnJ6Mms4endMTU5leUlFM2tuN3JCeFh0TURaczBsOGF6Q2pBMF9XMlJHWXJNbjZSWnhpRl9WMXlnSDRTaDVUZnlISFlkWDQyenZMRmFidWd3VWp3MlZ6RHoydGVON2RDVkxUd2F1RWlnRE9IVXhqRTJrNXFOT3BCY1NiZ0JreVRjTnR0S1JKdXdxTkVNWjJvVEl4TW9uejBR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a361f3034bdd",
+    "titulo": "Presidente da República: o que faz, quanto ganha e quais são os requisitos para ocupar o cargo?",
+    "veiculo": "G1",
+    "data": "2026-10-25T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZXUxd2JQeXZNb2I1V2xoY0d5a1BEMUxJUjRLV3AxWmhRLW9SakhiQklfaEl0UHRneTJ4c0h0b0JIeVJ3ZlhmTGZFYXd1SHB2aFdmSlc1TXI2SlhNUFk0RnZFMUowY0lPcXFvaDhMSGFnVzJiR2RnUFFRVkVEbjhScG1xdDRWMnIwT0JZNml6LUdpbG9CSHhHVEptbG1wWVp4LXdNQ1pRTk9yOVF1RjJJV1NEMFRiNzZzVURJSjh6Z0FXaGJxUjNQdVpBOTNud2RJZmkwM0p5UXllbENIQmVnZE1IWm1XeTh0NHFkNER4Tkk5OHPSAYICQVVfeXFMUDl0V3JvYWNxaTdGYXpwNHVwWW9aRER0ekt6em13UnFWNXdBTDlvdmhrUTVsT0xTLVl2VS1WWjFTb0lCTVFNNXcxamxSM1ptWHdrSGN4TzVKMHJTVGxHbzZMeDlvMXVhTzAtd3NVVGJ4OXhvSENZc2I2TlU3QzhSbEw5SHlPbTZaajIyQ09ISDhkNFFqWjRYZ2VvU3B6elNuX1RKa0lBTHVoSFBoMkFBZWdRUVotVm85LTBmQUV0S0dqYmVUOGxjeDBlN2M2M0ZicmRhaC1iUXkzUnZHMjZSWkRRLUJCdnk3VmhWMFlObGhMa2RPX05FMXFvWm5fRHl6WXVB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c99901820aa9",
     "titulo": "Eleições 2026: o que acontece se Lula e Flávio Bolsonaro empatarem no segundo turno?",
     "veiculo": "G1",
@@ -133,6 +245,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-25T01:45:55.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPXzN6QzZNNXpOOXZxQ2h4c2VxcnBjRGNUN0RWSm11ci01MUdtM1BmTW1HWURGQlpSX0xEby1wOTVwem1QaEZvQ1dXSkxvNm51cTBONWNkbVRNMDhlcEN0djJwQjdCNkNyM1FVWk1lTmdfNXRCUDlJUHJ4ampwU09xcjhqZEN4N0FzQnJwM0c4S21OYmNrOUZuWWpXc0hQM2dVa1IwQ2hHd2J0U3lSZzMwU212MEVNNkZ6N3pjYQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:256bb7e76df9",
+    "titulo": "Análise: pesquisas apontam favoritismo de Flávio contra Lula",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-25T01:39:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYV95ZFZHbVQtN2lIcGx5UHpTQlNRUDVJazhnTUdrVThPWGJzNHp2blJtNTUzRk5iWkUtREZlS3BraWVYLWc3V2hWQkkySHF6NW8wTWFCYmdNMDlDSEp0Mkc2Zkl4elgzNWgyOFNiYndZczJBUzlHMzh1TGdpQ3hvTVFXTU9zbl9wcW5KRFplQXJGMEh1c2UxYUVsQ3VnVzdselU4S1owMmM4LXg2YWc2X3E5di1XaHVEeTdr?oc=5",
     "origem": "google-news"
   },
   {
