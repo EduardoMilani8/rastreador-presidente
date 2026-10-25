@@ -24,6 +24,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4161de5912ca",
+    "titulo": "Rali: agregador do GLOBO mostra Flávio Bolsonaro com 50,6% e Lula em 49,4%, um dia antes do 2º turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T00:37:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxON1JoTzQyT2J6R2s3aGpsQWh0RG1Say1XVV9PQmJFeHVxYnExVTIwM0R5R0dHaXB6ekFDOXdpR2g4dkRSNmR1MFhHSTJrVHlrMUVGTXdmUE9TbmdEMHhnNlo0YlhWYWZPXzZvdHp2RWNyZnhTQnZLSlQxU19pU2dWV3NtREt2VUs0MmhEMXkxWnR4bHNpUHY4RF9FdFBqMUp5bDhoSnRMVlhETUJuTW5pbktMRDY5REQwZFAwdWpBYVhBNTYwbGFiS3N1Z29KSmdFOVhJQWpXRlh5WUptMnkwM1VSLWpOdXZiS21POWh6WTFZZWpjOWfSAYQCQVVfeXFMT3c5dmRCb1FTcDVfWFNaSUprT1FWaVpERXhLY0x5YUJxZUc3VDIwV3pGZjBpWFNEOVRMQWRnSVJ6ZVRDelpEUnpHd0dCVndtcWJBSmlzTGZfRk9lWlFvb0sxNDN1ZFJfcGczTDJPbzE3dHRXYUkwWFVGWVRsZ01FZXJKOU1RcWZxT3NMTU56UFFWMkw1TWlpNkNnVEM2VzJpQnZBeV9PTm82Sm40SUlydkFQVlFuQlJkT3JRa29hTktMWk90QTNJOHdNMTl6VDFsVWhqbnBzX2YzSlJRd1VoS2lPNlRqemVzWk5Velp0ZkRrOWdKUUt4akxtVUZXb2lBMUc0bmI?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1c902cad74cf",
     "titulo": "Pesquisa para presidente Palver: Flávio Bolsonaro tem 50% e Lula, 49%, no 2º turno",
     "veiculo": "Exame",
@@ -136,11 +144,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:54effffbbf0a",
+    "titulo": "Datafolha, 2º turno: veja intenção de voto por região, gênero, idade, identificação política, renda e religião na véspera da eleição",
+    "veiculo": "G1",
+    "data": "2026-10-24T22:47:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObzd5WEEzYWRxM01tTjFxa3pNb0ZfRVc3T01ucklUR2ZhUEFBYlJodzF0RXpEbDA0Y0FQZzFWdS1qTHV6Z09vQkJ2cWFwWjczdG10dU04STIyZEktM2Nwd2NWZms4ZVpxUm5mSHJBRG5zZkZXVHBnQkZlWkNOVnY3VTVNVjg2WXRnN3N6U05XUk54V2VsSWJWVWFlUUpSOExPNzFHRG9uYi1oZzZWRHZoTzIwOEdxQno0YUxvcmRzWV9vUGZ6N2JB0gHWAUFVX3lxTE9tSDA3MVZvT2UyS2RhaS1nWERFOFJ1aGxMcm41WUdYVUVMOGxXNk4wUFFxWUI1ZkRsMl9TNUtMOEJ6TUpWdzRfTHo2ZVRLMEZNMGVnelBITzdvSUp1SEotTlhWS1hKS0N2NU4yR1pPcXpSN1E4bnhnMHdhS3RUc0V2UjVoQXh4dTVjWDh3UDBySFljc3k3VHRkVUxLNFo3UVpuQUd6eEFBR2tqbDRLUGZ1dUM1d2EycmItN2UtSzZlMmxQdkRBbDlSRGIzZl96VnloWEwwUVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:795e994f49f3",
     "titulo": "Quaest: Flávio Bolsonaro recebe 53% dos votos da terceira via, enquanto Lula soma 35%",
     "veiculo": "O GLOBO",
     "data": "2026-10-24T22:41:54.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORTJpaWZJUGU3eVQ5djlscHdic3ZpS3UyTFZQakx4ZmtNR3oyT2Uzb294TGRjTGl6TnEtT0JsWmdVRUo1RWZVWTJLbll0QXZUUE4wejZNVktrRXBYVGc2OWNVQjBNMFdqN21idTBsWEpjSmo5Tnh2d2pUN0RVSFdGdXBTQ2pfcGJFU0ZDV1dEa3JpRDlENDJnWWpyc2xpY3NBcWR5eHdMdkNBcXd4TGlQaVhPZDVZTG9qZ0FiTnJjRjkxLW5pNm5jbXNsM2JrYTRuVGpsWVkyajE0a2xtbUxoQXBaNzJ6QdIB9AFBVV95cUxOdjRNSlRZUU11VmtTSGJ4WWNsWkIyTGZOYnJtQmVHMUJUYy1ONTRTM01GT1NNRmVJYi1aUEUwd3R6RXRiTkp0OWpWQWNndXRmdUttVEdCZHdSdkxKVG5sam9IYklPUi1IV3ZmbEtvUEIxajNqNVY4WDhLWVFYQnRHdzJ0YURzdEpyeGh2X2t5Q0dId3o5LUcxQmsxY3BWQjUwNF9KZWRCd0pDd1dlSW9JSml2VGYwc2NFVXkwR1R4RzBJVFdUVlhIVXAwQ2pWNk11eXEtdjlFekozV1VXOU9ZQjVDSUd2Q1otR05PVzBrTGtuUkwt?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7022caf9b0e8",
+    "titulo": "Flávio x Lula: o que dizem as pesquisas divulgadas na véspera do 2º turno",
+    "veiculo": "Jovem Pan",
+    "data": "2026-10-24T22:31:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGR2cldDcEJoX1p1LVpMRjF1amhuRS1Id1NmVE1DQWkyWG1HY3ZYVXExUTZxWm5jM2k0cTIxNnEwMDI2MUhPWTJJX2h3N0QzZHJ4Z2RFVmFkYTZFRnJZQWo0c2hPRGtXNXBYUHhiSzM3NXhFRHBGWUJ2QVVtU1EyT1BEYkNNcEV0R2J1c3JQZWYwTlRQYnRLbzl4dG9KVENFcThacEJ3Tm5KQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c2a3b65b9f77",
+    "titulo": "A última pesquisa AtlasIntel sobre a disputa Flávio x Lula antes do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-24T22:30:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMnI3NWxJV0hUNkhnSm5USnBjY1ZOc3pTUU1OeHRxRlNYc1pscTlzT1JQRlU4WVNZdDNiWTRWTUNLZFFoWXVtUFU1UTZqWWdZb1RBdWpoaXlmZmp4blZrNmdIMGd1WkNaYnI4TjRLbUdCMlFTN1VpdmJnbUJXcXBZQ0ZFalVZVW9KZklmVzFnQU5mRDRpaUNKbzZDbGtPWjhzX1VRRmt0RXVVTDBkd1ZYVERxaVNuTGpQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -296,6 +328,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:e5447709ec6f",
+    "titulo": "A nova pesquisa BTG/Nexus sobre a disputa Flávio x Lula, a última antes do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-24T20:47:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDZ0YkFLQUQ3V0k2VDN3SFdFMzh6M1JKUUdmMjdkc1M0bHJQZEtPbXpHc1pFekpqbWdZNkFLdVA3TEpvOUg3YklfWWpxWEEyZTBwM1F5TThRbkpweVo0NlM4WDRwOHV0a3BzZklqVFlmZFBSV21ITUptV3RQYkFsbTNUb2R6dkJUUk1oMXFuTXdvby0wSG5YMHdtWXFlR3QtN2dRcHZfbVkyeGJENlVUMEN3UVdPV2RILXJIVVd3YUs?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e5346cbf8f1e",
     "titulo": "Apoiadores de Lula e Flávio vão às ruas em 15 capitais no último dia de campanha para o 2º turno",
     "veiculo": "G1",
@@ -312,6 +352,22 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:44bc86e26aae",
+    "titulo": "Lula encerra campanha com ato na Paulista, diz que Brasil quer 'mudança estrutural' e associa Flávio ao 'retrocesso'",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-24T19:50:42.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPY3BXMTE1dDJJdXBsVGxZQzd1WnpudlRZWFNLbThDNW13QUdJSm9BbTJaYVRKaHRyMmt2aU1FQnhvcXpvejBDN1VEc3p3MTR5TnNDWEtpYWZabGhmY0sxaDhYTkN0YlY0ZjVwbnJJczEwVi0wRnlfeXdyeWZTQVpmc2NZdXpoNkI2ZjVVM3NycmxnMHdDSHBKd3Y5bXQyMkNGQ0FqbHFldmVCWjBieTd4TUlZT2NnVmp0WEdheUlQSmdWTTAzdlQyRWR6TlBRNjBzVXh2bXFUQlRkQW16QmFCazEtc3RxVUpPTGYzVnkxaTZCSzljMjlzWXJFQ0pDaFY4Yk9KeHQtSGxNc3dFTTJSTzNR0gGgAkFVX3lxTFBVRk95dXZnaEM4TFZWN0VkRkkyS0psYUs5Zk5TZEQ5R0E5NWRfWS1ZZ3lUN1A4SEptaUh1aWttUFFZblNxTFdZc1hwNk1jQTI4Vm5MYkttZWxDcl9QVlVRVkZfdzQ0SXNjTFkzNUJCNVJXcmZSVGF1aGRmdWJwUVUwUG1pdkhPY0pwcWZva2ZCRXF5N1JLaXlueHU0djNrMG52ZmhRYS02aGVFb2tJWS1WRVZObThxNEJlenp3SWxnRDUwMW91amJ1TUV4aWVnWnR3WG9ldGdFOU9sWXNVaVBWSlJrc0pYUTJxek1MRE0taU1CWUo1akhvUEswQ3JOUFoxZTJ0TlpmdDhOVl82bGIzNUUxUHVpSzBnLWpsSWVIdQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ae2c8df482b7",
+    "titulo": "Lula ou Flávio? Personalidades declaram seus votos; veja escolhas",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-24T19:03:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbTh0NFZWUjlDMUY1YzR4WkxoTVdlWWV2cGY1Z2Y3bE9RQXFCU0lJMHhBb0dNZTVXb1JnOEI3Z3hEOVd1al8zZEllTDdhaXF4U1BaR1NKSGk1QUw3Wmx1clNGNlBKQURqMzBucHpJOE9ucXJJLVJhVE5wZ3JRMzVHRDFNNXhFbHIwQjZvcTlfeXVMcTUxbTA0SzFWZk9CX2I1andQNm5HQUZ1OXZmVnZHQW1zRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:01f3103be152",
     "titulo": "Flávio Bolsonaro x Lula – Quem são e números dos candidatos a presidente no segundo turno das eleições 2026",
     "veiculo": "JOTA Info",
@@ -325,6 +381,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-24T17:01:17.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHhkdC0tMVFNcmdXalotZEZtOERUaGl3RWtackthUU1nUDhsTkdWTWVpVTJvbXZoNzEzY0stQTEyYWpHX3NVcFdrR0hSQktydjNtaDN4UEtCaGNQXzBWWmVrWV9VajBmdU9LZ0pYdkRaclJmUlc2TldmMDFleU1iRWZodEVCQUg2bzB3TVZkUHFYeHl2cThPc0otVXp2UExzQ092blVBeUUyZnJhdGU3OTBmVDRkYUZ5S082S2x3WUJFc3c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5ae40c8c6be4",
+    "titulo": "Presidente eleito terá 12 indicações no Judiciário e 45 em órgão reguladores",
+    "veiculo": "Consultor Jurídico",
+    "data": "2026-10-24T16:40:04.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNGNWWDFRakE3N0RFZUMyWk9zay00SmZyZmExaXFNZjVrc3V1OGpBNmxCRGFtdU5XMTFURFhnVUdDa3oxVUFCX2pRUGw4dnZlRE9rMlhadTFyMl9WS0hjV2JYbkRTRjBmMUxVSElSRTJKVjVYRXVNekVYR1h1d21qdVA4V2dTZVg5RF9oT2w2elFRckFmUEpJeFJ2N1lXNW9IVE56T1gtQXlmVlF4dk42WA?oc=5",
     "origem": "google-news"
   },
   {
@@ -389,6 +453,14 @@
     "veiculo": "Instagram",
     "data": "2026-10-24T14:38:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YZ2ZYWUNhSmVxNkNjUHhIdzVSSkZtX1pPODA5V2tkM1Z6eHNoZVVkbUtqcjRaNHNhMXpsV0Q5ME5xZVZUcUVpdEc4bzR2VzE5VUE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f794d9b08fde",
+    "titulo": "A nova pesquisa CNT/MDA sobre a disputa entre Flávio e Lula na véspera do segundo turno",
+    "veiculo": "VEJA",
+    "data": "2026-10-24T14:17:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc2FRNEpfOUhQMDU1STFIa3Z2UDRqSFZLS2dLdFpQV1h3aXRZVnQtMjVsV2Z3QldodGJIVk5xNG91SWxYZ2R0QzBhakFUbW50RjktUWxpMXBJLTBpSDVVNHhXOVVGbUtoYVdSaVFvZkM1X3hBNHB6Q0ZSVnFoVG5IOGlGb2o5VWZwR0lya3ZMZzNrcHB0R2VValNodHNzR2Rld2tUUmVyRjZ3Q2U2TmFWRFI4elZlb3I2a0xDbW5waGE?oc=5",
     "origem": "google-news"
   },
   {
@@ -813,6 +885,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-24T01:53:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeW5YMm91b3hHTGZYalhxMUxQY05SRmNTWUdUWkszN2V2NDJjWGVIZ1h4ZE5XYU0xcV9HZGo5X0g1cUhzYXpmNUxaQklOUzhVMjFkazZvcUJCN0JaLW5qdUx1SkNoSXVSX1pkRjlmQzdfSm8wZFhERjhacWFabFNuV0ROZnVxVmNKQW5jWUZLU0N3aENKWDdxSGZUQm9FMllLdjRaZEQ1VDNPY00wRjduUHYxY3FtdFMyRjBvS1FlTkNkV0RHa2xzVzRqTWx6UEE1NFVLakt3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:999eedb9360d",
+    "titulo": "Lula: Veja as propostas do candidato a reeleição em seu plano de governo",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-24T01:51:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZnNudTZhMUtFVGJqeHZrN0ZhQm9lYzZuUHF2ZERjMXRQZnlzWGFUNzBkd2hsS0RoQjdUelBfQUJzN1dyU0xvc09xb0l5cC1KZVZsNDRieWxYZlN1dlVobVdHNzY4SmllLTEyWk9LdEREbXlYZFBjWG1ES1FCT0JQVTdLdmVTQWdkcWZMZVJCMWM0MjQzY3BBSF9XSUNGdHlVdDBsbGlqXzg1Ylh0QmFOak5TQlB1YlA2a0pXZDFLbVota1ppSnN5c1Jad1JwWW84WnRqSnF6RlpybUXSAeoBQVVfeXFMUGF0SmRnQlhWeHEyZlU2MHYxQnhBTHRlWElndWVmU0FzWUMtUS1ZX1JyVjVRZWg2TjFCZnZOZ2lRZ19OUkpVMnlpQ1lfNzd1QS1hZ0NNMFN2NUtxaW9VLWZIVU9jRmVmdGdybHdqUkktaTh1ei01d0RGei1nVEc1Y283c0tleTZVYjMxckloSXlrR2VkcFNHeVVOOU1WaUhpM2Z4Tm5YYTR2TUxWSUQ3Y3dRVkxUY2RreUE1MkloVnJpWHhPOFNkUDg2RGRJWU9Henl0eklCV0JwXzhnYjNkQkxYWnJYU3VnYl9R?oc=5",
     "origem": "google-news"
   },
   {
