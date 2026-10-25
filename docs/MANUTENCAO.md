@@ -22,7 +22,9 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
 - **Uma fonte está fora do ar há mais de 6 horas.** O log do passo "Coletar fontes" mostra o erro de cada fonte nessa
   execução (`Falha em dou: ...`) e diz quais passaram do limite (`Fontes com falha há mais de 6 horas: agenda, dou...`);
   `data/status.json` guarda o motivo da primeira falha. Falhas mais curtas só aparecem como aviso no site, sem e-mail.
-  Passado o limite, enquanto a fonte continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos
+  **Exceção: o DOU.** Por ser instável, ele só avisa (site e log) e nunca derruba o workflow; a lista está em
+  `FONTES_QUE_SO_AVISAM`, em `src/pipeline/run.ts`. Por isso, **olhe o aviso do site ou `data/status.json` de vez em
+  quando**: se o DOU ficar fora por dias, nenhum e-mail vai avisar. Passado o limite, nas outras fontes, enquanto a fonte continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos
   quando ela volta. Os dados já
   publicados continuam no ar e o site mostra um aviso com o nome da fonte.
   - `páginas de agenda pediram login`: dois ou mais dias da agenda passaram a exigir login. Em geral é o site do
