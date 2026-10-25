@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:07e439454800",
+    "titulo": "Lula derrota Flávio Bolsonaro na França com 84% dos votos no 2º turno",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-25T17:59:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeTlhMVVvc245NkVfeG96QXQyeEtWd1N0ckJYSzdHZ2RidEZRQXNqUWlld1NIMFJKSHY5VDJzZDdEbzJmWjlraldrb0pncVlXUFpySlc5b0Z4R094QXpRNTFzbm9pNXlUUGdZX28xaUp1RF9iODlncXNRZjZaczJTcnpuUkxVUDUzUUJTZEs1X2hTd1Q5SXE5cHJkQ0ppOHpUQzdkX3JSemw5blB2OWlv?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3b1a1e65cabe",
+    "titulo": "Voto no exterior: veja os resultados por país e a apuração de Lula x Flávio no 2º turno das eleições 2026",
+    "veiculo": "BBC",
+    "data": "2026-10-25T17:26:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wa3RNVU5pRGR1UlpoTlhRLW9zUEt0MU5vaWxScllPQjJJQ1FWXzhEd05vd0lUR3I4OVllSURvS2RJbjBxODZKMkc4WmdhYXNlTTNGY0FlQWFMU0lBamNvY3kxZ9IBaEFVX3lxTFAxYkpLX2xnbDBuNVdBYnVzQ3RNNFVXS3NkVmdKaG8taGdLSjhnZnl3V3ZFODUzQzZNcjM5SFFFcTE1TnI5eEpDRGNTZG0zLW95bmYwenBTdHBDNUxuOVNCN2NaTlhYc1N2?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1f5b1d98d532",
     "titulo": "A que horas sai o resultado do 2º turno das eleições 2026 entre Lula e Flávio Bolsonaro?",
     "veiculo": "JOTA Info",
@@ -24,11 +40,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:5165206f2016",
+    "titulo": "Candidatos à presidência já votaram. Lula em São Paulo e Flávio, no Rio",
+    "veiculo": "Senado",
+    "data": "2026-10-25T15:36:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWENrMFRVcDNkWGJfc1BHZkhFUWxJVWRsWnZXQS1TelY4ZTIyc3NLMHBvRTlYeEZMbHh5cEdlaHdoaHFfUVYwZlVPaFhzTHBmMVB1STVwV2hnTE1sZGFJYzRUOE1MbVBlWFdtMXZmc1hsRUd0MHl2aWxrbWpGSTlSRVBlV25SLXRfZUJNYU1ZUUF3RUE0eVpaM204UXRZRjdhbE5qUVpDZjlhcllCbXNILTZ0MjFyZ0ZTMlNjTC0wWlhod0ZyQ1k4VQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d41029cfad9c",
     "titulo": "Lula ou Flávio Bolsonaro? Veja quem está ganhando em cada país no exterior",
     "veiculo": "Valor Econômico",
     "data": "2026-10-25T14:54:31.000Z",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmFtQnFpbmZ4alVVVlVaSllPeENBazJWZ2UxNTdQbTR6WTBkMEtWNlBZa1VTWC1hVG9HNy1DUVkzbk1ia2FucWpfNWVMNlRjUFlaNG81VzMwMHM4RHF1d1pOWm1ua1ZJMllnMWNRRE5GcWRjTmd1eFNWNHhkXzBnVVVnXzNNWjdzYzkxT19jT3hqMjY0Y09BWG1icE14V2FIODVNaW56aFR3VkhpZkFF0gG-AUFVX3lxTE1XQ0YwV2luZUJ0WlBzXzlCOE9GUzlDMFI2cUNYYXBWeUEyUUxDVmNCTERIT0ZBRm9XLUtKT0pqN21iN012WldBV2hLX0lOTzFNWFFkZE9GbUtPajVEOUcwS3JNLW5WWjJnekZUTldIQWFLUmlZU0NRNEZvTWI5bVVwaW9JU3BleTludU5vWldZdG9yenZQZzlCOHZZVGMyT1NhejJSbUhTY1RNZUI5cC0tV05XYUxiMGdkS0tmOWc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a2f00ff22063",
+    "titulo": "Lula vota em São Bernardo acompanhado de Janja e aliados políticos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-25T14:53:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc1B5VTRVaWJtNG84OWJSQkplMko0cjZkR2JBOHRDU21MNlV2OXZySDdkX05hdUpHV2k5TUw2ZTIzNzVHeTBiWWI1T1R4cUgySXh3bkZFTGRIQjNJa2pJSjNObko1cGhpQnc5Z01DMGJ3Rk9qVXQzZXprQlMtd1plbUFiaDhwV3ZVY0c2clk4c2F5cVJVOVhxRVdrUjZaTUpac0ZwSUdtWlpxMFN3WG43bHNydlpaeHJoNWh6N0VhbHJUWXZUc3lLRjVQV0VqeFp3R1p4REdrVGFaWmNK?oc=5",
     "origem": "google-news"
   },
   {
@@ -77,6 +109,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-10-25T13:34:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaS1sN0toRDdYX3AtVFdQUDJhcVdlZzg5Qk1lb3hMWGdpM1l1ekNVeDYtYWV6QlFNX3VaNmlSOXNpTU1GOE10R0pnVUV2MDZCd3dVc2ZKUXpRSG5PdGxDWWQ3NTgwSGkyUTJaYmFveDhObElNcE9IRkFpbTZaakpBQUNDZmdWQ0xJVm10OTg5OE1tRWtIRzBWd2hmLVV5TU1Sd1lJRnRBQ2JZWGtUNnB3T2ExbDJzMTRIVXZJaDhWMXdraXho?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:20e01cfa940d",
+    "titulo": "Lula aumenta vantagem sobre Flávio Bolsonaro em popularidade digital na véspera do segundo turno",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-25T13:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZi1mRm52OGdzaGdWUVlueGNyTGt6a19zY2lwTFROV2NXR2NlTk1faWFSb28zR2dQUVlQN3lZME1RdjVaTlBRTkdfOUJpSEc4Y0hMOGJ0dVdKU2g2bE9RMjRjN19JdXNPVGhacGs4N20yamxUdE5uUXpqR0djdnd5OVJJVEFObGNoQW9nYVhlRUU4c3g1NlU4RmZMUTI5cXBGczM1QjhDS1lFeVpTOXNzYVhBM3oteGkwMVBVendEcUlBbWtLeEdzSEt1NHkyaTJtN2IwcWVnLXBsVV9odXFn?oc=5",
     "origem": "google-news"
   },
   {
@@ -773,6 +813,14 @@
     "veiculo": "Consultor Jurídico",
     "data": "2026-10-24T16:40:04.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNGNWWDFRakE3N0RFZUMyWk9zay00SmZyZmExaXFNZjVrc3V1OGpBNmxCRGFtdU5XMTFURFhnVUdDa3oxVUFCX2pRUGw4dnZlRE9rMlhadTFyMl9WS0hjV2JYbkRTRjBmMUxVSElSRTJKVjVYRXVNekVYR1h1d21qdVA4V2dTZVg5RF9oT2w2elFRckFmUEpJeFJ2N1lXNW9IVE56T1gtQXlmVlF4dk42WA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ea88d29161a3",
+    "titulo": "Lula faz ato em Copacabana, no Rio",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-24T16:33:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNenJLbGhSWmc2Uk9TdkhRaExLQUtRY25MaWJwdzBsU1h2Zk5VQ2Z3M3Q2YXUzdk0yd0V3SW1TRGsyc3dWR2JyX2RrWmhpdFktUWdDRGszbjFmZXNpZFAtem8wVlZlMzlHdVZJZWM0M19SbEV5UGktRzhCSjM1OUc3V2ppUjJ1OXI4UUZWU2VENEJhaGNkYThyTHJ3TQ?oc=5",
     "origem": "google-news"
   },
   {
