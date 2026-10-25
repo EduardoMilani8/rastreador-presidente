@@ -14,14 +14,13 @@
       "desde": "2026-10-24T05:40:17.131Z"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-10-25T07:30:21.948Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-10-25T07:40:20.540Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
       "desde": "2026-10-11T21:31:31.268Z"
     }
   },
-  "ultimaNovidadeEm": "2026-10-25T06:10:21.252Z"
+  "ultimaNovidadeEm": "2026-10-25T07:40:20.540Z"
 }
