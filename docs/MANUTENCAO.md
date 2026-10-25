@@ -69,6 +69,18 @@ Para trocar, acrescente um item à lista (mantendo o anterior, que continua vale
 - Depois do commit, rode o workflow à mão (**Actions → Run workflow**) e confira se a agenda do dia apareceu.
 - Revise também `site/sobre.html` se o texto citar algo específico do mandato anterior.
 
+## Aviso da eleição na capa
+
+A capa mostra, como primeiro aviso, a data do 2º turno e um link para o TSE (`site/src/eleicao.ts`). Ele aparece sozinho e
+some em 01/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
+declarar o resultado, preencha `RESULTADO` nesse arquivo com o nome e o endereço oficial que o comprova:
+
+```ts
+export const RESULTADO: ResultadoEleicao | null = { eleito: 'Nome', fonteUrl: 'https://...' };
+```
+
+Sem endereço `https` válido, o nome não aparece. Depois, rode `npm test`, faça o commit e confira o site.
+
 ## Prévia de link (imagem e texto ao compartilhar)
 
 As quatro páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
