@@ -25,6 +25,9 @@ export interface Deps {
 /** Uma fonte só derruba o workflow depois de tanto tempo fora do ar: falha curta fica no aviso do site, sem e-mail. */
 export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
 
+/** Fontes que, mesmo em falha longa, só aparecem como aviso no site e no log, sem derrubar o workflow (sem e-mail). */
+export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou']);
+
 export interface ResumoAtualizacao {
   arquivosEscritos: number;
   falhasPersistentes: string[];
@@ -345,7 +348,8 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   if (await gravarEstado(deps.dataDir, estado)) escritos++;
 
   const falhasPersistentes = Object.entries(estado.fontes)
-    .filter(([, s]) => !s.ok && agora.getTime() - Date.parse(s.desde) >= LIMITE_FALHA_PERSISTENTE_MS)
+    .filter(([nome, s]) => !s.ok && !FONTES_QUE_SO_AVISAM.has(nome)
+      && agora.getTime() - Date.parse(s.desde) >= LIMITE_FALHA_PERSISTENTE_MS)
     .map(([nome]) => nome);
   return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao };
 }

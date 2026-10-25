@@ -301,6 +301,22 @@ describe('atualizar', () => {
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
   });
 
+  it('DOU fora do ar há mais de 6 horas: o status registra a falha, mas ele não vira falha persistente (só avisa)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+
+    cfg.falhaDou = true;
+    t += 600_000;
+    await atualizar(deps);
+    t += 7 * 3_600_000;
+    const r = await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.dou.ok).toBe(false);
+    expect(Object.keys(r.errosDestaExecucao)).toContain('dou');
+    expect(r.falhasPersistentes).toEqual([]);
+  });
+
   it('dia com 404 nunca remove compromissos já gravados', async () => {
     const deps = await novoDeps();
     await atualizar(deps);
