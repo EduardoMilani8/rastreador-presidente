@@ -1,11 +1,59 @@
 [
   {
+    "id": "agencia-brasil:fec6d68e24c8",
+    "titulo": "Campanha de Lula denuncia falta de transporte em nove estados",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-25T20:01:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-denuncia-falta-de-transporte-em-nove-estados",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "agencia-brasil:3ac5c23c8ba1",
     "titulo": "Lula pede prorrogação de votação em cidades com falhas no transporte",
     "veiculo": "Agência Brasil",
     "data": "2026-10-25T19:46:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-pede-prorrogacao-de-votacao-em-cidades-com-falhas-no-transporte",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:c3034c9cfc42",
+    "titulo": "Campanha de Lula pede prorrogação de votação; decisão caberá a Nunes Marques",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-25T19:22:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3IyYS1icnZ4T3ZtREEtakM1aUNBeEE1d1NpWG5nS0lnbUhBZ0Q3LWg0cnFtb3BCdHV6UFZ2YmQtZ3RiZnRHdTRNUnNvZGI4M0RPbGtxWGs2b3dIblBrZ2R0Ri10SXB2N3ItOGJSYzVkVTMzbjNVTXhJcmhtZnJ6eVJwMWFNWTRiajhSaldWMVNlb2duOW9NQ2ZTaHNwTmNCUnU5VnVjYjJfTnRBMmNORXV3MVljd0xwUXZkaQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:32ae0b3eba79",
+    "titulo": "Lula reage a 'sacanagem' e cobra TSE por mais tempo de votação após denúncia de falta de ônibus",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-25T18:54:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVzYzOTJIN0xPWV9pbmFzejJtUTNET2owNThodU9hNERZT1hnMi12MFJkZTRjUmFQeVZRYjZqQ0JWNW54NlBmLTdwalB4cWd5WXh6eGhtVHVwV2NfQ2tYMkpleUhTemxkaS1KN1ZPZEVmM0tFTUVySV9qbk9xVHZxc2dFQ3VlcUZvaUhwTVFqNDFQVXg3Um9HWEZUUC1Qa0pMdEtNMU11WXhQNmMzbFduYWxIbDJQMWpvSjI2M19GaTNtXzJPeERYNlRtd21DdkVi?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:31e834946872",
+    "titulo": "Coligação de Lula pede ao TSE e ao STF extensão do horário de votação em cidades de pelo menos 9 estados, além da Bahia",
+    "veiculo": "G1",
+    "data": "2026-10-25T18:53:52.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ3RtOFhyQTlYQnFzN1NuRXllQ0F1N2JXd3BLMkVvSzNaMm0wMVhlYUFSbWJHOHI1dW5GNXJ3djJSbUN3SzJxTXZ5MFNrdFlaVEFSZWdvbUliX2FPbmlkbjY4aktKQTBlODlzNzFoOE9DSC1lZjBjaEoxLXJ4TnFvbWUwMVRLMFpobWpkektJRmFCeEt2anRlRDJTa3dWSm1jOWlVY0d4ZlltOTlucTFSdWd4dFNjYjZGZ3lfWGJmVjFHT1V3MERuUWU1UzlEblJ2ZWx6UTQ5MElsZ0hTM2FXVzk2YmhWdEFW0gH3AUFVX3lxTE9xS2ZtMkhwNlV0NUdtVGp6Q1FacXF3ZGI3Q091d3NMVDRjeGNtSnRVcWVSNnlLYlVZX2dYZkozczBQQ3ZkeFQzcWxlN0N1ZC1jT29TNjRSVmdleTJKZUhDWmJOaXpobXRSdzByVU0xalB5VXV6OF9OYUZMb3dNWnU0ZDkyQkN6WVJBVXZCMHlaQ0YyUC1MZGtvOVFkLVlQT2tXXzNJUFRpblpkZzdZbU1TRWdUWDh3Slp2cTJXN3lheU1nQmVXTFNacFBTdEF4VkRpaDlxV3Nid3hTd1lEdnZXTHJjWXhPYWcxaDMtd3R5RDNvT1ZYV0E?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9aa83343bd2a",
+    "titulo": "Lula acusa prefeitos de dificultar acesso às urnas e pede extensão de horário da votação",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-25T18:51:19.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNUR0anFnamptanZkN0h2aFRBUk0wNUI4STVSUGxXVjFBYXk5em9HZWp0M0V2eGVrMHRUQ29JeGJwMkE2MmNlNnlMdXdmaTkyQklNS0FxMm5jVHNSa1ZZZDlyOW8yQ0swdzlGTnRtWHJ0X2d6b1JWWlBENk5tNjN3cFhKc2hTTjREdTlhZ0Yxam9WdHp5c0ZzYklGRHB0MGVXX0x5OE1INUlBSlVUTWlWX0hnajFPQzdydVk1VjN3ZnVEU21xZkp0R3FHX0Y4QQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:84f378c2e329",
+    "titulo": "Lula diz que falta de ônibus em cidades é ‘banditismo’ e pede extensão da votação",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-25T18:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV2FvSlZjWGtMdHdZcEdYVWZPZlBrS3NBemJmNHdnSUkwTkJxeXp4R29PM0pDMC0yS0dPd3JySzI4WFd1ME56NFpmeE91NmxvUjhXZkQydWhGcVFqTHA0Wjl1YmR3RmN3eWJXYmFXNFI2VmFNRmVvQzA4cUs2TGNoU05RNS0ya0pCeHVvVHNQbTI5emJOLVZpd3RkMnNXYi1uMU9RcE8zWGt4TmZ3MkF0MkJXNnM1MzR4QXBqZFEwUFQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:df46ff86837a",
@@ -32,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:04283834faf7",
+    "titulo": "Quem ganhou as eleições 2026 na China? Veja resultado da apuração entre Lula e Bolsonaro",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T18:02:17.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT2NVN0dlOFBVUnVjdUU1cldHeGp4WmVRM0E3b3BpS3pwXzcyMGJ5YXE2cEVpSGlTYkExLUQ4UmF0akY5ZzBURlZzTDNObDFyamdLUHZuWE5wNFAwRGs1MzhiVkRxNEpNMXU5Z2ZIWW1tY25RWFJ6bkJpN2k3QV9rUXRqWTk0QThha0JzYTNnRWtXM05FT29POUg3MEdOOWp2bHBpeFJHR3YyaFREUWlvd1AxTmVuSmRnekcybEtiNEJveTQ3YzN4RkdReC1DZERDMDh0RzFGdXhveFVhRnNqVFRXbVA0aGZfLWp6eG5tMVM0QdIBgAJBVV95cUxPdXJjSkxjb3RfSmVwdDFYSUgtcm50WDZVYk8weDl3bkR4Y3FBQS01eWdUUlo5d0paeV9rc2ZlSHJUVTFXckVFejh5RFFjbHlWZTQ0VE1TcGVCQlUwc0Fra1Vaa0VBNHlMS3MySDlHajJqdDlhcmF2cmtNa0dXRllFbWZKaUcxOGRDYzB6N0gtbnV2ZDcwM00yR0g4RXQzeWliTGVLWk4tTHM5NmNNSGw3R2VRMVpEZU9SNUpQVXJEcmhsMlBHbmN3akw0WE9rR0dyb2QtWFkwTS03YmNkTWFwY2Q1QVBWODl2cFNWS09YcHBzLTVxcjNJZGVfT1A3dk92?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:07e439454800",
     "titulo": "Lula derrota Flávio Bolsonaro na França com 84% dos votos no 2º turno",
     "veiculo": "CartaCapital",
@@ -45,6 +101,14 @@
     "veiculo": "BBC",
     "data": "2026-10-25T17:26:20.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wa3RNVU5pRGR1UlpoTlhRLW9zUEt0MU5vaWxScllPQjJJQ1FWXzhEd05vd0lUR3I4OVllSURvS2RJbjBxODZKMkc4WmdhYXNlTTNGY0FlQWFMU0lBamNvY3kxZ9IBaEFVX3lxTFAxYkpLX2xnbDBuNVdBYnVzQ3RNNFVXS3NkVmdKaG8taGdLSjhnZnl3V3ZFODUzQzZNcjM5SFFFcTE1TnI5eEpDRGNTZG0zLW95bmYwenBTdHBDNUxuOVNCN2NaTlhYc1N2?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3cb592efc654",
+    "titulo": "Lula lidera na Palestina no 2º turno; Flávio Bolsonaro, em Israel",
+    "veiculo": "CartaCapital",
+    "data": "2026-10-25T16:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEpOQ3VHUTlHLU1UYWtuc3lBcVQ4b1AwVm13T2F1VXBfTm5mQmRmVHNIbWRTV3pONU1CSDZkZHFJV19RTkN1bFVkVEVyQi1IeEg4VDFVUU4yX2psaUxkQm9Yc2tCRFhnQ3ZvcmFaR3pnQkVFc0locVh5NVRzenZYX0ZTRzlRbXk4VHhqcUhQcm40QzdmMDJEdXhFTGIwaHRNZkl1QThoZHY?oc=5",
     "origem": "google-news"
   },
   {
@@ -160,6 +224,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:aa104d67da4a",
+    "titulo": "Candidatos à Presidência votam; Flávio fala em ‘campanha limpa’ e ‘mudança’, e Lula agradece mobilização e cita ‘exército da democracia’",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T13:35:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQUTRtQkFoSkVGM0x1V3hkRFZadnVEOGVKNVVORXZkZTJPLVVMYkxiXzVuN0xUSVBpUnBnRTZadGpiSHlRUm8zQVJfNUxoZlFsUW5EM0YyODRic3FxYUlXak40cUwxNll5ZWRLX3BZZ3h6QUhZV1RSTUs1TlhwTFE2NFFLR2JMTGhRcXNrUG00SE1GdmZtTHA3SDR4a01OcGRfcVNYYnlieGNoNERXdWQtMG1UT01HbjVRbkdMNktsTTM1b3V2SHhBdFhZVEtvQU8tM1BoV3U5aUZuZ3pYQS13OS16cVJQUWdBS19TQkJiQXRDN1BleXJTNDVmOVVHQ18yeWxuYmNxWVVHdS15VWpYNHE0Y3l2T1paNzdFQTZwWnJKX0tsVzJ1MdIBtwJBVV95cUxQaW4zVkJaZU0wNnBjYzBDR05acWUyTkxxSlRRVUZwNDNNWW8zRTYxR0FTNk04VXVhVVhhNjZVTTJYd0VQZFVDUHRhbDkzMGNwbjl6VDRncGNMdXVFMHljckY3QmpuM2I1NGZ0WjRNWm1OZVBzaXRIbGJuQ1U2bEZhZjFwN2NQcTFSbGpuMVFvTVI0dFRsV2ZHWVlZYktjcHdGTnZkTnVMQnBFWlc4MzdJMkVVLWdpYjZ5Q2FjN0xzV0lBNW1WZ2VReGhoblp4c2xJWXh2MG5OTG82LU1TR0tqSEtKUDZEYm4yYm56TGhwRjBCU0I2SWFtVzNiN05XZ0FtZkRseVNBc0RKekVzYlZkaEhZM3RHUVgtYlkyMWxmQU5SSUxUdUp4cGd4NklteDAxdVk4WnhtUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:7fe2a389728f",
     "titulo": "Lula vota em São Bernardo: ‘O que o povo fez comigo nesses dias, não tenho como pagar’",
     "veiculo": "Brasil de Fato",
@@ -200,6 +272,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:5dad28a77da9",
+    "titulo": "Pesquisas eleitorais mostram a distância entre Flávio e Lula após últimos números da semana",
+    "veiculo": "VEJA",
+    "data": "2026-10-25T12:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSm1wUXBxdlEyejFyUy01QjhxZ0JjZzhUZHJoZ0ptaTRHUU9weS1ZdmZmRVB6VlpzSThONkpxdjgwU1hpUzhNTEo3SS1mZ2VwTmZIZFRvRjk5OE1oN0lfTDBMV21LLU1mdk8xZjFkQl9KX1RERzVSU19mME43R1dQaEEyN0xGVXlkM29Wb3ZOdnNoZHY5TVdEZVVKdjd3MTMzbDJRMFI1R0YyZTd2MUxDaVpzLVlQcjNhTURHc0xCUDFTXzB5Tnc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b1774526d821",
     "titulo": "Lula destaca mobilização popular, e Flávio Bolsonaro defende mudança; candidatos votaram pela manhã",
     "veiculo": "G1",
@@ -237,6 +317,14 @@
     "veiculo": "Instagram",
     "data": "2026-10-25T12:00:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82MWN3NXB4ZW1ZWFk3TnlxR1ZVZ0M5QjctaXk3WEpzRldkZHU3bGQyVlUxcGVya0hmbzQ0c1Z4cWppbWNXbTRPSWhaMWhqSU82eVE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4c8821281685",
+    "titulo": "Eleições 2026: Flávio Bolsonaro e Lula votam no Rio e em SP; veja como foi",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-25T11:48:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNGhvVHFSVFJ1ZTlfRmg3bUN3d0U4aU5scFplRDI3QW00UVZuNjg5TWE0REtYbEtqcE4zY3I5QWhpS2VRN2VtWjdPTlhwZUNWUENfVF8wYURvT0p0T0ZkamNsM2ZzYlp1RlZ6VjVxUlhZemhSTHF4THJaa0FkVGNYSEgyU18tRGZoX2c0RTdn?oc=5",
     "origem": "google-news"
   },
   {
@@ -349,6 +437,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-25T09:15:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSVd2YzZrMXFraXF1NzRKWEtIWll3VjRUREpkMG5IbkU0aG16aUFDSHF5SnlCLUZJSnJFWDZuYmNNek5JZlZhaV9wZHJhNDhIYURWa3JLdFk2bnJUY092aGh1MXRoM3FtWF9TbjdMYUd4MGprNVQ4WG5QUTBveXFrVjVFZmdvakw0MDY4bHlFZHloWWFzZVVndzd3a0Q5eW04cXZXOVBXVGZJU1B2RS1aRFJDMDnSAcMBQVVfeXFMT1NOam1XTHZTOXFGTVM2VEFQamtkaEdFQVBINTQ2eVRtYnpWSUYyM3NocnBvcWlXX3huT2xlOHNQRmRYU0QweGtSRXdZMnZic0hBOVRxR0I3WHIwZWMyc1R1OGJHRkZIbVRhT21QMmdTM1pJMHUxMGYzNlRIQmNUYUVBNWtnWEJibUNZUzdZTlU3UU13ZjRFdFV2SlFhNXh4c1FkTndOUWZtNjhCMHdjQW1yNEN0UVU4RjVEWWxHTVlwM2Vz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7e5676966fe9",
+    "titulo": "Lula vence na Alemanha e na França; Flávio supera 80% no Japão e em Israel",
+    "veiculo": "Estadão",
+    "data": "2026-10-25T06:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR1lIRWZIbHlRVk43aGxNaXc1dnExSEYxcC1mSW1nWnVaNkFrWHQzZU9tZkh6RGNsQkZuY0JmcHdhWGgxWmJVc1V0cndSYlpMbGJNWVhEN0pBcVFjbG15OFpKREw5a295eDlaUWt1Z3A1Nzg2SVVERF85SFppdTVRcXp3SUZmNlhxS2hrWXc4SGl1TVdELVNhNE5wQVl3MnhOaEJTV3pRSmtiZ2o1b29EZlgzcGnSAboBQVVfeXFMUFl1X1dnNC1iNEljV21DYTVmZ01SV1VlMVJXQzdmQUs4cENaS2tmWjBTUFZFWUF1cklZczFmeTBFZEo4bDU5XzAwVlk0LWFNZFMxakl2RGN6aDhfamFwNWx6RFpRZkJqQUVyVnlBcVdVUkhMUDFOUi1WNWdSQ2ctcUxLaHlUbEZ0WUhpSnZTQUNmRURzaFZlYV95SUYyQW9yN1pGSFYzczdfNXRpSXF2MUdTV3BzZnBBX3pn?oc=5",
     "origem": "google-news"
   },
   {
