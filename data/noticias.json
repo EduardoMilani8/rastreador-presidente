@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:2a7cc3f27082",
+    "titulo": "Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º turno das Eleições 2026",
+    "veiculo": "Tribunal Superior Eleitoral",
+    "data": "2026-10-26T03:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMXhaaThjZDJua1RZQUxHY0tycWRJWjZramJnbDFaWGNlMm9IU1g4SUxyYkJCaUhMWDNYU3cwc0dTdGZMYWlReGlMSGNPZFAzLXZKbjdIOUhLQzJvLS1NczEyanJEV1NDSGxzSFRpN3FuQnZ6emd6MklrN3JkRC1BTHY4UFR4b1IxSmRUREpETmYwT0tiWE1rb0U5QUhweF9keVBXeU9pQ19pZXBvX2ZaX3haSFRQS3BrcWx4TWIwalhQTllvd1drSXBvSFlCTG1XTnZSakxoSTYtSG5p?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c24f87b5c167",
     "titulo": "Lula conquista virada inédita em disputa presidencial e se reelege para 4º mandato",
     "veiculo": "Estadão",
@@ -142,6 +150,14 @@
     "data": "2026-10-26T01:30:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/imprensa-internacional-destaca-vitoria-historica-de-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f98c5da2777f",
+    "titulo": "Motta defende o diálogo e diz que Lula tem a oportunidade de conciliar o país",
+    "veiculo": "Portal da Câmara dos Deputados",
+    "data": "2026-10-26T01:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObnBBdDhwU3hEdjFhNkI2TEp1VE0ybDBNY0ZUY3ZCVkw5OW85Y2pGZU1XQUd3b3NlSjJyYUNvemZ3YkpnSkFybHhmRUdtbjVXYXZvX0hiQ0RwM3JSMUFtVG9Idkt5YXdZWTFIOUZyUVBYMGhvTjdaLU9iWWowUFZaWnBqZDZBcVl0dDlCS2ZlNWdMblEzejRvNWNheklVZXZuR01zdzc0OWo2dmlwbWVtel9UWkxoUnVpNGtNSA?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:47f5ce804fc4",
