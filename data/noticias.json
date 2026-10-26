@@ -40,11 +40,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:9db852a08e95",
+    "titulo": "Lula x Flávio: Quem ganhou e perdeu terreno em cada Estado",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-26T01:56:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdG5Nd011cV85N0VuZkgyVFZsSXBoazdManVMWnUxRkY4QnVYRXFSSVd1dnZqUUhLOGxKX0hVOEh0QURVMWxCSnJkb21DM2h2bDl4ZzNrNnhhVVJWcldhWGM2bHItUEJuYnhCOVdfVmppbmg4clYtZnRVZHlGc3cyM1pNdDV0S0dyWmNuc0NZT3lqZ2ZBVGJlN3ZadllJbGF2V1ZvQ2hkZmtwTFE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5e075abd59d3",
     "titulo": "Lula conquista 10 milhões de votos com virada em Minas, avanço em SP e reforço da liderança no Nordeste",
     "veiculo": "BBC",
     "data": "2026-10-26T01:52:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NNTUtSXJFcEVmbll6OVA5THB3cF9MNmpCOVVPSGVQTFdyc2tCUm9JVERLLV8xemk5NGZsNUJJMG1qc01FUzNsMXRrX3hKNDI0d0x0YkhNUUp4ZVhZOWktOVlDRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:000c19269693",
+    "titulo": "Nas redes sociais, líderes latino-americanos saúdam Lula pela vitória",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T01:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdjQ3ZEp3UlA0em40bXhGalNhbl8xVWJKS3NNcF9mOFlIUFB0TUJnOHI4VmZCeU5XZUhUTDJ1RmlZN1BrQVRBbE9WdDhtME5YUktwTkd3cFlpb2VaR0VZM0ZybXktOXVfSFFiNVl5eEFNX0FpWGx5aEVmcVRoSHBhZ3QwUU9aWkhRZTM1VnNkQ1Bqc1VHcVVIM1Q5YnpxMGhiTkZCbE1SbVV0LWgxaElDSnVvcHlRRUcxb00wYTNGcjVuVjVXb0puQTR3WQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -88,6 +104,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:04971152e616",
+    "titulo": "Presidente da Câmara Hugo Motta cumprimenta Lula pela reeleição",
+    "veiculo": "Senado",
+    "data": "2026-10-26T01:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUZXRElINDBKLTFsUEVnUmQ5SkFSNzBJUUxGUVgwNno2WDhoQUt1elRDUHZlOGp1RDFoOE1XQmNwRWlmSjhyVlI5YmJiMnlKLTZHOVo0YzZoazJza1RHVHV0SGw5QV9rVDJqMGFYYndreTFZMHFGUTdzRjB2TWtFRzhhSmhJd015Y08zbUhhTDNtLTFzVWNyU2Q5Z2lnR3RHQ3RtQnUxc3dWUFVlVXRiYmRfYUI4eU03SlE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:9d0ecb3cdf34",
     "titulo": "Lula é reeleito. Presidente do TSE proclama o resultado final das Eleições 2026",
     "veiculo": "Senado",
@@ -112,11 +136,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:1e9c3a505dd4",
+    "titulo": "Líderes estrangeiros comemoram reeleição de Lula e destacam defesa da democracia: ‘Fascismo foi detido’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T00:58:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaFpNeEJONERWLTJ3akpoOTNIX2RmaVRiUlRlUXVGdTBmSDdfWkd3VW9NVjI3eVB5YkVVTHlfX1ljdTNSdVZhT2ZrbUVsT21rTnkzSWJ1TE1lb0NGZEFSbENBWGZRZE5xb3J3M3NSak0zVHBuZld1OXNEREstS3B4WFdrUndTS29uRnRUQjl5ZFVXSVhyN3ItSmVJaTFoZE1laWhOU1FKQnQ2UEh6akRTeEx5X3JyUWJzbVR3TnNURG9GbFVOdXYxamd1VjRicVFvTlhyaEg5SGJQamxs?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d740a716e639",
     "titulo": "Lula conquista virada inédita e terá quarto mandato como presidente do Brasil",
     "veiculo": "BBC",
     "data": "2026-10-26T00:56:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoLWFxT3RLMXRuM0N6dzFzUzlDaDFzYnBKQW5zWGxqX01oVDU3QXJ2UkdjTk5MeW9YbVJwWmZKamluUmVlZVlaTGVZUjRvWEpCbjZKVFFDbmxTck9GWmJXdm1nRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6cc42303731a",
+    "titulo": "‘Reviravolta chocante’: imprensa internacional repercute vitória de Lula contra Flávio Bolsonaro",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T00:53:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPR0RROW9EVVJ0cFUtQXI3QlVQQ1BkbU96Nm1CeHozOUNVWWhsOEtBcDhvSUp3NDJJbXgwSWFMX1BNUlBzRHlaOHgwT3RfWDlvalVaRnpOUGFKX2s1OThHY0FpeTdaZUxnMTRCSU56SmozRy02QzJnSDJEQXMzUlpaSi13azdvREsteDlQT1ozLU1ibGViQ3NZVHlaZTdlVFNlOFh0WXpZZVY2cEJZXy1rNWNUeGdUdnVpSE9UR0V4dVhxUXhLV0NjbkJqVHBESVZYRUdR?oc=5",
     "origem": "google-news"
   },
   {
@@ -168,11 +208,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4a47ccd27b86",
+    "titulo": "AO VIVO resultado das eleições 2026 - Lula derrota Flávio e é reeleito presidente da República, em virada histórica",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-26T00:34:13.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeEVsRmVNd3NucjlGX2I5RFJELVVueENCWW11SjljSU1KT2VMckgtYmtJcUlqYm4yVVdqY1VobXRrQ2VYVkJuMlY2RGxfMlUtZjYxNFhnZzAtUmU0SVN0V3FVTGdPZW5ENF9LZkN2MXZ3amtNUUNqU3MyTVFfZGZ4aTNzQTlfVUJUZXgyU01MdVI3NEo0THpBc0h0S1BvXzdYZE92NUYzMTRtVDlRb0JVamU3MXJqMGdTWWd4MEdhT3VhWGFD?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:43913859b1d3",
     "titulo": "Lula desafia o impossível, vira eleição perdida e precisará se reinventar mais uma vez aos 80 anos",
     "veiculo": "JOTA Info",
     "data": "2026-10-26T00:30:48.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNEVERDk5YWpXeF9HOVVqaTVCdTlHZ3p1ZW1wRllBekpGR0FhQXNIa3pILUg5WmRKbFNwZFM3YWFLYVV3Q2hqYVhxUG5zTGt3bDN0c2hncVRrV25qVWlxY2pSUmJIbnNRdDA3M2FkaXNmdGNTRndYOW94Q0lINkVZZDRqVVlaVXhudkwwRjltR3A5VkdnVjh4SGdMYXozc0twTmU4Z3FvNmhLbDh0Q0pLdS1Fa2ctOHgybnRlNGFrYl9YVm1WM0JwcXJ2cnFaZF9RbjM5aWplVUt2VUwyNkQzMEF6UU5MTFVzd3ZsVDA2VnN6dw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5f1d15028c60",
+    "titulo": "Lula lá pela quarta vez para governar um país pressionado",
+    "veiculo": "NeoFeed",
+    "data": "2026-10-26T00:28:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQWZ0THdFanVsTk9MRWs0SXdkb1dldjQxUGZJbFo3b3EyRXpBaVlheVFoVksxMU45anNReVhjUXhmZkdXLXlOVkcta290S2NRN0NQRy1GQ0I4YW92QWhhbGR3bkd5SGg5V1NtR0xRUEhnZ045dkF3RGNMdC02YWZjQ1FNVU4zVlcyRHEweU9IQmI?oc=5",
     "origem": "google-news"
   },
   {
