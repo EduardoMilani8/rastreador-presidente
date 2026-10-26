@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:960a498ec91e",
+    "titulo": "Institucional",
+    "veiculo": "Senado",
+    "data": "2026-10-26T03:29:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPRElFN1dWMDVBTFJFTkpJU2Z5YmZqUDBIOVZoQlU4bGJHSmRhak51WERyekRsT3pRNVFJdzg0NzMxOVRQN21HTS1YSXJLUVZSSzMyVVNaTWZDQjd4OVExQjBtMGs2MmpTZVJwNGdKNVRvTGc0bU5IXzBULWNlbTZaUjN2RF9PQnVYTHpUN0V5QUNMNmFRVHpLOTJnSFEwamlIcWVKTVYxNTVBNUtCbFczRzFFcDR0dzNtUy1kejdDZ1pkZ3VjeE5MVWJ0TXY3R3Q1Xy0tUnByWkF4bXhxV3NGLUVsSUdXc0JPMDN6SHl6a2hsTWJKSU1HczQ2Ny16RWs0VE0xZ01fRE0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2a7cc3f27082",
     "titulo": "Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º turno das Eleições 2026",
     "veiculo": "Tribunal Superior Eleitoral",
@@ -16,11 +24,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:75fd7a335ab6",
+    "titulo": "Pabllo Vittar, Bruna Marquezine, Bruno Gagliasso e outros famosos celebram vitória de Lula",
+    "veiculo": "UOL",
+    "data": "2026-10-26T03:08:11.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1RhQjJKRE5Ea3FOTXZXZU1PbkxYVmJ6YXQ3RmpvRmJ2VlB3LWxDbklkRjFZa0M3MjdwZ2NrSmJMVnpVY3Mtd1NHdWFSdXgyQTU3WndqSU91QkUxSW03WTVyYlVIX3VUbEkxdHZWLTltenJlRFlPMERPZEs3WEpSTS0tNTN3Sk11d1FmQW1zeWVzczB3LVo2STlTM3lLaGVUU091OE1pMjNRZUt6M0JrOTVVc01BT2Z2M0JxTThfb2FOXzlWaXlLUzZuNC1sbTZCYTNqYlpRcy1vcUk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2f7c5c622d98",
     "titulo": "Presidente Lula assina Medida Provisória que proíbe as bets no Brasil — Planalto",
     "veiculo": "Governo Federal",
     "data": "2026-10-26T03:02:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd1RoRC1CUHhzWVdWS2tkTjZIX3NqSlVPdG1GMkdoVE9MOGEyNW9Ld1h4eFozTTFMM3NUS0l2Mm8zSWhSb290dVEyeVZmdGppUWUzZW9jY1JXNXk1Q2duV3duUXo4R0UwOUhFVkZrME0xVnpwcFA4bEFjd0pFMW82U1N5cGV1cDBnYlRPb2VxU194Q2drWE1KenNESmxsbEltSmFGdUVuTnBjNmlESXlncWdGbDVQUHJYcThRcmlJeWJUNFdvOTg4MU5BYWV2Wjdscm1QT0hmUEM?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c766b846a0b1",
+    "titulo": "Após a virada, Lula diz que eleição foi uma derrota do negacionismo",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T02:58:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdkJweXNNbWdiWGhfLVcxMHhueGZRd1lSX0llRkdHMWdGWVVEN2RJa3VLcWQ4RlFGc3VZQ3dTZ3ZUdWVuUE5HUlR1OTFxdnJNYl93N1E3U080SEhGRFZoZXc4S3dWTHVBenhrWDB0M19TMURFNGlYUVVwTWdrV1Q4ajZOUnRZN3dpTGR0bXhhQVJqQTFhWDliUUptRmxwZHBGT2FPNUsxdVV4ZkdVRDB0bDZiSHo1ZnVZU3owNmpWeWswWWhLVmNsZ2xZQ1FQWlItRmFBWkZlWFBmdw?oc=5",
     "origem": "google-news"
   },
   {
@@ -30,6 +54,22 @@
     "data": "2026-10-26T02:49:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-agradece-votos-e-diz-que-teve-de-vencer-intromissao-vinda-de-fora",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:2655bc49525f",
+    "titulo": "Leia a íntegra do discurso do presidente Lula, reeleito neste domingo",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-26T02:49:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR1NtYVJ0SmxJSlJzZkxWTjg4U01JY2VtakwySlBpSnVNcmJRUHdYTlg2Ri1DNDR3eDFEaGgzY05UUXF6Uzg4QWNnVTFJb04xaXdTUEw2NFVXMjY0aVFIYXh5WmttcjlRb3VGaGtrZjd1YWZmZEZLcU9EM291UFdRLXBHZUk2bVJoa1hUOHNyTnBVNGQ3SHN2OFVzeGRrWmxuS0d0SkdYeVJ3MGtuUk9mckNsRG90Y3NqekE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e075f8a8d8e9",
+    "titulo": "Lula ganha 10,3 milhões de votos no 2º turno, mais do que a soma dos candidatos eliminados no 1º turno",
+    "veiculo": "G1",
+    "data": "2026-10-26T02:47:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUEFtVW81Z3p0RHN2UV9ZX0I2SVo0N1lRdWpCdmFQdUJaZkwzLWdSYXNqdEJXU0t1eFpYLUV0T01nakk1cFlJZEt4R3hmZzE5MmFDN0tRUk1XVG5LWTFRWG50UzVSQjY2cWZuaGZUQTQ4bmw2OS16cmY3YVhQLXl2UTRxcDJSMW1kZHFBS0JEUHB5ai0zSFU1UDRFTlpQckhwZHpMU05QaGZ1RzJUUkd4eHhMZ0wtelZkMzFoMHJYNzJVQkFfdFBSX2JvVE54c0NUcV9qWEhyV3BCREpEOVlOM0FOSFM0d1FkUGY3b3QwRnRFRV85RERLSl91d25Md9IBjAJBVV95cUxNQmIyY2tqcC1tNWJ2QzdaRzJDbVVWMjJlcHVxQXc5cUJvZU9HTk12VmtjN2JGR0lXZ1R0NWJCa0xLMDdMazh2RUY2NXl2MVFROXM4cnVGcUUzLVhtWkFKTTBZc09pR2FaMElrekYxbzBOenJXT0FhbXI1eFhmejJ4bnItZkR2ZDFjcWw2TE5saElNVGNoWDFhektScWJlYXVSSDl2TWZFeXQxSkt6TUlPTGo3aFpmRnc5Y3JCUW5jOXJYYmFDYm90VDlLQVJmQ3d0WFdqS3Jxc25DX1B6TXpHbXJiVnFvejNPX3daVE5waFQtd2hTNlpHT3gydzhtdTRRWXlxbExleHdxejZ3?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:7f11b651675b",
@@ -56,6 +96,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:49a80198d300",
+    "titulo": "Presidentes do Senado e Câmara parabenizam Lula pela vitória",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T02:32:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU0hsTDBhNlFiUUg2SDFDZVlBSGF4VjE3eC1TS3hPcUpYdXZ0bXo2aUhNVFFHaWprZWdmSjBkYmpZZlFKUUFYVlFUSjRRWGUteUdBbWFOMmkzZjFzZjM3eVU2Rko5ZnpHN0YzNWR4ZGRRSUoxWng4WllNYjBMR0YtM1VwM3NhWmVJakUtSG8xQ1dIVXB5bkE1QzZfYUNkU3FtNTBvTXk4am9WVnVucnhPeGF0OThfOFNMdl9JeHA1Mm9TcWlGZk8wa0VYdjJWSDhRVnhCZA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5d9cafe5d12b",
     "titulo": "Presidente do TSE confirma reeleição de Lula e faz balanço do pleito",
     "veiculo": "Senado",
@@ -70,6 +118,22 @@
     "data": "2026-10-26T02:31:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/motta-e-alcolumbre-lideres-do-congresso-nacional-parabenizam-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:65501fec2a2d",
+    "titulo": "Eleições 2026: Lula vence Flávio Bolsonaro na Bahia com 71,31% e amplia vantagem no 2º turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T02:19:16.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQnBLWE41OHZCbXItX3Y1anE0d1hkc0xBREFfV2UzbmNJVDlTV3ZsWjdmV0l6YWxJY2lnQkx1VVFwNlFwQ085VmNTQ0tGaUdPSUMyZXhWOVVzLTZIVGlDUGVrLWlRM2dnbDVueHQycnBxNHF0b1RTbzh0TlQwTmZVNUkxcUxjODdIU1A2Zl9OOVJWLVI1V1dzX1BUbVhmdjkyU2tNODFoeDA0eHJZcnF1QXFnVkt4TF9rTC1JQ1ZhMTFuOUtDSUJfSmN1b19uYzU0Ykc3QWJabTZfR3MtT2w0ZFFhMmNjUDgzbXVOUTRYWDNGaHhYV2RzaDlsUG9DUdIBjAJBVV95cUxPTU5MYlY0dmstcFc1SWVIN3JqRlhJVi1jUVlaUWZQdDZ0LUtKSldxZnJtdXU3VUNtakFOMlItOGszd2t6TG5GY2R1YnpYOHJWSnNuVEJ4ejR3UmRzanU2bFNBbVJOTjdmeEhtSlFXN3M2MlZlSGxrWDhFMjFsdEFvQzNpWXBwdXpZSXpMRmI4SWl1YW0xUFRXd3lxLXliRVJyZjk5Zm1xSExSazRRLWthQm4yUWtwSTFqSldzREFxaUJxTEszeElkeGtST1lfaDAxUkVXVzNqX19YbXJDQXAtQmczbkVXa1pza3hwMmwxM1M3bktKaWhUVEp4eXNuQ2ZZeXpvbFhucmVYWWpE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:49e31e8d2dc5",
+    "titulo": "Lula virou sobre Flávio Bolsonaro no Norte, onde candidato do PL encolheu em 6 Estados",
+    "veiculo": "Estadão",
+    "data": "2026-10-26T02:17:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSnV2SlFrTjRxekNUcHFfUUJGUktQQkNTWXRqWU5IZkN0eDhISzlJRkJMTE9ObUlyYUQ4ZllCZWZ6ZFdlN24tS1owUlphLU1UbDJLa3B4ZHN6NDdoT1FmRndSRkRjTjRuRHZ3WmJOXzYxRmxvaWVZTkNpMUlYODhZLU5OTlRicEI2YlJvVFpRV0o1LVFxUnRKOUJ2OEZDSWNQVTdLQ2RHRnhjTUFnVEhxV2Zib3FVX0pIelJJRE15RVRiU29MTjZiX2VWd9IB0AFBVV95cUxPZE1YWG0zOHh1YndxaHhicWZ2VUk1LXRNcXEyUmFGQ0lVaHY4ZlBzS1F6RFBFdE8xOVNVM1FzUGVYM2t5TWRjM0VVMkppNU1PZkVpbWJpLWMwX3BEUWQ2SU9FMDd3eno0LV9zeTZrem0yY0tJdUg0SmszQ1dZUnFka2FUMlB6alphbEhZc25yQVBsM0hpbE9VMzh2bExoMnc2YUVpS1RBQTJtbTdsT3FnMkdkNWp1dWNpRmxfNTF1YmJQUmZlVVJzbHRWV3E5aVh6?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:03eb5f7c7007",
@@ -112,11 +176,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:7ef77e39328f",
+    "titulo": "Líderes de outros países saúdam Lula pela vitória nas redes sociais",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T01:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPem1yZE1zR2lDNUlvUHZOT1ItZ1NDLUI1MVFnM2pGSGloWldxNG81dGhJcEliQzBZdHJtc2VMQVd4VC1lWW9uZEF2cVo1RzhaTlpweEdjWWV1d3BlUGRneTVpc0d4dC1paW0xaTkwY0kwLS1kcjFCdU1ESkR1bjNqbmNIaExYbWJ4WFdoQThNanhDcVBFQTBEdWxZUFpiY3RTZGIyWFRVMTM5cjdUOFJ6RWJ6cWVkcUlsTG9uZGlhTXRWaE5hQXFzVURB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:afae9d1f5c4b",
     "titulo": "Nas redes sociais, líderes americanos saúdam Lula pela vitória",
     "veiculo": "Agência Brasil",
     "data": "2026-10-26T01:50:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSVRCaHljVV96a05ILXFNR0VYbmpPUEUxRmFXMW1uZHRTWEZjYmFSdlZ5blE2TDJhdkR5WU1QRGZaVWdPSEpQZU5weUVfUmlqb1FBZDZ0cVZMcmU2RlJERmNnbjljeU5nbmxnZ2U1TW1EVnVxYmpUazU4QVlOVjk5UHY2VEZJMXNEOW92dThyZ0ZTVnh0a0l2U1lfR01tUzhScGM4dWlocW1sWHhnZ1dNQ25yZFhfOVhYbi13XzRTcFZsQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:87de395e3f20",
+    "titulo": "Líderes de direita a esquerda na América Latina parabenizam Lula; Milei silencia",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-26T01:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOENpWExXakl2OTZzSUJJUXFzQmJOMFlSTGF1b3Z2LXJVN0JvMHpoYWJJME0xUkw2amdldFlMeldvNHlXVkUxSWVmTVBLc2dfS3h4VjNzbDRuU0NvVGxVWUJNZGlNRWhCMVhUZ3I3RGMyOVVvM3lBNk04TmVrUFoxMlJsUTFndHpwVE1aY0Y3SDFYUE1uUHRrZXEwMlpiMWZlSEVxU0pxUTV3My1XcURrcTlURV91OHpqR3RVYnlJN2IzS1BHaGZ0Xw?oc=5",
     "origem": "google-news"
   },
   {
@@ -134,6 +214,14 @@
     "data": "2026-10-26T01:39:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:1649615b8a05",
+    "titulo": "Lula amplia vantagem em Porto Alegre e faz maior votação entre capitais fora do Nordeste",
+    "veiculo": "Sul 21",
+    "data": "2026-10-26T01:36:56.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR1Y0UW9KbV9GRmFFX2EzYXVuNnRGT2UwdV9ERXlYV3Y4NFRaZTRONkQ2YzVIMjh1cnhBS2NZWklsc2l5ZDNRVUJsdEhYWHlJMGN0N1pVNW9nUGpsZlczV1BGOEEyUmxobUZYTXBhdDlYNEdIR0tMNTNOOEh1YU1BNlVfeVJzZmRPeEpwdzVaM2ZGblRWRkVFTk9jbW9YbWxBdkxXdmFFNlpWb0dXcEtPT29BQjJlMUxnbkFHWENiX2RyNDNBbmhXR1d0R0lqUXFJU2c?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:bf9ccfb3cccb",
@@ -312,6 +400,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0504a505b2e3",
+    "titulo": "Qual foi a diferença de votos entre Lula e Flávio Bolsonaro no segundo turno das eleições 2026?",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-26T00:29:37.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVDE5Ul9hLThvNHdEV1Bmbmh3Sl95a3dwZGlaa0tTTXpsS3lQd1FLbXptUUY0cFVwdVQ1eG5ReHlvazIyRWFFMVZBWS1SWVh3cjBCNDhsYkp3N3FzS0lBUTFLb2tkRTJaeC1UYm5TOU5lNDhFdXc1M2g1ZS15a2pIZHp2T3ljNGkzSlhiT3p6bWtFb3JYV3RaSjZfZFJSbFR0X2tQUVh4VGExZXMxa2dsNWU2UDJiQVdfSjJzb0U1cUtUYkkwNnItR2tudHFiZ0h4MC10LUwwQ0pBNDhtMGZURDVFcXFnSkM5VGNySHFfaF94dHJ4Y3phWUd30gGIAkFVX3lxTE9JUmY1SVlDNnN1QmR4UDJkUDZfVVlUYTZTcE0zNEhubkMyVkh5dlJuWVJnQWtGR3ZZQXl0TGVFbEUtYXp0dWktcE4ydzY3MmxMbU1JdF9iY1JLWklGN1Y5bGIzaGNxdDdTUk5DWW1JV2t0R0d6Z2VaQWQtSUFYV0tXcFE4VlZvQ2Z0aW9EOXRhNkdsbVU3SXNMV0ptRFA4VzBGai1wZVBSZTlubDRWOGVLU1VnLVZqLWZqMnI3Zm5MeGtLckVJQVNlbm9yZEVKcFJfZml4Z0hMZ2Y5V3hsaVRHbWNSaHV0ZlV6ekg3b3RXRk9GaDRRaEFhTFJ3VHRBdWVfTDBUUGlvaw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:33654ebf93ab",
     "titulo": "Lula é reeleito presidente com quase 52% dos votos válidos no 2º turno",
     "veiculo": "Portal da Câmara dos Deputados",
@@ -408,6 +504,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:70918ece5c67",
+    "titulo": "Apuração no Nordeste: veja como foi a votação de Lula e Flávio na região",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T00:15:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSUsyUGtlMy1PM0x3ZDBkWHRnc1MtVm9hWXZLOVU2Q3Jta2hSUEdUS1RaQnB2S1dUaW5VdTAyOUYxVTlXTTcySXk5VVpaOG9IV1pzN0IzUFhjMVA2dS1hMDVmdXhrVXE3ZEM0QU9YQVRxZ3huQW5Qem05OWZKYzNOQVJSY2FhUDIzVEdsRjlMODJmcHJJejg0OGpreGZSUjkyS3ZjcFlLOXFRMUROZEJsVmFKd1hYV1NqM194MFNhS3Nrd3VHd0k3QjZrd0RaMXQ3ei1jMzhzZDQ0U2c40gHrAUFVX3lxTFBzcmx0UmE0RGx1bEtBNDJmZVJiXzJDeTBRT3RCMGw5UnVOUmRIV3VCTFpLYU5iR2MyMjRNcmF5bW5ZRzMtaWVIRUI2cVM1TllWRTJxZHJSUzdOdEpiRG1IUHNONGZsenVyNS1VRjBPTlZ6U3g1QVAxT3ZrNVg3c3Q4UTc5ZHB1bTYybElkM21FWXNxYXRXRjM0MkR1YTdtMmpmZnlaZllPNF90SGhDdG5ZM2FfelZCTFgyTmh0MWtkWkpodHlwYzBFTDdPOWd2aHFYWjZGM25tVmtidnVXYmFMb1RNcWZRbkxyTTA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:08216080a79d",
     "titulo": "Lula é reeleito e terá quarto mandato como presidente do Brasil",
     "veiculo": "Consultor Jurídico",
@@ -424,11 +528,35 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:f0811688700f",
+    "titulo": "Lula ampliará o próprio recorde ao tomar posse com 81 anos; veja a lista de presidentes por idade",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T00:12:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUGwyaUZEazJUMXhEYlQ0QXpNR0FtcUVQaVRvMVE0UUgtemVYYVl0SFEwZE1YWXpRc2FNRXAxeDBXaHZUUWNUdk01dzllbVNsdWVtbXdMbElEbUVyYjJIVEhINFF4MHNYQUVFMGRIMFFjYkd5TmlxMDBCYUtJSjhHM1FFZVlQYllmNVQtekhsYnhja0J3ODRvQklKQXg5dUlsd2FGS3BhU2d5ai1DTjdPV1lqWjNzUkJLRTc0aFMtbUR1QzdnSXlpZ2xPMm5aTGlXVHphRjREWmo5dmhwUEJzM0txUlZjVE5ES2c1bnk5YUdKZk5mdnVROFdoX19FZ9IBjAJBVV95cUxOTXdWM2l5aFU4YnZBX0o4WTk2dTVlbWJ5M24xbjV3ZW5oTnl4anRZWmZGQUVuYnpKbmJqOVBWTXJYSW0ycDhmX3BVRTEwTnJ3cC1sTTdmbWtFN0s2ZFpxM3plckJEdENtendjR2w1QzdRek5SWTdEaUNvT1FabXB6RUtzVVd6M2NfT0dRQ2NFZ0ktanVNLWJTVGFxaXptLWwyWHJJY2tmanh6dFU5cEhHeXNVYm5jdEszTkZGa0U0Rmk1QnpPcTB1cnlyUUNET3NkczUyZzRvS0xhZUxfMVV2akxUTkdWYVM3QVpvcEFINVhwZzJUcGQ1TVczSkI2Z2tBeVZJSS1LWmc1VWl0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:800e723b9148",
+    "titulo": "Reeleito, Luiz Inácio Lula da Silva governará o Brasil pela quarta vez",
+    "veiculo": "VEJA",
+    "data": "2026-10-26T00:12:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTXRxc1BKOWozVGJoc1pleWVtbGVuS0dPR1RHdE9jRkxIejJaZ0JrVC1Ka1RxSDQ3TVpDQmlaOFVOYncxMlVXRWRUUDFyTk9Oek9JY0p6aWFmV3RJdmZqSGxTQXQyM3hHMU5iWm9XNzFYb1lvaS1Hd1VuQkZ5Sm1jOUdaTkFIZHRmSW50WQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c73a513c7459",
     "titulo": "Lula é reeleito presidente do Brasil. Pela 4ª vez. Em virada histórica.",
     "veiculo": "Agência Pública",
     "data": "2026-10-26T00:11:51.000Z",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YZHk0UEYtOHAtM2JCRjhrTFhGY1RKdWN0X1VqMEVaUEJkWTVkY2NXWFMxa2huUUE0N2p1NlpLVFNVM1lZdkR5UmNyTFdILThaMjhGRFI3QXZXT2U0cUhEV0Zoejk3M25FN1YwMHp1NEJWUlFRdlHSAXtBVV95cUxOQzBVbUF3LURzY3M0V251ZVBvUkdWdGJER0ZkbU5ERGJaTEdiRDdrd2dvam5QNVJiX1JsMlZuSEJXZm9aTkVERmlOdGE1bnRTa19hT0JlVVNMWEVRNl9RNy14dDZoR2Z4TEVfREJXNmowZ3NUcE1JWjdVN0U?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3f0aafdc1ac0",
+    "titulo": "A força das ruas: mobilização popular impulsiona Lula para virada inédita",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T00:11:46.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbkpmdi1sdWkwcnNFQUQyaVZtRVRLczBPaWVRTnN0Sl84MGVRVUNtWDJsbHlSSDk4dzN5eGFMRGoyX2hPY19Dd0ZUYlVGeGpwb3VheFhRVGhrUXhudVFBVXYzTU9DMkhqb3hTaG9LN0k3TUUzMVdNVTY5bExkZHFSaXBPY3B3SU9ZQVptRkVjOTlsSVZUdXJiZl94TEpkUUVsT2gybzlrYVotVHZQSk91RVBBbDRESkpVMnNaZVVtdHZzQ3B1dHpwbEZ6QkJZMDdYZ2N5U3pVTGxELWFCRkHSAewBQVVfeXFMTnYtOWNaT1VpMW42T0VPclJJa0N2SWprWkJUX0NxLWFTTi1pOXN0SU5CaXl3eTEySkt4bnlqbkRFYTlhSGpHTTU1RHhreExxaHI2U29NdHI1YmJYdzZfaENscEZXTDhEaUdUbU9tcFN4LWJNV3RzSzVGMzJ0MUllaFNDNVQ4LTExak1OaW9BZXVSZ1lhT3QxeFNzX1BFRlVLTGoxSHhUYWhGNUZpdUt4MlVsbFh1SWFvZ0stNlRzVk0wZDlYdC1KT2N4WTItUE5UeEZSQ1p5TXJ2X0JqaE1UbERKWXk1ZTc4ZXNYOTY?oc=5",
     "origem": "google-news"
   },
   {
@@ -461,6 +589,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-26T00:10:32.000Z",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUHhCbS12V3dQbDI3Q2tTS3laaGFtelRnRklCd1c0RUdzUkpPaGJjV2pCekk2RFV2Q3FVWmxuMUxrSl9CcXJrZlg4WlNyX1RybWJtU2k2ZVo1Vy1ZS3NBN2dKRmdEaWhDOHRGUURnUWFkVGM2VkVaMGYteGxMWU9SaWtHQ1BDTG9KdTRMSDlVME82S1pxaGZIcE9WSG4yb18tQXQzWHJTY1pjTXBPSXk5Qm9mUWZZZXdzeE9JYVVLbUx2YnhldzYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:62ce91c6c752",
+    "titulo": "Em virada histórica, Lula se reelege e quebra onda mundial de avanço da direita",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-26T00:10:28.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHNxZHh5bnROWjNrdEN5VEo4RWZ3ZkM4dGdPUU9qd2hMZGZpd29xR2l3S0FHcV9sWi01aFpxanZneVlXRDc4R2QxUnFuclE0Q0ZLRjNLVHYzR1VaWW82czcxeC1jbnZoSDRXZE1uRnBYLVVVRU9oQjZrbHllbVdRNE9udjVoNEd5YXR3ejl6d2FaQWlmOXowQXZjeFNoSlhHQmp2X20tdHdqVXFVeE90WNIBvwFBVV95cUxOSTdSOHpoR0lnVnMybm9LWXBsQlJraHNTMk01bmNNdGVuYzNSYWpYTWU5bXZab25sLXBGVF9La2VGcFZPdVp0Q29lZ1V2endBZ2s3aU81M1luUlltdmVQekxtWkkyYnI2TFRZLWtJb3RzdUhoRUs3UkNQQ25JQ1oyY0ZJQUVOT3M5UkM3a1laQzNDWUtMc0o3dHI4R2NKQmhHY0pnNjJfcHdwdjhLbzFjT0Q5UFR2dGI1WjlpM0hGNA?oc=5",
     "origem": "google-news"
   },
   {
@@ -504,6 +640,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:6609d31a494f",
+    "titulo": "Lula é reeleito presidente da República no 2º turno",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-26T00:09:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbXBHU3l6eEJfMjZGVUJPTTFNazdJcndkVmNMdVNMNG1JcFNLQUc2bmlMTF9sWlZIc1RCd0NYRmZvMEhIbldDbDU2UjRwZXRZYzVxR1NBRWY1YWgzZWgtNk5PSzVBZDZYdWhkNjFSN21SODZ2amJjYWVFcUJZVFY5SU9MUG9IRjJHcWFwbFJSZlVGMEdN?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4ca653977df6",
     "titulo": "Em virada histórica, Lula derrota Flávio Bolsonaro e chega ao quarto mandato como presidente do Brasil",
     "veiculo": "G1",
@@ -517,6 +661,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-26T00:06:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNWVPbWdBU0dkSllqcVRzMEhBTmtjZHN4TFJfWUE0cXBULUl4MWlBMnFiWnRQX1RVSHRaVTdISVhhQ2g2V3ZYQXNQc3BXZDJZQ085Z3RpajF6TTdyaEFRdzFsTWFVbDlCWXhuZDAteUlsV3dOSEp6VGtHOWZsV1VyTFRxMWVNd2pMMTZKU0V5aEVIc29vbkE0NE04OUxFM01aVjFka0U2VEhzcHo3WnRhT19FbDd3Tmd3cklCem5YYUl3MkRQQnZjMjI3em9uX0t1OU44b1pHM0bSAecBQVVfeXFMUGhYd2pMRnlpVHZJQ3FHVnBhS2JEQ3ZvdEVmR2VzU1lUQnVTU1QySGh0OUVla0U4RTVzUURwVmtEMlBscE0yNUFaSGxoeUhCZjZHRFZvYXU2MGRVYkdYNWVZa0g0dzhRWlNiQlpJLVJ4TmtUanVRMDZfWGJ6dl82UWtxTkc4dEIxZjJKTHZLSUZ2NnhZS1lvaVZvZjVvb0YxbzlHYjJERDF4UGlsaU1Md21FQnU1bWUzMzdiNTJqWFJxb0hzb2NpeGFzQ3JNdTBRZUlJWFdLZ2F6OGo5aVJrOXY3Tjg4YndB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7bff68908770",
+    "titulo": "Congresso à direita ameaça deixar Lula sem governabilidade, e Senado vira bunker antipetista",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-26T00:05:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSllSTUlpcXN6Q2NIaUJvSmZfdThmNGw5c1lsM01sWjNfWDVXZmQ5WXJ6eEhjTXZ6Q0F2NEUwTHVWR2tSYVN3S3luSEJobTA4SXRFN3Qya2Y3bS1WME9nSDQySXlhLXo5Vks3VlN6UlRUdHp4dWxTLU5lMFRBMmRWamV5clN4T2ctUy1SRFFQNFlNclpyWWZYWmdMdHJ3NDJfd0QxbXFJYlBkcWZOR2Y5dkltN0JrNE9Wa1NKaG5NamZjcXdGdTQyb1Bublgwek10emduTkR0bmk?oc=5",
     "origem": "google-news"
   },
   {
@@ -552,6 +704,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:56b2fd431f21",
+    "titulo": "Disputa entre Lula e Flávio Bolsonaro tem virada em 212 cidades com apuração concluída",
+    "veiculo": "G1",
+    "data": "2026-10-25T23:32:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcXhMemVIaXg3ZjlPTVdkTFk4WGw4d01HRF9BNDBFbnlIejBWTGFvVGZDdnhGSWxvSl91WVdRNlNYTTJEaGhMRnZYMzFxcUxmOGFsMUFWZkJ6dGF2aDFOSEY2RzIwczNHWEdVSEszdjFvNUNFVXo2QlBpNDBWQWd1UU83OVdtNGtOYjk2c1doUDlHTU5aMnREa28tTGxXX2hNRzNVN0NOYUl5UDRlY2lXRlN0OFMxcGFSb2pJ0gHKAUFVX3lxTE4wS2c3eWNHVU9nRjhZcHYtZFFDcDFxMWUzQmFzT1lHbmlEMmV5T0tfRjRacFNMZzNsMUlLVGNiY0dpOXZRUWZfTmJacFJuQ0RVZm5CcUMtR0N1b1dqVk5nYWtlSmJrR1RhV1VtaE4weVJpT000VS1xVzdFZmwxMm1nX3p6dkphcXd2ZzNpY1VKRHNiLVJHWG5YWU03TmZLMzFwRlhyMl9VMFFiQjcyNXAxRk9FUktmNkFNeXFPaFpPWVpNTndrc0VEdVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ce54b63fc6f4",
     "titulo": "AO VIVO resultado das eleições 2026 – acompanhe a apuração da disputa entre Flávio Bolsonaro e Lula no 2º turno",
     "veiculo": "JOTA Info",
@@ -573,6 +733,14 @@
     "veiculo": "Migalhas",
     "data": "2026-10-25T20:01:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2lzT0NmS094U3NfTVU5Qlo3b1M2dUtTRkdUUGpPWENjb1VrRDRmdndFRzFLRDZWVkxwc3hIQ0FSOWRoYzZyVUVOS29VOUZiWmFhRl92NmdQZjluaE1UZVlVZUZTd1dSV2VQZjhXSDhkNTRsZjkwNlEyOWlrV3FFU19QZmxPY2lyT3JocG5JOU1EN182WGZr?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e899b7be87a7",
+    "titulo": "Quem ganhou as eleições 2026 em Portugal? Veja resultado da apuração entre Lula e Bolsonaro",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T20:00:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY2tmZUtRaUVxU0NBNXNpM2JiU0tXSDUxM0ZnaG1RcEtyalVvcnBFSVpkeE1CdHZla1VKTldGLU43YWVmRWt5Ymg1QTB0MkoyLVU3NlVIOXlJa05pNjdyV1BSVm1DWU1VbVZKLUY4Mm8zcVhlVXZtcFNYTUk2M1pZaEh6OXBJMjZLamxFMkRqS21zX04ybmZhWGsybHFlNWZoVDhFd1Ruc2w1RTVONlNUbkFXSnVBeGM1MUFfSHBULWFfbEIyWGFDSEdoWE9ZSjl0MlRNdC00WmFNd2lNSmU2UlJlbVo1N2c3czB4MV9PWVhPRHhNT3fSAYQCQVVfeXFMTjJ2cjdmYTZjemp3LURVSTRlTFdNTVBLVGJZbmlRTk5ob0pSRTZGdUFrd3hEZEliZVdQQVIwQmFOSVdtZDFNQ0lkRnFCRkdhOE9aUjE4cWo2V1B2OVUySGFucmZTWl9ta3BjRHV6OGV6dmpsSUQycVBCdXFoZWRlckttNmVOT1RVQWRFYUtSNzRTY3ltdzV6cVRfQlc2ejFuYzRwcFBXaVp5OUMxeU91QzNBS3NUdndSRVZuRDN4NW1wNHo2dmJnc19XY3poeXV4YlNyVDRBNlJXOVFYay1OQjJXQ05tUXh6ZTF3cG1fTWZfUUxfVWstS3JqNHJ4MlF4NTBCaUg?oc=5",
     "origem": "google-news"
   },
   {
@@ -637,6 +805,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-10-25T18:50:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV2FvSlZjWGtMdHdZcEdYVWZPZlBrS3NBemJmNHdnSUkwTkJxeXp4R29PM0pDMC0yS0dPd3JySzI4WFd1ME56NFpmeE91NmxvUjhXZkQydWhGcVFqTHA0Wjl1YmR3RmN3eWJXYmFXNFI2VmFNRmVvQzA4cUs2TGNoU05RNS0ya0pCeHVvVHNQbTI5emJOLVZpd3RkMnNXYi1uMU9RcE8zWGt4TmZ3MkF0MkJXNnM1MzR4QXBqZFEwUFQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:fa3c93f780a1",
+    "titulo": "Presidente do TSE: resultado das eleições deve ser anunciado entre 20h30 e 21h",
+    "veiculo": "Senado",
+    "data": "2026-10-25T18:49:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMmdyYVc0U3RjWGtKRGRIS3BDd1hCWWRMcjJsanF4RHNqUkk0cFIzbHpGVVh0UEN3ZEI0M2o3ME51OXBxdWQ1SkZQa3FtN0dMVkt3QWlCa3NxMm9tczdtdGJ2ckFtcWdpWDEzWm1wSEFCUU1IRTUtNHV0aXhueDRDOTRma19mVWhpMUNmZ2pSelZKM0dxMXkwX1U4dUl5aVV3NnhiTmNsVkhYVmd1Nkd1QTZacVVkbEIzcHZSLUpoRE1wclZsU3R4YQ?oc=5",
     "origem": "google-news"
   },
   {
