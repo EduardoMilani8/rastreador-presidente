@@ -1,5 +1,21 @@
 [
   {
+    "id": "agencia-brasil:f892fc059c53",
+    "titulo": "Lula é reeleito presidente do Brasil em virada histórica",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T00:11:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f26eddfea18f",
+    "titulo": "Lula vence. Quais os desafios para o quarto mandato",
+    "veiculo": "Nexo Jornal",
+    "data": "2026-10-25T23:59:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOWZBMUZieUxrWlBIV0lqUGN0YkNvR3FvZnhsLWRSZ2ROOUMxTktVR252ZUFsUE1nVktlYi1rWWhLNUVuRnFYbXhSZVVEODlrVUZDbURrTnN3akxiSFdXWnIwUG9UVG1yUUJvV3VIQmRQQ21TQ0l2ajZBbW5sU0E2TjBtVmhpQzZCdEN4RThqQS1QZ3c0RnBpM1RNdkN6MmItbzhTX2dB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:99a0c3361607",
     "titulo": "Lula vira, bate Flávio Bolsonaro e se reelege para inédito 4º mandato, projeta Datafolha",
     "veiculo": "Folha de S.Paulo",
