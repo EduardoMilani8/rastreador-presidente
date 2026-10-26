@@ -1,5 +1,21 @@
 [
   {
+    "id": "agencia-brasil:37e3ac7fd923",
+    "titulo": "Lula agradece votos e diz que teve de vencer intromissão vinda de fora",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T02:49:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-agradece-votos-e-diz-que-teve-de-vencer-intromissao-vinda-de-fora",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:7f11b651675b",
+    "titulo": "Lula é reeleito presidente do Brasil",
+    "veiculo": "Senado",
+    "data": "2026-10-26T02:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUFV6cTNHME9WaFZpb1h2SjNVRzdFUU5NdUhvSVl0c2h0dlpTMTVsYTZ4MFoyb1M5VWp5Z0I0andSUFBhUzVDclhnWkNscEtVNS1YV2EwajhLLWtZYVhMRU8tOXpxMHVHdmJNS1djbHRLNXZtTGZ3dl9nNnBHai1JdC1CWG5LZ2x2OE01RWhrOHNWNG4zOVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:9d623636686c",
     "titulo": "Flávio não reconhece vitória de Lula e tentará anulação do pleito",
     "veiculo": "Agência Brasil",
@@ -37,6 +53,14 @@
     "veiculo": "Senado",
     "data": "2026-10-26T02:00:31.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1JycTZNRW05cDBOZUJ0RmlzQmlCN3NLUHFjWlBrVU5HcjVNX2NyWFcyc0MzWXZTbExnY0M2UHhfYkoyRnRNanV1SW16WWZYaGFidTg1TWlGLVB3djVzNXpaNDZSZnUzRGVWRDFKaUItRUFqWE5DMFhDQ3U2cXlCSjlIQ01rN0tra042dVJlM1JKTVVNQ0tfaXRMQUJIV3ZSZ2NIMHBYOXRicnN1cmY5MTFNMW5pSm90emZheEI3eUg2Zw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:141dea17433f",
+    "titulo": "Lula está eleito para quarto mandato; veja como foi apuração",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-10-26T01:58:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN3ZDWFpkeGhGYXBHXzR3dHZhM3lVZHozZHFXMW1DakhMaFVvQWVjZnlPWXU4RXNsLW1hVC1CSlFGS3o5RXdHdm9DTkxqUlRQT0puQzQ2REJHclhsd0RENktmcXNkWUhoWl9lNTlkOWl3X01FbjRUWmRzcWJsU1FyQ3NENHdNZExFcEVSWGdvdE5qOEpDMFNxWXpTa0RMZlZDekNHWDRtYXhXOExkR2c?oc=5",
     "origem": "google-news"
   },
   {
@@ -86,6 +110,14 @@
     "data": "2026-10-26T01:39:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:bf9ccfb3cccb",
+    "titulo": "Quem ganhou a eleição para presidente? Siga a apuração do segundo turno",
+    "veiculo": "Valor Econômico",
+    "data": "2026-10-26T01:30:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObmZJY3ZVOEVRemNrX2U2VWgzTTdHZllzOWRPTlBsbDlENWdvcExURVVhb000YUh2dF9IWXNJVER5M1Z0UzE4MWRiMzE4YXVNeklaSXg2ZklpNVFsaklNMlVnWXhXMV81V2lpaFMxNG1vVzhQVnBOaml0bTgwUjVLdjcyb2huUXBmcGJ4VkxDZnV4SGJHZHZSVXR2dzd3LWs2ajlwN21PcXp6SHhjVUVSWVhXSW9pMWRwa2ZkaFpsS1FldTJtSEp5Z0RiYjZwTXhDVFhudnppSGp1U1V6eVdLdXdYc9IB8gFBVV95cUxPYlJHOGZXZlZ2cnp3cHpzdmh5YlRqdGptdUQ3N3VMblVMMGJGWXBwN1FCdlZwb1ZZZjFBcnRVT3RwNzNCOVVyc0Y4c2pZcWpGVmpDT3ZPSDhMUXM3OWVoVzcxUFdGSVBiX183aFdxekF4Z2xIUzE5Sms2U0lTNnExMTRJYmp5NmtQcEdSOUFCTlNXS1YzTndlWWYzYmY3QkpiQmZ3S3RZZWYyeWprREdKZE9JTlo5MmdreTJtMFJkYlFPQVZkR3pXMmVVUGlrbW43Mmk1Sncya2txV2F2MmZham85eEdnRjVmMTgtdjJwd21IQQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "agencia-brasil:7abfe62dc2ea",
@@ -165,6 +197,14 @@
     "veiculo": "Senado",
     "data": "2026-10-26T00:47:26.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZGVoTzFxT2RET3VGTDI4Sno3bjA5Zi0yNS15aDRkVGhmN2Z0cEVQSEhaaWZnb3h5eEZuN19JSldhUl9QcEo4T2dmNTRiT0ppNnFkNnZhNXhOZTFXSl8ya2ZGcHUwR3h5Q2lXWVpsVEk1VDlYYXhFcGsyOVdYcTFxTW80NGYtakF6VFBqbnltMnBOcEY1bGhxOWU3LTdPNUtPUWNFWnZJc3VrMTJCSzFKY2ZRcTB2dTFhSTBBM1M0QzlNOUE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8820fb241b0f",
+    "titulo": "Mudança de estratégia nas redes sociais e redução da abstenção ajudaram a definir eleição",
+    "veiculo": "Senado",
+    "data": "2026-10-26T00:45:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdkF4eGJlc3V4clNERHZTYnZEMHhlZU9CVTBBSTVmTm0zY2xPekwtSVV0eXJRQWZ4VWU5Tkc2aVhLb2NRYlA3MUZlRDFDVXlpRk9URlU4dlZ5VHd5TXROS1BVcWFTeXc2MHA2WTEtb2YwaEg0Znk5c2g3RjRYcTM1SVI3WWYwb1RCRjIweXlmRXIxbEY1M1h5bXotRW81RTJFaUtnN1kySWI0SGFxdWpxbXEtQUljR0UxRTNubndOQ3FLdlF5M281U3A4SWJ3X0c5ako2X29OWVF4cUE2?oc=5",
     "origem": "google-news"
   },
   {
@@ -9845,254 +9885,6 @@
     "veiculo": "Instagram",
     "data": "2026-10-12T00:30:21.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94eHBtWGZ0QnVlTTh3MFI2SklSRGRIMzVjal9LM3Y5eTBhTGc2N3pHRkN4VUFPb2tFNF9oeWU4SlNHLVFYYTUtdUNYS2daanFtOEE?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:2ac60026e704",
-    "titulo": "Derrubar canal com eleitores limita mobilização, dizem especialistas",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T21:23:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZmY0dFlNZUU4TWZZdHg1V1pZdW1kQWZORmZaMEJPaFZHaGhJLTZIMng3ZFNSX0RsRlBMVU5GY3FVLUQ2ZU5WdW9vSVFacXljOS05aVZlYWFHSE5rbTY4MUV2TXlWR2pkbHI5akFWR0U5WVZPTTE0eklFR0ZkS1JNYnE1cHQ5a0lvRm1FVF8teWh3VXpWbmRDaFZ5bUxhVWFOMWpmWm9aMF9vUFUyS21JbXlJRVplZUl3UzQ5LWowS1FPdw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:7dd9f3d77327",
-    "titulo": "TSE barra anúncios de Lula acusando Flávio de ser contra escala 6x1",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T21:02:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVHF3c1lRYjRfSVQ0ZDJhY0RDTUdab3F3RHJGNVpvcE90QzRIS3lNSGRkV2hhOEtEYnk1R3llUFR6a2liY21QU0lvcktVN1V0cEtmdnNtbmZnRWUtWHVKbXRwLWxCREZMT21ON2FRdVN1WjhHNjI5UEtFWERIcHIyc0dJbXF2SWtHYzVOZnV5ZkFwazBHNlh3a1k0S2IwYUpXMUtaLXppSGVGb2VBS0Z6dmdRRXQyOVN2NVZPdVlPODNwUQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "agencia-brasil:252cca06866d",
-    "titulo": "Ato pela reeleição de Lula leva milhares à Avenida Paulista",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T19:49:00.000Z",
-    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-pela-reeleicao-de-lula-leva-milhares-a-avenida-paulista",
-    "origem": "agencia-brasil"
-  },
-  {
-    "id": "agencia-brasil:37715aecb761",
-    "titulo": "Corregedor derruba decisão que suspendeu canal Exército do Lula",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T19:27:00.000Z",
-    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula",
-    "origem": "agencia-brasil"
-  },
-  {
-    "id": "google-news:cfbecc0f05c3",
-    "titulo": "Lula reúne multidão na Avenida Paulista e convoca idosos: ‘Vote pelo filho, pelo neto, pelo bisneto e pela pátria’",
-    "veiculo": "Brasil de Fato",
-    "data": "2026-10-11T19:25:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUUZqQTNXaF9zaldnZ2RCUUhPbkEzMEUxcmJwdnFpUVN1S2JMckhwWVVMb29wNE0wLTJZMEM5a0lEajJiYXJmRUlkRmVPbllzTFllc2RXVWpycnNLQlAtODZ2OEs0eUVVNDRzYnphQTktcC1VdjZKaFdxUmp6ZFN2dkVGWjBaRnNtR3hhcUhMMXB0YmpxUmkwOWUyMEJXUGFOVkNTTlBRZ3FCcW9NSm9iU2M2aU9USUxQYXMzV1pqeTByd0dTY3owX3dKUG5lQ0xSNzc3ZDFhdzdHU1VpU3FVQ0dLSXdod0Rh?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:f011fdaae981",
-    "titulo": "Lula diz que votação do fim da 6x1 antes do segundo turno já está acordada com Alcolumbre",
-    "veiculo": "Folha de S.Paulo",
-    "data": "2026-10-11T18:55:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRlJaSFlEWlpKRXJJd3F0Ql9JVnhtMHExb1I4a090X2ptWFBQdlJXTXdKNFB2cmk0UG4tSXJPVFFGLTlRTEJWbEhQbF96ZTJxNjU4ODg0ZFRQRk5iaFBwb0ZFS3pnWTBBblBaVjFTUTZXQUFWV3pOalY2NmdMS3VYYkJfRndyTC0zWGNEcjdfbHVnRmJnQXJna0gzb09DdUxvUUZmeW4xS2JIS1VBVk1NY2hQaDNFQ3FyYjBFNzN6Zi1fUXg0U044Rk1KbU9tWDlkODNFNklfczI?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:2a914cdc35df",
-    "titulo": "Corregedor do TSE suspende preliminarmente ordem de Nunes Marques e libera canal 'Exército do Lula'; decisão final será do plenário",
-    "veiculo": "G1",
-    "data": "2026-10-11T18:52:38.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNa0hUbThhb09tNHZYWWtlRlBkcGdYQll4MTlnQlM4b2laYUN2cWJ0dVloVmVMaExWQkxvNXVjbjhXNWc1c1dpdGtud3oyNml3YlYweVJsdmx0WXp5b2dUY0pMTmNVWWhZQzBzd3NLRU84ZzFlbjJtX3Z1Q2xMeGtkTU54ZWg4U2lmbGozUlF0eUNCN2lrdklLNWNIVnNNRUNiZHk0dXkwd0R5TlNkTEtWZGV3UmF0eHYtemkxUExsU1daaE9oTU5vQ1VYcEN0WDdudGNQZ0VPZE9IcldkRlJyTVFGeVQ0YVBtUDdMSUNSRWZVTGJOa1I5clRGY1JCb29vZzdoRUxnSkE2ODdDR3FnRDlyZ9IBogJBVV95cUxQVWVnYlhaTzhGQkF3ejVHMUhNZ0cydUlqaEd3UEZCeWtTd0RtdGVlN29wLVpRT2VMMXpSMGh4SUpDTlBxdnNWZ0dXNkdiSnRtWXgxS05LSXNSVXBSdUNiS2VHQVh3TklYUlRBdTlpQmZidDAxclRYSGYwdVNNVG9MeHp6YlF5TXN6cXhzZ3RVb0hfd0RVZjRKaUN5UkQ0eVVSb3ZXWFlMWVhyX0hZNGtzWEYzZjV3R0pGYWU3UnB0eVNEdkM1WFlkaC1aZkhGOWFNVVRpWl8zamhSX2lJYlZQVkQweV8zWUs5M0JwWmJMWFFoMGZRQnozTHdIcGpsMFRmelk4UFNxNkZRYWdvc0Vsdnk4dGo2bTl2U2FReWVvRlJFUQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:01225f2cd110",
-    "titulo": "Durante ato em SP, Lula diz confiar na votação pelo fim da escala 6×1 no Senado",
-    "veiculo": "CartaCapital",
-    "data": "2026-10-11T18:34:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYUlXS3JYNlpRRmw4YTJEQ0RuNUcyNVZ1UTR5alB0aGhPaTNZQnJsUXE5bEhybG53MFpIU1AxOGxCZUVVWFhjVWV6dW9ocFZPUENlOVRnQTVzejRPRDNKUTZxY3REUE5RVkxIS3FKMWVtbzIzclN0QW5IbUdMUDAwY2FUYjNVbG53Yy1fMC1lcWk4NU5VOG9GS1NoeE02Tm1BUUpqallfX2VudnlaTVJjSDltck90Rk1PNFJmUQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:b010ec4fe289",
-    "titulo": "Análise: Na largada do 2º turno, Flávio age como se já estivesse eleito e Lula recorre à mobilização da esquerda",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T18:15:41.000Z",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPUmxmWDVTTTE4bGVoVXlpcnlVNkpWLUtsdDZ5MzN3ZjBHSFJUQ2doTEFjLUlPTElpUG1YZE9iRWJYLXlGaVRiblFTbXpoN0J2QmlWZFMzN1lZZ3p5bENDS1lRcnlsMDRsU29WMVk5Y0RFYWlEV0FZU2xzNk1iNnBFZmVuVEFzTkZ0NFpSTkMzb29MM1hEaC16YmZTUzdfbk5HaTVmWFZLM05VR0dvS0FiRUdfM09JbmtCRHE3V1hKQU4zbUFXaWRCSlVXdGZGTVVlNmE5Z2VpWklPckZfRF9xV0NnYWJydkp1cW5EMVpDeG5mbjZLd2F1ZW9rb1FKdlhxd0NpUGpPbEFETTFCZ0R30gGeAkFVX3lxTE5YQ2lMcnFRVUZzTWxVZEdaSzRLd2pBSTFucGVCdmpXT0U3LU54LUZJTGNDOEYyLXFmTHVJX3lsZGtOeXpadUpXWGJkOFNZdmhaOE9zeTM1ajB0MVFHcllGcVNoYmZ6elVibklxby1sTERBMmo3b3RZNFZyZWFzODVBQ1BDN0tfa0l1VU5CeHpkXzZ3dWR4eE10eXd4WnUtelpMckxMS0d2U1Y1V3R5N3hHSExzdGJqNW5sR3ZIRG9maENraDZPWEpYN3dsLUYtN19hdnZkbzNobXd0UmpPZ2NzN3dCMktEVkJ1OVV1dXBNXzFUcTVleUNkNW9GVXBmWkNwSjNURW53S08tNGtaSjI4ZmhLeXhmZlhMYUNQSlE?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:bd38c015342c",
-    "titulo": "Pesquisas mostram o desempenho de Lula após primeiros números do segundo turno",
-    "veiculo": "VEJA",
-    "data": "2026-10-11T18:00:33.000Z",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU3d1YVV1YmFqQUx1akFLNTdxWHlUSzBNN1pBZXY4dmZXTzRhUkNhdFh2eWc0NGNVSzhqdHBGSDJqcnNuUVg4c1dTYk8tQzhRRXZsbTMyQXE4Yy0wXy1sb0Vlb0ROS3I0NkNpa2tBdTlPd3hPVktidjFuZWNucHBYZWVWUVNNaXVVSzdtYnplTzJ1RXI4bFN3S2dUUGpIampHYUg0Tk1BSE8zVExRbjZqckpaQS0?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:cbeedf662807",
-    "titulo": "Quando são os dias dos debates presidenciais do 2º turno das eleições 2026?",
-    "veiculo": "JOTA Info",
-    "data": "2026-10-11T17:57:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb3RMRDBzb1VVSXVNNUFKRUc5dnBaRmFoWHdGTUZvRDlrRy11eVNHTU9WX1BoSEV1YnlSTUdzZGRGclpyMmtZNGtFS1JXYW5jeUlxNTlkZzRIQU9aMUMzTzVjLW1VR2NjVXNtcGw0ZzdjTUhpZ1Rsb2lSOEJzdHV1dHlHZ2JkUTBSZGFUbmVuZXhIUDdUZUNNRGJ1MVdjUy1UbHRlZGxVMjVkRFdidVdjcGZNUXRhd1hkdVJB?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:1f1cfde54a28",
-    "titulo": "Flávio Bolsonaro x Lula – Quem são os candidatos a presidente no segundo turno das eleições 2026",
-    "veiculo": "JOTA Info",
-    "data": "2026-10-11T17:49:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWmQ0aFRzRUhaR3pDd0l6U3AyZlpkNFlrN0UxM2pEcXo4dlU0ek1adHhDUHpnSWhBb2gyOUN0VndIQnBwMUYzNDRtSkE0YjFKVDJIaFllVUwzV3FnZmZWcDdnRTB0UjhXckFRVHBZNW5fWmpvckVwTmdEZERDM3Vhc0diTV9tVzd0VGRnSmJPZWRucHpKNGc0bFV0U3lzZnp6cTBGT1JkZWtoRzh0bkVyZklyNVMtb3JHN3lKNHNRM1hPMHdzSHBCNWxXaGxSTTRTMHBN?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:a6beccf62359",
-    "titulo": "Coordenador da campanha de Lula prevê aprovação do fim da escala 6x1 em dois turnos nessa semana",
-    "veiculo": "O GLOBO",
-    "data": "2026-10-11T17:19:58.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWXowWXRMTjVfSy1ucG1iajNSZkFoWkJaZ2xuaHprV1ItVWwwa2ZfY2ZhYUVQV1dtN0l5aGhpdXVLd1FObGVYcDNoSmtDTmRaVjdMclYtUm4tWldRcUZRdWxfMmNEZ3lSVVVJLUx2MGpmV09xMU1rYzNzY05MRTJZM3dDQ3EwblNNM1ZZbG5CSnFOcGFsZDQ1eWRGSWxfeTVRaWJtU3FiZXRMTjc5clVQZnRkbXk1ME11M3EzbzRhb2dOa18tNzZ5N0NTTHZCQ2sxVFFjSE5nbE1taExEVXlTeTY5WTNaZXg3VFNF0gH6AUFVX3lxTE1QcWswUjJUejJ1dlk1VzhzaWJSWmJvRkNPZlEtTlJSUFltVmdCbEJKcXgxLXctMV9BSXJBUGFKZF9UTURwZ09DZTBIQ2tCR3U4R25Id3E0MjUzcFZubGxmdGM4SG9kTTU1TERzSFh2SlVXUU5weUpqUmFVOVJ2N0ZBNXd2aHNYVmFReWN4LVJuYVFyX3NBQ0szQklfTjhrb0VkSFI0VEpGX0xnNHdVOUZxSVJFbUxZU2RtNU8wa3RDT1dlOUZpekpnV1I2UnZhWURqUVpmTVkwb3l0UUhFbDNlZ0VsN0xFcmZPTjVDVV9HaTN6N1RISE1HcHc?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:d20d24865e60",
-    "titulo": "Lula afirma que PT entrará na Justiça contra suspensão de canal",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T17:06:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQWs5bldJN0UxVHRXWk9VdktHZFZoQ3V4ZVoyNmgwY0VhWHFHZDJqb1hublVyVzFwVDZMRmRqdEVQMEc5cWU1TkQ4SmdiNEJOeDdxRGZ6NXVjS25kblJaV2hpUW1LVi1QUVRvQ056TmRLZzJBdkcyQXhiLS1JelY0dXh0dTNzNDBUMnAxUHk4OVpLRC01bkczdkdROGhkcER1cTlpZ29yQlRXZDBzTW1DVFUxdFVITE9ueGNOYQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:7d7849d32173",
-    "titulo": "Lula faz ato na Paulista e pede que eleitores convençam quem não foi votar no 1º turno: 'Temos obrigação de conversar'",
-    "veiculo": "G1",
-    "data": "2026-10-11T16:36:32.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbkV5SUtwbndqc19Fb0EwcGljMGpTUFpfby1NV2l4QWxrMFdTS2hBUWdCNnE0QW9TMWtPZVRlaWN3MEdEQUw5eTgwSmNfSEZDR0JscXhXdkI0aVhSNU13MXlmQW5PMW1JdXB3SEYyMmNMVzlOcWIzeFJYbmgxcDlNRDE5bC1Pbk1ITzhwRmJRREg2MTJkQ1puc2VrYUpSU0dBRFRPRmhTV3lyejV1Q1c0WXN4bU42R1hFTWNjRlM4elhlR0F4dWotaDZ0OUpTVnA0ejN5c0VacUx4Qld5VkdsVkt5YWZsUDRiT1Vfc1BtSdIB_gFBVV95cUxOZlAyN1dScEtJLWdid1FxRUQ3Ri1yMXVsaVlwVmZZNnJXZks0blJaeVlIYmRWRE5WQ0tqdktKNElPZXk0MFU1MUxEVjVyWEdWaEtmbmFqN0MzX2VMX0NXRUlBdEY5X21mdldNUE85V3oxS2FIbmRoRTJDaTRfZ0EtVUlheWVLcHBGUzhpQ3VyNmxKQmRhXzVCTTQ5STBYT2hDR1V0Nnp6VkpaSDM2ZEdLYVcxVkhiUDl5UlF3RmIybnJ3amNadHBFWmdGUm4zSWxxNXlvbXhGLVRneDg3SmloSG9vNkZBM0JzY1J3U1pnOFl6dFhhVWFrY3dpemh0QQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:bfda0c4fb7ff",
-    "titulo": "Na Paulista, Lula pede que eleitores convençam quem não foi votar",
-    "veiculo": "G1",
-    "data": "2026-10-11T16:36:32.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbkV5SUtwbndqc19Fb0EwcGljMGpTUFpfby1NV2l4QWxrMFdTS2hBUWdCNnE0QW9TMWtPZVRlaWN3MEdEQUw5eTgwSmNfSEZDR0JscXhXdkI0aVhSNU13MXlmQW5PMW1JdXB3SEYyMmNMVzlOcWIzeFJYbmgxcDlNRDE5bC1Pbk1ITzhwRmJRREg2MTJkQ1puc2VrYUpSU0dBRFRPRmhTV3lyejV1Q1c0WXN4bU42R1hFTWNjRlM4elhlR0F4dWotaDZ0OUpTVnA0ejN5c0VacUx4Qld5VkdsVkt5YWZsUDRiT1Vfc1BtSQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:de1fee07db9f",
-    "titulo": "Em clima de vira-voto, manifestantes vão às ruas para conquistar indecisos em SP",
-    "veiculo": "Brasil de Fato",
-    "data": "2026-10-11T16:31:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1VnclZzTGZrNUJIaFcwSndiM2VWeGFPc3V0bTlBNHY4NWtmdW16bUdDWGh2U2t0Sk12eEJiSzlfTlNpSlJxREJFcVo0d0hOTTBVdG1zZUZfMEs3aV9oci1UcVVPZWxtSUVIMkVoM19jYlMyWThxakJiaHN5bWpxVU1vSHJ3Qnpfc3N4MnFPSUl5UXZlWm5ocU8yM3lBV2tKTmNkaE1hV1BVaXJKNkFfUjVXb1JIM25RaXN4Rw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:fcadd6f53161",
-    "titulo": "Em ato na Paulista, Lula diz que país não pode perder a democracia 'por pior que ela seja'",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T16:28:24.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTzdWNy03MEUyVFJsWUFGRjI0NXBvYXZMRWt6d1l6UWVyVFU5dTdGZldGTkd3dVRzVGNDR3k2X0Fjcjg1OThDajNjQnY4X21xbm9lcnlPMVoxUVhoWWxqajE2WEExVld3eVhJR2R0UGRaOFNJcVc0TVMtXzFJZXZGYlN5UEZWSGFPLTh5UldScXJoMkFVVjI4TnRScVR1MG9OTlphZnVIUEw3c3hNZkYzbHpvZnMtY0tiRzh1MXctbVZvUzhrVjhmSklIWHRKQUdFVkZEQ2Q1a1J2M3VHQW9VMmNNUDdoSFNBYkFXZEdB0gH8AUFVX3lxTE10bkNhZGV3ak5uMGVkOUstUGxZcDVIa0djZHYxMk5FQTYyNVpPYUZPVndzRTl2QVFfbDBTc0FVXzd4aV9NNVdHTE05WEltRVR0WG1IVzlJV3VHN3lUYjVZMFhhcDlrOTFYLW5mYzhYSE02Q2x1Z0hTNnRnRXVNV3NvSTYtek90bWx2T0VWSGdPc2tyR3c4OVM2d29ET3JwY2xyVHBOcXRXWDl1M1BkRjIzNDhldGJpaVdfcDBWZi1VN3U2dGpPNGIwV0ZCejlOVnFUNFVmV1RTVnJLSHpldmZnZ2ZKenJ0aURnZktWc1lsZU1oSmRxcGdKVlRjQw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:b70dfefcadfb",
-    "titulo": "Janones denuncia censura em decisão do TSE contra \"Exército do Lula\"",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T16:21:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUE01VnhSekRaYkhOZWdMRmNlSksyY0pDM3RKazRmSnU4SC1qZzZDaUZ3XzFyWUFBcklGc0NLX05oMEw5R0gycnBRVE1jU19IZU12WjRJRkpmaHEzZDdWYk52eTc2UGFfU2NzeG9KYmpjYlJkdVRhU2tHX2RIZVA5aUU4NndjQVZDSTZFRGlORUF3ZmFtRFdQV1MxSnlCME5aT3ByTmtXd1IwZXpBRHZvRXlwNlRPRmYweWEwY0hMMFg?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:786f1d11d16e",
-    "titulo": "TSE atende Flávio e manda suspender canal do whatsapp Exército do Lula",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T15:53:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTGtFTkRUNVFvdWhQbFl2amtyMDFLYlhFN2lUdDhEMU14SG5UbmcxdUVCUlRfOGM5RHBTSXM3V3ZROHVTNzhSSTUtTzRtVGZneVZZNFQ0eGF2NWhCSXpEbkE5MXRuM0VoWGxHTGViYzBudk4yRHlBUlVJOHNPY05WaEgtd3M1V0c4cURoMnlrNjB3dDNNZVZ1WXItRmlNZmRkWGxsMmxwaFJaMkxJVUNYM1JobGZYOUxpWV94NGhSMm13c05oT1E?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:c82c683c6d05",
-    "titulo": "Nunes Marques atende pedido de Flávio Bolsonaro e suspende canal 'Exército do Lula'",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T15:31:49.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTUFQaDQzemlObi1ETDY0LVZDbUpoZHRSRHk5bmxycEt3Y1ViUmJJOFN3MGdlSVM4RFhCODcxV0pMZTJ0TmdZR2JHYXJxelJTanR4b2FudE1wdmJIa1ljUUM2NXUwaFZUX3BPMmhvV1J3ZDUycGhkazdLZGc5RnJDZUFvZ2tmZVVYbDNtR3VEOGxONjFGYm9rQlFOa1cwN2NJWWs1S29HLTlTa2dybUFXNXNJRFZaa3lZajZ6NEI5WGJ0c1ROM2xLUzhqUlVzMVRLc1BXZ3kyZHZBeV9BdFNWbWlJNGU3aTY10gH3AUFVX3lxTFBENkEwRkRDZ3BfLXNWTDFHb0hTdG1pT3NCbHNZbjBCeUJHOFZGMUpWS0R2Y3cwY0czRUlvdFo1WkhEcnJwRDBHRWIxMjgxUnJjM2k2SWNyZ2p5OTd6LVhyQVdDN0V5OVRRbHNscEx5U1hZbWNyMy1Bd0lrS0tqM1VQc2FCeEFWSG12QzdscThOd1ZKdWlRS1E0X2htRXRTYU1jcFlfWHVxWkxtRHJCMW4td2hzNGZ6bnRhXzFpS1Z6Wk9uX3BjZGt1NEsyTEczTzV4aS1GSzY4bXBmcUVKNFB4Uk1YZ0VTUFc2R01aMEpleGpGSkItV1k?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "agencia-brasil:701181542cf6",
-    "titulo": "Meta alega \"problemas técnicos\" para menor alcance de Lula nas redes",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T15:13:00.000Z",
-    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/meta-alega-problemas-tecnicos-para-menor-alcance-de-lula-nas-redes",
-    "origem": "agencia-brasil"
-  },
-  {
-    "id": "google-news:275235a3cf76",
-    "titulo": "Kassio atende Flávio e suspende propaganda do PT que cita caso Master",
-    "veiculo": "Agência Brasil",
-    "data": "2026-10-11T15:00:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNckw0YmdUenRYZm14UndLekdqZFpmNlE5ZTJ4MGphMHlmQUZIZlRMbHBDaDRIZ3Npbk1fYWlYdVdKcWVlVTVITGJwczd2NGRTR3gtU0tnT1hCNVhhS2h4WWlqUWVfY2tYU0owN1Q4QmZvMkhkdTZJWlFxZ29STVhQVUZsYjVuNFNyOEdzTDEyeDgtLVYtVHRQLVNuRTduQWVhV1liUnYxdnFfbVRWSjFpcjFEbVBJR3V0aDNNaWNjWmtFV21v?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:7a6cd3dbdf56",
-    "titulo": "Lula, Alckmin e aliados reúnem apoiadores em ato na avenida Paulista",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T14:55:30.000Z",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWERlcXoybHpWOGdrN2RYb2FodGstMGd0MmU3U0J1RlUtWnlINjBjRlNTMlM3MmtwbDA5Rm5QNDY4VFNwRm9Ea0d3UUJScWY1M0U4SXlSUmVQRi1GVnFfenhiVGk5T3N3VTJvaU4wUG12MEFYeTJ3MGRFdTY4TkV4b0szOGpKeXJTNXdKYlJfWTlPYzd4R0JvV2JKRWJkaVJ1U3hOaUF3dXlROFhrY2FHRNIBvwFBVV95cUxPVjNXN04zV2YzazdqZDdaU25qYzBaUEV4cUVVQ3dLeTBBN3pSNXoyNWs1ZWFldnNOQWQ3dGhXRTMwSzlWeXcwdzBVdW4xYmY2OThwcURRQ0RGaHZsbE5yNm15ZzhIV0dEdlM1NzZTcGJXZDZMS3BlREs2MlRyTGpWN1JkYjZMVkludXBqOGJZYmN3dnpNMmNhT1ZCdm15Q0o5d3JKWll5cEVZRmdBOFBreS1UNGtqZDBYNnJocjQ4VQ?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:0cd8626f85ef",
-    "titulo": "Agenda dos candidatos: Lula faz ato na Paulista; Flávio tem encontro com prefeitos em SP",
-    "veiculo": "CartaCapital",
-    "data": "2026-10-11T12:56:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMENwa2FOSVhyMUtBMlNlblRyRW1zZlpFSFFqVVVybWRHcjNhZE9KX2ZyZFpZR1JXVFNEVkF2NUhkQ3hsQjV0TC03TmNoNEVFZjFaX3U2NDZRZS1ERnV4VFdkczZWeVNremFiblVpNy1zT0xHTmxXczF3ZmVtbUpqdVFNYU5nVEdFdWFxdnUwMzlxS19sNy1xdVhsRHhxX2ROQWhjVFYxYVhmV2x6TFJURVMxQllqVHJwYy1wNHktN013NDdKRzljdlVxMFdjdw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:07cecf8bb02e",
-    "titulo": "TSE suspende propaganda de Lula sobre Flávio Bolsonaro e caso Master",
-    "veiculo": "G1",
-    "data": "2026-10-11T12:29:25.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWnJSbVZ1U1JYY0NwbjZ2NUtDU2Ewc2phLTRiM0huYy1RQzNZSHlCQWMxMWFZdFB3TTdCMXB4dEZuTk9sXzVVdDk0RXJPb0tPOE1VUk85ZEI2bVM0Ulo5WmhWSU82T29Vckxqa0FqUXEyamE0QzNKcmt1RndlN0FoelQ1eGtyakV4Y1ZIbXZETndEdE81cXZLclhSZEpqdnduTUNqS2doYmFYOGFaU245cV9UaFRqMnBDUThRWE5XV2Nxa0RSaXFKVmpTZmVLQWpmS0NVZHZVRmQ4VEVXcUlmSVN4X2kwRTNGODRaQW42WmlaVDg?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:aa27f0a3bdb4",
-    "titulo": "TSE suspende propaganda eleitoral de Lula que chama chapa de Flávio de 'dupla de escândalos'",
-    "veiculo": "G1",
-    "data": "2026-10-11T12:29:25.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWnJSbVZ1U1JYY0NwbjZ2NUtDU2Ewc2phLTRiM0huYy1RQzNZSHlCQWMxMWFZdFB3TTdCMXB4dEZuTk9sXzVVdDk0RXJPb0tPOE1VUk85ZEI2bVM0Ulo5WmhWSU82T29Vckxqa0FqUXEyamE0QzNKcmt1RndlN0FoelQ1eGtyakV4Y1ZIbXZETndEdE81cXZLclhSZEpqdnduTUNqS2doYmFYOGFaU245cV9UaFRqMnBDUThRWE5XV2Nxa0RSaXFKVmpTZmVLQWpmS0NVZHZVRmQ4VEVXcUlmSVN4X2kwRTNGODRaQW42WmlaVDjSAYICQVVfeXFMTV9yWXJvMTZzdjVFMWpzVGJFbktwMmxVSkFHeVJwNmxaeU1WelNHYzVZWmxVQUJhLWlyMWFBZExHNHgzRjI2SmZBRXozMUJOTkpTampVcndObmc3bWRmanJpQ3NwbC1vd2JjckFpYmg3NG9kS0ZyS09MRTZWVVFRRWhKTWUwcGxBVGdIVklwZmVQNGpRXzlpNGdlclNOS212WEN2T2k1dGdYWF9fSi1YdXMxbVB5YVByQXU5TWRDNzFuYWpWR1IwVkNhSDdndVhaTzJPQm8tdG9xT0tRRW9wdnpBXzU4RDNHaWF2bVkyR2J1ZldwbFo0ZUZhQ3dPcEMtWld3?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:07e4a335529a",
-    "titulo": "Lula | Candidato a Presidente nas eleições 2026",
-    "veiculo": "G1",
-    "data": "2026-10-11T07:00:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnRrcU0takZNakdmY21oMlR0djRRd1owR2REWjdVMHM0RUk0bVo3Z25PNjlBT3ZPakpOc3lrbVQ2cDltM0RMbV9IMjd1YnhhYzVjZG9QdmJnZWhWZXoxYXNKUEd6cFI0MTFMT0pWUC1WR3dDNEdpUGMtUE8zZ2tjNjB5TFNtcGgzUVFzdmNZa3ppdw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:c642e16066ce",
-    "titulo": "Opinião - Elio Gaspari: A situação de Lula piorou",
-    "veiculo": "Folha de S.Paulo",
-    "data": "2026-10-11T02:00:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczBXQ1NLSGo4QlFuZVMyNE1YcnNnTGpGMXBBQzlRLWlJWkdEM2toeVRDeVpkZzZ2b3dLVFdSU3BxR2FSRldzeXZIeDVLNUFvd3Z3MUhicld4UVNyaXo4dzNCbnZ4TXFDRndNNGZHdW5rWFdXYWpDczc0bDRQWERQLTEtSmhQRldxU1NVUjdORUdYTTg?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:95a0265e43e8",
-    "titulo": "Flávio pede que TSE derrube canal ‘Exército do Lula’ no WhatsApp, e corregedoria quer esclarecimentos",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T01:04:14.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPWEM4X09WUUpUUjYyeDFxNVpfWFJSZlN3eWFSRVFobU9UMmtYdlFyRUFVOHI2djJROTc2bWJRMzY2Wi0zRTloaUo2TXFGVV9BSFpET1F0QWJ1c2VvcElvRWx6bS14Y3RuY0twc2ExZG9LS3ZDU2JZa1NDcTg2TnBMZm03bmczWkNyVHFXaDFzNTVOUXpiQWhBZ0VGanJzN2RsQUl6Nnd1bnl4RnVnUkRVTXJidlFEMThIVTVnRTdGNk9CTFotUWtGNlkyS1hlS21TYU4tbXNqY2RZb0FKLU9uNkZ4SHNTZWFFamNJRjVmd1lGVE43Mjd3WEc5WWpVZUHSAY4CQVVfeXFMT21YR2VyUjI4X3BMZ29Yc1RNYzQzaTVUM1FCUVAya2RxZFo1M1Yyckl6NjZKUTZBWTIyS1Z0TXNEUjFtNDFDc0xTLXg3U0FreThlUHhOUXJWTndJZkhORFVoWFA0aHoyRS1ZLXNvelpkdTZMeDJ0UTF2NGNtaXRZdlJWLUtTRkw4SzdNcUN0T0dGRElrT1lEYlk1Y0U4ZkhGYk5pTjI2UGpFZ24yVXBQUkZ4ZXl2T1hleHBLTkpKak9VUW85VFhubHBjSm0tY0NDendQekMtRXFQQ3Q0YlFnLTk3ZnBLRk43QjFrTktMNlJCNTd3NGI5WUZvaDNTcmtITlZOSjlXTDEzSUFPdFF3?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:310a4f294b75",
-    "titulo": "Lula aposta em conquistas sociais e Flávio promete mudanças, para abrir campanha do 2º turno",
-    "veiculo": "Valor Econômico",
-    "data": "2026-10-11T00:40:43.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSnptdlJReEV4WHBxbkhuOWpoNlU2dTI3OGQ2YVNLSW9aUUhhQWxVNG5FTkVMVHM1ODY4UndhQ0xKdE42WlJGbXBxTHpSWk5GMjcyQWtrYTRWc3dzZndWN3ozaXVGQ3o5eWJfbVJUYmVZNGtjTU5BeUJBY1FuS1BrOHBBMUQwX1FWdldBNThjS2xzZ1ZRRy1sTldkUjNkZ085RUoyQUgxdU9tMnpuNTBpQ0VEcGdweUwxb0R2RkxaNThERXBldFZUM3dnanh6b25LVV9Ib1gydnZfQTVabFgya1JrRDN5V1Q1WURRQS1EOTJQd0hyZHJud9IBhwJBVV95cUxONVk1bmxDQzlaSWU4eXVzaktvbmxTb3RNOVo4U0lodnZUMEVKbU80R0E2Z0dfU2E3a09QZmNyZHEzZWduQnZiZ0cyOXBfMU0tRUlqR1VFc3QzMnMyczA5NHNTcll1WGdSWS1fOGNTanQ4aUhpY3BBNWNQWkQxaTBFczl6QkV6S1FPaENzNmFOdmVZMWtfclN6NTFyRWx1d3NBY2I2MzdVaWFSc0xXTUplOW45ODdCZV9HRWZ0X2xLX1FtSDY0SDJ2ekpCM0YtekRPUHZKSGhnRkExaThDQXZPSG5SMUR1LXQzWjZNbWEzaTdvZ1lSVG1hNF9FUVB6RjZrcC1XdC1iOA?oc=5",
     "origem": "google-news"
   }
 ]
