@@ -1,11 +1,51 @@
 [
   {
+    "id": "google-news:ceac1beb625f",
+    "titulo": "Flávio muda a rota e agora diz que vai pedir ao TSE cassação da chapa Lula-Alckmin",
+    "veiculo": "BBC",
+    "data": "2026-10-26T22:15:42.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hZGVxeElpdjZoNlE4R21YdG1yWl9jYU5ZcXBjc2REeElhNHJCNm13ZmJ1a3U2eFd0bUZTclpmUTQwa1pwM19TRHpvOGxyTmZMU2pGb0RMV1pvYWxiT2dESlFSQdIBaEFVX3lxTE5adWxTN2FRd1BVelpDUHUxQ3R2eVJUeU4xS1BRanBtNWNkR0dORnZtQ0xYcUdpb1JBbzZ2ZUtTbkNHMy1tNFhLYTdjeWM3dHptcG9aT1p3LU1sM2ltR0drM2UxemU4S0dU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dc2842172dc7",
+    "titulo": "Reeleição do presidente Lula: desafios de governabilidade e novos cenários políticos",
+    "veiculo": "Jornal da USP",
+    "data": "2026-10-26T22:15:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjlvY3RtUmhON3ZWWHJDS2JaSVZzTlNYQXNpVl9rVXJEWHVWVzBMdkZaeXM3NllveGZLYzV2a0hpQzkyZHIxNlh5bmV5UVZKbnJPTExuZnFYaFhCQlROQmx4X3RXSlp6T20zVUJ1V1hYN2JoZmRXclZrWmRfa2M4T1Nyc0RiczJGcm95cTVrQjJSWlIyQ2IwYg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3f8ac679ae07",
+    "titulo": "Davi Alcolumbre e Hugo Motta visitam presidente Lula",
+    "veiculo": "Senado",
+    "data": "2026-10-26T22:13:10.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUjU0LU9BNFVDUy1xQXlpelNFa0E3QlJMZUZWN28xdjdwNnNDY2pMeUZvbXJoWVMzenBTUHNzRGF5d3hWMkpmRGdXZ29NdzRGSDZhM1BMY0JCY1VpckNKVmFEMFdjU2dES1JZV05zTVN0MmI0c0phU3o4ZTd2Z2ZIQzU2VUhrOHF6OThFNXBPUjlUcUd3X1A0Z0VSaXN3c0pFM3ZKejlVay1Dc3JNeFE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c2f438ea4380",
+    "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T22:07:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWhZRWg3WlFaYzVqZUM0eHJTdzk0dTAyaFU5VE1sTy01eHRmX2szd045VkY1VEZGRTFfZThfemluTlF5ZjI1ZDQwMjBqcVJ6NmVzcU5kT0Fud21VWFdOT0I1Z0xJdm5sUkRTVGNtVXRNT3ExNW50d1Biemo2bzFxWkt1S2JMVjZQOWxCcVB2ODZQRWxPcXI0VmZyRXdBZE03N18zRlk4LVk1dGJqTGdLZC13?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:c3d5d19b2c93",
     "titulo": "Líderes estrangeiros reconhecem vitória e parabenizam Lula",
     "veiculo": "Agência Brasil",
     "data": "2026-10-26T21:33:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lideres-estrangeiros-reconhecem-vitoria-e-parabenizam-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:432ebb0dcf19",
+    "titulo": "Os desafios da economia que Lula terá que enfrentar em 4º mandato (e o que ele propõe)",
+    "veiculo": "BBC",
+    "data": "2026-10-26T21:25:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MQWViamdocER1RmFlc2JlRDk5THdBdEF0MUZ1emd2RmJoOEZQUWJMa1NTZ0hxTnNNY0gxZHJmMUdKSlJ6bzg2WFowRzFEMTk3OFE3dy0xY2l3UW4xRklHSzFzQQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "agencia-brasil:c7c103601c69",
@@ -22,6 +62,14 @@
     "data": "2026-10-26T20:54:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/posses-de-lula-e-de-governadores-sera-em-5-de-janeiro",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:b0fa01b283b3",
+    "titulo": "Lula avançou em todos os estados na comparação com Flávio; veja o saldo entre o primeiro e segundo turno em cada um",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T20:00:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOVdCczBQN29raWd1MWlrdmw0QVNDV0ltTFJwaVIwRHVGNktpd0wxdTVtVTl1bTVEbXRYTF9Qc012TGZMNGYzMWh1ejVwbWgyUUpkVk9ESzhwOERRRWl5NWdHUXJCTElUd3htcEhrVkdRN3RfemVieWhMc0FNa3E3SG1GY0FTeUt1eC1zYjBFVW1QZmsxZVNkbnlybjRaTTdqMHZFVjI4OElkYU94dW5ZYlJKMnZodWhhUW5tb1dJZlZ4UjNBc1V3SGxIMnpPSVMzNWhBYWRxY2p6SnBXbzRnMm5GcG9tSmlibjYtMjZncXk2VVU0OUVMVUxwa3FlSmNSNEVQbmtLbkxkZ1FfdnZ4RTZBcG1KQdIBpAJBVV95cUxQc0FNWDIxVGp1NG41SDd1bWNBa3gtOVRfNWdKVGIzb3pZNnZqT1VxV1p5S2ctT0JodGRabkZGTlZaNUx2aWd2eEt6TXhCeTZHUEVURlRrdEtzbWlzY1VCR0hhZ1dvSmgwdmNzTzFteWt2MV90c1c1VDlMOWh4d3BrVnFueHNoYkVuNGFybnE0bDc2TEJ1c3Z6dWpMQkdNc1M4Z0wySmhNS0RuNEQ2TG51SHFVRmNtSm5oUExCd3E2ZGNER0psYkU4SUMxR01iU2xZNXNDZTJjdmNmUmNrNXQ3ZmNubDl1bzRoRjVfV3lLbEM1SnJneWdrSzZpT0w4ZkxUN1MxUG94VEZob2xZa1JxWXRfYy1udWZiM2hjaHZITEZMaWhF?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:bd6a42f1d4b1",
@@ -53,6 +101,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-10-26T19:03:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUVZhUVI1T2dubDM4NUxDR2ozdG9oNVc0M0VBdDg2ZFlKMEF5aVFRY0ZnMHY1SXNtMFFnUEhIT2s4ZVA5dzR3X2VPRGlWMWotY3Myajd3eERxXzRQMUxaY20zLWkxeEZzWnFDdnA3SGU3bGVLaWZMNGJYeDE0Y3JJdG9NcjJkbkl2R1pSLUxKenV4eW5GNlJaeTNEU2FXNTBNMWhqeXZla1l6UlJxck9TQkt0VmR3NnV4SXE0TEtxeno3ZnV5cDFscEZ5VHJaSU9OX0NNMjRNd2k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:68b51bf8d514",
+    "titulo": "Lula vence em 96 cidades do Tocantins no 2º turno e Flávio ganha em 43; veja listas",
+    "veiculo": "G1",
+    "data": "2026-10-26T18:57:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOWpoLTN6ZUp2YTJNMlJfSFZQRzY4NXhGemdRc0RRV1NodjMzbWllTGc1T19YYzVHenFRMDMzRGVJXzRPNzU2cGFvRFI3cmhMRkJla1A3THdYSURvMS1EeHc5RHVJY0tUeW4ta3FoeEUtWGZZemxqcUhUckFqRFlDOGk3S19WWXpMejhzRWV5bjIxVmR4Rkppa0lNOGNkUXZHRUx2MGJTbEVia3pFVnMzV2hZenl3NHpXTE5Qd1JBRkl4R2RqU2lmbTFHdzRSU3o5dWJXN0FzcU7SAecBQVVfeXFMTVQweVZzbkdDNTFjVV9NN19nbnZBcnRYbFhfQnd1NUpYZ1l6SDQ5RzFIbjhRTnc5blNZYmlOOENqcjd5OFZDcDM5NWxidTVIWGpqUlB4aDJhU1pNOHN3aTJiT0x1QjFBWEx5Ni1fWUh6cmZJeG11dFdoaUFIQlZxWWhEemZjNENuaGk0M0VtdHk4MTFOU0I4aXh0MkNtSnJWV0tjd1VJeTVGdnFlejg5SENMa0dIMk52S0V5aDVWRzlicVdOLXE1R3pjWmU3b0xTMXNqRzJqbURsX21zYnYzYU03Vm1WeWRn?oc=5",
     "origem": "google-news"
   },
   {
@@ -141,6 +197,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-26T15:55:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcWxQZ1dLLTdXNnlTMThsRTFWaUo5Z3ZadUYxY2FGMDRhT3FkM1ZVeEctYzhvcnR5TVFFM1VieU43eUZITldlR19Hd2FON3NaR2x6U3F6ZzU5aGxCT3U1MzJWMkZsWHFMRjNtUkVxQk56aUVySUR1LTlMMDU0eWpkNG4tdTFDS0tpSE43V2hPemFjMndjbjkwa1dlRkM5SmZUVEpQOWVXbVlGX0UteUdiSFdXVkZMT0Z0OEp6UDJRTDdTUEJEVWVZWVRRZW1BZUtSOFpqb1VTX1JlTnZWbFhsMVVpdFRJTGJZZ0wzbXk1TEY1RUc5LWI2UlZoMWZiUFZmcVg5MtIBkwJBVV95cUxQY2VzS2hmRHhlNGgtV3cwOElxZy1PX3RuQ2tiNGlCbmdET2Jnd3doZmQtVndpd3dsSXZ3LXB4UDltX1plWFc1ZVVmRzdZU3VyVUxBTDJXY0J1VVpuakJocGptRXo3Zkc4TnBhN0liTVhHV3RmYkQtSEs4N3BhXzhTSmk3NmhFY1gzcld1QlVJU0dFX0NTaFpES1UySmduVi10UUxrc1h2ZVJWRWlZWWczNkJkQzF6ZXdIOXpSZ0hRSEZDUFJfVTE4X0otNEhXNUFhUXJ6T0ZuRG9zSHdqQ3loejBwaHBwQjh0M1NPMTFJbC1BajlLbmtvOEJLZkZ4blptTThaTmQ5NGtoUHN0eUNyNFVhSQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:62af09ed05a2",
+    "titulo": "Lula vence em 62 países e Flávio ganha em 35; veja onde o petista virou voto no exterior",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T15:04:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRkVyMkljcW1wX05JMHRxVW9ZVlM1UDl6MXpEcXdpTjd4emF1MzQ5czdpd0lxX21VeHJZT3NJV2k1LTdfVmk1a0hXWkRpWm13RHBoRWc2b0tuc1ZtaV9rdGpFa0J0NktFbERfejYydWpkQlpNTkQ1WExiWmtiNFZrMjBOMlR2SnpkLUZTTWYwd1l0MnUwWC1ZVTJVQm5kTXNabzBoLVNXc0dFNnZKbVdnaXZaUDRPNTZVclpWbzMxNGFtcExIb3FoTWFSanJXWWttSVpYbGh2UlIxamlzSU1ZSnUwLXpvQTBWTTFrUVFfRnJlQdIBgAJBVV95cUxPRU83MHBYZ0dxVm5XMkxRRFZxcjdlTktXbkdhV3VGLTl4alBpd19NWHZ5WlIyVlJpT1hncGMtSHBXWHpiMlZ3a1V1MmdtTkpTblR4dXl0eVZaa1VrVk52TExBeWVUZjJMUDdxSzJBSkVqSVJib3REOS1NMmw1V0Jwb2p0UmdSX2FwLUxUblAzUWU4ak5Kd2l1dURJOGhlYkhHSnRYSDYxTjFtRnF4SkZiVHZXMldUYlhFWFdOSVJoVnMxV05GMEo2aDlWRmVVVnl6aTZNdUJnQURISzEwTTVsNzZnNTUzd1FfY0k5YjVzU0p2MGNBVE93cTBRbHR1RDg4?oc=5",
     "origem": "google-news"
   },
   {
