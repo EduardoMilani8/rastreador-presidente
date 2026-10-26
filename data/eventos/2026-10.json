@@ -627,5 +627,100 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:01:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "01:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:03:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "03:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "11:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "15:00",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "16:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
