@@ -48,6 +48,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:636dca32403b",
+    "titulo": "Lula conquista a 1ª vitória da esquerda na América Latina desde que Trump voltou ao poder; veja mapa",
+    "veiculo": "BBC",
+    "data": "2026-10-26T04:18:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xczV3UkpWenk5UmJSX0JLWFZ2cWxzZzZpUF94N2twLWRTMnJLUmY4dzFhVHUyd3ExSHBMOVU2MmFVWUtQMUJLQmFReVhmZjIzOUpDc19PUFhFdExEc0w4Zm5VSQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:960a498ec91e",
     "titulo": "Institucional",
     "veiculo": "Senado",
@@ -189,6 +197,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-26T02:10:59.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOU9DcGRmb1BFOVotcTVQRDBmcFBzclpfanNLSVM1bktPLWRrU3Bfd1otMWY2TWVvQ3FZYk1Cb1RzNHU5c1I4WlZUdzZ2TnlTTDFNb1lWekJUaWgzT0lrNFRjUTZyUk1SUV9heXd2b29LQXJ1RlJkWjd1YURmaGZIUFhSVzNVUTB0UktzQ182RElxVlZ5UGJfNVA3TVBJaGpFam9wenlpUEp0YWcxRVVGVUtHeWVzWFk0UFByQ1VNNGE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2949109e26b9",
+    "titulo": "Lula celebra a vitória e agradece o apoio do povo brasileiro e das mulheres",
+    "veiculo": "Senado",
+    "data": "2026-10-26T02:01:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdElBZ25HblZfWTdyeXowQk9sTVhMRnVEVTc4cHhuR3dWODhYa3V2THN4dVZ1WHNHWFJ5cldtMlBRQWhHNW9mT3p1X2thQXhTOGdWU0otNENpeHNKNFp2Q1E2VWdjNXdOb181d3R2NmVnbktLd1l6dmJfdHhDeXJERVBNSTIxMERJVDFONTRLTklySzJmNWxKekFndGhzaXVsOE5fOTZGY1lGeWttd254aWtPTG12TU51eHEwdm1kRm9OOV9XU3ZqM1lOWTRCZWVk?oc=5",
     "origem": "google-news"
   },
   {
@@ -797,6 +813,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-25T23:42:31.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaGtaMjA3RTM4YXpPV1ktcl9GbENrdjhEakxfa3F0MkNLVmFacERnMExuTGJRdG5nM1cwV180X0tZdl9ock1PZzFFQTd1Vm5CQkQ2cmNvOXlFQ0tFVHFobXZtb1ZTN2IxTjdyczJ2emVObXpXbHB3VzNZT1YyaVBhakdjdkpaN2h2dG5WZmcwVzNBQnliaEd1ZDlrMU5fa0lEUUZsNzlnN1M3MW1hQVBoTW9sODBxWTZ2M2M1bWJBV0pZdVhUekI3R2M3TFJmaFJmM0x3OTJkVmpleElLRVlfUjIxZ9IB8gFBVV95cUxQNFZ1bUtrRkFiSlFzWnJpMDRnN1dxQVVqSXdwWEVZNWV1R3NYZ3lyX3VjY0VTZUFnVkE3b0x0S1RWMUxRdU5DMDdVZ0kwSHFWMU90eWpqUVpuX3hYVFFOd1d1VEdtSmVlN09wWFpYVzZIUXMzWHM3TzNxTHFZWGNLYl96R25hT3VUZEdkMkxCTzQ0NmFKTHZ6elZhNERncGdFQUF0SWhlNFYzTFdGcXhfbUZQXzk3d0RRZVJkbTZPUVZmZDNiVVM0ZEc0UHF0ZUJIUEtsT0hwVEh6ajJ0LVdKbmlnM0Fpc1BRMEsyMEsyNUFzdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6f589a360a55",
+    "titulo": "O que acontece se der empate no 2º turno entre Lula e Flávio? Veja o que diz a lei",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T23:38:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMHZFeUNEVTMtUmFvbXNxNmZBTmhGeFlGZjNtbkF4bzlScVJpeGFIQmItaUpyTW5mZkNDU1loS0Z4aHlweTlyMnRJeVcwc25Ec05iNGZWTUFWTkFoLUc4RVd5a1FvQTQ0SXgzazlkcHJGakNJMzV4bWZ0alV2S0N3cEJaZW52cFI5eHY5Ykl6U1VSQ0N0a3VQNHJCRlc4WnpEM3Q2V3VsWkNHQ0lxM1NnSWJvM2stSGtWcm05NjV5Z3hISWowQjhvd05hUUZwb3hKRXJXem9IdmZjWGVHQ0ZMTGtrS1dDYWoxbnfSAfgBQVVfeXFMUFk3aV91b1NXOXNRVVpRdDU5cTRFdDA1SVU0N1JsQUl4Rmc1R1doQTdNaWN4YVpReXNWYzRqcEdSUG9pU053YUV2VHdKdnZVeTg4bF9MMmpWd085RDlXZHpuNHhMd1J2SE1oM3hCU2JuZGJUdUxCUm52MExrNnNlZjE4MGZ4cEhEQzBMbjB6V0RJTVY3YjIxZHYzWThtYlpYS3laRFFJeVVlZjl2UnRaWnd6NVVDWWt2cXl1eUZBRUV6a3hvQ21IN25pWVZuOEpOUHkxamNVZldWMmJSenJReFgtMEo1Yk02MXRkSV81NTdESkVPUFdiNDU?oc=5",
     "origem": "google-news"
   },
   {
