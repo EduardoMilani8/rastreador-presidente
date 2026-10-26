@@ -1,5 +1,29 @@
 [
   {
+    "id": "google-news:2774a56d4fb7",
+    "titulo": "Lula é o mais votado em 1.957 cidades, e Flávio Bolsonaro, em 2.247",
+    "veiculo": "G1",
+    "data": "2026-10-26T00:22:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3FhLU1BUmJLNVUzMUJZMGwtU1NuLXN5Z21waE9OLU9sb091STFqQi1ydnV4RkpCT1dVTXZMUzRXLV9rQ1hNTkN6b2RTZTA5MDVONUNxZTR4dl9hLU8tdmY5NzliOWRtalNpOHlISVFKenhTbFZyWEljSjV0VGNZQlJPT0lveURYUzZYZGg4ZUhSUjFwbnhxMkdEZ1dJYmxJUkVtZkUwdTRGendzYXJUVnZHR1MwMWJJSzhlTtIBywFBVV95cUxOYVJIczdtSGlCeWJ5N3dmRW5TUnBMSUlUaEJPZnI0bDA3ck5ja0NkWVhfclljRDd1YkJUVFNmeVJ3Qm1kZkJ6ZlZpOVQ4ekMxOVN5eXVDM0UyckZjR2l5Q29UdFZsaE5maVVaRHZWTVBFb1NhSmZla0pIZmM3T3lFNkkzQS13S2pyZlJ2b2hOUmVtcC1ISTJpUXdVMTN2VUhFT1RzRE9Md0JtTVJMVVRpTDhHWUt0Qlp5dTBoQ1l1c1U5QUo2ZDZtai10aw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e9ec32e95fba",
+    "titulo": "Em virada histórica, Lula derrota bolsonarismo e conquista 4° mandato",
+    "veiculo": "DW.com",
+    "data": "2026-10-26T00:21:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnZ6cDhXTDRhTjdlRjBjTGhWRGNZZkZnSWdjWnZ1V05yZzNpeXJjazQ5bDRJdFdfclAyQ2FFd3FLUl9yMUVVd19ZdTdpb2dUZWtjSWhiWFB4VUlEWGFmMjdMdWJob0sxWE9UOEVtR0Fwb1JyV0tyZzBRRDZ5emZPakswc2VsOUgyN2tUNTFmVFA4NUs5VzdLX0hKSHJNbWtDUHRQOTFBZy0teGxq0gGsAUFVX3lxTE9tcmVLOG5xcGhrWnVSUENaV0dnbXJ5TjN5M2FobnF4UFNIUHczNjFTV0dIUzdzOE9ZZ2x0LTZBeEdub0hBc2otdXRlZnNENGV6Ri1IcXBTVXNkdXJSbnJpbm1Sb0tlaFQtQ216TlNwU0RYX1dVYXU2SmlUaF9adzVWTENNLV9Ub0FuMjRQdTZzc1VleTRXbU9rS2d4SHZSN0RHdW9iT2g2bUhXN1o?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:39b84e408427",
+    "titulo": "Lula é reeleito com virada histórica sobre Flávio Bolsonaro no segundo turno",
+    "veiculo": "Sul 21",
+    "data": "2026-10-26T00:18:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWVhsaDNJME1tR0RCV3BwN3p6NmVEeTExYkdqbXJYdE01aGktYjZCbnBKZjM2a2dLUUc3ak5Yc3dHd0VrUHJZbVlnR3Q1WUYtVmdmeWVqbThLTTF0bGZxSVhZaHhaY1k3WE15VU1VOUhYZW5KNkZDaGFhTlUxbnl6cFV1OUdXTjhWb2RaNXlMYkNwbnJVR2o3bm9CZ1dORjlLRTBhRU4zZk9TTHlpMVJOT1FiazVwVTEzNkZ6d1U4RUNkZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:cada65ffcb93",
     "titulo": "Conselho Federal da OAB cumprimenta o presidente Lula pela conquista do quarto mandato",
     "veiculo": "OAB",
@@ -56,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:ad2750057e56",
+    "titulo": "Lula é reeleito aos 80 anos e se torna novamente o presidente mais velho da história do Brasil; veja ranking",
+    "veiculo": "G1",
+    "data": "2026-10-26T00:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOV1duWmRxNlBuZ3FydzBiVTVNZENYdUZIOW1JS0JsYXRaMGVIMWsyUUpEaVRYZDd3Ry1nQlpPVUl6ZXdaV2RNR2owa2FHbVpXYWZISTkyUHhOd2FSWk1HVUxJMGtrUDVQT0Mta3ZlS2hYTW1mRl91QWVDUjY1Uk1SZHZqc1c4THZCSWREdk5LWlVBWEp0VHNuOU0wZW1kOVBJSEZ5V3ZtOTljWDkycDRRckZKYkxPY3hXZVoxYWJMX1hYdEZLWk1fRTJsX1JGekh1VTZLMVFjdEVRT2Z3LU5nQjNDam0ycUZFcEJhRmdDSWxjdlBBM1d2MzZtX0hGdldRODYtYTdVMNIBlgJBVV95cUxNV1pZeVJnZWhvMUx3ZlNZQWlKYUpnbFB2c3VRSDRCU2FTN2phSnI2SjAyaklpS2ZqVU8wbVVkdkVVVEpEV08td0QxRUIxV0RDNnhNVTAwQ1NDX2RrXzg4blRlT2UwYmE2ekZsUVdIMmYzVW81eExhemdwblNoY2dpNzNDWDZpczZQRFMySTFVck9YVm1jNDBPaURlYnUtTUlXbWZvMXZWVXNuWXZhZ3kzZjUzX2VUY2w5TFZ4QUUxczJzdE1RT2huUVBhaXZyT1RITzlRQmc1dzdmbndOckV1YnhSSjZUaldLNi0wN096NEpJSUoyTmNPc0pSZlpyd0UzYkZDTVU4SHlOamdXX2g3bDZNbTRadw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:76a3f9585757",
     "titulo": "Lula poderá disputar a Presidência novamente em 2030? Entenda",
     "veiculo": "G1",
@@ -72,6 +104,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4ca653977df6",
+    "titulo": "Em virada histórica, Lula derrota Flávio Bolsonaro e chega ao quarto mandato como presidente do Brasil",
+    "veiculo": "G1",
+    "data": "2026-10-26T00:09:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcWhXcWZsNG5ocko1MVFQejN3LUx3d0pVU2U3NjBmLWJieF9DTFNhanUwd1BSeU9yZHRWdEJjRDdENDRlS3pETU5CWnlYMkxkOTBOVUFqamV2VTR5S3IzbDA2TFVaVWZtZnNXMnhGRU44VXZ5Ulo0cDVUbTlwWDVFQzFVTXpoV3ZpZTA4QmFjUHJqeWxjaEZvNWd1SHlsUHJ2Wk5LbjJPcWRiUHJVbXQ5T19CcUd4RXV2eVJxM0l3UTh3NDBHelZCcl9BSW8tenVkbWlGR3gyQXgxbjRGMDVLWnFIaXk3OXU2R0x1SEEtRS1GQdIBgAJBVV95cUxNT1gyYmthaVp0bm5raTVBb0dJcENKMFdpR2ZwSE54VVVWLXVaTUVWdjBxc0dHRkdPM3M3ZnBUV1psNzdrM2ttUHFWMG9Ma3N2b0sybVZ4Z2ZyQkhGVFV3UDRKSlBGbS12YUpqVU9uRDFUSnYzWVlxM2VkQ3dLT3Zoa3BfYzlZTVJWM1BrWTFqM1gySUdRNGxpVE5OTTRmUC1STk9NQXFmSlZFc2lLdTJmTllNYW9vRjY0Zm81TEFyRzNEbzk5ZGdjdXlCbVVEbHZHaEVMY3BLOTV6bnpKZ1BJMjNkN0lWNFJ1bDVoZU5iRFh2a0hVV1dlbHFWUzJrWUE4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f26eddfea18f",
     "titulo": "Lula vence. Quais os desafios para o quarto mandato",
     "veiculo": "Nexo Jornal",
@@ -80,11 +120,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:929d468521fc",
+    "titulo": "Lula é reeleito e derrota Flávio Bolsonaro em virada histórica, projeta DataFolha",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-25T23:53:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb2E1MUZSM2VmMUZPSmhzYmJEUUNqQ2ZwQVU4ejFtUDBYVHUtWjUtR3RhN3ZzNkEwT3loakdKdlRzbzFWbzlWTmRtTkNBeXBqWENDNTZjekg5cGgzUE1vUUNIRmNJQU1faDhFcTJfR1hxR3RNaFpqdWtiWHdrRUhyREpkbWNoSDM3N2NjNGhoaHQ2VlphQW1nd0d1dDRTMVV4NzNpV3BXU0ZLRkpyZWNqWUFGXzBsZG5vNUNOQ1Fwc3ptQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:99a0c3361607",
     "titulo": "Lula vira, bate Flávio Bolsonaro e se reelege para inédito 4º mandato, projeta Datafolha",
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-25T23:46:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUFphNEVuYWtvT3VlcHhxWXJFOUZmMVRPVlhfUU9PQy1tRWpTa2RwbUpXNndwcnVlN2UxckZjTGRNMGdjZG1mWWFkQ1hUaUN6NXZaakRWc1ZqZ3JjTzNWeTlrUlZ5bDJfUVB0WUZKYUU4dmdvQTM2Nkd4WEZLRHJUanJXSnZpMzY5UmM2ZWZRS0xQQUxPd2FZbF85aVMyNHc5OWlubzY2VFQzSDF6Q3B6UHg2MjRad2ExOEVnOGpQRVJwb2pXeDNGYXZCXzBtOWJJcGc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c6859feb0c58",
+    "titulo": "Qual foi a diferença entre Lula e Flávio Bolsonaro no primeiro turno em 2026?",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-25T23:42:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaGtaMjA3RTM4YXpPV1ktcl9GbENrdjhEakxfa3F0MkNLVmFacERnMExuTGJRdG5nM1cwV180X0tZdl9ock1PZzFFQTd1Vm5CQkQ2cmNvOXlFQ0tFVHFobXZtb1ZTN2IxTjdyczJ2emVObXpXbHB3VzNZT1YyaVBhakdjdkpaN2h2dG5WZmcwVzNBQnliaEd1ZDlrMU5fa0lEUUZsNzlnN1M3MW1hQVBoTW9sODBxWTZ2M2M1bWJBV0pZdVhUekI3R2M3TFJmaFJmM0x3OTJkVmpleElLRVlfUjIxZ9IB8gFBVV95cUxQNFZ1bUtrRkFiSlFzWnJpMDRnN1dxQVVqSXdwWEVZNWV1R3NYZ3lyX3VjY0VTZUFnVkE3b0x0S1RWMUxRdU5DMDdVZ0kwSHFWMU90eWpqUVpuX3hYVFFOd1d1VEdtSmVlN09wWFpYVzZIUXMzWHM3TzNxTHFZWGNLYl96R25hT3VUZEdkMkxCTzQ0NmFKTHZ6elZhNERncGdFQUF0SWhlNFYzTFdGcXhfbUZQXzk3d0RRZVJkbTZPUVZmZDNiVVM0ZEc0UHF0ZUJIUEtsT0hwVEh6ajJ0LVdKbmlnM0Fpc1BRMEsyMEsyNUFzdw?oc=5",
     "origem": "google-news"
   },
   {
