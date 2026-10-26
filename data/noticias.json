@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:324987fea891",
+    "titulo": "Quem já reconheceu o resultado das eleições brasileiras",
+    "veiculo": "Nexo Jornal",
+    "data": "2026-10-26T16:35:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVmFUREFEbWRtQzR5YWh0T0xTZjZ2ZTJXOWdZbUJVZ2tWZUNYVU9BTGJEemI0LUNaTWhNSkVpX3N2Vmp3cUoyQkhGWVdTTEdTamJWdFBxNzBLMThBN3hOcWhKZFVNNmtjUmU4NXJyT2piQ0ZGQW9EeDRrZ1Rza0dONVY1MndZd3RfUzkwM2M5bHJ1Qmx1UXB2UlhqYWplYkdtemhUa19DQmVUTkk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:35891c528865",
     "titulo": "Votação de Lula é a maior já recebida por um presidenciável no país",
     "veiculo": "Agência Brasil",
@@ -288,11 +296,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:e62e316eb58e",
+    "titulo": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários",
+    "veiculo": "G1",
+    "data": "2026-10-26T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjJDOWVtX0hHZ0Y5U2R1MEJOLWpjM0pVbm0weDNXUWJVRlBJeGN5QkQ3Y3owY2diLU9lM2NRMmk5UEJ4S2x0NFI3UHF3X3AzczdPdGZUY0duUDJNeFhUWWdKa1VFbE83b2RNekNEeml3aHdPMFlFRFZXTVlFOWNJOHFNdnpwVGV6YTRWVFJB0gGcAUFVX3lxTE5tdHM5VzhGNThfR2RhZHZBRmVibzNLY1ozYU9QYi1XNlgxRXZ4d1V5OTR3OTJaZHB3bDBKM0JsRzNaZEF4a3NTWEdNSkRQMUZlVDlLS3hCYktidWE4eV9MZ0NBNkFaTTdnVEZGbS00OFFocnN3aVZHMm9CYmotRWgzNkVOaHJiaVFvbkpZQkMzSmNiOXUwUERnSVE4Ng?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c766b846a0b1",
     "titulo": "Após a virada, Lula diz que eleição foi uma derrota do negacionismo",
     "veiculo": "Agência Brasil",
     "data": "2026-10-26T02:58:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdkJweXNNbWdiWGhfLVcxMHhueGZRd1lSX0llRkdHMWdGWVVEN2RJa3VLcWQ4RlFGc3VZQ3dTZ3ZUdWVuUE5HUlR1OTFxdnJNYl93N1E3U080SEhGRFZoZXc4S3dWTHVBenhrWDB0M19TMURFNGlYUVVwTWdrV1Q4ajZOUnRZN3dpTGR0bXhhQVJqQTFhWDliUUptRmxwZHBGT2FPNUsxdVV4ZkdVRDB0bDZiSHo1ZnVZU3owNmpWeWswWWhLVmNsZ2xZQ1FQWlItRmFBWkZlWFBmdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b9225250fdf5",
+    "titulo": "Lula atribui virada histórica à juventude e fala em proteger Brasil de interferência estrangeira",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-26T02:54:14.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXpBdVRBSWh0NHNpMVRiQ21jcFZoQzN0SDFJOHpVc3lqVkVJU0FENFZYLXJuMzZlb0t6bldVSUlscHd6Ujhidkw0YVZ1X0hRYlUtSGxsdUZiZTZvYjVxQ003c2c4SDVGcERpTU45TC1sdDhCUDdDWTV4TTJWa1Z6TGhFcmlUMk9xMjVuSkRTWDIwUEdERXBKaGdxaXhTWWctVENaQU5HUGJUc0paa29rSGo1aTZvdV8tSHVGVHV5TWIyM0hiNEZCeVR5cU1DZ0UtUlBmaW9DQTQ?oc=5",
     "origem": "google-news"
   },
   {
