@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:c7c103601c69",
+    "titulo": "Posse de Lula será em 5 de janeiro",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T20:54:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/posse-de-lula-sera-em-5-de-janeiro",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "agencia-brasil:f26b8fef922e",
     "titulo": "Posses de Lula e de governadores será em 5 de janeiro",
     "veiculo": "Agência Brasil",
@@ -13,6 +21,30 @@
     "veiculo": "Tribunal Superior Eleitoral",
     "data": "2026-10-26T19:29:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0I5eHo3ZkRrMlNkdjFxTFZVTFdpN2tJLXJEUWw2NEdiblVDS3U1bVhvNzh6VXVmLWhiS0Q3Wk1fZzYwT2VISkZ5MlRNN2tXZnFQZjQ3MVhOQUFMR3Zta0hFYm9sYnZ5b2w1YmNQZERIWlU5NzhTenBmb3B1bWhzOEk5VXlzVUJ3N0xtMUxDR3VtVmpIMkRjNVRaZTgwVG9GN2h2UXBaZXoxMVBheWZpVw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:50b9eeccc850",
+    "titulo": "Porto Alegre dá a Lula maior percentual de votos entre capitais fora do Nordeste no segundo turno",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T19:03:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUVZhUVI1T2dubDM4NUxDR2ozdG9oNVc0M0VBdDg2ZFlKMEF5aVFRY0ZnMHY1SXNtMFFnUEhIT2s4ZVA5dzR3X2VPRGlWMWotY3Myajd3eERxXzRQMUxaY20zLWkxeEZzWnFDdnA3SGU3bGVLaWZMNGJYeDE0Y3JJdG9NcjJkbkl2R1pSLUxKenV4eW5GNlJaeTNEU2FXNTBNMWhqeXZla1l6UlJxck9TQkt0VmR3NnV4SXE0TEtxeno3ZnV5cDFscEZ5VHJaSU9OX0NNMjRNd2k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2569f4f91f9b",
+    "titulo": "Trump e Milei ainda não parabenizaram Lula; veja líderes mundiais que celebraram vitória do petista",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T18:32:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYlZza2NFNExLT1NmalZwZy1pTzJzOXlWeVI3U19YcGU4OWtleXg0NFhIOHMydkZYc2JMYzYxYkxuV1VleWNBWWxEamJud2tIc1NVUFJ2bUdjMy1WUkdOWDNOUlItS0hub3FGNTU4QXpUV1p0ZE8zaU9fSGdZOFh1a2ZFb0ZYMU9ZSzUybEY4eGhPRXc4Vl8tZEhuMmp2aWRDTkFHQU4waVlHemdJOURKeXZGRWJKVl84bmRTNTZPM2NHQkVOdUpQeVY2eEwzMmJoNXBSQ1JwckttalptNldSa0ZqaTVaZDhseERaVHhleFZXMmdORC1Zdk1lZnNfR1Bq0gGPAkFVX3lxTE9uLUVuQzVnd3RjU1B6aVRCU0ZWbDNVd3NmUmpBVGdEdEU4Q2h4Smh3S1BPdlphdXZicGxtaXlHVVRjdjdvVGtLa3ZGQU14MEc5bEpsUmh3VktCcGwxTVJKUE53OGNWUkl1WHQwbmlYTGZxWXZ6YjFMS3hWTGhWUUs0Q2YzUVNaOVc0WVNKZ2gySTJHLUZXaHM2TW5qVW1rNUpkb3cxWEV4SVZLVTJDS1lteS1EaENYZkh2YUFtTGpTMllWZzJWQ09YaVRGRzhvNW9ZQ3p0YVc3YVhoM1pDSVJGSl9OMWVWam9BN01qcUZ2NlFGeFprMGN1bFRKbmh0Ty1EUFN0bmZOSmFUbjloRnc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a55a2ff74ccf",
+    "titulo": "Veja os estados onde Lula mais ganhou votos do 1º para o 2º turno",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-26T18:28:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZElFby1IdVc5TnJGUDJpSEZDR3NDMnNsWkVZcGtNLUV3WHZHckZRaWVycDR5YkFaQWd1SFo5bUxtSXY5T0N4N2xlSUlfLVRkZjI4d2I1OGNHSkNackw4S0MtN2hialZ6Rk1USHZ0bG1Rb185OTdJSHhKeVlQN1NUZzRfV1BqX05GUnh2cEJQdFd4VUZraENDUU9EUjJnS0RkbkpGNmZzd3RqdTV2QXlMYkI3WnZ3QQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -144,11 +176,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:1aff3b13b582",
+    "titulo": "Articulação política e redes sociais: quem são e qual o papel dos aliados citados por Lula no discurso após a vitória",
+    "veiculo": "G1",
+    "data": "2026-10-26T13:21:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQTk5TkFOdnMzc2lSU2otZ3BaTUhUT2t1dnVNVjc4RDFMU2NiQlNvdmRLVlgxaEpSb3hwRWZuMHlja1hzMUdWWHBxbkZGaFVORXU3NWpub2pfcFZyWWhwOWl5c2xwdlpQbFNXRmJmcjd1b05yc3F6WVIxUTFSaVFXb1FyYkxmT2syWmp3Vlk0MnJ4SkJFSW5ic3UtRG9kVGNrcW9sa0JtRDRWeFV5R3RKc2xxaVNqRU1IQlViTmhjV0VNTXhEQk0xX3ZuREhKTmVaTVdCaGJRNGtXYWNrRFA4QllGZzFidzFmWmtwTE8xLUh1c0ZZbmtybDhkMVU5U2_SAY4CQVVfeXFMUFR2TXU4Q0lZN0RmaW1icVd6UDk3X0x0SEI0MkFJbGlNTlFnMmxWSnN6RnVPeGI5WXRfbFhSRW12cnJLNmVCRjhZVUo0X3FLSzFaQUs0WS0tTVd3aXZJVGdQQWlvOFdtS2J4MzJPNTRBZ1dFc015MWhkcm9JVkRVbjE1cEZraURtQ3NXbURlT21waV8xR2JkUDJkTmVqcVJYdEtIekQ3NTRoZTNyeThvZ2tVdFAtY3RCM0dqU3plNzcxckdodkJ0d3B5STdpdFVHTHljM0F2a3hrYTJtRGZsRjhzRnE5WGlfVkw5a2ZrV1pvQXVMXzhkeXd5NnVkSS1DYlNONFpmUlozWEZxOXRR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a22c543b28cd",
     "titulo": "Lula é reeleito presidente do Brasil no segundo turno com 51,79% dos votos válidos",
     "veiculo": "Vatican News",
     "data": "2026-10-26T13:12:42.000Z",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTlVLaFlBb1RhNk1PblpDUnhSM2FTZTdpNWtocUdndXlYNVBfeTZxb2hQVXFrZERVUjA5aFd1Yk1ZTURYcHZtQVFCSEthcU5HdzhDZzZQS0ZxYzBMaVRQdG81X0g3QkFLS2ZRZjFtOGwyeFplYlJVUzdiN0RWNkFFZmx2QnNDWUp4YzRrd2tGdS1pMk5hMEU1QnVwclljRGRq?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4e3d8d51dccf",
+    "titulo": "Ministros do STF e do TSE descartam anulação das eleições defendida por Flávio e reconhecem vitória de Lula",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T13:09:49.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZzNWMzh6YWZJV1AzS2VmUjRhVWUwX01BXzJsUmRYWmt6RGVSNDVvRGhWV3VJazVTeEtyWm9WWHV4SXJTTlNRQmdNcUpvSUNwNmhkckN5RHU4WHpkbnZPbFpEOGdqSTljalVJS3NQZjl3M1pGMHFoRUlCYVM2aFcySUZaR2FwdlBPUDl2NGNZb0xsbUdIdXdNMThPN0Z3Y0JnY2FBQlNKMmk0cmRNa0RQaWd2QVU0NDZwUmlvQko5aEFYSGVhR3FOc2lpQ2QyanY2cFJGM1pvSzVpNzZnbkF5MXFjNmFDWkltOEl4aFFyT1c0dXQ0ZTJldFNTQVFXQ1pIZmhtc01lV0lFbXZs0gGbAkFVX3lxTFA3X0ZacVMteVFtNl9zYms1d3JxYWcwRmw4dkZuZkFfSUVjQ0MxSjhYcTVWazhtTjJRVGNmckFTNXpNdG16aXBUUlZIS1BRcGEwQjY0VEY3QmZWLVBqZ2lOaHFFRUZTSGZTcDdIMmdBLUpGSVBISFkxdU9FU09vcGdCU1dxSHl3LUVyTC0zcE1qS0ZvMGFyalYyem5RbFc4cTFSdkdIYWxGdEZfRzh6Q0NCWW1waENQQlR6b1BSMEl1amgtMmFVR01DWm45ajFEZWdNOEI3X2F2T1BtMURZWFJ5enRiaFBkZEJfcTY1MklqV2RFekRycmNsdkNZNVM0anZRMDlfTV9OamdBVU5sQ0xqU2d3TEczY2xza28?oc=5",
     "origem": "google-news"
   },
   {
@@ -1269,6 +1317,14 @@
     "veiculo": "Nexo Jornal",
     "data": "2026-10-25T23:59:53.000Z",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOWZBMUZieUxrWlBIV0lqUGN0YkNvR3FvZnhsLWRSZ2ROOUMxTktVR252ZUFsUE1nVktlYi1rWWhLNUVuRnFYbXhSZVVEODlrVUZDbURrTnN3akxiSFdXWnIwUG9UVG1yUUJvV3VIQmRQQ21TQ0l2ajZBbW5sU0E2TjBtVmhpQzZCdEN4RThqQS1QZ3c0RnBpM1RNdkN6MmItbzhTX2dB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b89cc9f6bdb9",
+    "titulo": "Virada de Lula leva único eleito 4 vezes e 1º operário na Presidência a outro feito histórico",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-25T23:56:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWll3cFR3WU5RLVdCaEtaakY0UEM0Rms3NHI5dHdwc0JIR3JOakxta0dOeG9HUmExLXV5THFSUi1qWG9tS3N5S3hzLW9IZmRfMFJCU3dTbDd4MkhJS3QxTF80OS1jUExpS3A1Z2JNamNuNjZybHQ1OVlwOE5ZWnlkUFhhcWhSZ2F6aDBBLUtlSmxUdlUza2FGcWZJTExvSnE4RVlOdHVTTERwdmMxWGhZbXV3MzdMRWlQbTMyeXkxY0JpYUFXcHdCOGZoSENuLXdlV21uMktyN2N5NEU?oc=5",
     "origem": "google-news"
   },
   {
