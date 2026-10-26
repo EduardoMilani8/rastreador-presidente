@@ -1,9 +1,8 @@
 {
   "fontes": {
     "agenda": {
-      "ok": false,
-      "desde": "2026-10-26T02:30:22.912Z",
-      "mensagem": "2026-10-22: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-22: TypeError: fetch failed"
+      "ok": true,
+      "desde": "2026-10-26T02:40:16.879Z"
     },
     "dou": {
       "ok": false,
@@ -15,14 +14,13 @@
       "desde": "2026-10-24T05:40:17.131Z"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-10-26T02:30:22.912Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-10-26T02:40:16.879Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
       "desde": "2026-10-11T21:31:31.268Z"
     }
   },
-  "ultimaNovidadeEm": "2026-10-26T02:20:15.883Z"
+  "ultimaNovidadeEm": "2026-10-26T02:40:16.879Z"
 }
