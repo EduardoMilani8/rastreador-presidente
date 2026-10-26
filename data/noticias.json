@@ -1,5 +1,37 @@
 [
   {
+    "id": "agencia-brasil:114ab4a2dc85",
+    "titulo": "Presidente do TSE liga para Lula para parabenizar reeleição",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T01:39:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "agencia-brasil:7abfe62dc2ea",
+    "titulo": "Imprensa internacional destaca vitória histórica de Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T01:30:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/imprensa-internacional-destaca-vitoria-historica-de-lula",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:9d0ecb3cdf34",
+    "titulo": "Lula é reeleito. Presidente do TSE proclama o resultado final das Eleições 2026",
+    "veiculo": "Senado",
+    "data": "2026-10-26T01:21:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEJhRUdad21Cc1dGcHRlbENfWHZxTGM0U016am13aDlFLVdXcG0wMmZybjZ5R0Z5UjZoTG0ySjI2Skp4Q0tHRV9GdXFmNXhaS0FtVkJzb0Z5QWIyOUpLU215dVhhSGdhY2sxNXpCQ2FwWllLT0pwTGZHN0tfZ3FJNGg5dWJZRWstN3BZUWgzSUtTTGMzSEtRVXVUSTN4eVZtMjBlZFFrOFBXTGdhUV9LQ3dXUmlUOXpOUXB5S3Nad21lT3ZzSWJacGVrLWlrRi1QRW5HTw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c6f60cee3a5d",
+    "titulo": "LULA É REELEITO | Confira as imagens de apoiadores do Lula comemorando o quarto mandato do presidente. ⁣ ⁣ 📲 Confira cobertura completa das Eleições 2026",
+    "veiculo": "Instagram",
+    "data": "2026-10-26T01:00:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UZzNvei1mTk1CeDliSHZUQW5TQjZoc1A2TzRkSC1UaFI0cFpnS0RLMGIyOFNrNF9fWlcxdEd6UkdQUG52aFZNQk1TTmlMNndYNHc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d740a716e639",
     "titulo": "Lula conquista virada inédita e terá quarto mandato como presidente do Brasil",
     "veiculo": "BBC",
