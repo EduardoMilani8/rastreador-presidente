@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:2f30f5ee6452",
+    "titulo": "Lula é reeleito para seu quarto mandato como presidente do Brasil",
+    "veiculo": "Senado",
+    "data": "2026-10-26T00:42:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQmhhRjlCb2NUeE1hV0IteVNxcFQ1cGJTWHNXWG9uQmZyaWdDY0l1TURpcU9zcjNNclRiODRQUHN3LWlLWnJsZzhoZWZCbERIb0JiWWZoR0pPV054SkhQaXVXM0x6ZjRRamJTSmFObVdoYl9OcERMTWJUY29ja3BDMXlHMFpBMExfdTNqQkQtYUJ5bUJJeTR0bGhtZVVmcGVFa2RQNjI0UVhwWERvV2RGVWVxQU9ESEphUDhMZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:27fdc731099c",
+    "titulo": "Eleições 2026: Lula é reeleito presidente da República; confira resultado do 2º turno em SP",
+    "veiculo": "Tribunal Regional Eleitoral de São Paulo",
+    "data": "2026-10-26T00:40:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2F3bTVtUmVCbEwxb2d3ekhhOWRZRGNxaEdiYkItRmdIdEMxSVA0RGpjd1EtajlzMzRvM2dldjd4dkhLcC1aZGdIbDc2dTFfVGE0UDB0aWozNnNEblYxTkpxYzczRHZ3LUkwemRSN2FwQ1Zlb1pWVWxmb3NwYS03S0ZTbGUwQUFlSEZ3bFJZZ2laVEFPVEh1SG5QVS1aa0JwcDBwRlo2ZUFPZlIxdTdXX1BsZ2ozdHpHZ0J6VlhOc2NZS1ZBSjFsRm5WbGUyZ0NFRHZuZUxvTmtiLVlUY3ZnUDVBQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1395262d8835",
     "titulo": "Lula ‘vira’ e é reeleito para quarto mandato de presidente",
     "veiculo": "Senado",
@@ -16,11 +32,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:7027f804b33e",
+    "titulo": "Brasil, Lula vai completa 81 anos eleito presidente pela quarta vez",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T00:23:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSkJiajNPWmhka2F5YVo1dDBGOUxPQWRuNlVOMEo4dW9GaHdvaEtSTmI3S0p6MFlvcm8tUWlGcFBxdU1feTZpSjJYUGpzUDVfal9UNmNqdEZ6blBiVUVwRzFreUVReGdtT19XYWE4a1pxUVlBMFd6NENsUm93S3lZRl9BcWpuT1VLMkZxRWg0dFJTS2htRmJjUW5uRHV5TDJBOEIzRTF3NDZPYXMxcUZxb2gxNnE2cG1vUHQ2NVJHalBGTW85ZlA5RVFTanhDZUZhS0NxSXdNZ2RqR082N2c?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2774a56d4fb7",
     "titulo": "Lula é o mais votado em 1.957 cidades, e Flávio Bolsonaro, em 2.247",
     "veiculo": "G1",
     "data": "2026-10-26T00:22:20.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3FhLU1BUmJLNVUzMUJZMGwtU1NuLXN5Z21waE9OLU9sb091STFqQi1ydnV4RkpCT1dVTXZMUzRXLV9rQ1hNTkN6b2RTZTA5MDVONUNxZTR4dl9hLU8tdmY5NzliOWRtalNpOHlISVFKenhTbFZyWEljSjV0VGNZQlJPT0lveURYUzZYZGg4ZUhSUjFwbnhxMkdEZ1dJYmxJUkVtZkUwdTRGendzYXJUVnZHR1MwMWJJSzhlTtIBywFBVV95cUxOYVJIczdtSGlCeWJ5N3dmRW5TUnBMSUlUaEJPZnI0bDA3ck5ja0NkWVhfclljRDd1YkJUVFNmeVJ3Qm1kZkJ6ZlZpOVQ4ekMxOVN5eXVDM0UyckZjR2l5Q29UdFZsaE5maVVaRHZWTVBFb1NhSmZla0pIZmM3T3lFNkkzQS13S2pyZlJ2b2hOUmVtcC1ISTJpUXdVMTN2VUhFT1RzRE9Md0JtTVJMVVRpTDhHWUt0Qlp5dTBoQ1l1c1U5QUo2ZDZtai10aw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:08ed4ade2eb4",
+    "titulo": "Lula faz 510 mil votos a mais que no primeiro turno no Paraná e é reeleito presidente",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T00:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSDA0R2dWZjljcS1uampuMFRmRWZjdUJBbkhJbjNTRmpIblMySW1NZjFzdEg3ZHQ0X2pUMEtrVHJsU01BRFVwSlZRVFI2UHg2VUFYblp1dk5BNHBsOE5sdi1VWC1YNDc3cFVKb0VXVFRfVmttOUV5aExDZFgtTFVSNnFhTWVLa3BYTERJVm4tem84VWZJMkx5RnY1ckxGaGt2U2dSWnhUcElVWERpWXBuWWw1TFl6OWZGMmVzSkUtUDhJZzYzdURIcw?oc=5",
     "origem": "google-news"
   },
   {
@@ -37,6 +69,14 @@
     "veiculo": "DW.com",
     "data": "2026-10-26T00:21:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnZ6cDhXTDRhTjdlRjBjTGhWRGNZZkZnSWdjWnZ1V05yZzNpeXJjazQ5bDRJdFdfclAyQ2FFd3FLUl9yMUVVd19ZdTdpb2dUZWtjSWhiWFB4VUlEWGFmMjdMdWJob0sxWE9UOEVtR0Fwb1JyV0tyZzBRRDZ5emZPakswc2VsOUgyN2tUNTFmVFA4NUs5VzdLX0hKSHJNbWtDUHRQOTFBZy0teGxq0gGsAUFVX3lxTE9tcmVLOG5xcGhrWnVSUENaV0dnbXJ5TjN5M2FobnF4UFNIUHczNjFTV0dIUzdzOE9ZZ2x0LTZBeEdub0hBc2otdXRlZnNENGV6Ri1IcXBTVXNkdXJSbnJpbm1Sb0tlaFQtQ216TlNwU0RYX1dVYXU2SmlUaF9adzVWTENNLV9Ub0FuMjRQdTZzc1VleTRXbU9rS2d4SHZSN0RHdW9iT2g2bUhXN1o?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5e8bfafc2f25",
+    "titulo": "Lula vence em todos os estados do Nordeste e amplia vantagem sobre Flávio Bolsonaro para garantir vitória histórica",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T00:19:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTXJHYWx0OUlxX1hvX21RYmVXZF90LU05T2p2a1NEdHlMY3JrQUp5U0d0dGd0ZVNCZnRjV2t3U0d6UnQ4WGoxSGJwd2Fhd09EN2htWXd5RDEtcVZwazFmaVE2ZjE4S29KOWVkaENyQzNZTUdlc2dWMmFuVFUyb0k5N2M5X3JlT0dfZE1ES2dSTElaZG9HN1dEcmFITUhUbGdrbnlwU2U4MnhDMEExbG92WFlWSmFlSmJRdmgyVlZEeTBsRXEtRlFRTUdSMUdFOXM0N2Z3RWRoNmhDbmRWcnA1MEh5RThISkJGRXFjdmR6UQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -85,6 +125,14 @@
     "veiculo": "Agência Pública",
     "data": "2026-10-26T00:11:51.000Z",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YZHk0UEYtOHAtM2JCRjhrTFhGY1RKdWN0X1VqMEVaUEJkWTVkY2NXWFMxa2huUUE0N2p1NlpLVFNVM1lZdkR5UmNyTFdILThaMjhGRFI3QXZXT2U0cUhEV0Zoejk3M25FN1YwMHp1NEJWUlFRdlHSAXtBVV95cUxOQzBVbUF3LURzY3M0V251ZVBvUkdWdGJER0ZkbU5ERGJaTEdiRDdrd2dvam5QNVJiX1JsMlZuSEJXZm9aTkVERmlOdGE1bnRTa19hT0JlVVNMWEVRNl9RNy14dDZoR2Z4TEVfREJXNmowZ3NUcE1JWjdVN0U?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:07873b89eee8",
+    "titulo": "Luiz Inácio Lula da Silva é reeleito presidente do Brasil",
+    "veiculo": "Notícias - Canção Nova",
+    "data": "2026-10-26T00:11:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakNTV2U1eTNDTVQybXdNbUdwYzd3UzUyWDU3R1diTXNYV3BlTUpUWFE1U01UUEJqNVVUV0MtWmJCOWFDbXJFUG5JMUVjUEVvMlpYQ0FaRGhMSzdleXRkZWJudTZ5VzY5dnRucVJJQlZiYWJSNlZiazJIUElkR1pGWmlhVVhyWl9ZNmozUmlfcHNsbjlyLXNLcWtINWxtdw?oc=5",
     "origem": "google-news"
   },
   {
