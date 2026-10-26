@@ -1,10 +1,26 @@
 [
   {
+    "id": "agencia-brasil:6fbcf4533204",
+    "titulo": "Lula cresce em número de votos em todos os estados; Flávio recuou em 6",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T17:06:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-cresce-em-numero-de-votos-em-todos-os-estados-flavio-recuou-em-6",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:324987fea891",
     "titulo": "Quem já reconheceu o resultado das eleições brasileiras",
     "veiculo": "Nexo Jornal",
     "data": "2026-10-26T16:35:12.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVmFUREFEbWRtQzR5YWh0T0xTZjZ2ZTJXOWdZbUJVZ2tWZUNYVU9BTGJEemI0LUNaTWhNSkVpX3N2Vmp3cUoyQkhGWVdTTEdTamJWdFBxNzBLMThBN3hOcWhKZFVNNmtjUmU4NXJyT2piQ0ZGQW9EeDRrZ1Rza0dONVY1MndZd3RfUzkwM2M5bHJ1Qmx1UXB2UlhqYWplYkdtemhUa19DQmVUTkk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c550e4f65c00",
+    "titulo": "Vitória de Lula repercute na imprensa europeia e asiática",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T16:33:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOEVkaXZzX3BDVTlmVDFaLVZlT3JSSFh2cUNBajRKS2VQR0x4am1JX3YwcjlpSWNJeVZnd1JjUk5ubUdPS0NiOGhiVDhHeXNndUF1alJOVnpJR0dMS2lhOTBsRzlGMTU2aXpUZXNmUDNmenlBY25iYUg1Ny1CVG5aWkh5Q0RkTm5wUjVCOEhsREN0dzZacF8wT0ZCZU10alRpMzhEcDF0SDRrdC13WG56TV9rZ1RUbTVReEUxUA?oc=5",
     "origem": "google-news"
   },
   {
@@ -14,6 +30,22 @@
     "data": "2026-10-26T16:19:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/votacao-de-lula-e-maior-ja-recebida-por-um-presidenciavel-no-pais",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:638723a1f56c",
+    "titulo": "Gráfico mostra momento da virada de Lula sobre Flávio no segundo turno",
+    "veiculo": "G1",
+    "data": "2026-10-26T15:04:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQckg4d3Z0a1MwSm1zbEJ3cDdQTHhZMDFFSTBOU0J5UVhCcUFTRk5TNmkyeFAwcGxJVmhnYXNHdDlUWTFoWm9Tc3h6RjhsZTI0N1dadHNoVzRLY2dGR2R3Y1k4QVM1eVRnZXNOc05QVUdOaTRTd1hKSnJNS3FKUDZ3ZzZlbEo4TVN4M19EdGVVd1RFck9hM0w0SVVqMS13Yy1sd0dtNVZ4Mm9lUjlBR3R5NUlHRmhkR3h3c2NIOGFIYWdqWHpNYl92LXkwaGNNdXQ1b3R6S2NR0gHkAUFVX3lxTE9YZXVTcEhBb1FTTWZUdWRnQmxDaTJkRUlmOWh6SnpOLW9WVUxIaVBJeHJ2OG1NaHBPamMzRFh5eExCeDREcjVmWmtFS211SWxxS2F2UWE0YUJXS2llblRXNlROWmE3R0tNdUhUT2tiRFJlMWtuamZ6a3djeVpqdjgzTDN5NmI4WE92LU9SdU40elh6VWNKeWJTaExDVENkdm9vN01YNTdiQ0xmRnNpTllwd2lBZlZyYlF4Wi1tVm1Dd0dXZENBN3k5anJnaEhua0MwRGZLeFgzREtVRUtmV3g2Q1lUcQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:10675d1de521",
+    "titulo": "Em virada histórica, Lula registrou crescimento de votação em todos os estados",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-26T14:55:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLTNlUFhqMWZNZU9xZ0FhakpvR3JVbXAxRk1QUmFVUUw1QlhuYUtBN3VHY3NaanhFNjFKbWZaRGtlN2JZajBlbEJPbTVfRUFCRlhnZnhKN3hhQzhnaEEtZnlGMnIzWkV5c3M4M3FhSWo0ZXlhWXVqeVg2TldwSVMwUnVJMnB0bGFYcHk0THRCRE5sel94dEpVNm16TjZ5b1RzUkFfNDVFSDAzZUNwSHdaUkRoQ0pYRkZkdEh4bTJZOA?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:95929a37d23b",
@@ -48,6 +80,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:b933a0d7997b",
+    "titulo": "Lula vira em Nova York, e Flávio vence em Orlando e 5 cidades: veja como foi o 2º turno nos EUA",
+    "veiculo": "G1",
+    "data": "2026-10-26T12:43:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenpCZUpvVVBYZ2o1V3VEWWowUmM4MWIzdXFDNFFXbmh2VTN1ZVg2NmFuYTBZOWN6akhWb2lCWEVvZVhDX1ZGNnR0SXI0dzFKMUxtc1JGTFB0b0xLaDhjUDFVWXpVakZ0SUtZWWdUX21EYUdmR1JKQzhhaUhORW5HemFCV1RDYWJHdXBEN3drZEhLVlgxdkN4NDBfVmM1QlRiUEEyTjlaYXBQVUpVYzQ5eTNqeHN1STZ6b1IzOWxB0gHMAUFVX3lxTE5aTmVLbm5ld1JYLXhFcDlYMDdiZk9QNTNZWUJvSGxHWWt3aE9WcE9hTTRHVzV0bkEzdUlTZzRvQzA1clJsZEY1M01OTkxjWGdEZXNMV0dHaFVPY2dVamk4QTNBTGRYTk0ySHZRQzhacktINmhNWGhjZ0szTFhzVm9fV1RNbFhUMTdSeEVZSmJla2xqYmhZbXJKUG9XOUtTVU10UjhKbWkwRm5rQTlHLXE1M3JGRGU0UzRXaUhoMGJ3Q0xJOGZRZTBXQVhkUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8db0d81908c1",
     "titulo": "Lula é reeleito presidente: veja o calendário até a posse em 2027",
     "veiculo": "InvesTalk",
@@ -72,11 +112,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:fab657b13c32",
+    "titulo": "Putin parabeniza Lula pela reeleição e elogia ‘proteção da soberania’ brasileira",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-26T11:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1RZU2tEY2VxYW9mZWRZOW5mclNyVS1IZjBOLVhnZHFubTQwSV9RQkZaSWVwOWg0T09ZaFJDZnE0dFdObmNaQlptMS1ELXFadlhGNWxlbnROZGhyNkhkYlpqRThXQnRLdHV3LVFiMllCamZUcVZlNGkzaFVqaTdTa0RhVFNQNTNaUU1xVC14cHVzWEEwNzdXVUo5X3hUcDdpTHo4MUFLRVdBcW1FVXNPNkdzeTNnNGd2SWZ1WFRrZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:65d5e7de806b",
     "titulo": "Lula é reeleito presidente do Brasil: “Fato histórico que devo ao povo brasileiro”",
     "veiculo": "Agência Gov",
     "data": "2026-10-26T11:03:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZHYyRWdSNXdlcEI5SVh2N1ZIS1JPOWM2b0s1OXg5VTNXZlBnQTdRbkNDQkRGdmloYkNrcm1wa09mT2NreHVfUXFNUUxXaERVS182WTBOVldHb2U3R19jOE84MUxLTjQ1eGdRbHVjZFVGZEliREhuNVlBMTcyUUhDWU9aZU5qVmlYQWZndUV2LVNadFhDWjhuNFJKVUd6MzdiVjQ2UWtoVlpQVHpUTXBoU0JYeDgxNXUxblFhb2RDcVd0LXJlZmpzbGFpekNXUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:bb0e5f05d5bd",
+    "titulo": "Reeleito, Lula pode indicar mais 4 ministros para o STF no próximo mandato",
+    "veiculo": "G1",
+    "data": "2026-10-26T10:32:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcWNnUDJxbXdjLTBxS2t4VmFObzA1dVdpbGxpaVlfbVc4QlpWVUo0RW56OXZxbkVVcHRUdG1LWWI3aWhCT2hoVTdZRVRHbEttRWlsTkZNdFpEOGk0ZjVVRnhrOHhkSnlpSVNJaE85OUhmX2JTUVJkaWlWNXdxcXJPbVBPc1NkOXVkLVdwRjhEaFpJSGgxaE9vMV96OGZKX1B3SW5ROUh1N1JBQ1JBVXFsaUd6ZEpQZXBmQktXZ1VLU3IxbVNvY0440gHWAUFVX3lxTE5jeG8zOXJ1cWdpcV9wel85WGF4bWpLcjQ1a0Mtb0l2dEFNQzdCTDFabzdxX0RhVGIwOUVfNUZrUm5hSFQwRzVkUG9PdjlTNWtldXYtWlprYklRRTQwOEZzTG51VUd1MDZyN0JEN2Y3b0xQbFB6X2Q5RXZUbDk1c0paQWtBZVh2TkF5NFYwamExRXgwRnNvWHZvYjJLYUZvSFhEakZJQV8wSmZ1RkNhZWhIa01JSHhYMi11azhKVENVRzkzRXlMSUlqLVozMFJwSnlEUlZxd3c?oc=5",
     "origem": "google-news"
   },
   {
@@ -101,6 +157,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-26T09:30:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbm5ESHlfSGo4THBXLWYwOUtMWVI5SGRqYkRxelNXQlVfRG8yalMxR1FoMm85YzQ5cFFCeVpmYlk4UW45WEI2SzF2bW9aTERObVo5VnVuT2IzUG5HaFJhaWZfaTlmTlBwNTZfQ2c2SjU5Yl85bUVMSHdXN1o2ZWdrNkdWb3k2MXktdjhXTThoZVBrRHM3TkRxYVFFSTdhb2R3aUVSSGVra21xMzR2Z0ZaX2s0RFg0c3NFM3NSY29pRFp0eHFvSDd0dlIwbk4xTmMyZTZTZk1WMkRqbXNzMHhOai0yTWpWYzRteGEyOWdRQnhOYlFHcjhTTDdxMmpsQ2F6Zzh0dFA2ZFNHZGk2em83aEtrMXc4Z0t1ajZVQWFMRl9PclJNU0l2bNIBtwJBVV95cUxQSHBHUjJsNVJoVTBCR2xVRFdOUjVkN0VSckprWEpvZ1dSY2JrSUpmZWkxc3BUaFl4Y1RBQjBua01TRlZmdUpZOHMwZTNOUkpYWjdEbjcyV2I3VlphMGRiemZpX0hVVHQxQXpKT2d5NmQyZWY2aGhCT2ktdVJNSU1YTHF5blJyTW9DaE9hWDR3bzV5ZFItYVd4RDVudDZjZ1VWYngtaVhtbDRLWkU2VVVzOEtlZkpaTndvMkxUbEdoUTczN2ZPYTlqN2E1bE5kS081bHlyMlh1MU5oZ2FBOUIybjNDV3huMFNDTkxEZUd6NGFZQmxYOWM0U0Q3VVlUMjlIelFxUTZQMm9lQlpEWEt3VjAzY3lKZmtubzJpRzRzbERCcHVjWHlFVWVYWUsyZ0w5dkltczJTbw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4ce3e0e33e35",
+    "titulo": "35 mil votos foram registrados após as 17h; vantagem de Lula sobre Flávio Bolsonaro no Brasil foi de 4,4 milhões",
+    "veiculo": "G1",
+    "data": "2026-10-26T09:22:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ2YtamNmZ0MxUDQ0eHNNUlR3M2VsdGJXQ0s3MllCNG44UFZtaGFlaGJTenZwSWhjU0swMFF3TWFnNUNzRHFlNGlTN3ZvNFhDMEI1MGlTYWg0WFllNEE0X3hyeURVNWJuZnpZWE5wSm45akY1WG9odG9TR1FTNEZfWjRrelYzZlRMX3h6WjFsWElwQmZqWEJvT0VGb01mTUFzSUFsYnJTSVN1TU5Ua0owc1djaVBBY2FqR0FRZVVIR0tRdGJMMWQwbTQzQWtZRGlVRkHSAeABQVVfeXFMT013aHR4dkdJOGtXTDVzWTNySVRBNVFWUlBjTU5DNmRZWTVmaEI1WEdhVFB6NmFoWDczX2ZyT3k2X25Jd2dxSmlFSENONmYycEpmay1QZWtjN2hWb3RSOTdjQlZFbDk4QjFkallRSEpnakZIWC1SRFFNeENDaW1qdlVUX0lXVFY4dkh0NGVtZUdSMmVmdUtfWW5KMzFUcW5ZZnZ6dnJtNUtYdDFTZVlBb044dWRYQ1p5UU5WandzSnBaZGd3U0dKREQxYVFKTTVHdnZVQ0c3LWU0YjZialpXY2Q?oc=5",
     "origem": "google-news"
   },
   {
@@ -149,6 +213,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-10-26T07:36:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSldOVnZfVy1FM2FLd3NYTGRNcnNRWFNGUjl3N2Q5X0EtSmlvZThVdm9zYkducVlrSGtfOTIzQVNxVzZoSjMtM0Z0NXVOeTlSSWxpeFplWWlEWlpsY25IV0tXQlJVMERTYTlPbHNkLTRKNWdkcnBhZkRKVWl5Q1FSQWFqZXNWamFYLUdOZTlvci1BR0RSNVF6cUJ3MnVYLWRRWnBSQkVtMlBqd2ZEV0d5TjRrLTNDQjhEenItMVFvWlhxT0lR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:afc547279658",
+    "titulo": "Veja os planos do presidente Lula para infraestrutura em seu quarto mandato",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-26T07:30:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHVERXJlUjBWSUZLc09qWnptYkxFdTdaOFd6a084VXBzbzRkbV9sZVZQaVlZNWFIbXhmb0VZSmtrYTJWXzc1MjY1SHlvZjlEVDZiVVRobUVaMGMyaC1rbWdvOENyeWI0bURBVXotaVZVdDFWZWJLeHFIQXE0MVB0d081SUpGOTB6UVU5a1JBVlZETjlhWm5YU0lKVU9pcjZyZ3NKcWhsOEM4dFlqTXdjZQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -237,6 +309,14 @@
     "veiculo": "Estadão",
     "data": "2026-10-26T03:44:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEg4cXZsSW8xdEMtRDN2R0pMVG1ycWZiZjZNSk1HSndnZ3EyaC1nVHc4RFg4Uk4zRTB1YWZVcE5SQXZlMWtFRzduZm1zbjRudlNTaDBDNlRhY0RWTUFiaWV5WkhLZkYyM0xDd201UXZJU2lJMTNkUkhsODgtNUdZWW16SFBVVHlqa0dnclV3RTVCdmpuWWwzNkY2bzZOMExpZ3VjRjQ3VU1fOU1PdVVBcEJMU3hjelZLZEJfYklRTG8tMEYwaS0xQkVuc3RGTmU4aXBz0gHYAUFVX3lxTE1iaXJaNE9yUmQzaml0MVZSLXN5N24tVHI2Vzc0RHVlU0o0Sm1iTXB0M3dod3Z0WmFqYjBRVElzSXFWTExKR21aYjQtQ0pjVXJOb3dRb2dQd19iTXFLZDFFY3VyUWt2QTdqRHl2M0FXZVNNcmlCUWh0UjVQMXpUNDE4bjJYc0JsNFdMMEg5Wl9Dcnl1UklHU2ItcmE2bms3UkdBaGhySl9ZeFZOZjh5WmY3RmhlblF3cm1XRnhKRXdVd1dINUt3SXJjaWlLU1J1R2dIVk9JUVh0eg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a0c908d840ed",
+    "titulo": "Lula reeleito: compare evolução da apuração do 2º turno e do 1º turno",
+    "veiculo": "G1",
+    "data": "2026-10-26T03:40:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV0puRkRVUWpqUTVpMGNGWWdMNnRMdGR3Y2dDbnl0RTN4ZHhleUpqNTdDRElya21sWml3MXRTeVlWNTE0NDA5MkUyYVZXdkdVRTNMYkw3dlVJd1Z5amdKNlRLdHpXWmU2bGJyVWtQU0NMeVg4bVhEVFU3YnJwc3pMdGxMeTlDbXNqb3ZHU3VvNjBKLUpBOFZrT1g2Tm41X0RGVFZlbXNIc3VMOVRyQVIweDJUTlZ4ekFuQWZhRG5JWEt4Uk5rU1UzY29oY2tXTVFwakVZ0gHiAUFVX3lxTFBwRlpWbFVuM2pOSjlyamZSZDFfdXpTZm5ITUZSMTBtLWtDOUtxVnZpQndtdGVHRTdoeVp5U3NnRWxFM2R1SGNjeG03elhNZjd3RUZ5b1Bfd3paenMwUkpteWtycTNSM0cwTExoSnJnR1JoOVR5RVhTVDRpOU1mNllZRXBCX2ItSlJ3ak9Ud1ZQRmZLejdVVU04Mi1ONU5HdzI0ZXFCSEJWLWVNNTdLLUprQlpZbmFXVFRHNi02TXVWakM4MDNEZVNvS1RRRks3c0VwMzBncHFCSnV2d2dLeXF4c0E?oc=5",
     "origem": "google-news"
   },
   {
@@ -672,6 +752,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:bed66d703454",
+    "titulo": "Lula 4: Todos os homens e mulheres do presidente",
+    "veiculo": "NeoFeed",
+    "data": "2026-10-26T00:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMEE3U0NWbzdNR2FEMkdwSmJIbDIzQVBmTXR3Y2VjTW9XaC1qTTFiMV9XM082bW5CdGRmQmx3Y29uTXlzRjNWMDRCbDBvS2Q1OUNMU2hNSjdRWUpwdndtQlhVdm40ZnI1NUFsMXRPTWJEMWluWlJQT0J5ekJtU0dCQ0F4bw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8820fb241b0f",
     "titulo": "Mudança de estratégia nas redes sociais e redução da abstenção ajudaram a definir eleição",
     "veiculo": "Senado",
@@ -870,6 +958,14 @@
     "data": "2026-10-26T00:17:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/rio-grande-do-norte-elege-cadu-de-lula-governador-do-estado",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:a32eb3421f94",
+    "titulo": "General Janones: o comandante do 'Exército do Lula' que liderou estratégia digital por trás de virada histórica",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T00:16:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUzlGWUxJdHNFQjVPc2xJbTBNQUQ0TDZIMXNWMGx2b0QzSmVkc3g4SlFqenU2Y0FfSm15RldmYnY4N1REQmR6Q0xER0s4ZUZSbW9DRDN3OWs2M2NfVExEc2s2eTkyQ0tPNWZ6UmNPWGhpb0g5UGJTSmVsZnptZWNFbmRKTjc4NkNnZFQ2VEpRckF4bUlNaTNsZV9mRWt0SlVSdW96TDA2cTUzMVN4aXRaQmhrMFF3b2d2eDJYOWFwd0Y0NkZCSkxkMy1BeThJV2VaM1VxZVloOGN4SDBUd0FnVDFKcEJDaGNsdFlGZHQ4dUVGS2lHcGpGN0NKazJUYm1z0gGPAkFVX3lxTE4tMXltM28yMmxCNEtiTXpwdFpWSnMzWElVdUtsRzEwaDZDVlpmOFVacDZxYkhpd1FMeFl6T2ktbmtyNHY2RlctaXYzMWhxVWg1UWRHQ0EwQzF0c2lReDFtS1B0X1JvSkFKRG5uR0Q2T19LaXRfQWVSUkdtbzE2S2FpVVZHWjU4RjQzeExJa1JhUjZ0YzFybWs1SjlCQXRGTkxQVkZiUXhOcGpyazFubXNBWUd4WkFyeHM4QV9tMnRwTkF4MVBCU2lGUE1MOXFGSWIyeVdKUllrNVFFLUVEV0JkcHpvb0ZjSTdBOFk2NlJHbVNVQS1sRVBSeWg3MFF5Yks2czFNT3gzZ3BtMnhXZmc?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:70918ece5c67",
@@ -1472,11 +1568,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:c4b34807cc37",
+    "id": "google-news:bd65d0b561b0",
     "titulo": "'Tenho 50 anos de vida política e nunca vi isso', diz Lula sobre mobilização de apoiadores após votar em SP",
     "veiculo": "G1",
     "data": "2026-10-25T12:12:15.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOal9fcFl0VTY5U21iSmpMcUM0YjlEQVcyZUh0bmo1VjhDcVUzYjduT2l0R0cwcVBBM2hOT255RHItZ0RfaV9veHVma2dveUd0XzdQYU9fRXIwLTg4cTNtSTB5STdjRExVUDlGbU5hREJPZXp4TjNINFZnVzdVMjFvcDFlVkhHZDEtMzE1WU4wVnZfT3fSAaIBQVVfeXFMTXNhM04tdGVLbXZ5X3VOYlJYWWc5RFVOQUxaZEZSaElDUUxzeV9vZHpuOTVNTVpCOXJPQ2ZQaC1LV09VNFVIeVFGNi1xRk1qUHJrY0ROSThJN28tZU9pZ3UwQ3R4dzhDbHNhbFNHWDh1dEpZMmwtQkkwWkQ1SG90RjBudTRsa0piUTg0RnV1cTI3dE5qUDB5cHcwVzFuQ20xblp3?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOal9fcFl0VTY5U21iSmpMcUM0YjlEQVcyZUh0bmo1VjhDcVUzYjduT2l0R0cwcVBBM2hOT255RHItZ0RfaV9veHVma2dveUd0XzdQYU9fRXIwLTg4cTNtSTB5STdjRExVUDlGbU5hREJPZXp4TjNINFZnVzdVMjFvcDFlVkhHZDEtMzE1WU4wVnZfT3c?oc=5",
     "origem": "google-news"
   },
   {
