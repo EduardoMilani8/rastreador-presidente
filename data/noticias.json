@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:34dba8f66c62",
+    "titulo": "Relembre a trajetória de Lula, eleito para presidir o país pela quarta vez",
+    "veiculo": "Senado",
+    "data": "2026-10-26T00:47:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZGVoTzFxT2RET3VGTDI4Sno3bjA5Zi0yNS15aDRkVGhmN2Z0cEVQSEhaaWZnb3h5eEZuN19JSldhUl9QcEo4T2dmNTRiT0ppNnFkNnZhNXhOZTFXSl8ya2ZGcHUwR3h5Q2lXWVpsVEk1VDlYYXhFcGsyOVdYcTFxTW80NGYtakF6VFBqbnltMnBOcEY1bGhxOWU3LTdPNUtPUWNFWnZJc3VrMTJCSzFKY2ZRcTB2dTFhSTBBM1M0QzlNOUE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2f30f5ee6452",
     "titulo": "Lula é reeleito para seu quarto mandato como presidente do Brasil",
     "veiculo": "Senado",
@@ -157,6 +165,22 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-26T00:10:32.000Z",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUHhCbS12V3dQbDI3Q2tTS3laaGFtelRnRklCd1c0RUdzUkpPaGJjV2pCekk2RFV2Q3FVWmxuMUxrSl9CcXJrZlg4WlNyX1RybWJtU2k2ZVo1Vy1ZS3NBN2dKRmdEaWhDOHRGUURnUWFkVGM2VkVaMGYteGxMWU9SaWtHQ1BDTG9KdTRMSDlVME82S1pxaGZIcE9WSG4yb18tQXQzWHJTY1pjTXBPSXk5Qm9mUWZZZXdzeE9JYVVLbUx2YnhldzYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0446215245c1",
+    "titulo": "Articulador de Lula com empresários e negociador no tarifaço, Alckmin é reeleito vice-presidente",
+    "veiculo": "G1",
+    "data": "2026-10-26T00:10:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObzBxWmdKNGpnVDlIZ2ZJbkI5VUtRVjBKWE43cUg0bk85MUNOSUlwdTZwWS1jckhlbjNTcFNlUUpRdE16NkNrQ1dndTNUdElZVFRtTmhwN2o1SGJvYWNQVjNCQ09zZEZCSEU5MFNTNUR0X0hmLTc4akUxNGtkdHVpOUtmdHlQTkJSWXBGM1hod2kwelVvanlwYXFMVXhrZUdaak9qbk1ZZlJ3aGt6Z0lKdG1rcnRGMzFpdzB5TktQWGRUWmpfTUZQYjRTandVb1gtZEpDS3ktejFNWXJHdldRZWVzVDdiZHc2SnVpcWJ3Y3JXREZidWRj0gGGAkFVX3lxTFBsUjczOE1McVk1bkJZM3djTURVS0RKVkFWXzY5Q1U2WWdWel9UYlFKaWVscTlSTVdfNjVBVVE5ZnhxWVA3ZmxySmRBLVRmejlOM2s0aXlHVy00czZ2VzdIZDd1OHdtWE12ZW00M29QbzlzSm5qb3UwajZSMUV0MmFMZ3BLcnNRUkJvT3B6aXl6V1RXMHRGX1pSSVBHUk4wRGRnRXdQdkZ1LXlUMUFFQVVJRDVGX25lSi1CWHNadEsxcVJJVW55aEswY2R4RVVKVUFhSVZGTjF2cENBWGtQWk4yWDA5UUlGN1BiSXBjOHJJNjB3b3NaUS15ZWNLWEh2UW5wOTU3R3c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:72879cc3f067",
+    "titulo": "Lula é reeleito: quando será a posse presidencial em 2027? Veja a nova data",
+    "veiculo": "G1",
+    "data": "2026-10-26T00:10:13.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZnExVU80UFBZR3M1Q2RuVHBjSThCaFVKS3NybEd2QmxOVlZhVzZ4UW9LVTBiYTh5ZWlWenRSU1dBNUowMXVTaC1oaHZrbXI0ZXIyRlhDLWhqOTBEMDUwOWlMZHBoQ0MwRGk4LWxNMjNreENmUXdjMzc1U1ZIY0U4aUFtYVFGaWhXYVFZaXhPcjVXbzJSQWFIV1Z2WUxTMjZ5OHQwbXVzSGxBUjA1VG43ZGluUWNXYTZkTzhrd3JSRm9HWFFkVHVNdnUwVWszLXVHR0VyNGV0a1hhd9IB6AFBVV95cUxPeVNPSXdub3M0YjgxRVhENFNVcEFFRTY1Q1ZwZHk2Z0VNaHNBQWZqOW5yekFDcVFBTWMyMjFoQnNXNHB2SUp1SmFKWUVwWWJWVWs4NUpXNUUtbkFYU1BpMnpHSXJaZHVPUVBCbzg0NTJ3N1V6dlFtZ0FXbWkxR0hpUUVYa0RIZ3dmdXVZSGRVVDQwN0haNEtfVjNrS3RvQUFGRFNWZnNGX0N0V2ZtTTZnMVpyZHJ0MnNXVFVwUzcyZG9SRnNiNnFzTnJ1TmtJLXg3SXdHUk9aRHJLblpEVS1OSXV3d294Z21p?oc=5",
     "origem": "google-news"
   },
   {
