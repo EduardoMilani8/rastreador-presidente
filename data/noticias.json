@@ -1,11 +1,35 @@
 [
   {
+    "id": "google-news:cada65ffcb93",
+    "titulo": "Conselho Federal da OAB cumprimenta o presidente Lula pela conquista do quarto mandato",
+    "veiculo": "OAB",
+    "data": "2026-10-26T00:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVhjVjJCSnZaTmV5WTc5b1VXaG90QlctRjFfQmlXSHhZRWVDVGpQb3BIRVB3M1F1TVB5YlhlV3FmSF9NTTlmdnBzd3M1Y0dDYjhwdHRmMHZVM3RhNTdaRXM5cVZ6Z0Q4OGpobnd0SlRKXzlxQTFKUGJUcllvNFhiNEh0NUZ0QkVXSFNjMzA0YmxkUnkxcHFITXJQTHhFVGd3XzZwdHNIQ24zdENFSTdNbExDend3akhpVzJKX3Bxa0s?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "agencia-brasil:483d9f79b84a",
+    "titulo": "Rio Grande do Norte elege Cadu de Lula governador do estado",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T00:17:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/rio-grande-do-norte-elege-cadu-de-lula-governador-do-estado",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "agencia-brasil:f892fc059c53",
     "titulo": "Lula é reeleito presidente do Brasil em virada histórica",
     "veiculo": "Agência Brasil",
     "data": "2026-10-26T00:11:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:9f999f8194be",
+    "titulo": "Em virada inédita, Lula vence Flávio Bolsonaro em votação marcada por caos eleitoral",
+    "veiculo": "JOTA Info",
+    "data": "2026-10-26T00:10:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUHhCbS12V3dQbDI3Q2tTS3laaGFtelRnRklCd1c0RUdzUkpPaGJjV2pCekk2RFV2Q3FVWmxuMUxrSl9CcXJrZlg4WlNyX1RybWJtU2k2ZVo1Vy1ZS3NBN2dKRmdEaWhDOHRGUURnUWFkVGM2VkVaMGYteGxMWU9SaWtHQ1BDTG9KdTRMSDlVME82S1pxaGZIcE9WSG4yb18tQXQzWHJTY1pjTXBPSXk5Qm9mUWZZZXdzeE9JYVVLbUx2YnhldzYw?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:f26eddfea18f",
