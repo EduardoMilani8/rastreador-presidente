@@ -8,11 +8,12 @@ import { mandatoDoDia, mandatoVigente } from '../config';
 import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
 import { dataSaoPaulo, ementaEhSoRemissao, limparEspacos, somarDias } from '../shared/text';
+import { carregarAgencias, carregarChecagens, montarFalas } from './falas';
 import { ligarComunicados } from './link';
 import { aplicarStatus, mesclar } from './merge';
 import { gravarDerivados } from './derivados';
 import {
-  gravarEstado, gravarEventos, gravarNoticias, lerEstado, lerEventos,
+  gravarEstado, gravarEventos, gravarFalas, gravarNoticias, lerEstado, lerEventos,
 } from './store';
 
 export interface Deps {
@@ -20,6 +21,8 @@ export interface Deps {
   agora: () => Date;
   dataDir: string;
   mandatos: Mandato[];
+  /** Só nos testes: no lugar de config/checagens.json e config/agencias.json. */
+  tabelasDeChecagem?: { checagens: unknown; agencias: unknown };
 }
 
 /** Uma fonte só derruba o workflow depois de tanto tempo fora do ar: falha curta fica no aviso do site, sem e-mail. */
@@ -359,6 +362,17 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
     }
   }
   if (await gravarNoticias(deps.dataDir, noticias, hoje)) escritos++;
+
+  // Tabela conferida à mão: se tiver qualquer problema, o arquivo anterior fica e o site avisa.
+  try {
+    const t = deps.tabelasDeChecagem;
+    const falas = montarFalas(
+      carregarChecagens(t?.checagens), carregarAgencias(t?.agencias), deps.mandatos, hoje);
+    if (await gravarFalas(deps.dataDir, falas)) escritos++;
+    marcar('checagens');
+  } catch (e) {
+    marcar('checagens', String(e));
+  }
 
   if (escritos > 0) estado.ultimaNovidadeEm = agoraIso;
   if (await gravarEstado(deps.dataDir, estado)) escritos++;
