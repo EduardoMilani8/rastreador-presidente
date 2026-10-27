@@ -76,6 +76,15 @@ describe('parsePlanaltoFeed', () => {
     expect(() => parsePlanaltoFeed(xml, COLETA)).toThrow(FeedLayoutError);
   });
 
+  it.each([
+    ['<html><head><title>Últimas Notícias — Planalto</title></head><body></body></html>', 'raiz <html>, título "Últimas Notícias — Planalto"'],
+    ['<feed xmlns="http://www.w3.org/2005/Atom"><title>Notícias</title></feed>', 'raiz <feed>, título "Notícias"'],
+    ['Service Unavailable', 'texto sem elemento XML'],
+    ['', 'resposta vazia'],
+  ])('a mensagem diz o que veio no lugar do feed: %s', (xml, esperado) => {
+    expect(() => parsePlanaltoFeed(xml, COLETA)).toThrow(`Veio: ${esperado}.`);
+  });
+
   it('itens existem mas nenhum é válido: lança FeedLayoutError', () => {
     const rdf = `<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
       <item><title>Só http</title><link>http://inseguro.test/x</link><dc:date>2026-09-08T10:00:00-03:00</dc:date></item>
