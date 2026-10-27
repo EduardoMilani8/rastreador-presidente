@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:3d55a704b7f4",
+    "titulo": "É falso que Lula recuou sobre fim da escala 6x1",
+    "veiculo": "Aos Fatos",
+    "data": "2026-10-27T20:09:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVFdJRTlmQ2NTcEM2QzJfTjNVMTZKMFkzcUtMeHVSVHVyRkhRNHBZcnp0V1JpMXNKcU5CcjZHdzlhRGRJRGVQWTJGNVhTLVRPclVZMllsNzlIcWV4MFFUVnFMNXQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:951776277d89",
     "titulo": "Presidente chinês Xi Jinping parabeniza Lula por reeleição",
     "veiculo": "Agência Brasil",
@@ -168,6 +176,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:ee3eb2c068b5",
+    "titulo": "O que o ‘Exército do Lula’ ensina e projeta para o governo",
+    "veiculo": "Nexo Jornal",
+    "data": "2026-10-27T01:33:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUNmWThBbG5CSXlOd0p4ZFpEZVMtUTI5Q2dPVFFjblBYR09pa3NMaDVUbXhMdTREQVpLUkYxcU9SWm91SjRoZGZDVVFOci1YTU15ckhNYm40b0lnLXdLTHJtLWFKNHFpZFczbVBZLWh5cUgtSGtseExHUkZhTnhvODhUVFZpMm9tU3F5dXNabVpjU09XWEMwRXlJZC15RWJLZ3hHSEJVRVJOTXc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b1858f35c820",
     "titulo": "Lula vira no 2º turno em 211 cidades; saiba em quais a vitória foi por apenas um voto de diferença",
     "veiculo": "G1",
@@ -325,6 +341,14 @@
     "veiculo": "BBC",
     "data": "2026-10-26T21:25:41.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MQWViamdocER1RmFlc2JlRDk5THdBdEF0MUZ1emd2RmJoOEZQUWJMa1NTZ0hxTnNNY0gxZHJmMUdKSlJ6bzg2WFowRzFEMTk3OFE3dy0xY2l3UW4xRklHSzFzQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2b3aa83a6a06",
+    "titulo": "Lula está ciente dos desafios e vai ampliar diálogo com partidos, afirma Edinho",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-10-26T21:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDJxYTJVMHY5SmRYWUlPQXVVdlFVVnJTTEZjSFNYTG13NkMyMGFWa1Zkam9hSTN1RVdRcXczamR1YXpsWFYwRGgzb3ZyTDlSVVlKZ1Q0dkd2MkFCaERPQl9rS3ZIeFdFY0Z1RDJOcC1YSlkxakV1cG42ZXhMLWU3alc3VU9OWE5hQjZ2R0FHdHpDbFVWRUxnbEUzaFo4UdIBpgFBVV95cUxQUGZrZ2h5YUh0eGdfVFVwajB4a1NCZ1Ziamx3ZWFsMFpXR3pFNFZoVVpzcWQtQVBLVlE3a3JzRzMxNlR2VkVCc1lsdnhGcE1mLUx4TjVxdjNDYk5IdXYwdzRNQlAwNk44Z09CZ1dnbExLQUNRUEdFS28tXy1ZYjBScVRkUlJqMDZ6VTBCQWppaFgyMlJxTmtUYy01eVhQUGtvVkR2amFn?oc=5",
     "origem": "google-news"
   },
   {
@@ -549,6 +573,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-26T15:55:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcWxQZ1dLLTdXNnlTMThsRTFWaUo5Z3ZadUYxY2FGMDRhT3FkM1ZVeEctYzhvcnR5TVFFM1VieU43eUZITldlR19Hd2FON3NaR2x6U3F6ZzU5aGxCT3U1MzJWMkZsWHFMRjNtUkVxQk56aUVySUR1LTlMMDU0eWpkNG4tdTFDS0tpSE43V2hPemFjMndjbjkwa1dlRkM5SmZUVEpQOWVXbVlGX0UteUdiSFdXVkZMT0Z0OEp6UDJRTDdTUEJEVWVZWVRRZW1BZUtSOFpqb1VTX1JlTnZWbFhsMVVpdFRJTGJZZ0wzbXk1TEY1RUc5LWI2UlZoMWZiUFZmcVg5MtIBkwJBVV95cUxQY2VzS2hmRHhlNGgtV3cwOElxZy1PX3RuQ2tiNGlCbmdET2Jnd3doZmQtVndpd3dsSXZ3LXB4UDltX1plWFc1ZVVmRzdZU3VyVUxBTDJXY0J1VVpuakJocGptRXo3Zkc4TnBhN0liTVhHV3RmYkQtSEs4N3BhXzhTSmk3NmhFY1gzcld1QlVJU0dFX0NTaFpES1UySmduVi10UUxrc1h2ZVJWRWlZWWczNkJkQzF6ZXdIOXpSZ0hRSEZDUFJfVTE4X0otNEhXNUFhUXJ6T0ZuRG9zSHdqQ3loejBwaHBwQjh0M1NPMTFJbC1BajlLbmtvOEJLZkZ4blptTThaTmQ5NGtoUHN0eUNyNFVhSQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9c6893f7be45",
+    "titulo": "ABC e SBPC saúdam o povo brasileiro e parabenizam o presidente Lula por sua reeleição",
+    "veiculo": "ABC - Academia Brasileira de Ciências",
+    "data": "2026-10-26T15:45:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVRFWVUta2t2Q2hOWFUwVnFUY1B5ZVFod2pPcEZsY1VYZGlYOGJ3TENpdTNQMmtCYVBBWXhNQS1YR2dVMWZsT2lWd0ZXNUZzdDFJdnpoa3Y1c3NDQUJfMUhnWV9Jc1AxUUE3NDJnV1dfSDJ5V3R2eklRalJyU25kWEMtTjJldzlwa0w1Q0IzRXhZZ2dvQ2IxaE9aRmNYTmZPYnNuRlM5cDN0eHFIdkFfRmRMYm1TQ3RSVmduLQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -1301,6 +1333,14 @@
     "veiculo": "Tribunal Regional Eleitoral do Tocantins",
     "data": "2026-10-26T01:38:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRnF6UjZNQnctUmV0V0ZkUnR0ejlkd2F0VFg5UmZndlVQYWFVZnI2STRrd3dLVjFYdHpDVk9UczBCS05hWlIycFZ1RWtveTBoNE8wc0RKTTZIUDRDVjZWWEJvcUNfSmFPZTFSOThWY3VueHFVVXhyaVdmVGJ2XzdCdTNMeU9FZFljLVZ0S0EyOGhIWGVMSmItQURPU3hPdVA1TGRoNlQyZ2o4amxoMzJ3cnRiTHJKSE9tYlJHNHlNYkpIelVE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:577b0bf32197",
+    "titulo": "Apoiadores comemoram no Recife reeleição do presidente Lula",
+    "veiculo": "G1",
+    "data": "2026-10-26T01:37:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaGVKeWR1ZWlVSFk3cmNSSVlmWjhNMGxhUkFXNkludzhGTW45aE5qRWZCQ0pYVXhlQklIYlpGQ0prSkFCbG5na2w4VUhUSkpsbFVlRENwMzF5WUVrQmFhRHZkdVcyOEF2NEhFZTFwaDdPN010cVB2WENYazZvbE5MQ0JrYkd4UEJiYUtORzh3WWV5Ml9VM1RWeWR5UVFFbXlsU3hGNVZfNGlDWU14WU82NmxuaHJXZHhDVnZWWUxQbXY5cFc1WWVhVmNmTzZpQdIB3AFBVV95cUxQVmJrZ1BSYW55U0ljUExlZXpDMkNqWXdrM1phNVZuNEV5d19scHNveUNhSGFFWnR4bE0zRHRyWkxNamtWWWJyc05oZUNaMFQxVnh5MG9LY25YOUk5VVJDS3hzV1VBNzZyV0Z1NUJLajBPWk40V255Z3BNWFJScjg0RGUxaXZNU0UwWHQ2ZWZmZE9vQk9Ha0V3dmx0eWhUVlNuNnBVWm1hdjVSbHc0a1dMemdTNlBFNTc5YlU4dmdTcjVSa21seEo3QW92VEVkWHo3bkRMVTlkcG5yb2ZG?oc=5",
     "origem": "google-news"
   },
   {
