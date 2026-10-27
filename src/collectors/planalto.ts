@@ -40,12 +40,21 @@ function dataDoItem(bruto: unknown): string | null {
   return Number.isNaN(d.getTime()) ? null : dataSaoPaulo(d);
 }
 
+// Diz o que veio no lugar do feed (raiz e, se for página, o título), para o log mostrar se é HTML, Atom ou outra coisa.
+function descreverResposta(doc: Record<string, unknown>, bruto: string): string {
+  const raizes = Object.keys(doc).filter((k) => !k.startsWith('?'));
+  if (raizes.length === 0) return bruto.trim() ? 'texto sem elemento XML' : 'resposta vazia';
+  const titulo = limparEspacos(cheerio.load(bruto)('title').first().text()).slice(0, 80);
+  return `raiz <${raizes.join(', ')}>${titulo ? `, título "${titulo}"` : ''}`;
+}
+
 export function parsePlanaltoFeed(xml: string, coletadoEm: string): Comunicado[] {
   const doc = parser.parse(xml) as Record<string, any>;
   const raiz = doc['rdf:RDF'] !== undefined ? doc['rdf:RDF'] : doc.rss?.channel;
   if (raiz === undefined) {
     throw new FeedLayoutError(
-      'A resposta do Planalto não é um feed RSS/RDF (esperava a raiz "rdf:RDF" ou "rss > channel"); o endereço pode ter retornado uma página de erro ou o formato mudou.',
+      'A resposta do Planalto não é um feed RSS/RDF (esperava a raiz "rdf:RDF" ou "rss > channel"); o endereço pode ter retornado uma página de erro ou o formato mudou.'
+        + ` Veio: ${descreverResposta(doc, xml)}.`,
     );
   }
   const itens = listar(raiz?.item);
