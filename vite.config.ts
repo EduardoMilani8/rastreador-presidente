@@ -51,6 +51,7 @@ export default defineConfig({
         index: resolve('site/index.html'),
         registros: resolve('site/registros.html'),
         noticias: resolve('site/noticias.html'),
+        falas: resolve('site/falas.html'),
         sobre: resolve('site/sobre.html'),
       },
     },

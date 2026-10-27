@@ -57,7 +57,7 @@ describe('site/sobre.html', () => {
   });
 
   it('marca a própria página na navegação e mantém rodapé, título e idioma', () => {
-    // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
+    // A igualdade da navegação entre as cinco páginas é verificada em paginas.test.ts.
     expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
     expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
     expect(document.querySelector('h1')!.textContent).toBe('Como este site funciona');

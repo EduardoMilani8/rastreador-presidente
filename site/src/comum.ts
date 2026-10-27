@@ -9,6 +9,7 @@ const NOME_FONTE: Record<string, string> = {
   planalto: 'Comunicados do Planalto',
   'noticias-google': 'Google Notícias',
   'noticias-agencia-brasil': 'Agência Brasil',
+  checagens: 'Lista de falas checadas',
 };
 
 function haQuanto(iso: string, agora: Date): string | null {
