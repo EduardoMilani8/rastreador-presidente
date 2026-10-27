@@ -34,7 +34,7 @@ describe('aviso da eleição na capa', () => {
     expect(depois.texto).toContain('foi em 25/10/2026');
     for (const a of [antes, dia, depois]) {
       expect(a.linkUrl).toBe('https://resultados.tse.jus.br/');
-      expect(a.texto).toContain('01/01/2027');
+      expect(a.texto).toContain('05/01/2027');
       expect(a.texto).not.toMatch(/venceu/);
     }
   });
@@ -42,7 +42,7 @@ describe('aviso da eleição na capa', () => {
   it('com resultado e fonte https, nomeia o eleito e liga à fonte', () => {
     const a = avisoEleicao('2026-10-26', { eleito: 'Fulano de Tal', fonteUrl: 'https://tse.jus.br/resultado' })!;
     expect(a.texto).toContain('Fulano de Tal venceu o 2º turno, segundo o TSE');
-    expect(a.texto).toContain('01/01/2027');
+    expect(a.texto).toContain('05/01/2027');
     expect(a.linkUrl).toBe('https://tse.jus.br/resultado');
   });
 
@@ -54,9 +54,9 @@ describe('aviso da eleição na capa', () => {
     }
   });
 
-  it('some a partir da posse, em 01/01/2027', () => {
-    expect(avisoEleicao('2026-12-31')).not.toBeNull();
-    expect(avisoEleicao('2027-01-01')).toBeNull();
+  it('some a partir da posse, em 05/01/2027 (EC 111/2021)', () => {
+    expect(avisoEleicao('2027-01-04')).not.toBeNull();
+    expect(avisoEleicao('2027-01-05')).toBeNull();
   });
 
   it('monta o aviso no DOM só com texto e um link https, e esconde depois da posse', () => {
@@ -69,7 +69,7 @@ describe('aviso da eleição na capa', () => {
     expect(link.rel).toContain('noopener');
     expect(el.children).toHaveLength(1);
 
-    montarAvisoEleicao(document, new Date('2027-01-02T15:00:00Z'));
+    montarAvisoEleicao(document, new Date('2027-01-05T15:00:00Z'));
     expect(el.hidden).toBe(true);
     expect(el.textContent).toBe('');
   });
