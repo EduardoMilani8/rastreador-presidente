@@ -56,6 +56,43 @@ requisição por segundo; use intervalos curtos (o job tem 15 minutos). Se algum
 log diz quais dias repetir. O log da coleta normal também mostra quantos itens o feed do Planalto trouxe, a data do mais
 recente e quantos citam o presidente.
 
+## Troca de mandato (1º de janeiro de 2027)
+
+`config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. O mandato atual
+termina em `2026-12-31`. **A partir de 01/01/2027 a coleta falha de propósito**, com a mensagem
+`Nenhum mandato configurado cobre 2027-01-01. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda
+errada em silêncio.
+
+Para trocar, acrescente um item à lista (mantendo o anterior, que continua valendo para o histórico):
+
+```json
+{
+  "presidente": "Nome completo",
+  "nomes": ["Nome usado na imprensa"],
+  "inicio": "2027-01-01",
+  "fim": "2030-12-31",
+  "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-.../agenda-do-presidente-da-republica"
+}
+```
+
+- `agendaBase` é o endereço da agenda **sem** a data no fim; abra a agenda de um dia no site do Planalto e copie o
+  endereço até antes de `/AAAA-MM-DD`. Confira mesmo que o presidente seja o mesmo: o endereço pode mudar.
+- `nomes` é usado para buscar notícias e reconhecer comunicados que citam o presidente.
+- Depois do commit, rode o workflow à mão (**Actions → Run workflow**) e confira se a agenda do dia apareceu.
+- Revise também `site/sobre.html` se o texto citar algo específico do mandato anterior.
+
+## Aviso da eleição na capa
+
+A capa mostra, como primeiro aviso, a data do 2º turno e um link para o TSE (`site/src/eleicao.ts`). Ele aparece sozinho e
+some em 01/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
+declarar o resultado, preencha `RESULTADO` nesse arquivo com o nome e o endereço oficial que o comprova:
+
+```ts
+export const RESULTADO: ResultadoEleicao | null = { eleito: 'Nome', fonteUrl: 'https://...' };
+```
+
+Sem endereço `https` válido, o nome não aparece. Depois, rode `npm test`, faça o commit e confira o site.
+
 ## Falas checadas: acrescentar uma checagem
 
 A página "Falas checadas" mostra o que está em `config/checagens.json`. A lista é conferida à mão: o robô não procura
@@ -101,43 +138,6 @@ não for corrigido em 6 horas, o workflow passa a falhar e chegam os e-mails.
 `nome` e os `prefixos` (o começo dos endereços das matérias de checagem, terminando em `/`), atualize a seção "Falas
 checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`. A Lupa ficou de fora porque não estava na
 lista da IFCN consultada em 27/10/2026; confira de novo antes de incluir.
-
-## Troca de mandato (1º de janeiro de 2027)
-
-`config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. O mandato atual
-termina em `2026-12-31`. **A partir de 01/01/2027 a coleta falha de propósito**, com a mensagem
-`Nenhum mandato configurado cobre 2027-01-01. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda
-errada em silêncio.
-
-Para trocar, acrescente um item à lista (mantendo o anterior, que continua valendo para o histórico):
-
-```json
-{
-  "presidente": "Nome completo",
-  "nomes": ["Nome usado na imprensa"],
-  "inicio": "2027-01-01",
-  "fim": "2030-12-31",
-  "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-.../agenda-do-presidente-da-republica"
-}
-```
-
-- `agendaBase` é o endereço da agenda **sem** a data no fim; abra a agenda de um dia no site do Planalto e copie o
-  endereço até antes de `/AAAA-MM-DD`. Confira mesmo que o presidente seja o mesmo: o endereço pode mudar.
-- `nomes` é usado para buscar notícias e reconhecer comunicados que citam o presidente.
-- Depois do commit, rode o workflow à mão (**Actions → Run workflow**) e confira se a agenda do dia apareceu.
-- Revise também `site/sobre.html` se o texto citar algo específico do mandato anterior.
-
-## Aviso da eleição na capa
-
-A capa mostra, como primeiro aviso, a data do 2º turno e um link para o TSE (`site/src/eleicao.ts`). Ele aparece sozinho e
-some em 01/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
-declarar o resultado, preencha `RESULTADO` nesse arquivo com o nome e o endereço oficial que o comprova:
-
-```ts
-export const RESULTADO: ResultadoEleicao | null = { eleito: 'Nome', fonteUrl: 'https://...' };
-```
-
-Sem endereço `https` válido, o nome não aparece. Depois, rode `npm test`, faça o commit e confira o site.
 
 ## Prévia de link (imagem e texto ao compartilhar)
 
