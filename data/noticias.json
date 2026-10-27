@@ -8,6 +8,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:ef8dff02bd89",
+    "titulo": "A declaração de Trump sobre as eleições brasileiras – e a avaliação no governo Lula",
+    "veiculo": "BBC",
+    "data": "2026-10-26T23:03:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CQVlnejExTlNxSFJhdFl0Ry1mRGh2S1N3cmJieDlwUk9mTGYwSlJVV1NidEFwOEoxamM1RElaRlhUUHRKOVJvQ096N2ozcDc3M2kyOTZlclBJOWVfVE9VOTRCRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ceac1beb625f",
     "titulo": "Flávio muda a rota e agora diz que vai pedir ao TSE cassação da chapa Lula-Alckmin",
     "veiculo": "BBC",
@@ -80,11 +88,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:99c4e1c782df",
+    "titulo": "Após derrota, Flávio diz que vai pedir cassação da chapa de Lula",
+    "veiculo": "G1",
+    "data": "2026-10-26T19:51:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOanUtVjM0bWZ5Ul9LLTZTM2MyN1huMWlFNFRBX09sQ1Q1N1lKVE1lUmlvbVUxU1dnMDhDT2FTTklBQTNmQm9URkZRekJZMzZuSkZ2MEpLLUhsc2Q3T2h1RFk1ZGVlTEYwWEVjN0E3R0JxNW9fSFVJYkl3Y3Z0OGdscVVoci1xRXNNNE52WFhDdFFud9IBoAFBVV95cUxOclZ5bjdidG55b1IwVVJSdkxqcXFvRzNiSVpydnBhcXhwdU5JY0tpNjJ3UDcyY1lKb0plc1FDZ0VrYXVUSHc5OGI1YVBWVVVGZ3lmV19lbU1CNnRBeDAwZXo1QkFFbkJxY3NCOEE4cmdsMnNxOW14dzhiM2o1UW5ITXZWakc1enJvQmVVcTF2NGFNakxZUWVwQkhnYm9vSV9I?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:bd6a42f1d4b1",
     "titulo": "Reeleito, Lula diz que espera governar com a Constituição e o Parlamento",
     "veiculo": "Portal da Câmara dos Deputados",
     "data": "2026-10-26T19:48:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXBOVGkydDFjWHNmZmEyb3VwTjFZY19RQjJmd0F5OTd2WFZ2ckRpRW5FaWRHeDFUQVVJRVZlU2RqTUhDLVoxdUFwNjZlWWMya3hqSGhMa3VhRlRYeGxucDkzN0JPSkFHcFZrMHc3cVd3S0RSVTFGR2VWdl9xd1lIODNzcFExRTdSYzk2S1dpOWtrYkE1MnlHNFd0bkhlNkN2SVczdFhzOUU2b05mOUl0OU9WVUc2emZVN2ZwdFBqcHlMM0RDcllxYXd1MzJma0E2UnVz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:51453545e9dd",
+    "titulo": "Quem estava ao lado de Lula durante discurso da vitória na eleição",
+    "veiculo": "BBC",
+    "data": "2026-10-26T19:40:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BMEhTM3F0NWdqZ1lDTDBMNE9nbktqdmtmTDdveGZocmVIaUQwcW9hYU55RHZJd0RjQXhMNU9Sei1uNVItVTh0TWk2VHp1TGp3LWtfWHlzaWZWVHNHLVYwSzJfVQ?oc=5",
     "origem": "google-news"
   },
   {
