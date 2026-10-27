@@ -5,8 +5,9 @@
       "desde": "2026-10-27T02:30:31.035Z"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-10-27T18:30:22.579Z"
+      "ok": false,
+      "desde": "2026-10-27T18:40:25.585Z",
+      "mensagem": "2026-10-26 (edição extra): Error: JSON \"params\" ausente ou inválido na página do DOU; 2026-10-27 (edição): Error: JSON \"params\" ausente ou inválido na página do DOU"
     },
     "planalto": {
       "ok": false,
