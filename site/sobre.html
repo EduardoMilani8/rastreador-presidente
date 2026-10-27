@@ -61,6 +61,7 @@
         <li><a href="#fontes">Fontes dos dados</a></li>
         <li><a href="#status">Status</a></li>
         <li><a href="#viagens">Viagens</a></li>
+        <li><a href="#falas">Falas checadas</a></li>
         <li><a href="#limites">Limites</a></li>
         <li><a href="#codigo">Código e dados</a></li>
       </ol>
@@ -77,6 +78,7 @@
       <li><strong>Diário Oficial da União</strong>: decretos numerados, leis e medidas provisórias, desde 01/01/2023. Entram também os atos assinados pelo vice-presidente no exercício da Presidência.</li>
       <li><strong>Comunicados do Planalto</strong>: notas do site do Planalto. A maioria é aviso de pauta ("a agenda será às 14h30..."), publicado um ou dois dias antes do compromisso. Cada comunicado aparece com a data em que o texto foi publicado. O histórico existe a partir do início da nossa coleta. Se o feed do Planalto passar mais de 10 dias sem nenhum item novo, tratamos como falha da fonte e o site mostra o aviso de que ela está sem atualizar.</li>
       <li><strong>Notícias</strong> (página separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
+      <li><strong>Falas checadas</strong> (página separada): checagens de falas do presidente publicadas por agências independentes de checagem, com link para cada checagem. É avaliação das agências, não registro oficial, e por isso fica fora da linha do tempo.</li>
     </ul>
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
@@ -104,6 +106,17 @@
       <li>A posição no mapa é a da cidade, não a do endereço do compromisso.</li>
       <li>Dias inteiros no exterior em que a agenda não publica o local, ou só publica locais genéricos, não aparecem.</li>
       <li>Só aparecem viagens que constam na agenda oficial publicada. Viagem sem agenda publicada não aparece.</li>
+    </ul>
+
+    <h2 id="falas">Como as falas checadas são escolhidas</h2>
+    <ul>
+      <li>A página Falas checadas reúne checagens de falas do presidente em entrevistas, podcasts, discursos, debates, entrevistas coletivas e pronunciamentos. As checagens são feitas e publicadas por agências independentes de checagem.</li>
+      <li>Só entram agências verificadas pela IFCN (International Fact-Checking Network), a rede internacional que avalia a metodologia e a transparência dos checadores: Aos Fatos, Estadão Verifica e AFP Checamos.</li>
+      <li>A lista é feita e conferida à mão, e é pública no repositório, em <a href="https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json" rel="noopener noreferrer">config/checagens.json</a>. O link de cada item precisa ser um endereço da própria agência; se algum item tiver problema, a lista nova não é publicada e o site avisa.</li>
+      <li>Só entram checagens em que a agência transcreveu e checou falas do próprio presidente. Checagem de boato ou de frase falsa atribuída ao presidente não entra.</li>
+      <li>O site não faz checagem própria nem dá nota. Os vereditos aparecem com as palavras de cada agência, que usam escalas diferentes. Quem escolhe o que checar são as agências: uma fala sem checagem não é, por isso, verdadeira nem falsa.</li>
+      <li>Se a agência publicar uma correção, ela aparece no item como errata.</li>
+      <li>As checagens não entram nos números da capa nem na página Registros.</li>
     </ul>
 
     <section class="limites">
