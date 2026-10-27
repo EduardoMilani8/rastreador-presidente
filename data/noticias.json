@@ -16,6 +16,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:965f118d52ac",
+    "titulo": "Partido de Flávio, PL reconhece resultado da eleição presidencial",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T23:45:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVZCR2F5cU93aUpVanF5WldpazVldzZEMFNlMGdwbVI5ZWRVVzBPV0o5aVdyOWNLZEtLLW9SazNpdWJXTVVGTG84THd0SFp6dkdvSmJIREZWZjlvR1MwV1RyX1B1X2djUzdmUnpJYjIzQUUwOXpaQTNadklBQTAxRFZPQ3V1cDAxRkdJa2tka01UWTlVX2E4dmRUUExxdmRVUmJ0TVBEaktkXzRTM2d4VUxGOXFQS2dnTFA1REFiWmd1RTB3YjdEUEtGT3NJcVVPSWFzbGJ6RXgtQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:50931a8a7d1a",
     "titulo": "Trump questiona eleição brasileira e Alckmin rebate: “equivocado”",
     "veiculo": "Agência Brasil",
@@ -61,6 +69,14 @@
     "veiculo": "Jornal da USP",
     "data": "2026-10-26T22:15:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjlvY3RtUmhON3ZWWHJDS2JaSVZzTlNYQXNpVl9rVXJEWHVWVzBMdkZaeXM3NllveGZLYzV2a0hpQzkyZHIxNlh5bmV5UVZKbnJPTExuZnFYaFhCQlROQmx4X3RXSlp6T20zVUJ1V1hYN2JoZmRXclZrWmRfa2M4T1Nyc0RiczJGcm95cTVrQjJSWlIyQ2IwYg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:518ffc5a6c32",
+    "titulo": "Lula cresce nos 26 estados e no DF e é reeleito com votação recorde: mais de 64 milhões",
+    "veiculo": "Fundação Perseu Abramo",
+    "data": "2026-10-26T22:13:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUsxV1k1OVlZM0NPNXZIZk9yV2M4aFRGWTFIRm5iUHRsVTNFS050V2pNVTJFQV8zRTdaUmJYSTBTTk1wZk42Q2ZwNXFvZEFnQWhJUW9vMERNMWVYTzBjVmd3VnNrbGpwczNwNDBRM0c0NGI2RmdHWHBWdi16a0g0QWVQbHZWMngzZGFjSXl6OWpONkc5WHdyVi15MkFrWERlT092VXVtUlRrUVRPdjE2Wg?oc=5",
     "origem": "google-news"
   },
   {
@@ -256,6 +272,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:a06d23dbc7dd",
+    "titulo": "Queda na abstenção e avanço em estados explicam vitória de Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-26T16:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcHFrSXpkQWFieHNnbXVDaXZJYW1ETjgyRk8tMXlKTXFNZUxYOFhxLVBmcjhQbEp4YVhIMmlTYnlVOWRKNFNzVXFhUjhiLTU2OUFkcmdQWkRYY1pUQ3oxSGVYTVVYWkU2cE9USy1vRVdmQzZ2UjdNb2RBX2MtT054WmhreVB3Qm5jOFBJY0h5cGV5RVNXRHRVOUs5UDA1RkhobzdVRXFuR3F5OWgwT2MyU0tMcVdMUm1MUFdlU2dpTjFoNEtwaUNnOUZXZTBBTlRyVEc5Qk90VVc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:efd6e2234b3d",
     "titulo": "Partidos que apoiaram Flávio, União Brasil, Republicanos e Podemos reconhecem vitória de Lula nas urnas",
     "veiculo": "O GLOBO",
@@ -293,6 +317,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-26T14:55:34.000Z",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLTNlUFhqMWZNZU9xZ0FhakpvR3JVbXAxRk1QUmFVUUw1QlhuYUtBN3VHY3NaanhFNjFKbWZaRGtlN2JZajBlbEJPbTVfRUFCRlhnZnhKN3hhQzhnaEEtZnlGMnIzWkV5c3M4M3FhSWo0ZXlhWXVqeVg2TldwSVMwUnVJMnB0bGFYcHk0THRCRE5sel94dEpVNm16TjZ5b1RzUkFfNDVFSDAzZUNwSHdaUkRoQ0pYRkZkdEh4bTJZOA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d78904253248",
+    "titulo": "CNC cumprimenta presidente Lula pela reeleição",
+    "veiculo": "Portal do Comércio",
+    "data": "2026-10-26T14:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONXBpZ3RTVkRMRjF6R3ZiWDVKNndUVDFacmlwQUlRTVJsc285ZDI0cGZOVjdTWUZzdDNfU1lSSTgtZHdJRDJGLWplQXhUNUU0T01fSTk2S2tETjNhS18wVmd3bWpNX19kLWc5dmptdkRiUDlWRFhQQnk5R3RIemJRZ2hHdjFESVVYa3l4R2hlZkk3ZURIWEVUQ2ppZnI1WmNEdnc?oc=5",
     "origem": "google-news"
   },
   {
@@ -565,6 +597,14 @@
     "veiculo": "G1",
     "data": "2026-10-26T06:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGlJUWR0cDJiczVtWi1WZjRvZlktTEpURW1wcmNpRi1nb1NvbEI5Ul9lTE1UZHJrX2hHQ0NwNDg0NXo5eDN0ZVFxZTlHUXlMSDh6S3piVy0tVTJJaTJmLTFGNUJHMzlKNHRxenl2aTNFYXZPc3hrckE1SEVFd1ZQUEsxX2U1b3RXbk5fSlJxdWItaXc0TTBmTGd6eURZc3dv0gGvAUFVX3lxTE5oaWZYaTFzZW5aZDBLNWdKbVFjUjlZWktHandBZ2lMNlZibU92ZkQ4bE9qMHNUajVTU0d1MnY4QXdTUDdhXzFaSTF6MzJ1QW8tQlJNMUIxRmFLR3BmdjBZTlFkdnRxMTNMT1hlVElVUHpIMmI0anYyUHJkUzFDX3ZvQmtJelhFd3B0NzlXVTVfNDVZZnJxdkdEa2JjNFVYdTdVeWpoQ0h4cl8yeDg4YWs?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:cfc2f138be02",
+    "titulo": "Recuperação no Sudeste turbinou vitória decisiva de Lula sobre Flávio",
+    "veiculo": "DW.com",
+    "data": "2026-10-26T05:56:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb0xwenRmalo4dWYzUGRwbUVEREJVYU9RN3ZhQTlfYXduTFZMYnVRVEhpZEhWLUQ4amppQ0kyU0xTWDhSNThQdUJqZ2hObTJqS1d5d1ZWU3QxSjBIWU1jZ3Rta3ZLZ2JfZkRCdEJ2cjRoLUxZazNZejA2NjZPUXlNRjlPU3pXNURrRkFhWVFDM3dfbHJ2eTBHUkxMNWdQRkF3VDN2NUUtWElFMkhnZE55VUtYQUtTb2hKU2U3Rk00U1l3cEnSAcMBQVVfeXFMTmJCVjlCTDhzM2V5c3VKY0lRLU4wM05na1NPTEZDcXJZV3VkRFJ6NlZHNkJpNU12TGs0QmJJR1hqVEhIUkVaTjc1Nkhhc3hnS0k1WWlFNENCOFdBTDRuR3pMOTVaSXNtTjR6UzRQQ0F3YzRyakdtNEZld2w0R19zMTNxUHpFa3FLNVNYdEg1ckhOckFvSXE2NmxyU0VlMWJaWFdJSE1UOHJrM1Q2ZDl5RDJMOE8tLUR3QjJmdlNXb2tJT1o4?oc=5",
     "origem": "google-news"
   },
   {
@@ -949,6 +989,14 @@
     "veiculo": "Sul 21",
     "data": "2026-10-26T01:36:56.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR1Y0UW9KbV9GRmFFX2EzYXVuNnRGT2UwdV9ERXlYV3Y4NFRaZTRONkQ2YzVIMjh1cnhBS2NZWklsc2l5ZDNRVUJsdEhYWHlJMGN0N1pVNW9nUGpsZlczV1BGOEEyUmxobUZYTXBhdDlYNEdIR0tMNTNOOEh1YU1BNlVfeVJzZmRPeEpwdzVaM2ZGblRWRkVFTk9jbW9YbWxBdkxXdmFFNlpWb0dXcEtPT29BQjJlMUxnbkFHWENiX2RyNDNBbmhXR1d0R0lqUXFJU2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3b7952ec7b33",
+    "titulo": "Lula promete mudar o jeito de governar, ataca Flávio e diz que venceu intromissão externa",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-26T01:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOVpULUZQT0ZoRnc3dkJub3A5cFlHckFUamY4dDZEeHRxdHc5MW1GazF3NVFkOGpqN2VDT1kxQ0FIVHhQaENCVEZlVmxEWnJ2akxreENRODNNMGktLWY3MTBId2dHSmQ2dEZIS1VMRVpWU183YTFnTzBxaE5wWFI2dTJvaHZ4UjMwMlB5Wko2ajBzRTBBUFVaQnVteEstYUhEWkctM3FoeDVOWGxSSlpMYzdzamtmb1BoY08xcnZEeGg0endrcFJ0Sk9FZEdUNlp6bmRZNQ?oc=5",
     "origem": "google-news"
   },
   {
