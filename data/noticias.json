@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:8c3ef953049b",
+    "titulo": "Romeu Aldigueri celebra vitória do presidente Lula para quarto mandato",
+    "veiculo": "ALECE",
+    "data": "2026-10-27T15:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVFkVG5ZOW13MWRZQzc5a3FGUURxQmdGSHJPUXlRTHFCbHFKeUhKbjZsWXl3LXFGSU5BZmJkVDRpUGthQnBTLWNBLU85X2RGcXlKZndaN240b1lPNDBHakFNM01tOFMtR2EtSHVESHdsZUp5WGJJX1JTZndWZ0htQTI5TFRyX1RZbkZYd2VvRmJsaXkzR1R1VlRaQ0d5ZlgwWWR5TlJkZExrdmU2YTZraldGOU5DMzAxX1NzNWo5ZzNZSTVoQXh5eHotaEQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5ebf6bdce29f",
+    "titulo": "Milei é o único presidente da América do Sul que não parabenizou Lula pela vitória",
+    "veiculo": "G1",
+    "data": "2026-10-27T14:53:17.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdVQtNjJqSnIwZWE3cXFxNlh1V0VwSFRvdGJlVkhXLUF2ZWs1eWRmTC1HVXNtMHVTVDVSN1V6LWRFOGxmalFDWVBub2FocnE0dXV0Unlna0NkR0p0RkxtLUJwS2FsM2VpWUh6amVUdDB5RlllOUY5dUJ1alFERnhVd1BCSEhJcGlhTlgyUms3M0U3c2Q3NWlQSzRPaW9XczRpckgxYjl6bEZibWt1UDlPalB1bGRQcUhqd2x3MWg0akhmRzkxVUdVN9IB1wFBVV95cUxPV1RWdnY5aHBXNmtla2lkS2VtOEQwZWk1NWhVMlc3WkxCODloNWdFZHgxSUwxckVjUjctSUIyRWwwOXJLc290UEQ1Q3lxblF6Qm5HaFQ5LXl6ZFAzTzNoNnlhY20tdE5aTUVXZk0xYTFyMnJuQTdjeUNfb2EzRHpnX2pUb1cyWTZqY2FTdDN6M0VHcVJoMU9iakowNTZtSXpHV01VLXhGb0RlazBuTlcxSzVab2NNb2NvMFFMZFB4UGtxZ2ZJbGZQNE5sc0Zra01SRzZRRm1zNA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:c24086b3d837",
     "titulo": "Em encontro com Lula, Davi defende entendimento em favor do país",
     "veiculo": "Senado",
@@ -261,6 +277,14 @@
     "veiculo": "UOL",
     "data": "2026-10-26T19:48:12.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaFVCaHJ4WUg5aW1KNHBGNWR3TW5QNFRyb0RHcTNEMERTS0lkb0VaSmFLbnM4cl8xRWNzSGs2TjRqSFRIXzNsbFpRbE01UWo1cUdUa1A5OFhDZ25NX0dGTmp1MFA2em9aeS03TUpyd3hCWXhYZWtKaUNlWVFUMFM1MVhiaVBybDh5ckpzU285b3B4aDdxT01kMGpmVWhkTUpJT0FfZTlENldRMFBteUl5aGJFUUhyRXZHMWhQMXd5Z1Z6aUE2WEM5bjFiOVN2eFAwY1Jpam82a00tVzdQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:83de2bea1a29",
+    "titulo": "Após eleição de Lula, Centrão recalcula rota e admite compor com o governo",
+    "veiculo": "G1",
+    "data": "2026-10-26T19:44:14.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZlFtMzhHeUtPUTJWclJaeU1rUE9VM2txbXBfN0lpYjV5SzUwQ1ROMzVyMnhzYksxbXJmUGZ3aDZ3bUI4eTE5T004di1LV1gwSC1RNktxcUFHWXhPN1lncE1KRDNZZEN0cWZLN1BsZXVZNWc5QmN6MWNVUGxsUzU5UzJ3MHRLY3g2N29ac0RqRnVtS2pxYjFJN2hlcTl5MmxwRDJMUENIdm5CYWpQSHZvQkZCWGpoMkNLTnNPZmQtcVA2amxsRUdv0gHWAUFVX3lxTE9NYXRFb0VrVEFycWhuRlNSUVNObHl5TER6cWM2QWZsQUtnR0hYLXV6NE1tdDN2SGw0RjJ6OTg4QmVXOEJOWWRENUpRVGtJMWF5dVhTVEFGeUxKdW55dlJZbV81ZkVSYWpYUVZJdGxaY25la0xDZW56NUE3cWltTVJnWmktbFJOOUZGRXRTZlRiamRCWThGYk9QaTFwUC1iRWRQcjlsMTBNM0pZLV9NeGwycUtnakNfa3FnMjR2WmZlMHFvbHYzd3d2VGVILUtNN0dUV2lqTmc?oc=5",
     "origem": "google-news"
   },
   {
