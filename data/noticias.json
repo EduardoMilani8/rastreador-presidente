@@ -560,6 +560,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:6453e5c4b2b1",
+    "titulo": "Como Janones montou um exército digital na campanha de Lula — e qual espaço pode ter no novo governo",
+    "veiculo": "BBC",
+    "data": "2026-10-26T09:47:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MODFBNFVMZDJ4WlNkWFB0NjZhN194WXZaMVhVS3VvbDRObXVYd0JfRGxvNmNzRE95QzFSVGZsalBJd3RCdXd2OVBMMEdFWGV4UmlIZU5uaDJSQlJ5cDVETGtuUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:7e2b3a2b6079",
     "titulo": "Líder da União Europeia celebra vitória de Lula como triunfo para a democracia; Macron fala em união por 'mundo mais justo'",
     "veiculo": "O GLOBO",
@@ -653,6 +661,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-10-26T07:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbHE1TGF2Nk5qS2FWUThHMEgxaE4xb1FjQUFuLTFtc1ZMRENFV1U0MWtMd0ZRaW5BejhkejRDNHpoRWd3aUwtRm9EdlFFdGpSdC1MYjU3TG9yZ05Zc0Q0R3JrY3N2YThRMG5OLWN3VEVTaXhNZV9ja3JDZ0lRZEFoQ2hzbjFKc0NMRVRxX2FrbzlTMXlCcmpmQng4LVBxNE1HaGRsdng5MXdxUzV2SjdrN1cxNERFQlFTVGR5R3lB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f95ac8066319",
+    "titulo": "Lula terá de convencer o mercado e vai mirar centro da meta fiscal para conter gastos",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOY29lbmFIUzhocUEzN0pyZXVCSk40cFBId0UxR0JxcmNWUGxmTG1yM3hmSXJWOXBTODVQeDdhck1hQkY4ZEw3TENsRTFLM3Q4TF9PRC02eDVDbkVoY2RXY3Z5TzlscENuN1dON0tpT0VaX2VkTC1sSWxxTkhhdnVjWFI0cUlvWGFqYzlwQlVXZ3g4ZlA0M2VoY1Z6ZzNwTm0tQjNOQmQ4R2M1aXlzV1ZkdWQxWm5KM2pFbUJjZHNlMlV4UnV0RWhMaHNHSDM1Z0NsVjJBR0VYUFNua1lO0gHrAUFVX3lxTE5NRjU0Vm05VUhyVDBybV9MdWFuOFhTQlItWHBUOTRselNsN2xRU1dBcGgzbjJvQzl5V3JOQll6VTgtS1lvcUN3bkN6VS14MEVTaVV0dzZkaDM2Qmc2eXVQR3RaUjhkLW5yMVhYdVVBQk5PdTZFWnhXVWpYODZRMEptQ0VaSHFpeXBJU1E3bUVNMUljUEpPYkIwQ1lwZHJBUXNFMHIyaGlsWkRXTlN0V05wNzlVNjdpWm5fMjM1Z2JRblRXQ3VsU3p2ZTNkWUFmX0pPQkhNVXRJQTVxaDVXSHFnSjRndTZaM1Vxd1U?oc=5",
     "origem": "google-news"
   },
   {
@@ -1144,6 +1160,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:769a4b41fc1f",
+    "titulo": "Lula reeleito: Líderes mundiais reagem à 4ª vitória eleitoral do presidente",
+    "veiculo": "CNN Brasil",
+    "data": "2026-10-26T01:21:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHRxcXM0cnBnMDZEMWczbUVkM29mWEdqbGQ3YTJPb3RTbDJVbUE5Sm8zSlNhdWF5UlpFM21LbzRRcnprSklWcjgwSEthdkstdTJwenJ4ZkllcjV0d2V5cXRQUTRjd0NmMGh6S2FfYmsydmVmSWd1RDE0TUwxOV9kaEFmUXVzZ1hrQUxPN2MwUFUtRkY3dUdweXlvWlg1NEp1NVBCQ0xabEFvb055NDlvYUdoMTBHRnhrQVE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:9548f2b91fbf",
     "titulo": "TSE declara Lula matematicamente eleito presidente do Brasil",
     "veiculo": "BBC",
@@ -1173,6 +1197,14 @@
     "veiculo": "G1",
     "data": "2026-10-26T01:00:27.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMDFmdWYtaGJCVk1tN0VQWGNJdHpaUm13aTdudFJ2TUFkVVh2bVJFcUkyX3pob2lOaUFwdzFLODFWQlB1bThKRFExNm1aQTNXV0Zvb01qekV0cURzMWdjQUJOTjZuSzBtTjdPMWsyUjVJaThYYjVhZ3BmWkVqUVhvS2ZEZ000em9icjBNdXM0SHBxVzZoMjdQaVBUV19STUE2VE40ME8yTFfSAbcBQVVfeXFMUGNCdi1mQ2tWQ1hmY1hzbUpGcXMwQXNPdkJYYURzZHhjbkpmeFJMM2FyZ09taC1OOThFX1JmYkxfaF9kZ0NaLU96ZXpSZ0ZpWmZ1WGljWGtTSlR1RDVUaWlnQjQ5SUQtNjZaejVBTGxxeDdZYWJNZ1F3YjlSY2x3MGRjdFhsM1pyZWVJX0FnZHpHTHZJaUF6WWJtbTZXR2hlRnpmSEhaU3B0MW55dnBpYlJVemRFM2dN?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e18657dec156",
+    "titulo": "Reeleito, Lula tem a maior votação a presidente da história do Brasil",
+    "veiculo": "G1",
+    "data": "2026-10-26T01:00:27.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMDFmdWYtaGJCVk1tN0VQWGNJdHpaUm13aTdudFJ2TUFkVVh2bVJFcUkyX3pob2lOaUFwdzFLODFWQlB1bThKRFExNm1aQTNXV0Zvb01qekV0cURzMWdjQUJOTjZuSzBtTjdPMWsyUjVJaThYYjVhZ3BmWkVqUVhvS2ZEZ000em9icjBNdXM0SHBxVzZoMjdQaVBUV19STUE2VE40ME8yTFc?oc=5",
     "origem": "google-news"
   },
   {
