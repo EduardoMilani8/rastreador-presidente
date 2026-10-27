@@ -26,6 +26,9 @@ export interface Deps {
 export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
 
 /** Fontes que, mesmo em falha longa, só aparecem como aviso no site e no log, sem derrubar o workflow (sem e-mail). */
+/** O Planalto publica quase todo dia: feed cujo item mais novo passa disso parou de ser atualizado e conta como falha. */
+export const DIAS_FEED_PARADO = 10;
+
 export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou']);
 
 export interface ResumoAtualizacao {
@@ -317,6 +320,11 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
       maisRecente: comunicados.reduce<string | undefined>((m, c) => (m === undefined || c.data > m ? c.data : m), undefined),
       citamPresidente: comunicados.filter((c) => citaPresidente(`${c.titulo} ${c.resumo}`, mandato)).length,
     };
+    const { maisRecente } = feedPlanalto;
+    // Responder 200 com conteúdo velho não é "sem novidade": o endereço pode ter sido abandonado (aconteceu em 2026).
+    if (maisRecente && maisRecente < somarDias(hoje, -DIAS_FEED_PARADO)) {
+      throw new Error(`Feed parado: o item mais recente é de ${maisRecente.split('-').reverse().join('/')}`);
+    }
     marcar('planalto');
   } catch (e) {
     marcar('planalto', String(e));

@@ -32,6 +32,9 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
     janela de coleta — e, como a janela recua enquanto a fonte está em falha, isso pode levar **até 14 dias**.
   - `coleta interrompida depois de 2 falhas de rede seguidas`: a fonte não respondeu; a execução desiste dela para
     não estourar o tempo do job e tenta de novo na próxima.
+  - `Feed parado: o item mais recente é de DD/MM/AAAA` (Comunicados do Planalto): o feed responde, mas não traz nada
+    novo há mais de 10 dias. Em 2026 o Planalto deixou de atualizar `.../noticias/RSS`; confira o link "RSS" no rodapé
+    de uma página do Planalto e ajuste `URL_FEED_PLANALTO` em `src/collectors/planalto.ts`.
   - `HTTP 404` no DOU ou `Redirecionamento inesperado`: o endereço da fonte mudou; é preciso ajustar o coletor.
 - **Não há mandato configurado para a data de hoje** (ver abaixo). A coleta para por completo até a configuração ser
   atualizada; depois de 24 horas sem mudança nos dados, o site passa a mostrar "Última alteração nos dados: ...".

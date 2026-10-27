@@ -329,6 +329,24 @@ describe('atualizar', () => {
     expect((await atualizar(await novoDeps())).feedPlanalto).toBeUndefined();
   });
 
+  it('feed do Planalto sem item novo há mais de 10 dias conta como falha da fonte (feed parado)', async () => {
+    cfg.comunicados = rdfPlanalto([
+      { slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-27T10:00:00-03:00' },
+    ]);
+    const deps = await novoDeps();
+    const r = await atualizar(deps);
+    const planalto = (await lerEstado(deps.dataDir)).fontes.planalto;
+    expect(planalto.ok).toBe(false);
+    expect(planalto.mensagem).toContain('Feed parado: o item mais recente é de 27/02/2025');
+    expect(r.feedPlanalto?.maisRecente).toBe('2025-02-27');
+
+    cfg.comunicados = rdfPlanalto([
+      { slug: 'recente', titulo: 'Presidente visita obra', data: '2025-02-28T10:00:00-03:00' },
+    ]);
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.planalto.ok).toBe(true);
+  });
+
   it('dia com 404 nunca remove compromissos já gravados', async () => {
     const deps = await novoDeps();
     await atualizar(deps);
