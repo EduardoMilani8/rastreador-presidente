@@ -6,7 +6,7 @@ import { describe, expect, it } from 'vitest';
 
 // form-action 'self' (e não 'none'): o formulário de filtros é um GET para a própria página.
 const CSP_ESPERADA =
-  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'";
+  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'; trusted-types 'none'";
 
 describe('build de produção', () => {
   it('gera as páginas com CSP exata, sem scripts/estilos inline, e copia os dados', () => {

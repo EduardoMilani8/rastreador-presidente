@@ -1,3 +1,4 @@
+import './zod-sem-eval';
 import { avisarFalha } from './avisar-falha';
 import { montarHoje } from './comum';
 import { carregarFalas } from './dados';

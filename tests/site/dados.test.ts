@@ -1,4 +1,7 @@
+import { readFileSync, readdirSync } from 'node:fs';
 import { afterEach, describe, expect, it, vi } from 'vitest';
+import { z } from 'zod';
+import '../../site/src/zod-sem-eval';
 import { carregarDados } from '../../site/src/dados';
 import type { Evento, Noticia, Viagem } from '../../src/shared/schema';
 
@@ -224,5 +227,18 @@ describe('carregarDados: viagens.json opcional', () => {
     const d = await carregarDados({});
     expect(chamadas).not.toContain('data/viagens.json');
     expect(d.viagens).toEqual([]);
+  });
+});
+
+describe('zod no navegador', () => {
+  it('roda sem gerar código (jitless): a CSP proíbe eval e o zod nem tenta', () => {
+    expect(z.config().jitless).toBe(true);
+  });
+
+  it('a configuração é o primeiro import de cada entrada, antes de qualquer esquema ser criado', () => {
+    for (const arquivo of readdirSync('site/src').filter((a) => /^main-.*\.ts$/.test(a))) {
+      const primeiro = readFileSync(`site/src/${arquivo}`, 'utf8').match(/^import [^;]+;/m)?.[0];
+      expect(primeiro, arquivo).toBe("import './zod-sem-eval';");
+    }
   });
 });
