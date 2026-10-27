@@ -23,6 +23,10 @@ describe('EventoSchema', () => {
     const js = { ...base, fontes: [{ ...base.fontes[0], url: 'javascript:alert(1)' }] };
     expect(EventoSchema.safeParse(js).success).toBe(false);
   });
+  it('recusa fonte com usuário na URL (https://www.gov.br@golpe.example/ leva a outro site)', () => {
+    const golpe = { ...base, fontes: [{ ...base.fontes[0], url: 'https://www.gov.br@golpe.example/x' }] };
+    expect(EventoSchema.safeParse(golpe).success).toBe(false);
+  });
   it('recusa evento sem nenhuma fonte', () => {
     expect(EventoSchema.safeParse({ ...base, fontes: [] }).success).toBe(false);
   });

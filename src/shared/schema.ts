@@ -2,7 +2,8 @@ import { z } from 'zod';
 
 const dataIso = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const instante = z.string().datetime({ offset: true });
-const urlHttps = z.string().url().refine((u) => u.startsWith('https://'), 'a URL deve ser https');
+const urlHttps = z.string().url().refine((u) => u.startsWith('https://'), 'a URL deve ser https')
+  .refine((u) => URL.canParse(u) && !new URL(u).username && !new URL(u).password, 'a URL não pode ter usuário ou senha');
 
 export const FonteSchema = z.object({
   nome: z.string().min(1),
