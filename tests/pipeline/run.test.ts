@@ -317,6 +317,18 @@ describe('atualizar', () => {
     expect(r.falhasPersistentes).toEqual([]);
   });
 
+  it('resume o feed do Planalto para o log: itens, data mais recente e quantos citam o presidente', async () => {
+    cfg.comunicados = rdfPlanalto([
+      { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
+      { slug: 'nota-ministerio', titulo: 'Ministério divulga calendário de vacinação', data: '2025-03-08T10:00:00-03:00' },
+    ]);
+    const r = await atualizar(await novoDeps());
+    expect(r.feedPlanalto).toEqual({ itens: 2, maisRecente: '2025-03-10', citamPresidente: 1 });
+
+    cfg.comunicados = '<html>erro</html>';
+    expect((await atualizar(await novoDeps())).feedPlanalto).toBeUndefined();
+  });
+
   it('dia com 404 nunca remove compromissos já gravados', async () => {
     const deps = await novoDeps();
     await atualizar(deps);

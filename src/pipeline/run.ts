@@ -3,7 +3,7 @@ import {
   chaveDoAto, ehRetificacao, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
 } from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
-import { URL_FEED_PLANALTO, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
+import { URL_FEED_PLANALTO, citaPresidente, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
 import { mandatoDoDia, mandatoVigente } from '../config';
 import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
@@ -33,6 +33,8 @@ export interface ResumoAtualizacao {
   falhasPersistentes: string[];
   /** Erros desta execução por fonte (o `status.json` guarda só o da primeira falha). */
   errosDestaExecucao: Record<string, string>;
+  /** Só para o log: separa "o feed parou" de "o feed não trouxe nada do presidente". Ausente se o feed falhou. */
+  feedPlanalto?: { itens: number; maisRecente?: string; citamPresidente: number };
 }
 
 interface Coleta {
@@ -305,10 +307,16 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   marcar('dou', dou.erros.length ? dou.erros.join('; ') : undefined);
 
   let comunicados: Comunicado[] = [];
+  let feedPlanalto: ResumoAtualizacao['feedPlanalto'];
   try {
     const r = await deps.buscar(URL_FEED_PLANALTO, ACCEPT_XML);
     if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
     comunicados = parsePlanaltoFeed(r.corpo, agoraIso);
+    feedPlanalto = {
+      itens: comunicados.length,
+      maisRecente: comunicados.reduce<string | undefined>((m, c) => (m === undefined || c.data > m ? c.data : m), undefined),
+      citamPresidente: comunicados.filter((c) => citaPresidente(`${c.titulo} ${c.resumo}`, mandato)).length,
+    };
     marcar('planalto');
   } catch (e) {
     marcar('planalto', String(e));
@@ -351,7 +359,7 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
     .filter(([nome, s]) => !s.ok && !FONTES_QUE_SO_AVISAM.has(nome)
       && agora.getTime() - Date.parse(s.desde) >= LIMITE_FALHA_PERSISTENTE_MS)
     .map(([nome]) => nome);
-  return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao };
+  return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao, feedPlanalto };
 }
 
 export async function retroagir(
