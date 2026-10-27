@@ -690,6 +690,32 @@
     "tipo": "agenda",
     "data": "2026-10-26",
     "hora": "15:00",
+    "titulo": "Telefonema com a Presidenta do México, Claudia Sheinbaum",
+    "local": "Palácio da Alvorada",
+    "status": "alterado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [
+      {
+        "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+        "hora": "15:00",
+        "local": "Palácio da Alvorada",
+        "registradoEm": "2026-10-27T11:40:19.130Z"
+      }
+    ]
+  },
+  {
+    "id": "agenda:2026-10-26:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "15:30",
     "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
     "local": "Palácio da Alvorada",
     "status": "consta_na_agenda",
@@ -698,7 +724,7 @@
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
-        "coletadoEm": "2026-10-26T17:40:17.669Z"
+        "coletadoEm": "2026-10-27T11:40:19.130Z"
       }
     ],
     "confirmadoPor": [],
@@ -711,13 +737,33 @@
     "hora": "16:00",
     "titulo": "Ministro da Defesa, José Mucio",
     "local": "Palácio da Alvorada",
-    "status": "consta_na_agenda",
+    "status": "removido",
     "fontes": [
       {
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
         "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-27T11:40:19.130Z"
+  },
+  {
+    "id": "agenda:2026-10-26:16:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "16:30",
+    "titulo": "Presidente do Senado Federal e do Congresso Nacional, Senador Davi Alcolumbre, e Presidente da Câmara dos Deputados, Deputado Hugo Motta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-27T11:40:19.130Z"
       }
     ],
     "confirmadoPor": [],
