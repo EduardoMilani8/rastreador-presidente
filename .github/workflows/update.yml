@@ -8,6 +8,14 @@ on:
         description: 'Disparo automático (publica só se os dados mudaram)'
         type: boolean
         default: false
+      backfill_de:
+        description: 'Recoletar agenda e DOU a partir de (AAAA-MM-DD). Vazio = coleta normal'
+        type: string
+        default: ''
+      backfill_ate:
+        description: 'Recoletar até (AAAA-MM-DD)'
+        type: string
+        default: ''
   push:
     branches: [main]
     paths-ignore: ['data/**', 'docs/**']
@@ -25,16 +33,31 @@ jobs:
     outputs:
       mudou: ${{ steps.commit.outputs.mudou }}
     steps:
+      # Execução que esperou na fila partiria do commit do disparo, já velho, e o push daria conflito: usa o mais recente.
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-node@v7
         with: { node-version: 22, cache: npm }
       - run: npm ci
       - name: Coletar fontes
         id: coletar
-        run: npm run update
+        run: |
+          if [ -n "$BACKFILL_DE" ]; then
+            data='^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+            if ! [[ "$BACKFILL_DE" =~ $data && "$BACKFILL_ATE" =~ $data ]]; then
+              echo "Datas inválidas para a recoleta: use AAAA-MM-DD nos dois campos." >&2
+              exit 2
+            fi
+            npm run backfill -- "$BACKFILL_DE" "$BACKFILL_ATE"
+          else
+            npm run update
+          fi
         continue-on-error: true
         env:
           CONTATO_URL: ${{ github.server_url }}/${{ github.repository }}
+          BACKFILL_DE: ${{ inputs.backfill_de }}
+          BACKFILL_ATE: ${{ inputs.backfill_ate }}
       - name: Commitar dados se mudaram
         id: commit
         env:

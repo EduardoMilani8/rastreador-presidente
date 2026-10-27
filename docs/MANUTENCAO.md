@@ -44,6 +44,12 @@ Se os e-mails incomodarem durante uma falha longa, desative o workflow em **Acti
 Disable workflow** e reative depois; na volta, a coleta recua até 14 dias para recuperar o período (para mais do que
 isso, use `npm run backfill`).
 
+Para recoletar agenda e Diário Oficial de um período sem ligar o PC: **Actions → Atualizar dados e publicar → Run
+workflow**, preenchendo "Recoletar a partir de" e "Recoletar até" (AAAA-MM-DD). É o mesmo `npm run backfill`, com uma
+requisição por segundo; use intervalos curtos (o job tem 15 minutos). Se algum dia falhar, a execução fica vermelha e o
+log diz quais dias repetir. O log da coleta normal também mostra quantos itens o feed do Planalto trouxe, a data do mais
+recente e quantos citam o presidente.
+
 ## Troca de mandato (1º de janeiro de 2027)
 
 `config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. O mandato atual

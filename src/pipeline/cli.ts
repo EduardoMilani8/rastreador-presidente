@@ -16,6 +16,10 @@ async function main(): Promise<void> {
   if (comando === 'update') {
     const r = await atualizar(deps);
     console.log(`Atualização concluída: ${r.arquivosEscritos} arquivo(s) alterado(s).`);
+    if (r.feedPlanalto) {
+      const f = r.feedPlanalto;
+      console.log(`Feed do Planalto: ${f.itens} item(ns), mais recente de ${f.maisRecente ?? '-'}; ${f.citamPresidente} citam o presidente.`);
+    }
     for (const [fonte, erro] of Object.entries(r.errosDestaExecucao)) console.error(`Falha em ${fonte}: ${erro}`);
     if (r.falhasPersistentes.length > 0) {
       const horas = LIMITE_FALHA_PERSISTENTE_MS / 3_600_000;
@@ -27,7 +31,10 @@ async function main(): Promise<void> {
     const ate = b ?? dataSaoPaulo(new Date());
     console.log(`Carga histórica de ${de} até ${ate} (1 requisição por segundo; pode demorar).`);
     const falhas = await retroagir(deps, de, ate, (d) => console.log(`  gravado até ${d}`));
-    if (falhas.length > 0) console.error(`Dias com falha (rode de novo para eles): ${falhas.join(', ')}`);
+    if (falhas.length > 0) {
+      console.error(`Dias com falha (rode de novo para eles): ${falhas.join(', ')}`);
+      process.exit(1);
+    }
   } else {
     console.error('Uso: cli.ts update | backfill [AAAA-MM-DD de] [AAAA-MM-DD até]');
     process.exit(2);
