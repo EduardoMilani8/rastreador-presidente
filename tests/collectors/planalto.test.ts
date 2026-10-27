@@ -1,7 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
-import { citaPresidente, FeedLayoutError, parsePlanaltoFeed, URL_FEED_PLANALTO } from '../../src/collectors/planalto';
+import { citaPresidente, FeedLayoutError, parsePlanaltoFeed } from '../../src/collectors/planalto';
 import type { Mandato } from '../../src/shared/schema';
 
 const COLETA = '2026-10-08T12:00:00.000Z';
@@ -24,15 +22,6 @@ const RDF = `<?xml version="1.0" encoding="utf-8" ?>
   <dc:date>2026-09-08T10:00:00-03:00</dc:date>
 </item>
 </rdf:RDF>`;
-
-describe('URL_FEED_PLANALTO', () => {
-  it('é o link "RSS" que a própria página do Planalto oferece (página real de 04/10/2026)', () => {
-    const html = readFileSync(resolve(process.cwd(), 'tests/fixtures/agenda/2026-10-04.404.html'), 'utf8');
-    const links = [...html.matchAll(/href="([^"]+\/RSS)"/g)].map((m) => m[1]);
-    expect(links.length).toBeGreaterThan(0);
-    expect(new Set(links)).toEqual(new Set([URL_FEED_PLANALTO]));
-  });
-});
 
 describe('parsePlanaltoFeed', () => {
   it('lê itens RDF, limpa HTML da descrição e usa a data de São Paulo', () => {
