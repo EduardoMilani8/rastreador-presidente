@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:c24086b3d837",
+    "titulo": "Em encontro com Lula, Davi defende entendimento em favor do país",
+    "veiculo": "Senado",
+    "data": "2026-10-27T13:47:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGJNdFNkZ0ZQazZCcHFtMEc2c0FHYUNyMERXSTBHSGE5c3RsZmxsVkZjeU9seEllaXc4TXo5WUJzNGtEWjVPbEpWdUk5U01neERfZTlPUWVnYnlVcTFJd2NCRHl3d2JoVnhZM1RwVzdpR3R5SU5OVDBuLUUxMVR5aXQxOHZFdU5aYWVTdU93SlhmZTdsM3RKLVdKT1JKb3JYclg1SjMybzRLMTBrSVFoYWpHazljZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d7ceff16ac03",
     "titulo": "Lula faz 81 anos nesta terça; presidente tem duas datas de aniversário",
     "veiculo": "Congresso em Foco",
@@ -37,6 +45,14 @@
     "veiculo": "G1",
     "data": "2026-10-27T01:17:46.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOT0F3d1RaQlVUTXVUQW5SNmFzUGJkNUpqSGk2bHhUYmhfZldURjNKeDJmemlEc1hOX2VFdnhWeDlQTU5KTG10Y2VjbW5UdGhpRlN2UjBDeGhmdU1HNEp0YmY3cTZQa0FCSHlqQldMcUV0cVczOV9icjUtU2xwbmk0OFQ2VjlqSVc1U3dEMnpFMnFZVGtRandNVUt1Zjg2QXpZQzlXUXdsLURVakIxeVpndWo3QjhjanN4VUhHY0lUUTUxbW1FRnVVZnN3QkR6dG5BODF4RndUWElpa3V0Nm9BTlJZODVwdnc1dFRJQjR3UGzSAf8BQVVfeXFMUER2UzFxU2JFOGQySDEzYzRlY0FDN29Gem1iNXEyNkxnd2EyRDRsa3JZdWc1d1p4aGZ1V1JpdHhjUUE4M3oxeUZOdml0Rkc5dV9pYmw4WWFIT2tCUHJvZkd0dlBNalpqa09kQnVCbnJOb3d1TW53ejJ6M3NHdlZNVDFRTTJDWFRGM0paT281OGpHTHpXUkFia3VoYU9PZWdQZDVkRV9leXZwTHp4b1hwSEpKbkcyLVhpUEVBdjZzanhTZTgzSzgtZklGVG9qV2E2SDZBVjJlbElZaDJpNE1PYm82bzhiMWZaLVNmM2dJNWdWY1lTMHd5dms5V0kwUUU4?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:28edbcd156ef",
+    "titulo": "Vitória de Lula trava planos de Trump na América Latina e projeta Brasil no cenário global, avalia pesquisador",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-27T00:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOUExOFdVZHpNYllsX0tlU1RNUWNBemp6S01jU0VjVG5GR09zWnl6alFHb0w5LW9qZllTMXZCX3duSEZFczE2Vm8yanFMRko1Z05jZFRqQmlBc3BxMmx5QmprcDhxbEU4UWg5VmlMek9KUkkwZ2hKYzc5ZjR6S1dkb19KdTNXOTZiRVlIaXVEdndOSnN3ZGpObV9UU293V0RHZzVCV2VRZlRSUGVpY1Q4ZjY0d2R1dEp6Wl80RDhXbTJJQmtkT0NaRkg4clEwV0I2WnJzRXBiR3dMTHVYMklfZlRWdUNoTmFZ?oc=5",
     "origem": "google-news"
   },
   {
@@ -160,6 +176,14 @@
     "origem": "agencia-brasil"
   },
   {
+    "id": "google-news:6001f4138833",
+    "titulo": "Virada de Lula aponta caminho para a esquerda voltar a vencer, diz pesquisador americano",
+    "veiculo": "BBC",
+    "data": "2026-10-26T21:27:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tZ3FwLUJORDYxR2N5djgxZERKVWxCRGZKalRNVDhCelFMVVZVSFg1eFlzT1dTOVpPbnhXN2lLZWxacGg5cElCc20tWHpzSVY0RG5uU3VqU3M2WFRMVDB5TTYwdw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:432ebb0dcf19",
     "titulo": "Os desafios da economia que Lula terá que enfrentar em 4º mandato (e o que ele propõe)",
     "veiculo": "BBC",
@@ -213,6 +237,14 @@
     "veiculo": "Portal da Câmara dos Deputados",
     "data": "2026-10-26T19:48:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXBOVGkydDFjWHNmZmEyb3VwTjFZY19RQjJmd0F5OTd2WFZ2ckRpRW5FaWRHeDFUQVVJRVZlU2RqTUhDLVoxdUFwNjZlWWMya3hqSGhMa3VhRlRYeGxucDkzN0JPSkFHcFZrMHc3cVd3S0RSVTFGR2VWdl9xd1lIODNzcFExRTdSYzk2S1dpOWtrYkE1MnlHNFd0bkhlNkN2SVczdFhzOUU2b05mOUl0OU9WVUc2emZVN2ZwdFBqcHlMM0RDcllxYXd1MzJma0E2UnVz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9b8c717a4665",
+    "titulo": "Após vitória de Lula, Richarlison publica imagem de IA com rosto do presidente em tatuagem",
+    "veiculo": "UOL",
+    "data": "2026-10-26T19:48:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaFVCaHJ4WUg5aW1KNHBGNWR3TW5QNFRyb0RHcTNEMERTS0lkb0VaSmFLbnM4cl8xRWNzSGs2TjRqSFRIXzNsbFpRbE01UWo1cUdUa1A5OFhDZ25NX0dGTmp1MFA2em9aeS03TUpyd3hCWXhYZWtKaUNlWVFUMFM1MVhiaVBybDh5ckpzU285b3B4aDdxT01kMGpmVWhkTUpJT0FfZTlENldRMFBteUl5aGJFUUhyRXZHMWhQMXd5Z1Z6aUE2WEM5bjFiOVN2eFAwY1Jpam82a00tVzdQ?oc=5",
     "origem": "google-news"
   },
   {
