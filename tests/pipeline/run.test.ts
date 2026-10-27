@@ -301,6 +301,18 @@ describe('atualizar', () => {
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
   });
 
+  it('Planalto com feed parado há mais de 6 horas também só avisa (não vira falha persistente)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    cfg.comunicados = rdfPlanalto([{ slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-01T10:00:00-03:00' }]);
+    await atualizar(deps);
+    t += 7 * 3_600_000;
+    const r = await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.planalto.ok).toBe(false);
+    expect(r.falhasPersistentes).toEqual([]);
+  });
+
   it('DOU fora do ar há mais de 6 horas: o status registra a falha, mas ele não vira falha persistente (só avisa)', async () => {
     const deps = await novoDeps();
     let t = Date.parse('2025-03-10T15:00:00Z');
@@ -339,6 +351,7 @@ describe('atualizar', () => {
     expect(planalto.ok).toBe(false);
     expect(planalto.mensagem).toContain('Feed parado: o item mais recente é de 27/02/2025');
     expect(r.feedPlanalto?.maisRecente).toBe('2025-02-27');
+    expect(r.falhasPersistentes).toEqual([]);
 
     cfg.comunicados = rdfPlanalto([
       { slug: 'recente', titulo: 'Presidente visita obra', data: '2025-02-28T10:00:00-03:00' },

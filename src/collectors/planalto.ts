@@ -3,9 +3,9 @@ import { XMLParser } from 'fast-xml-parser';
 import type { Mandato } from '../shared/schema';
 import { dataSaoPaulo, limparEspacos, normalizar, urlHttpsSegura } from '../shared/text';
 
-// É o link "RSS" que as próprias páginas do Planalto oferecem (ver tests/fixtures/agenda). O antigo
-// ".../noticias/RSS" seguiu respondendo, mas parou em 27/09/2026.
-export const URL_FEED_PLANALTO = 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/ultimas-noticias/RSS';
+// Parou de receber itens em 27/09/2026 (a regra de feed parado acusa). O link "RSS" das páginas do Planalto,
+// ".../ultimas-noticias/RSS", devolve uma página HTML, não um feed (testado em 27/10/2026).
+export const URL_FEED_PLANALTO = 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS';
 
 export interface Comunicado {
   id: string;

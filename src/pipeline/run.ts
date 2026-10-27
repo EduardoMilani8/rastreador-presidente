@@ -29,7 +29,7 @@ export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
 /** O Planalto publica quase todo dia: feed cujo item mais novo passa disso parou de ser atualizado e conta como falha. */
 export const DIAS_FEED_PARADO = 10;
 
-export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou']);
+export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou', 'planalto']);
 
 export interface ResumoAtualizacao {
   arquivosEscritos: number;
