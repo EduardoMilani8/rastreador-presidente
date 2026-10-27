@@ -147,3 +147,11 @@ nas quatro páginas de `site/` e em `tests/site/paginas.test.ts`.
 
 A imagem é `site/public/capa-social.png` (1200 × 630). Para refazê-la depois de mudar fontes ou cores:
 `python3 scripts/gerar-capa-social.py` (precisa do Pillow).
+
+## Atualizar as GitHub Actions
+
+Os workflows usam cada action fixada pelo SHA do commit, com a versão em comentário
+(`actions/checkout@3d3c42e... # v7.0.1`): uma tag pode ser movida para outro código, um SHA não. Para atualizar, pegue
+o SHA da versão nova (`git ls-remote --tags https://github.com/actions/checkout`), troque o SHA e o comentário juntos e
+rode `npm test` (o teste `tests/workflows.test.ts` recusa action sem SHA, `${{ }}` dentro de comando de shell e
+checkout que guarda o token fora do job que grava os dados).
