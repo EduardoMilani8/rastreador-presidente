@@ -8,7 +8,8 @@ export interface ResultadoEleicao {
 }
 
 export const SEGUNDO_TURNO = '2026-10-25';
-export const POSSE = '2027-01-01';
+/** A EC 111/2021 moveu a posse presidencial de 1º para 5 de janeiro, a partir dos eleitos em 2026. */
+export const POSSE = '2027-01-05';
 const TSE_RESULTADOS = 'https://resultados.tse.jus.br/';
 
 /**

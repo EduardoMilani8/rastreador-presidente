@@ -56,11 +56,12 @@ requisição por segundo; use intervalos curtos (o job tem 15 minutos). Se algum
 log diz quais dias repetir. O log da coleta normal também mostra quantos itens o feed do Planalto trouxe, a data do mais
 recente e quantos citam o presidente.
 
-## Troca de mandato (1º de janeiro de 2027)
+## Troca de mandato (5 de janeiro de 2027)
 
 `config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. O mandato atual
-termina em `2026-12-31`. **A partir de 01/01/2027 a coleta falha de propósito**, com a mensagem
-`Nenhum mandato configurado cobre 2027-01-01. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda
+termina em `2027-01-04`, véspera da posse: pela Emenda Constitucional 111/2021, o presidente eleito em 2026 toma posse
+em 5 de janeiro de 2027 (e não mais em 1º de janeiro). **A partir de 05/01/2027 a coleta falha de propósito**, com a
+mensagem `Nenhum mandato configurado cobre 2027-01-05. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda
 errada em silêncio.
 
 Para trocar, acrescente um item à lista (mantendo o anterior, que continua valendo para o histórico):
@@ -69,8 +70,8 @@ Para trocar, acrescente um item à lista (mantendo o anterior, que continua vale
 {
   "presidente": "Nome completo",
   "nomes": ["Nome usado na imprensa"],
-  "inicio": "2027-01-01",
-  "fim": "2030-12-31",
+  "inicio": "2027-01-05",
+  "fim": "2031-01-04",
   "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-.../agenda-do-presidente-da-republica"
 }
 ```
@@ -84,7 +85,7 @@ Para trocar, acrescente um item à lista (mantendo o anterior, que continua vale
 ## Aviso da eleição na capa
 
 A capa mostra, como primeiro aviso, a data do 2º turno e um link para o TSE (`site/src/eleicao.ts`). Ele aparece sozinho e
-some em 01/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
+some em 05/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
 declarar o resultado, preencha `RESULTADO` nesse arquivo com o nome e o endereço oficial que o comprova:
 
 ```ts
