@@ -635,7 +635,7 @@
     "hora": "01:30",
     "titulo": "Partida para Brasília",
     "local": "Aeroporto de Congonhas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -654,7 +654,7 @@
     "hora": "03:00",
     "titulo": "Chegada a Brasília",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -673,7 +673,7 @@
     "hora": "11:00",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -692,7 +692,7 @@
     "hora": "15:00",
     "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -711,7 +711,7 @@
     "hora": "16:00",
     "titulo": "Ministro da Defesa, José Mucio",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
