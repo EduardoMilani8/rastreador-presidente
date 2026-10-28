@@ -1,6 +1,6 @@
 # Explicação de cada veredito: design
 
-Data: 28/10/2026. Situação: proposta, aguardando aprovação **e autorização do Aos Fatos**. Complementa
+Data: 28/10/2026. Situação: aprovada pelo mantenedor em 28/10/2026; implementação aguarda a **autorização do Aos Fatos**. Complementa
 `2026-10-28-falas-automaticas-design.md`.
 
 ## Propósito
@@ -98,3 +98,13 @@ Arquivo novo `data/explicacoes.json`, separado, para não reescrever as frases j
 2. Coletor `src/collectors/claimreview.ts` (só interpreta o HTML), com testes.
 3. Pipeline: regras de ligação, `data/explicacoes.json`, status, chave por agência, limite de tamanho em `buscarTexto`.
 4. Site, Sobre e `docs/MANUTENCAO.md`.
+
+## Depois de entregue: nova versão pública
+
+Pedido do mantenedor: quando esta parte estiver no ar (com a resposta do Aos Fatos), publicar uma nova versão no
+GitHub para registrar a entrega e atrair colaboradores:
+
+- tag e release (por exemplo `v1.1.0`) com notas em português: falas checadas automáticas, explicação de cada
+  veredito, reforço de segurança e correção da data da posse;
+- capturas de tela da página "Falas checadas" e link para o site no README;
+- marcar issues de entrada (`good first issue`) e apontar o `CONTRIBUTING.md` no texto da release.
