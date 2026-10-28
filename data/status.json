@@ -1,8 +1,9 @@
 {
   "fontes": {
     "agenda": {
-      "ok": true,
-      "desde": "2026-10-27T02:30:31.035Z"
+      "ok": false,
+      "desde": "2026-10-28T02:18:45.543Z",
+      "mensagem": "2026-10-27: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27: TypeError: fetch failed"
     },
     "dou": {
       "ok": true,
@@ -23,7 +24,12 @@
     "checagens": {
       "ok": true,
       "desde": "2026-10-28T01:26:27.217Z"
+    },
+    "frases": {
+      "ok": false,
+      "desde": "2026-10-28T02:18:45.543Z",
+      "mensagem": "agencialupa.org: Error: Falha ao buscar https://factchecktools.googleapis.com/v1alpha1/claims:search?query=Lula&languageCode=pt&pageSize=100&reviewPublisherSiteFilter=agencialupa.org: Error: HTTP 503"
     }
   },
-  "ultimaNovidadeEm": "2026-10-28T01:35:12.667Z"
+  "ultimaNovidadeEm": "2026-10-28T02:18:45.543Z"
 }
