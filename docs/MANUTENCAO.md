@@ -22,8 +22,8 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
 - **Uma fonte está fora do ar há mais de 6 horas.** O log do passo "Coletar fontes" mostra o erro de cada fonte nessa
   execução (`Falha em dou: ...`) e diz quais passaram do limite (`Fontes com falha há mais de 6 horas: agenda, dou...`);
   `data/status.json` guarda o motivo da primeira falha. Falhas mais curtas só aparecem como aviso no site, sem e-mail.
-  **Exceções: o DOU e os Comunicados do Planalto.** O DOU por ser instável e o Planalto porque o feed parou em
-  27/09/2026 sem substituto conhecido: os dois só avisam (site, log e rotina de verificação) e nunca derrubam o
+  **Exceções: o DOU e os Comunicados do Planalto.** O DOU por ser instável e o Planalto por decisão do mantenedor
+  (os e-mails só inundavam a caixa): os dois só avisam (site, log e rotina de verificação) e nunca derrubam o
   workflow; a lista está em `FONTES_QUE_SO_AVISAM`, em `src/pipeline/run.ts`. Por isso, **olhe o aviso do site ou
   `data/status.json` de vez em quando**: se um deles ficar fora por dias, nenhum e-mail vai avisar. Passado o limite, nas outras fontes, enquanto a fonte continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos
   quando ela volta. Os dados já
@@ -33,11 +33,16 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
     janela de coleta — e, como a janela recua enquanto a fonte está em falha, isso pode levar **até 14 dias**.
   - `coleta interrompida depois de 2 falhas de rede seguidas`: a fonte não respondeu; a execução desiste dela para
     não estourar o tempo do job e tenta de novo na próxima.
-  - `Feed parado: o item mais recente é de DD/MM/AAAA` (Comunicados do Planalto): o feed responde, mas não traz nada
-    novo há mais de 10 dias. Em 27/09/2026 o Planalto deixou de atualizar `.../noticias/RSS`, e o link "RSS" do rodapé
-    (`.../ultimas-noticias/RSS`) devolve uma página HTML. Para testar outro endereço sem mexer no código, use
-    **Actions → Testar endereço de feed → Run workflow**; achando um que funcione, ajuste `URL_FEED_PLANALTO` em
-    `src/collectors/planalto.ts`.
+  - Comunicados do Planalto. Desde 28/10/2026 vêm da lista da página de notícias
+    (`URL_PAGINA_PLANALTO` em `src/collectors/planalto.ts`), porque o feed parou em 27/09/2026 e o Planalto não tem
+    outro. Mensagens:
+    - `Lista parada: a notícia mais recente é de DD/MM/AAAA`: a página responde, mas nada novo há mais de 10 dias.
+    - `não tem a lista "ul.listagem-noticias-com-foto"`, `nenhum tem link https...` ou `foi redirecionada para...`:
+      o visual ou o endereço da página mudou (ou ela passou a pedir login). Para corrigir: **Actions → Capturar página
+      para teste → Run workflow** com o endereço da página; o HTML chega numa branch `captura/<execução>`. Troque a
+      fixture `tests/fixtures/planalto/noticias-2026-10-27.html` pelo trecho novo, ajuste o seletor e apague a branch.
+    - Notícias publicadas até 27/09/2026 não entram (`INICIO_PAGINA_PLANALTO`): até ali os comunicados vieram do
+      feed, quase sempre como avisos de pauta, e a notícia do mesmo evento repetiria o registro.
   - `HTTP 404` no DOU ou `Redirecionamento inesperado`: o endereço da fonte mudou; é preciso ajustar o coletor.
 - **Não há mandato configurado para a data de hoje** (ver abaixo). A coleta para por completo até a configuração ser
   atualizada; depois de 24 horas sem mudança nos dados, o site passa a mostrar "Última alteração nos dados: ...".
@@ -53,8 +58,8 @@ isso, use `npm run backfill`).
 Para recoletar agenda e Diário Oficial de um período sem ligar o PC: **Actions → Atualizar dados e publicar → Run
 workflow**, preenchendo "Recoletar a partir de" e "Recoletar até" (AAAA-MM-DD). É o mesmo `npm run backfill`, com uma
 requisição por segundo; use intervalos curtos (o job tem 15 minutos). Se algum dia falhar, a execução fica vermelha e o
-log diz quais dias repetir. O log da coleta normal também mostra quantos itens o feed do Planalto trouxe, a data do mais
-recente e quantos citam o presidente.
+log diz quais dias repetir. O log da coleta normal também mostra quantas notícias a página do Planalto trouxe, a data da
+mais recente e quantas citam o presidente.
 
 ## Troca de mandato (5 de janeiro de 2027)
 

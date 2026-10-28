@@ -1,11 +1,15 @@
 import * as cheerio from 'cheerio';
-import { XMLParser } from 'fast-xml-parser';
 import type { Mandato } from '../shared/schema';
-import { dataSaoPaulo, limparEspacos, normalizar, urlHttpsSegura } from '../shared/text';
+import { limparEspacos, normalizar, urlHttpsSegura } from '../shared/text';
 
-// Parou de receber itens em 27/09/2026 (a regra de feed parado acusa). O link "RSS" das páginas do Planalto,
-// ".../ultimas-noticias/RSS", devolve uma página HTML, não um feed (testado em 27/10/2026).
-export const URL_FEED_PLANALTO = 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS';
+// O feed (.../noticias/RSS, rss.xml e atom.xml) parou em 27/09/2026 e não há outro (testado em 27/10/2026); a lista
+// da própria página de notícias continua atualizada. A primeira página traz 30 notícias, o que cobre semanas.
+export const URL_PAGINA_PLANALTO = 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias';
+const CAMINHO_NOTICIAS = '/planalto/pt-br/acompanhe-o-planalto/noticias';
+
+// O feed trazia sobretudo avisos de pauta; a página traz notícias publicadas depois do fato. Até 27/09/2026 os
+// comunicados gravados vieram do feed: notícias desses dias repetiriam, com outro texto, eventos já registrados.
+export const INICIO_PAGINA_PLANALTO = '2026-09-28';
 
 export interface Comunicado {
   id: string;
@@ -23,53 +27,56 @@ export class FeedLayoutError extends Error {
   }
 }
 
-const parser = new XMLParser({ ignoreAttributes: true, processEntities: true, trimValues: true });
-
-function listar(x: unknown): Record<string, unknown>[] {
-  if (x === undefined || x === null || x === '') return [];
-  return (Array.isArray(x) ? x : [x]) as Record<string, unknown>[];
+function dataDaLista(texto: string): string | null {
+  const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(limparEspacos(texto));
+  if (!m) return null;
+  const iso = `${m[3]}-${m[2]}-${m[1]}`;
+  // 31/02 viraria 03/03 no Date: só vale a data que volta igual.
+  const d = new Date(`${iso}T12:00:00Z`);
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === iso ? iso : null;
 }
 
-function textoSimples(x: unknown): string {
-  return limparEspacos(cheerio.load(`<div>${String(x ?? '')}</div>`)('div').text());
+function ehNoticiaDoPlanalto(url: string): boolean {
+  const u = new URL(url);
+  return u.hostname === 'www.gov.br' && u.pathname.startsWith(`${CAMINHO_NOTICIAS}/`);
 }
 
-function dataDoItem(bruto: unknown): string | null {
-  const s = String(bruto ?? '');
-  const d = new Date(s);
-  return Number.isNaN(d.getTime()) ? null : dataSaoPaulo(d);
-}
-
-// Diz o que veio no lugar do feed (raiz e, se for página, o título), para o log mostrar se é HTML, Atom ou outra coisa.
-function descreverResposta(doc: Record<string, unknown>, bruto: string): string {
-  const raizes = Object.keys(doc).filter((k) => !k.startsWith('?'));
-  if (raizes.length === 0) return bruto.trim() ? 'texto sem elemento XML' : 'resposta vazia';
-  const titulo = limparEspacos(cheerio.load(bruto)('title').first().text()).slice(0, 80);
-  return `raiz <${raizes.join(', ')}>${titulo ? `, título "${titulo}"` : ''}`;
-}
-
-export function parsePlanaltoFeed(xml: string, coletadoEm: string): Comunicado[] {
-  const doc = parser.parse(xml) as Record<string, any>;
-  const raiz = doc['rdf:RDF'] !== undefined ? doc['rdf:RDF'] : doc.rss?.channel;
-  if (raiz === undefined) {
+/** Lê a lista da página de notícias. `urlFinal` é o endereço depois de redirecionamentos. */
+export function parsePlanaltoPagina(html: string, urlFinal: string, coletadoEm: string): Comunicado[] {
+  const final = new URL(urlFinal);
+  if (final.hostname !== 'www.gov.br' || final.pathname.replace(/\/+$/, '') !== CAMINHO_NOTICIAS) {
     throw new FeedLayoutError(
-      'A resposta do Planalto não é um feed RSS/RDF (esperava a raiz "rdf:RDF" ou "rss > channel"); o endereço pode ter retornado uma página de erro ou o formato mudou.'
-        + ` Veio: ${descreverResposta(doc, xml)}.`,
+      `A página de notícias do Planalto foi redirecionada para ${final.hostname}${final.pathname}; o endereço pode ter mudado ou passado a pedir login.`,
     );
   }
-  const itens = listar(raiz?.item);
-  const saida: Comunicado[] = [];
-  for (const it of itens) {
-    const url = urlHttpsSegura(String(it.link ?? ''));
-    const titulo = textoSimples(it.title);
-    const data = dataDoItem(it['dc:date'] ?? it.pubDate);
-    if (!url || !titulo || !data) continue;
-    const slug = new URL(url).pathname.split('/').filter(Boolean).pop() ?? url;
-    saida.push({ id: `planalto:${slug}`, data, titulo, resumo: textoSimples(it.description), url, coletadoEm });
-  }
-  if (itens.length > 0 && saida.length === 0) {
+  const $ = cheerio.load(html);
+  const lista = $('ul.listagem-noticias-com-foto');
+  if (lista.length === 0) {
     throw new FeedLayoutError(
-      `O feed do Planalto trouxe ${itens.length} item(ns), mas nenhum tem link https, título e data válidos; o formato do feed pode ter mudado.`,
+      'A página de notícias do Planalto não tem a lista "ul.listagem-noticias-com-foto"; o layout pode ter mudado.',
+    );
+  }
+  const itens = lista.first().children('li');
+  if (itens.length === 0) {
+    throw new FeedLayoutError('A lista de notícias do Planalto veio vazia; a página sempre traz as notícias mais recentes.');
+  }
+  const saida: Comunicado[] = [];
+  itens.each((_, el) => {
+    const li = $(el);
+    const link = li.find('h2.titulo a').first();
+    const url = urlHttpsSegura(link.attr('href') ?? '');
+    const titulo = limparEspacos(link.text());
+    const data = dataDaLista(li.find('span.descricao span.data').first().text());
+    if (!url || !titulo || !data || !ehNoticiaDoPlanalto(url)) return;
+    // O resumo vem depois de "<span class="data">DD/MM/AAAA</span><span> - </span>".
+    const descricao = li.find('span.descricao').first().clone();
+    descricao.children('span').remove();
+    const slug = new URL(url).pathname.split('/').filter(Boolean).pop() ?? url;
+    saida.push({ id: `planalto:${slug}`, data, titulo, resumo: limparEspacos(descricao.text()), url, coletadoEm });
+  });
+  if (saida.length === 0) {
+    throw new FeedLayoutError(
+      `A lista do Planalto trouxe ${itens.length} item(ns), mas nenhum tem link https das notícias, título e data válidos; o layout pode ter mudado.`,
     );
   }
   return saida;

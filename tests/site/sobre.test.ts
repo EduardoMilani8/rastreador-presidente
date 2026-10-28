@@ -145,9 +145,10 @@ describe('site/sobre.html', () => {
     const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
     // (a) o tempo sozinho não confirma
     expect(texto).toMatch(/nunca aparece como "?Realizado"? só porque o tempo passou/);
-    // (b) comunicados do Planalto são avisos de pauta (antes do evento): não confirmam nada, e a ligação está desligada
+    // (b) comunicados: avisos de pauta do feed até 27/09/2026, notícias da página depois; a ligação segue desligada
     expect(texto).toMatch(/Hoje nenhum compromisso recebe este status automaticamente/);
     expect(texto).toMatch(/avisos de pauta .* antes do compromisso/);
+    expect(texto).toMatch(/Desde 28\/09\/2026, quando o feed deixou de ser atualizado, vêm da página de notícias do Planalto/);
     expect(texto).toMatch(/ligação automática com a agenda está desligada/);
     expect(texto).not.toMatch(/depois dos fatos|somente um comunicado oficial|só confirma um compromisso do mesmo dia/);
     // (c) fontes

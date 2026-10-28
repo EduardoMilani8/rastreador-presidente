@@ -1,14 +1,21 @@
 import { mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { URL_AGENCIA_BRASIL } from '../../src/collectors/noticias';
-import { URL_FEED_PLANALTO } from '../../src/collectors/planalto';
+import { URL_PAGINA_PLANALTO } from '../../src/collectors/planalto';
+
+// Os cenários usam datas de 2025; o corte da troca do feed pela página (28/09/2026) tem teste próprio
+// em tests/pipeline/planalto-corte.test.ts.
+vi.mock('../../src/collectors/planalto', async (original) => ({
+  ...(await original<typeof import('../../src/collectors/planalto')>()),
+  INICIO_PAGINA_PLANALTO: '2000-01-01',
+}));
 import { lerEstado, lerEventos, lerNoticias } from '../../src/pipeline/store';
 import { atualizar, retroagir, type Deps } from '../../src/pipeline/run';
 import type { Mandato } from '../../src/shared/schema';
 import {
-  DECRETO_DOU, PAGINA_404, PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090, htmlAgenda, htmlDou, rdfPlanalto, rssGoogle,
+  DECRETO_DOU, PAGINA_404, PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090, htmlAgenda, htmlDou, PAGINA_PLANALTO_NEUTRA, paginaPlanalto, rssGoogle,
   rssVazio,
 } from '../helpers';
 
@@ -39,7 +46,7 @@ const cfg = {
   mensagemFalha: 'rede caiu',
   redirecionaAgenda: null as string | null, // URL final devolvida para as páginas de agenda
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
-  comunicados: rdfPlanalto([]),
+  comunicados: PAGINA_PLANALTO_NEUTRA,
   textoPlanalto: 404,
   corpoPlanalto: '', // HTML devolvido por planalto.gov.br/ccivil_03 quando textoPlanalto = 200
   dou: {} as Record<string, object[]>, // AAAA-MM-DD -> itens da edição ordinária (secao=do1). Ausente => edição vazia.
@@ -82,7 +89,7 @@ async function buscar(url: string) {
     }
     return { status: cfg.statusDou, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
   }
-  if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
+  if (url === URL_PAGINA_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
   if (url === URL_AGENCIA_BRASIL) return { status: 200, corpo: rssVazio(), url };
   if (url.includes('planalto.gov.br/ccivil_03')) return { status: cfg.textoPlanalto, corpo: cfg.corpoPlanalto, url };
@@ -116,7 +123,7 @@ beforeEach(() => {
   cfg.mensagemFalha = 'rede caiu';
   cfg.redirecionaAgenda = null;
   cfg.redirecionaDou = null;
-  cfg.comunicados = rdfPlanalto([]);
+  cfg.comunicados = PAGINA_PLANALTO_NEUTRA;
   cfg.textoPlanalto = 404;
   cfg.corpoPlanalto = '';
   cfg.dou = { [HOJE]: [DECRETO_DOU] };
@@ -258,7 +265,7 @@ describe('atualizar', () => {
   });
 
   it('comunicado do mesmo dia e local NÃO marca o compromisso como realizado (aviso de pauta não prova o fato)', async () => {
-    cfg.comunicados = rdfPlanalto([
+    cfg.comunicados = paginaPlanalto([
       { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
     ]);
     const deps = await novoDeps();
@@ -301,11 +308,11 @@ describe('atualizar', () => {
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
   });
 
-  it('Planalto com feed parado há mais de 6 horas também só avisa (não vira falha persistente)', async () => {
+  it('Planalto com lista parada há mais de 6 horas também só avisa (não vira falha persistente)', async () => {
     const deps = await novoDeps();
     let t = Date.parse('2025-03-10T15:00:00Z');
     deps.agora = () => new Date(t);
-    cfg.comunicados = rdfPlanalto([{ slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-01T10:00:00-03:00' }]);
+    cfg.comunicados = paginaPlanalto([{ slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-01T10:00:00-03:00' }]);
     await atualizar(deps);
     t += 7 * 3_600_000;
     const r = await atualizar(deps);
@@ -329,31 +336,31 @@ describe('atualizar', () => {
     expect(r.falhasPersistentes).toEqual([]);
   });
 
-  it('resume o feed do Planalto para o log: itens, data mais recente e quantos citam o presidente', async () => {
-    cfg.comunicados = rdfPlanalto([
+  it('resume a lista do Planalto para o log: itens, data mais recente e quantos citam o presidente', async () => {
+    cfg.comunicados = paginaPlanalto([
       { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
       { slug: 'nota-ministerio', titulo: 'Ministério divulga calendário de vacinação', data: '2025-03-08T10:00:00-03:00' },
     ]);
     const r = await atualizar(await novoDeps());
-    expect(r.feedPlanalto).toEqual({ itens: 2, maisRecente: '2025-03-10', citamPresidente: 1 });
+    expect(r.paginaPlanalto).toEqual({ itens: 2, maisRecente: '2025-03-10', citamPresidente: 1 });
 
     cfg.comunicados = '<html>erro</html>';
-    expect((await atualizar(await novoDeps())).feedPlanalto).toBeUndefined();
+    expect((await atualizar(await novoDeps())).paginaPlanalto).toBeUndefined();
   });
 
-  it('feed do Planalto sem item novo há mais de 10 dias conta como falha da fonte (feed parado)', async () => {
-    cfg.comunicados = rdfPlanalto([
+  it('lista do Planalto sem notícia nova há mais de 10 dias conta como falha da fonte (lista parada)', async () => {
+    cfg.comunicados = paginaPlanalto([
       { slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-27T10:00:00-03:00' },
     ]);
     const deps = await novoDeps();
     const r = await atualizar(deps);
     const planalto = (await lerEstado(deps.dataDir)).fontes.planalto;
     expect(planalto.ok).toBe(false);
-    expect(planalto.mensagem).toContain('Feed parado: o item mais recente é de 27/02/2025');
-    expect(r.feedPlanalto?.maisRecente).toBe('2025-02-27');
+    expect(planalto.mensagem).toContain('Lista parada: a notícia mais recente é de 27/02/2025');
+    expect(r.paginaPlanalto?.maisRecente).toBe('2025-02-27');
     expect(r.falhasPersistentes).toEqual([]);
 
-    cfg.comunicados = rdfPlanalto([
+    cfg.comunicados = paginaPlanalto([
       { slug: 'recente', titulo: 'Presidente visita obra', data: '2025-02-28T10:00:00-03:00' },
     ]);
     await atualizar(deps);

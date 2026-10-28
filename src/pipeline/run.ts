@@ -3,7 +3,9 @@ import {
   chaveDoAto, ehRetificacao, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
 } from '../collectors/dou';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
-import { URL_FEED_PLANALTO, citaPresidente, parsePlanaltoFeed, type Comunicado } from '../collectors/planalto';
+import {
+  INICIO_PAGINA_PLANALTO, URL_PAGINA_PLANALTO, citaPresidente, parsePlanaltoPagina, type Comunicado,
+} from '../collectors/planalto';
 import { mandatoDoDia, mandatoVigente } from '../config';
 import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
@@ -29,8 +31,8 @@ export interface Deps {
 export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
 
 /** Fontes que, mesmo em falha longa, só aparecem como aviso no site e no log, sem derrubar o workflow (sem e-mail). */
-/** O Planalto publica quase todo dia: feed cujo item mais novo passa disso parou de ser atualizado e conta como falha. */
-export const DIAS_FEED_PARADO = 10;
+/** O Planalto publica quase todo dia: lista cuja notícia mais nova passa disso parou de ser atualizada e conta como falha. */
+export const DIAS_PLANALTO_PARADO = 10;
 
 export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou', 'planalto']);
 
@@ -39,8 +41,8 @@ export interface ResumoAtualizacao {
   falhasPersistentes: string[];
   /** Erros desta execução por fonte (o `status.json` guarda só o da primeira falha). */
   errosDestaExecucao: Record<string, string>;
-  /** Só para o log: separa "o feed parou" de "o feed não trouxe nada do presidente". Ausente se o feed falhou. */
-  feedPlanalto?: { itens: number; maisRecente?: string; citamPresidente: number };
+  /** Só para o log: separa "a lista parou" de "a lista não trouxe nada do presidente". Ausente se a leitura falhou. */
+  paginaPlanalto?: { itens: number; maisRecente?: string; citamPresidente: number };
 }
 
 interface Coleta {
@@ -313,20 +315,21 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
   marcar('dou', dou.erros.length ? dou.erros.join('; ') : undefined);
 
   let comunicados: Comunicado[] = [];
-  let feedPlanalto: ResumoAtualizacao['feedPlanalto'];
+  let paginaPlanalto: ResumoAtualizacao['paginaPlanalto'];
   try {
-    const r = await deps.buscar(URL_FEED_PLANALTO, ACCEPT_XML);
+    const r = await deps.buscar(URL_PAGINA_PLANALTO, ACCEPT_HTML);
     if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
-    comunicados = parsePlanaltoFeed(r.corpo, agoraIso);
-    feedPlanalto = {
-      itens: comunicados.length,
-      maisRecente: comunicados.reduce<string | undefined>((m, c) => (m === undefined || c.data > m ? c.data : m), undefined),
-      citamPresidente: comunicados.filter((c) => citaPresidente(`${c.titulo} ${c.resumo}`, mandato)).length,
+    const lidos = parsePlanaltoPagina(r.corpo, r.url, agoraIso);
+    paginaPlanalto = {
+      itens: lidos.length,
+      maisRecente: lidos.reduce<string | undefined>((m, c) => (m === undefined || c.data > m ? c.data : m), undefined),
+      citamPresidente: lidos.filter((c) => citaPresidente(`${c.titulo} ${c.resumo}`, mandato)).length,
     };
-    const { maisRecente } = feedPlanalto;
-    // Responder 200 com conteúdo velho não é "sem novidade": o endereço pode ter sido abandonado (aconteceu em 2026).
-    if (maisRecente && maisRecente < somarDias(hoje, -DIAS_FEED_PARADO)) {
-      throw new Error(`Feed parado: o item mais recente é de ${maisRecente.split('-').reverse().join('/')}`);
+    comunicados = lidos.filter((c) => c.data >= INICIO_PAGINA_PLANALTO);
+    const { maisRecente } = paginaPlanalto;
+    // Responder 200 com conteúdo velho não é "sem novidade": o feed antigo foi abandonado assim em 2026.
+    if (maisRecente && maisRecente < somarDias(hoje, -DIAS_PLANALTO_PARADO)) {
+      throw new Error(`Lista parada: a notícia mais recente é de ${maisRecente.split('-').reverse().join('/')}`);
     }
     marcar('planalto');
   } catch (e) {
@@ -381,7 +384,7 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
     .filter(([nome, s]) => !s.ok && !FONTES_QUE_SO_AVISAM.has(nome)
       && agora.getTime() - Date.parse(s.desde) >= LIMITE_FALHA_PERSISTENTE_MS)
     .map(([nome]) => nome);
-  return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao, feedPlanalto };
+  return { arquivosEscritos: escritos, falhasPersistentes, errosDestaExecucao, paginaPlanalto };
 }
 
 export async function retroagir(

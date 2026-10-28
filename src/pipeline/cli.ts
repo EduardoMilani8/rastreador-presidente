@@ -16,9 +16,9 @@ async function main(): Promise<void> {
   if (comando === 'update') {
     const r = await atualizar(deps);
     console.log(`Atualização concluída: ${r.arquivosEscritos} arquivo(s) alterado(s).`);
-    if (r.feedPlanalto) {
-      const f = r.feedPlanalto;
-      console.log(`Feed do Planalto: ${f.itens} item(ns), mais recente de ${f.maisRecente ?? '-'}; ${f.citamPresidente} citam o presidente.`);
+    if (r.paginaPlanalto) {
+      const f = r.paginaPlanalto;
+      console.log(`Notícias do Planalto: ${f.itens} item(ns), mais recente de ${f.maisRecente ?? '-'}; ${f.citamPresidente} citam o presidente.`);
     }
     for (const [fonte, erro] of Object.entries(r.errosDestaExecucao)) console.error(`Falha em ${fonte}: ${erro}`);
     if (r.falhasPersistentes.length > 0) {

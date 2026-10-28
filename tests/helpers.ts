@@ -20,10 +20,20 @@ export const DECRETO_DOU = {
   content: 'DECRETO Nº 12.392, DE 7 DE MARÇO DE 2025 Declara de interesse social, para fins de desapropriação, o imóvel rural que especifica. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
-export function rdfPlanalto(itens: { slug: string; titulo: string; data: string }[]): string {
-  const xs = itens.map((i) => `<item><title>${i.titulo}</title><link>https://www.gov.br/planalto/n/${i.slug}</link><description></description><dc:date>${i.data}</dc:date></item>`).join('');
-  return `<?xml version="1.0"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">${xs}</rdf:RDF>`;
+/** Lista da página de notícias do Planalto no formato real (tests/fixtures/planalto). `data` é ISO; vale o dia. */
+export function paginaPlanalto(itens: { slug: string; titulo: string; data: string }[]): string {
+  const lis = itens.map((i) => {
+    const [a, m, d] = i.data.slice(0, 10).split('-');
+    return `<li><div class="conteudo"><h2 class="titulo"><a href="https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/${a}/${m}/${i.slug}">${i.titulo}</a></h2>`
+      + `<span class="descricao"><span class="data">${d}/${m}/${a}</span><span> - </span></span></div></li>`;
+  }).join('');
+  return `<html><body><ul class="noticias listagem-noticias-com-foto">${lis}</ul></body></html>`;
 }
+
+/** A página real nunca vem vazia: uma notícia que não cita o presidente (não vira item). */
+export const PAGINA_PLANALTO_NEUTRA = paginaPlanalto([
+  { slug: 'calendario-vacinacao', titulo: 'Ministério divulga calendário de vacinação', data: '2025-03-10T09:00:00-03:00' },
+]);
 
 export function rssVazio(): string {
   return '<rss version="2.0"><channel></channel></rss>';
