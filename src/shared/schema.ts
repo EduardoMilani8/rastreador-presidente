@@ -142,6 +142,23 @@ export const FalaChecadaSchema = z.object({
   errata: z.object({ data: dataIso, texto: z.string().min(1) }).optional(),
 });
 
+/** Frase do presidente checada por uma agência, vinda da Fact Check API (data/frases-checadas.json). */
+export const FraseChecadaSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+-[0-9a-f]{12}$/),
+  frase: z.string().min(1),
+  data: dataIso,
+  agencia: z.string().min(1),
+  agenciaNome: z.string().min(1),
+  veredito: z.string().min(1),
+  url: urlHttps,
+  titulo: z.string().min(1).optional(),
+  publicadaEm: dataIso,
+  coletadoEm: instante,
+});
+
+/** Item de config/frases-excluidas.json: tira uma frase que a agência marcou errado. */
+export const ExclusaoFraseSchema = z.object({ id: z.string().min(1), motivo: z.string().trim().min(5) }).strict();
+
 export type Fonte = z.infer<typeof FonteSchema>;
 export type Evento = z.infer<typeof EventoSchema>;
 export type Noticia = z.infer<typeof NoticiaSchema>;
@@ -156,3 +173,4 @@ export type TipoFala = z.infer<typeof TipoFalaSchema>;
 export type Agencia = z.infer<typeof AgenciaSchema>;
 export type Checagem = z.infer<typeof ChecagemSchema>;
 export type FalaChecada = z.infer<typeof FalaChecadaSchema>;
+export type FraseChecada = z.infer<typeof FraseChecadaSchema>;
