@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:1fe890382d4b",
+    "titulo": "Sem provas, Flávio Bolsonaro diz que eleições no país foram fraudadas",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-28T23:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNnlMaWRWamFzVWpRbFozLTZfbTNNUmFSTzlZVnlDS2xDY08xT0haNUZYMW9fdGNIaWlIQ1NtWlRjM0VlZzB0LVMzVlVCZmpqSV94Y25Hd1g5VkJMOWdLcW15V1o1bUdHQU5JV3pBbTZEaU0yRGR3UTMxZUR4b0V5TmtIUTdKZ3J0TlVSUEVDSWVGUFV2VVpDVnBDRmROMURubEh1MEJXdGNNcXNMdG9PT0ZndGtpZXg1VDBCQ29TU0NyejBvREY2SmJqUk1wVjJLaExsUVVmQjFvZnp0ekN3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d59830cdfb0a",
     "titulo": "Reeleição de Lula e viagem de Flávio Bolsonaro aos EUA repercutem no Plenário",
     "veiculo": "Portal da Câmara dos Deputados",
@@ -294,6 +302,14 @@
     "data": "2026-10-27T22:50:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-vergonhoso-diz-lula-sobre-fuga-de-flavio-bolsonaro",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:2a24eb662d6d",
+    "titulo": "Nota oficial pelos 81 anos de Lula",
+    "veiculo": "Sinpro-DF",
+    "data": "2026-10-27T22:28:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zT1lBYVkyYVg2WktTeEdlaGt0X0VWWkhIU21uWGFza3R4SnlSYnl6c2cxT2I1a0txZXpWdkQtLUJndWFzbU5PZ0dFSk16Ym03UnJVdmNMLVAxcTJGazF0bWZEazNTVUdjcTBzX1N2NTg?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:15dea6fb10fd",
