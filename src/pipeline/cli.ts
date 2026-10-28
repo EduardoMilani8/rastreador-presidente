@@ -7,10 +7,12 @@ import { atualizar, retroagir, LIMITE_FALHA_PERSISTENTE_MS, type Deps } from './
 async function main(): Promise<void> {
   const [comando, a, b] = process.argv.slice(2);
   const deps: Deps = {
-    buscar: (url, accept) => buscarTexto(url, accept, { pausaMs: 1000, contato: process.env.CONTATO_URL }),
+    buscar: (url, accept, cabecalhos) => buscarTexto(url, accept, { pausaMs: 1000, contato: process.env.CONTATO_URL, cabecalhos }),
     agora: () => new Date(),
     dataDir: join(process.cwd(), 'data'),
     mandatos: await carregarMandatos(),
+    // Fora do Actions, sem a chave, a fonte é pulada; no Actions, segredo faltando é falha avisada.
+    chaveFactcheck: process.env.FACTCHECK_API_KEY || (process.env.GITHUB_ACTIONS ? '' : undefined),
   };
 
   if (comando === 'update') {

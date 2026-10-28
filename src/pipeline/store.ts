@@ -1,8 +1,8 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import {
-  EstadoFontesSchema, EventoSchema, FalaChecadaSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
-  type EstadoFontes, type Evento, type FalaChecada, type Noticia, type Resumo, type Viagem,
+  EstadoFontesSchema, EventoSchema, FalaChecadaSchema, FraseChecadaSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
+  type EstadoFontes, type Evento, type FalaChecada, type FraseChecada, type Noticia, type Resumo, type Viagem,
 } from '../shared/schema';
 import { normalizar, somarDias } from '../shared/text';
 
@@ -127,4 +127,14 @@ export async function gravarViagens(dir: string, viagens: Viagem[]): Promise<boo
 
 export async function gravarFalas(dir: string, falas: FalaChecada[]): Promise<boolean> {
   return gravarSeMudou(join(dir, 'falas.json'), json(FalaChecadaSchema.array().parse(falas)));
+}
+
+/** `null` se o arquivo ainda não existe (aí a coleta faz a carga completa). */
+export async function lerFrases(dir: string): Promise<FraseChecada[] | null> {
+  const bruto = await lerSeExiste(join(dir, 'frases-checadas.json'));
+  return bruto === null ? null : FraseChecadaSchema.array().parse(JSON.parse(bruto));
+}
+
+export async function gravarFrases(dir: string, frases: FraseChecada[]): Promise<boolean> {
+  return gravarSeMudou(join(dir, 'frases-checadas.json'), json(FraseChecadaSchema.array().parse(frases)));
 }
