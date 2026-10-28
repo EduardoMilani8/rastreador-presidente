@@ -108,28 +108,39 @@ function exigirEdicaoDou(finalUrl: string, pedida: string, dia: string): void {
   if (!ok) throw new Error(`Redirecionamento inesperado: a edição de ${dia} respondeu como ${finalUrl}`);
 }
 
-// Uma agência com erro não impede as outras; o erro de cada uma vai para o status, sem a chave.
+// Uma agência com erro não impede as outras; o erro de cada uma vai para o status, sem a chave. A API responde 503 em
+// rajadas curtas (visto em 28/10/2026): quem falhou é tentado mais uma vez no fim da rodada, e só então conta como falha.
 async function coletarFrases(
   deps: Deps, chave: string, nomes: string[], cargaCompleta: boolean,
 ): Promise<{ brutas: ChecagemBruta[]; erros: string[] }> {
   const { paginas, maxDias } = cargaCompleta ? FRASES_CARGA : FRASES_ROTINA;
   const brutas: ChecagemBruta[] = [];
+  const buscarSite = async (site: string, consulta: string) => {
+    let pagina: string | undefined;
+    for (let i = 0; i < paginas; i++) {
+      const r = await deps.buscar(urlBuscaFactcheck({ consulta, site, maxDias, pagina }), ACCEPT_JSON, { 'X-Goog-Api-Key': chave });
+      const lido = parseFactcheck(r.corpo); // corpo de erro da API lança com o motivo
+      if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+      brutas.push(...lido.itens);
+      pagina = lido.proximaPagina;
+      if (!pagina) break;
+    }
+  };
+  const pedidos = [...new Set(carregarAgencias().map(dominioDaAgencia))].flatMap((site) => nomes.map((consulta) => ({ site, consulta })));
+  const falharam: typeof pedidos = [];
+  for (const p of pedidos) {
+    try {
+      await buscarSite(p.site, p.consulta);
+    } catch {
+      falharam.push(p);
+    }
+  }
   const erros: string[] = [];
-  for (const site of [...new Set(carregarAgencias().map(dominioDaAgencia))]) {
-    for (const consulta of nomes) {
-      try {
-        let pagina: string | undefined;
-        for (let i = 0; i < paginas; i++) {
-          const r = await deps.buscar(urlBuscaFactcheck({ consulta, site, maxDias, pagina }), ACCEPT_JSON, { 'X-Goog-Api-Key': chave });
-          const lido = parseFactcheck(r.corpo); // corpo de erro da API lança com o motivo
-          if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
-          brutas.push(...lido.itens);
-          pagina = lido.proximaPagina;
-          if (!pagina) break;
-        }
-      } catch (e) {
-        erros.push(`${site}: ${String(e).replaceAll(chave, '***')}`);
-      }
+  for (const p of falharam) {
+    try {
+      await buscarSite(p.site, p.consulta);
+    } catch (e) {
+      erros.push(`${p.site}: ${String(e).replaceAll(chave, '***')}`);
     }
   }
   return { brutas, erros };

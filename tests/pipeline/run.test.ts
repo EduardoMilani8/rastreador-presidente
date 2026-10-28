@@ -1140,5 +1140,26 @@ describe('frases checadas automáticas (Fact Check API)', () => {
     expect(fc.pedidos.length).toBeGreaterThan(0);
     expect(await lerFrases(deps.dataDir)).toHaveLength(1);
   });
+  it('agência que falha (503 em rajada) é tentada de novo no fim da rodada; se responder, não vira falha', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    let falhasLupa = 1;
+    const deps = await comChave();
+    const original = deps.buscar;
+    deps.buscar = async (url, accept, cabecalhos) => {
+      if (url.includes('agencialupa.org') && falhasLupa-- > 0) throw new Error('HTTP 503');
+      return original(url, accept, cabecalhos);
+    };
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases.ok).toBe(true);
+    expect(fc.pedidos.filter((p) => p.url.includes('agencialupa.org'))).toHaveLength(1); // a 2ª tentativa
+  });
+
+  it('agência que falha também na segunda tentativa continua sendo falha avisada', async () => {
+    fc.falha['agencialupa.org'] = 'HTTP 503';
+    const deps = await comChave();
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringContaining('agencialupa.org') });
+    expect(fc.pedidos.filter((p) => p.url.includes('agencialupa.org'))).toHaveLength(2);
+  });
 });
 
