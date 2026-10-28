@@ -77,6 +77,11 @@ silêncio.
 
 ### Tarefa 4 — Recuperar o período sem coleta (uma vez)
 
+> **Desnecessária (28/10/2026):** a primeira página da lista traz 30 notícias, de 22/09 a 27/10/2026, e cobre o período
+> inteiro. A primeira coleta com o coletor novo recupera tudo. Notícias até 27/09 ficam de fora
+> (`INICIO_PAGINA_PLANALTO`): a página traz notícias publicadas depois do fato, o feed trazia avisos de pauta, e a
+> notícia do mesmo evento repetiria o registro.
+
 - [ ] `retroagirComunicados(deps, ate)`: lê a listagem página por página (`b_start`) até passar da data `ate`, a uma
   requisição por segundo, com teto de páginas (ex.: 10) para não varrer o histórico inteiro.
 - [ ] Expor no workflow: no "Run workflow", um campo "Recuperar comunicados desde (AAAA-MM-DD)", no mesmo molde da

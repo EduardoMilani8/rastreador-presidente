@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { citaPresidente, FeedLayoutError, parsePlanaltoFeed } from '../../src/collectors/planalto';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { citaPresidente, FeedLayoutError, parsePlanaltoPagina, URL_PAGINA_PLANALTO } from '../../src/collectors/planalto';
 import type { Mandato } from '../../src/shared/schema';
 
 const COLETA = '2026-10-08T12:00:00.000Z';
@@ -8,90 +10,79 @@ const MANDATO: Mandato = {
   agendaBase: 'https://www.gov.br/x',
 };
 
-const RDF = `<?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://purl.org/rss/1.0/">
-<channel rdf:about="https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/RSS"><title>Notícias</title></channel>
-<item rdf:about="https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/09/presidente-visita-hospital-em-barretos">
-  <title>Presidente visita o Hospital de Amor, em Barretos (SP)</title>
-  <link>https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/09/presidente-visita-hospital-em-barretos</link>
-  <description>&lt;p&gt;O presidente esteve em &lt;b&gt;Barretos&lt;/b&gt;.&lt;/p&gt;</description>
-  <dc:date>2026-09-08T17:22:00-03:00</dc:date>
-</item>
-<item rdf:about="http://inseguro.test/x">
-  <title>Item com link http</title><link>http://inseguro.test/x</link><description></description>
-  <dc:date>2026-09-08T10:00:00-03:00</dc:date>
-</item>
-</rdf:RDF>`;
+const FIXTURE = readFileSync(resolve(process.cwd(), 'tests/fixtures/planalto/noticias-2026-10-27.html'), 'utf8');
+const URL_LISTA = URL_PAGINA_PLANALTO;
+const li = (titulo: string, href: string, data: string, resumo = 'Resumo') => `<li><div class="conteudo">
+  <h2 class="titulo"><a href="${href}">${titulo}</a></h2>
+  <span class="descricao"><span class="data">${data}</span><span> - </span>${resumo}</span></div></li>`;
+const pagina = (...itens: string[]) => `<html><body><ul class="noticias listagem-noticias-com-foto">${itens.join('')}</ul></body></html>`;
+const NOTICIA = 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/';
 
-describe('parsePlanaltoFeed', () => {
-  it('lê itens RDF, limpa HTML da descrição e usa a data de São Paulo', () => {
-    const r = parsePlanaltoFeed(RDF, COLETA);
-    expect(r).toHaveLength(1); // o item com link http é descartado
+describe('parsePlanaltoPagina (página real de 27/10/2026)', () => {
+  const r = parsePlanaltoPagina(FIXTURE, URL_LISTA, COLETA);
+
+  it('lê os 30 itens da lista, do mais novo (27/10) ao mais antigo (22/09)', () => {
+    expect(r).toHaveLength(30);
+    expect(r[0].data).toBe('2026-10-27');
+    expect(r[29].data).toBe('2026-09-22');
+  });
+
+  it('monta id, título, resumo (sem a data) e link https da notícia', () => {
     expect(r[0]).toEqual({
-      id: 'planalto:presidente-visita-hospital-em-barretos',
-      data: '2026-09-08',
-      titulo: 'Presidente visita o Hospital de Amor, em Barretos (SP)',
-      resumo: 'O presidente esteve em Barretos.',
-      url: 'https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/09/presidente-visita-hospital-em-barretos',
+      id: 'planalto:presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d',
+      data: '2026-10-27',
+      titulo: 'Presidente Lula celebra aniversário no Palácio da Alvorada: “Gratidão ao povo brasileiro”',
+      resumo: 'Durante a comemoração, Lula ressaltou o compromisso com a continuidade das políticas sociais e com o desenvolvimento econômico',
+      url: `${NOTICIA}presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d`,
       coletadoEm: COLETA,
     });
+    for (const c of r) {
+      expect(c.url.startsWith('https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/')).toBe(true);
+      expect(c.resumo).not.toMatch(/^\d{2}\/\d{2}\/\d{4}|Tags:/);
+    }
   });
 
-  it('aceita RSS 2.0 com pubDate', () => {
-    const rss = `<rss version="2.0"><channel><item><title>Presidente recebe ministro</title>
-      <link>https://www.gov.br/planalto/n/presidente-recebe</link><description>x</description>
-      <pubDate>Tue, 08 Sep 2026 23:30:00 -0300</pubDate></item></channel></rss>`;
-    const r = parsePlanaltoFeed(rss, COLETA);
-    expect(r[0].data).toBe('2026-09-08');
-    expect(r[0].id).toBe('planalto:presidente-recebe');
+  it('inclui as notícias de outubro que o feed antigo não trazia', () => {
+    expect(r.map((c) => c.id)).toContain(
+      'planalto:lula-sanciona-lei-que-amplia-beneficios-para-meis-e-envia-ao-congresso-pec-sobre-tarifa-zero-no-transporte-coletivo',
+    );
   });
+});
 
-  it('feed vazio devolve lista vazia', () => {
-    expect(parsePlanaltoFeed('<rdf:RDF xmlns:rdf="x"></rdf:RDF>', COLETA)).toEqual([]);
-  });
-
-  it('RSS 2.0 válido sem itens devolve lista vazia', () => {
-    expect(parsePlanaltoFeed('<rss version="2.0"><channel><title>x</title></channel></rss>', COLETA)).toEqual([]);
+describe('parsePlanaltoPagina (casos de erro)', () => {
+  it('descarta item sem data válida, sem título ou com link fora das notícias do Planalto', () => {
+    const r = parsePlanaltoPagina(pagina(
+      li('Válida', `${NOTICIA}valida`, '26/10/2026'),
+      li('Sem data', `${NOTICIA}sem-data`, ''),
+      li('Data impossível', `${NOTICIA}data-impossivel`, '31/02/2026'),
+      li('', `${NOTICIA}sem-titulo`, '26/10/2026'),
+      li('Link http', 'http://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/x', '26/10/2026'),
+      li('Outro site', 'https://golpe.example/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/x', '26/10/2026'),
+      li('Outra seção', 'https://www.gov.br/planalto/pt-br/agenda/x', '26/10/2026'),
+    ), URL_LISTA, COLETA);
+    expect(r.map((c) => c.titulo)).toEqual(['Válida']);
   });
 
   it.each([
-    ['página HTML de erro', '<html><head><title>503</title></head><body><h1>Serviço indisponível</h1></body></html>'],
+    ['página sem a lista (layout mudou)', '<html><body><h1>Notícias</h1></body></html>'],
+    ['lista vazia', pagina()],
     ['texto puro', 'Service Unavailable'],
-    ['string vazia', ''],
-    ['JSON', '{"erro": "indisponivel"}'],
-    ['raiz sem o prefixo rdf:', '<RDF><item><title>x</title></item></RDF>'],
-    ['RSS sem channel', '<rss version="2.0"></rss>'],
-  ])('%s não é um feed: lança FeedLayoutError (e não "sem novidades")', (_nome, xml) => {
-    expect(() => parsePlanaltoFeed(xml, COLETA)).toThrow(FeedLayoutError);
-  });
-
-  it.each([
-    ['<html><head><title>Últimas Notícias — Planalto</title></head><body></body></html>', 'raiz <html>, título "Últimas Notícias — Planalto"'],
-    ['<feed xmlns="http://www.w3.org/2005/Atom"><title>Notícias</title></feed>', 'raiz <feed>, título "Notícias"'],
-    ['Service Unavailable', 'texto sem elemento XML'],
-    ['', 'resposta vazia'],
-  ])('a mensagem diz o que veio no lugar do feed: %s', (xml, esperado) => {
-    expect(() => parsePlanaltoFeed(xml, COLETA)).toThrow(`Veio: ${esperado}.`);
+  ])('%s: lança FeedLayoutError, nunca "sem novidades"', (_nome, html) => {
+    expect(() => parsePlanaltoPagina(html, URL_LISTA, COLETA)).toThrow(FeedLayoutError);
   });
 
   it('itens existem mas nenhum é válido: lança FeedLayoutError', () => {
-    const rdf = `<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <item><title>Só http</title><link>http://inseguro.test/x</link><dc:date>2026-09-08T10:00:00-03:00</dc:date></item>
-      <item><title>Sem data</title><link>https://www.gov.br/planalto/n/sem-data</link></item>
-      <item><title></title><link>https://www.gov.br/planalto/n/sem-titulo</link><dc:date>2026-09-08T10:00:00-03:00</dc:date></item>
-    </rdf:RDF>`;
-    expect(() => parsePlanaltoFeed(rdf, COLETA)).toThrow(FeedLayoutError);
-    expect(() => parsePlanaltoFeed(rdf, COLETA)).toThrow(/nenhum/i);
+    expect(() => parsePlanaltoPagina(pagina(li('Sem data', `${NOTICIA}x`, '')), URL_LISTA, COLETA)).toThrow(/nenhum/i);
   });
 
-  it('o erro tem o nome FeedLayoutError', () => {
-    try {
-      parsePlanaltoFeed('Service Unavailable', COLETA);
-      expect.unreachable();
-    } catch (e) {
-      expect(e).toBeInstanceOf(Error);
-      expect((e as Error).name).toBe('FeedLayoutError');
-    }
+  it('redirecionada para outro endereço (ex.: login): lança FeedLayoutError com o destino', () => {
+    const login = 'https://www.gov.br/planalto/acl_users/credentials_cookie_auth/require_login?came_from=x';
+    expect(() => parsePlanaltoPagina(FIXTURE, login, COLETA)).toThrow(/redirecion.*require_login/);
+  });
+
+  it('aceita a página 2 da listagem (b_start) e a barra no fim do endereço', () => {
+    expect(parsePlanaltoPagina(FIXTURE, `${URL_LISTA}?b_start:int=30`, COLETA)).toHaveLength(30);
+    expect(parsePlanaltoPagina(FIXTURE, `${URL_LISTA}/`, COLETA)).toHaveLength(30);
   });
 });
 
