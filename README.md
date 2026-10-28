@@ -27,7 +27,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 |---|---|
 | Agenda do Presidente (gov.br/planalto) | Compromissos publicados pelo governo |
 | Diário Oficial da União (in.gov.br) | Decretos numerados, leis e medidas provisórias |
-| Comunicados do Planalto | Avisos de pauta publicados pelo governo |
+| Comunicados do Planalto (página de notícias do gov.br) | Publicações do Planalto que citam o presidente |
 | Google Notícias e Agência Brasil | Títulos e links da imprensa (página Notícias) |
 | Fact Check Tools API (Google) | Frases do presidente checadas pelas agências, com o veredito delas (página Falas checadas) |
 | Aos Fatos, Estadão Verifica, AFP Checamos e Lupa | Checagens de falas do presidente, conferidas à mão (página Falas checadas) |

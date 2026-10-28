@@ -46,7 +46,7 @@ quase nunca vai precisar deles para contribuir: os testes usam trechos salvos da
 ### Como o código está organizado
 
 ```
-src/collectors/   lê cada fonte (agenda, dou, planalto, noticias)
+src/collectors/   lê cada fonte (agenda, dou, planalto, noticias, factcheck)
 src/pipeline/     mescla, calcula status, valida e grava em data/
 src/shared/       esquemas, requisições e datas
 config/           tabelas conferidas à mão: mandatos, locais das viagens, agências e checagens de falas

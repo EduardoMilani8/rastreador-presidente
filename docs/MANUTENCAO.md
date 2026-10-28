@@ -90,8 +90,8 @@ Para trocar, acrescente um item à lista (mantendo os anteriores, que continuam 
 {
   "presidente": "Nome completo",
   "nomes": ["Nome usado na imprensa"],
-  "inicio": "2027-01-05",
-  "fim": "2031-01-04",
+  "inicio": "2031-01-05",
+  "fim": "2035-01-04",
   "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-.../agenda-do-presidente-da-republica"
 }
 ```
@@ -104,15 +104,19 @@ Para trocar, acrescente um item à lista (mantendo os anteriores, que continuam 
 
 ## Aviso da eleição na capa
 
-A capa mostra, como primeiro aviso, a data do 2º turno e um link para o TSE (`site/src/eleicao.ts`). Ele aparece sozinho e
-some em 05/01/2027. O texto vale para qualquer resultado e **não diz quem ganhou**. Para nomear o eleito, depois que o TSE
-declarar o resultado, preencha `RESULTADO` nesse arquivo com o nome e o endereço oficial que o comprova:
+A capa mostra, como primeiro aviso, o resultado do 2º turno de 2026 com o link para o TSE (`site/src/eleicao.ts`). Ele
+some sozinho na posse, em 05/01/2027.
+
+**Situação em 28/10/2026:** `RESULTADO` já está preenchido (Lula reeleito), com o link da notícia do TSE que declara o
+resultado. Antes disso, com `RESULTADO` igual a `null`, o aviso só dava a data do 2º turno e remetia ao TSE, sem dizer
+quem ganhou. Para uma próxima eleição, o mesmo arquivo serve de modelo: o nome só aparece com um endereço `https`
+oficial que o comprove:
 
 ```ts
 export const RESULTADO: ResultadoEleicao | null = { eleito: 'Nome', fonteUrl: 'https://...' };
 ```
 
-Sem endereço `https` válido, o nome não aparece. Depois, rode `npm test`, faça o commit e confira o site.
+Depois de mudar, rode `npm test`, faça o commit e confira o site.
 
 ## Falas checadas: acrescentar uma checagem
 
