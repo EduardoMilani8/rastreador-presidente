@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:595589d537aa",
+    "titulo": "Paim celebra vitória de Lula e homenageia eleitores",
+    "veiculo": "Senado",
+    "data": "2026-10-28T21:29:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaC1DaUlreC1IYldNLTZLMzVTODZsWjlQNmt0RlNvaGZxY3FvSEF6amdPMVlrdHk0ZE5ueHNlSFRtb2NzR0E3ci15NV9UMU1iaHRZSTNZTkZLNlhaUnhtY1E0NFZvUmFJVUdaV1Vfd3BDOUtsSkJSclFlRmlJeWZvU3VJRExnQTR6Y1N5X2NOZWF6TFdocUotUXI2VnlSeTNVLUswT1pRMXNGTWlw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:34a43a2978b7",
     "titulo": "Ronaldo Medeiros condena demissões e boicotes contra eleitores de Lula",
     "veiculo": "Assembleia Legislativa de Alagoas",
@@ -365,6 +373,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-10-27T15:11:02.000Z",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmkwdTJuTkVaS011Y0ZFaFNLY1VTR2Y2WmJ1aGpqRV9WQ25tdHBuMmpmNWtDc3l1SV96Q3N6N1kyV1lSVHhjSWkyRy1xZHJMM2o3SXFPMWFFQTMtLV91S19SckhqWFNsREZVS3F4Y3VFLUdvX0ptSVVCRG9pTTNBRXhvWlFuTE9EV3lXUzdlTV9iSng3anRUNmF1TE5uZU5maERhUU1XMXFCeExzOXZqMU1fTjBoYVFBSHk0VDFIWHVNYmtRV0xVUml3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5c65d74f2fa9",
+    "titulo": "Lula avalia troca nos comandos de militares, e chefe do Exército pode assumir GSI em novo mandato",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-27T15:05:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQS2dDbWdOMDJXTmU2MXF3QllNblRzdGFSQWRTZjZpXzVLQkdCUG14QndDbVc4b1FPbEw0d1Uzd3NSand3NHBrYnJOQnoweGhEUXdrRmU5NDJTRTBCVFNXMTZvRGZoUnJZajA0QjRZZDEyOEp1ZDVfWjJZNzA0dnVlWGxkR1dFWGZwRy1TTGU3Wnhsc3VXVTZpMlRnLTMtYnpEZkJZSWx0NlpraGtJZVVYYjRqdTJxTWJRalJxY3ZjbHdiZkRFSEJKd2lSTDhRT1c5dWptT3NTal9SZ1NabXlzZVhKTmpBWXFpZnBR0gH6AUFVX3lxTE9vbjdiNUxRZWozM0Q1QlJlaEdDODY2SjFkX2NtX0ZrWXJuUURkUV9zUWxKYzZDNDRVZ2otTW12aWFQUGd6c3BPT2RpSXhES3UtVnUzeUYxT3U4OFBMX2FtWnBiYS1ZQmJObVVOTkp2aDZpZjd2dndnYmJIQUkyRW9xcFluNWFkUm1vWW5JdnJsLXUtNHhHMTZFZGtSMlZPUjZDSWdGZFNVRUVOR2N4VURPaGpNbUpPRWk4WWxsc2d6OU5ibERIRnlrMEwtSzAzNnQ0cjVvY2xhQ210TWk5ZWN4S3NmYU9oZ2Z4S2NVR1BzMjNLemM0SU4xN1E?oc=5",
     "origem": "google-news"
   },
   {
@@ -1301,6 +1317,14 @@
     "veiculo": "G1",
     "data": "2026-10-26T09:22:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ2YtamNmZ0MxUDQ0eHNNUlR3M2VsdGJXQ0s3MllCNG44UFZtaGFlaGJTenZwSWhjU0swMFF3TWFnNUNzRHFlNGlTN3ZvNFhDMEI1MGlTYWg0WFllNEE0X3hyeURVNWJuZnpZWE5wSm45akY1WG9odG9TR1FTNEZfWjRrelYzZlRMX3h6WjFsWElwQmZqWEJvT0VGb01mTUFzSUFsYnJTSVN1TU5Ua0owc1djaVBBY2FqR0FRZVVIR0tRdGJMMWQwbTQzQWtZRGlVRkHSAeABQVVfeXFMT013aHR4dkdJOGtXTDVzWTNySVRBNVFWUlBjTU5DNmRZWTVmaEI1WEdhVFB6NmFoWDczX2ZyT3k2X25Jd2dxSmlFSENONmYycEpmay1QZWtjN2hWb3RSOTdjQlZFbDk4QjFkallRSEpnakZIWC1SRFFNeENDaW1qdlVUX0lXVFY4dkh0NGVtZUdSMmVmdUtfWW5KMzFUcW5ZZnZ6dnJtNUtYdDFTZVlBb044dWRYQ1p5UU5WandzSnBaZGd3U0dKREQxYVFKTTVHdnZVQ0c3LWU0YjZialpXY2Q?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8275b4863f49",
+    "titulo": "Quantas pessoas votaram após a prorrogação da eleição?",
+    "veiculo": "G1",
+    "data": "2026-10-26T09:22:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ2YtamNmZ0MxUDQ0eHNNUlR3M2VsdGJXQ0s3MllCNG44UFZtaGFlaGJTenZwSWhjU0swMFF3TWFnNUNzRHFlNGlTN3ZvNFhDMEI1MGlTYWg0WFllNEE0X3hyeURVNWJuZnpZWE5wSm45akY1WG9odG9TR1FTNEZfWjRrelYzZlRMX3h6WjFsWElwQmZqWEJvT0VGb01mTUFzSUFsYnJTSVN1TU5Ua0owc1djaVBBY2FqR0FRZVVIR0tRdGJMMWQwbTQzQWtZRGlVRkE?oc=5",
     "origem": "google-news"
   },
   {
