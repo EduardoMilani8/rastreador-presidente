@@ -61,15 +61,27 @@ requisição por segundo; use intervalos curtos (o job tem 15 minutos). Se algum
 log diz quais dias repetir. O log da coleta normal também mostra quantas notícias a página do Planalto trouxe, a data da
 mais recente e quantas citam o presidente.
 
-## Troca de mandato (5 de janeiro de 2027)
+## Troca de mandato (posse em 5 de janeiro)
 
-`config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. O mandato atual
-termina em `2027-01-04`, véspera da posse: pela Emenda Constitucional 111/2021, o presidente eleito em 2026 toma posse
-em 5 de janeiro de 2027 (e não mais em 1º de janeiro). **A partir de 05/01/2027 a coleta falha de propósito**, com a
-mensagem `Nenhum mandato configurado cobre 2027-01-05. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda
-errada em silêncio.
+`config/mandatos.json` diz qual presidente o site acompanha em cada período e onde fica a agenda dele. Pela Emenda
+Constitucional 111/2021, o presidente eleito em 2026 toma posse em 5 de janeiro de 2027 (e não mais em 1º de janeiro):
+o mandato 2023 termina em `2027-01-04`.
 
-Para trocar, acrescente um item à lista (mantendo o anterior, que continua valendo para o histórico):
+**Já configurado (28/10/2026):** Lula foi reeleito, e o mandato `2027-01-05` a `2031-01-04` foi acrescentado com o
+**mesmo endereço de agenda** de 2023–2026. O Planalto pode trocar esse endereço na posse. Se trocar, a agenda nova responde
+404 no endereço antigo, e 404 é "dia sem agenda": **ninguém é avisado**. Por isso, **em 05/01/2027 (ou no primeiro dia útil
+depois):**
+
+1. Abra a agenda do dia no site do Planalto e compare o endereço com `agendaBase` (tudo antes de `/AAAA-MM-DD`).
+2. Confira na capa do rastreador se os compromissos do dia apareceram. A rotina de verificação também acusa, em dia útil
+   depois das 12h, se não houver agenda de hoje nem de ontem.
+3. Se o endereço mudou, corrija `agendaBase` do mandato 2027 e rode **Actions → Atualizar dados e publicar → Run
+   workflow** com "Recoletar a partir de" `2027-01-05` para recuperar os dias perdidos.
+
+Na posse seguinte (`2031-01-05`) a coleta falha de propósito, com a mensagem `Nenhum mandato configurado cobre
+2031-01-05. Atualize config/mandatos.json...`, em vez de continuar lendo a agenda errada em silêncio.
+
+Para trocar, acrescente um item à lista (mantendo os anteriores, que continuam valendo para o histórico):
 
 ```json
 {
