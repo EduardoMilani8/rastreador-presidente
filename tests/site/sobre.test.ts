@@ -343,6 +343,10 @@ describe('site/sobre.html', () => {
       expect(link.getAttribute('rel')).toBe('noopener noreferrer');
     });
 
+    it('avisa que a proporção de vereditos não mede quanto o presidente acerta ou erra', () => {
+      expect(texto()).toContain('Elas checam mais as frases que parecem duvidosas e nem sempre marcam as corretas, por isso a proporção de vereditos não mede quanto o presidente acerta ou erra.');
+    });
+
     it('explica a parte automática: a marcação das agências, o filtro pelo autor, a cobertura e a exclusão manual', () => {
       const auto = parte('Frases checadas pelas agências (automático)').textContent!.replace(/\s+/g, ' ');
       expect(auto).toContain('ClaimReview');
@@ -352,6 +356,7 @@ describe('site/sobre.html', () => {
       expect(auto).toContain('Em 28/10/2026, só o Aos Fatos marcava falas do presidente dessa forma');
       expect(auto).toContain('a Lupa não aparecia na API');
       expect(auto).toContain('não some se a API deixar de devolvê-la');
+      expect(auto).toContain('o link para a matéria da agência, que explica cada veredito');
       const link = parte('Frases checadas pelas agências (automático)').querySelector('a')!;
       expect(link.textContent).toBe('config/frases-excluidas.json');
       expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json');

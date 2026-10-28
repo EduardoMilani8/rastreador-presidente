@@ -94,7 +94,8 @@ function renderGrupo(doc: Document, g: GrupoFrases): HTMLElement {
     el(doc, 'ul', { class: 'frases' }, ...g.frases.map((f) => el(doc, 'li', {},
       el(doc, 'blockquote', {}, `“${f.frase}”`),
       el(doc, 'p', { class: 'veredito' }, el(doc, 'strong', {}, 'Veredito da agência:'), ` ${formatarVeredito(f.veredito)}`)))),
-    el(doc, 'p', { class: 'fala-link' }, linkOuTexto(doc, g.url, `Ler a checagem completa em ${g.agenciaNome}`)));
+    el(doc, 'p', { class: 'fala-link' }, g.frases.length > 1 ? 'Por que esses vereditos? ' : 'Por que esse veredito? ',
+      linkOuTexto(doc, g.url, `Ler a explicação completa em ${g.agenciaNome}`)));
 }
 
 function montarFrases(doc: Document, frases: FraseChecada[]): void {
