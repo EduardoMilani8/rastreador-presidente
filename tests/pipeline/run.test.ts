@@ -2,6 +2,7 @@ import { mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { URL_FACTCHECK } from '../../src/collectors/factcheck';
 import { URL_AGENCIA_BRASIL } from '../../src/collectors/noticias';
 import { URL_PAGINA_PLANALTO } from '../../src/collectors/planalto';
 
@@ -65,8 +66,16 @@ const MP_EXTRA = {
   content: 'MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
-async function buscar(url: string) {
+async function buscar(url: string, _accept?: string, cabecalhos?: Record<string, string>) {
   cfg.pedidos.push(url);
+  if (url.startsWith(URL_FACTCHECK)) {
+    fc.pedidos.push({ url, cabecalhos });
+    const u = new URL(url);
+    const site = u.searchParams.get('reviewPublisherSiteFilter')!;
+    if (fc.falha[site]) throw new Error(fc.falha[site]);
+    const paginas = fc.respostas[site] ?? ['{"claims":[]}'];
+    return { status: fc.status, corpo: paginas[Number(u.searchParams.get('pageToken') ?? 0)], url };
+  }
   if (url.includes('/agenda-do-presidente-da-republica/')) {
     const dia = url.slice(-10);
     if (cfg.falhaAgenda || cfg.falhaAgendaDias.includes(dia)) throw new Error(cfg.mensagemFalha);
@@ -95,6 +104,14 @@ async function buscar(url: string) {
   if (url.includes('planalto.gov.br/ccivil_03')) return { status: cfg.textoPlanalto, corpo: cfg.corpoPlanalto, url };
   throw new Error(`URL inesperada no teste: ${url}`);
 }
+
+// Fact Check API falsa: respostas por domínio de agência, uma por página (pageToken = índice da página).
+const fc = {
+  respostas: {} as Record<string, string[]>,
+  falha: {} as Record<string, string>,
+  status: 200,
+  pedidos: [] as { url: string; cabecalhos?: Record<string, string> }[],
+};
 
 async function novoDeps(): Promise<Deps> {
   return {
@@ -129,6 +146,10 @@ beforeEach(() => {
   cfg.dou = { [HOJE]: [DECRETO_DOU] };
   cfg.extraDou = [];
   cfg.falhaExtraDou = false;
+  fc.respostas = {};
+  fc.falha = {};
+  fc.status = 200;
+  fc.pedidos = [];
 });
 
 describe('atualizar', () => {
@@ -997,3 +1018,127 @@ describe('falas checadas (data/falas.json)', () => {
     expect(estado.fontes.checagens?.ok, estado.fontes.checagens?.mensagem).toBe(true);
   });
 });
+
+describe('frases checadas automáticas (Fact Check API)', () => {
+  const CHAVE = 'chave-de-teste-XYZ';
+  const claim = (texto: string, autor: string, url: string, data = '2025-03-05') => ({
+    text: texto, claimant: autor, claimDate: `${data}T00:00:00Z`,
+    claimReview: [{ publisher: { name: 'Aos Fatos', site: 'aosfatos.org' }, url, title: 'Checamos a entrevista', reviewDate: `${data}T00:00:00Z`, textualRating: 'não_é_bem_assim', languageCode: 'pt' }],
+  });
+  const pagina = (claims: object[], proxima?: string) => JSON.stringify({ claims, nextPageToken: proxima ?? null });
+  const FALA = claim('Frase dita pelo presidente numa entrevista de rádio', 'Lula', 'https://www.aosfatos.org/noticias/checamos-a/');
+  const BOATO = claim('Lula disse uma coisa que ele nunca disse', 'desinformação', 'https://www.aosfatos.org/noticias/boato/');
+  const lerFrases = async (dir: string) => JSON.parse(await readFile(join(dir, 'frases-checadas.json'), 'utf8'));
+  const comChave = async (chave: string = CHAVE) => ({ ...(await novoDeps()), chaveFactcheck: chave });
+
+  it('sem chave configurada (execução local), não consulta a API nem cria o arquivo nem o status', async () => {
+    const deps = await novoDeps(); // sem chaveFactcheck
+    await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    await expect(readFile(join(deps.dataDir, 'frases-checadas.json'), 'utf8')).rejects.toThrow();
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toBeUndefined();
+  });
+
+  it('chave vazia (segredo faltando no Actions) é falha com instrução', async () => {
+    const deps = await comChave('');
+    await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringMatching(/FACTCHECK_API_KEY/) });
+  });
+
+  it('primeira coleta: carga completa (sem limite de idade, até 5 páginas), chave só no cabeçalho, só a fala do presidente entra', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA, BOATO], '1'), pagina([], undefined)];
+    const deps = await comChave();
+    await atualizar(deps);
+
+    const doAosFatos = fc.pedidos.filter((p) => p.url.includes('aosfatos.org'));
+    expect(doAosFatos).toHaveLength(2);
+    for (const p of fc.pedidos) {
+      expect(p.url).not.toContain(CHAVE);
+      expect(p.cabecalhos).toEqual({ 'X-Goog-Api-Key': CHAVE });
+      expect(new URL(p.url).searchParams.has('maxAgeDays')).toBe(false);
+      expect(new URL(p.url).searchParams.get('query')).toBe('Lula');
+    }
+    expect(new Set(fc.pedidos.map((p) => new URL(p.url).searchParams.get('reviewPublisherSiteFilter'))))
+      .toEqual(new Set(['aosfatos.org', 'estadao.com.br', 'checamos.afp.com', 'agencialupa.org']));
+
+    const frases = await lerFrases(deps.dataDir);
+    expect(frases.map((f: { frase: string; agenciaNome: string }) => [f.frase, f.agenciaNome]))
+      .toEqual([['Frase dita pelo presidente numa entrevista de rádio', 'Aos Fatos']]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases.ok).toBe(true);
+  });
+
+  it('coletas seguintes: só os últimos 30 dias, até 3 páginas; sem novidade não reescreve nada', async () => {
+    fc.respostas['aosfatos.org'] = ['0', '1', '2', '3', '4'].map((i) => pagina([FALA], String(Number(i) + 1)));
+    const deps = await comChave();
+    await atualizar(deps);
+    expect(fc.pedidos.filter((p) => p.url.includes('aosfatos.org'))).toHaveLength(5);
+
+    fc.pedidos = [];
+    const r2 = await atualizar(deps);
+    const doAosFatos = fc.pedidos.filter((p) => p.url.includes('aosfatos.org'));
+    expect(doAosFatos).toHaveLength(3);
+    for (const p of doAosFatos) expect(new URL(p.url).searchParams.get('maxAgeDays')).toBe('30');
+    expect(r2.arquivosEscritos).toBe(0);
+  });
+
+  it('o que a API deixa de devolver continua no arquivo', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps);
+    fc.respostas['aosfatos.org'] = [pagina([])];
+    await atualizar(deps);
+    expect(await lerFrases(deps.dataDir)).toHaveLength(1);
+  });
+
+  it('agência com erro: as outras seguem, o já gravado fica, o status diz qual falhou e a chave nunca aparece', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps);
+    const antes = await lerFrases(deps.dataDir);
+
+    fc.falha['estadao.com.br'] = `Falha ao buscar ...?key=${CHAVE}: rede caiu`;
+    fc.respostas['aosfatos.org'] = [pagina([FALA, claim('Outra frase dita pelo presidente num discurso', 'Lula', 'https://www.aosfatos.org/noticias/checamos-b/')])];
+    const r = await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.frases.ok).toBe(false);
+    expect(estado.fontes.frases.mensagem).toContain('estadao.com.br');
+    expect(JSON.stringify(estado)).not.toContain(CHAVE);
+    expect(JSON.stringify(r.errosDestaExecucao)).not.toContain(CHAVE);
+    expect((await lerFrases(deps.dataDir)).length).toBe(antes.length + 1);
+  });
+
+  it('erro da API no corpo (503) é falha da fonte, não lista vazia, e só avisa (sem e-mail)', async () => {
+    const deps = await comChave();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    fc.status = 503;
+    fc.respostas['aosfatos.org'] = ['{"error":{"code":503,"status":"UNAVAILABLE","message":"The service is currently unavailable."}}'];
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringMatching(/503 UNAVAILABLE/) });
+    t += 7 * 3_600_000;
+    expect((await atualizar(deps)).falhasPersistentes).toEqual([]);
+  });
+  it('uma vez por hora: fora dos primeiros 10 minutos da hora não consulta, mantém o status e não reescreve nada', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps); // 15:00 UTC: coleta
+    const estado = await lerEstado(deps.dataDir);
+    fc.pedidos = [];
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    const r = await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toEqual(estado.fontes.frases);
+    expect(r.arquivosEscritos).toBe(0);
+  });
+
+  it('sem arquivo ainda, a carga completa não espera a hora cheia', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    await atualizar(deps);
+    expect(fc.pedidos.length).toBeGreaterThan(0);
+    expect(await lerFrases(deps.dataDir)).toHaveLength(1);
+  });
+});
+

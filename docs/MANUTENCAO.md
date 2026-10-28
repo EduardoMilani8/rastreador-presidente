@@ -9,7 +9,9 @@ Guia para quem mantém o repositório e a publicação do site. Para entender o 
 2. Em **Settings → Pages**, escolha **Source: GitHub Actions**.
 3. Pronto. Não é preciso mudar as permissões gerais do repositório em Settings → Actions: o workflow declara as
    permissões de que precisa (`contents: write` só no job que grava `data/`, e `pages: write` no de publicação).
-4. Não é preciso criar nenhum segredo nem variável. O `CONTATO_URL` (endereço que vai no User-Agent das requisições,
+4. Só um segredo: `FACTCHECK_API_KEY`, a chave da Fact Check API usada pelas frases checadas automáticas (ver
+   "Frases checadas automáticas" abaixo). Sem ele, o resto funciona e o site avisa que essa fonte está sem atualizar.
+   O `CONTATO_URL` (endereço que vai no User-Agent das requisições,
    para as fontes saberem quem está consultando) é definido pelo próprio workflow com a URL do repositório. Não o
    defina à mão e não coloque e-mail pessoal em lugar nenhum.
 
@@ -22,8 +24,9 @@ O GitHub avisa por e-mail quando uma execução do workflow falha. Aqui isso aco
 - **Uma fonte está fora do ar há mais de 6 horas.** O log do passo "Coletar fontes" mostra o erro de cada fonte nessa
   execução (`Falha em dou: ...`) e diz quais passaram do limite (`Fontes com falha há mais de 6 horas: agenda, dou...`);
   `data/status.json` guarda o motivo da primeira falha. Falhas mais curtas só aparecem como aviso no site, sem e-mail.
-  **Exceções: o DOU e os Comunicados do Planalto.** O DOU por ser instável e o Planalto por decisão do mantenedor
-  (os e-mails só inundavam a caixa): os dois só avisam (site, log e rotina de verificação) e nunca derrubam o
+  **Exceções: o DOU, os Comunicados do Planalto e as Frases checadas (Fact Check API).** O DOU por ser instável, o
+  Planalto por decisão do mantenedor (os e-mails só inundavam a caixa) e a Fact Check API por ser uma API "alpha" do
+  Google: os três só avisam (site, log e rotina de verificação) e nunca derrubam o
   workflow; a lista está em `FONTES_QUE_SO_AVISAM`, em `src/pipeline/run.ts`. Por isso, **olhe o aviso do site ou
   `data/status.json` de vez em quando**: se um deles ficar fora por dias, nenhum e-mail vai avisar. Passado o limite, nas outras fontes, enquanto a fonte continuar fora do ar, **chega um e-mail a cada 10 minutos**; eles param sozinhos
   quando ela volta. Os dados já
@@ -157,10 +160,40 @@ verificação foi confirmada à parte em 28/10/2026). Para acrescentar uma, incl
 `nome` e os `prefixos` (o começo dos endereços das matérias de checagem, terminando em `/`), atualize a seção "Falas
 checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
 
-**Fact Check API (em teste):** para avaliar se dá para consumir automaticamente as checagens que as agências marcam
-com ClaimReview, rode **Actions → Testar Fact Check API → Run workflow**. Ele só lê: consulta a API do Google para cada
-agência e mostra quantas checagens aparecem, como cada agência preenche "quem disse" e alguns exemplos. Precisa do
-segredo `FACTCHECK_API_KEY` (chave de API do Google Cloud com a Fact Check Tools API ativada e restrita a ela).
+## Frases checadas automáticas (Fact Check API)
+
+A parte de cima da página "Falas checadas" vem sozinha da **Fact Check Tools API** do Google, que reúne as marcações
+ClaimReview que as agências publicam. Uma vez por hora (na primeira coleta da hora), o robô busca as checagens do
+último mês de cada agência de `config/agencias.json` (na primeira vez, quando ainda não há
+`data/frases-checadas.json`, faz a carga completa), fica só com as frases que a **própria agência** atribui ao
+presidente pelo nome e acumula em `data/frases-checadas.json`.
+As regras estão em `src/pipeline/frases.ts` e na página Sobre.
+
+**A chave.** Fica no segredo `FACTCHECK_API_KEY` (Settings → Secrets and variables → Actions), criado com uma chave de
+API do Google Cloud com a Fact Check Tools API ativada e restrita a ela. O workflow a passa só ao passo "Coletar
+fontes", ela vai no cabeçalho das requisições (nunca no endereço) e é apagada de qualquer mensagem de erro. Em
+execução local sem a chave, a fonte é simplesmente pulada.
+
+**Avisos que podem aparecer** (site e `data/status.json`, fonte `frases`; nunca mandam e-mail):
+
+- `falta o segredo FACTCHECK_API_KEY`: o segredo foi apagado ou renomeado.
+- `chave da Fact Check API recusada; confira o segredo FACTCHECK_API_KEY`: a chave expirou, foi apagada no Google
+  Cloud ou perdeu a restrição certa. Crie outra e troque o segredo.
+- `503 UNAVAILABLE` e parecidos: a API do Google está fora. Acontece; a coleta seguinte tenta de novo e nada já
+  publicado some.
+
+**Tirar uma frase marcada errado.** Se uma agência atribuir ao presidente uma frase que não é dele, ache o `id` do
+item em `data/frases-checadas.json` e acrescente em `config/frases-excluidas.json`:
+
+```json
+[{ "id": "aos-fatos-0123456789ab", "motivo": "A agência atribuiu ao presidente uma frase de outra pessoa." }]
+```
+
+Na próxima consulta à API (em até uma hora) o item sai do arquivo e do site. Não apague o item de `data/` à mão.
+
+**Testar a API sem mexer em nada:** **Actions → Testar Fact Check API → Run workflow**. Ele só lê e mostra, por
+agência, quantas checagens aparecem, como cada uma preenche "quem disse" e alguns exemplos. A opção "bruto" imprime
+um recorte literal da resposta, para virar fixture de teste em `tests/fixtures/factcheck/`.
 
 ## Prévia de link (imagem e texto ao compartilhar)
 

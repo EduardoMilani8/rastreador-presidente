@@ -56,6 +56,7 @@ jobs:
         continue-on-error: true
         env:
           CONTATO_URL: ${{ github.server_url }}/${{ github.repository }}
+          FACTCHECK_API_KEY: ${{ secrets.FACTCHECK_API_KEY }}
           BACKFILL_DE: ${{ inputs.backfill_de }}
           BACKFILL_ATE: ${{ inputs.backfill_ate }}
       - name: Commitar dados se mudaram

@@ -82,6 +82,7 @@ describe('site/sobre.html', () => {
       'https://github.com/EduardoMilani8/rastreador-presidente',
       'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json',
       'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json',
+      'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json',
     ]));
     expect(html).toContain('href="./style.css"');
   });
@@ -300,12 +301,20 @@ describe('site/sobre.html', () => {
   });
 
   describe('seção das falas checadas', () => {
-    const secao = () => {
+    // Tudo entre o h2 da seção e o próximo h2 (a seção tem dois subtítulos h3).
+    const blocos = () => {
       const h2 = document.getElementById('falas')!;
       expect(h2.tagName).toBe('H2');
-      return h2.nextElementSibling as HTMLElement;
+      const saida: HTMLElement[] = [];
+      for (let e = h2.nextElementSibling; e && e.tagName !== 'H2' && !e.matches('section'); e = e.nextElementSibling) saida.push(e as HTMLElement);
+      return saida;
     };
-    const texto = () => secao().textContent!.replace(/\s+/g, ' ');
+    const texto = () => blocos().map((e) => e.textContent).join(' ').replace(/\s+/g, ' ');
+    const parte = (titulo: string) => {
+      const i = blocos().findIndex((e) => e.tagName === 'H3' && e.textContent === titulo);
+      expect(i, titulo).toBeGreaterThan(-1);
+      return blocos()[i + 1];
+    };
 
     it('vem depois das viagens e antes dos limites, e as fontes citam a página separada', () => {
       const h2 = document.getElementById('falas')!;
@@ -328,10 +337,30 @@ describe('site/sobre.html', () => {
       expect(texto()).toContain('O site não faz checagem própria nem dá nota');
       expect(texto()).toContain('aparece no item como errata');
       expect(texto()).toContain('não entram nos números da capa nem na página Registros');
-      const link = secao().querySelector('a')!;
+      const link = parte('Checagens de eventos (lista conferida à mão)').querySelector('a')!;
       expect(link.textContent).toBe('config/checagens.json');
       expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json');
       expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+    });
+
+    it('explica a parte automática: a marcação das agências, o filtro pelo autor, a cobertura e a exclusão manual', () => {
+      const auto = parte('Frases checadas pelas agências (automático)').textContent!.replace(/\s+/g, ' ');
+      expect(auto).toContain('ClaimReview');
+      expect(auto).toContain('Uma vez por hora, o site lê essas marcações pela Fact Check Tools API');
+      expect(auto).toContain('Uma frase só aparece se a própria agência marcar como autor o presidente, pelo nome');
+      expect(auto).toContain('Autor ausente, diferente ou misturado com outra pessoa fica de fora.');
+      expect(auto).toContain('Em 28/10/2026, só o Aos Fatos marcava falas do presidente dessa forma');
+      expect(auto).toContain('a Lupa não aparecia na API');
+      expect(auto).toContain('não some se a API deixar de devolvê-la');
+      const link = parte('Frases checadas pelas agências (automático)').querySelector('a')!;
+      expect(link.textContent).toBe('config/frases-excluidas.json');
+      expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json');
+      expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+    });
+
+    it('o limite de checagens à vista citado é o do código', async () => {
+      const { CHECAGENS_A_VISTA } = await import('../../site/src/falas');
+      expect(texto()).toContain(`as ${CHECAGENS_A_VISTA} checagens mais recentes`);
     });
 
     it('os tipos de fala citados são os do esquema', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { ACCEPT_HTML, buscarTexto } from '../../src/shared/http';
+import { ACCEPT_HTML, ACCEPT_JSON, buscarTexto } from '../../src/shared/http';
 
 const resp = (status: number, corpo: string) => new Response(corpo, { status });
 
@@ -81,5 +81,16 @@ describe('buscarTexto', () => {
     expect(cancelSpy1).toHaveBeenCalled();
     expect(cancelSpy2).toHaveBeenCalled();
     expect(cancelSpy3).not.toHaveBeenCalled();
+  });
+  it('envia cabeçalhos extras (a chave de API vai no cabeçalho) e eles nunca aparecem no erro', async () => {
+    const fetchImpl = vi.fn().mockRejectedValue(new Error('rede'));
+    const erro = await buscarTexto('https://x.test/a?q=1', ACCEPT_JSON, {
+      fetchImpl, esperaMs: 0, tentativas: 1, cabecalhos: { 'X-Goog-Api-Key': 'chave-secreta-123' },
+    }).catch((e: unknown) => String(e));
+    const init = fetchImpl.mock.calls[0][1] as RequestInit;
+    expect((init.headers as Record<string, string>)['X-Goog-Api-Key']).toBe('chave-secreta-123');
+    expect((init.headers as Record<string, string>).Accept).toBe(ACCEPT_JSON);
+    expect(erro).toContain('https://x.test/a?q=1');
+    expect(erro).not.toContain('chave-secreta-123');
   });
 });

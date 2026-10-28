@@ -2,29 +2,36 @@ import { LayoutError, parseAgenda, urlAgendaDia } from '../collectors/agenda';
 import {
   chaveDoAto, ehRetificacao, parseDou, textoPlanaltoEhDoAto, urlDouEdicao, urlTextoPlanalto, type SecaoDou,
 } from '../collectors/dou';
+import { parseFactcheck, urlBuscaFactcheck, type ChecagemBruta } from '../collectors/factcheck';
 import { URL_AGENCIA_BRASIL, filtrarRelevantes, parseNoticias, urlBuscaGoogleNews } from '../collectors/noticias';
 import {
   INICIO_PAGINA_PLANALTO, URL_PAGINA_PLANALTO, citaPresidente, parsePlanaltoPagina, type Comunicado,
 } from '../collectors/planalto';
 import { mandatoDoDia, mandatoVigente } from '../config';
-import { ACCEPT_HTML, ACCEPT_XML, type Resposta } from '../shared/http';
+import { ACCEPT_HTML, ACCEPT_JSON, ACCEPT_XML, type Resposta } from '../shared/http';
 import type { EstadoFontes, Evento, Mandato, Noticia } from '../shared/schema';
 import { dataSaoPaulo, ementaEhSoRemissao, limparEspacos, somarDias } from '../shared/text';
 import { carregarAgencias, carregarChecagens, montarFalas } from './falas';
+import { aceitarFrases, carregarExclusoes, dominioDaAgencia, mesclarFrases } from './frases';
 import { ligarComunicados } from './link';
 import { aplicarStatus, mesclar } from './merge';
 import { gravarDerivados } from './derivados';
 import {
-  gravarEstado, gravarEventos, gravarFalas, gravarNoticias, lerEstado, lerEventos,
+  gravarEstado, gravarEventos, gravarFalas, gravarFrases, gravarNoticias, lerEstado, lerEventos, lerFrases,
 } from './store';
 
 export interface Deps {
-  buscar: (url: string, accept: string) => Promise<Resposta>;
+  buscar: (url: string, accept: string, cabecalhos?: Record<string, string>) => Promise<Resposta>;
   agora: () => Date;
   dataDir: string;
   mandatos: Mandato[];
   /** Só nos testes: no lugar de config/checagens.json e config/agencias.json. */
   tabelasDeChecagem?: { checagens: unknown; agencias: unknown };
+  /**
+   * Chave da Fact Check API. `undefined` (execução local sem a chave) pula a fonte; vazia (segredo faltando no
+   * Actions) é falha.
+   */
+  chaveFactcheck?: string;
 }
 
 /** Uma fonte só derruba o workflow depois de tanto tempo fora do ar: falha curta fica no aviso do site, sem e-mail. */
@@ -34,7 +41,11 @@ export const LIMITE_FALHA_PERSISTENTE_MS = 6 * 60 * 60 * 1000;
 /** O Planalto publica quase todo dia: lista cuja notícia mais nova passa disso parou de ser atualizada e conta como falha. */
 export const DIAS_PLANALTO_PARADO = 10;
 
-export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou', 'planalto']);
+export const FONTES_QUE_SO_AVISAM: ReadonlySet<string> = new Set(['dou', 'planalto', 'frases']);
+
+/** Fact Check API: carga completa quando ainda não há arquivo; depois, só o último mês. */
+const FRASES_CARGA = { paginas: 5, maxDias: undefined };
+const FRASES_ROTINA = { paginas: 3, maxDias: 30 };
 
 export interface ResumoAtualizacao {
   arquivosEscritos: number;
@@ -95,6 +106,33 @@ function exigirEdicaoDou(finalUrl: string, pedida: string, dia: string): void {
     ok = false;
   }
   if (!ok) throw new Error(`Redirecionamento inesperado: a edição de ${dia} respondeu como ${finalUrl}`);
+}
+
+// Uma agência com erro não impede as outras; o erro de cada uma vai para o status, sem a chave.
+async function coletarFrases(
+  deps: Deps, chave: string, nomes: string[], cargaCompleta: boolean,
+): Promise<{ brutas: ChecagemBruta[]; erros: string[] }> {
+  const { paginas, maxDias } = cargaCompleta ? FRASES_CARGA : FRASES_ROTINA;
+  const brutas: ChecagemBruta[] = [];
+  const erros: string[] = [];
+  for (const site of [...new Set(carregarAgencias().map(dominioDaAgencia))]) {
+    for (const consulta of nomes) {
+      try {
+        let pagina: string | undefined;
+        for (let i = 0; i < paginas; i++) {
+          const r = await deps.buscar(urlBuscaFactcheck({ consulta, site, maxDias, pagina }), ACCEPT_JSON, { 'X-Goog-Api-Key': chave });
+          const lido = parseFactcheck(r.corpo); // corpo de erro da API lança com o motivo
+          if (r.status !== 200) throw new Error(`HTTP ${r.status}`);
+          brutas.push(...lido.itens);
+          pagina = lido.proximaPagina;
+          if (!pagina) break;
+        }
+      } catch (e) {
+        erros.push(`${site}: ${String(e).replaceAll(chave, '***')}`);
+      }
+    }
+  }
+  return { brutas, erros };
 }
 
 const intervalo = (de: string, ate: string): string[] => {
@@ -375,6 +413,30 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
     marcar('checagens');
   } catch (e) {
     marcar('checagens', String(e));
+  }
+
+  // Frases checadas pelas agências (Fact Check API). O que já foi gravado nunca sai por falha da fonte. A coleta roda
+  // a cada 10 minutos, mas as checagens mudam poucas vezes por dia: a API é consultada na primeira rodada de cada hora
+  // (ou já, se ainda não há arquivo); nas outras rodadas o status anterior fica igual, para não gerar commit.
+  if (deps.chaveFactcheck !== undefined) {
+    const chave = deps.chaveFactcheck;
+    try {
+      if (!chave) throw new Error('falta o segredo FACTCHECK_API_KEY no repositório (Settings → Secrets and variables → Actions)');
+      const anteriores = await lerFrases(deps.dataDir);
+      if (anteriores !== null && agora.getUTCMinutes() >= 10) {
+        if (anterior.fontes.frases) estado.fontes.frases = anterior.fontes.frases;
+      } else {
+        const { brutas, erros } = await coletarFrases(deps, chave, mandato.nomes, anteriores === null);
+        const exclusoes = carregarExclusoes();
+        const novas = aceitarFrases(brutas, {
+          agencias: carregarAgencias(), mandatos: deps.mandatos, hoje, exclusoes, coletadoEm: agoraIso,
+        });
+        if (await gravarFrases(deps.dataDir, mesclarFrases(anteriores ?? [], novas, exclusoes))) escritos++;
+        marcar('frases', erros.length ? erros.join('; ') : undefined);
+      }
+    } catch (e) {
+      marcar('frases', chave ? String(e).replaceAll(chave, '***') : String(e));
+    }
   }
 
   if (escritos > 0) estado.ultimaNovidadeEm = agoraIso;

@@ -251,6 +251,13 @@ section.dia > h3 { position: sticky; top: 12px; display: grid; gap: 3px; margin:
 .vereditos li { padding: 2px 8px; border: 1px solid var(--linha); border-radius: 4px; }
 .errata { max-width: 62ch; margin: 8px 0 0; padding-left: 10px; border-left: 3px solid var(--aviso-tx); font-family: var(--sans); font-size: .88rem; }
 .falas > .vazio { padding: 16px 0; }
+.falas > .checagem-auto { padding: 16px 0; border-bottom: 1px solid var(--linha); overflow-wrap: anywhere; }
+.frases { list-style: none; margin: 10px 0 0; padding: 0; }
+.frases > li { margin: 0 0 12px; }
+.frases blockquote { max-width: 62ch; margin: 0; padding-left: 12px; border-left: 3px solid var(--linha); font-size: 1.05rem; }
+.veredito { margin: 4px 0 0 15px; font-family: var(--sans); font-size: .88rem; }
+#painel-falas > section > .discreto { margin-bottom: 12px; font-family: var(--sans); font-size: var(--t-apoio); }
+#frases-anteriores summary { min-height: 44px; padding: 11px 0; font-family: var(--sans); text-decoration: underline; cursor: pointer; }
 @media (hover: hover) and (pointer: fine) {
   .fontes a, .permalink { min-height: 0; padding: 4px 0; }
   .evento-titulo a { min-height: 0; padding: 4px 0; }

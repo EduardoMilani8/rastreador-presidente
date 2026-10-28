@@ -21,7 +21,7 @@ export function carregarChecagens(bruto: unknown = tabelaChecagens): Checagem[] 
 
 // Compara o endereço já normalizado pelo navegador: "../", usuário na URL ("https://site@golpe/") e domínio com
 // sufixo ("https://site.golpe/") mudam o começo do href e não passam pelo prefixo.
-function ehDaAgencia(url: string, agencia: Agencia): boolean {
+export function ehDaAgencia(url: string, agencia: Agencia): boolean {
   try {
     const href = new URL(url).href;
     return agencia.prefixos.some((p) => href.startsWith(p));

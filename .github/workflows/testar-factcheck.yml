@@ -13,6 +13,10 @@ on:
         description: 'Páginas de 100 resultados por agência (1 a 5)'
         type: string
         default: '3'
+      bruto:
+        description: 'Mostrar também um recorte literal da 1ª página de cada agência (para virar fixture de teste)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -27,6 +31,7 @@ jobs:
           CHAVE: ${{ secrets.FACTCHECK_API_KEY }}
           CONSULTA: ${{ inputs.consulta }}
           PAGINAS: ${{ inputs.paginas }}
+          BRUTO: ${{ inputs.bruto }}
         run: |
           if [ -z "$CHAVE" ]; then
             echo "Falta o segredo FACTCHECK_API_KEY (Settings → Secrets and variables → Actions)." >&2
@@ -54,6 +59,15 @@ jobs:
               if echo "$resposta" | jq -e '.error' > /dev/null 2>&1; then
                 echo "Erro da API: $(echo "$resposta" | jq -c '.error | {code, status, message}')"
                 break
+              fi
+              if [ "$BRUTO" = true ] && [ -z "$token" ]; then
+                echo "-----BEGIN BRUTO ${site:-todas}-----"
+                # Recorte: até 4 itens atribuídos ao presidente e 3 de outros autores, sem mudar nenhum campo.
+                echo "$resposta" | jq -c '{claims: (
+                  [.claims[]? | select((.claimant // "") | test("lula"; "i"))][:4]
+                  + [.claims[]? | select((.claimant // "") | test("lula"; "i") | not)][:3]
+                ), nextPageToken}'
+                echo "-----END BRUTO ${site:-todas}-----"
               fi
               echo "$resposta" | jq -c '.claims[]?' >> itens.json
               token=$(echo "$resposta" | jq -r '.nextPageToken // empty')
