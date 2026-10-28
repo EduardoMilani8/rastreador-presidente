@@ -304,6 +304,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:226e06ef914c",
+    "titulo": "Lula se torna recordista ao igualar ex-presidente dos EUA como maior vencedor de eleições em democracias",
+    "veiculo": "G1",
+    "data": "2026-10-27T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVGxiVk82U3NhMlk3dkQ2R3o3b1VOM1NyMzBuSFpFNGZCVFU4TlFYS3Zya0duVTRmMVdLbnhocmcyVnVxM19jemE4MXdMYWlKSzJPY1R0TVhlakpXRFNOdjQ3UHlfWWVjeEU0czEtczU0V0h5X2x5eDlJc2ZzYmRjTkROU3hZNVJDWUF4V2NpMDVrRlhkRDdnU1lXWFRFUmo1cG9vNy1MU2tFU0Znc1E3dGhMQUMwX1RaazlQN2FEY2w3N1FwWmJiSnV3bGdZWGFoeTVHRGQ2UHRKc1d6REpkRzdSUjktWDlsZU5WMlJJV0tZVW0wRzRYYkZMbm1nYVc2Wkg3NnJPRVA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:528bfa5ec9c7",
     "titulo": "De escanteado a 'general' de Lula: quem é André Janones, protagonista da mobilização digital na campanha",
     "veiculo": "G1",
@@ -325,14 +333,6 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-27T03:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWnlyZThiVDBsa0lhOWpQSHhfanppWktZZVZPb1FHTmdUdUVWdlUyRmtlQS1HU1pYVG91X3RHZ1lnS1NST1pBeVVSellNNEx0dE9scW5oa0RKZGdSUFlTSzBaMVVQRHVLRjVjblRDU1VOaTFodzRPSEp0UGd0Um80OUQ1Q1luNFdCUjJpVGJab3FzTnE1bjZuUW5JcU9IU0o1enRNVGNFbHhvOThWT1Y3ZC1sdkhPMUFPOUZOUmRWRWdvYldRb3lyM2N0bHdxWUE3enI0M0pQdFVrUTRZUDRycXM4YzRoeFZZTHZSdGNENDB1azZRc2hQb9IBhwJBVV95cUxPT3J3ZnJzTDlISEF0NnVNengxb1RCMnpiOTZtdHJqZjd4NVZfOUxiemxhTG9iWVVTbFpIRTRhUFoxTXZkOEtYT0N2Uk1Cd1NPVmxObFhVOUJvYkNKY0hRRWNDd1BsS0ItZ1pzWEFkSWRGXzFIa3MyNFVxY3dOMWo3VVZFb2F1YlhrWFJyczREcmluWTIwVkpYVWI4ZUYxQ2VnTE9PaTNEU1pOM20yVnFlNVNQWWxBN25ybEFzU091UWR1Y2ZYQUVUaDhjUUt4ZG1ESkRHMGlQMklTTTRvRllkT3M1Ti1UTWs1S25BR3dLZFFOTFYwRC1wX0psdHJUVGZTTC1NMmRQaw?oc=5",
-    "origem": "google-news"
-  },
-  {
-    "id": "google-news:f9946776ef14",
-    "titulo": "Lula se torna recordista ao igualar ex-presidente dos EUA como maior vencedor de eleições em democracias",
-    "veiculo": "G1",
-    "data": "2026-10-27T03:00:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVGxiVk82U3NhMlk3dkQ2R3o3b1VOM1NyMzBuSFpFNGZCVFU4TlFYS3Zya0duVTRmMVdLbnhocmcyVnVxM19jemE4MXdMYWlKSzJPY1R0TVhlakpXRFNOdjQ3UHlfWWVjeEU0czEtczU0V0h5X2x5eDlJc2ZzYmRjTkROU3hZNVJDWUF4V2NpMDVrRlhkRDdnU1lXWFRFUmo1cG9vNy1MU2tFU0Znc1E3dGhMQUMwX1RaazlQN2FEY2w3N1FwWmJiSnV3bGdZWGFoeTVHRGQ2UHRKc1d6REpkRzdSUjktWDlsZU5WMlJJV0tZVW0wRzRYYkZMbm1nYVc2Wkg3NnJPRVDSAZcCQVVfeXFMTll5NHF6UFlyUmhCNWFDT2tNbk5jSHoxTWFBQ0p6QXFIeGhTQy1OWGdjc2JzUWxWc0xZbkR4NTNQd0phc2RydFRxcGF1OFJSTFZxTEsxVjFGYXlKNlJUQjNkUFRrbjRJRlJ5X2YzMjdxYy1RcVJldXJpMk55V0gzam11RG1KUlhnaGMxLW9GWXcxTnlXNW1Xc1FpS3g2YmtLZmRRd0lmTGdrdHN0cV82SXVYOWJfRFdNR2x4YWt2eUxkMTE2cS10aHVFVC1zQzBaZzlYZE1tMVBHSWpaWXBXbnpBMVlHQ1hmM19nZXpBZGRTRTlsZ3BJSEhMUHYxbWNCVnExLTNWOWJkenpuLXE1LXcxaldKUjlJ?oc=5",
     "origem": "google-news"
   },
   {
