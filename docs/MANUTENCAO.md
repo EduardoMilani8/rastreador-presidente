@@ -157,6 +157,11 @@ verificação foi confirmada à parte em 28/10/2026). Para acrescentar uma, incl
 `nome` e os `prefixos` (o começo dos endereços das matérias de checagem, terminando em `/`), atualize a seção "Falas
 checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
 
+**Fact Check API (em teste):** para avaliar se dá para consumir automaticamente as checagens que as agências marcam
+com ClaimReview, rode **Actions → Testar Fact Check API → Run workflow**. Ele só lê: consulta a API do Google para cada
+agência e mostra quantas checagens aparecem, como cada agência preenche "quem disse" e alguns exemplos. Precisa do
+segredo `FACTCHECK_API_KEY` (chave de API do Google Cloud com a Fact Check Tools API ativada e restrita a ela).
+
 ## Prévia de link (imagem e texto ao compartilhar)
 
 As cinco páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
