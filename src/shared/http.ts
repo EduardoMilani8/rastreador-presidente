@@ -1,5 +1,6 @@
 export const ACCEPT_HTML = 'text/html';
 export const ACCEPT_XML = 'application/rss+xml, application/xml, text/xml';
+export const ACCEPT_JSON = 'application/json';
 
 export interface Resposta { status: number; corpo: string; url: string }
 export interface OpcoesHttp {
@@ -9,6 +10,8 @@ export interface OpcoesHttp {
   pausaMs?: number;
   timeoutMs?: number;
   contato?: string;
+  /** Cabeçalhos extras. É por aqui que vai chave de API: o endereço entra nas mensagens de erro, que são públicas. */
+  cabecalhos?: Record<string, string>;
 }
 
 const dormir = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
@@ -24,7 +27,7 @@ export async function buscarTexto(url: string, accept: string = ACCEPT_HTML, o: 
       // Sem limite, uma conexão que nunca responde segura o job até o timeout do workflow, sem registrar a falha da fonte.
       // O sinal cobre também a leitura do corpo; o estouro cai no catch e é repetido como qualquer erro de rede.
       const r = await f(url, {
-        headers: { 'User-Agent': ua, Accept: accept }, redirect: 'follow',
+        headers: { ...o.cabecalhos, 'User-Agent': ua, Accept: accept }, redirect: 'follow',
         signal: AbortSignal.timeout(o.timeoutMs ?? 30_000),
       });
       if (r.status >= 500) {
