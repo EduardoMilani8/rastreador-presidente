@@ -434,6 +434,24 @@
     "historico": []
   },
   {
+    "id": "planalto:presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+    "tipo": "comunicado",
+    "data": "2026-10-14",
+    "titulo": "Presidente Lula regulamenta Marco Legal dos Jogos Eletrônicos e anuncia medidas de apoio ao setor",
+    "status": "publicado",
+    "ementa": "Crédito com juros menores, captação por incentivos fiscais, novos cursos e apoio à inovação buscam fortalecer a produção brasileira, formar profissionais e ampliar a presença dos jogos nacionais no Brasil e no exterior",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-10-14:12:00:1",
     "tipo": "agenda",
     "data": "2026-10-14",
@@ -447,6 +465,24 @@
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-14",
         "coletadoEm": "2026-10-14T00:40:16.664Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:aprovado-no-senado-e-a-caminho-da-sancao-presidencial-prospera-mei-vai-perdoar-dividas-e-ampliar-limite-de-faturamento-dos-microempreendedores",
+    "tipo": "comunicado",
+    "data": "2026-10-15",
+    "titulo": "Aprovado no Senado e a caminho da sanção presidencial, Prospera MEI vai perdoar dívidas e ampliar limite de faturamento dos microempreendedores",
+    "status": "publicado",
+    "ementa": "Proposta prevê licitações exclusivas até R$ 100 mil e teto de faturamento de R$ 110 mil em 2027 e até R$ 140 mil em 2028, além de contratação de dois empregados",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/aprovado-no-senado-e-a-caminho-da-sancao-presidencial-prospera-mei-vai-perdoar-dividas-e-ampliar-limite-de-faturamento-dos-microempreendedores",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
       }
     ],
     "confirmadoPor": [],
@@ -582,6 +618,24 @@
         "rotulo": "Diário Oficial da União",
         "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.398-de-20-de-outubro-de-2026-739387932",
         "coletadoEm": "2026-10-21T05:30:22.233Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:lula-sanciona-lei-que-amplia-beneficios-para-meis-e-envia-ao-congresso-pec-sobre-tarifa-zero-no-transporte-coletivo",
+    "tipo": "comunicado",
+    "data": "2026-10-21",
+    "titulo": "Lula sanciona lei que amplia benefícios para MEIs e envia ao Congresso PEC sobre tarifa zero no transporte coletivo",
+    "status": "publicado",
+    "ementa": "Prospera MEI prevê perdão de dívidas com a União, aumento do limite de faturamento e ampliação das oportunidades de contratação. Proposta sobre transporte destina ao menos 26,8% das emendas parlamentares impositivas ao custeio da gratuidade",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/lula-sanciona-lei-que-amplia-beneficios-para-meis-e-envia-ao-congresso-pec-sobre-tarifa-zero-no-transporte-coletivo",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
       }
     ],
     "confirmadoPor": [],
@@ -764,6 +818,24 @@
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
         "coletadoEm": "2026-10-27T11:40:19.130Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d",
+    "tipo": "comunicado",
+    "data": "2026-10-27",
+    "titulo": "Presidente Lula celebra aniversário no Palácio da Alvorada: “Gratidão ao povo brasileiro”",
+    "status": "publicado",
+    "ementa": "Durante a comemoração, Lula ressaltou o compromisso com a continuidade das políticas sociais e com o desenvolvimento econômico",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
       }
     ],
     "confirmadoPor": [],
