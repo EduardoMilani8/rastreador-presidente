@@ -63,6 +63,7 @@ describe('site/falas.html', () => {
     expect(aviso).toContain('agências independentes de checagem');
     expect(aviso).toContain('O Rastreador não avalia falas');
     expect(aviso).toContain('As frases e os vereditos são atribuídos ao presidente pelas próprias agências.');
+    expect(aviso).toContain('a proporção de vereditos não mede quanto o presidente acerta ou erra');
     const secoes = [...document.querySelectorAll('#painel-falas > section')];
     expect(secoes.map((s) => s.querySelector('h2')!.textContent)).toEqual(['Frases checadas pelas agências', 'Checagens de eventos (lista conferida à mão)']);
     expect(secoes.map((s) => s.getAttribute('aria-labelledby'))).toEqual(secoes.map((s) => s.querySelector('h2')!.id));
@@ -222,8 +223,9 @@ describe('frases checadas pelas agências (automático)', () => {
       ['“Outra frase dita na mesma entrevista ao podcast”', 'Veredito da agência: Falso'],
       [`“${FRASE.frase}”`, 'Veredito da agência: Não é bem assim'],
     ]);
+    expect(g.querySelector('.fala-link')!.textContent).toBe('Por que esses vereditos? Ler a explicação completa em Aos Fatos');
     const link = g.querySelector('.fala-link a')!;
-    expect(link.textContent).toBe('Ler a checagem completa em Aos Fatos');
+    expect(link.textContent).toBe('Ler a explicação completa em Aos Fatos');
     expect(link.getAttribute('href')).toBe(FRASE.url);
     expect(link.getAttribute('rel')).toBe('noopener noreferrer');
   });
@@ -232,6 +234,7 @@ describe('frases checadas pelas agências (automático)', () => {
     const { titulo: _t, ...semTitulo } = FRASE;
     montarPaginaFalas(document, dados([], { frases: [semTitulo] }), AGORA, '');
     expect(grupos()[0].querySelector('h3')!.textContent).toBe('Checagem de Aos Fatos');
+    expect(grupos()[0].querySelector('.fala-link')!.textContent).toBe('Por que esse veredito? Ler a explicação completa em Aos Fatos');
   });
 
   it('agruparFrases: da checagem mais recente à mais antiga, independente da ordem do arquivo', () => {
