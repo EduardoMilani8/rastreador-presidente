@@ -415,19 +415,25 @@ export async function atualizar(deps: Deps): Promise<ResumoAtualizacao> {
     marcar('checagens', String(e));
   }
 
-  // Frases checadas pelas agências (Fact Check API). O que já foi gravado nunca sai por falha da fonte.
+  // Frases checadas pelas agências (Fact Check API). O que já foi gravado nunca sai por falha da fonte. A coleta roda
+  // a cada 10 minutos, mas as checagens mudam poucas vezes por dia: a API é consultada na primeira rodada de cada hora
+  // (ou já, se ainda não há arquivo); nas outras rodadas o status anterior fica igual, para não gerar commit.
   if (deps.chaveFactcheck !== undefined) {
     const chave = deps.chaveFactcheck;
     try {
       if (!chave) throw new Error('falta o segredo FACTCHECK_API_KEY no repositório (Settings → Secrets and variables → Actions)');
       const anteriores = await lerFrases(deps.dataDir);
-      const { brutas, erros } = await coletarFrases(deps, chave, mandato.nomes, anteriores === null);
-      const exclusoes = carregarExclusoes();
-      const novas = aceitarFrases(brutas, {
-        agencias: carregarAgencias(), mandatos: deps.mandatos, hoje, exclusoes, coletadoEm: agoraIso,
-      });
-      if (await gravarFrases(deps.dataDir, mesclarFrases(anteriores ?? [], novas, exclusoes))) escritos++;
-      marcar('frases', erros.length ? erros.join('; ') : undefined);
+      if (anteriores !== null && agora.getUTCMinutes() >= 10) {
+        if (anterior.fontes.frases) estado.fontes.frases = anterior.fontes.frases;
+      } else {
+        const { brutas, erros } = await coletarFrases(deps, chave, mandato.nomes, anteriores === null);
+        const exclusoes = carregarExclusoes();
+        const novas = aceitarFrases(brutas, {
+          agencias: carregarAgencias(), mandatos: deps.mandatos, hoje, exclusoes, coletadoEm: agoraIso,
+        });
+        if (await gravarFrases(deps.dataDir, mesclarFrases(anteriores ?? [], novas, exclusoes))) escritos++;
+        marcar('frases', erros.length ? erros.join('; ') : undefined);
+      }
     } catch (e) {
       marcar('frases', chave ? String(e).replaceAll(chave, '***') : String(e));
     }

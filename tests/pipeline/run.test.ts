@@ -1119,4 +1119,26 @@ describe('frases checadas automáticas (Fact Check API)', () => {
     t += 7 * 3_600_000;
     expect((await atualizar(deps)).falhasPersistentes).toEqual([]);
   });
+  it('uma vez por hora: fora dos primeiros 10 minutos da hora não consulta, mantém o status e não reescreve nada', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps); // 15:00 UTC: coleta
+    const estado = await lerEstado(deps.dataDir);
+    fc.pedidos = [];
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    const r = await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toEqual(estado.fontes.frases);
+    expect(r.arquivosEscritos).toBe(0);
+  });
+
+  it('sem arquivo ainda, a carga completa não espera a hora cheia', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    await atualizar(deps);
+    expect(fc.pedidos.length).toBeGreaterThan(0);
+    expect(await lerFrases(deps.dataDir)).toHaveLength(1);
+  });
 });
+
