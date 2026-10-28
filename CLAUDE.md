@@ -47,8 +47,7 @@ fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (
   Fact Check API (`src/collectors/factcheck.ts` + `src/pipeline/frases.ts` → `data/frases-checadas.json`);
   `config/frases-excluidas.json` tira à mão uma frase que a agência marcou errado.
 - `data/`: `eventos/AAAA-MM.json` (um por mês), `meses.json`, `noticias.json`, `falas.json`, `frases-checadas.json`,
-  `status.json`. É gravado
-  pelo robô.
+  `status.json`. É gravado pelo robô.
 - `site/`: HTML, CSS e TypeScript sem framework, em cinco páginas (`index.html` é o painel, `registros.html`,
   `noticias.html`, `falas.html`, `sobre.html`). `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os elementos,
   `comum.ts` cuida dos avisos, `painel.ts`, `registros.ts`, `noticias.ts` e `falas.ts` montam cada página, `redirecionar.ts` leva os

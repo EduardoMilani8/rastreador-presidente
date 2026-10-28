@@ -163,9 +163,10 @@ checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
 ## Frases checadas automáticas (Fact Check API)
 
 A parte de cima da página "Falas checadas" vem sozinha da **Fact Check Tools API** do Google, que reúne as marcações
-ClaimReview que as agências publicam. A cada coleta, o robô busca as checagens do último mês de cada agência de
-`config/agencias.json` (na primeira vez, quando ainda não há `data/frases-checadas.json`, faz a carga completa), fica
-só com as frases que a **própria agência** atribui ao presidente pelo nome e acumula em `data/frases-checadas.json`.
+ClaimReview que as agências publicam. Uma vez por hora (na primeira coleta da hora), o robô busca as checagens do
+último mês de cada agência de `config/agencias.json` (na primeira vez, quando ainda não há
+`data/frases-checadas.json`, faz a carga completa), fica só com as frases que a **própria agência** atribui ao
+presidente pelo nome e acumula em `data/frases-checadas.json`.
 As regras estão em `src/pipeline/frases.ts` e na página Sobre.
 
 **A chave.** Fica no segredo `FACTCHECK_API_KEY` (Settings → Secrets and variables → Actions), criado com uma chave de
@@ -188,7 +189,7 @@ item em `data/frases-checadas.json` e acrescente em `config/frases-excluidas.jso
 [{ "id": "aos-fatos-0123456789ab", "motivo": "A agência atribuiu ao presidente uma frase de outra pessoa." }]
 ```
 
-Na coleta seguinte o item sai do arquivo e do site. Não apague o item de `data/` à mão.
+Na próxima consulta à API (em até uma hora) o item sai do arquivo e do site. Não apague o item de `data/` à mão.
 
 **Testar a API sem mexer em nada:** **Actions → Testar Fact Check API → Run workflow**. Ele só lê e mostra, por
 agência, quantas checagens aparecem, como cada uma preenche "quem disse" e alguns exemplos. A opção "bruto" imprime

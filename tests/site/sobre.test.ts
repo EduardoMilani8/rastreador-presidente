@@ -346,7 +346,7 @@ describe('site/sobre.html', () => {
     it('explica a parte automática: a marcação das agências, o filtro pelo autor, a cobertura e a exclusão manual', () => {
       const auto = parte('Frases checadas pelas agências (automático)').textContent!.replace(/\s+/g, ' ');
       expect(auto).toContain('ClaimReview');
-      expect(auto).toContain('Fact Check Tools API');
+      expect(auto).toContain('Uma vez por hora, o site lê essas marcações pela Fact Check Tools API');
       expect(auto).toContain('Uma frase só aparece se a própria agência marcar como autor o presidente, pelo nome');
       expect(auto).toContain('Autor ausente, diferente ou misturado com outra pessoa fica de fora.');
       expect(auto).toContain('Em 28/10/2026, só o Aos Fatos marcava falas do presidente dessa forma');
