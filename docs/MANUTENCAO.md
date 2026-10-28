@@ -155,4 +155,4 @@ Os workflows usam cada action fixada pelo SHA do commit, com a versão em coment
 (`actions/checkout@3d3c42e... # v7.0.1`): uma tag pode ser movida para outro código, um SHA não. Para atualizar, pegue
 o SHA da versão nova (`git ls-remote --tags https://github.com/actions/checkout`), troque o SHA e o comentário juntos e
 rode `npm test` (o teste `tests/workflows.test.ts` recusa action sem SHA, `${{ }}` dentro de comando de shell e
-checkout que guarda o token fora do job que grava os dados).
+checkout que guarda o token fora dos jobs que fazem push: o que grava os dados e o de captura de páginas).

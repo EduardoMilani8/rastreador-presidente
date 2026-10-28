@@ -17,7 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v7
+      # Guarda o token de propósito: o job faz push da branch de captura.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Baixar e gravar na branch de captura
         env:
           ENDERECOS: ${{ inputs.enderecos }}
@@ -42,6 +43,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add captura
-          git commit -q -m "captura de páginas para fixtures (execução ${{ github.run_id }})"
+          git commit -q -m "captura de páginas para fixtures (execução $GITHUB_RUN_ID)"
           git push -q origin "HEAD:refs/heads/$RAMO"
           echo "Gravado na branch $RAMO"
