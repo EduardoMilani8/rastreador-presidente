@@ -15,7 +15,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.
 - **Notícias**, uma página separada (o site tem cinco: Capa, Registros, Notícias, Falas checadas e Sobre): o que a
   imprensa publicou, sem misturar com o registro oficial.
-- **Falas checadas**, outra página separada: checagens de falas do presidente feitas por agências independentes de
+- **[Falas checadas](https://rastreadordopresidente.com.br/falas.html)**, outra página separada: checagens de falas do presidente feitas por agências independentes de
   checagem, com link para cada uma. O site não checa nada por conta própria.
 - **Fonte em tudo**: cada item tem link para o documento público de origem. Item sem fonte não entra.
 - **[Sobre e metodologia](https://rastreadordopresidente.com.br/sobre.html)**: o que cada status

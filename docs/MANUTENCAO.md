@@ -141,9 +141,9 @@ checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
 
 ## Prévia de link (imagem e texto ao compartilhar)
 
-As quatro páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
+As cinco páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
 porque quem monta a prévia lê a página de fora e não resolve caminho relativo. Se o domínio mudar, troque o endereço
-nas quatro páginas de `site/` e em `tests/site/paginas.test.ts`.
+nas cinco páginas de `site/` e em `tests/site/paginas.test.ts`.
 
 A imagem é `site/public/capa-social.png` (1200 × 630). Para refazê-la depois de mudar fontes ou cores:
 `python3 scripts/gerar-capa-social.py` (precisa do Pillow).

@@ -1,7 +1,7 @@
 # Falas checadas: design
 
-Data: 27/10/2026. Situação: aprovado na conversa de brainstorming. A fase 1 é implementada agora; a fase 2 depende de
-uma captura real da fonte (ver "Fase 2").
+Data: 27/10/2026. Situação: fase 1 implementada e revisada (pull request #14, 28/10/2026); a fase 2 depende de uma
+captura real da fonte (ver "Fase 2").
 
 ## Propósito
 
