@@ -4,8 +4,10 @@ import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { carregarFalas } from '../../site/src/dados';
-import { lerTipoFala, montarPaginaFalas, ROTULO_TIPO_FALA, type DadosFalas } from '../../site/src/falas';
-import { TipoFalaSchema, type FalaChecada } from '../../src/shared/schema';
+import {
+  agruparFrases, formatarVeredito, lerTipoFala, montarPaginaFalas, CHECAGENS_A_VISTA, ROTULO_TIPO_FALA, type DadosFalas,
+} from '../../site/src/falas';
+import { TipoFalaSchema, type FalaChecada, type FraseChecada } from '../../src/shared/schema';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const PAGINA = () => readFileSync(resolve(process.cwd(), 'site/falas.html'), 'utf8');
@@ -29,8 +31,19 @@ const PODCAST = fala({
   agencia: 'afp-checamos', agenciaNome: 'AFP Checamos', titulo: 'Checamos o podcast',
   url: 'https://checamos.afp.com/doc.afp.com.ABC', publicadaEm: '2026-05-04',
 });
+const FRASE: FraseChecada = {
+  id: 'aos-fatos-0123456789ab',
+  frase: 'Um senador da República que tem coragem de assinar uma petição defendendo o assassino de uma criança de cinco anos de idade',
+  data: '2026-10-01', agencia: 'aos-fatos', agenciaNome: 'Aos Fatos', veredito: 'não_é_bem_assim',
+  url: 'https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow/', titulo: 'Checamos a entrevista de Lula ao Flow',
+  publicadaEm: '2026-10-01', coletadoEm: T,
+};
+const frase = (n: number, extra: Partial<FraseChecada> = {}): FraseChecada => ({
+  ...FRASE, id: `aos-fatos-${String(n).padStart(12, '0')}`, frase: `Frase número ${n} dita pelo presidente`, ...extra,
+});
+
 const dados = (falas: FalaChecada[], extra: Partial<DadosFalas> = {}): DadosFalas => ({
-  falas, estado: { fontes: { checagens: { ok: true, desde: T } }, ultimaNovidadeEm: '2026-10-27T14:30:00.000Z' },
+  falas, frases: [], estado: { fontes: { checagens: { ok: true, desde: T } }, ultimaNovidadeEm: '2026-10-27T14:30:00.000Z' },
   incompleto: false, ...extra,
 });
 
@@ -49,8 +62,13 @@ describe('site/falas.html', () => {
     expect(aviso).toContain('Esta seção não é registro oficial.');
     expect(aviso).toContain('agências independentes de checagem');
     expect(aviso).toContain('O Rastreador não avalia falas');
-    expect(document.querySelector('#painel-falas > ol#lista-falas')).not.toBeNull();
-    expect(document.querySelector('#painel-falas > #filtro-falas')).not.toBeNull();
+    expect(aviso).toContain('As frases e os vereditos são atribuídos ao presidente pelas próprias agências.');
+    const secoes = [...document.querySelectorAll('#painel-falas > section')];
+    expect(secoes.map((s) => s.querySelector('h2')!.textContent)).toEqual(['Frases checadas pelas agências', 'Checagens de eventos (lista conferida à mão)']);
+    expect(secoes.map((s) => s.getAttribute('aria-labelledby'))).toEqual(secoes.map((s) => s.querySelector('h2')!.id));
+    expect(secoes[0].querySelector(':scope > ol#lista-frases')).not.toBeNull();
+    expect(secoes[1].querySelector(':scope > ol#lista-falas')).not.toBeNull();
+    expect(secoes[1].querySelector(':scope > #filtro-falas')).not.toBeNull();
   });
 
   it('carrega só o próprio módulo', () => {
@@ -84,7 +102,7 @@ describe('montarPaginaFalas', () => {
     montarPaginaFalas(document, dados([f, PODCAST]), AGORA, '');
     const [primeiro, segundo] = cartoes();
     expect(cartoes()).toHaveLength(2);
-    expect(primeiro.querySelector('h2')!.textContent).toBe('Entrevista a um podcast');
+    expect(primeiro.querySelector('h3')!.textContent).toBe('Entrevista a um podcast');
     expect(segundo.id).toBe('fala-2026-03-12-aos-fatos-entrevista');
     const texto = segundo.textContent!.replace(/\s+/g, ' ');
     expect(segundo.querySelector('.evento-meta')!.textContent).toBe('Entrevista · 12/03/2026');
@@ -181,6 +199,103 @@ describe('montarPaginaFalas', () => {
   });
 });
 
+describe('frases checadas pelas agências (automático)', () => {
+  const grupos = () => [...document.querySelectorAll<HTMLElement>('#lista-frases > li.checagem-auto')];
+
+  it('formatarVeredito só deixa legível: troca _ por espaço e põe a 1ª letra maiúscula', () => {
+    expect(formatarVeredito('não_é_bem_assim')).toBe('Não é bem assim');
+    expect(formatarVeredito('falso')).toBe('Falso');
+    expect(formatarVeredito('Fora de contexto')).toBe('Fora de contexto');
+  });
+
+  it('um cartão por checagem, com título, agência, data, frases entre aspas, veredito e link para a checagem', () => {
+    const outra = frase(2, { frase: 'Outra frase dita na mesma entrevista ao podcast', veredito: 'falso' });
+    montarPaginaFalas(document, dados([], { frases: [FRASE, outra] }), AGORA, '');
+    expect(grupos()).toHaveLength(1);
+    const g = grupos()[0];
+    expect(g.querySelector('h3')!.textContent).toBe('Checamos a entrevista de Lula ao Flow');
+    expect(g.querySelector('.local')!.textContent).toBe('Aos Fatos · checagem publicada em 01/10/2026');
+    const itens = [...g.querySelectorAll('ul.frases > li')];
+    // A API não diz a ordem das frases na matéria: a ordem é estável (data, depois id), mas não importa aqui.
+    const pares = itens.map((li) => [li.querySelector('blockquote')!.textContent, li.querySelector('.veredito')!.textContent]);
+    expect(pares.sort()).toEqual([
+      ['“Outra frase dita na mesma entrevista ao podcast”', 'Veredito da agência: Falso'],
+      [`“${FRASE.frase}”`, 'Veredito da agência: Não é bem assim'],
+    ]);
+    const link = g.querySelector('.fala-link a')!;
+    expect(link.textContent).toBe('Ler a checagem completa em Aos Fatos');
+    expect(link.getAttribute('href')).toBe(FRASE.url);
+    expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+  });
+
+  it('sem título, o cartão diz de quem é a checagem', () => {
+    const { titulo: _t, ...semTitulo } = FRASE;
+    montarPaginaFalas(document, dados([], { frases: [semTitulo] }), AGORA, '');
+    expect(grupos()[0].querySelector('h3')!.textContent).toBe('Checagem de Aos Fatos');
+  });
+
+  it('agruparFrases: da checagem mais recente à mais antiga, independente da ordem do arquivo', () => {
+    const a = frase(1, { url: 'https://www.aosfatos.org/noticias/a/', publicadaEm: '2026-09-17' });
+    const b = frase(2, { url: 'https://www.aosfatos.org/noticias/b/', publicadaEm: '2026-10-01' });
+    const c = frase(3, { url: 'https://www.aosfatos.org/noticias/a/', publicadaEm: '2026-09-17' });
+    const ordem = (fs: FraseChecada[]) => agruparFrases(fs).map((g) => [g.url, g.frases.map((f) => f.id)]);
+    expect(ordem([a, b, c])).toEqual(ordem([c, b, a]));
+    expect(ordem([a, b, c]).map(([u]) => u)).toEqual(['https://www.aosfatos.org/noticias/b/', 'https://www.aosfatos.org/noticias/a/']);
+  });
+
+  it(`mais de ${CHECAGENS_A_VISTA} checagens: as mais recentes à vista e o resto em "Checagens anteriores"`, () => {
+    const muitas = Array.from({ length: CHECAGENS_A_VISTA + 3 }, (_, i) =>
+      frase(i, { url: `https://www.aosfatos.org/noticias/c${i}/`, publicadaEm: `2026-${String(1 + Math.floor(i / 28)).padStart(2, '0')}-${String(1 + (i % 28)).padStart(2, '0')}` }));
+    montarPaginaFalas(document, dados([], { frases: muitas }), AGORA, '');
+    expect(grupos()).toHaveLength(CHECAGENS_A_VISTA);
+    const resto = document.querySelector('#frases-anteriores details')!;
+    expect(resto.querySelector('summary')!.textContent).toBe('Checagens anteriores (3)');
+    expect(resto.querySelectorAll('li.checagem-auto')).toHaveLength(3);
+    expect((document.getElementById('frases-anteriores') as HTMLElement).hidden).toBe(false);
+  });
+
+  it('sem frases: mensagem própria, sem bloco de anteriores', () => {
+    montarPaginaFalas(document, dados([]), AGORA, '');
+    expect(document.querySelector('#lista-frases > li.vazio')!.textContent).toBe('Nenhuma frase checada coletada até agora.');
+    expect((document.getElementById('frases-anteriores') as HTMLElement).hidden).toBe(true);
+  });
+
+  it('checagem manual com a mesma URL de uma automática aparece só na automática', () => {
+    const manual = fala({ url: FRASE.url, agencia: 'aos-fatos' });
+    montarPaginaFalas(document, dados([manual, PODCAST], { frases: [FRASE] }), AGORA, '');
+    expect(cartoes().map((c) => c.id)).toEqual(['fala-2026-05-02-afp-podcast']);
+    expect(filtros().map((a) => a.textContent)).toEqual(['Todas (1)', 'Podcasts (1)']);
+  });
+
+  it('remontar não duplica nada', () => {
+    const muitas = Array.from({ length: CHECAGENS_A_VISTA + 1 }, (_, i) => frase(i, { url: `https://www.aosfatos.org/noticias/d${i}/` }));
+    montarPaginaFalas(document, dados([], { frases: muitas }), AGORA, '');
+    montarPaginaFalas(document, dados([], { frases: muitas }), AGORA, '');
+    expect(document.querySelectorAll('li.checagem-auto')).toHaveLength(CHECAGENS_A_VISTA + 1);
+  });
+
+  it('texto da agência entra só como texto e URL que não é https não vira link', () => {
+    const ataque = '<img src=x onerror="alert(1)">';
+    montarPaginaFalas(document, dados([], { frases: [{ ...FRASE, frase: ataque, veredito: ataque, titulo: ataque, agenciaNome: ataque, url: 'javascript:alert(1)' }] }), AGORA, '');
+    const g = grupos()[0];
+    expect(g.querySelector('img, [onerror]')).toBeNull();
+    expect(g.textContent).toContain(ataque);
+    expect(g.querySelector('a')).toBeNull();
+  });
+
+  it('avisa quando a fonte automática está com falha', () => {
+    montarPaginaFalas(document, dados([], { estado: { fontes: { frases: { ok: false, desde: T, mensagem: 'x' } } } }), AGORA, '');
+    expect(document.getElementById('aviso-fontes')!.textContent).toContain('Frases checadas (Google Fact Check)');
+  });
+
+  it('axe: sem violações com as duas seções preenchidas', async () => {
+    const muitas = Array.from({ length: CHECAGENS_A_VISTA + 2 }, (_, i) => frase(i, { url: `https://www.aosfatos.org/noticias/e${i}/` }));
+    montarPaginaFalas(document, dados([fala(), PODCAST], { frases: muitas }), AGORA, '');
+    const r = await axe.run(document.documentElement, { rules: { 'color-contrast': { enabled: false } } });
+    expect(r.violations.map((v) => `${v.id}: ${v.nodes[0].html}`)).toEqual([]);
+  });
+});
+
 describe('carregarFalas', () => {
   afterEach(() => vi.unstubAllGlobals());
 
@@ -189,16 +304,19 @@ describe('carregarFalas', () => {
   const STATUS = { fontes: { checagens: { ok: true, desde: T } } };
 
   it('lê falas.json e status.json; item inválido é descartado sem derrubar os outros', async () => {
-    stub({ 'data/status.json': STATUS, 'data/falas.json': [fala(), { ...fala(), url: 'http://inseguro.example/' }, { lixo: 1 }] });
+    stub({ 'data/status.json': STATUS, 'data/falas.json': [fala(), { ...fala(), url: 'http://inseguro.example/' }, { lixo: 1 }], 'data/frases-checadas.json': [FRASE, { ...FRASE, url: 'javascript:x' }] });
     const d = await carregarFalas();
     expect(d.falas).toEqual([fala()]);
+    expect(d.frases).toEqual([FRASE]);
     expect(d.incompleto).toBe(false);
     expect(d.estado).toEqual(STATUS);
   });
 
   it('sem falas.json, ou com corpo que não é lista, a lista fica vazia e a página avisa', async () => {
-    stub({ 'data/status.json': STATUS });
+    stub({ 'data/status.json': STATUS, 'data/frases-checadas.json': [] });
     expect(await carregarFalas()).toMatchObject({ falas: [], incompleto: true });
+    stub({ 'data/status.json': STATUS, 'data/falas.json': [] });
+    expect(await carregarFalas()).toMatchObject({ frases: [], incompleto: true });
     stub({ 'data/status.json': STATUS, 'data/falas.json': { a: 1 } });
     expect(await carregarFalas()).toMatchObject({ falas: [], incompleto: true });
   });

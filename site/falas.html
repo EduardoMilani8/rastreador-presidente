@@ -46,9 +46,18 @@
     <h1>Falas checadas</h1>
     <noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>
     <div id="painel-falas">
-      <p class="aviso-imprensa">Esta seção não é registro oficial. Ela reúne checagens de falas do presidente feitas por agências independentes de checagem, em entrevistas, podcasts, discursos e debates. Quem escolhe o que checar e dá o veredito são as agências. O Rastreador não avalia falas: cada item leva à checagem completa. <a href="sobre.html#falas">Como esta lista é feita</a>.</p>
-      <div id="filtro-falas" class="filtro-falas" hidden></div>
-      <ol id="lista-falas" class="lista falas"></ol>
+      <p class="aviso-imprensa">Esta seção não é registro oficial. Ela reúne checagens de falas do presidente feitas por agências independentes de checagem, em entrevistas, podcasts, discursos e debates. Quem escolhe o que checar e dá o veredito são as agências. O Rastreador não avalia falas: cada item leva à checagem completa. As frases e os vereditos são atribuídos ao presidente pelas próprias agências. <a href="sobre.html#falas">Como esta lista é feita</a>.</p>
+      <section aria-labelledby="titulo-frases">
+        <h2 id="titulo-frases">Frases checadas pelas agências</h2>
+        <p class="discreto">Coletadas automaticamente das marcações de checagem que as agências publicam.</p>
+        <ol id="lista-frases" class="lista falas"></ol>
+        <div id="frases-anteriores" hidden></div>
+      </section>
+      <section aria-labelledby="titulo-eventos">
+        <h2 id="titulo-eventos">Checagens de eventos (lista conferida à mão)</h2>
+        <div id="filtro-falas" class="filtro-falas" hidden></div>
+        <ol id="lista-falas" class="lista falas"></ol>
+      </section>
     </div>
   </main>
 
