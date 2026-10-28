@@ -25,10 +25,9 @@
       "desde": "2026-10-28T01:26:27.217Z"
     },
     "frases": {
-      "ok": false,
-      "desde": "2026-10-28T02:18:45.543Z",
-      "mensagem": "agencialupa.org: Error: Falha ao buscar https://factchecktools.googleapis.com/v1alpha1/claims:search?query=Lula&languageCode=pt&pageSize=100&reviewPublisherSiteFilter=agencialupa.org: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-10-28T02:50:16.705Z"
+  "ultimaNovidadeEm": "2026-10-28T03:00:26.582Z"
 }
