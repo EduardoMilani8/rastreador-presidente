@@ -1,11 +1,11 @@
 name: Capturar página para teste
-# Baixa páginas https://www.gov.br/... e grava o HTML numa branch captura/<execução>, para virar fixture de teste
-# (fora do Actions não há acesso ao gov.br). Não toca no main nem em data/.
+# Baixa páginas https://www.gov.br/... (ou matérias https://www.aosfatos.org/noticias/...) e grava o HTML numa branch
+# captura/<execução>, para virar fixture de teste (fora do Actions não há acesso a esses sites). Não toca no main nem em data/.
 on:
   workflow_dispatch:
     inputs:
       enderecos:
-        description: 'Endereços https://www.gov.br/... separados por espaço (aceita ?b_start:int=N)'
+        description: 'Endereços https://www.gov.br/... ou https://www.aosfatos.org/noticias/... separados por espaço (aceita ?b_start:int=N)'
         type: string
         required: true
 
@@ -25,13 +25,13 @@ jobs:
           RAMO: captura/${{ github.run_id }}
           UA: 'Mozilla/5.0 (X11; Linux x86_64) RastreadorPresidente/0.1 (+${{ github.server_url }}/${{ github.repository }})'
         run: |
-          permitido='^https://www\.gov\.br/[A-Za-z0-9._~/@+%=:-]*(\?b_start:int=[0-9]+)?$'
+          permitido='^(https://www\.gov\.br/[A-Za-z0-9._~/@+%=:-]*(\?b_start:int=[0-9]+)?|https://www\.aosfatos\.org/noticias/[a-z0-9-]+/)$'
           git switch -q --orphan "$RAMO"
           mkdir -p captura
           n=0
           for u in $ENDERECOS; do
             if ! [[ "$u" =~ $permitido ]]; then
-              echo "Ignorado: só https://www.gov.br/... (parâmetro aceito: ?b_start:int=N): $u"
+              echo "Ignorado: só https://www.gov.br/... (parâmetro aceito: ?b_start:int=N) ou https://www.aosfatos.org/noticias/...: $u"
               continue
             fi
             n=$((n + 1))
