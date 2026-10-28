@@ -1,0 +1,79 @@
+name: Testar Fact Check API
+# Só leitura: consulta a Fact Check Tools API do Google (checagens marcadas com ClaimReview) e resume o que as agências
+# aceitas publicam sobre o presidente, para decidir se dá para consumir essa fonte. Não grava nada no repositório.
+# Precisa do segredo FACTCHECK_API_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      consulta:
+        description: 'Texto buscado nas checagens'
+        type: string
+        default: 'Lula'
+      paginas:
+        description: 'Páginas de 100 resultados por agência (1 a 5)'
+        type: string
+        default: '3'
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Consultar e resumir
+        env:
+          CHAVE: ${{ secrets.FACTCHECK_API_KEY }}
+          CONSULTA: ${{ inputs.consulta }}
+          PAGINAS: ${{ inputs.paginas }}
+        run: |
+          if [ -z "$CHAVE" ]; then
+            echo "Falta o segredo FACTCHECK_API_KEY (Settings → Secrets and variables → Actions)." >&2
+            exit 1
+          fi
+          if ! [[ "$PAGINAS" =~ ^[1-5]$ ]]; then
+            echo "Páginas deve ser um número de 1 a 5." >&2
+            exit 2
+          fi
+          api='https://factchecktools.googleapis.com/v1alpha1/claims:search'
+          consultar() { # $1 = filtro de site (vazio = todos), $2 = token da página
+            curl -sS -m 30 --get "$api" \
+              --data-urlencode "query=$CONSULTA" --data-urlencode 'languageCode=pt' --data-urlencode 'pageSize=100' \
+              --data-urlencode "key=$CHAVE" \
+              ${1:+--data-urlencode "reviewPublisherSiteFilter=$1"} ${2:+--data-urlencode "pageToken=$2"}
+          }
+          # Endereços como as agências aparecem nas marcações; a AFP e o Estadão podem usar mais de um.
+          for site in aosfatos.org estadao.com.br checamos.afp.com afp.com agencialupa.org lupa.uol.com.br ''; do
+            echo
+            echo "=================== ${site:-todas as agências (sem filtro)}"
+            : > itens.json
+            token=''
+            for _ in $(seq "$PAGINAS"); do
+              if ! resposta=$(consultar "$site" "$token"); then echo "Falha de rede."; break; fi
+              if echo "$resposta" | jq -e '.error' > /dev/null 2>&1; then
+                echo "Erro da API: $(echo "$resposta" | jq -c '.error | {code, status, message}')"
+                break
+              fi
+              echo "$resposta" | jq -c '.claims[]?' >> itens.json
+              token=$(echo "$resposta" | jq -r '.nextPageToken // empty')
+              sleep 1
+              if [ -z "$token" ]; then break; fi
+            done
+            echo "Checagens encontradas: $(wc -l < itens.json)"
+            [ -s itens.json ] || continue
+            echo "-- Quem disse (campo claimant, como a agência preencheu), mais frequentes:"
+            jq -r '.claimant // "(vazio)"' itens.json | sort | uniq -c | sort -rn | head -15
+            echo "-- Agências (publisher.site) e vereditos (textualRating), mais frequentes:"
+            jq -r '.claimReview[]? | "\(.publisher.site // "?") | \(.textualRating // "(sem veredito)")"' itens.json \
+              | sort | uniq -c | sort -rn | head -15
+            echo "-- Itens cujo autor parece ser o presidente (até 5):"
+            jq -c 'select((.claimant // "") | test("lula"; "i")) | {
+                claimant, claimDate, frase: ((.text // "") | .[0:160]),
+                checagens: [.claimReview[]? | {site: .publisher.site, veredito: .textualRating, data: .reviewDate, url}]
+              }' itens.json | head -5
+            echo "-- Itens que citam Lula no texto mas com outro autor (até 5; possíveis boatos sobre ele):"
+            jq -c 'select(((.claimant // "") | test("lula"; "i") | not) and ((.text // "") | test("lula"; "i"))) | {
+                claimant, frase: ((.text // "") | .[0:160]), veredito: [.claimReview[]?.textualRating]
+              }' itens.json | head -5
+          done

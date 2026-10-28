@@ -22,8 +22,8 @@ function linhasDeShell(yml: string): string[] {
 }
 
 describe('workflows do GitHub Actions', () => {
-  it('lê os quatro workflows', () => {
-    expect(workflows.map(([a]) => a).sort()).toEqual(['capturar-pagina.yml', 'ci.yml', 'testar-feed.yml', 'update.yml']);
+  it('lê os cinco workflows', () => {
+    expect(workflows.map(([a]) => a).sort()).toEqual(['capturar-pagina.yml', 'ci.yml', 'testar-factcheck.yml', 'testar-feed.yml', 'update.yml']);
   });
 
   it.each(workflows.map(([a]) => a))('%s: toda action é fixada por SHA de 40 caracteres, com a versão em comentário', (arquivo) => {
@@ -57,5 +57,13 @@ describe('workflows do GitHub Actions', () => {
       }
     }
     expect(comToken.sort()).toEqual(FAZEM_PUSH);
+  });
+
+  it('testar-factcheck.yml só lê: permissão contents: read e a chave só por env', () => {
+    const yml = workflows.find(([a]) => a === 'testar-factcheck.yml')![1];
+    expect(yml).toMatch(/^permissions:\n  contents: read$/m);
+    expect(yml).not.toMatch(/git (push|commit)/);
+    expect(yml).toContain('CHAVE: ${{ secrets.FACTCHECK_API_KEY }}');
+    expect(linhasDeShell(yml).join('\n')).not.toMatch(/echo[^\n]*\$CHAVE/);
   });
 });
