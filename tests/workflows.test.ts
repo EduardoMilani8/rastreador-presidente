@@ -22,8 +22,8 @@ function linhasDeShell(yml: string): string[] {
 }
 
 describe('workflows do GitHub Actions', () => {
-  it('lê os três workflows', () => {
-    expect(workflows.map(([a]) => a).sort()).toEqual(['ci.yml', 'testar-feed.yml', 'update.yml']);
+  it('lê os quatro workflows', () => {
+    expect(workflows.map(([a]) => a).sort()).toEqual(['capturar-pagina.yml', 'ci.yml', 'testar-feed.yml', 'update.yml']);
   });
 
   it.each(workflows.map(([a]) => a))('%s: toda action é fixada por SHA de 40 caracteres, com a versão em comentário', (arquivo) => {
@@ -46,15 +46,16 @@ describe('workflows do GitHub Actions', () => {
     expect(yml).not.toMatch(/write-all/);
   });
 
-  it('só o job que grava os dados guarda o token no checkout; os outros usam persist-credentials: false', () => {
-    let comToken = 0;
+  // Só quem faz push guarda o token: o job que grava os dados e o que grava a branch de captura de páginas.
+  const FAZEM_PUSH = ['capturar-pagina.yml', 'update.yml'];
+
+  it('só os jobs que fazem push guardam o token no checkout; os outros usam persist-credentials: false', () => {
+    const comToken: string[] = [];
     for (const [arquivo, yml] of workflows) {
       for (const m of yml.matchAll(/uses: actions\/checkout@\S+[^\n]*\n((?:\s+(?:with:|\w[\w-]*:).*\n)*)/g)) {
-        if (/persist-credentials: false/.test(m[1])) continue;
-        comToken++;
-        expect(arquivo).toBe('update.yml');
+        if (!/persist-credentials: false/.test(m[1])) comToken.push(arquivo);
       }
     }
-    expect(comToken).toBe(1);
+    expect(comToken.sort()).toEqual(FAZEM_PUSH);
   });
 });
