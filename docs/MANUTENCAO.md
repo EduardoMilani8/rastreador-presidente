@@ -179,8 +179,9 @@ execução local sem a chave, a fonte é simplesmente pulada.
 - `falta o segredo FACTCHECK_API_KEY`: o segredo foi apagado ou renomeado.
 - `chave da Fact Check API recusada; confira o segredo FACTCHECK_API_KEY`: a chave expirou, foi apagada no Google
   Cloud ou perdeu a restrição certa. Crie outra e troque o segredo.
-- `503 UNAVAILABLE` e parecidos: a API do Google está fora. Acontece; a coleta seguinte tenta de novo e nada já
-  publicado some.
+- `503 UNAVAILABLE` e parecidos: a API do Google está fora. Ela responde 503 em rajadas curtas, então a agência que
+  falha é tentada de novo no fim da mesma rodada; o aviso só aparece se falhar também nessa segunda vez. A hora
+  seguinte tenta outra vez, e nada já publicado some.
 
 **Tirar uma frase marcada errado.** Se uma agência atribuir ao presidente uma frase que não é dele, ache o `id` do
 item em `data/frases-checadas.json` e acrescente em `config/frases-excluidas.json`:
