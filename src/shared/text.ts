@@ -11,10 +11,11 @@ export function limparEspacos(s: string): string {
   return s.replace(/\s+/g, ' ').trim();
 }
 
+// Usuário ou senha na URL ("https://www.gov.br@golpe.example/") fazem o endereço parecer de outro site.
 export function urlHttpsSegura(u: string): string | null {
   try {
     const url = new URL(u);
-    return url.protocol === 'https:' ? url.toString() : null;
+    return url.protocol === 'https:' && !url.username && !url.password ? url.toString() : null;
   } catch {
     return null;
   }

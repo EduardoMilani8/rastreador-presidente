@@ -1,3 +1,4 @@
+import './zod-sem-eval';
 import { dataSaoPaulo } from '../../src/shared/text';
 import { avisarFalha } from './avisar-falha';
 import { montarHoje } from './comum';

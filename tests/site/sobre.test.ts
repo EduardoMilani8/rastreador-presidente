@@ -4,7 +4,9 @@ import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { ICONES } from '../../site/src/icones';
+import { ROTULO_TIPO_FALA } from '../../site/src/falas';
 import { CIDADES_A_VISTA, faixaDeCidade } from '../../site/src/viagens';
+import { carregarAgencias } from '../../src/pipeline/falas';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const ler = (arq: string) => readFileSync(resolve(process.cwd(), arq), 'utf8');
@@ -57,7 +59,7 @@ describe('site/sobre.html', () => {
   });
 
   it('marca a própria página na navegação e mantém rodapé, título e idioma', () => {
-    // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
+    // A igualdade da navegação entre as cinco páginas é verificada em paginas.test.ts.
     expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
     expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
     expect(document.querySelector('h1')!.textContent).toBe('Como este site funciona');
@@ -79,6 +81,7 @@ describe('site/sobre.html', () => {
     expect(new Set(repos)).toEqual(new Set([
       'https://github.com/EduardoMilani8/rastreador-presidente',
       'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json',
+      'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json',
     ]));
     expect(html).toContain('href="./style.css"');
   });
@@ -292,6 +295,50 @@ describe('site/sobre.html', () => {
       expect(CIDADES_A_VISTA).toBe(9);
       const fronteiras = [1, 2, 3, 7, 8, 15, 16, 30, 31].map(faixaDeCidade);
       expect(fronteiras).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5]);
+    });
+  });
+
+  describe('seção das falas checadas', () => {
+    const secao = () => {
+      const h2 = document.getElementById('falas')!;
+      expect(h2.tagName).toBe('H2');
+      return h2.nextElementSibling as HTMLElement;
+    };
+    const texto = () => secao().textContent!.replace(/\s+/g, ' ');
+
+    it('vem depois das viagens e antes dos limites, e as fontes citam a página separada', () => {
+      const h2 = document.getElementById('falas')!;
+      expect(h2.textContent).toBe('Como as falas checadas são escolhidas');
+      expect(document.getElementById('viagens')!.compareDocumentPosition(h2) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+      expect(h2.compareDocumentPosition(document.querySelector('.limites')!) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+      const fontes = document.getElementById('fontes')!.nextElementSibling!.nextElementSibling!.textContent!.replace(/\s+/g, ' ');
+      expect(fontes).toMatch(/Falas checadas \(página separada\): .*avaliação das agências, não registro oficial/);
+    });
+
+    it('cita, pelo nome, exatamente as agências de config/agencias.json e o critério da IFCN', () => {
+      for (const a of carregarAgencias()) expect(texto()).toContain(a.nome);
+      expect(texto()).toContain('verificadas pela IFCN');
+      expect(texto()).not.toMatch(/Comprova/);
+    });
+
+    it('diz como a lista é feita e o que fica de fora', () => {
+      expect(texto()).toContain('A lista é feita e conferida à mão');
+      expect(texto()).toContain('Checagem de boato ou de frase falsa atribuída ao presidente não entra.');
+      expect(texto()).toContain('O site não faz checagem própria nem dá nota');
+      expect(texto()).toContain('aparece no item como errata');
+      expect(texto()).toContain('não entram nos números da capa nem na página Registros');
+      const link = secao().querySelector('a')!;
+      expect(link.textContent).toBe('config/checagens.json');
+      expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json');
+      expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+    });
+
+    it('os tipos de fala citados são os do esquema', () => {
+      for (const t of Object.values(ROTULO_TIPO_FALA)) expect(texto().toLowerCase()).toContain(t.varios.toLowerCase());
+    });
+
+    it('a página Falas checadas aponta para esta seção', () => {
+      expect(ler('site/falas.html')).toContain('href="sobre.html#falas"');
     });
   });
 

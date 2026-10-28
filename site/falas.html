@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Falas checadas — Rastreador do Presidente</title>
+  <meta name="description" content="Checagens de falas do Presidente da República feitas por agências independentes de checagem. Não são registros oficiais.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rastreador do Presidente">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Falas checadas — Rastreador do Presidente">
+  <meta property="og:description" content="Checagens de falas do Presidente da República feitas por agências independentes de checagem. Não são registros oficiais.">
+  <meta property="og:url" content="https://rastreadordopresidente.com.br/falas.html">
+  <meta property="og:image" content="https://rastreadordopresidente.com.br/capa-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Rastreador do Presidente: a agenda oficial e os atos do Presidente da República, com a fonte pública de cada registro.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/main-falas.ts"></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="faixa">
+      <div class="faixa-dentro">
+        <a class="marca" href="./">Rastreador do Presidente</a>
+        <p class="datado"><span id="hoje"></span> <span id="ultima-novidade"></span></p>
+        <nav aria-label="Seções do site" class="abas">
+          <a href="./">Capa</a>
+          <a id="aba-linha" href="registros.html">Registros</a>
+          <a id="aba-noticias" href="noticias.html">Notícias</a>
+          <a id="aba-falas" href="falas.html" aria-current="page">Falas checadas</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
+    </div>
+    <div class="avisos">
+      <p id="aviso-desatualizado" class="aviso" role="status" hidden></p>
+      <p id="aviso-fontes" class="aviso" role="status" hidden></p>
+      <p id="aviso-incompleto" class="aviso" role="status" hidden></p>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <h1>Falas checadas</h1>
+    <noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>
+    <div id="painel-falas">
+      <p class="aviso-imprensa">Esta seção não é registro oficial. Ela reúne checagens de falas do presidente feitas por agências independentes de checagem, em entrevistas, podcasts, discursos e debates. Quem escolhe o que checar e dá o veredito são as agências. O Rastreador não avalia falas: cada item leva à checagem completa. <a href="sobre.html#falas">Como esta lista é feita</a>.</p>
+      <div id="filtro-falas" class="filtro-falas" hidden></div>
+      <ol id="lista-falas" class="lista falas"></ol>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto independente, sem vínculo com o governo. Todos os dados vêm de fontes públicas, linkadas em cada item. <a href="sobre.html">Como funciona</a>. O <a href="https://github.com/EduardoMilani8/rastreador-presidente" rel="noopener noreferrer">código e os dados são abertos</a>.</p>
+  </footer>
+</body>
+</html>

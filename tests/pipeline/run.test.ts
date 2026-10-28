@@ -935,3 +935,58 @@ describe('retroagir', () => {
     expect(falhas).toEqual(['2025-03-09', '2025-03-10']);
   });
 });
+
+describe('falas checadas (data/falas.json)', () => {
+  const AGENCIAS = [{ id: 'aos-fatos', nome: 'Aos Fatos', prefixos: ['https://www.aosfatos.org/noticias/'] }];
+  const CHECAGEM = {
+    id: '2025-03-05-aos-fatos-entrevista', data: '2025-03-05', tipo: 'entrevista', evento: 'Entrevista a uma rádio',
+    agencia: 'aos-fatos', titulo: 'Checamos a entrevista', url: 'https://www.aosfatos.org/noticias/checamos-entrevista/',
+    publicadaEm: '2025-03-06',
+  };
+  const lerFalas = async (dir: string) => JSON.parse(await readFile(join(dir, 'falas.json'), 'utf8'));
+
+  it('grava as checagens com o nome da agência, marca a fonte como ok e não reescreve na execução seguinte', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [CHECAGEM], agencias: AGENCIAS } };
+    await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual([{ ...CHECAGEM, agenciaNome: 'Aos Fatos' }]);
+    expect((await lerEstado(deps.dataDir)).fontes.checagens.ok).toBe(true);
+    expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+  });
+
+  it('tabela vazia grava lista vazia', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [], agencias: AGENCIAS } };
+    await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual([]);
+  });
+
+  it('tabela inválida: mantém o arquivo anterior, marca a falha com o motivo e as outras fontes seguem', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [CHECAGEM], agencias: AGENCIAS } };
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+    const antes = await lerFalas(deps.dataDir);
+
+    deps.tabelasDeChecagem = { checagens: [CHECAGEM, { ...CHECAGEM, id: '2025-03-05-outra', agencia: 'lupa' }], agencias: AGENCIAS };
+    t += 600_000;
+    const r = await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual(antes);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.checagens.ok).toBe(false);
+    expect(estado.fontes.checagens.mensagem).toMatch(/agência desconhecida \(lupa\)/);
+    expect(estado.fontes.agenda.ok).toBe(true);
+    expect(Object.keys(r.errosDestaExecucao)).toEqual(['checagens']);
+
+    // erro nosso, não de servidor público: depois de 6 horas derruba o workflow (e-mail)
+    t += 6 * 3_600_000;
+    expect((await atualizar(deps)).falhasPersistentes).toEqual(['checagens']);
+  });
+
+  it('sem as tabelas injetadas, usa as reais de config/ (válidas)', async () => {
+    const deps = await novoDeps();
+    deps.mandatos = [{ ...MANDATO }];
+    deps.agora = () => new Date();
+    await atualizar(deps).catch(() => undefined);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.checagens?.ok, estado.fontes.checagens?.mensagem).toBe(true);
+  });
+});

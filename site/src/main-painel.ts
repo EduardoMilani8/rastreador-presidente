@@ -1,3 +1,4 @@
+import './zod-sem-eval';
 import { avisarFalha } from './avisar-falha';
 import { destinoAntigo } from './redirecionar';
 

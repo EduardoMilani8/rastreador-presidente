@@ -6,12 +6,12 @@ import { describe, expect, it } from 'vitest';
 
 // form-action 'self' (e não 'none'): o formulário de filtros é um GET para a própria página.
 const CSP_ESPERADA =
-  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'";
+  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'; trusted-types 'none'";
 
 describe('build de produção', () => {
   it('gera as páginas com CSP exata, sem scripts/estilos inline, e copia os dados', () => {
     execSync('npm run build', { stdio: 'pipe' });
-    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/sobre.html']) {
+    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/falas.html', 'dist/sobre.html']) {
       const html = readFileSync(pagina, 'utf8');
       const metas = [...html.matchAll(/<meta http-equiv="Content-Security-Policy" content="([^"]*)">/g)];
       expect(metas, pagina).toHaveLength(1);
@@ -23,7 +23,7 @@ describe('build de produção', () => {
     }
     expect(readFileSync('dist/sobre.html', 'utf8')).toContain('Sobre e metodologia');
     // cada página com dados leva o próprio módulo (o de sobre.html não tem script) e nenhum caminho absoluto
-    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html']) {
+    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/falas.html']) {
       const html = readFileSync(pagina, 'utf8');
       expect(html, pagina).toMatch(/<script type="module"[^>]* src="\.\/assets\/[^"]+\.js">/);
       expect(html, pagina).not.toMatch(/(src|href)="\/(?!\/)/);

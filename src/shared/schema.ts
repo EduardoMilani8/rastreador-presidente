@@ -2,7 +2,8 @@ import { z } from 'zod';
 
 const dataIso = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const instante = z.string().datetime({ offset: true });
-const urlHttps = z.string().url().refine((u) => u.startsWith('https://'), 'a URL deve ser https');
+const urlHttps = z.string().url().refine((u) => u.startsWith('https://'), 'a URL deve ser https')
+  .refine((u) => URL.canParse(u) && !new URL(u).username && !new URL(u).password, 'a URL não pode ter usuário ou senha');
 
 export const FonteSchema = z.object({
   nome: z.string().min(1),
@@ -98,6 +99,49 @@ export const ViagemSchema = z.object({
   ultimoDia: dataIso,
 }).refine((v) => v.primeiroDia <= v.ultimoDia && v.dias <= v.compromissos, { message: 'período ou contagem incoerente' });
 
+export const TipoFalaSchema = z.enum(['entrevista', 'podcast', 'discurso', 'debate', 'coletiva', 'pronunciamento']);
+
+/** Agência de checagem aceita (signatária verificada da IFCN). A URL de cada checagem tem de começar por um prefixo. */
+export const AgenciaSchema = z.object({
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  nome: z.string().min(1).max(60),
+  prefixos: urlHttps.refine((u) => u.endsWith('/'), 'o prefixo deve terminar em /').array().min(1),
+});
+
+const texto = (max: number) => z.string().trim().min(1).max(max);
+
+/** Checagem de uma fala do presidente, conferida à mão em config/checagens.json. */
+export const ChecagemSchema = z.object({
+  id: z.string().regex(/^\d{4}-\d{2}-\d{2}(?:-[a-z0-9]+)+$/, 'id: data da fala seguida de palavras em minúsculas, com hífens'),
+  data: dataIso,
+  tipo: TipoFalaSchema,
+  evento: texto(200),
+  agencia: z.string().min(1),
+  titulo: texto(300),
+  url: urlHttps,
+  publicadaEm: dataIso,
+  vereditos: z.object({ rotulo: texto(60), frases: z.number().int().positive() }).strict().array().min(1).optional(),
+  errata: z.object({ data: dataIso, texto: texto(600) }).strict().optional(),
+}).strict()
+  .refine((c) => c.id.startsWith(`${c.data}-`), { message: 'o id deve começar pela data da fala', path: ['id'] })
+  .refine((c) => c.publicadaEm >= c.data, { message: 'checagem publicada antes da fala', path: ['publicadaEm'] })
+  .refine((c) => !c.errata || c.errata.data >= c.publicadaEm, { message: 'errata anterior à checagem', path: ['errata'] });
+
+/** Item de data/falas.json: a checagem validada mais o nome da agência. */
+export const FalaChecadaSchema = z.object({
+  id: z.string().min(1),
+  data: dataIso,
+  tipo: TipoFalaSchema,
+  evento: z.string().min(1),
+  agencia: z.string().min(1),
+  agenciaNome: z.string().min(1),
+  titulo: z.string().min(1),
+  url: urlHttps,
+  publicadaEm: dataIso,
+  vereditos: z.object({ rotulo: z.string().min(1), frases: z.number().int().positive() }).array().optional(),
+  errata: z.object({ data: dataIso, texto: z.string().min(1) }).optional(),
+});
+
 export type Fonte = z.infer<typeof FonteSchema>;
 export type Evento = z.infer<typeof EventoSchema>;
 export type Noticia = z.infer<typeof NoticiaSchema>;
@@ -108,3 +152,7 @@ export type Status = z.infer<typeof StatusSchema>;
 export type Resumo = z.infer<typeof ResumoSchema>;
 export type LocalConhecido = z.infer<typeof LocalConhecidoSchema>;
 export type Viagem = z.infer<typeof ViagemSchema>;
+export type TipoFala = z.infer<typeof TipoFalaSchema>;
+export type Agencia = z.infer<typeof AgenciaSchema>;
+export type Checagem = z.infer<typeof ChecagemSchema>;
+export type FalaChecada = z.infer<typeof FalaChecadaSchema>;

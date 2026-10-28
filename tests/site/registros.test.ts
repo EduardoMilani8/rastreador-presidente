@@ -164,7 +164,7 @@ describe('estrutura da página', () => {
     expect(faixa.querySelector('a.marca')!.textContent).toBe('Rastreador do Presidente');
     expect(faixa.querySelector('h1')).toBeNull();
     expect(faixa.querySelector('.datado > #ultima-novidade')).not.toBeNull();
-    expect(faixa.querySelectorAll('nav.abas a')).toHaveLength(4);
+    expect(faixa.querySelectorAll('nav.abas a')).toHaveLength(5);
     for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
       expect(document.querySelector(`header.topo > .avisos > #${id}`), id).not.toBeNull();
     }

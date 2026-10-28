@@ -94,11 +94,65 @@ export const RESULTADO: ResultadoEleicao | null = { eleito: 'Nome', fonteUrl: 'h
 
 Sem endereço `https` válido, o nome não aparece. Depois, rode `npm test`, faça o commit e confira o site.
 
+## Falas checadas: acrescentar uma checagem
+
+A página "Falas checadas" mostra o que está em `config/checagens.json`. A lista é conferida à mão: o robô não procura
+checagens sozinho.
+
+**O que entra:** matéria de uma agência listada em `config/agencias.json` em que ela transcreveu e checou falas do
+**próprio presidente** num evento (entrevista, podcast, discurso, debate, coletiva ou pronunciamento). **Não entra:**
+checagem de boato, montagem ou frase falsa atribuída ao presidente ("é falso que Lula disse..."). Na dúvida, não
+acrescente.
+
+1. No GitHub, abra `config/checagens.json` → ícone de lápis.
+2. Acrescente um item (a ordem no arquivo não importa; o site ordena pela data da fala):
+
+   ```json
+   {
+     "id": "2026-03-12-aos-fatos-entrevista-radio",
+     "data": "2026-03-12",
+     "tipo": "entrevista",
+     "evento": "Entrevista à Rádio Exemplo",
+     "agencia": "aos-fatos",
+     "titulo": "Título exatamente como a agência publicou",
+     "url": "https://www.aosfatos.org/noticias/endereco-da-materia/",
+     "publicadaEm": "2026-03-13",
+     "vereditos": [{ "rotulo": "Falso", "frases": 3 }, { "rotulo": "Verdadeiro", "frases": 5 }]
+   }
+   ```
+
+   - `id`: a data da fala, a agência e duas ou três palavras do evento, em minúsculas e com hífens. Não pode repetir.
+   - `data` é o dia da fala; `publicadaEm`, o dia em que a agência publicou a checagem.
+   - `tipo`: `entrevista`, `podcast`, `discurso`, `debate`, `coletiva` ou `pronunciamento`.
+   - `vereditos` é opcional. Copie os rótulos com as palavras da agência e conte as frases de cada um. Se a matéria não
+     deixar claro, apague o campo.
+   - Se a agência corrigir a matéria depois, acrescente `"errata": { "data": "AAAA-MM-DD", "texto": "..." }`.
+3. Faça o commit com uma mensagem como `checagens: entrevista de 12/03/2026 (Aos Fatos)`.
+
+O CI confere o arquivo. A próxima coleta valida de novo e publica em poucos minutos. Se algo estiver errado (agência
+fora da lista, link que não é da agência, id repetido, data no futuro...), **a lista nova não é publicada**: o site
+continua com a anterior, mostra o aviso "Lista de falas checadas" e o motivo fica em `data/status.json`. Se o erro
+não for corrigido em 6 horas, o workflow passa a falhar e chegam os e-mails.
+
+**Agências:** só entram signatárias verificadas da IFCN. Confira o status antes de incluir: a lista pública
+`https://github.com/IFCN/verified-signatories` pode estar incompleta (em 27/10/2026 não trazia a Lupa, cuja
+verificação foi confirmada à parte em 28/10/2026). Para acrescentar uma, inclua em `config/agencias.json` o `id`, o
+`nome` e os `prefixos` (o começo dos endereços das matérias de checagem, terminando em `/`), atualize a seção "Falas
+checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
+
 ## Prévia de link (imagem e texto ao compartilhar)
 
-As quatro páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
+As cinco páginas trazem marcações Open Graph com o endereço completo do site (`https://rastreadordopresidente.com.br/`),
 porque quem monta a prévia lê a página de fora e não resolve caminho relativo. Se o domínio mudar, troque o endereço
-nas quatro páginas de `site/` e em `tests/site/paginas.test.ts`.
+nas cinco páginas de `site/` e em `tests/site/paginas.test.ts`.
 
 A imagem é `site/public/capa-social.png` (1200 × 630). Para refazê-la depois de mudar fontes ou cores:
 `python3 scripts/gerar-capa-social.py` (precisa do Pillow).
+
+## Atualizar as GitHub Actions
+
+Os workflows usam cada action fixada pelo SHA do commit, com a versão em comentário
+(`actions/checkout@3d3c42e... # v7.0.1`): uma tag pode ser movida para outro código, um SHA não. Para atualizar, pegue
+o SHA da versão nova (`git ls-remote --tags https://github.com/actions/checkout`), troque o SHA e o comentário juntos e
+rode `npm test` (o teste `tests/workflows.test.ts` recusa action sem SHA, `${{ }}` dentro de comando de shell e
+checkout que guarda o token fora do job que grava os dados).

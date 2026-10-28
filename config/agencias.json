@@ -1,0 +1,22 @@
+[
+  {
+    "id": "aos-fatos",
+    "nome": "Aos Fatos",
+    "prefixos": ["https://www.aosfatos.org/noticias/"]
+  },
+  {
+    "id": "estadao-verifica",
+    "nome": "Estadão Verifica",
+    "prefixos": ["https://www.estadao.com.br/estadao-verifica/", "https://politica.estadao.com.br/blogs/estadao-verifica/"]
+  },
+  {
+    "id": "afp-checamos",
+    "nome": "AFP Checamos",
+    "prefixos": ["https://checamos.afp.com/"]
+  },
+  {
+    "id": "lupa",
+    "nome": "Lupa",
+    "prefixos": ["https://www.agencialupa.org/checagem/"]
+  }
+]
