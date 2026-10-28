@@ -133,11 +133,11 @@ fora da lista, link que não é da agência, id repetido, data no futuro...), **
 continua com a anterior, mostra o aviso "Lista de falas checadas" e o motivo fica em `data/status.json`. Se o erro
 não for corrigido em 6 horas, o workflow passa a falhar e chegam os e-mails.
 
-**Agências:** só entram signatárias verificadas da IFCN, conferidas na lista pública
-`https://github.com/IFCN/verified-signatories`. Para acrescentar uma, inclua em `config/agencias.json` o `id`, o
+**Agências:** só entram signatárias verificadas da IFCN. Confira o status antes de incluir: a lista pública
+`https://github.com/IFCN/verified-signatories` pode estar incompleta (em 27/10/2026 não trazia a Lupa, cuja
+verificação foi confirmada à parte em 28/10/2026). Para acrescentar uma, inclua em `config/agencias.json` o `id`, o
 `nome` e os `prefixos` (o começo dos endereços das matérias de checagem, terminando em `/`), atualize a seção "Falas
-checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`. A Lupa ficou de fora porque não estava na
-lista da IFCN consultada em 27/10/2026; confira de novo antes de incluir.
+checadas" de `site/sobre.html` e o teste de `tests/pipeline/falas.test.ts`.
 
 ## Prévia de link (imagem e texto ao compartilhar)
 

@@ -318,7 +318,7 @@ describe('site/sobre.html', () => {
     it('cita, pelo nome, exatamente as agências de config/agencias.json e o critério da IFCN', () => {
       for (const a of carregarAgencias()) expect(texto()).toContain(a.nome);
       expect(texto()).toContain('verificadas pela IFCN');
-      expect(texto()).not.toMatch(/Lupa|Comprova/);
+      expect(texto()).not.toMatch(/Comprova/);
     });
 
     it('diz como a lista é feita e o que fica de fora', () => {

@@ -29,7 +29,7 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 | Diário Oficial da União (in.gov.br) | Decretos numerados, leis e medidas provisórias |
 | Comunicados do Planalto | Avisos de pauta publicados pelo governo |
 | Google Notícias e Agência Brasil | Títulos e links da imprensa (página Notícias) |
-| Aos Fatos, Estadão Verifica e AFP Checamos | Checagens de falas do presidente, conferidas à mão (página Falas checadas) |
+| Aos Fatos, Estadão Verifica, AFP Checamos e Lupa | Checagens de falas do presidente, conferidas à mão (página Falas checadas) |
 
 Um robô consulta essas fontes a cada 10 minutos, guarda o resultado em arquivos JSON na pasta [`data/`](data/) e
 republica o site. Tudo acontece aqui no repositório, à vista de todos: o código, os dados e o histórico de cada

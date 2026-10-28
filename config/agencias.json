@@ -13,5 +13,10 @@
     "id": "afp-checamos",
     "nome": "AFP Checamos",
     "prefixos": ["https://checamos.afp.com/"]
+  },
+  {
+    "id": "lupa",
+    "nome": "Lupa",
+    "prefixos": ["https://www.agencialupa.org/checagem/"]
   }
 ]

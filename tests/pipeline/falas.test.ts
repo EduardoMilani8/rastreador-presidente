@@ -150,7 +150,16 @@ describe('montarFalas: regras entre as tabelas', () => {
 describe('tabelas reais em config/', () => {
   it('config/agencias.json é válida e só tem as agências verificadas da spec', () => {
     const agencias = carregarAgencias();
-    expect(agencias.map((a) => a.nome)).toEqual(['Aos Fatos', 'Estadão Verifica', 'AFP Checamos']);
+    expect(agencias.map((a) => a.nome)).toEqual(['Aos Fatos', 'Estadão Verifica', 'AFP Checamos', 'Lupa']);
+  });
+
+  it('aceita checagem da Lupa só na seção de checagens do site dela', async () => {
+    const mandatos = await carregarMandatos();
+    const lupa = (url: string) => checagem({ agencia: 'lupa', url });
+    const url = 'https://www.agencialupa.org/checagem/2026/10/23/erros-e-acertos-de-lula-na-campanha-pela-reeleicao-a-presidencia-em-2026/';
+    expect(montarFalas([lupa(url)], carregarAgencias(), mandatos, HOJE)[0].agenciaNome).toBe('Lupa');
+    expect(() => montarFalas([lupa('https://www.agencialupa.org/noticias/2026/10/23/x/')], carregarAgencias(), mandatos, HOJE))
+      .toThrow(/não é um endereço da agência Lupa/);
   });
 
   it('config/checagens.json é válida contra as agências e os mandatos reais', async () => {

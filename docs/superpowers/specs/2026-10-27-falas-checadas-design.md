@@ -39,12 +39,11 @@ Critério: agência na lista de signatárias verificadas da IFCN (International 
 | Aos Fatos        | `aosfatos.org`              | `https://www.aosfatos.org/noticias/`                                                                   |
 | Estadão Verifica | `politica.estadao.com.br`   | `https://www.estadao.com.br/estadao-verifica/`, `https://politica.estadao.com.br/blogs/estadao-verifica/` |
 | AFP Checamos     | `factcheck.afp.com` (a AFP) | `https://checamos.afp.com/`                                                                            |
+| Lupa             | não (ver abaixo)            | `https://www.agencialupa.org/checagem/`                                                                |
 
-Ficaram de fora, até confirmação:
-
-- **Lupa**: foi proposta, mas não aparece na lista da IFCN consultada. Entra com uma linha em `config/agencias.json`
-  quando o status for confirmado.
-- **Comprova**: é uma coalizão de veículos, não uma signatária.
+- **Lupa**: não aparece na lista do GitHub consultada em 27/10/2026, mas a verificação pela IFCN foi confirmada pelo
+  mantenedor em 28/10/2026 e ela foi incluída.
+- **Comprova** ficou de fora: é uma coalizão de veículos, não uma signatária.
 
 ## Fase 1: checagens conferidas à mão
 
