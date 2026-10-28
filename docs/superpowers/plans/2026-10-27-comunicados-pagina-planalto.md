@@ -1,6 +1,7 @@
 # Comunicados do Planalto pela página de notícias — Plano (proposta)
 
-> **Situação:** proposta para avaliação do dono do projeto. Nada aqui foi implementado.
+> **Situação:** aprovado em 27/10/2026, em implementação. Decisões: implementar; recuperar o período sem coleta;
+> a fonte continua só avisando, sem e-mail.
 
 **Objetivo:** voltar a coletar os comunicados do Planalto lendo a página de notícias
 (`https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias`), já que o feed parou.
@@ -88,7 +89,7 @@ silêncio.
   Ajustar `tests/site/sobre.test.ts` se ele citar o feed.
 - [ ] `docs/MANUTENCAO.md`: trocar a seção do feed pela da página (o que fazer se o layout mudar e como recapturar a
   fixture).
-- [ ] Depois de uma semana estável, tirar `planalto` de `FONTES_QUE_SO_AVISAM` (se o dono decidir isso no item 3).
+- [ ] ~~Tirar `planalto` de `FONTES_QUE_SO_AVISAM`~~: o dono decidiu manter sem e-mail por enquanto.
 
 ## Regras do projeto que este plano respeita
 
