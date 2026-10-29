@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:f77eb7fdd1dc",
+    "titulo": "Eleições 2026: 21 partidos reconheceram vitória de Lula nas urnas; sete não se manifestaram",
+    "veiculo": "G1",
+    "data": "2026-10-29T15:29:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNHNxR3NaMVR5MFoyS0hqd2JCUVJDSDYtMVp2SkI3UjVpeTh6d2RwZk5EalNvVzFkRUE5MUNWeUVyVTc5d0F2cjJDVHJPYW9rV3BuQTlmamVfeUxCdEZfc3FfRDJwdXVKTHdDRVA1TnM5ZlUxemJONXJYZy11SDA1NlpIVlpLU1BRdl9TdW5BMDVuMU9PLVh3NXVkNUluZ0ttS1JNYlNvc01kLU0tX1JHXzBPOGRNVEZNZDJtT2FfYm10azZ6UFpxV0JBanFKQkNieTFNcTZxc3Z5ZTF3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f31eb13dbb37",
+    "titulo": "Lula não anunciou corte bilionário em Saúde e Educação; notícia é de 2024",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-29T14:48:38.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZktFWDhDM1NUSnVVVFFBamhHSmZBUFpNeWMtTkVFS29XTlBLN3NvMllHeldRdXVsOFFQZjBLQVktQ1VMS05GSk54SnFOZDZqRVlwT095bzM3eld3cVhRT1dlMEhLb18zelNiU1VsVUhTdXhjOVItUmFKOFpkSzZQNjROQnBOY0MxY1ZiUFZ5M1BXVUU5MHJ6OEZaX1ZrTnBjamw5WkdUYTZKYUN4QkhBOHpYX0tsWTlyeHBINDdrYng4ekU4M0dEeUROXzNRdzEyOVdWeEZpb3dmUUE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3c20dc18c382",
     "titulo": "Larissa Gaspar comemora vitória do presidente Lula e convoca população para ato em Fortaleza",
     "veiculo": "ALECE",
@@ -136,6 +152,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:9f9a8794aaf0",
+    "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-28T21:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1NYc1hWb2kzd0IxRjNldDMtUFowdlpFQXZBUWxENzZqRl81WmMtR2FxSWZPS1J5ZHRJM1ZQZ1VEOWstUjFIbXl6YXhIcjlGd0FmVnNiNDhMS2xtS240VzYyOGFRblUzTGpBMk1Uc2ViY0t5R09Oc1JacldKTXFkRl9famhVVEl6WEVxdHh0Ukk3b1N3NU5PcUxlNG5adFFQNE9IVWdFclRlNnBselFzMm84OF9jeXBJZ01GRS13VHFNenM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:be95fa48d809",
     "titulo": "Partido de Flávio Bolsonaro e aliados já reconheceram vitória de Lula",
     "veiculo": "G1",
@@ -213,6 +237,14 @@
     "veiculo": "G1",
     "data": "2026-10-28T19:35:43.000Z",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXR6Skc5b25MVDRkSW9acktsdkhON1BfaTI1NG8tYVg0STJDblIzNFQyTjd6OGpHN3JaN1ZlcGg5aEhGSkRfWm13MFM1S0lLUEFPbGl0SWRkRVhNRkV4WTVOaVFnbjJaWFJST1l3UWQxd2ttSm8xUnZyZV9wZjRlUFVTZEVkalJxVmZYWi0yeVlFdTg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:68b185619168",
+    "titulo": "Governo diz que houve 10 assassinatos de apoiadores de Lula após vitória contra Flávio Bolsonaro",
+    "veiculo": "Estadão",
+    "data": "2026-10-28T19:26:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPajNKVEs5dGV2d2hnaklYUVJZQWVXNEJrTmJrWk1zcUpvWDhHempuV3hvMUxqd3pCWVV5V214cEN0WkRVeVVzck1IcEh1YXJUTjd5TFZLeWVxancta0N0dDJFWG01ZGx4THBRa3dDNzJyNW03YmdnS1hDX3BhWmp6UnROb2hNZnBIMjNjTWNWQlFkZW1OMG56S2gxOWFRWFJxR2Jxc004bHNUMmg2RHAyNmM1YmJ5dHYwajdXaXA1ZGtOOXdneUFkemxjcFYzOGxLT0VVcHRRWDlEUdIB3wFBVV95cUxQOF9BZHNmV2ZQX2dMZUJtYVRQazJUMDZ4RFV5dzZBNW8wczV3RDhFdjIwdndsWlRCUTNycFRfUmljREE2TWZ6QTUtYXRDYXFIWEFadmlGYUdKRnY1VUdWYkVac2gzTEl0d3V4dFVpR1JKbUFkQS1VNWsyNVpmblA1S1VUcWZJejZNYzJLMlFMTF8tdHFiRUxlNDRoZGRTMmp2YmZodEVZNzA5Wm52czMyNmgtVjhERTB0Umc5bDUxQ2l2bFZ0SC1DWTdXOE1tUTBDcWJUTzdualh2SWxIQ2xB?oc=5",
     "origem": "google-news"
   },
   {
@@ -494,6 +526,14 @@
     "data": "2026-10-27T22:50:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-vergonhoso-diz-lula-sobre-fuga-de-flavio-bolsonaro",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:f15f3b578a92",
+    "titulo": "Reeleição de Lula repercute entre líderes mundiais e na imprensa internacional",
+    "veiculo": "Sinpro-DF",
+    "data": "2026-10-27T22:30:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeHBOd2xJcWJzWGRfcXROa0ZQRHE1eDU0N3RlSzE2NDdoTW1Pemw1Zjl4bFQycHZndWtEYUpodkxUNGlfci01QldMRWVBOGJxTnk1LVlaY1FfMEdZdUxsc1hXMnNNUTQ4LVFKS2Nsb0ZuMzFVTFlPX003RUxEWEJReHdMeXVEUG1IUUlGV3ZiY21ZZ3ZNR1prY3lJWmFjd3BNMGlLd0dRb3JjRlk?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:2a24eb662d6d",
