@@ -24,6 +24,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0881fa946797",
+    "titulo": "Lula quer criar Ministério do Idoso",
+    "veiculo": "G1",
+    "data": "2026-10-28T21:34:38.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZHQydkdyNExwWkFVeHR0YjhFLW1DbG1lN0Y4cGJIRkt6LW1oQU1YeVpGel9tZkxKMUIxdHlIZHpqclV2cWJBUDlIdWxmbWoxUVRVVHZlZjNIZWRmNW1LaUY0WlFQRWdmR3NFcFBJUUVUc2lJZWoxcU5pdHRZZm9rU0JPZmc5VEsxMTVLLVc2bGctNGtzWnlzd0tOTWF4WTFJSExZ0gGyAUFVX3lxTFBienlHTHo3dWdvOEZHYTBwc1R6N0l1TGhrbEhnSlZYd3kxbnp4UG1XUHFHMXdiMFloNEhOQlVRa0FLUHJ5bHVzV3BENGZPbFhfS0hCNkd5MDBlLTZ1M2tIRG5Uc3Bpckp5ZWRDRjAyUkpRNmFKMDBaRjNYS2pMY2xWd0tyckxIVTVKSjNiZk1NV1lmOGVKNjdmeXgybkFVelZBYV9JWWVvcW1PemNMMGhkalE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:595589d537aa",
     "titulo": "Paim celebra vitória de Lula e homenageia eleitores",
     "veiculo": "Senado",
@@ -136,11 +144,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:f0455f1e6db4",
+    "titulo": "Posts em redes sociais incentivam demissões de eleitores do Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-28T16:07:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZG9NMVFRcDAwbldqNGZHQXhCRU82Q3EyTlJBNUctOHFESGFxVU9JTHBOWHdMY1VFUjBRaUZBWnh1djVLWkRSalRvd2J1bkVJOUxIODQtY3JRS2g0ZVNtVm0wWFpCNHNkMnVsYU9HUjhIb2pRSldJQW1QV3loUUJiV0FCREJMVlhEU0l2dHlRd3R2d0hybTc2cTI3Nm5aVnRXQW1WNEJ3MG5rT3BrdkkzNm45MkczX3dwRjc3Z25ZZVFOTGlvY21MbDlGUEVkaGJMX3NybkVYU3RFZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:203953147a2f",
     "titulo": "Lula sai em defesa de presidente do PT após críticas por campanha 'menos organizada' que já participou",
     "veiculo": "O GLOBO",
     "data": "2026-10-28T15:49:23.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTzFoRF9SaU1ERGRHeFFtQlBfUEdnTWRndkQ3QXE3bUtYQVBVd2ZrNmFWN1VMVzYzaC1WeFlXTVZ0XzFnQk9ZTDRTVWlETFhFcUltYjA4QWpTUzhfalpBZ2dESVg0MGhmMlRxUC0wTDBGVjZ6YmMxeWg5dmI0cExTVjhOZ1pDZkZ0QldKWnhURTNzTFRQcDVqY1pVNDBxa19SdGxROTltNmwzSHNhdzdNQ19RWjlZOUFETlkzNFNieVhKcjZHYVA0RjAzSkJSbUg2aDN4aUJyMkczR2t1XzZVV0hqS25TWjFDaFNwNHVJQ3rSAf8BQVVfeXFMTnZrTTBrTXdSeW1YWkc4SGJnUkJlQ3AtOE9FcU94bmpwY3dTbi1uTGd3c0t0YlkteXo5ZFFNVndaeklaaGg3WlNiQjh1cVZWdkxHSTJjeHFJTTA4dV9HYVl6MlNHcEF0cEtnb3NBNW1BS213UGhSR2x4U0tldEgzM3U3cHRoemVCYmdtdzY5QTNoR0xSal9JSnA5NnBLZU5DbFFYaTlaUlo3cmZIYVBSVURVbkxOWDJpNnlQT1cwUFlmZmlfWk1kcHc5d3dLQWVCQWc4U3dyYzZLUjNqWVZ2a3EySTBpMmpGRHpWQTJZN19CYTJpWFVhdEpmeEd6S3Fj?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f511a1b7008d",
+    "titulo": "Como a geração Z liderou a virada histórica de Lula",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-28T15:17:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUl9jMXJZSWhnOXY2LWF2WGtGZ3pZZGxvNkltUFlQX2tidDJpaWxTYWZKLUJObC1fb1VrVDRGVUY5QTN3Z3JFUVZETllBMnduMWtJeFB2YkxzZW9fcEVyQm84b2ljS2FBS2Q4MUtGbmIzcVBOUWFZdV9OSTBWcEZHRzhMaGJCZVg0dDFjQzBiVzF2QUQ3Wkkwd1MyNldyeDV0LVhUdGRuRGM?oc=5",
     "origem": "google-news"
   },
   {
