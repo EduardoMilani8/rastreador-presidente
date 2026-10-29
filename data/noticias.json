@@ -1,10 +1,34 @@
 [
   {
+    "id": "google-news:bafa0c09a7e9",
+    "titulo": "O presidente Lula (PT) enviou nesta quinta-feira (29) um áudio no canal de mobilização digital no WhatsApp \"Exército do Lula\", criado pelo deputado André Janones (Rede-MG) durante a campanha. Na mensagem, o presidente volta agradecer pelo apoio re",
+    "veiculo": "Instagram",
+    "data": "2026-10-29T23:00:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rT3BLZkluRmo3UU9FdkFfNnVHaWl4UHZadFZGV3Fkc3R3SGgzQ2N3cFA2OE5mVlJuNVhaTFJISUJGM2VJdFk1cDB4c2hRUndEbGc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:52a9f473eace",
+    "titulo": "Revista da Semana: Presidente Lula precisará do Congresso para ter governabilidade",
+    "veiculo": "Senado",
+    "data": "2026-10-29T22:46:04.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOa0dyV183SVZWSFpyN0lUWHgzVWJhOWJUUkVaYnRRVGQzM3luc3BRQnBqNlhDUldlSnlXQUNka28wY0xpSzN4dkVob015eTlYYXpSRmY1RjhkSm5tSzJnQ1VENFVYa1lJN2VIVE9qTnlaYlRmS0NJSUEtbHRoekxjakItaW4zZzZjX2MzWEV1b3FBOG1yRjdEdTVXb0xQWXU1LUNqOHU3aDBVTTkzR2M5NzZxQ0ZuR2xwc2FRbkJ1QWtkSHF4dnY3LWY4N1JUZXpWUnFkbFhYcTN0SXYyWE9r?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5cbc65c6e83e",
     "titulo": "Donald Trump diz que pretende conversar com presidente Lula",
     "veiculo": "Agência Brasil",
     "data": "2026-10-29T22:18:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcHlMaUtRSzBYS0k4b09DWXhlY1JqZlRiX3hoREpjQWc1ekZKV1hnOS1icllxTG1YVWhGbk1TaG5EMFg0MFhJaEYwck5fRDRTWVdZUHk1b1gtUjRFQzNiNUt1QktqTE54bDNoYkFWS2VVemtSRTFJVVdDTFlaa044a1k5WjdPMUczX2hxSmpXb1ZDYkpVbEhleVBDUjlraW1ISVhsWWR3QUFybWxRTXZlNXhHUnZXeXotT1ozbmxNbEU3VmpFYmtjcUZtUEpUcVJTOU9F?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:56ed240cb8b9",
+    "titulo": "O presidente da República em exercício, Luiz Inácio Lula da Silva, sancionou a Lei 15.358/2026, conhecida como Lei Antifacção, que proíbe o pagamento do auxílio-reclusão aos dependentes de presos envolvidos com organizações criminosas ultraviolenta",
+    "veiculo": "Facebook",
+    "data": "2026-10-29T21:52:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSDJ1R2JYWk40WE0yTDI0NjRrQ3YzWFhVeFdWMXZkRUpMTktSTW1tdGFkU3RkbDNRcW9CaXFzVE9OVWtmdnBIRE5HcTJoMVhoRDkyNWx2cnRFRnowTzRiRHVjLWJDSHpQM0luNVl0NUVGeTZDVWx1QmV4NjVOc2ppUnNOekN1ajZMT0VhSjZDWXFNTUJIQkU5YWdkdUtVRHVyend3elpIOFlrMUFqeERyT2VHM1IzMXpZYXhfaHRQbFlWMEhRT25CXzdrWmlrZnl3cmJiOWpxUV9tbkh6Q2QxVVFTQnFTRGFfSmVv?oc=5",
     "origem": "google-news"
   },
   {
@@ -109,6 +133,14 @@
     "veiculo": "Monitor Mercantil",
     "data": "2026-10-29T18:41:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPazNRcnhlN1huYnFPeHBqQUVBQVA2M3dPR2xhb3ZBUXhuOVRqZ09KRHp4VlRhMVBCd1VyN1VDQTRKTm92emc3dTRRSEYtdDd5NDZfQnhfVnFVV093QmVfalpqYllxekVxd3F6NFZINWFwTnljMkRIOTB2VXVPNndGUElzQXdNQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e609428060db",
+    "titulo": "Lula vira em 3 regiões metropolitanas e cresce mais de 30% em outras 6 do 1º para o 2º turno; Flávio perde votos em 7",
+    "veiculo": "G1",
+    "data": "2026-10-29T18:36:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSEVpMEZ0ZWtlcWJJUmFLQm8yWlpBN1cyb2FQeW11TTJUV1VLWXg4dzNGOUxMQnBYZmpSNWstMV9WWlhrY3dIQ0ZGQW9MM0gxcGRPTndlaFU5djk0R0pCVnBKM2EtVWNoRjNhUDZ2dmtndk1sdVdycUVQQmp2OGM4XzV0aWFlTnNKRW5US25pZ3RKS3BvNURKbVBRbU1yQ09jS1MyYzhtY1phYjh2cVlrOUwtd0tBakNuamRVc1FIOUg5QdIB0AFBVV95cUxQZS1DMUxQbnQ1a3BHeHFfR3R4MUxLamh3VUhLRmZsZEJSbzJvRWlWZE9YeVQtdGFwV0ZLb0VnY1U0YmpQSUgxQkM1eVJGWERSRHhlTjZvWTI1M1VqZm5EdllXc0FUUFNSRzNZa1lMZnZPQXN1UE42RXphNkUxb1JJR3RtZ051M2JSNTNvUFNpelp4Vjd0c20wRV9CNlZ4UTJmWjB5TWxnb1VNZHU1R1Z1SFFMclJMZ3FPZDJ6R3oxTkp6aVhWRmczR3FFV2FFalZJ?oc=5",
     "origem": "google-news"
   },
   {
