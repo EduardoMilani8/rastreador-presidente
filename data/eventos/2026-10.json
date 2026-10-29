@@ -963,5 +963,62 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "09:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "10:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
