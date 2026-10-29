@@ -1,5 +1,29 @@
 [
   {
+    "id": "google-news:29e3b92612c3",
+    "titulo": "Lula anuncia pronunciamento à nação na próxima semana: ‘Devo essa eleição ao povo’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-10-29T19:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPekVvRi1mTmk3VUVKai0wOG1SbHNySUxodUlORERpYUlzSVdVWkVQQjUtMG16cFBKZmU4SE9QMFRWZEZ1Vm1Sb0FyVEdqUW1DTmx4S3VSbDE0Q0p0UVBVZEh2Qzk3MGFzeU1hd2ZHNlFyVGpBc3hNZWFKeUItMm9jS1FNR3BlNFBOZmdwWXlyR3ptU3ozSGR5c2N5WGFGUG52elY3NE1wQkE5ZDVVNU9nODlsMDJOOXpINzNPeE1kVE4?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a9eefd6e1d78",
+    "titulo": "Lula manda áudio em canal 'Exercito do Lula' e afirma que fará pronunciamento à nação semana que vem",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-10-29T18:43:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSGp5MnRkT2xoenlLSHZxUHpQUk9fQndudVRvTkNVQm1xQUNLQ1RnSW1LYkdVRnBBTWNNNzBnaVNrTVVqS0ZCUXVJQVdSREQzN1lMckNMTmloSHZpNjU0ZTl5UnlDRDlhQ1ZfdnctYTR1c1EtV1d4RTRHMDhFdl9qaEhxZVhFWkhnTW0tM0FxOGlUc0VncWN5dXk3WkNoeXZBRm1lR0NTVjAwZzVxX05OaHNmcHZ5bHltZXJTWk10TmNKMmUtVml6ODZhdFZORmdnRUNaSjdSOHhLWnJTejZ3TzhKZ1hmR0k0MWZldmJaTHFkeFQ0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:917f82171cbc",
+    "titulo": "Pela 4ª vez, Lula é eleito presidente do Brasil",
+    "veiculo": "Monitor Mercantil",
+    "data": "2026-10-29T18:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPazNRcnhlN1huYnFPeHBqQUVBQVA2M3dPR2xhb3ZBUXhuOVRqZ09KRHp4VlRhMVBCd1VyN1VDQTRKTm92emc3dTRRSEYtdDd5NDZfQnhfVnFVV093QmVfalpqYllxekVxd3F6NFZINWFwTnljMkRIOTB2VXVPNndGUElzQXdNQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:762e08dfe7c9",
     "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
     "veiculo": "Agência Brasil",
@@ -213,6 +237,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-28T22:41:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUC1ISlcyZGdCT1JUZzNhN0twX1AyOUc3dk01TFg1SkVSbWhvdVBpcjBNRXlXNFJNeVFKUTU0VTNfbWYxQ2FHMENCY18weUozVzZwcWRGZHd6YklJb1hPZkhYZ0hiNldKZTAzUXVGaTFSNE5VU3AzbHlHSHBoQnZOQTlFakJTajE1ZDBxZElGeHZoR05LS0VtVDBrMjNBOTNCVGdBaEtXbndSc25rR0t4MUg5Z3FLb3h6NVhJcXQtenE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e9cf58657dc4",
+    "titulo": "Presidente do TSE diz que entregou pleito com segurança e que as eleições 'transcorreram dentro da mais absoluta normalidade'",
+    "veiculo": "G1",
+    "data": "2026-10-28T22:12:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbjU0UTJJRlhvajdUTVpwS053ZTB6VFhSNFNDVmx2NzhLWGFlMXFRZVNPb1RhTnY3NXlOa3c3b2l3alVudUpYRE1sM2E0ekozbi1LNnA1a2drUTZPTUlBeWpLSlJ0dnJqX0RWQTZCdUtycHRscnVNRG9mLXQ4NmJ4V2IxdE03VGQ2UVJkWWZaNWNUdUt5SjJxNG1ra0ZKdFZEcmhaYVR2ZmVVMmFqVFQ5TEdfdVVrWXBHSEhmMjEwa0w2cTlxemM3akFwNHk2U1FqZGwwR1paVjNKdHFMQzlDMUFIQk50QWs5cVVaMjRwSWxfcTVmcFdRNXYwM2M0NHpGckVORkpNMHBrQmlJMm1WONIBnwJBVV95cUxONU5XbkV4WGMwYlViRkhpWVZWWGx2NzhobkxVSElrRzRtWkh0Skd1VXVJZDZSQXdUb1d5OWtEalI2UGlIVHlwejFBMzNBZm5iWU5hNko0TmtkRXlTTVppdXROYnFxVnR1RHlZY2U2ODlYNTdhUWV1MjNPSWY4Q2RkNzZxNFdjTUZIdzNScmpBMmJTN25IQVZlTE1YekdXR1NVQXUwb1EzaW9aTXp6Q3lXWW5lMk14R3U0RXIxa1EyU01qNl93UzVxdXlmQXpUdHF1WFhJX0VFVmtqS1FSU3M4ZjZIeE1JLWRqenBrSmFtWnlKdlF5QVNUWmo5QlVZYzFGM3pWSGhrT29aMVlTRXlTczU4bWlvOFFfc2RRYlVvUQ?oc=5",
     "origem": "google-news"
   },
   {
