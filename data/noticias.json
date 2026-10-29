@@ -1,10 +1,18 @@
 [
   {
-    "id": "google-news:f77eb7fdd1dc",
+    "id": "google-news:762e08dfe7c9",
+    "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
+    "veiculo": "Agência Brasil",
+    "data": "2026-10-29T16:06:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1JvOEtDdWFRcnE4NXJRdXctM2JwQXU5Z292dVlUcEdrQzFFanhkN29xZFRrbk04amJlRmQ1MThGQU1HajVOdWtfcElvTUNPVDBxTkdsT0RnaGwzUWUweFhfVERReHlrdkR2OEtmTjhiNHFqcy1BQ184bVZVRnh3SE05YmU0LTd0SVhuTjFzay1hLU9ibmk2bFlzVFo2cF9ORGZ6MjRWNjQyc0x0WjdSZFpqYnJCU0hoekE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:592b8502be01",
     "titulo": "Eleições 2026: 21 partidos reconheceram vitória de Lula nas urnas; sete não se manifestaram",
     "veiculo": "G1",
     "data": "2026-10-29T15:29:48.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNHNxR3NaMVR5MFoyS0hqd2JCUVJDSDYtMVp2SkI3UjVpeTh6d2RwZk5EalNvVzFkRUE5MUNWeUVyVTc5d0F2cjJDVHJPYW9rV3BuQTlmamVfeUxCdEZfc3FfRDJwdXVKTHdDRVA1TnM5ZlUxemJONXJYZy11SDA1NlpIVlpLU1BRdl9TdW5BMDVuMU9PLVh3NXVkNUluZ0ttS1JNYlNvc01kLU0tX1JHXzBPOGRNVEZNZDJtT2FfYm10azZ6UFpxV0JBanFKQkNieTFNcTZxc3Z5ZTF3?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNHNxR3NaMVR5MFoyS0hqd2JCUVJDSDYtMVp2SkI3UjVpeTh6d2RwZk5EalNvVzFkRUE5MUNWeUVyVTc5d0F2cjJDVHJPYW9rV3BuQTlmamVfeUxCdEZfc3FfRDJwdXVKTHdDRVA1TnM5ZlUxemJONXJYZy11SDA1NlpIVlpLU1BRdl9TdW5BMDVuMU9PLVh3NXVkNUluZ0ttS1JNYlNvc01kLU0tX1JHXzBPOGRNVEZNZDJtT2FfYm10azZ6UFpxV0JBanFKQkNieTFNcTZxc3Z5ZTF30gHrAUFVX3lxTE1yaEJTQ1RPMXJuNVhHX3E5N196VGZ1ZEtXN3N2c3lNbjBjSV8tYkxkRjdmbFdrTDhDaWw5ZnJ1R2tlVXZkTXpiLTJ5ZGE4WTByRTQ5c0FPUm1yYW1XUjhwczFoRWNhQ0p3UnFYcmxnYTQxWEFVdU9DcmRKbGhJZ2F3eVBVdEZaRUxVUWdxckZMZ1JoTFI1NV9PcWFScHl1QnVYVFptbkhMSlo1a3ZfT3lkdmlEa0ZKbnpqYU5JaTdtbXVpdGNidl9ZTHQ2UVF6ZWM4UEZhVzFkcEhlSko2anBGVV9SRHBWcEhhWVE?oc=5",
     "origem": "google-news"
   },
   {
@@ -13,6 +21,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-10-29T14:48:38.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZktFWDhDM1NUSnVVVFFBamhHSmZBUFpNeWMtTkVFS29XTlBLN3NvMllHeldRdXVsOFFQZjBLQVktQ1VMS05GSk54SnFOZDZqRVlwT095bzM3eld3cVhRT1dlMEhLb18zelNiU1VsVUhTdXhjOVItUmFKOFpkSzZQNjROQnBOY0MxY1ZiUFZ5M1BXVUU5MHJ6OEZaX1ZrTnBjamw5WkdUYTZKYUN4QkhBOHpYX0tsWTlyeHBINDdrYng4ekU4M0dEeUROXzNRdzEyOVdWeEZpb3dmUUE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4e31273ca4ab",
+    "titulo": "Trump diz que não tomou partido nas eleições no Brasil a pedido de Lula",
+    "veiculo": "G1",
+    "data": "2026-10-29T14:48:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV1NHLU9kbmVGVDBZMTZ6bFA3S294anFTNXlpd290SDR1N0hHQTR5Zm44TFZZQko3NjU2R1FRMENuR1NsaDVxdlcyc2tmTkgxNXVMV2g2X21hamk5Z25CcnB0QzFJX0FxbFB1RDllRzczV2VqVzR3bFFDUlA0TXdESnNJaGhCNzdqME9EY1hIenRvTTg5Z0dfdk9LLXJMeEU1ejc2XzIxVzh5cXBSNmfSAbwBQVVfeXFMTlFIOGdERmNfWkZKdnlQNHM4RVVsckZWbElpRWJwT2pHclNJZS1icThBYXk1dlVJYW9JVnVGWXc3WDhlTmhjUzZZQTJOc0JDcTRzWjAwQzRVWVlrSkpsNG9Hb1I3aDNKcU9SOFZranZQRjdoRlRDZlVnNk9panF4SWVoSXFsTWhnUnJfTWdseGg3Rkx3bGQydDFGaVJqb1ByNEJQQ25mbVFMcll1SXduY1Bid20zcDZhejdleWo?oc=5",
     "origem": "google-news"
   },
   {
