@@ -971,7 +971,7 @@
     "hora": "09:30",
     "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1010,7 +1010,7 @@
     "hora": "11:00",
     "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1029,7 +1029,7 @@
     "hora": "12:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1068,7 +1068,7 @@
     "hora": "16:00",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
