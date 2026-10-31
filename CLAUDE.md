@@ -34,7 +34,7 @@ Antes de dar um trabalho por pronto: `npm run typecheck && npm test && npm run b
 fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (Vite) → GitHub Pages
 ```
 
-- `src/collectors/`: um arquivo por fonte (`agenda`, `dou`, `planalto`, `noticias`). Cada um só lê e interpreta a
+- `src/collectors/`: um arquivo por fonte (`agenda`, `dou`, `planalto`, `noticias`, `factcheck`). Cada um só lê e interpreta a
   resposta da fonte; não grava nada.
 - `src/pipeline/`: `run.ts` orquestra a coleta; `merge.ts` mescla com o que já existe e calcula o status; `link.ts`
   liga comunicados à agenda (desligado por padrão); `store.ts` valida e grava; `cli.ts` é a entrada de `update` e
@@ -42,10 +42,15 @@ fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (
 - `src/shared/`: `schema.ts` (esquemas zod, usados pelo pipeline **e** pelo site), `http.ts` (requisições com pausa,
   tentativas e tempo limite), `text.ts` (datas e normalização).
 - `config/mandatos.json`: qual presidente o site acompanha em cada período e o endereço da agenda dele.
-- `data/`: `eventos/AAAA-MM.json` (um por mês), `meses.json`, `noticias.json`, `status.json`. É gravado pelo robô.
-- `site/`: HTML, CSS e TypeScript sem framework, em quatro páginas (`index.html` é o painel, `registros.html`,
-  `noticias.html`, `sobre.html`). `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os elementos, `comum.ts`
-  cuida dos avisos, `painel.ts`, `registros.ts` e `noticias.ts` montam cada página, `redirecionar.ts` leva os
+- `config/agencias.json` e `config/checagens.json`: agências de checagem aceitas e checagens de falas conferidas à mão.
+  `src/pipeline/falas.ts` valida as duas e o pipeline grava `data/falas.json`. As frases checadas automáticas vêm da
+  Fact Check API (`src/collectors/factcheck.ts` + `src/pipeline/frases.ts` → `data/frases-checadas.json`);
+  `config/frases-excluidas.json` tira à mão uma frase que a agência marcou errado.
+- `data/`: `eventos/AAAA-MM.json` (um por mês), `meses.json`, `noticias.json`, `falas.json`, `frases-checadas.json`,
+  `status.json`. É gravado pelo robô.
+- `site/`: HTML, CSS e TypeScript sem framework, em cinco páginas (`index.html` é o painel, `registros.html`,
+  `noticias.html`, `falas.html`, `sobre.html`). `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os elementos,
+  `comum.ts` cuida dos avisos, `painel.ts`, `registros.ts`, `noticias.ts` e `falas.ts` montam cada página, `redirecionar.ts` leva os
   endereços antigos à página certa, `params.ts` lê os filtros da URL e há uma entrada `main-*.ts` por página. As
   fontes tipográficas ficam em `site/fontes/`.
 - `.github/workflows/`: `ci.yml` (testes) e `update.yml` (coleta agendada e publicação).
@@ -59,6 +64,12 @@ fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (
   com compromissos pode marcar remoção.
 - Mudança de layout, redirecionamento inesperado ou resposta estranha de uma fonte é **erro da fonte**, nunca uma
   lista vazia.
+- Falas checadas são avaliação de agências, nunca registro oficial: ficam fora da linha do tempo e dos totais. Só entram
+  checagens de falas do próprio presidente (boato atribuído a ele não entra), de agência listada em
+  `config/agencias.json`, com o veredito nas palavras da agência. O site não dá nota nem checa por conta própria.
+  Na parte automática, o autor marcado pela agência precisa ser **igual** a um nome do presidente (nunca "contém").
+- A chave da Fact Check API (`FACTCHECK_API_KEY`) vai só em cabeçalho, nunca no endereço: mensagens de erro de busca
+  vão para o `status.json`, que é público.
 - Republicações do Diário Oficial e atos assinados fora do mandato não entram como atos novos (veja `dou.ts` e
   `run.ts`). Cada ato aparece uma vez.
 - Todo evento precisa de pelo menos uma fonte com URL `https`. O esquema recusa o resto.

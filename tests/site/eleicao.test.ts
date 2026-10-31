@@ -1,0 +1,76 @@
+// @vitest-environment jsdom
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { beforeEach, describe, expect, it } from 'vitest';
+import { RESULTADO, avisoEleicao, montarAvisoEleicao } from '../../site/src/eleicao';
+import { urlHttpsSegura } from '../../src/shared/text';
+
+const PAGINA = () => readFileSync(resolve(process.cwd(), 'site/index.html'), 'utf8');
+
+beforeEach(() => {
+  document.documentElement.lang = 'pt-BR';
+  document.documentElement.innerHTML = PAGINA();
+});
+
+describe('aviso da eleição na capa', () => {
+  it('é o primeiro aviso do cabeçalho e começa escondido', () => {
+    const avisos = document.querySelectorAll('.avisos > p');
+    expect(avisos[0].id).toBe('aviso-eleicao');
+    expect((avisos[0] as HTMLElement).hidden).toBe(true);
+  });
+
+  it('o resultado preenchido aponta para uma página https do TSE', () => {
+    expect(RESULTADO).not.toBeNull();
+    const url = new URL(urlHttpsSegura(RESULTADO!.fonteUrl)!);
+    expect(url.hostname).toBe('www.tse.jus.br');
+  });
+
+  it('sem resultado: antes, no dia e depois do 2º turno informa a data, remete ao TSE e não diz quem ganhou', () => {
+    const antes = avisoEleicao('2026-10-20', null)!;
+    const dia = avisoEleicao('2026-10-25', null)!;
+    const depois = avisoEleicao('2026-11-02', null)!;
+    expect(antes.texto).toContain('será em 25/10/2026');
+    expect(dia.texto).toContain('é hoje, 25/10/2026');
+    expect(depois.texto).toContain('foi em 25/10/2026');
+    for (const a of [antes, dia, depois]) {
+      expect(a.linkUrl).toBe('https://resultados.tse.jus.br/');
+      expect(a.texto).toContain('05/01/2027');
+      expect(a.texto).not.toMatch(/venceu/);
+    }
+  });
+
+  it('com resultado e fonte https, nomeia o eleito e liga à fonte', () => {
+    const a = avisoEleicao('2026-10-26', { eleito: 'Fulano de Tal', fonteUrl: 'https://tse.jus.br/resultado' })!;
+    expect(a.texto).toContain('Fulano de Tal venceu o 2º turno, segundo o TSE');
+    expect(a.texto).toContain('05/01/2027');
+    expect(a.linkUrl).toBe('https://tse.jus.br/resultado');
+  });
+
+  it('com resultado mas sem fonte https válida, não nomeia ninguém', () => {
+    for (const fonteUrl of ['http://tse.jus.br/x', 'javascript:alert(1)', 'não é url']) {
+      const a = avisoEleicao('2026-10-26', { eleito: 'Fulano de Tal', fonteUrl })!;
+      expect(a.texto).not.toContain('Fulano');
+      expect(a.linkUrl).toBe('https://resultados.tse.jus.br/');
+    }
+  });
+
+  it('some a partir da posse, em 05/01/2027 (EC 111/2021)', () => {
+    expect(avisoEleicao('2027-01-04')).not.toBeNull();
+    expect(avisoEleicao('2027-01-05')).toBeNull();
+  });
+
+  it('monta o aviso no DOM só com texto e um link https, e esconde depois da posse', () => {
+    montarAvisoEleicao(document, new Date('2026-10-26T12:00:00Z'));
+    const el = document.getElementById('aviso-eleicao')!;
+    expect(el.hidden).toBe(false);
+    expect(el.textContent).toContain(`${RESULTADO!.eleito} venceu o 2º turno, segundo o TSE`);
+    const link = el.querySelector('a')!;
+    expect(link.href).toBe(RESULTADO!.fonteUrl);
+    expect(link.rel).toContain('noopener');
+    expect(el.children).toHaveLength(1);
+
+    montarAvisoEleicao(document, new Date('2027-01-05T15:00:00Z'));
+    expect(el.hidden).toBe(true);
+    expect(el.textContent).toBe('');
+  });
+});

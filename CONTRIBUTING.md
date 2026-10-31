@@ -12,9 +12,12 @@ A ajuda mais valiosa é **conferir os dados**. Se você encontrar algo errado, f
 | Um compromisso ou ato errado, duplicado ou faltando | [Erro nos dados](https://github.com/EduardoMilani8/rastreador-presidente/issues/new?template=1-erro-nos-dados.yml) |
 | O site quebrou, ficou lento ou difícil de usar | [Problema no site](https://github.com/EduardoMilani8/rastreador-presidente/issues/new?template=2-problema-no-site.yml) |
 | Uma ideia de melhoria ou de nova fonte pública | [Sugestão](https://github.com/EduardoMilani8/rastreador-presidente/issues/new?template=3-sugestao.yml) |
+| Uma checagem de fala do presidente que falta, está errada ou não deveria estar na página Falas checadas | [Erro nos dados](https://github.com/EduardoMilani8/rastreador-presidente/issues/new?template=1-erro-nos-dados.yml) |
 
 Para um erro nos dados, o que mais ajuda é o **link do item no site** (o "Link permanente" de cada cartão) e o **link
-da fonte oficial** que mostra o correto.
+da fonte oficial** que mostra o correto. Para sugerir uma checagem, mande o link da matéria da agência: só entram
+checagens de falas do próprio presidente, feitas por uma agência listada em `config/agencias.json` (boato atribuído a
+ele não entra).
 
 ## Com código
 
@@ -43,9 +46,10 @@ quase nunca vai precisar deles para contribuir: os testes usam trechos salvos da
 ### Como o código está organizado
 
 ```
-src/collectors/   lê cada fonte (agenda, dou, planalto, noticias)
+src/collectors/   lê cada fonte (agenda, dou, planalto, noticias, factcheck)
 src/pipeline/     mescla, calcula status, valida e grava em data/
 src/shared/       esquemas, requisições e datas
+config/           tabelas conferidas à mão: mandatos, locais das viagens, agências e checagens de falas
 site/             o site (HTML, CSS e TypeScript, sem framework)
 tests/            testes, na mesma estrutura de src/ e site/
 data/             os dados publicados, gravados pelo robô
@@ -78,7 +82,9 @@ Elas existem porque o site só vale alguma coisa se for confiável:
   entrada de usuário.
 - **Acessibilidade não é opcional:** navegação por teclado, contraste e leitor de tela.
 - **Respeito às fontes:** uma requisição por segundo, sem paralelismo.
-- **Sem opinião.** O site mostra o registro oficial; não resume, não comenta e não classifica como bom ou ruim.
+- **Sem opinião.** O site mostra o registro oficial; não resume, não comenta e não classifica como bom ou ruim. A
+  página Falas checadas não é exceção: ela mostra o veredito de agências de checagem, com as palavras delas e o link
+  para a checagem, separado dos registros oficiais. O site não checa nem dá nota por conta própria.
 
 ### Estilo
 

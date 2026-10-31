@@ -18,12 +18,14 @@ const NAVEGACAO = [
   ['./', 'Capa'],
   ['registros.html', 'Registros'],
   ['noticias.html', 'Notícias'],
+  ['falas.html', 'Falas checadas'],
   ['sobre.html', 'Sobre'],
 ];
 const PAGINAS = [
   { arquivo: 'index.html', atual: 'Capa' },
   { arquivo: 'registros.html', atual: 'Registros' },
   { arquivo: 'noticias.html', atual: 'Notícias' },
+  { arquivo: 'falas.html', atual: 'Falas checadas' },
   { arquivo: 'sobre.html', atual: 'Sobre' },
 ];
 
@@ -90,7 +92,7 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
     expect(document.querySelectorAll('nav')).toHaveLength(arquivo === 'sobre.html' ? 2 : 1);
     const links = [...document.querySelectorAll('header.topo nav[aria-label] a')];
     expect(links.map((a) => [a.getAttribute('href'), a.textContent])).toEqual(NAVEGACAO);
-    expect(links.map((a) => a.id)).toEqual(['', 'aba-linha', 'aba-noticias', '']);
+    expect(links.map((a) => a.id)).toEqual(['', 'aba-linha', 'aba-noticias', 'aba-falas', '']);
     const atuais = document.querySelectorAll('[aria-current]');
     expect(atuais).toHaveLength(1);
     expect(atuais[0].getAttribute('aria-current')).toBe('page');
@@ -122,7 +124,7 @@ describe.each(PAGINAS)('site/$arquivo', ({ arquivo, atual }) => {
 });
 
 describe('o que cada página contém', () => {
-  it.each(['index.html', 'registros.html', 'noticias.html'])('%s avisa, sem JavaScript, que a página precisa dele', (arquivo) => {
+  it.each(['index.html', 'registros.html', 'noticias.html', 'falas.html'])('%s avisa, sem JavaScript, que a página precisa dele', (arquivo) => {
     const html = ler(arquivo);
     const aviso = '<noscript><p class="aviso">Esta página precisa de JavaScript para mostrar os registros. As fontes oficiais estão listadas em <a href="sobre.html">Sobre</a>.</p></noscript>';
     expect(html).toContain(aviso);
@@ -168,7 +170,7 @@ describe('o que cada página contém', () => {
     expect(document.getElementById('painel-noticias')).toBeNull();
   });
 
-  it.each(['index.html', 'registros.html', 'noticias.html'])('%s: os três avisos ficam no cabeçalho, fora da faixa', (arquivo) => {
+  it.each(['index.html', 'registros.html', 'noticias.html', 'falas.html'])('%s: os três avisos ficam no cabeçalho, fora da faixa', (arquivo) => {
     abrir(arquivo);
     for (const id of ['aviso-desatualizado', 'aviso-fontes', 'aviso-incompleto']) {
       const aviso = document.querySelector<HTMLElement>(`header.topo > .avisos > #${id}`);
@@ -182,6 +184,7 @@ describe('o que cada página contém', () => {
     ['index.html', './src/main-painel.ts'],
     ['registros.html', './src/main-registros.ts'],
     ['noticias.html', './src/main-noticias.ts'],
+    ['falas.html', './src/main-falas.ts'],
   ])('%s carrega só o próprio módulo', (arquivo, modulo) => {
     const scripts = [...ler(arquivo).matchAll(/<script[^>]*>/g)].map((m) => m[0]);
     expect(scripts).toEqual([`<script type="module" src="${modulo}">`]);

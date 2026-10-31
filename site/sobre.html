@@ -28,6 +28,7 @@
           <a href="./">Capa</a>
           <a id="aba-linha" href="registros.html">Registros</a>
           <a id="aba-noticias" href="noticias.html">Notícias</a>
+          <a id="aba-falas" href="falas.html">Falas checadas</a>
           <a href="sobre.html" aria-current="page">Sobre</a>
         </nav>
       </div>
@@ -60,6 +61,7 @@
         <li><a href="#fontes">Fontes dos dados</a></li>
         <li><a href="#status">Status</a></li>
         <li><a href="#viagens">Viagens</a></li>
+        <li><a href="#falas">Falas checadas</a></li>
         <li><a href="#limites">Limites</a></li>
         <li><a href="#codigo">Código e dados</a></li>
       </ol>
@@ -67,14 +69,16 @@
 
     <h2 id="o-que-e">O que é</h2>
     <p>Um registro público e somente de leitura do que o Presidente da República fez e do que consta na sua agenda oficial. O site não tem login, comentários nem qualquer campo em que alguém possa inserir dados. É um projeto independente, sem vínculo com o governo.</p>
+    <p>Troca de mandato: o site acompanha o atual presidente até o fim do mandato, na véspera da posse do eleito. Na capa, um aviso informa a data do 2º turno de 2026 e remete ao TSE, que é quem divulga o resultado; o site só diz quem foi eleito depois de o resultado ser declarado pelo TSE, com o link para a fonte. A partir da posse, em 05/01/2027 (data fixada pela Emenda Constitucional 111/2021), o rastreador passa a acompanhar o presidente eleito.</p>
 
     <h2 id="fontes">De onde vêm os dados</h2>
     <p>Os dados vêm somente de fontes oficiais públicas e da imprensa. Nada é inventado, estimado nem completado por conta própria.</p>
     <ul>
       <li><strong>Agenda do Presidente</strong> (Planalto): compromissos publicados pelo governo, desde 01/01/2023.</li>
       <li><strong>Diário Oficial da União</strong>: decretos numerados, leis e medidas provisórias, desde 01/01/2023. Entram também os atos assinados pelo vice-presidente no exercício da Presidência.</li>
-      <li><strong>Comunicados do Planalto</strong>: notas do site do Planalto. A maioria é aviso de pauta ("a agenda será às 14h30..."), publicado um ou dois dias antes do compromisso. Cada comunicado aparece com a data em que o texto foi publicado. O histórico existe a partir do início da nossa coleta.</li>
+      <li><strong>Comunicados do Planalto</strong>: publicações do site do Planalto que citam o presidente. Até 27/09/2026 vinham do feed do Planalto e eram, na maioria, avisos de pauta ("a agenda será às 14h30..."), publicados um ou dois dias antes do compromisso. Desde 28/09/2026, quando o feed deixou de ser atualizado, vêm da página de notícias do Planalto e são notícias publicadas depois do fato. Cada comunicado aparece com a data em que o texto foi publicado. O histórico existe a partir do início da nossa coleta. Se a página do Planalto passar mais de 10 dias sem nenhuma notícia nova, tratamos como falha da fonte e o site mostra o aviso de que ela está sem atualizar.</li>
       <li><strong>Notícias</strong> (página separada): títulos e links de Google Notícias e Agência Brasil. É o que a imprensa publica, não um registro oficial, e por isso fica fora da linha do tempo.</li>
+      <li><strong>Falas checadas</strong> (página separada): checagens de falas do presidente publicadas por agências independentes de checagem, com link para cada checagem. É avaliação das agências, não registro oficial, e por isso fica fora da linha do tempo.</li>
     </ul>
     <p>Todo item tem link para o dado de origem. Item sem fonte pública não é publicado.</p>
 
@@ -82,7 +86,7 @@
     <ul class="lista-status">
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM8 4.5V8l2.5 1.5"></path></svg><strong>Agendado</strong>: consta na agenda oficial e ainda vai acontecer.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 4.5h7M5.5 8h7M5.5 11.5h7M3 4.5h.01M3 8h.01M3 11.5h.01"></path></svg><strong>Consta na agenda</strong>: estava na agenda e o dia já passou, mas não há registro oficial que confirme. Um compromisso nunca aparece como "Realizado" só porque o tempo passou: o passar do tempo, sozinho, não prova que aconteceu.</li>
-      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM5.2 8.2l2 2l3.6-4"></path></svg><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: os comunicados do Planalto são avisos publicados antes do evento e não provam que ele aconteceu.</li>
+      <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 2a6 6 0 1 0 0 12a6 6 0 0 0 0-12zM5.2 8.2l2 2l3.6-4"></path></svg><strong>Realizado</strong>: reservado a compromissos confirmados por um registro oficial publicado depois do fato. Hoje nenhum compromisso recebe este status automaticamente: a ligação entre os comunicados do Planalto e a agenda está desligada (veja os limites, abaixo).</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M2.5 3h11v7.5H7l-3 2.5v-2.5H2.5z"></path></svg><strong>Publicado no site do Planalto</strong>: o comunicado foi publicado. Isso não significa que o compromisso descrito já aconteceu.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M4 1.5h5.5L12 4v10.5H4zM9.5 1.5V4H12M6 8h4M6 11h4"></path></svg><strong>Publicado no Diário Oficial</strong>: o ato foi publicado. Mostramos a data de assinatura e a de publicação.</li>
       <li><svg class="icone" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M3 13l.6-2.8l7-7l2.2 2.2l-7 7zM9.4 4.4l2.2 2.2"></path></svg><strong>Alterado na agenda</strong>: o título ou o local do compromisso mudou depois que o registramos. A versão anterior fica guardada no próprio item.</li>
@@ -104,11 +108,36 @@
       <li>Só aparecem viagens que constam na agenda oficial publicada. Viagem sem agenda publicada não aparece.</li>
     </ul>
 
+    <h2 id="falas">Como as falas checadas são escolhidas</h2>
+    <ul>
+      <li>A página Falas checadas reúne checagens de falas do presidente em entrevistas, podcasts, discursos, debates, entrevistas coletivas e pronunciamentos. As checagens são feitas e publicadas por agências independentes de checagem. A página tem duas partes: as frases checadas, coletadas automaticamente, e as checagens de eventos, numa lista conferida à mão.</li>
+      <li>Só entram agências verificadas pela IFCN (International Fact-Checking Network), a rede internacional que avalia a metodologia e a transparência dos checadores: Aos Fatos, Estadão Verifica, AFP Checamos e Lupa.</li>
+      <li>Checagem de boato ou de frase falsa atribuída ao presidente não entra.</li>
+      <li>O site não faz checagem própria nem dá nota. Os vereditos aparecem com as palavras de cada agência, que usam escalas diferentes; o site só os deixa legíveis (por exemplo, "não_é_bem_assim" aparece como "Não é bem assim"). Quem escolhe o que checar são as agências: uma fala sem checagem não é, por isso, verdadeira nem falsa. Elas checam mais as frases que parecem duvidosas e nem sempre marcam as corretas, por isso a proporção de vereditos não mede quanto o presidente acerta ou erra.</li>
+      <li>As checagens não entram nos números da capa nem na página Registros.</li>
+    </ul>
+    <h3>Frases checadas pelas agências (automático)</h3>
+    <ul>
+      <li>As agências publicam cada checagem também num formato padronizado, o ClaimReview, que diz qual foi a afirmação, quem a fez e o veredito. Uma vez por hora, o site lê essas marcações pela Fact Check Tools API, do Google.</li>
+      <li>Uma frase só aparece se a própria agência marcar como autor o presidente, pelo nome (por exemplo, "Lula" ou "Luiz Inácio Lula da Silva"). Autor ausente, diferente ou misturado com outra pessoa fica de fora.</li>
+      <li>Em 28/10/2026, só o Aos Fatos marcava falas do presidente dessa forma. Estadão Verifica e AFP Checamos marcavam quase só boatos, que ficam de fora, e a Lupa não aparecia na API. Se passarem a marcar falas do presidente, entram sozinhas.</li>
+      <li>A cobertura depende do que as agências marcam: checagem publicada sem a marcação não aparece nesta parte.</li>
+      <li>Cada checagem aparece com as frases, o veredito e o link para a matéria da agência, que explica cada veredito. A página mostra as 20 checagens mais recentes; as anteriores ficam em "Checagens anteriores".</li>
+      <li>Uma frase já mostrada não some se a API deixar de devolvê-la. Se a agência corrigir o texto, a versão anterior também continua. Uma frase que a agência tenha marcado errado pode ser retirada à mão, com o motivo registrado em <a href="https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json" rel="noopener noreferrer">config/frases-excluidas.json</a>.</li>
+    </ul>
+    <h3>Checagens de eventos (lista conferida à mão)</h3>
+    <ul>
+      <li>A lista é feita e conferida à mão, e é pública no repositório, em <a href="https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json" rel="noopener noreferrer">config/checagens.json</a>. O link de cada item precisa ser um endereço da própria agência; se algum item tiver problema, a lista nova não é publicada e o site avisa.</li>
+      <li>Só entram checagens em que a agência transcreveu e checou falas do próprio presidente.</li>
+      <li>Se a agência publicar uma correção, ela aparece no item como errata.</li>
+      <li>Uma checagem que também aparece na parte automática é mostrada só lá.</li>
+    </ul>
+
     <section class="limites">
     <h2 id="limites">Limites que você precisa saber</h2>
     <h3>Agenda e comunicados</h3>
     <ul>
-      <li>Os comunicados do Planalto são, na maioria, avisos de pauta publicados um ou dois dias antes do compromisso. Por isso a ligação automática com a agenda está desligada: nenhum compromisso vira "Realizado" por causa deles, e muitos compromissos que de fato aconteceram continuam como "Consta na agenda".</li>
+      <li>Até 27/09/2026, os comunicados do Planalto eram, na maioria, avisos de pauta publicados um ou dois dias antes do compromisso; desde 28/09/2026 são notícias publicadas depois do fato, que nem sempre trazem o local e a hora da agenda. A ligação automática com a agenda está desligada: nenhum compromisso vira "Realizado" por causa deles, e muitos compromissos que de fato aconteceram continuam como "Consta na agenda".</li>
       <li>Agenda, Diário Oficial e comunicados são do próprio governo: "confirmado por 2 fontes" significa dois documentos, mas não duas fontes independentes entre si.</li>
       <li>O governo publica o que quer publicar. Reuniões de rotina muitas vezes ficam sem confirmação.</li>
       <li>Em caso de dúvida, preferimos não ligar dois documentos: errar para menos é melhor do que afirmar que algo aconteceu sem prova.</li>

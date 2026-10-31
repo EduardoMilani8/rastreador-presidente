@@ -5,7 +5,9 @@ import { caminhoSeguro } from './scripts/dados-dev.ts';
 
 // form-action 'self' (e não 'none'): o formulário de filtros de registros.html é um GET para a própria
 // página; com 'none' o navegador bloquearia o envio. Todo o resto continua fechado.
-const CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'";
+// Trusted Types sem nenhuma política: o navegador recusa innerHTML, outerHTML, insertAdjacentHTML, document.write e
+// afins com texto, então a regra "texto das fontes só por textContent" vale mesmo se um dia o código errar.
+const CSP = "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'; trusted-types 'none'";
 
 function csp(): Plugin {
   return {
@@ -51,6 +53,7 @@ export default defineConfig({
         index: resolve('site/index.html'),
         registros: resolve('site/registros.html'),
         noticias: resolve('site/noticias.html'),
+        falas: resolve('site/falas.html'),
         sobre: resolve('site/sobre.html'),
       },
     },

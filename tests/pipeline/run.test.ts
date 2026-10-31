@@ -1,14 +1,22 @@
 import { mkdtemp, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { URL_FACTCHECK } from '../../src/collectors/factcheck';
 import { URL_AGENCIA_BRASIL } from '../../src/collectors/noticias';
-import { URL_FEED_PLANALTO } from '../../src/collectors/planalto';
+import { URL_PAGINA_PLANALTO } from '../../src/collectors/planalto';
+
+// Os cenários usam datas de 2025; o corte da troca do feed pela página (28/09/2026) tem teste próprio
+// em tests/pipeline/planalto-corte.test.ts.
+vi.mock('../../src/collectors/planalto', async (original) => ({
+  ...(await original<typeof import('../../src/collectors/planalto')>()),
+  INICIO_PAGINA_PLANALTO: '2000-01-01',
+}));
 import { lerEstado, lerEventos, lerNoticias } from '../../src/pipeline/store';
 import { atualizar, retroagir, type Deps } from '../../src/pipeline/run';
 import type { Mandato } from '../../src/shared/schema';
 import {
-  DECRETO_DOU, PAGINA_404, PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090, htmlAgenda, htmlDou, rdfPlanalto, rssGoogle,
+  DECRETO_DOU, PAGINA_404, PAGINA_PLANALTO_D11430, PAGINA_PLANALTO_L15090, htmlAgenda, htmlDou, PAGINA_PLANALTO_NEUTRA, paginaPlanalto, rssGoogle,
   rssVazio,
 } from '../helpers';
 
@@ -39,7 +47,7 @@ const cfg = {
   mensagemFalha: 'rede caiu',
   redirecionaAgenda: null as string | null, // URL final devolvida para as páginas de agenda
   redirecionaDou: null as string | null, // URL final devolvida para as edições do DOU
-  comunicados: rdfPlanalto([]),
+  comunicados: PAGINA_PLANALTO_NEUTRA,
   textoPlanalto: 404,
   corpoPlanalto: '', // HTML devolvido por planalto.gov.br/ccivil_03 quando textoPlanalto = 200
   dou: {} as Record<string, object[]>, // AAAA-MM-DD -> itens da edição ordinária (secao=do1). Ausente => edição vazia.
@@ -58,8 +66,16 @@ const MP_EXTRA = {
   content: 'MEDIDA PROVISÓRIA Nº 1.291, DE 6 DE MARÇO DE 2025 Dispõe sobre algo. O PRESIDENTE DA REPÚBLICA, no uso',
 };
 
-async function buscar(url: string) {
+async function buscar(url: string, _accept?: string, cabecalhos?: Record<string, string>) {
   cfg.pedidos.push(url);
+  if (url.startsWith(URL_FACTCHECK)) {
+    fc.pedidos.push({ url, cabecalhos });
+    const u = new URL(url);
+    const site = u.searchParams.get('reviewPublisherSiteFilter')!;
+    if (fc.falha[site]) throw new Error(fc.falha[site]);
+    const paginas = fc.respostas[site] ?? ['{"claims":[]}'];
+    return { status: fc.status, corpo: paginas[Number(u.searchParams.get('pageToken') ?? 0)], url };
+  }
   if (url.includes('/agenda-do-presidente-da-republica/')) {
     const dia = url.slice(-10);
     if (cfg.falhaAgenda || cfg.falhaAgendaDias.includes(dia)) throw new Error(cfg.mensagemFalha);
@@ -82,12 +98,20 @@ async function buscar(url: string) {
     }
     return { status: cfg.statusDou, corpo: htmlDou(cfg.dou[dia] ?? []), url: cfg.redirecionaDou ?? url };
   }
-  if (url === URL_FEED_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
+  if (url === URL_PAGINA_PLANALTO) return { status: 200, corpo: cfg.comunicados, url };
   if (url.startsWith('https://news.google.com')) return { status: 200, corpo: rssGoogle(), url };
   if (url === URL_AGENCIA_BRASIL) return { status: 200, corpo: rssVazio(), url };
   if (url.includes('planalto.gov.br/ccivil_03')) return { status: cfg.textoPlanalto, corpo: cfg.corpoPlanalto, url };
   throw new Error(`URL inesperada no teste: ${url}`);
 }
+
+// Fact Check API falsa: respostas por domínio de agência, uma por página (pageToken = índice da página).
+const fc = {
+  respostas: {} as Record<string, string[]>,
+  falha: {} as Record<string, string>,
+  status: 200,
+  pedidos: [] as { url: string; cabecalhos?: Record<string, string> }[],
+};
 
 async function novoDeps(): Promise<Deps> {
   return {
@@ -116,12 +140,16 @@ beforeEach(() => {
   cfg.mensagemFalha = 'rede caiu';
   cfg.redirecionaAgenda = null;
   cfg.redirecionaDou = null;
-  cfg.comunicados = rdfPlanalto([]);
+  cfg.comunicados = PAGINA_PLANALTO_NEUTRA;
   cfg.textoPlanalto = 404;
   cfg.corpoPlanalto = '';
   cfg.dou = { [HOJE]: [DECRETO_DOU] };
   cfg.extraDou = [];
   cfg.falhaExtraDou = false;
+  fc.respostas = {};
+  fc.falha = {};
+  fc.status = 200;
+  fc.pedidos = [];
 });
 
 describe('atualizar', () => {
@@ -258,7 +286,7 @@ describe('atualizar', () => {
   });
 
   it('comunicado do mesmo dia e local NÃO marca o compromisso como realizado (aviso de pauta não prova o fato)', async () => {
-    cfg.comunicados = rdfPlanalto([
+    cfg.comunicados = paginaPlanalto([
       { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
     ]);
     const deps = await novoDeps();
@@ -272,24 +300,92 @@ describe('atualizar', () => {
     expect(c).toMatchObject({ id: 'planalto:visita-barretos', status: 'publicado' });
   });
 
-  it('fonte fora do ar: mantém os dados, registra ok:false, e só vira falha persistente na 2ª seguida', async () => {
+  it('fonte fora do ar: mantém os dados, registra ok:false, e só vira falha persistente depois de 6 horas', async () => {
     const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
     await atualizar(deps);
     const antes = await lerEventos(deps.dataDir);
 
     cfg.falhaAgenda = true;
+    t += 600_000;
     const r2 = await atualizar(deps);
     expect(r2.falhasPersistentes).toEqual([]);
+    expect(Object.keys(r2.errosDestaExecucao)).toEqual(['agenda']);
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(false);
     expect(await lerEventos(deps.dataDir)).toEqual(antes);
 
+    t += 5 * 3_600_000 + 50 * 60_000; // 5h50 depois da primeira falha
+    expect((await atualizar(deps)).falhasPersistentes).toEqual([]);
+
+    t += 600_000; // 6h depois da primeira falha
     const r3 = await atualizar(deps);
     expect(r3.falhasPersistentes).toEqual(['agenda']);
     expect(r3.arquivosEscritos).toBe(0); // estado idêntico não gera commit
 
     cfg.falhaAgenda = false;
-    await atualizar(deps);
+    const r4 = await atualizar(deps);
+    expect(r4.falhasPersistentes).toEqual([]);
     expect((await lerEstado(deps.dataDir)).fontes.agenda.ok).toBe(true);
+  });
+
+  it('Planalto com lista parada há mais de 6 horas também só avisa (não vira falha persistente)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    cfg.comunicados = paginaPlanalto([{ slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-01T10:00:00-03:00' }]);
+    await atualizar(deps);
+    t += 7 * 3_600_000;
+    const r = await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.planalto.ok).toBe(false);
+    expect(r.falhasPersistentes).toEqual([]);
+  });
+
+  it('DOU fora do ar há mais de 6 horas: o status registra a falha, mas ele não vira falha persistente (só avisa)', async () => {
+    const deps = await novoDeps();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+
+    cfg.falhaDou = true;
+    t += 600_000;
+    await atualizar(deps);
+    t += 7 * 3_600_000;
+    const r = await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.dou.ok).toBe(false);
+    expect(Object.keys(r.errosDestaExecucao)).toContain('dou');
+    expect(r.falhasPersistentes).toEqual([]);
+  });
+
+  it('resume a lista do Planalto para o log: itens, data mais recente e quantos citam o presidente', async () => {
+    cfg.comunicados = paginaPlanalto([
+      { slug: 'visita-barretos', titulo: 'Presidente visita o hospital, em Barretos (SP)', data: '2025-03-10T18:00:00-03:00' },
+      { slug: 'nota-ministerio', titulo: 'Ministério divulga calendário de vacinação', data: '2025-03-08T10:00:00-03:00' },
+    ]);
+    const r = await atualizar(await novoDeps());
+    expect(r.paginaPlanalto).toEqual({ itens: 2, maisRecente: '2025-03-10', citamPresidente: 1 });
+
+    cfg.comunicados = '<html>erro</html>';
+    expect((await atualizar(await novoDeps())).paginaPlanalto).toBeUndefined();
+  });
+
+  it('lista do Planalto sem notícia nova há mais de 10 dias conta como falha da fonte (lista parada)', async () => {
+    cfg.comunicados = paginaPlanalto([
+      { slug: 'velho', titulo: 'Presidente visita obra', data: '2025-02-27T10:00:00-03:00' },
+    ]);
+    const deps = await novoDeps();
+    const r = await atualizar(deps);
+    const planalto = (await lerEstado(deps.dataDir)).fontes.planalto;
+    expect(planalto.ok).toBe(false);
+    expect(planalto.mensagem).toContain('Lista parada: a notícia mais recente é de 27/02/2025');
+    expect(r.paginaPlanalto?.maisRecente).toBe('2025-02-27');
+    expect(r.falhasPersistentes).toEqual([]);
+
+    cfg.comunicados = paginaPlanalto([
+      { slug: 'recente', titulo: 'Presidente visita obra', data: '2025-02-28T10:00:00-03:00' },
+    ]);
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.planalto.ok).toBe(true);
   });
 
   it('dia com 404 nunca remove compromissos já gravados', async () => {
@@ -787,6 +883,7 @@ describe('atualizar', () => {
     const { desde, mensagem } = (await lerEstado(deps.dataDir)).fontes.agenda;
     expect(mensagem).toContain('rede caiu A');
 
+    t += 5 * 3_600_000 + 50 * 60_000; // a falha passa a contar como persistente na volta seguinte
     for (const texto of ['rede caiu B', 'HTTP 502', 'HTTP 503']) {
       cfg.mensagemFalha = texto;
       t += 600_000;
@@ -866,3 +963,203 @@ describe('retroagir', () => {
     expect(falhas).toEqual(['2025-03-09', '2025-03-10']);
   });
 });
+
+describe('falas checadas (data/falas.json)', () => {
+  const AGENCIAS = [{ id: 'aos-fatos', nome: 'Aos Fatos', prefixos: ['https://www.aosfatos.org/noticias/'] }];
+  const CHECAGEM = {
+    id: '2025-03-05-aos-fatos-entrevista', data: '2025-03-05', tipo: 'entrevista', evento: 'Entrevista a uma rádio',
+    agencia: 'aos-fatos', titulo: 'Checamos a entrevista', url: 'https://www.aosfatos.org/noticias/checamos-entrevista/',
+    publicadaEm: '2025-03-06',
+  };
+  const lerFalas = async (dir: string) => JSON.parse(await readFile(join(dir, 'falas.json'), 'utf8'));
+
+  it('grava as checagens com o nome da agência, marca a fonte como ok e não reescreve na execução seguinte', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [CHECAGEM], agencias: AGENCIAS } };
+    await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual([{ ...CHECAGEM, agenciaNome: 'Aos Fatos' }]);
+    expect((await lerEstado(deps.dataDir)).fontes.checagens.ok).toBe(true);
+    expect((await atualizar(deps)).arquivosEscritos).toBe(0);
+  });
+
+  it('tabela vazia grava lista vazia', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [], agencias: AGENCIAS } };
+    await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual([]);
+  });
+
+  it('tabela inválida: mantém o arquivo anterior, marca a falha com o motivo e as outras fontes seguem', async () => {
+    const deps = { ...(await novoDeps()), tabelasDeChecagem: { checagens: [CHECAGEM], agencias: AGENCIAS } };
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    await atualizar(deps);
+    const antes = await lerFalas(deps.dataDir);
+
+    deps.tabelasDeChecagem = { checagens: [CHECAGEM, { ...CHECAGEM, id: '2025-03-05-outra', agencia: 'lupa' }], agencias: AGENCIAS };
+    t += 600_000;
+    const r = await atualizar(deps);
+    expect(await lerFalas(deps.dataDir)).toEqual(antes);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.checagens.ok).toBe(false);
+    expect(estado.fontes.checagens.mensagem).toMatch(/agência desconhecida \(lupa\)/);
+    expect(estado.fontes.agenda.ok).toBe(true);
+    expect(Object.keys(r.errosDestaExecucao)).toEqual(['checagens']);
+
+    // erro nosso, não de servidor público: depois de 6 horas derruba o workflow (e-mail)
+    t += 6 * 3_600_000;
+    expect((await atualizar(deps)).falhasPersistentes).toEqual(['checagens']);
+  });
+
+  it('sem as tabelas injetadas, usa as reais de config/ (válidas)', async () => {
+    const deps = await novoDeps();
+    deps.mandatos = [{ ...MANDATO }];
+    deps.agora = () => new Date();
+    await atualizar(deps).catch(() => undefined);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.checagens?.ok, estado.fontes.checagens?.mensagem).toBe(true);
+  });
+});
+
+describe('frases checadas automáticas (Fact Check API)', () => {
+  const CHAVE = 'chave-de-teste-XYZ';
+  const claim = (texto: string, autor: string, url: string, data = '2025-03-05') => ({
+    text: texto, claimant: autor, claimDate: `${data}T00:00:00Z`,
+    claimReview: [{ publisher: { name: 'Aos Fatos', site: 'aosfatos.org' }, url, title: 'Checamos a entrevista', reviewDate: `${data}T00:00:00Z`, textualRating: 'não_é_bem_assim', languageCode: 'pt' }],
+  });
+  const pagina = (claims: object[], proxima?: string) => JSON.stringify({ claims, nextPageToken: proxima ?? null });
+  const FALA = claim('Frase dita pelo presidente numa entrevista de rádio', 'Lula', 'https://www.aosfatos.org/noticias/checamos-a/');
+  const BOATO = claim('Lula disse uma coisa que ele nunca disse', 'desinformação', 'https://www.aosfatos.org/noticias/boato/');
+  const lerFrases = async (dir: string) => JSON.parse(await readFile(join(dir, 'frases-checadas.json'), 'utf8'));
+  const comChave = async (chave: string = CHAVE) => ({ ...(await novoDeps()), chaveFactcheck: chave });
+
+  it('sem chave configurada (execução local), não consulta a API nem cria o arquivo nem o status', async () => {
+    const deps = await novoDeps(); // sem chaveFactcheck
+    await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    await expect(readFile(join(deps.dataDir, 'frases-checadas.json'), 'utf8')).rejects.toThrow();
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toBeUndefined();
+  });
+
+  it('chave vazia (segredo faltando no Actions) é falha com instrução', async () => {
+    const deps = await comChave('');
+    await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringMatching(/FACTCHECK_API_KEY/) });
+  });
+
+  it('primeira coleta: carga completa (sem limite de idade, até 5 páginas), chave só no cabeçalho, só a fala do presidente entra', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA, BOATO], '1'), pagina([], undefined)];
+    const deps = await comChave();
+    await atualizar(deps);
+
+    const doAosFatos = fc.pedidos.filter((p) => p.url.includes('aosfatos.org'));
+    expect(doAosFatos).toHaveLength(2);
+    for (const p of fc.pedidos) {
+      expect(p.url).not.toContain(CHAVE);
+      expect(p.cabecalhos).toEqual({ 'X-Goog-Api-Key': CHAVE });
+      expect(new URL(p.url).searchParams.has('maxAgeDays')).toBe(false);
+      expect(new URL(p.url).searchParams.get('query')).toBe('Lula');
+    }
+    expect(new Set(fc.pedidos.map((p) => new URL(p.url).searchParams.get('reviewPublisherSiteFilter'))))
+      .toEqual(new Set(['aosfatos.org', 'estadao.com.br', 'checamos.afp.com', 'agencialupa.org']));
+
+    const frases = await lerFrases(deps.dataDir);
+    expect(frases.map((f: { frase: string; agenciaNome: string }) => [f.frase, f.agenciaNome]))
+      .toEqual([['Frase dita pelo presidente numa entrevista de rádio', 'Aos Fatos']]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases.ok).toBe(true);
+  });
+
+  it('coletas seguintes: só os últimos 30 dias, até 3 páginas; sem novidade não reescreve nada', async () => {
+    fc.respostas['aosfatos.org'] = ['0', '1', '2', '3', '4'].map((i) => pagina([FALA], String(Number(i) + 1)));
+    const deps = await comChave();
+    await atualizar(deps);
+    expect(fc.pedidos.filter((p) => p.url.includes('aosfatos.org'))).toHaveLength(5);
+
+    fc.pedidos = [];
+    const r2 = await atualizar(deps);
+    const doAosFatos = fc.pedidos.filter((p) => p.url.includes('aosfatos.org'));
+    expect(doAosFatos).toHaveLength(3);
+    for (const p of doAosFatos) expect(new URL(p.url).searchParams.get('maxAgeDays')).toBe('30');
+    expect(r2.arquivosEscritos).toBe(0);
+  });
+
+  it('o que a API deixa de devolver continua no arquivo', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps);
+    fc.respostas['aosfatos.org'] = [pagina([])];
+    await atualizar(deps);
+    expect(await lerFrases(deps.dataDir)).toHaveLength(1);
+  });
+
+  it('agência com erro: as outras seguem, o já gravado fica, o status diz qual falhou e a chave nunca aparece', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps);
+    const antes = await lerFrases(deps.dataDir);
+
+    fc.falha['estadao.com.br'] = `Falha ao buscar ...?key=${CHAVE}: rede caiu`;
+    fc.respostas['aosfatos.org'] = [pagina([FALA, claim('Outra frase dita pelo presidente num discurso', 'Lula', 'https://www.aosfatos.org/noticias/checamos-b/')])];
+    const r = await atualizar(deps);
+    const estado = await lerEstado(deps.dataDir);
+    expect(estado.fontes.frases.ok).toBe(false);
+    expect(estado.fontes.frases.mensagem).toContain('estadao.com.br');
+    expect(JSON.stringify(estado)).not.toContain(CHAVE);
+    expect(JSON.stringify(r.errosDestaExecucao)).not.toContain(CHAVE);
+    expect((await lerFrases(deps.dataDir)).length).toBe(antes.length + 1);
+  });
+
+  it('erro da API no corpo (503) é falha da fonte, não lista vazia, e só avisa (sem e-mail)', async () => {
+    const deps = await comChave();
+    let t = Date.parse('2025-03-10T15:00:00Z');
+    deps.agora = () => new Date(t);
+    fc.status = 503;
+    fc.respostas['aosfatos.org'] = ['{"error":{"code":503,"status":"UNAVAILABLE","message":"The service is currently unavailable."}}'];
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringMatching(/503 UNAVAILABLE/) });
+    t += 7 * 3_600_000;
+    expect((await atualizar(deps)).falhasPersistentes).toEqual([]);
+  });
+  it('uma vez por hora: fora dos primeiros 10 minutos da hora não consulta, mantém o status e não reescreve nada', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    await atualizar(deps); // 15:00 UTC: coleta
+    const estado = await lerEstado(deps.dataDir);
+    fc.pedidos = [];
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    const r = await atualizar(deps);
+    expect(fc.pedidos).toEqual([]);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toEqual(estado.fontes.frases);
+    expect(r.arquivosEscritos).toBe(0);
+  });
+
+  it('sem arquivo ainda, a carga completa não espera a hora cheia', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    const deps = await comChave();
+    deps.agora = () => new Date('2025-03-10T15:27:00Z');
+    await atualizar(deps);
+    expect(fc.pedidos.length).toBeGreaterThan(0);
+    expect(await lerFrases(deps.dataDir)).toHaveLength(1);
+  });
+  it('agência que falha (503 em rajada) é tentada de novo no fim da rodada; se responder, não vira falha', async () => {
+    fc.respostas['aosfatos.org'] = [pagina([FALA])];
+    let falhasLupa = 1;
+    const deps = await comChave();
+    const original = deps.buscar;
+    deps.buscar = async (url, accept, cabecalhos) => {
+      if (url.includes('agencialupa.org') && falhasLupa-- > 0) throw new Error('HTTP 503');
+      return original(url, accept, cabecalhos);
+    };
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases.ok).toBe(true);
+    expect(fc.pedidos.filter((p) => p.url.includes('agencialupa.org'))).toHaveLength(1); // a 2ª tentativa
+  });
+
+  it('agência que falha também na segunda tentativa continua sendo falha avisada', async () => {
+    fc.falha['agencialupa.org'] = 'HTTP 503';
+    const deps = await comChave();
+    await atualizar(deps);
+    expect((await lerEstado(deps.dataDir)).fontes.frases).toMatchObject({ ok: false, mensagem: expect.stringContaining('agencialupa.org') });
+    expect(fc.pedidos.filter((p) => p.url.includes('agencialupa.org'))).toHaveLength(2);
+  });
+});
+

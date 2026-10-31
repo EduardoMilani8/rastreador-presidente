@@ -13,8 +13,10 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
   atos publicados no Diário Oficial (decretos, leis e medidas provisórias), do mais recente para o mais antigo,
   desde 01/01/2023.
 - **Filtros** por data, tipo e status. O endereço da página guarda o filtro, então dá para compartilhar.
-- **Notícias**, uma página separada (o site tem quatro: Capa, Registros, Notícias e Sobre): o que a imprensa
-  publicou, sem misturar com o registro oficial.
+- **Notícias**, uma página separada (o site tem cinco: Capa, Registros, Notícias, Falas checadas e Sobre): o que a
+  imprensa publicou, sem misturar com o registro oficial.
+- **[Falas checadas](https://rastreadordopresidente.com.br/falas.html)**, outra página separada: checagens de falas do presidente feitas por agências independentes de
+  checagem, com link para cada uma. O site não checa nada por conta própria.
 - **Fonte em tudo**: cada item tem link para o documento público de origem. Item sem fonte não entra.
 - **[Sobre e metodologia](https://rastreadordopresidente.com.br/sobre.html)**: o que cada status
   significa e os limites do que o site consegue saber.
@@ -25,8 +27,10 @@ quem visita e não publica opinião: mostra o registro oficial e aponta de onde 
 |---|---|
 | Agenda do Presidente (gov.br/planalto) | Compromissos publicados pelo governo |
 | Diário Oficial da União (in.gov.br) | Decretos numerados, leis e medidas provisórias |
-| Comunicados do Planalto | Avisos de pauta publicados pelo governo |
+| Comunicados do Planalto (página de notícias do gov.br) | Publicações do Planalto que citam o presidente |
 | Google Notícias e Agência Brasil | Títulos e links da imprensa (página Notícias) |
+| Fact Check Tools API (Google) | Frases do presidente checadas pelas agências, com o veredito delas (página Falas checadas) |
+| Aos Fatos, Estadão Verifica, AFP Checamos e Lupa | Checagens de falas do presidente, conferidas à mão (página Falas checadas) |
 
 Um robô consulta essas fontes a cada 10 minutos, guarda o resultado em arquivos JSON na pasta [`data/`](data/) e
 republica o site. Tudo acontece aqui no repositório, à vista de todos: o código, os dados e o histórico de cada

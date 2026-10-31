@@ -1,0 +1,42 @@
+name: Testar endereço de feed
+# Só leitura: busca os endereços informados e mostra o que vem (para achar um feed que funcione). Não grava nada.
+on:
+  workflow_dispatch:
+    inputs:
+      enderecos:
+        description: 'Endereços https://www.gov.br/... separados por espaço'
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Buscar e resumir
+        env:
+          ENDERECOS: ${{ inputs.enderecos }}
+          UA: 'Mozilla/5.0 (X11; Linux x86_64) RastreadorPresidente/0.1 (+${{ github.server_url }}/${{ github.repository }})'
+        run: |
+          permitido='^https://www\.gov\.br/[A-Za-z0-9._~/@+%=-]*$'
+          for u in $ENDERECOS; do
+            echo "=== $u"
+            if ! [[ "$u" =~ $permitido ]]; then
+              echo "Ignorado: só endereços https://www.gov.br/..., sem ? nem &."
+              continue
+            fi
+            if ! curl -sS -L -m 30 -A "$UA" -o corpo.txt -w 'HTTP %{http_code} | %{content_type} | final: %{url_effective}\n' "$u"; then
+              echo "Falha de rede."
+              continue
+            fi
+            echo "Início: $(head -c 300 corpo.txt | tr '\n\r' '  ')"
+            echo "Itens <item>: $(grep -o '<item[ >]' corpo.txt | wc -l) | <entry>: $(grep -o '<entry[ >]' corpo.txt | wc -l)"
+            echo "Datas (dc:date/updated, mais recentes): $(grep -oE '<(dc:date|updated)>[^<]+' corpo.txt | sed -E 's/<[^>]+>//' | sort -r | head -3 | tr '\n' ' ')"
+            echo "Datas (pubDate, primeiras): $(grep -oE '<pubDate>[^<]+' corpo.txt | sed -E 's/<[^>]+>//' | head -3 | tr '\n' '|')"
+            echo "Primeiro item (até 2000 caracteres):"
+            tr '\n\r' '  ' < corpo.txt | grep -oE '<(item|entry)[ >].*' | sed -E 's#(</(item|entry)>).*#\1#' | head -c 2000; echo
+            sleep 1
+          done

@@ -16,6 +16,13 @@ describe('text', () => {
     expect(urlHttpsSegura('javascript:alert(1)')).toBeNull();
     expect(urlHttpsSegura('não é url')).toBeNull();
   });
+  it('urlHttpsSegura recusa usuário ou senha na URL, que fazem um endereço parecer de outro site', () => {
+    expect(urlHttpsSegura('https://www.gov.br@golpe.example/agenda')).toBeNull();
+    expect(urlHttpsSegura('https://usuario:senha@www.gov.br/agenda')).toBeNull();
+    expect(urlHttpsSegura('https://:senha@www.gov.br/')).toBeNull();
+    // @ no caminho ou na consulta é legítimo
+    expect(urlHttpsSegura('https://www.gov.br/a@b?c=d@e')).toBe('https://www.gov.br/a@b?c=d@e');
+  });
   it('dataSaoPaulo usa o fuso de São Paulo', () => {
     expect(dataSaoPaulo(new Date('2026-10-08T01:30:00Z'))).toBe('2026-10-07');
     expect(dataSaoPaulo(new Date('2026-10-08T15:00:00Z'))).toBe('2026-10-08');

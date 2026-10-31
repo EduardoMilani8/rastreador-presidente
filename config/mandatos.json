@@ -3,7 +3,14 @@
     "presidente": "Luiz Inácio Lula da Silva",
     "nomes": ["Lula"],
     "inicio": "2023-01-01",
-    "fim": "2026-12-31",
+    "fim": "2027-01-04",
+    "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica"
+  },
+  {
+    "presidente": "Luiz Inácio Lula da Silva",
+    "nomes": ["Lula"],
+    "inicio": "2027-01-05",
+    "fim": "2031-01-04",
     "agendaBase": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica"
   }
 ]

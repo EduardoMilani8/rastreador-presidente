@@ -434,6 +434,24 @@
     "historico": []
   },
   {
+    "id": "planalto:presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+    "tipo": "comunicado",
+    "data": "2026-10-14",
+    "titulo": "Presidente Lula regulamenta Marco Legal dos Jogos Eletrônicos e anuncia medidas de apoio ao setor",
+    "status": "publicado",
+    "ementa": "Crédito com juros menores, captação por incentivos fiscais, novos cursos e apoio à inovação buscam fortalecer a produção brasileira, formar profissionais e ampliar a presença dos jogos nacionais no Brasil e no exterior",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/presidente-lula-regulamenta-marco-legal-dos-jogos-eletronicos-e-anuncia-medidas-de-apoio-ao-setor",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-10-14:12:00:1",
     "tipo": "agenda",
     "data": "2026-10-14",
@@ -447,6 +465,24 @@
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-14",
         "coletadoEm": "2026-10-14T00:40:16.664Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:aprovado-no-senado-e-a-caminho-da-sancao-presidencial-prospera-mei-vai-perdoar-dividas-e-ampliar-limite-de-faturamento-dos-microempreendedores",
+    "tipo": "comunicado",
+    "data": "2026-10-15",
+    "titulo": "Aprovado no Senado e a caminho da sanção presidencial, Prospera MEI vai perdoar dívidas e ampliar limite de faturamento dos microempreendedores",
+    "status": "publicado",
+    "ementa": "Proposta prevê licitações exclusivas até R$ 100 mil e teto de faturamento de R$ 110 mil em 2027 e até R$ 140 mil em 2028, além de contratação de dois empregados",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/aprovado-no-senado-e-a-caminho-da-sancao-presidencial-prospera-mei-vai-perdoar-dividas-e-ampliar-limite-de-faturamento-dos-microempreendedores",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
       }
     ],
     "confirmadoPor": [],
@@ -588,6 +624,24 @@
     "historico": []
   },
   {
+    "id": "planalto:lula-sanciona-lei-que-amplia-beneficios-para-meis-e-envia-ao-congresso-pec-sobre-tarifa-zero-no-transporte-coletivo",
+    "tipo": "comunicado",
+    "data": "2026-10-21",
+    "titulo": "Lula sanciona lei que amplia benefícios para MEIs e envia ao Congresso PEC sobre tarifa zero no transporte coletivo",
+    "status": "publicado",
+    "ementa": "Prospera MEI prevê perdão de dívidas com a União, aumento do limite de faturamento e ampliação das oportunidades de contratação. Proposta sobre transporte destina ao menos 26,8% das emendas parlamentares impositivas ao custeio da gratuidade",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/lula-sanciona-lei-que-amplia-beneficios-para-meis-e-envia-ao-congresso-pec-sobre-tarifa-zero-no-transporte-coletivo",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-10-21:11:00:1",
     "tipo": "agenda",
     "data": "2026-10-21",
@@ -623,6 +677,404 @@
         "rotulo": "Diário Oficial da União",
         "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.141-de-21-de-outubro-de-2026-739687253",
         "coletadoEm": "2026-10-22T05:10:17.072Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:01:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "01:30",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:03:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "03:00",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "11:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "15:00",
+    "titulo": "Telefonema com a Presidenta do México, Claudia Sheinbaum",
+    "local": "Palácio da Alvorada",
+    "status": "alterado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [
+      {
+        "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+        "hora": "15:00",
+        "local": "Palácio da Alvorada",
+        "registradoEm": "2026-10-27T11:40:19.130Z"
+      }
+    ]
+  },
+  {
+    "id": "agenda:2026-10-26:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "15:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-27T11:40:19.130Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-26:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "16:00",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio da Alvorada",
+    "status": "removido",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-26T17:40:17.669Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-27T11:40:19.130Z"
+  },
+  {
+    "id": "agenda:2026-10-26:16:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-26",
+    "hora": "16:30",
+    "titulo": "Presidente do Senado Federal e do Congresso Nacional, Senador Davi Alcolumbre, e Presidente da Câmara dos Deputados, Deputado Hugo Motta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-26",
+        "coletadoEm": "2026-10-27T11:40:19.130Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "planalto:presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d",
+    "tipo": "comunicado",
+    "data": "2026-10-27",
+    "titulo": "Presidente Lula celebra aniversário no Palácio da Alvorada: “Gratidão ao povo brasileiro”",
+    "status": "publicado",
+    "ementa": "Durante a comemoração, Lula ressaltou o compromisso com a continuidade das políticas sociais e com o desenvolvimento econômico",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/10/presidente-lula-celebra-aniversario-no-palacio-da-alvorada-201cgratidao-ao-povo-brasileiro201d",
+        "coletadoEm": "2026-10-28T01:35:12.667Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-27:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "09:30",
+    "titulo": "Ministro da Defesa, José Mucio",
+    "local": "Palácio da Alvorada",
+    "status": "alterado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T11:30:21.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [
+      {
+        "titulo": "Ministro da Defesa, José Mucio",
+        "hora": "09:30",
+        "local": "Palácio do Planalto",
+        "registradoEm": "2026-10-27T12:30:20.625Z"
+      }
+    ]
+  },
+  {
+    "id": "agenda:2026-10-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "10:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T12:30:20.625Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-27:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "10:30",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio do Planalto",
+    "status": "removido",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T11:30:21.392Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-27T12:30:20.625Z"
+  },
+  {
+    "id": "agenda:2026-10-27:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "local": "Palácio da Alvorada",
+    "status": "removido",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T12:30:20.625Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-27T15:50:16.903Z"
+  },
+  {
+    "id": "agenda:2026-10-27:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T12:30:20.625Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-27:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-27",
+    "hora": "15:30",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira, e Secretário de Imprensa da Secretaria de Comunicação Social, Laércio Portela",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-27",
+        "coletadoEm": "2026-10-27T15:50:16.903Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "09:30",
+    "titulo": "Ministro das Relações Exteriores, Mauro Vieira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:10:30:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "10:30",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "removido",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-29T18:10:17.645Z"
+  },
+  {
+    "id": "agenda:2026-10-29:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "11:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social, Sidônio Palmeira",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T18:10:17.645Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "12:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T18:10:17.645Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-10-29:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "15:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "removido",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T02:50:15.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [],
+    "removidoEm": "2026-10-29T18:10:17.645Z"
+  },
+  {
+    "id": "agenda:2026-10-29:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-10-29",
+    "hora": "16:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "consta_na_agenda",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-29",
+        "coletadoEm": "2026-10-29T18:10:17.645Z"
       }
     ],
     "confirmadoPor": [],

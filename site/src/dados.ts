@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import {
-  EstadoFontesSchema, EventoSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
-  type EstadoFontes, type Evento, type Noticia, type Resumo, type Viagem,
+  EstadoFontesSchema, EventoSchema, FalaChecadaSchema, FraseChecadaSchema, NoticiaSchema, ResumoSchema, ViagemSchema,
+  type EstadoFontes, type Evento, type FalaChecada, type FraseChecada, type Noticia, type Resumo, type Viagem,
 } from '../../src/shared/schema';
 import type { Filtros } from './params';
 
@@ -79,4 +79,30 @@ export async function carregarDados(f: Filtros, opcoes: { noticias?: boolean; re
     }
   }
   return { eventos, noticias, estado, incompleto, resumo, viagens, mesesCarregados: escolhidos, mesesDisponiveis: meses };
+}
+
+/** Só o que a página de falas checadas usa. Nunca lança: arquivo que falta ou é inválido vira lista vazia com aviso. */
+export async function carregarFalas(): Promise<{
+  falas: FalaChecada[]; frases: FraseChecada[]; estado: EstadoFontes; incompleto: boolean;
+}> {
+  let incompleto = false;
+  let falas: FalaChecada[] = [];
+  let frases: FraseChecada[] = [];
+  let estado: EstadoFontes = { fontes: {} };
+  try {
+    falas = validos(FalaChecadaSchema, await lerJson('data/falas.json'));
+  } catch {
+    incompleto = true;
+  }
+  try {
+    frases = validos(FraseChecadaSchema, await lerJson('data/frases-checadas.json'));
+  } catch {
+    incompleto = true;
+  }
+  try {
+    estado = EstadoFontesSchema.parse(await lerJson('data/status.json'));
+  } catch {
+    incompleto = true;
+  }
+  return { falas, frases, estado, incompleto };
 }

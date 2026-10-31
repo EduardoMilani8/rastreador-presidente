@@ -4,7 +4,9 @@ import { resolve } from 'node:path';
 import axe from 'axe-core';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { ICONES } from '../../site/src/icones';
+import { ROTULO_TIPO_FALA } from '../../site/src/falas';
 import { CIDADES_A_VISTA, faixaDeCidade } from '../../site/src/viagens';
+import { carregarAgencias } from '../../src/pipeline/falas';
 
 // jsdom não dá a import.meta.url um esquema file:, então resolve a partir da raiz do projeto.
 const ler = (arq: string) => readFileSync(resolve(process.cwd(), arq), 'utf8');
@@ -57,7 +59,7 @@ describe('site/sobre.html', () => {
   });
 
   it('marca a própria página na navegação e mantém rodapé, título e idioma', () => {
-    // A igualdade da navegação entre as quatro páginas é verificada em paginas.test.ts.
+    // A igualdade da navegação entre as cinco páginas é verificada em paginas.test.ts.
     expect(document.querySelector('nav a[aria-current=page]')!.textContent).toBe('Sobre');
     expect(document.querySelector('nav a[aria-current=page]')!.getAttribute('href')).toBe('sobre.html');
     expect(document.querySelector('h1')!.textContent).toBe('Como este site funciona');
@@ -79,6 +81,8 @@ describe('site/sobre.html', () => {
     expect(new Set(repos)).toEqual(new Set([
       'https://github.com/EduardoMilani8/rastreador-presidente',
       'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/locais.json',
+      'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json',
+      'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json',
     ]));
     expect(html).toContain('href="./style.css"');
   });
@@ -142,9 +146,10 @@ describe('site/sobre.html', () => {
     const texto = document.querySelector('main')!.textContent!.replace(/\s+/g, ' ');
     // (a) o tempo sozinho não confirma
     expect(texto).toMatch(/nunca aparece como "?Realizado"? só porque o tempo passou/);
-    // (b) comunicados do Planalto são avisos de pauta (antes do evento): não confirmam nada, e a ligação está desligada
+    // (b) comunicados: avisos de pauta do feed até 27/09/2026, notícias da página depois; a ligação segue desligada
     expect(texto).toMatch(/Hoje nenhum compromisso recebe este status automaticamente/);
     expect(texto).toMatch(/avisos de pauta .* antes do compromisso/);
+    expect(texto).toMatch(/Desde 28\/09\/2026, quando o feed deixou de ser atualizado, vêm da página de notícias do Planalto/);
     expect(texto).toMatch(/ligação automática com a agenda está desligada/);
     expect(texto).not.toMatch(/depois dos fatos|somente um comunicado oficial|só confirma um compromisso do mesmo dia/);
     // (c) fontes
@@ -292,6 +297,83 @@ describe('site/sobre.html', () => {
       expect(CIDADES_A_VISTA).toBe(9);
       const fronteiras = [1, 2, 3, 7, 8, 15, 16, 30, 31].map(faixaDeCidade);
       expect(fronteiras).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5]);
+    });
+  });
+
+  describe('seção das falas checadas', () => {
+    // Tudo entre o h2 da seção e o próximo h2 (a seção tem dois subtítulos h3).
+    const blocos = () => {
+      const h2 = document.getElementById('falas')!;
+      expect(h2.tagName).toBe('H2');
+      const saida: HTMLElement[] = [];
+      for (let e = h2.nextElementSibling; e && e.tagName !== 'H2' && !e.matches('section'); e = e.nextElementSibling) saida.push(e as HTMLElement);
+      return saida;
+    };
+    const texto = () => blocos().map((e) => e.textContent).join(' ').replace(/\s+/g, ' ');
+    const parte = (titulo: string) => {
+      const i = blocos().findIndex((e) => e.tagName === 'H3' && e.textContent === titulo);
+      expect(i, titulo).toBeGreaterThan(-1);
+      return blocos()[i + 1];
+    };
+
+    it('vem depois das viagens e antes dos limites, e as fontes citam a página separada', () => {
+      const h2 = document.getElementById('falas')!;
+      expect(h2.textContent).toBe('Como as falas checadas são escolhidas');
+      expect(document.getElementById('viagens')!.compareDocumentPosition(h2) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+      expect(h2.compareDocumentPosition(document.querySelector('.limites')!) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+      const fontes = document.getElementById('fontes')!.nextElementSibling!.nextElementSibling!.textContent!.replace(/\s+/g, ' ');
+      expect(fontes).toMatch(/Falas checadas \(página separada\): .*avaliação das agências, não registro oficial/);
+    });
+
+    it('cita, pelo nome, exatamente as agências de config/agencias.json e o critério da IFCN', () => {
+      for (const a of carregarAgencias()) expect(texto()).toContain(a.nome);
+      expect(texto()).toContain('verificadas pela IFCN');
+      expect(texto()).not.toMatch(/Comprova/);
+    });
+
+    it('diz como a lista é feita e o que fica de fora', () => {
+      expect(texto()).toContain('A lista é feita e conferida à mão');
+      expect(texto()).toContain('Checagem de boato ou de frase falsa atribuída ao presidente não entra.');
+      expect(texto()).toContain('O site não faz checagem própria nem dá nota');
+      expect(texto()).toContain('aparece no item como errata');
+      expect(texto()).toContain('não entram nos números da capa nem na página Registros');
+      const link = parte('Checagens de eventos (lista conferida à mão)').querySelector('a')!;
+      expect(link.textContent).toBe('config/checagens.json');
+      expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/checagens.json');
+      expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+    });
+
+    it('avisa que a proporção de vereditos não mede quanto o presidente acerta ou erra', () => {
+      expect(texto()).toContain('Elas checam mais as frases que parecem duvidosas e nem sempre marcam as corretas, por isso a proporção de vereditos não mede quanto o presidente acerta ou erra.');
+    });
+
+    it('explica a parte automática: a marcação das agências, o filtro pelo autor, a cobertura e a exclusão manual', () => {
+      const auto = parte('Frases checadas pelas agências (automático)').textContent!.replace(/\s+/g, ' ');
+      expect(auto).toContain('ClaimReview');
+      expect(auto).toContain('Uma vez por hora, o site lê essas marcações pela Fact Check Tools API');
+      expect(auto).toContain('Uma frase só aparece se a própria agência marcar como autor o presidente, pelo nome');
+      expect(auto).toContain('Autor ausente, diferente ou misturado com outra pessoa fica de fora.');
+      expect(auto).toContain('Em 28/10/2026, só o Aos Fatos marcava falas do presidente dessa forma');
+      expect(auto).toContain('a Lupa não aparecia na API');
+      expect(auto).toContain('não some se a API deixar de devolvê-la');
+      expect(auto).toContain('o link para a matéria da agência, que explica cada veredito');
+      const link = parte('Frases checadas pelas agências (automático)').querySelector('a')!;
+      expect(link.textContent).toBe('config/frases-excluidas.json');
+      expect(link.getAttribute('href')).toBe('https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json');
+      expect(link.getAttribute('rel')).toBe('noopener noreferrer');
+    });
+
+    it('o limite de checagens à vista citado é o do código', async () => {
+      const { CHECAGENS_A_VISTA } = await import('../../site/src/falas');
+      expect(texto()).toContain(`as ${CHECAGENS_A_VISTA} checagens mais recentes`);
+    });
+
+    it('os tipos de fala citados são os do esquema', () => {
+      for (const t of Object.values(ROTULO_TIPO_FALA)) expect(texto().toLowerCase()).toContain(t.varios.toLowerCase());
+    });
+
+    it('a página Falas checadas aponta para esta seção', () => {
+      expect(ler('site/falas.html')).toContain('href="sobre.html#falas"');
     });
   });
 

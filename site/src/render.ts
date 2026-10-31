@@ -4,9 +4,15 @@ import { icone, type NomeIcone } from './icones';
 
 type Filho = Node | string | null | undefined | false;
 
+// Manipulador de evento por atributo seria código vindo de texto (e a CSP o bloquearia em silêncio).
+const ATRIBUTO_PROIBIDO = /^(on|srcdoc$)/i;
+
 export function el(doc: Document, tag: string, atributos: Record<string, string> = {}, ...filhos: Filho[]): HTMLElement {
   const e = doc.createElement(tag);
-  for (const [k, v] of Object.entries(atributos)) e.setAttribute(k, v);
+  for (const [k, v] of Object.entries(atributos)) {
+    if (ATRIBUTO_PROIBIDO.test(k)) throw new Error(`el(): atributo proibido (${k})`);
+    e.setAttribute(k, v);
+  }
   for (const f of filhos) if (f) e.append(f); // string vira nó de texto, nunca HTML
   return e;
 }
