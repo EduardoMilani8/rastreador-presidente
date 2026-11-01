@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:9c04c494ae7a",
+    "titulo": "Proposta de Lara Resende para limitar Selic entra no radar de Lula e assusta mercado",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-01T20:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbXQ2MGdQak9EVjdGVVNSZGpoX3h3SXJudi0xUzBZNUV0NXJDdVZQU1ZVMGgyY0Z0N0djbjFzWDFMWWZPNjJlbTltbGxoYTlZTjR0bHJsUVdrTm9qMUhTXzkxenZNclAwXzcwQWJTOHNyaTFiSkJILVJ0dTh6QVRQRHVpSzlKbTh6VXlGZE1iZXNLRkI3LWExakFUUW0zNmcxZ2VzZzRaZzhtOTZsWjFXYVNETkVPanhhRzd1QTF3ZTVmaDJ2b1BGcjdVOTR1a2M4R2c?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:cb3b01b453af",
     "titulo": "Lula diz que não encerrará nenhum programa social e pode criar novos",
     "veiculo": "Valor Econômico",
@@ -21,6 +29,14 @@
     "veiculo": "Instagram",
     "data": "2026-11-01T18:00:21.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LaHR6a3pqcVJfZlQ1MzJSOFd5Q2RmUHZCbXVVR1EyYTgyeVphZW9qbmRkUzJpUFVKZzN5MFNLS3ZnUmpkNDFKUlBkTlg1QnJaWnc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b135586893b3",
+    "titulo": "Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição",
+    "veiculo": "Estadão",
+    "data": "2026-11-01T17:41:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEFIX19QUFBOS1gzcjNQSnliS1BTLXJVT2xHbmNOTFlxZ2g4YVA4TUM0RmVEVVVpOEZTZ2pjbGsyYTFjRVlNaXM1Q0l5VDFfN1pPdWFmZ3l1amoxX05YeEJLbjc1QzNYMEJ2VGxaRjVPSC00Tk9HWU8wLUFQRUhpalotazE5TnhGMHVnRVp0SkxtSVB5TmdCRWljaDhYbGRYWHVrVFRqYlBHcnV6TDBaRDl5d1A1OWpGQkHSAb8BQVVfeXFMTlF3MThSRmJVLXo4T2hnTEdDa19RX0UtS1R5aEgzV19vMWVHQW5fa3ROalZNWWVGb0tUVDAtQ1YzTm1mRGNhLU9zTzN4WjhIV3l5WE1oYkRIcFJTdXdRYUs2QlZoZ184aHF2QURzZVFhSjktSlRYc2loLU9zdGFrTktubGg0WDc4OG1GdG5jZXZDTjk4RzFFTmJxaVlfc19fTkpXVXFjdGl2OFRzMnhQNlpmcFNhWGRiMHEzNklLZFk?oc=5",
     "origem": "google-news"
   },
   {
@@ -61,6 +77,14 @@
     "veiculo": "Instagram",
     "data": "2026-11-01T13:51:12.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuMk1sM0hiSEZScFhUOG1JaFRXMGJseVR1YnJ4QnR6dEVjQVdaWF94c3p1MEMwWEdlbTlybXhDeDM4ekdHbmoySy1qbzJsQ0lHRHc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dff8bb4d964b",
+    "titulo": "Estudantes convocam protestos contra Flávio em 9 Estados",
+    "veiculo": "Poder360",
+    "data": "2026-11-01T13:22:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWRlbG80TGltTk0tY1d1YTJOSm1xX0VBaUdwSlVLeklVc2ktMnpncDdJX2VzbV9VcVlqcENMTjYtR2J3bTRQaGk2R21XcVNMQ1ZDM3FvdzVpc0poOXFXU1JNOFhtTE8wOFJ5TWFfWGlGWUxfdUtwbmVmVHQyaUliZ3lvR21fZUE1OG81bmp0eGJYMTA3S1B2bFVOVVh4UnVna3ZrYWhWeVc?oc=5",
     "origem": "google-news"
   },
   {
@@ -112,6 +136,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:10ef1d2b002a",
+    "titulo": "Estudantes fazem ato em 9 estados contra Flávio Bolsonaro e de apoio à reeleição de Lula",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-01T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWDdYUlRDZG5tRlowcXBSQ2dvUTFUMUJXVGNQWjJZdDZod1Y4cVFvNEZoRXAwMVpGVXNobmRRS0pLTV8xb29seWJlRnVMU0FPYXQ3ZHB2QnNNN3RhdzRkUVBzc0lsV2s2Z1A2cVhnX2xNcTdDLVNMLXpiaTFLX0N3UDVPWkN5TTFHMHIycVdubVZFal9XU1JIeGFlb25ZSFY1WHF0SWp6bFAySXdoVGgzVzdJQ0w2WDdxb3RodTBuRFlmY0JzWnZnRTJYQTE3M0pvYUFtcw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:42c7442af909",
     "titulo": "Segundo turno em MG teve virada de Lula, queda na abstenção e denúncias de assédio eleitoral; veja balanço",
     "veiculo": "G1",
@@ -152,6 +184,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:e496104b762a",
+    "titulo": "Opinião - Rodrigo Nunes: Lula 4 dá fôlego à democracia, mas extrema direita não foi embora com Flávio",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-01T02:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUmFrQTRsemFKdEx4U3ZQblJjZXRFUV9nZGIwenBiYlIxcTlGajBhVjZXc3lJcW1yeEh4MTBpcWNHLUJ6MTV0NjBzanI5ZGtCeEpaM1RzUFFBYzdFbFZMU042VDZiMFptNDBmOFItemFoM2JfREU4SHd2dnBDX0RmTzVPWk5WZ1Q3MFRaRmd1ZWsyVGQxc0tXY1lQWTc3OTR5X3hfb2tBMDl4RkhLa1FncE1lbDNmeWdRRWo3NEE4YWJMUElwTTRmOUhzZng?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:7b245c9b72c5",
     "titulo": "Lula procura ministro da Defesa para quarto mandato e Múcio indica uma mulher",
     "veiculo": "Estadão",
@@ -173,6 +213,14 @@
     "veiculo": "G1",
     "data": "2026-10-31T21:18:35.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQUldaTm9McWpUZnVYMjBtczB2NFVzZEEwOVJOU2Q1S2VWbjlIUWE1X2xoRUMtSU9LcklZdEJjY0RXZHV1WVZHVTluOFZxSEo2dHl0Yi1wT1BlRHRxX3FkQnNEa0NRa1hWdFFFNnFOM2x0dmRfTzJPT3ZoNVhwSVZobm1tY2pfS0xIWGtXdi10TjdVbmczOFpzS2xUdjlQZldmMzdBRkljbUFySUZOZVZMTHZVQ2xjTFhMdk9nRnlqdVZsR0sxM1ZqaGxPS1VGVVkwZkxSMG5vQ2N6NkZNUmlRYlVwODR4Q28yWEpKc0RFSVdYM1lVUEtUdEMyNmdaWG9yR2VLT21tNHROZllnMHB6T0VhamEzeG5GTFExMi1NWkVMWGJSM0NYaWZ4YU8zSGJmUHdn0gHCAkFVX3lxTE12SjMtZWJrbUJ4ZVFPeDlzbmptZDJxdE1YYXRzNnM4TWtQYnlNb3hVaU9DNHpCQXVDUnc2RDE2cUxJTW52NUY1NnpKRkFPRnkxNTlpdjEyV0hvNGh2cXc4VWF6d2Rid2FMMW9obmJ0TTlPOU0tazUwc0hQS3I3Qk5KcmRUa3VucEQyYTd2NVYxNnFsYUdwLWd4STA5ZmdhMnBoN1ItZ1RBZXV1YXFoQnZhV2lyUnFRemI2ZmJEOFFEMWR4X3R6a3QxRWRBNmlCalJ1ZTl5cXR0XzM4aHhiNU8tSWpvdXhkZEhiaVl1cnRmdnR6bUpLS0xMRmhWaHhzWHJKNVZqdGJtOEVrbUFQUlZCZzg1NmN3ZU9CNV83dXJ3aGtuZm9FNW9DVkNpemIyME5sLUJ3RWQtalBPa3NubHgyU0E?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:470d0278ad96",
+    "titulo": "Kassab diz que Lula procurou PSD e não vê candidatura de Bolsonaro em 2030",
+    "veiculo": "UOL Notícias",
+    "data": "2026-10-31T19:29:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkVHVzJmU1hxNUxHRTZDVnhVV216RHBoYnRLNjdsc1BaVF9rWlB2MG9aWEFhOE9xeGFEZ05BdUhVWXdIVWpiMGNXamJYMXNSS29lWHp6NU1HckNpU1RTVUlVdkYtQWZSU1dpVlc3bDdLOC1IYm1ZVXNHWHN0SHhNU1ItVFdpV0dDZzRUTTdpbWtycUVieW5wV01iYmdlYVg4QUE?oc=5",
     "origem": "google-news"
   },
   {
