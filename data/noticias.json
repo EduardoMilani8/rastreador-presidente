@@ -3008,14 +3008,6 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:2569f4f91f9b",
-    "titulo": "Trump e Milei ainda não parabenizaram Lula; veja líderes mundiais que celebraram vitória do petista",
-    "veiculo": "O GLOBO",
-    "data": "2026-10-26T18:32:15.000Z",
-    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYlZza2NFNExLT1NmalZwZy1pTzJzOXlWeVI3U19YcGU4OWtleXg0NFhIOHMydkZYc2JMYzYxYkxuV1VleWNBWWxEamJud2tIc1NVUFJ2bUdjMy1WUkdOWDNOUlItS0hub3FGNTU4QXpUV1p0ZE8zaU9fSGdZOFh1a2ZFb0ZYMU9ZSzUybEY4eGhPRXc4Vl8tZEhuMmp2aWRDTkFHQU4waVlHemdJOURKeXZGRWJKVl84bmRTNTZPM2NHQkVOdUpQeVY2eEwzMmJoNXBSQ1JwckttalptNldSa0ZqaTVaZDhseERaVHhleFZXMmdORC1Zdk1lZnNfR1Bq0gGPAkFVX3lxTE9uLUVuQzVnd3RjU1B6aVRCU0ZWbDNVd3NmUmpBVGdEdEU4Q2h4Smh3S1BPdlphdXZicGxtaXlHVVRjdjdvVGtLa3ZGQU14MEc5bEpsUmh3VktCcGwxTVJKUE53OGNWUkl1WHQwbmlYTGZxWXZ6YjFMS3hWTGhWUUs0Q2YzUVNaOVc0WVNKZ2gySTJHLUZXaHM2TW5qVW1rNUpkb3cxWEV4SVZLVTJDS1lteS1EaENYZkh2YUFtTGpTMllWZzJWQ09YaVRGRzhvNW9ZQ3p0YVc3YVhoM1pDSVJGSl9OMWVWam9BN01qcUZ2NlFGeFprMGN1bFRKbmh0Ty1EUFN0bmZOSmFUbjloRnc?oc=5",
-    "origem": "google-news"
-  },
-  {
     "id": "google-news:a55a2ff74ccf",
     "titulo": "Veja os estados onde Lula mais ganhou votos do 1º para o 2º turno",
     "veiculo": "Folha de S.Paulo",
@@ -3141,6 +3133,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-10-26T16:18:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcHFrSXpkQWFieHNnbXVDaXZJYW1ETjgyRk8tMXlKTXFNZUxYOFhxLVBmcjhQbEp4YVhIMmlTYnlVOWRKNFNzVXFhUjhiLTU2OUFkcmdQWkRYY1pUQ3oxSGVYTVVYWkU2cE9USy1vRVdmQzZ2UjdNb2RBX2MtT054WmhreVB3Qm5jOFBJY0h5cGV5RVNXRHRVOUs5UDA1RkhobzdVRXFuR3F5OWgwT2MyU0tMcVdMUm1MUFdlU2dpTjFoNEtwaUNnOUZXZTBBTlRyVEc5Qk90VVc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b4251305415a",
+    "titulo": "Centrão reconhece vitória de Lula e isola Flávio Bolsonaro na contestação das eleições; veja",
+    "veiculo": "Estadão",
+    "data": "2026-10-26T16:06:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdlBXUnpyblZGWnU0SXR0WVAzdUhmUkUxZ3Mtbm5rTndSLUZXNjdmR3ktQl93MjdPRnFaeHRfcGVfRjNmeEdJYUxobjFRNXA3REVRTy0tOEhXNlltc2tYNmxxZE1EblFMWkY5TVJpc0I2RW1UVFBST1M0bjJxQVJMVzJlNzU2UHJndENRdkJNQ05wcnRVdFRWVHVfS3hkdnpmTGFCbDY5UVVjYkhOMWVfOXFMb09RM1lfX0VobzhzUWc2cG1NaEhIemhqZWFuVVVYVVVn0gHYAUFVX3lxTE9TdDJqYnIySHVDeWpJXzBNUjBXTnJONHYtdS1qNnZXNFNjVVYyZUtzS2k0VWVvMjRubnMtVlljeTEwa0hYNHhrSUlOc2Q1MU5WS1Btcm1UZDhCT0JzREZXR1R0MTVCVHpkMHRQMnVmRDNKOU5FNUVDRzdHRkJvLXg3aVgxWXdWaGY0bTFZczJibjd0SXRueFJVNEVpLVR5enhaaTZfVloybEhjakl3ZTVMMDlIbTJPSXdBeFhuVVpzMTQ1M29mU2pKVk1MMzB4UW16cGVER1cxZw?oc=5",
     "origem": "google-news"
   },
   {
@@ -3413,6 +3413,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-10-26T09:30:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbm5ESHlfSGo4THBXLWYwOUtMWVI5SGRqYkRxelNXQlVfRG8yalMxR1FoMm85YzQ5cFFCeVpmYlk4UW45WEI2SzF2bW9aTERObVo5VnVuT2IzUG5HaFJhaWZfaTlmTlBwNTZfQ2c2SjU5Yl85bUVMSHdXN1o2ZWdrNkdWb3k2MXktdjhXTThoZVBrRHM3TkRxYVFFSTdhb2R3aUVSSGVra21xMzR2Z0ZaX2s0RFg0c3NFM3NSY29pRFp0eHFvSDd0dlIwbk4xTmMyZTZTZk1WMkRqbXNzMHhOai0yTWpWYzRteGEyOWdRQnhOYlFHcjhTTDdxMmpsQ2F6Zzh0dFA2ZFNHZGk2em83aEtrMXc4Z0t1ajZVQWFMRl9PclJNU0l2bNIBtwJBVV95cUxQSHBHUjJsNVJoVTBCR2xVRFdOUjVkN0VSckprWEpvZ1dSY2JrSUpmZWkxc3BUaFl4Y1RBQjBua01TRlZmdUpZOHMwZTNOUkpYWjdEbjcyV2I3VlphMGRiemZpX0hVVHQxQXpKT2d5NmQyZWY2aGhCT2ktdVJNSU1YTHF5blJyTW9DaE9hWDR3bzV5ZFItYVd4RDVudDZjZ1VWYngtaVhtbDRLWkU2VVVzOEtlZkpaTndvMkxUbEdoUTczN2ZPYTlqN2E1bE5kS081bHlyMlh1MU5oZ2FBOUIybjNDV3huMFNDTkxEZUd6NGFZQmxYOWM0U0Q3VVlUMjlIelFxUTZQMm9lQlpEWEt3VjAzY3lKZmtubzJpRzRzbERCcHVjWHlFVWVYWUsyZ0w5dkltczJTbw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:45a3bc4f5a20",
+    "titulo": "Trump e Milei ainda não parabenizaram Lula; veja líderes mundiais que celebraram vitória do petista",
+    "veiculo": "O GLOBO",
+    "data": "2026-10-26T09:28:38.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYlZza2NFNExLT1NmalZwZy1pTzJzOXlWeVI3U19YcGU4OWtleXg0NFhIOHMydkZYc2JMYzYxYkxuV1VleWNBWWxEamJud2tIc1NVUFJ2bUdjMy1WUkdOWDNOUlItS0hub3FGNTU4QXpUV1p0ZE8zaU9fSGdZOFh1a2ZFb0ZYMU9ZSzUybEY4eGhPRXc4Vl8tZEhuMmp2aWRDTkFHQU4waVlHemdJOURKeXZGRWJKVl84bmRTNTZPM2NHQkVOdUpQeVY2eEwzMmJoNXBSQ1JwckttalptNldSa0ZqaTVaZDhseERaVHhleFZXMmdORC1Zdk1lZnNfR1Bq?oc=5",
     "origem": "google-news"
   },
   {
