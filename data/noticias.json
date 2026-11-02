@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:45a2ad6e0869",
+    "titulo": "'Propostas como tabelar os juros ou queimar reservas cambiais não estão em avaliação', diz Durigan",
+    "veiculo": "G1",
+    "data": "2026-11-02T19:31:51.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUzB0aHlocDQ5OTVNWERSQmhvX2tzRGtfTkRsZ05VOXZyWjNjRUFPZFRwQmwxQUllRy1oUUloc0l5OGdTV2hJWG50N0JMeXRaNGNXWWVicmFGN2tHUjRkSUNDeE9kVndhdnd4TFQxTnFCMDlJYkhhSFU1Wm1EaTcyVnlIWERlMWtVcXE3bTFTOUk5WFVoQUR5MlpaRFJzb3VuR3BJNHZvTklMZUZRNVJpQ3pidzFCclBsNmdudm85N3lzWUw1aUU5STR1VldqVjdxUGF4X2ZISjViNHpDb1BKb3hKTHbSAfMBQVVfeXFMUG5VYnRjZ0RDVHplaUU0M1RHdzF5LWQzNjVMa2tEdXhMLUtZcHd6UjE2SU1KSWMwSTIwZFpQTDM1UTRyNDlZUzJfY1pnWWN5YXNzenBrdWxFenUzcVVJSC1NYkFBYUxZeG55QWwxeTJGR1k0ODNPSzlQNV9jdERTRklvMGVGQTNmV2NSVC05WFpZaklpWXVnYnlKT3VtMzU4RXFKd2ctOXFSeHA3ZFIxN3ZrQ24wM3ZuSzIzYkFITlhKdF9XWHc3VjNjblowYV9sM2p5V3dDVVdLanZFSXlWWjFtTTVGN3BaUS0wMEhtRnk2aE9n?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e8b41838bd20",
     "titulo": "Lula nega extinção de programas sociais no próximo mandato",
     "veiculo": "Alma Preta Jornalismo",
@@ -216,6 +224,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:dbd84da54959",
+    "titulo": "Lula afirma que nenhum programa social será extinto e classifica boatos como fake news",
+    "veiculo": "CBN",
+    "data": "2026-11-01T22:09:52.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSVA4aGtveUg3RDI0LVZsbUVMT2R6X0hmZ1gwVUlWYzJYM1Fmb1Y4UmZ4eG5SNHB6M1FMVldrMWRQbnN1X0tHb25ObzBENWxyNktOeDNlbkhxRmt6YjlxT194YUdGY3pkN0R6UWtSTkJaYm9ZdHQzRnIteEg4S0l4cnlGcEpyY2loWml6TDZlcVFfay1CVGQxX3hoMjFTbnNDUVZjdHdhUEp6VHJaRUpIMEo3dWh4ZThHZmZGNmVRbXdHdGdJUTF5RUJuQnRPdjFYNjhydEZGUk9tQdIB6AFBVV95cUxNQVZfMWxLN2xiekFRTG5lbHRnaDgzbjNlaVR3VXdNNkU1N0R4NUdPeEo3YnlxV0cyb2NLUnVEZkxVZnpjSTMyeDdCTkxmQWNPYXNqTHVUNUJTQ01rbXFiSm9EcHVaUFBFbUVHdV91MU1NUkN4Nng3VHJCZU5wQVFndzdYWmVXcTk1RWJEaUVDaGRSSEFEUkJTNHJ3SE5wd3JHOUE2NkFKVGVsTVpnUGw4MkFjNmJvNS1wS3czTVBUelN5Sm9UOHRWdkVxMC03cGtnZ1hadHJjbUlseGl4a3JBZlFFNWUwTnVX?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6432794a9496",
     "titulo": "O que Lula diz sobre programas sociais e promessas de campanha",
     "veiculo": "VEJA",
@@ -280,11 +296,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:25e05b128d3d",
+    "titulo": "Nenhum programa social será extinto no país, promete Lula",
+    "veiculo": "SBT News",
+    "data": "2026-11-01T20:36:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdHNQTW4tM2NmVUo0Mi1HVmNsTno3dnlJTEJxRmduX2JqOUlYRVh6Q29CelMtQTZJR2dUaDZuUVh6X1p3ZWp5b2VtVnpWUWlyemFId2ZzbkoyVHdES1JuNGZLVWF2NzdOcmg2bmREMm1ja2FKNnlfU3MxTEpNMS1tTE1ZS2hRY2ZEQkk4QmFSMGZDSjk0MzJWcGpyNkhoeEQxc0R3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:9c04c494ae7a",
     "titulo": "Proposta de Lara Resende para limitar Selic entra no radar de Lula e assusta mercado",
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-01T20:35:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbXQ2MGdQak9EVjdGVVNSZGpoX3h3SXJudi0xUzBZNUV0NXJDdVZQU1ZVMGgyY0Z0N0djbjFzWDFMWWZPNjJlbTltbGxoYTlZTjR0bHJsUVdrTm9qMUhTXzkxenZNclAwXzcwQWJTOHNyaTFiSkJILVJ0dTh6QVRQRHVpSzlKbTh6VXlGZE1iZXNLRkI3LWExakFUUW0zNmcxZ2VzZzRaZzhtOTZsWjFXYVNETkVPanhhRzd1QTF3ZTVmaDJ2b1BGcjdVOTR1a2M4R2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:530b55bf9922",
+    "titulo": "Quem vai comandar a economia de Lula em 2027? O que o mercado espera",
+    "veiculo": "InfoMoney",
+    "data": "2026-11-01T20:21:22.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLURFejlrdkNoMUhZUHZrQ0FoTjl4UF9NUkZBOXI2NFE0TU1Cb3RzZWc3SUFwM0Mzc1Z1eGxfWFg1aEZxNEhqd253UHJPeUpPSjBKYzN3dnRWMFN3T29yNDRoWTB0UjRWY0RTQzItOEVaLVJsVVZqYnJTSmkxd0ZPcElua0ZmY3VOOGN0UTcxQjZsbjlRdVRBeVAxSGlpYndxaEdnS0NLREN5QdIBrwFBVV95cUxQQW94UUdHam11X2UyX3FyazJtNV9PVldHQnBJMW9QUHB4dGJvVS1Sd2lWWm92aUx0QThvMHpFU05WRUpPaWdiOURZcXVNemd3S2daTGFtcUhJUUdPMjBITTJBeEZ4N25TYWpzUVM4YzE2ZmNycG1Jei1nR2NLM1ZnRm9aRWxWcmdUdk9XOWNOZUVROEYyd3hQeVhtN1RmUXNkN0ZWLVdtS1lyTmpfZm00?oc=5",
     "origem": "google-news"
   },
   {
@@ -1245,6 +1277,14 @@
     "veiculo": "BBC",
     "data": "2026-10-30T01:04:40.000Z",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VTnBvaTdBWU9ueE1KcXNRWk5TRXY4aWRuMUw3WGNHT0ctRTZrbG5Kekg4M01uY1ZfOXdvRVlsYWVHYmQ5NVlBN1pXd3RBWmFzSEpZLUJYRXc2MThxaExn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0dc4ca4735ab",
+    "titulo": "Presidente Lula discute com Mauro Vieira o futuro da relação do Brasil com EUA",
+    "veiculo": "G1",
+    "data": "2026-10-29T23:53:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSDMteGZobW9JTHFBaldXamc5T3VMT1diNm9uVUxMREJfUS1vV3ZJWk51XzhIZVZMRnJocVNDSU5saklTbmVrVWh0bFk1QlFBb2pPNTZUc2RmM0wxcF9jUm1fSnNVSVpFVGJ6c3R1cU9jdVp1QW1zV2FJYS1mUHVRR241XzF4S2ZhZk40WVk2YXMtWFBnYUltV3hOMmlxLXBGbEVPYmptVzduRExhX1hVUDRhMUpRSEw5a0VldXh5X0Mxc2hCWHRsUlphOTNYWHltWTh0U21uQUlKY0l6bWtFONIB4AFBVV95cUxQSDMteGZobW9JTHFBaldXamc5T3VMT1diNm9uVUxMREJfUS1vV3ZJWk51XzhIZVZMRnJocVNDSU5saklTbmVrVWh0bFk1QlFBb2pPNTZUc2RmM0wxcF9jUm1fSnNVSVpFVGJ6c3R1cU9jdVp1QW1zV2FJYS1mUHVRR241XzF4S2ZhZk40WVk2YXMtWFBnYUltV3hOMmlxLXBGbEVPYmptVzduRExhX1hVUDRhMUpRSEw5a0VldXh5X0Mxc2hCWHRsUlphOTNYWHltWTh0U21uQUlKY0l6bWtFOA?oc=5",
     "origem": "google-news"
   },
   {
