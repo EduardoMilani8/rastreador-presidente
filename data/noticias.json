@@ -1,5 +1,29 @@
 [
   {
+    "id": "google-news:bf2b13803ec9",
+    "titulo": "Propostas de Lula para reforma do Judiciário são centradas no STF",
+    "veiculo": "Consultor Jurídico",
+    "data": "2026-11-02T11:51:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPME5OVktWMldkakF4NjBQeXdDeGIwc25SOE14TTJXNFFGWkhHMGs5eWx1NkZ4bjBFLVNLTlUtMmZBVmRxNUFzc1dzVlNfQmZQSlNtNDNjN2ExMldCbUdZZnhhNzN5S0RaSW5kWWI4V0ZvTzRoaFg2VG9QazE3NllZX2Jfc3hkS0hhVW82QTNBZkItbmFtQ3JZRE1ralE1LXBWbW5Fa2Y0b09URTM0VEFadGZNajVaQlk0QmVQYmNEeGg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3da6e49b227d",
+    "titulo": "Lula vai à COP31 defender conquistas da gestão brasileira e propor avanços",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-02T11:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdjFWZGxoWnBvc0g0dDFWRDVkUW1zS3RiR20xZ3dqTDdWbkVMeGd0aXlPNi1lOHJEdVpjcFJadE1KTnYzS0wxcWVQVXhicnFCNWE4aUNHUTBKbExrd1dXYTNESVpGNkwtVDlpRGU2c0wxSmJ2Y3FyYlJoOUdlQUlsWG9tR0dfNm9HalhrMDRYYUxrUVNIamU2MNIBoAFBVV95cUxOS3lGNmJKeEp0bjB4SzRqUXl0SWtRUVVjQ3ZjQ0VZSHlEN1VLMnNULXVqMHMwekgyWEVCMkRTcjRYb2txcjIyMXFHZmx5UFYwUTRiVS1iNGItNy11VGFESWhBS3dkZnAxdlJ3Tml6dHBvOFY4eEJVcjNBamtGZnh5TkVSa21yUEhHdHNOX1hKaUV6aHJOc0QtbnR5SERJTWhf?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ce3ba0294f20",
+    "titulo": "Como eleições nos EUA devem selar destino de Trump e futuro da relação com o Brasil em 4º mandato de Lula",
+    "veiculo": "BBC",
+    "data": "2026-11-02T10:44:17.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01UTlvOHYwYmNnakNabkpPa3c0NVRsQU54UXdoR1V5YnJMTktMbEQ2d1dJUi1mN19CZVNaajJ3bDk2SDlZbGgzc0k4TnBzeWZyRV9nOWFWSENjRE1rQzliOVdVONIBaEFVX3lxTE5Td0lhWkRpRFJfQ25wTnVGMG1CS2hYWVFOaGRvOGRERFB4ME1rWUVHaU5jTEZKX3o0YTVXWTcxSnFmV09JLTBSRFl5VHRXYUlvVUhNek9pbzZiUEFBT09qVVRXdzYycFNh?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:39e021905a23",
     "titulo": "EDITORIAL | A margem de manobra de Lula no Congresso – “Reeleito para um quarto mandato, o presidente Luiz Inácio Lula da Silva tem pela frente o desafio de reconstruir sua relação com o Congresso. Não será tarefa simples, diante da avalanche da dir",
     "veiculo": "Instagram",
@@ -53,6 +77,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-02T01:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQODFfcnFnZmpwNTJScklVLUJnbi1ObWJBRkpVTmJ5YWZwV0hLeEZ5SGtnQmNnd1NsYnJaTVhMLWxDMGFmZnBTYUZpdzJVUkVOTFRzamdnNzZNTjFCVWpxU2phYzMtX2ZTMk5iZFVGdGFGVGoyY21ZTW5NUTJURUF5VEE4RkotVW1tYnlwRERmd25WYkZRNnJJTnZuUFZKM0dLNy1xQy1DWHBlSGRn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:761d7ece6c7e",
+    "titulo": "Aumento de ICMS sobre combustíveis vira nova frente de batalha entre lulistas e Tarcísio",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-01T23:07:50.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObFdTc1pGOUI4Mm41TFBKcWtJV0Vra3BWY3NYU3g0SVNhLWRqY0ZSa0h2VTN6cUVTdXFJd2ZZdEN2dXJPV3NoUGRsTDR4YUNQRkZYVEVNc2R2b0FSdlRoN1hESEdZQS1IZklDcUpsUmdyUjVOOXp6WkVqWnAtQjB2bkNJdlNFVmdvRFAtZW55WWUtQkI1bHBpcVhrUklBcF9DWVowdVJLeGtCeGxPaGt3WXdmVEVRWDJNb0x6Vy15VzZMS0Y0TlBnbzVzVU1CYVlESDBWejhzZnAwZXA1M0h4ZdIB7wFBVV95cUxQckpyeU9veDN3cE1LcGhpX3E3LWI0YnFfSUdPTjRLQy1HeU9hYkMtWThIZS1wUFBwSS11MWZVSEgyb19pbWx2dEtWVFduRi10YUdQWjcwcUJoSHJSZXU5cUpCc21TTjJ0dTdnZzRDNXhYd1VjQkdtZGZRMlRXMzA2ZW9wZ2ZCQk1Da2hrWTNtZzFFbEplaXlkLXFoYWlFNE8xcS02WmlFMTk3S1ZGQnB4SGlpQjM2aHRfWC1EYzJ3LUJUZlR0QU1ETUpBTmYwUk55dDMzTkViN0FlX0pMVDE3VWVJTWRZUUIyRUVRZ1pHbw?oc=5",
     "origem": "google-news"
   },
   {
