@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:b2618de1d317",
+    "titulo": "Lula viaja a São Paulo para exames médicos de rotina nesta terça",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-11-03T19:16:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZVF0V1AxTzIzZXl4cTFLT0FLeEw4cHJhRlNna19tcG1GcU1mR0JFSnY3RW9oOU9kY3g4YjAxOUI1TU92eEd4amhUTmZOaTlOb1Z3UzNubUVRd0tKcUVsNmVxUHZhLTNVekRmVEdLMDZQTm1abUJJY1h2czIzbF83V3ZDZlRldENfSllyRE9kYWRhVVQwaUVDVzNINVdpX2tiXzNyRVVfNGFQalhxUFgyd0t5aWY?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f5b30659a397",
+    "titulo": "Lula jamais abandonará os programas sociais, diz Kassab à CNN",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-03T18:57:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMGlZd2hxQTdCOXg1cUVTLVVBNmNkdG4zeGRVbHJiSTA2ZWFOV0ZfbWZGUWZKNE5HSWNjYjBhR0ZJcjJPNnNhVXQycFdkcC1IOXMwNnhEdG5idEppM2lTZHNzSERPQTNMRU0zdXpRdnEwbERSd2ItLUxzdFV3MFJrOF9xNmEyWm50MXBtQlVVNmp1aDQwQzJxNnFZSllvbE9q?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:10b177331e88",
     "titulo": "Lula vai a São Paulo para fazer exames de rotina nesta terça-feira",
     "veiculo": "Agência Brasil",
@@ -13,6 +29,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-11-03T18:42:55.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPblpEY1ZIVkFLQ01TMFdKcEYwNFNwOEtLMGtvTXNKdlRQY0E4OTBYRlE0cGFaTXRqcXFfLVAyT2NoR3pHaE55N3lMZXY1ZjVGWDBoUi0zNXZzNlMtNkVneVNIYkZpOVRINjFSQ1RvOE92NHpFR185MGdIUkxuTGhOQWtOWjk3Zi1UOTBKOExoWE9UaUstd3JFcEtDR2FIbmEyMzgyV2FQb25NdlAxV3VBVUdZN3VwV2dXRlRnOS1mUDExa0tWV3pkZVRTRlc2a1FMWVZJ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:200118290808",
+    "titulo": "Plano de Lula de governar com as ruas e redes eleva custo político de medidas de ajuste na economia",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-03T18:38:38.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYm5JSThYTEtzMDV4QlRUQks2dkROa3FoUU5tTVZwUnFSV0ItWFNlbU51Z0JsRDk1Yy1WQzhtZDNDVkdvZi1tZ3ZRTDR3OUVhdGxUNjRpUUhuWnc0c0tqd0o4ZWE0b2E4OERoNVhBN1p3ZmpkXzh0MXQybVRoZ3BJWUQ0UEVjVHczWkpPdmIzd0lUbjhUSWxhMXNwVzJRNHFlU3Z1OHJWRFVjMF95dV84VEVzSmdERjNtYnFndnA4UFBSdEJYRzRrSGxMODRSbGpZR2dUSmRkV2o3VklMVzJQRHZNTlRObnhHX18temtyNGhKYVZkWXVnUtIBhwJBVV95cUxOMmFlSHREQzFUUWxwOTlUbVRsNlV3TXdBYnRsR0xXc1pIMkdzNHpqMW56dl9VTmJNWFBmbmNKNXB5cVo1RDNpUU5fZHVZN2p4eWRaVlo4QmE5dGpKS3lOaGFhVDVkalNmaW5PNE9BOWxaUWNyb2lHdUV6WnFaTDBhdFk2bWV2UGJFRl9VUXVncTZtRmowemp5Z29Jd19tVk91NUJHLVVhV1ZEVklZTkJsZTZJTnF1b3FhTWluUjJkZ3BzclJuTUkyWm9nc2cyNFBqS3dFNWNBREM4RjFsODNtTklZMWJLbnlIaDR0YlYwakF0NmswV2hjcnJVdmk0SzZPNFNzQTF5MA?oc=5",
     "origem": "google-news"
   },
   {
@@ -237,6 +261,22 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-03T13:44:45.000Z",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOW5VWXdvRHNkdVF3RlNNcC1MOWxMdlNNZC1qYkxLOFg0SU1obUpYNlZUaGZvbDRoczhpTk45cEFLQ0I3dnB0SExwQjB0UnBSU193S2VkZlNqWnppZlR3NncxNVhQTkd2VUMwRlpPZHhXOE04M3V6NkxZd2UzcFEwekdFaWNXaHQyVEhFTEtzX3MybnNpNXRFWXhQUFpLcXdJa05Xazl5ZUt1TzR60gG7AUFVX3lxTE80UFFIZXFGQU1pTFVEenBucHNmT1NxRWc0TVhNNFJ5XzYwSk9mcnRVMDkzT1ZMVFlHRUNDU2JZbHoxSmwtbjNuSnlvOVRJZ0w0eHQ1SnljVFp6UkpRLVpITEFWVktQLUFOaktmYTI2U3NtRlRWV0IwTHpPTDB6LThSQjUtNGZQTC03V2Y4TUt5Wmp1RnQtR2lybjFtWW81WHExeFpqcFBiVWlmNW1EUDJNRkpfZFd4VVhQSGM?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c6fed4b107bd",
+    "titulo": "Fux diz que MP do fim das bets tem questões que precisam ser discutidas pelo STF e cita segurança jurídica e reflexos econômicos",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-03T13:23:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMEJfcUc1T1Y0NmRGcExlZzlMNy1JSmxNNDhqXzV0cTVGbHpWZTRRZkhxRUhpR3c4ZDMxaW1ZWTMyU2tybjlNQkNPTVBqdjExRUdhbUszMW4wSmRSckVmYTBsYVpsSjdUOHVia1ZrbVBoeDgzVlRKOWpWWHdvNzEtM1dpVU4yZFBPUGxPZ0UxQjljQdIBoAFBVV95cUxNVnJQcWxaUVZ2Z1JzUGFMQ0JHZkpkWGVNNXVyVldvZHdra2xlenZjNWJSeGRuRFlTMktEOVUxclhlMXk4TVJSNEpoalZVWkFSWTZ6aXZqTHU2bWRqWDBucm1Da0NYODNUbGRSTTJCSGhLZjU0MXJiUWsyNVRLbGJWcmtqWkxaWDNIcEN6d2t0R3AxWU5TaXdhaV8zNEhOY25X?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6a7250ef39da",
+    "titulo": "Governo Lula vai precisar de salto bilionário no orçamento para cumprir promessas na educação",
+    "veiculo": "Apufsc-Sindical",
+    "data": "2026-11-03T13:20:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWVNvSnE0MmxIQXpRWFVSbmc5bmFNQ05fRC0zTFRQTUxOakdVRmZLS2FFUGlYcVlCMDNuNUMwZVpLNURRTF9LVjFNUWx4ZlZLbV83VENMQWw1NXBMeEsxLXF0QTNtRXN5OE82YkxTYU0wcDdXendFQ1E4Vmt3OXhaNEtuc2wzMHpqZE4tZU5Fd09hd0gxd0xXNjFsc29fUjZMSDlBaGRPbGF3QVBTcF9kZldVbkk2T01FMjZ0UzU5cUFWSVFBc1drcnB0MA?oc=5",
     "origem": "google-news"
   },
   {
