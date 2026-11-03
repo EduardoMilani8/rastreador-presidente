@@ -1,18 +1,16 @@
 {
   "fontes": {
     "agenda": {
-      "ok": false,
-      "desde": "2026-11-03T05:00:26.894Z",
-      "mensagem": "2026-10-31: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-31: TypeError: fetch failed; 2026-11-01: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-"
+      "ok": true,
+      "desde": "2026-11-03T05:10:15.708Z"
     },
     "dou": {
       "ok": true,
       "desde": "2026-11-02T13:50:19.589Z"
     },
     "planalto": {
-      "ok": false,
-      "desde": "2026-11-03T05:00:26.894Z",
-      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
+      "ok": true,
+      "desde": "2026-11-03T05:10:15.708Z"
     },
     "noticias-google": {
       "ok": true,
