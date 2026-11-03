@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:ad20dd689dd1",
+    "titulo": "“L” de Lula aparece em atos e campanhas da esquerda em outros países",
+    "veiculo": "Fundação Perseu Abramo",
+    "data": "2026-11-03T23:34:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXRtRTF2ZzFDZ2tHSmZtTzQxT0w3SFdQZWdFTUZqQzByM0FiTE05YkJNY21GcVVrS3BWMnV1bm9tN3psU01oT1hLMW1jRlJpYmtZbmY0SlpzTTRNVDNpcmY5NVhTeWt4OGgwQlFGTVNzS0FDaWxUNTVucEZCQ2pvWUg5eDQ1VGRmN2xRYVRjZ1h3ZkFDY0E?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:700bf577fd7d",
+    "titulo": "O Senado aprovou em dois turnos, nesta terça-feira, 3, a proposta de emenda à Constituição (PEC) da Segurança Pública, uma das principais bandeiras do presidente Luiz Inácio Lula da Silva na reta final do terceiro governo.⁣ ⁣ No primeiro turno foram 73",
+    "veiculo": "Instagram",
+    "data": "2026-11-03T22:38:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4YzYyd0VnaFBkSFhZb3FsXzZzWFl3ckhxQ3cyWm5PWXJJbGZFSXllUkFNdUQ1eXBsdDRXSmp3RzdYVFNsVEdWZlFwak52M01ZQXc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:205ce7b0bc2a",
     "titulo": "Senado aprova PEC da Segurança e dá aval para Lula criar ministério no setor",
     "veiculo": "vermelho.org.br",
@@ -296,11 +312,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:97ea42d41207",
+    "id": "google-news:5734f5a4511f",
     "titulo": "Moisés Braz celebra reeleições do governador Elmano e do presidente Lula",
     "veiculo": "ALECE",
     "data": "2026-11-03T14:28:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ19XYVRuLVA2YVRiYjJHRmdJWE1VMV8tVGVxcFJWWHZtczRZN3ZWdWk5djF3OHYyM0JmeWhlcUR1N3puOERMeFA2dlUxQWVBNHFGZHJIQ0kzVTN2eUdfMHQyck1wbTBmTmE3X0hmU2IydnFXVE01X1NNQkpZRGRTNW5HUloyVTJyNG9iU2hsbE1YdDRRWGFxZkktWktlc3hBaEVnNDlhMHdnZnZ2ZlpuMzc3WTNJYWE2X0Zoamp0MHdieDRSWXBiRVNTV0NqY1k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVElsdXFRcGhlWFpPOGVkbGMweGswZ0x0SGNNZzE3a3Z2dXNKNlBaT25ZR0tNaUJ5by1sVWowMGtsT3lkY1NvRDNKdG1XVHBkN1NfSnl6b09vSjd2OWlrLWhxV0dPNjUxemg1eWI0d3czZHRsWnlQV0JnOW5WeUNjNEVXYzY0RHRuTEQ4Ymdpb1NENzB4RmNfYXUtZ19VZ2s2cEREYnczNXg3dnBjTHBMajVR?oc=5",
     "origem": "google-news"
   },
   {
@@ -445,6 +461,14 @@
     "veiculo": "JOTA Info",
     "data": "2026-11-03T12:21:36.000Z",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWmpvTUxzTk9ZWWxpQ0hQcjFPRnJoSW5rTjBCb0Vyc1k0cmx1MzVQa0ZrU2NrWnZOQkdpUXdXV2RKYWc0ZFdselEzRWtOMnpLaV9MUjgzQW5VeWo5N3dfSUlkdkJBa191UXNtZjlEVzgwSFZWbTBlSDVmRGxsVlN4bUIxNzY1V3V3REVvMW4ySDRZNGdGVnJIcC1Bb3cxdHZwNFZHcFJXM1p4aFNsckZ5eUZweW1Qeko4MHBLMDN4TEhOS0Uy?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f0bb46e950ad",
+    "titulo": "PEC da Segurança Pública, defendida por Lula na campanha, entra em pauta nesta terça",
+    "veiculo": "CUT - Central Única dos Trabalhadores",
+    "data": "2026-11-03T12:11:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZlpnc3NqazhfUVhmUVhjQjVjQnNSNENHVVpBdjNkbmNNX1hpUWo3RjdXOGFKbm5DbTNaczh1YVFiczVYa2o3UkpBWHBwcy10VUFxOWgtaVRNM2p2TlUtei1IUmtPamZrdHpKY0dQVlotcXlqNmZNRlNOVXh2OUYwblExb0ZSWXJzT3N6RjRfMjVXNGpkdmZYRVFqcWhhZ2NlN2xFdHBMX1RLbFppYW9mWFo3RE5GV201?oc=5",
     "origem": "google-news"
   },
   {
@@ -3309,6 +3333,14 @@
     "veiculo": "G1",
     "data": "2026-10-28T00:21:38.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTXI0czc1d0VlVzJTc3Bka0RGYVE2SzZfeFJ1S1VZZHA5ZzUwTWMtTURBZ3NLM1dFVUNpX01sMmljMUxrampKVmU4UzZMMFFjMFl0UkxVMEtkN0V2ZHFFdGlteWFoZGVXR21kNGhUaGZFZlhfcFBHZGVDMUFDYVRvQ1VJSno4TEFiN1Q4N0lHVkFvek5jaTFJb19Tbk55Q001VEItS2JmSUJBVEJKd0lUM0ZZUEpUazdMclRoQXg3ZnR0UTE4NmJsMEVVZmdYeVhqbXBv0gHiAUFVX3lxTE9BLXlnZ1h1cENvV1Y0TXBjNmZGWFAyOWtWeDhhb3UzT21IeEhmbGNheVB5OEhWaUQ5ZWhmNmRmejBZMlh0UFl5QjdaN2NOMGRDbjJQcHRfbXB3T1dmdWZPNmJZcjRUNU1LbGdEQV94WjgxNS16WENLQjlMRjhmeWpHdnlBVXd3Ym8zZ2lZQUZVZ3pWMjdjY2xRZkFMUGZQU2gzTXlYN29palA0TUJZVkpzWW9KR3JmWld6RE5YYkdIeGFSbVo2NUNSeWdMTm5WU3RVekdLZGFFZHlrS2t3Z21PU2c?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dd3a544379a9",
+    "titulo": "'Só na bala agora': Polícia Civil investiga mensagens sobre boicote a apoiadores do presidente Lula em MT",
+    "veiculo": "G1",
+    "data": "2026-10-28T00:09:46.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdzV0VHlkdFlfbDQ0VXZhdThpVTJyZ3FfaG1JUE1uREZlV2JuQXplTmhhYkk1SlpYUUlZX1FIOWZoQklDSjVLTS1VR2tYUERBNUk0bHhvYTVzTzRfeURhcnZLaE03VlQ1TWR5MkxmaF9rUXloYWhJbldpMTFZMEpVcjBxYTRwQ3BuY19rVlhBTE9fN2NzM0hPclo3ZzREeXNFSU9Edm1aOGpEUktqTzFIZVZtWUxrTjVIZXpYbmFmZHFhdm5Vd3lOUXNDUTNQN0drSUtCQUdiQWxGVTFyV2Jn0gHuAUFVX3lxTFAtcGtVcXJfOENWRGRGb2tIVjZuX0RVeHQ3YnpqNUJ1bS1MTEtaQzIwT0REbHE2RFZ4Sm1vdmlyZjFmUl96Z3JWeGU0YmNocUFKd2VlblR0Z2Y1VFNQdjF3WFNvZGt5eVoxUXNkT3hhWGZHb00tQi01a3pPZERxT3FZZFNkcnpTM0hVVmhZSk1GRk5KRGRLcDJWeThrNVQ3cmJmVDZZQXpPTlJIX2doWWxMdDNmZVgxUkVpZ3p1OHpILWVUdlhSem9qMldmQ1l4R2xpLW5ZU2RiMkplRGRpOXNCd3BkTTV3VjE4OXMwS0E?oc=5",
     "origem": "google-news"
   },
   {
