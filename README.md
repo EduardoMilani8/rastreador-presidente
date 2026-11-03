@@ -4,8 +4,8 @@
 
 🔗 **Site:** https://rastreadordopresidente.com.br/
 
-Projeto independente, sem vínculo com o governo, partido ou veículo de imprensa. Não tem login, não coleta dados de
-quem visita e não publica opinião: mostra o registro oficial e aponta de onde ele veio.
+Projeto independente, sem vínculo com o governo, partido ou veículo de imprensa. Não tem login, não usa cookies, só conta
+visitas de forma anônima e não publica opinião: mostra o registro oficial e aponta de onde ele veio.
 
 ## O que você encontra no site
 
@@ -41,7 +41,8 @@ alteração.
 1. **Na dúvida, omitir é melhor do que afirmar.** Um compromisso não vira "Realizado" só porque a data passou.
 2. **Falhar com aviso é melhor do que mostrar dado errado em silêncio.** Se uma fonte muda ou cai, o site avisa.
 3. **Nada de reescrever as fontes.** O texto mostrado é o texto oficial.
-4. **Sem entrada de usuário, sem servidor, sem rastreamento.** É um site estático.
+4. **Sem entrada de usuário, sem servidor, sem cookies.** É um site estático. As visitas são contadas pelo
+   [GoatCounter](https://www.goatcounter.com/), só com o caminho da página; a página Sobre explica como.
 
 ## Quer ajudar?
 
