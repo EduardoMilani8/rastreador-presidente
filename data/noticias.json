@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:3785eee07684",
+    "titulo": "Lula pede mobilização para manter a proibição das bets no Brasil",
+    "veiculo": "CartaCapital",
+    "data": "2026-11-03T15:32:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXFHenN5RFpJOXlPcFVXM2FhQk1vSVVwVVBFZXpISzlwNDVrbmlqelBhU1U5VWdEd0w0YWJibHVOcFJmMGktNkZnbkR1M19RVHJyUVVXZ3psR1V4bkdrVnk1ZERGcmhXUzhGdGhxenlXWDlHTkZnRUVuODd2dkZXRkdLMnZsNkwwaXg0V1NzV0hJQl9pOVozeDBfc3BUWXFTZmlkYWZ0YVRzUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:10257b99db8b",
     "titulo": "Relação pessoal com Lula é trunfo de Alexandre Silveira para permanecer no MME",
     "veiculo": "JOTA Info",
@@ -8,11 +16,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4823cd69b2dd",
+    "titulo": "PEC da Segurança Pública vai ser o primeiro teste de Lula no Congresso após reeleição",
+    "veiculo": "G1",
+    "data": "2026-11-03T15:20:10.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSGN5V0RPZXdVNm5uWmg2bVVyTTFmemVHWE5nZWxKMmhnSTN0VG40VnFSVGtLQkhQWG1iaC1wcFRNNzRqVUtncEFib3MyZDR6cm5sVnNVcVlkRVZyTXpPYlQ4aEN2MUFtYXlITG15ZmwzWWJNZ2VpdG5ldDYzTG9HX1dPWlF6RjJyUDAxU3BCRGVTVVpteC1SRlFvbXJfdVlfTy1RbjVQWnRxcEtNeVRZeGYxX3JDb0t1bmlya09QYjRRalI3a3NTUVN3azM2Slg2NjhHa2xldG1hbG05TU83SU55eWxwQnl50gH3AUFVX3lxTE9RazFxV05HR2hQbXpKeFV2LVdQVWhtZ2JZZjRJN0kwWWh4dWN0bk1xMjZtcENTajVPMWhPTVg1SklSeTZyTjZqaTJ2SkV1V1d3Nl9teGRpMVJvLXFDOUFlTHlwY3l6WXdDWmlwVkg0OFZWQW1OV0Y0eDJaVEJreDNMNFZGY0RKRWtJV0IxRDRqM2ppM1dwY053ckFaUG5qZVhlT0dFNElWdFozb2h4UlM3ZTZDMGk1RERNTTdLMkNCOVZ1Qnl2S2U2MXBSQWkwSjQzY2xVSzZJT3ZvcGJxQUxTbVB1d3JYU3BOSmhNUkVTeDI4RVRHVFk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5cfb13144603",
     "titulo": "A irritação de Lula com a autopromoção de seus marqueteiros na Argentina",
     "veiculo": "O GLOBO",
     "data": "2026-11-03T15:16:44.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1F1azVRS1g2dHdwa0hfdmx3MUc5RHJQSmd5dGtxaTlPSDk5WGlPVmRGRHoyUlRxWFRSRkNyaV81MDFKM1V2bTlteERHYWpUd0R2VGNxQ0VpVmZ4eGxfekpyUUpRZ0gzSWptV1k2VUVsWjZzY19Wa0FLRTVvY041YUJES1FxS2laVzhPVUxWUEJJZ2dRclprMDZwM000R0g5UVBLNmpkajlGVzhiVGd3UXVjTWlpTllxUzZBajBNWXRTWE43ODhOTUJjZ0VEWUlV0gHfAUFVX3lxTE05ZFpYejhFLWxRSE1wUEtZbkp2ZkV5MGxjYzlYQmlNYkh1UmU4bzdrdXYyS3BFMGhVOFp4d1JDclZSbGdEd1F4dUhGTzVHV1BYQkowYkZrMldvMUpSelhjeW9zVmdxZklhdEpGdnRhUkhTME1pamhKaHJNaDd3eE1kVnhiSWF5UFFpcWljUm44eGg3RjFYV1pQN1lnVERrNVd5dEdfNUlhTmowM0lCYy04UmVSZmZMMEROcURhcjNobDd6ZU5ZZGNFcE5xX0lfT1VGS3U5c18yMHF6LXBCLU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:97ea42d41207",
+    "titulo": "Moisés Braz celebra reeleições do governador Elmano e do presidente Lula",
+    "veiculo": "ALECE",
+    "data": "2026-11-03T14:28:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ19XYVRuLVA2YVRiYjJHRmdJWE1VMV8tVGVxcFJWWHZtczRZN3ZWdWk5djF3OHYyM0JmeWhlcUR1N3puOERMeFA2dlUxQWVBNHFGZHJIQ0kzVTN2eUdfMHQyck1wbTBmTmE3X0hmU2IydnFXVE01X1NNQkpZRGRTNW5HUloyVTJyNG9iU2hsbE1YdDRRWGFxZkktWktlc3hBaEVnNDlhMHdnZnZ2ZlpuMzc3WTNJYWE2X0Zoamp0MHdieDRSWXBiRVNTV0NqY1k?oc=5",
     "origem": "google-news"
   },
   {
