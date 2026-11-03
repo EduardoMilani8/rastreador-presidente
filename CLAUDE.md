@@ -51,8 +51,9 @@ fontes públicas → src/collectors → src/pipeline → data/*.json → site/ (
 - `site/`: HTML, CSS e TypeScript sem framework, em cinco páginas (`index.html` é o painel, `registros.html`,
   `noticias.html`, `falas.html`, `sobre.html`). `dados.ts` carrega, `filtrar.ts` filtra, `render.ts` cria os elementos,
   `comum.ts` cuida dos avisos, `painel.ts`, `registros.ts`, `noticias.ts` e `falas.ts` montam cada página, `redirecionar.ts` leva os
-  endereços antigos à página certa, `params.ts` lê os filtros da URL e há uma entrada `main-*.ts` por página. As
-  fontes tipográficas ficam em `site/fontes/`.
+  endereços antigos à página certa, `params.ts` lê os filtros da URL, `contagem.ts` conta a visita no GoatCounter (só no domínio de
+  produção, só o caminho da página, por imagem: o único endereço de fora liberado na CSP) e há uma entrada `main-*.ts`
+  por página. As fontes tipográficas ficam em `site/fontes/`.
 - `.github/workflows/`: `ci.yml` (testes) e `update.yml` (coleta agendada e publicação).
 
 ## Regras que não podem ser quebradas
