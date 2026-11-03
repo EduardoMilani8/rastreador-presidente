@@ -1,6 +1,7 @@
 import './zod-sem-eval';
 import { avisarFalha } from './avisar-falha';
 import { montarHoje } from './comum';
+import { contarVisita } from './contagem';
 import { carregarFalas } from './dados';
 import { montarPaginaFalas } from './falas';
 
@@ -10,4 +11,5 @@ async function iniciar(): Promise<void> {
   montarPaginaFalas(document, await carregarFalas(), agora, location.search);
 }
 
+contarVisita();
 iniciar().catch((err: unknown) => avisarFalha(document, err));

@@ -2,6 +2,7 @@ import './zod-sem-eval';
 import { dataSaoPaulo } from '../../src/shared/text';
 import { avisarFalha } from './avisar-falha';
 import { montarHoje } from './comum';
+import { contarVisita } from './contagem';
 import { carregarDados } from './dados';
 import { lerFiltros } from './params';
 import { irParaAncora, montarRegistros } from './registros';
@@ -15,4 +16,5 @@ async function iniciar(): Promise<void> {
   irParaAncora(document, window.location.hash);
 }
 
+contarVisita();
 iniciar().catch((err: unknown) => avisarFalha(document, err));

@@ -236,7 +236,8 @@ describe('zod no navegador', () => {
   });
 
   it('a configuração é o primeiro import de cada entrada, antes de qualquer esquema ser criado', () => {
-    for (const arquivo of readdirSync('site/src').filter((a) => /^main-.*\.ts$/.test(a))) {
+    // main-sobre.ts só conta a visita: não carrega dados nem zod.
+    for (const arquivo of readdirSync('site/src').filter((a) => /^main-.*\.ts$/.test(a) && a !== 'main-sobre.ts')) {
       const primeiro = readFileSync(`site/src/${arquivo}`, 'utf8').match(/^import [^;]+;/m)?.[0];
       expect(primeiro, arquivo).toBe("import './zod-sem-eval';");
     }

@@ -68,9 +68,9 @@ describe('site/sobre.html', () => {
     expect(document.documentElement.lang).toBe('pt-BR');
   });
 
-  it('não tem scripts, estilos inline, handlers nem e-mail, e o único link externo de código é o repositório do projeto', () => {
+  it('só tem o script da contagem de visitas, sem estilos inline, handlers nem e-mail, e o único link externo de código é o repositório do projeto', () => {
     const html = ler('site/sobre.html');
-    expect(html).not.toMatch(/<script/i);
+    expect([...html.matchAll(/<script[^>]*>/gi)].map((m) => m[0])).toEqual(['<script type="module" src="./src/main-sobre.ts">']);
     expect(html).not.toMatch(/<style[\s>]/i);
     expect(html).not.toMatch(/\sstyle=/i);
     expect(html).not.toMatch(/\son[a-z]+=/i);
@@ -85,6 +85,14 @@ describe('site/sobre.html', () => {
       'https://github.com/EduardoMilani8/rastreador-presidente/blob/main/config/frases-excluidas.json',
     ]));
     expect(html).toContain('href="./style.css"');
+  });
+
+  it('diz como as visitas são contadas, sem cookies e sem os filtros', () => {
+    const texto = document.querySelector('#visitas')!.nextElementSibling!.textContent!.replace(/\s+/g, ' ');
+    expect(texto).toContain('GoatCounter');
+    expect(texto).toContain('sem os filtros');
+    expect(texto).toContain('não usa cookies');
+    expect(texto).toContain('nenhum script de fora');
   });
 
   it('não fala mais em aba separada nem em página inicial mostrando meses', () => {

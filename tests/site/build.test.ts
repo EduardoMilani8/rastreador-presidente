@@ -5,8 +5,9 @@ import { join, resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 // form-action 'self' (e não 'none'): o formulário de filtros é um GET para a própria página.
+// img-src: só a imagem de contagem do GoatCounter vem de fora (site/src/contagem.ts).
 const CSP_ESPERADA =
-  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'; trusted-types 'none'";
+  "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: https://rastreadordopresidente.goatcounter.com; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script'; trusted-types 'none'";
 
 describe('build de produção', () => {
   it('gera as páginas com CSP exata, sem scripts/estilos inline, e copia os dados', () => {
@@ -22,13 +23,12 @@ describe('build de produção', () => {
       expect(html).not.toMatch(/\son[a-z]+=/i); // nenhum handler inline
     }
     expect(readFileSync('dist/sobre.html', 'utf8')).toContain('Sobre e metodologia');
-    // cada página com dados leva o próprio módulo (o de sobre.html não tem script) e nenhum caminho absoluto
-    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/falas.html']) {
+    // cada página leva o próprio módulo (o de sobre.html só conta a visita) e nenhum caminho absoluto
+    for (const pagina of ['dist/index.html', 'dist/registros.html', 'dist/noticias.html', 'dist/falas.html', 'dist/sobre.html']) {
       const html = readFileSync(pagina, 'utf8');
       expect(html, pagina).toMatch(/<script type="module"[^>]* src="\.\/assets\/[^"]+\.js">/);
       expect(html, pagina).not.toMatch(/(src|href)="\/(?!\/)/);
     }
-    expect(readFileSync('dist/sobre.html', 'utf8')).not.toMatch(/<script/);
     expect(existsSync('dist/data') || !existsSync('data')).toBe(true);
     expect(existsSync('dist/capa-social.png')).toBe(true);
   }, 120_000);
