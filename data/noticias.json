@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:8e94cf85bd68",
+    "titulo": "Lula viaja a São Paulo para realizar exames de rotina",
+    "veiculo": "CartaCapital",
+    "data": "2026-11-03T19:47:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMnA5QXZRRDkyRU1zX0pFN1pVOHFROVZsQkJjMHd6THBJdkdDVGs2NkYzd3AzMDZZWE5kMjZWTXFWZXZVamUyOVdtT3FiZTZkb1BjSU1zdlppU1NhRUFnRkFqVU9PRDg3UDdSRWRVX2F4Z3FxRWtGaGluYkppQmFwM1g4REdPZ2xaenJmcXpCam9vRHlfUDMtVVk4dw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b2618de1d317",
     "titulo": "Lula viaja a São Paulo para exames médicos de rotina nesta terça",
     "veiculo": "Congresso em Foco",
@@ -40,11 +48,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:b449096ef76e",
+    "titulo": "Ministro da Fazenda diz que governo debate 'ajuste gradual' nas contas públicas e critica proposta de tabelamento de juros",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-03T18:23:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOV0hHZnhQZXNVa1lSWWxlaXF3R1VvLTRiZjJ5WC1HT3N2R3VFUXV6am1vUlNFcWFrVGFEWV9CdEc1LUNTYlRHejJFTTA1Q0xVOER6SE9CcEpxYnRuNDdyYXJPc2k1V1dlWVByejlJSTA5YnZEVGFvMTVpbVVQWUZFSVVxYzIwVDlzUlZackV2M0E3Q0NBNmFtYlVYX1FiOVUtWklXNm00d1JMcU1hMkI3TDZmeWhhMzNDWWV5TG9aMTI2a09PRzI3V2J1WUhqTXhDUl8zQW1EeU9QcXJ1eFRCcWd1TDV5NFduU0FVSHMtUTB5dTZhZUZIQlU2aHBBT3MxTDFUdlNnOU1ZdHPSAZoCQVVfeXFMT0g2ZWxkU01oUmZBUlpVeEk4VlBTUVZ1T3hTcExVX0V4WGhkNkw5b2lnYjNvUHNPdWRoWnhVQ1hMTEtvcDNOS2lqY3dYUUJkcUZqelJmOHlGQ1pVSjd4dUd0dklJbmxoRXUtSEF0UlhXNlcxbXVSelJORTJSaVdicW0tTDYxQnpxQ2ktV3E4QmIzN2wwLWxJV0pVcVBQVnY4STJVcHo4Vk9YV21ZNVJsS1lTblhPVHdKLV9tUGtzanNDc2FORzMxNkhmekZTSnZ2eGRLdVVDc3dFNEZSbXllU05uUjNNclJ0ZktoYjlTMzVlN3p2eVluUml2WXg4MHU0LWtESEV4RC16WC1EbjNvQ285cDBKQU5xM3hB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:83ae1e9c4156",
     "titulo": "PEC da Segurança Pública, defendida por Lula na campanha, entra em pauta nesta terça",
     "veiculo": "Condsef",
     "data": "2026-11-03T18:05:03.000Z",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTWlXdXNEejRRc2EyZXZlR2RsYjNmMHBpVVBMcExESG84bmN1UE9GUFZRQ2xIUk5zQ0RpRGtuYklUa1lOZ3VvNGVyc2V5TnJsNWlWaVQ0WC13Q3praEF2bXpqeXpjRlBuQ3pDVHEzb29fNzdZS2ptVHQzbFVzcDFYcWFPcWxYMy1SS3hBUEJsMW9qcXhEOU9NdERzZzVKNi1KRzB1MHlleHRCTTQ2bkE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:695ae686e994",
+    "titulo": "Ex-carcereiro de Lula lança livro sobre rotina do presidente na prisão",
+    "veiculo": "Poder360",
+    "data": "2026-11-03T17:41:17.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYWw1NVhOYWJiVUt4N1hNdHM2a19tZzUyZWF1SXV4Nm1EbUc1c3p3VVQ0VC1URHplTjZMbEhpOVgzUDlYUnRjeG9KRF9ZeS02MXFvQzRFRHN0UG5IOHh0TTlUZ1RHY0RDNkJ2UEw2Qy1jY3dRSlFjend6amdLanhHUEhiTVRrb2ItUFhpcU5sVmVGMDFwOURaM0JmWHliYUhPYjNrb3RGNnFUMnY0YkJBYjlFb2M2dw?oc=5",
     "origem": "google-news"
   },
   {
