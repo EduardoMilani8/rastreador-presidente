@@ -1,10 +1,10 @@
 [
   {
-    "id": "google-news:d7793567f7fe",
+    "id": "google-news:342d05c3fd42",
     "titulo": "Exames do presidente Lula estão dentro da normalidade, informa boletim",
     "veiculo": "Valor Econômico",
     "data": "2026-11-04T15:40:29.000Z",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeERyZkFKczhMcEdzYTdIdUp2eVotUmRxa0FTVEdmdWRVWTMzeDZTT1NlSk9BTnotUV9HVDlEdllxV0taWjlCTEpSVm15WjIwd1hFZVdrSUYtOUVValc5eXdDNEF1R1FUb3B0b2E3dUVNTEVFTFU3LWZaUHJVUnRVaVlObWZfUUdBZGpqQ0NDMGRpVzVqeVU2c09xTXA1RGdORE90eWhQQ09RQmJJUzdZeFYwSTlXTUhFOFhfWnJBTlpYNDR00gHTAUFVX3lxTE1PaXdEYXpFX093bGtxYWVEcE52WU5KWWkxYUpETlFEV0dYZm1pcjJ4SnFfcEpFYWRMbTlZU1JJMzRUQ2RqSVd2VjFxUVpqWDlJd3ZyODRXeERPdExHNVhwQy13ZWNzRk8zOHZibEpqaU9USlJlQ20tUXI5Z2IxQTVCSWFiRGpXVGN6MzN0ajM4RUlvVnZ3SzNCZ2tFaEdYcEpfTGNwWjhpVmY0Z0FfaHhRX1c4MWREbjAwcmJURFVoYUJVY1JEQkltRFdLMHMyd2E1d1E?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2l3RGF6RV9Pd2xrcWFlRHBOdllOSllpMWFKRE5RRFdHWGZtaXIyeEpxX3BKRWFkTG05WVNSSTM0VENkaklXdlYxcVFaalg5SXd2cjg0V3hET3RMRzVYcEMtd2Vjc0ZPMzh2YmxKamlPVEpSZUNtLVFyOWdiMUE1QklhYkRqV1RjejMzdGozOEVJb1Z2d0szQmdrRWhHWHBKX0xjcFo4aVZmNGdBX2h4UV9XODFkRG4wMHJiVERVaGFCVWNSREJJbURXSzBzMndhNXdR0gHTAUFVX3lxTE1PaXdEYXpFX093bGtxYWVEcE52WU5KWWkxYUpETlFEV0dYZm1pcjJ4SnFfcEpFYWRMbTlZU1JJMzRUQ2RqSVd2VjFxUVpqWDlJd3ZyODRXeERPdExHNVhwQy13ZWNzRk8zOHZibEpqaU9USlJlQ20tUXI5Z2IxQTVCSWFiRGpXVGN6MzN0ajM4RUlvVnZ3SzNCZ2tFaEdYcEpfTGNwWjhpVmY0Z0FfaHhRX1c4MWREbjAwcmJURFVoYUJVY1JEQkltRFdLMHMyd2E1d1E?oc=5",
     "origem": "google-news"
   },
   {
@@ -213,6 +213,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-04T03:00:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOHphLV9LQkw5WmJSSkdVT3NoUUhfMmdfNmJiVGJtc2JMejZaeTFUTEdvSGJxM1JlaEVWSXVKTE9aUmlnMDBIUWU4WDFuVUZOb3lzYllGOUFEbWVsdzB4OXRvZkxaR3pYSFpLWklDc25fWm9Zd3c1LTVLd0tZeXdCd3l5aGJYbHBHcmtPaDMyU0tCZDNldm1TaDVQelhvN2JBWFhVN2tEVmJtT09QZ0xTZFFpS0lPTlRBNDN0TkpiWGxUMzFvUjF2MzVxX2fSAdsBQVVfeXFMUDZsSS1qMU5naVptX1o2dl8zRktiWURfQXRER280Mkh2NEVZMHgtb0hXRGtmSGd0YWkxb050Mm9wYzJ0eUdmOXc0T09Oa2I1eTBTVkp3bUpfaGVqajlIREZVcGdKWWN4SEJVVjdhbjhfdUNnYzB1anJwSngtMmUwcU5uQkFIV1kwd0xNbTE5QVQ3Q2NEbHFEa2J0MjZNc1RaRm15bWIwTi13UEJ5aXdZNDdvb0dVNEl6OXpiT21rTzBtVDZkNThTSFVFVFJVOUlZcDZFU2kxWFBoR0pR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dfba91a00860",
+    "titulo": "Exames de Lula estão \"dentro da normalidade\", diz hospital",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-04T02:29:56.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM29FWUQwb0hybF9Yb1ZpM2hKRC1IUmh0dHc4WnQ4Sk1MQ2hzNE5ybEZOTDRMTUwtczRZenBfanNnblVsZ2trektFZll1NE1jY1ZrajZRTGg1WmVSVTNiQnBKTnhJQW9HY19QVHVhcDhxQXEzaExWMzFwWDJnbFM5dlNPRUtYUjZuVEItQTYyRFFnNDNCZmdlZ2Nn?oc=5",
     "origem": "google-news"
   },
   {
