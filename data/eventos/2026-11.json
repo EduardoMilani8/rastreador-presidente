@@ -94,7 +94,7 @@
     "hora": "10:00",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -113,7 +113,7 @@
     "hora": "15:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -178,7 +178,7 @@
     "hora": "18:30",
     "titulo": "Chegada a São Paulo",
     "local": "Aeroporto de Congonhas – São Paulo",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
