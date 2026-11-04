@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:1b5459ab4bef",
+    "titulo": "O que a PEC da Segurança muda e não muda no governo Lula",
+    "veiculo": "Nexo Jornal",
+    "data": "2026-11-04T00:47:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcW9KUDB6YUtWdmxMR0V1N2c0MjFFVjFhMG1VRHg3VFhERUZmN3FNLXRGNXdtSmpRTnJVVUVZYXBLM1dsMDB3SHBZNlB6VG41ODNZVlRMNmU5VW1xVHNmZ25wV3FTQ2o0T2dYYzY3WEdZTFBvOGpGRHUyM3lsLTFvNi1aZ2c5YXVidDFPWmo5ODloLW9yWHMtUDA4YmRTR1VEZXItbjJscHFxUVREMXVZWTNZY21fd3J5OGlaOG1MQy1DZzZkTVlSREpiTWp5cXNt?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8bfe162686cb",
     "titulo": "Lula celebra aprovação da PEC da Segurança e renova promessa de criação de novo ministério",
     "veiculo": "Valor Econômico",
@@ -46,6 +54,14 @@
     "data": "2026-11-03T22:05:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/governabilidade-de-lula-exigira-negociacao-e-acordos-alem-da-esplanada",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:e7d9ec288258",
+    "titulo": "Governo Lula impõe sigilo a documentos do 'pacote de bondades' de Lula lançado nas eleições",
+    "veiculo": "BBC",
+    "data": "2026-11-03T21:12:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1vRFVvSFg0Um1mYjdNa2xLMUZRcm9uRjlpZ2tEQkxMR2F3clRTaGRnZjlWanZ1cFJMXzNBdFFrWWx0dUFEcE9DSjVuNGFrc1ctWjNRaHpsT1VVRXpPVEtNeU9DVdIBaEFVX3lxTE5uM1FiamxtUUJDOGxZNEVySE9aRDBxb1FldV84c2xEc0ZWY2l2TF9FblpCVWtoR0xETUhjMVBmcGgyc0lyY3dlSEE4T0VuMUFlWGNDdUFPZkJQWUF3R3B6aTdPQTB1eW9j?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:0467d050787d",
