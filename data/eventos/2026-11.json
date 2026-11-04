@@ -189,5 +189,100 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-04:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-04",
+    "hora": "10:00",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-04",
+        "coletadoEm": "2026-11-04T13:10:15.519Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-04:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-04",
+    "hora": "11:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-04",
+        "coletadoEm": "2026-11-04T13:10:15.519Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-04:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-11-04",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-04",
+        "coletadoEm": "2026-11-04T13:10:15.519Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-04:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-04",
+    "hora": "15:00",
+    "titulo": "Ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-04",
+        "coletadoEm": "2026-11-04T13:10:15.519Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-04:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-04",
+    "hora": "16:00",
+    "titulo": "Ministro do Desenvolvimento, Indústria, Comércio e Serviços, Márcio Elias Rosa",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-04",
+        "coletadoEm": "2026-11-04T13:10:15.519Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
