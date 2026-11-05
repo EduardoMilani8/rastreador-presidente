@@ -1,10 +1,26 @@
 [
   {
+    "id": "google-news:fe9871253474",
+    "titulo": "Ministro do TSE admite ação contra Lula e Alckmin por suposto abuso de poder político",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-05T22:34:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLWtQTXg1VkpPZnRZOVEzbi14cFlvLVJwbGxVSS1rb2o3bHp4Zlp0MzJFUHpvMmhFdEQtNHNMRXdKZ2Z3YnVxMld6aW1OQnNSUl9tOXNDTjE5OEJnRnpFaXV4SVdhb0p3VTlpX2J4MDloQUI4SFJuUl9TM2h0cUw2c3ZicjYybWxTT0VzS1QzYjVEcHFGZkRGZTNWSkNWR3BnVUpKVlE5LWxydGJpcklzWlYwUU1xMFNJcFVEbUF5V2JLc0otXzdZek85QTQ5NGpoemh6Smlvc9IB5gFBVV95cUxPal83TzJ3aThMcERqMEF4aHB4MGR0eUtDTE5lUHVzc3FPaFdoaHpmbTFMSnNWWmdkMFlsaUJFYzA4cnNVN013eU1tcXJuR2poQ3pnRDZ4ckFpR1dvVkhKelRERUJQU2NKeklQQWJxSkZ1N1BwVDhOYkNqc0FKd2kyaTAzZUtaNGI4Z3hkZHBoQlpjaE1oWVE0cC1LRXRRRW8yQTl2dlQ5WFZpcUx6MHRBNDBzYXlabEZxTVNRVnVEUnlVRVBXZU94SzR6UDlfUkdTNmVCT295UVlkRl9BdUJDZkNEa3BDZw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ed27298da5c3",
     "titulo": "Watch Presidente Lula e Janones participam da Live da Vitória live on X. Join the conversation and get real-time updates.",
     "veiculo": "X",
     "data": "2026-11-05T22:27:04.000Z",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NYWZaU0ppMHRZVkhRX0dFZzctWDI2TDZNVllmeGp2TFpFVC1QZ3VDaWRlcjQwTTZtQ2R6VW5zOVE0RFNJOC1vWUxNQ1RKRk8zTFBv?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3c24af637a5d",
+    "titulo": "PT convida militância para a última posse do maior presidente do Brasil",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-05T22:20:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY1pqQ3Z6VFpUUGIwUThHbXh4OXVSZEFtT3U4OW1CTTZiOHlXSWRJTDZLTm1Sc2kwWUlrQ2c1bGpTaEI2WDhBamw1UEJLWTVaN0JkTlRRVzU2dEhXUERmeDFSRXpfSmk2SHNld1M3bTYyYkcyWkl5Ty1SR2Z5WmlrN1dpS3B0cm8yWENJbVlpWVRaVllf0gGcAUFVX3lxTE1udXBzYnFDWXk0LThpYnRVdkpna014MnZKeDBnT0REY1lKbTlnYVRTdFVCTFlwVjRiT1FFQXlVYTBPeEJXRnhZZlYwMFRoUy1LMm9CQ3dSN1Q2YXJrRld5TE1jNmR3WTFGTmZlVDRyUmIwN0FQRGw0Z25mc1YycFd3c2dBT01RNGRFQjJ1SnBYLVRmWEdlZ0hubF9mZQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -32,11 +48,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:dc4d8a870173",
+    "id": "google-news:3f7019b7e6bf",
     "titulo": "TSE admite ação do Novo contra Lula e Alckmin por abuso de poder político",
     "veiculo": "G1",
     "data": "2026-11-05T21:40:30.000Z",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS0JJZFI0STJ4aTVTRlFSZmxjRWt5Z1hjQ0hoa0RlcVktWi1ic0xDeGJpcldKU3pQeWZFQ0t2LUVwdGhtbFdYamhPUFV5Q2tsYmZmZG8zTzNtZFlBbHZ6Yjg4Q3ZYYU5oeEFHdlpxNkR6OXhsZkJMMnR0ZXczcnlRek9yZDhtdEk4MWNlU2x2bnpadWM5V2JOUkFxSkNOemcwaXRVTVp2b2g0ZE92VUM4d2VCUDVyZlhlcjNnRjNwaDNjZU4wekRr?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS0JJZFI0STJ4aTVTRlFSZmxjRWt5Z1hjQ0hoa0RlcVktWi1ic0xDeGJpcldKU3pQeWZFQ0t2LUVwdGhtbFdYamhPUFV5Q2tsYmZmZG8zTzNtZFlBbHZ6Yjg4Q3ZYYU5oeEFHdlpxNkR6OXhsZkJMMnR0ZXczcnlRek9yZDhtdEk4MWNlU2x2bnpadWM5V2JOUkFxSkNOemcwaXRVTVp2b2g0ZE92VUM4d2VCUDVyZlhlcjNnRjNwaDNjZU4wekRr0gHWAUFVX3lxTE10ajROOV9SZE1RSkJzMTlNUENRTGJ1bm9oRDVfaGJZSnZhQ1hSaDdleGl0UFVRV1RKYnlJb3FPWTV5Z0EtNGUtV20xV253bWtMenFZUTNvd21NRzBuSXZZd2JyMlczdmlDdXVKYXZBdGJjWkx5VEo0WVRyOUliNmt5eXB0SlZYUlczdV9fSExScFBMQjJnNDVPNks4UmVYOC1Rb2hsRjJydnVPUG1qMFhoWDFSd2wxdXI5RWJrV3Jmay1HUXVXN2VHbmdZOHdVOEhNYTdQYlE?oc=5",
     "origem": "google-news"
   },
   {
@@ -69,6 +85,14 @@
     "veiculo": "Aos Fatos",
     "data": "2026-11-05T21:08:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTkwV3M2MENNMzd0cXBrMmwyMS1tTjhDcHFHeTYzSzZoWThYSnZRc2VfUVljX0g1a0hNRUExYVZ2b1YtU3FFUHRUOFV6VEVLY2s4MDZPc2ktelRQMV8zcUJFdHdXUWtHc2FjdTlEVURKbnp0dHZpeGFMemE3WUpIQWZZdHBMbFRGek93NmJZeDFFRFZuLXc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6c3974518677",
+    "titulo": "Análise: Lula ouve aliados e adia anúncio de pacote econômico",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-05T20:59:19.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM1FDRkluQ29ITTR0eEZIeGVlalg5RDQwaXRWRk5IeWx1Ujdyb1A3SGtRZURqZWg0aVBzVTVCeWdsZ2dvTzdkcGJ0eGJQcjdvZF9TSE5nYTZKd1FDOHRDYXdiaDBhdU5aSjZRdEl2NC1LYl9YZGJmeXRXSjZoS2pFZUhLVDNjd1V6aWZmNG5tRFI5TmFoMGRmT204QUc1ME5kQjhaQXlrYlpIX0lfdGVNdDBUcFJWbkFENWV3?oc=5",
     "origem": "google-news"
   },
   {
