@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:6cb009e27849",
+    "titulo": "Lula diz que terá primeira discussão sobre criação do Ministério da Segurança Pública nessa sexta-feira",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-05T23:27:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYWZpVF91VFBLR0tvVHpoOWlWZGtWNGJfemR0THdrazhqY29YNk5JRVRQc0xrRVRzdVZ2R1pfZjR6V0ZzRE1UYXgyM2oyM1FYZno1Qi1URm00QkdNQXRYQWxYc0l1UUI2MVJEbjd2bkhOMnY3M0ZmMkRKczZaNm5vdVZrOVZHaEZrUnhRUkExRUE5dnRqSTF1aW9JcURQWDdVb0ZKeXlSNHNhRUlnY3NlRGdUZGhVTThqX1hYcm5yNVlOYUJMcFZEcHRNaWhNbWlZOWlNQnlrYUZhV0ROUW9zVHNJWmJ6UktmREpXNFBIYlpmU2vSAYICQVVfeXFMTVlodkpxMGl0VlhWM2ViV0c2cTFrSHVwcElEYnFBMTljODZXSTR2MjV2VGFBV0cwZGVpS1VGOElCT3Y3R3RDYlZiT0lMV0hyS0IwYVRYY1A3bFNndWZ3dUI2UUVsc0hMOWFJYmF5UDBJaUhhbDdIZWF2bTg3akppbEFKTWplOWZESWRFM25pTEEzSE9LX0lyLWJweVY1ZVhkQ19nQzBuVjhBXzBfTmhheVphakhsRVJIaGg3Y0ZJQlRYeWRZY0tXUkJ0MkVDakZMQXR0Q3FVUENGZVVqVXJkSWRZSGpoVzRSWnBkb0ktRXhMb19SZ0xQZFpOdEtZQUhZSFlR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d60534b75a08",
     "titulo": "Lula diz que enviará MP para criar Ministério da Segurança Pública e discute recursos para nova pasta",
     "veiculo": "O GLOBO",
@@ -8,11 +16,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:1b5d3bdafd70",
+    "titulo": "'Parece que meu amigo Trump está perdendo', afirma Lula sobre eleições nos EUA",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-05T23:11:14.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcV9HS1JnS25WTGNtbXptZXJIdXRkTTkwQnNYcWhXdzdTOENMbmxSU3ZNY2dFdUktd1g0WnA4WWNFaHVGS0dhSWd1b0pqMjNSMUR0RlJEZ3RMMkIzUHhDb1QtazgxN2ZOV2JSclFmemZrQlZBaHhVaGdMLUYxWnk5UXJEc0c5SnpHclZoYmdNa19tODl5MWRfeG9oU1had2ZUZDU5OXRMM3ZLOG5WeTVNdmpTX0VSV0FPM1BGREdMaVVpWVhHZGNz0gHWAUFVX3lxTE1BcVVPM3l2Z25BQnhyLUM0ZXVxZDJzZTJXdGtmZ0dWOF9CMVRSZnp1cmNrQm1kT09yMFBQc0NvakE0VFVvM1Q5SEpLOFhGZkF5LWxDT1J1YmZxZ2QyUkxVcmkyTnZpVUpVWnlYbUdnaEJsQ09YUnlnMjNhY3lqOTRCSHpfcDRWSVRPbVZsalUwX0JBVkJRYVJFQUdyaHdBSnF0STZ3bTVRUm1YOUNMRXRRa3RwMDB0WVJLT3dVMmtLSl9xOVBzaC1VVExxYVZLTm9scHJQNkE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1cbbb4a3e6db",
     "titulo": "Painel: Após Lula planejar diálogo com empresários, centrais sindicais pedem encontro com o presidente",
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-05T23:06:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeWFIanRFQ0tkWjlYSFJaWFpsZ19oeHkwUzVKN3RXREcyWmFaek5oT1oyUnN6RzdybzF0VUF2eWtleVZTcDEtVzBpblNnQUNVZFlqUU5NLXhaVnMwVlFRMi1xQ0JrSF84RlNFZ2RmRE1ZUEFVd0hXRDl5NFg3TkRiUmgyUW85VXI3dWRmQTFPcWdteDI0bF9MbW9mYmVUVjZIQVU4Zm9uOGJCOVF4Wnh6T2dWV1pPRXZGaVVXZ3J4cHNwNDlDWFItWkl4NDYxNzZuWDNLQ050WkVoZFozNWVfMnd2SnZNV0k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:fb758baab2f9",
+    "titulo": "TSE admite ação do Novo contra Lula e Alckmin por suposto abuso de poder político",
+    "veiculo": "CartaCapital",
+    "data": "2026-11-05T23:06:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjNqdGZkNzZXc1owSE1scG5WOEd5YnJqc2RwZERZWHZvVFl2TmxlRnIyVGhwWTF6czdIcEJsNjVOT3JGSzBHdEt3c09hYUxUYjIwYUF1RDduQjIxN2ZZa205WFVhMGdjdVV1QUI3Nk5jaXN5eVh5bzhmTWVoZmdtTEJTRGdRVy02eWxOWnJMd2wtVGxLMEZ6Z3Y1RW5kQnNHaHRpd2RmVWVnbUxTOThtM2djOGM5RXJNQWRDYW1lOHU?oc=5",
     "origem": "google-news"
   },
   {
