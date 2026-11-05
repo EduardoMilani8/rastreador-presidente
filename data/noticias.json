@@ -16,6 +16,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:bfd4c66060a7",
+    "titulo": "Lula cobra votos da base ao negociar espaço no governo",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-05T15:35:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUJfS21pUjlUVkRQenBGR0R5R1NhWnZqRmVYb2dXVXk3SlE1a0hEbnFMeXczdGl3cXA3aU5BdGRfNUVvaHhRR2N0ZV9GWi1aVXZkQ2hiN1pzN05oMEJMXy00V1hQUlk2WmoxM0FqZ0oxUWhRUmFxdnB0dW43bVdaY1Fyc1hRQWtpVXRxRVNUZGJWTUlxXy16Tmo3LWVDTVpWNy03TU1iTF9PMTZIQzJIUzRB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:81e17f1d29cc",
     "titulo": "Sob pressão por ajuste fiscal, Lula convoca reunião com Alckmin, Durigan, Haddad e economistas",
     "veiculo": "O GLOBO",
@@ -96,11 +104,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:d9f7ccf4ef73",
+    "titulo": "Lula deve se reunir nesta quinta-feira com economistas, diz Durigan | Brasil",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-05T13:34:49.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdDBIbFRvbFhUTnE1M3k3OURnNHp0MWVBLXJieUlFUVRFYkZuV2xKYlNiVW55QjctY3VpSHJ4bnZOcExYZzZWeS1JcHI3bFViSDFzRWN1Vk8xcW1tdnhpeWp4amVCdDNWUzhZblVNSkFCOGtxU1k5VG1IWkVaWWtIQTBFMDJfVTFtOHQtaDctamR6SnVaOUFxYllCNkhoWlVtY1RoQkFZUFZuSDZpam5iWlV3U2U5c1BGc1RIdFhmTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:edd2092fa00b",
     "titulo": "Lula convoca ministro da Fazenda e economistas do PT para discutir medidas para economia após BC parar corte de juros",
     "veiculo": "G1",
     "data": "2026-11-05T13:33:29.000Z",
     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONFRFRTVBdHZOOWJSakd3VGhDc3pjSlRlTm9KT2tta2FkU3lkRDFlRlNEYi1LT21jLTJBNk5oNDF2T25QNzFsUUpNOTBNNUFnV2dreGNPRWdxSlBHNVptMUJtSGtJMGUwcUhJMHk4bWJ6cWZLTFhCUXM2b3laNnV4aE1jSnhlWUstdFRYU1B2V3dRalZMRVNkMlhJSUJQZnFGRDdLd25PZ2IyTHZUZm9XaWFCOGtiREszQWVkUmEzQ0I3MG1yRVJZZjhHNkZmQTlBVWc0T3RhRzE1SVlxQ2tKRDU5UzR3cUhEcHZObFhtQW5MWEhlNEtzZmVyZ0VSSEZDRWhqUkExcnA4Q3ZRY1Z2LUtKd9IBogJBVV95cUxNbmRBS1c2TlItTW5LbTRlbWY2VURnajNORUppcjlJc0xDYVVqOEZXQ3pPSmpmOHhiSzNQX1ZfQkZkZS0tamhSZy1SSWIwMFRDa2Njdlk0eGk0N2pIMjd4M2F0OHhUVEVOS19sbUNWeDQwYnhEc3ZsUHBmREhmdWdtWUZwdXFTOU5Kclh3WlZTdmlqVHE4cWhBTWNBTi0wd28ySVdKaS1XZnh1VjBuS2ZEb29vS3pUQ0pfVFpZZXFfRkE5UDV5Y1E0YmtLbnZrZDVlNlR2cWZ0YVktS3hpaUF1cFA0b21mdG1CV3RhbE5ndVJVZW82M3ktTWpNMlFEYXk4cnY0QXY3RHZ4WUZLb3JKS2Z4bFpOWm4wUmtUR0FqbWxTUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:fd5e20ce20a7",
+    "titulo": "Governo Lula promete projeto para cumprir centro da meta fiscal; o que muda na prática?",
+    "veiculo": "Estadão",
+    "data": "2026-11-05T13:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNVIzWDc2d1EyWXpWLVU1c2wtaHBVQlAwWFRIVmZFRXhqV2hYNzk1c1hKRnFvQ05RTDhkcml6QTVhaGpQNUZ6Q3M3aUZJYjN5THFMNmk4enowdlVFNjFYdTZPMTl1SDEwYjQ4TXF4NWxTRXpfQlhMTXd2Y2RjeHE2dTFnX196bDVaV2VXbEEydzDSAZYBQVVfeXFMUHJ5WkcwU0JYWDBQaVE1SDNKaVNCTVVmTWhKOTV4c1k4czF4VGxpQWlIbERyNTRqNUFJa2Zmc3RJbUs1bmNrZExFNHRVUUVfQ21IVFhLaFJNWGZsZWxkb0JNbFU5ZHJkWld6NzBPTWZXVXQ1SXJNT0t3VVctZlVUU1dMNWJzUWdjaktqR3VhR0tHWVdUdUhR?oc=5",
     "origem": "google-news"
   },
   {
