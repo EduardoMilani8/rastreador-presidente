@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:4d21b0ca369d",
+    "titulo": "Lula se prepara para bateria de viagens internacionais antes de assumir quarto mandato",
+    "veiculo": "VEJA",
+    "data": "2026-11-05T09:00:52.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOHJkaFZZc2E5UlpzMF9RXzV3Ty1zWW13a243eVJvbXVqOC0wVW1hT0FWa0pKT0IzYjZHb3FrN2FyNDhhZnlIb1pIeWlpQ1Bhd293Nm5IWmswQTYzZ1pxWGU4OVJvVkRnSW5ib2wxTjl2c194TVhxMUxZR1RBejk2NWJXYl9KNHZ2d1VLWVZoNEE0UlVILWR4dXpIaldNWnZwQUp3RTNpTkxyUGdHSTI4MzR4eENWSXBLQTdkUl96WQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6c32984dfe30",
     "titulo": "Lula ouve grupo restrito de conselheiros enquanto decide futuro da política econômica",
     "veiculo": "O GLOBO",
@@ -48,6 +56,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:2ea0bc7e637a",
+    "titulo": "Lula faz a 1ª reunião do conselho de minerais críticos na 5ª feira",
+    "veiculo": "Poder360",
+    "data": "2026-11-05T02:18:57.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV01GMkZkdmdwOERKNGxfYjhqRzJxRkFPR1Uway1kLXFMSk4tbnZRa2h4UGlCT1g2R0ZRb2hFdUhSVTE4QnViTjM5bHo1VTRSS0VaQTc0eWx0S0xYUFJUbDBtRWhSRG15MzBNU1JHY0pzanFnVHdnTHhpZHZkODJXdWJyY3RWaWpESVNpRkFJNkJyMWZ3NUxqaUJ3YzdOcjlLNjFJU2lZWjQxb2VYclE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5d39e9b88e77",
     "titulo": "O policial federal Jorge Chastalo Filho, que foi o carcereiro de Lula nos 580 dias em que o presidente ficou preso na Superintendência da PF no Paraná, revela no livro \"Banho de Sol\" diálogos em que o petista demonstrava profunda decepção e amargor em",
     "veiculo": "Instagram",
@@ -69,6 +85,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-04T22:43:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMmFCMkRYalJGZU85a0VCeTYwYlA5VF95WjFQN2M5WklteFg0S3llb3lKcTZkVHQ3U3Z2SGQwNWF5LWJNcUpvMmJGSmN2Q25zdmd2NUdwUWZTZjZ2MG1adUJKRHo2LWlhejFXNzZuRklXa3J3VlZxZTliaWloQWo5dVlwVWhObUZaZjZ5QS1vVmJGU1R6TUhDd3FxY0hfLU1yX2g0NVNGNG5oc0hJR0dMMXdFb1Y2X2YyX0ozaUtySW41dy1DalNKbndwT2tyNWk1UHhGOXp0a21WaS1RNWpwcjJ1WGgzZEYyRF9nSzQxX21TeVRFQ2RYSGxPZm7SAYsCQVVfeXFMTkpVVGRyWHZvbWZxLVA3ZzlvVGkyMnBIb3BOd1pJcVZrWGswSnd2cFU5cWJmVnJhVTR2TUxrOW10RW1tRTh2U1ozZlU4b0xSVlBZUHFDWUVDeDNDbUZxd3NqUE5yUncxYk1VMFVLVUVUWjkxTElEQzR0M0ZudlYtZkNITkJ6SzBoSnh2Q1h1ejIwZ0NTOHJpaDIzU3AwWlA4OGxWZ2hFYkNnampwT0dBb1IyWmJ0MmE3c3dxeUJFSjhHNDlkY1JWWEh3UXptNjRydE04ME93YkFqT05wYW9kTkNIbk15ZHpGejhFejNaVWNRa0hXSnZaaUxzb3lvbDBqd1BTYjhUQVJPZ0Zj?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8f9fed88f258",
+    "titulo": "Custo de vida alto, guerras e vitória de Lula: o contexto do revés de Trump nos EUA",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-04T21:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkRQb2gya3hoRlhIMVM2TkJ5azdJZ3R0cDFSX2J3ZWV0U2tlSmVYeUNHcUxkWUU0T2s0LUpYX0tsZDFwZTN0dUdVZEJHSGgyN3I1dHRval9RZENfU3NBNzV5cktRVGdrZHZMaW4xWEUwY3JMbFBTNmpBaFo4TnlqeHBDbTlFbzNrZjE3YUVyOEt4aW9WRGRCdUdjaTVBb1hMd2fSAaoBQVVfeXFMUE1qaDdzbmJ2YUt2eU03WDZySTBYR211T1N6SE5Hd3hkMk8xaHpVRlRBcWw4cnZtaTM2ekdNOWZPRng4X0dlR0VwZFRxZVdJRFdSVzU0UHp2enRQX1VNMVJFcDJNbGRJTVUzeDhHbFJHX3dWTjNrd3Rxb2RoR2ZIXzBFWnBYaVVobndCc0JOUVJDYjQ1RmFRV0pwY0paS0JtV0hSU2x6aHVKdGc?oc=5",
     "origem": "google-news"
   },
   {
