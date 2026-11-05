@@ -191,6 +191,50 @@
     "historico": []
   },
   {
+    "id": "dou:decreto-n-13.146-de-4-de-novembro-de-2026-741839252",
+    "tipo": "ato",
+    "data": "2026-11-04",
+    "titulo": "DECRETO Nº 13.146, DE 4 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Estabelece critérios econômicos, socioambientais e climáticos para a definição e a atualização do rol de substâncias enquadradas como minerais críticos e minerais estratégicos e dispõe sobre a possibilidade de organização desses minerais em classes de prioridade.",
+    "datasAto": {
+      "assinatura": "2026-11-04",
+      "publicacao": "2026-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.146-de-4-de-novembro-de-2026-741839252",
+        "coletadoEm": "2026-11-05T01:20:16.725Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+    "tipo": "ato",
+    "data": "2026-11-04",
+    "titulo": "MEDIDA PROVISÓRIA Nº 1.399, DE 4 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual.",
+    "datasAto": {
+      "assinatura": "2026-11-04",
+      "publicacao": "2026-11-04"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.399-de-4-de-novembro-de-2026-741754451",
+        "coletadoEm": "2026-11-05T01:20:16.725Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-04:10:00:1",
     "tipo": "agenda",
     "data": "2026-11-04",
