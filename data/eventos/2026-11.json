@@ -403,5 +403,81 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-06:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-06",
+    "hora": "10:00",
+    "titulo": "Reunião Extraordinária do Conselho Nacional de Política Energética (CNPE)",
+    "local": "Ministério de Minas e Energia",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-06",
+        "coletadoEm": "2026-11-05T23:50:29.115Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-06:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-06",
+    "hora": "15:00",
+    "titulo": "Sanção do Projeto de Lei de Conversão nº 14/2026, que institui o Exame Nacional de Avaliação da Formação Médica (ENAMED)",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-06",
+        "coletadoEm": "2026-11-05T23:50:29.115Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-06:16:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-06",
+    "hora": "16:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-06",
+        "coletadoEm": "2026-11-05T23:50:29.115Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-06:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-06",
+    "hora": "17:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-06",
+        "coletadoEm": "2026-11-05T23:50:29.115Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
