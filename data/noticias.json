@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:40f8fefda4d0",
+    "titulo": "Mônica Bergamo: Lula diz que chegou a hora de Trump levar Brasil a sério",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-05T12:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzdGN2JubURvenBFTUlWbl9CSWVXZHVvWE5SbTl0aGZSOUFFX3pwUTZyRWxuS1FYUURLLWJGc01yRnVEM1JpdkE3ZE5lT2RRQWcwZXdKYnZaOFItdDF6WXJoUHdPcGNrXzc2VEd5NW5JVnhpVVBxYmNEbGZ2RXVZa2hnemgxdG1QY29IZ2dVUmhIN1ZhaHRaWkFMUUxRNzhZcVVaVDVINVYzU09rekR3Wm9OaE9WNXB5T19heGJwMA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f9ad2bc7d3c4",
     "titulo": "Lula volta ao Planalto 10 dias depois da eleição, tem encontro com ministro da Fazenda e faz reunião sobre minerais críticos",
     "veiculo": "O GLOBO",
@@ -21,6 +29,14 @@
     "veiculo": "Governo Federal",
     "data": "2026-11-05T10:29:11.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNazJxVFN0Yml5LTE1QmJIOS1TZEdhQWxqZ2pRc3ZxODFGYjZyYmp5OFJ6MjhGa0kyOHIyNG94QXJhaTRybHk3eUZVYWpSYzJaZ195cHhpcmFSTXBLajFWMFQ2Z3JBTGo3bHFldmxUZkZDMHc2bm9wMENRMzlvblV1dmVMdzBVOURnOWFYcDhuY3RPaERmTFNrRWlnZVdRZUJDOG1GdEpfZ2VUWW1vY2R4QUZ2VVRaRDRkUFNGS1RVbXo3eW93TXRzNnIyckpWaDh3T1QzV0staUVxYk4yVmdLcVFR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4be8b4d76cbf",
+    "titulo": "Governo Lula: leia a agenda do presidente nesta 5ª feira",
+    "veiculo": "Poder360",
+    "data": "2026-11-05T09:17:19.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1c0QkRJeDRHWFVFWmJlS3Vpb1dxb1J6SXZJUlh2TWZMMkVuNURLNWtEUGJpRTVJTHNiRnAzSHNyZldrQWgyWjRFa1pjRy0xRndjUW0zUmhxaG85UjRhc3RoSmZ5YnhISS0tdVJreFZ3RXU0WERjcnhqR3MtaGdzRXFLUkoxWUxOdUgtUWJpUXlkTnc4RXgtcTN3MTI2Mjg?oc=5",
     "origem": "google-news"
   },
   {
@@ -629,6 +645,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-04T02:29:51.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ1JFcVBVSVVITWxvUjg0UzZ3SmQwRC1CeU5zZDNoRjc1czlKcUs4N0JtT2FHM1JHellKSGhtLUY2bXdod3ZBWEljc0VBTDl4ZDh2Vk55czBWRmc0TlRCUExsNW1xdnJReFhTcTI4ZzAzUnBGWnlTZmJuRERKS01Odjdqb243a3pSeFEtS1dWVmdXXzNQNDVRN3JXT3pRVVJIMFZBczg1ZktpTjNCT0cxa1M1VWxnZXZmSTdTVTRqckVsUDlPNHhHV3lUeS1HcGVNMkczTXVadjnSAecBQVVfeXFMT3hDTTMtYjgzWW5lN2xqbWlZZkJDczZSOGFlUVVrajB4NTR4azgweFJqaGM5RXJFOFIwOTVVMlhLZDNtcjB3LVdKd1JIWG1jQjhPMGtJSVd0cVR6M09VSEtuamVMRlczSnUyNW13SEZqUHhOME80Vm95UHhwcDJSbWJMMU9oaW1MMnpkNFpvSlFrdEVkdW9LNDJFbURZdmo4MS04cnEzWERBTUthaEdkcWs3b0N0SFZDMHlKdnR0OXBXWmhEVmJMZHVCeEhib3hyNlh0TVVwS2JvOHpNdzd0MHpMUHpORnBZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8ca0ea2cda9a",
+    "titulo": "Efeitos nocivos das bets, que adoeceram o Brasil, são mascarados pela desinformação",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-04T02:13:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnE4TGdoUkVMVkZ1bkhRM1JFZzdYY3d5UmVSX3VUVjh1d0dUUDk3aVhjWGUxdHR6c1lpeEQ1dUxpallsNkRwdVNjdE5NMU85TXNBSk9jaGV1NUtMYVdwcFVzUWFhaUM3U25PQ1FBU19zblJ4Rk03YVRlTzZHRE1HVXM5Y0ZKczdIN2JLZ1hYM3dXOE5zUUttOTFHMHVweE9NN0HSAaoBQVVfeXFMT2N0eVI1ZEhVTC1pWDB1Y2Q1SW1qMmVLQUNPN2NCdHdSUU1VRHREVmxtNkExVDhwNWNibVdkdXIyWGlYdmZrbmc3T2t6aF9qVTJJRmdsXzlKZ1JWbjA1YzBUWXV4VTk5UElWQWxrTDVuR25WVDIxM2RKRWxFUmpCelJKYXlEU0UwbzR2OEZETUVvV1FVQm1XM0d6bkhwV0VpNTB1VlR4ODFaRnc?oc=5",
     "origem": "google-news"
   },
   {
