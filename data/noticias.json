@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:1cbbb4a3e6db",
+    "titulo": "Painel: Após Lula planejar diálogo com empresários, centrais sindicais pedem encontro com o presidente",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-05T23:06:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeWFIanRFQ0tkWjlYSFJaWFpsZ19oeHkwUzVKN3RXREcyWmFaek5oT1oyUnN6RzdybzF0VUF2eWtleVZTcDEtVzBpblNnQUNVZFlqUU5NLXhaVnMwVlFRMi1xQ0JrSF84RlNFZ2RmRE1ZUEFVd0hXRDl5NFg3TkRiUmgyUW85VXI3dWRmQTFPcWdteDI0bF9MbW9mYmVUVjZIQVU4Zm9uOGJCOVF4Wnh6T2dWV1pPRXZGaVVXZ3J4cHNwNDlDWFItWkl4NDYxNzZuWDNLQ050WkVoZFozNWVfMnd2SnZNV0k?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:51e60debf609",
+    "titulo": "'Vitória para o mundo', diz Lula sobre resultados nas eleições no Brasil, em Israel e nos EUA",
+    "veiculo": "G1",
+    "data": "2026-11-05T23:04:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNoYXBWWi1RN3ZiWmwxRFk5akZiWlVNOXdEaWdMaWRKcGFVZktuT0NqV1NBR3VKTTNoU25SVFhmUDZHY1hwU3N3YmdySkpMQWE5TWJfN3hhcFVNSVBqMjZienJZaWliYS16ckJrTjNuRWYxTHR5UnNGSExrYjBCMno4YVFEWXRvYll1dXpwNzNFWElvTlZJV2pyYU9jekUtblI4djA2SE9vNTlFc2pHa3pZWVJNMnBBbVV2cXNjLWNjWF9IZTM3cnU3T0V0bXh2MU1TSHFSUm0zdUR50gHrAUFVX3lxTE9Cc3ZhWVBEc1ZVdzA1aFl0X2U2U25rMUdzdlpQVHlMY19NRkNlRXVRR0hVRGdYTHpjS1dPcl9lbUtPTUh6R1VjRldMQkw2aEE5RW11bUR4WkszVmdGbEtRc1FXSVExSDBrZnMycjhhRXpiY0xqdm5PTm9yLXc2bGZtQ3V4WDZFN09EbUozdnNVdHlNQUwyZnhfYkh6NlBWUmEwYjFmQzNiNTF5NG4zWDk2UzNHODZ4clYwLUJvb0FlcXhDOGI0QXZJNUtNOVJoeVZmdEo2cElJb2FhQ0VJMkhpVEZfcmJCYWFUaE0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:3a4d8048d3a8",
     "titulo": "Equipe econômica vai discutir medidas fiscais com presidente Lula",
     "veiculo": "Agência Brasil",
@@ -29,6 +45,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-05T22:34:48.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLWtQTXg1VkpPZnRZOVEzbi14cFlvLVJwbGxVSS1rb2o3bHp4Zlp0MzJFUHpvMmhFdEQtNHNMRXdKZ2Z3YnVxMld6aW1OQnNSUl9tOXNDTjE5OEJnRnpFaXV4SVdhb0p3VTlpX2J4MDloQUI4SFJuUl9TM2h0cUw2c3ZicjYybWxTT0VzS1QzYjVEcHFGZkRGZTNWSkNWR3BnVUpKVlE5LWxydGJpcklzWlYwUU1xMFNJcFVEbUF5V2JLc0otXzdZek85QTQ5NGpoemh6Smlvc9IB5gFBVV95cUxPal83TzJ3aThMcERqMEF4aHB4MGR0eUtDTE5lUHVzc3FPaFdoaHpmbTFMSnNWWmdkMFlsaUJFYzA4cnNVN013eU1tcXJuR2poQ3pnRDZ4ckFpR1dvVkhKelRERUJQU2NKeklQQWJxSkZ1N1BwVDhOYkNqc0FKd2kyaTAzZUtaNGI4Z3hkZHBoQlpjaE1oWVE0cC1LRXRRRW8yQTl2dlQ5WFZpcUx6MHRBNDBzYXlabEZxTVNRVnVEUnlVRVBXZU94SzR6UDlfUkdTNmVCT295UVlkRl9BdUJDZkNEa3BDZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9ccafa4a7d61",
+    "titulo": "TSE aceita ação do Novo contra Lula e Alckmin por abuso de poder político",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-05T22:32:13.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXN5eVAxbXVlMXhaWDNtU2VpNmxBNXJqWVQ3SWNrTURkQUd4VExXZmdKaF9qZGFaT0k1QTloZGpSeUVLSFluc2RrMG9yR0VLZzV2M0pqVXBGV3IxSmZ0VU5MR3dndFloSWpLZnhKVXBzNmJiSTktVWpNVkhKR1FRZjdqWU1OeXJ5ckJoa1k4OE1QLXRIakFxcUdibUZDal9BbXYycWNUa2drRkl3b2w5ZEZn?oc=5",
     "origem": "google-news"
   },
   {
@@ -120,6 +144,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:10993516e990",
+    "titulo": "Lula diz que economia precisa estar 'arrumada' para atrair investimentos",
+    "veiculo": "G1",
+    "data": "2026-11-05T21:08:31.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbjhOX01ZZkcxRjlVVjBaOGFfM3RlSHhvYWo4N2E2aVVkb0xPaXk1MzhXeUo1N3BsMkJEZmNlbjBJYTNBcmFjUlA4Q20wU0RWWlUtZ1B5Z09HZ3pGZms2QWkxYXFpZ3g1OVQtRTh4b0NQUmVfRjE3amtRek1ndjFiaTRSY2U4WGgxc2g1OHFhOEIwOEtqYkxLUnlxdFZrTHZVMGZTUUtFZ1plbWxtbnlJZ1ZqelRnRmxjaEQ1ZHBSV1F5bnRKZC1ZR2c0QVhsTkpjUUlhY3Nlclhabi05WUR0ZkZGMUZVZFFNLXNOUzR4YUk1OUZkdGFQemFvWHJJWDA0MEtocTJ4WUzSAZcCQVVfeXFMTjNLYnFJNE9jTHA5TUloLWRZSE9RN3M0cVVCVzRVUzVXLXNGZm8wdWpBdUZ2VDZhTWdBUnlWMnRVVGRnNTZoMjdlUzI5aHRqS05DT2Z3MktzaGNEMGxvN0FtRXRpRG1mYWN0ckZTOHFweE5BalpwbDJCaXpkQy0xbXZndGFrMXdzREVDSjV4SGdtcFp2V1c2ZU1zd2lMRVR2UGZfSkZvZDdEZUlNd0Z0N3k5M3JhWU9FU0ZMeVc4SUpoRTRBWm5HRzQ3ajVzTkozOXVIVThVNzJIOHVCV2lrbHBuU3pZc2RQMjNZQ1dWNW9ZME9jZVpPS0kzb25lVjRNUTRtR3ZheldZODRVN21BNmtDaU5TY0Qw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6c3974518677",
     "titulo": "Análise: Lula ouve aliados e adia anúncio de pacote econômico",
     "veiculo": "CNN Brasil",
@@ -173,6 +205,14 @@
     "veiculo": "X",
     "data": "2026-11-05T20:08:17.000Z",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PYlBMMXV0M3NiMzZySjltOHpHNXYwSXpmRy1vcFgycDZ5Y2lWWnN1V0tFZS03bUxzWmpKQ09WZGRzcTNkVE9NSVhvdmJsc2F1RzFB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:78563cb9d7d7",
+    "titulo": "Painel: TSE admite ação contra chapa Lula-Alckmin para apurar abuso de poder político durante as eleições",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-05T20:08:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWmMxT2doMHRzMU1weUtkRWJ6c1doQk1kNTFmZmFmYlBzS2dPY180Zk5hSkdHTEVzbWxnR3V4UG5QT3dmelhmWFFxLTJTeTI0MjVLU0RDUzA1MC1CRlA0S3BqYVUyMVYzX0NZWDE5NjFKX3AzMm15amFwdDBhSkhOZktaMkpuRUdnOGYta1NSRDUxeC1JaUhDSDFTTnI2Y0ZIODZ5QXBPRmFWd1VZblUzdTdjeElYWFpGdzlqU3B5ZDhGUlB6NlRHR3NSeTFpcm43SFowaEFXNFRWRDlvSUprS044OFJTeFJnMkZGUA?oc=5",
     "origem": "google-news"
   },
   {
