@@ -330,6 +330,24 @@
     "historico": []
   },
   {
+    "id": "planalto:presidente-lula-assina-mp-que-define-aliquotas-do-imposto-seletivo-para-2027",
+    "tipo": "comunicado",
+    "data": "2026-11-05",
+    "titulo": "Presidente Lula assina MP que define alíquotas do Imposto Seletivo para 2027",
+    "status": "publicado",
+    "ementa": "Medida estabelece regime de implementação gradual do novo tributo, com início previsto para 2 de fevereiro de 2027, e preserva o nível global de arrecadação previsto na Reforma Tributária",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/presidente-lula-assina-mp-que-define-aliquotas-do-imposto-seletivo-para-2027",
+        "coletadoEm": "2026-11-05T10:40:16.625Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-05:09:00:1",
     "tipo": "agenda",
     "data": "2026-11-05",
