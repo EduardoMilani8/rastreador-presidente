@@ -284,5 +284,62 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-05:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-05",
+    "hora": "09:00",
+    "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-05",
+        "coletadoEm": "2026-11-05T00:30:21.407Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-05:15:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-05",
+    "hora": "15:30",
+    "titulo": "1ª Reunião do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos (CIMCE)",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-05",
+        "coletadoEm": "2026-11-05T00:30:21.407Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-05:17:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-05",
+    "hora": "17:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-05",
+        "coletadoEm": "2026-11-05T00:30:21.407Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
