@@ -515,6 +515,24 @@
     "historico": []
   },
   {
+    "id": "planalto:governo-lula-estabelece-diretrizes-para-reduzir-gradualmente-dependencia-de-combustiveis-fosseis-no-brasil",
+    "tipo": "comunicado",
+    "data": "2026-11-06",
+    "titulo": "Governo Lula estabelece diretrizes para reduzir gradualmente dependência de combustíveis fósseis no Brasil",
+    "status": "publicado",
+    "ementa": "Resolução do Conselho Nacional de Política Energética prevê elaboração de Mapa do Caminho Nacional para uma transição energética justa e planejada, com segurança energética, desenvolvimento econômico e participação da sociedade",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/governo-lula-estabelece-diretrizes-para-reduzir-gradualmente-dependencia-de-combustiveis-fosseis-no-brasil",
+        "coletadoEm": "2026-11-06T16:20:15.601Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-06:10:00:1",
     "tipo": "agenda",
     "data": "2026-11-06",
