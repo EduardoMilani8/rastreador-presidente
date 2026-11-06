@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:8e6a98436eec",
+    "titulo": "Governo Lula lança plano de transição energética e diretrizes para reduzir combustíveis fósseis",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-06T20:56:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTnQ0MVRhSmM3NDg4bnNuVDFlN1g4MmdJMmJGQmFDRlR4MEtOUTBrRkJObE9OUlZnelB0dDBHVHRHQ21DeDA5WkxHaTZZUUZYby0tV3oyUGlvVExoOUNPMXBOWDg2bWFfZlg0amh1NmpJdVRVWGVQbHhpcXNwQXZLOHNXcHUwTE1HZzFGNTZpVmNkaVROSDQwRGducVlVNTFERkdEazc4SERaN3FIOVVraExIbk1IZ1hQUDdYT0hoNzJqbnZZTkZLbHZHR1Q0U292MEFzODdhTy1vZVQzcEd5NlpR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d553728d101d",
+    "titulo": "Chapa Lula-Alckmin: entenda o processo admitido pelo TSE",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-06T20:55:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSEFwVExfRGR4dkR3c2liRDlsbUJmMHQ0dGVCZldlcWJFbEQ2S0hfZEdielhtLVkzQlVDZU9Xekx0NnNKYkhjeHhSZUJ6cFhJMm5IaTlUWFkwOTJjUDVmeXBrV1BJekQ0R1ljeDJOZTNodVljeGdSUlpQQUlaWEQzazRGT0FDbm51MUdqSkJSTWtWUVRaSnRXcXA4RWJid9IBrAFBVV95cUxNMy1sb2M2MklzN3FIeDJZVS1oMWVDZVliV1Z1SlB5WTRqd2FOZlJ6TWRLMk9MVjZnaUVYVXhUR2ZxUDFsMnQzZ2JuT1dhMm5ZajNnWlVjQlpRRUdjMFZPNWs1bFdkbGNINDdtU0VzRFZ0LXJMLVlvbVZtb3pNSkM0RHV0YWQ1eDFnZ3FqaEhCZmYxcjZETzlKdFJON21mbDFWWERPcDFRTS01bmty?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:68c9f73fac28",
     "titulo": "Lula rechaça pressão por ajuste fiscal e diz que não vai levar ‘o povo pobre a nenhum sacrifício’",
     "veiculo": "Brasil de Fato",
@@ -136,6 +152,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:4d193ad64256",
+    "titulo": "TSE já abriu 14 investigações eleitorais contra Lula",
+    "veiculo": "VEJA",
+    "data": "2026-11-06T16:30:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWUdsZEhwT1RTTFVZanRnNElfSlk3UUhWZnZNcG83SExFSkg3eGFoRUhVeWZYbk1WTGZ4Nkp6cndud0xraURsQVZoSkJ6WFRWVzlZWm8ycEw3b0x1aWlJd2kxUmpubkJ6bzE5QTN2dldxNEREX1BpWHNEYm91YUhTTEtNNEFrcmFYTzFxRUpxQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1ad3fadf60d0",
     "titulo": "Lula diz que será 'fiscal' de entregas do governo: 'Quem não quiser fazer, cai fora'",
     "veiculo": "G1",
@@ -149,6 +173,14 @@
     "veiculo": "Aos Fatos",
     "data": "2026-11-06T16:10:05.000Z",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTW1DTm1jQkx2ZEZiMDBtbi1jdTBJQ2FDTHVpU1lsSk13c1J0U2FzR0I4OEV3YUd2NjNiOWtzM0w4cnA2RlZYVE5NVzVTU2E0N2ZUb3EzdHE5ZjNzSDAxRUs5M1lLVDVGNFM3dHFSdkRXUDhVNXVTMkpxZHU5TDJIbFVwZkdzLV9NMDJUNXg5d2pjRVNCQkhGNWRqY01hRFk4bFFwUWZ6X05ob2xPT2hF?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f981a98bb5e3",
+    "titulo": "Justiça autoriza volta do funcionamento de três bets no Brasil",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-06T16:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLWJjWkRwd3dYc0owTkJ5Z0tCc0h4Q2FTY2EzU1RGcmpXVElnd3lYZ2stYldUYTlNRXlobllQd2xONjBxNUVxOW5heEdrVWNBRUpEVExTLTZrVUtGSDAyLUlLLUljWWRUM2J4RDlRak9IU0dTT3hWUWt0QlZmckF4QkZyVk93MVUybkdmSk85YzJnb1RvWEs2VTBHZkg0ZjdWZ2NWb05jYzBJazB1LU5lV05DZE8wR2d3MkJz?oc=5",
     "origem": "google-news"
   },
   {
