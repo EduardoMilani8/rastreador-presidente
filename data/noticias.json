@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:448efcc96eb2",
+    "titulo": "Lula recebe mensagem do Papa e renova convite para o pontífice vir ao Brasil",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-06T21:17:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVFhWMlF0ZERGZGtXdnlNTi1SOHdnb2xFeFkzUVJJRGVhN251QU5EeHNvbkFUaS1LM3pYbWI0c0xQU3UzZnlhUm5ETEotblRpSDhXZWpiSWU4Tjl2WnBVVFhZcHZTdmZDVHNheW12VFM0bFQ4d21jVmVFT0JOb3ROVVpqdHNaSUJLRDJzdXV2WWpNYXpVSDY0VHlWZGF0NnljdGdvVHk5ZkVFS3dlT0loZVM2Y2dZSmo1UnkzRk1ONi1GaWRNSU5KXzhMZ9IB2gFBVV95cUxNTFFmdWR0eUhSdWthRkdPZ0IzNUI3aXN6a3B1dmdjRUFhRkZlRHlkRkk4bU90eEtBcl85T2JNbWwzMlJPMk5PXy01TGpSdmVpWlRqaEJjYkNwOVo1TGs1NElqZUNIb1VKUUtGVEw3d1g0M2hwUTYta1dlNDF0OE43YVdydEhyNFRvUUZscWlBMWNaLW1OWC04aHpFZld4ZkRINGE4RkFWeHhiRkZaTDdYOGpLX2stLXFwaEllejhWV2R3TFFoY0NjTDNZdU8yT3ZtdGp6cHBQYm8xQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e10616f44fcd",
     "titulo": "Papa Leão XIV envia mensagem a Lula; presidente responde com convite para visitar o Brasil",
     "veiculo": "Brasil de Fato",
@@ -69,6 +77,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-11-06T20:03:38.000Z",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQajJHZDF4VGQ0UDhoTXZaUGVXdG1zWjA1eFgtRWc3LXdkc3FKSl9jcEVEdnpzdTBJOUZ4YUZEckJhVV9HVEV6QXpJQ2NiTHNFVUp0ZzBSOGlJLU1EQzZ4bERxd3ZJSTc5cE00b1ZqdjFha3dTeUxweTltNjNMV2FKM1lVUnNQLTNWeUVyR3ZKS1MxTmw0RXBlMkJsc3JiV3FCLXo5NHBfUzExY05fVlZ0dEgtdlVSZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:43f8535b2e0c",
+    "titulo": "Lula deixa definição do governo para depois da viagem à Turquia e Filipinas",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-06T20:00:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd3p1UjJ4RlNwSlAxc1ZiTExmVG9VZ0xUUTVWOFJsd0xuTzdZaWlBeXR6VnlfU0VKM3MxQktXVWNvaUtCZ0hZX1NPOWlsTzVKbm5DQ3JjaXVodkJMTGtfX3N5MzJfd2RBdUs0cEotcXVYNGVmWm1JdHBRdGJRbFpKbU8tc0pHbDgyWHUta1Y2OFhaYWFnYmRfNDEtZGZ5XzlNSEg2TG12Ql9MRUp1QTJJRDRwZ2J6Qjl3QkNucm1XUlgzNDV5dHZCTEpZRjQzc01p?oc=5",
     "origem": "google-news"
   },
   {
@@ -173,6 +189,14 @@
     "veiculo": "VEJA",
     "data": "2026-11-06T16:30:35.000Z",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWUdsZEhwT1RTTFVZanRnNElfSlk3UUhWZnZNcG83SExFSkg3eGFoRUhVeWZYbk1WTGZ4Nkp6cndud0xraURsQVZoSkJ6WFRWVzlZWm8ycEw3b0x1aWlJd2kxUmpubkJ6bzE5QTN2dldxNEREX1BpWHNEYm91YUhTTEtNNEFrcmFYTzFxRUpxQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b97f8c365a6c",
+    "titulo": "Governo Lula estabelece diretrizes para reduzir gradualmente dependência de combustíveis fósseis no Brasil",
+    "veiculo": "Governo Federal",
+    "data": "2026-11-06T16:13:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObm90cW9uamFUZWNqLU9aMXFCWFZqWlVxeWtBN0FMVUl6SjhFVi1oZUdLOGFFV1BUSmZXNkU2VVNZNFg5YllMQzAyMXlveWFhOFFQVFNOWDJvU2FKZjg2SEZTdHJnN0JFeXgyOWFTaVR3aE5DQm5tanlDT0g3amUzZHRRYzhteVVmODgzakh3RmhPem9weVN2WkhTb0hoY3FNM1llMkNldHV3dFNSRk9icjJiVDdsM3lqcXlhOUF0ZGpOd18wZlpIcVgzN0tFVUM0aXdqb1R1dXZwNW1MYnVFcjhlTTFUNmUxODRzN3BKcFVya1lKc0RVQzM4Q1hNN3lrSE9ibFR2WnhBQQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -333,6 +357,14 @@
     "veiculo": "Opera Mundi",
     "data": "2026-11-06T11:01:34.000Z",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUFHdkVRaktIdUdpUHRXa2hTd2NLTTlrdUV0SUtmX2dPOTliLUtNczFRbzZ1TXM1azdfUzU5dzJuUkx6SDltT2JJWm8wNHRLRzFwQ3VESnFGV1dGRnhMdF9NbW5QNko3TUxCb082QUR6TUZJTTVaQl9XTHhUX0lGWXRKUkdrS1dqall5dTVuMEE2QWNsTTRyZkl0ZGhUOHhBWU80aGdHSGpFZEU1ZFNRTEd6bEcwb3ZSX3Y0Sk93?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a910bb6b81c2",
+    "titulo": "Justiça autoriza três bets a voltar a funcionar em SP, e desembargadora chama proibição do governo federal de 'verdadeiro confisco'",
+    "veiculo": "G1",
+    "data": "2026-11-06T10:58:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPd2NnaTdFalBMcWt2Mkd1QndhRlZxOFAxLUJpVUR0dnVSc1lIaW94cXpZZURpWVd1Y2g5NWd4UkVqVEtnQ0JkOV80aDlLU1ZrRzZaaURZQmNaRXFjU2k1NDdyTFFGNHVSUmVKM1JUMEtpeUtqaEZ3VkpSalpXb0ZESVpLSE1yb2duM29tQVpZYm9oX2x6bUFHZldvWE5ST0pDY293ZUVQVUI0cFNHczdLRVRuMTVpS3VhcXdrR2dMcDNZWkV5dHlDUmlqY1VCWC1KbGxIWmhyWWtvdGF5NjM0X1d0a29BYTRiMFdzSkFuNU5qRVVMcHdLTkcwaUxBNFJlX1E2XzYwX1RVMUZGdGVHVFBnNXJfTmIwNnfSAagCQVVfeXFMTmMxM3VodUw4VUx3Z3VWRWg0MmVkc09Eckd6cmpJbEl0UVd6VHNFN2laR2Y2RmNyZFBFQjVybFBucTkyLUNGczhSTDRzSEc5dk9EMDRjdDFPMUowTjlxOFpxZ2JOVS1qWjVoV1Z4Z3Z0WHNMb0h0cXBGUExwcWc4TTZncEtxdzlzZElPdXBpa09lRXdCb0x6RWhoLXRJRVhodjdEMHdQWmFMVS1oUVd5OUJXa3VKMG5mZS1yWkVVNE5IRmo3WEpHZkE3RG9GaUJWbkZFNXhxdjFLZ3RhQzFlVHhfNWZScmtrTkFMbldCSkptZ21jTEJXc0JIY1ltZURGNlFNMm9VQ1pGcUFTZ0NEdTZtNUZOb0l2Um56TVdVNzhyTVBvNldLd2M?oc=5",
     "origem": "google-news"
   },
   {
