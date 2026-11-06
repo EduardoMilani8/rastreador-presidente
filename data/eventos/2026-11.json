@@ -354,7 +354,7 @@
     "hora": "09:00",
     "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -373,7 +373,7 @@
     "hora": "15:30",
     "titulo": "1ª Reunião do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos (CIMCE)",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -392,7 +392,7 @@
     "hora": "17:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
