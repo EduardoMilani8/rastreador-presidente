@@ -551,6 +551,24 @@
     "historico": []
   },
   {
+    "id": "planalto:lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao",
+    "tipo": "comunicado",
+    "data": "2026-11-06",
+    "titulo": "Lula sanciona lei que fortalece avaliação da formação médica e torna Enamed requisito para exercício da profissão",
+    "status": "publicado",
+    "ementa": "Nova legislação estabelece a proficiência como requisito para registro profissional, fortalece a avaliação dos cursos e amplia o uso do exame no acesso à residência médica",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/lula-sanciona-lei-que-fortalece-avaliacao-da-formacao-medica-e-torna-enamed-requisito-para-exercicio-da-profissao",
+        "coletadoEm": "2026-11-06T21:40:16.272Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-06:10:00:1",
     "tipo": "agenda",
     "data": "2026-11-06",
