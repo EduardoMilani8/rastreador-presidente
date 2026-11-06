@@ -1,5 +1,21 @@
 [
   {
+    "id": "agencia-brasil:fb1596ef11b8",
+    "titulo": "Lula quer levar Brasil à condição de país desenvolvido em quatro anos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-06T18:57:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-levar-brasil-condicao-de-pais-desenvolvido-em-quatro-anos",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:0d5701f5c5d8",
+    "titulo": "Lula bate martelo sobre a disputa entre Dino e Nunes Marques por vaga no TRF-1",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-06T18:26:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdEtOeEZ6TnAyWWVFWE1ONVhaUTN6ZllkRVZZOERRaUQ4VmFHbDZzWVVKRl9seWlpZVdxMUFKY1IyaHFXOHpCUXY5VmJKVjlfeDR1eDNYQXRNbmVjMzhlQ05meExkcDZneHFJQ3kwTmNoZC13QUZvS3huNlJhMUgyZlhhbGtYM1JyU2hkbjZvWkxwTzJIOXNGdTdTbktBVGFLWGFMR0tEeE9xbFBiam8xN3VoS2ZYbDYzVVk1X215OW5QcndYR3hKSlVVZHMzckR0UDVEQ0lGNNIB5gFBVV95cUxPNmdOYnFWenlQQzNLbEk0c1o2MmNkSTZJSjBDMi02aURFMnVHaDV1U3VKUHNEeDd3b3FLYzRyOHM1cTlleVA2ZTNqNXgyRWZva2dDeGM0dVNHUGdkQlMxSUFJWVFkWUYwS0tJWDZaRXFFQ2twcWVLZHpzeG90OHhFb3ZZbWlFeFNQMVo5dU5WTXBnREllaWVxYXF0elRMY1VjSUcwdFEwWlBwWHREc29YOTdNOWE5Szl2MHdBQWk0aFVmd3Z0djVpUWx1RzhzNHNPQ2pCSlZCa3pzbFlCaVc4XzRKcHVjUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8937dc8500a4",
     "titulo": "Lula cita JK e diz que quer tornar Brasil potência no próximo mandato",
     "veiculo": "Congresso em Foco",
@@ -16,11 +32,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:56b6748993ba",
+    "titulo": "CNPE aprova cinco resoluções para impulsionar a transição energética no Brasil — Planalto",
+    "veiculo": "www.gov.br",
+    "data": "2026-11-06T17:13:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMkZkNWVnb3k2NUdBRnBTdUg5LXV5MnI2T3dSbXZxODU2SzNhR3c0eU5CclZWRWY4NEZ4d1cyN1BjQzRrdlZRRUV6cjg1VVZpX3NlUG11UHU3aVRKMTJFVEF6X0dmakxPRGJDazBmZV9IMnNPOWxhZ3p1bXd3RE4xRTJwbXliTmZSRldQTWo5QmRURGpXNmhEMTZGbVBWVndOY3I5RkRmaXVTLUphUm4wRE9ZWjV1S0I1SEZ6V2tzUDNmRkJUM2pVTUEza1d2RWFLUTQ1RU5QMTlDNWlkZk1JUzhkS0s?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:09146862a6ff",
     "titulo": "Lula defende responsabilidade fiscal, mas reforça que 'o pobre não pagará a conta' por mais ajuste",
     "veiculo": "Valor Econômico",
     "data": "2026-11-06T17:06:23.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUzhYQmluUUtIdXFCSEtpNDNGb3V3dWZRclNENDlIVnJQUnZGY0xfNVpUZ1YwdzdRanBCU25KZU1DMkduenhMM0tTU181VlJ3SWFUOTdMWEVnYUQ4X1lOREJTUW9YZkk2VnBrZ3pFSlZVMnFlY3kwcFBac3NmaGFlUmVyaFNOYWk0TTlGeW13NEtoOHhBdE90MUtYQWlxWnE3b2xRZ010aTd2ZzF3dExVV0ZTcmRQRjYxS1JMMnBpYjR1N2hFYlphdnNza0lWUHhFREhtNXY4SWxaYUgxRmt5cmJRdXVhdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4eb78f3bd150",
+    "titulo": "Bolsonaro foi alvo de ação semelhante à que mira chapa Lula-Alckmin — e ficou inelegível",
+    "veiculo": "VEJA",
+    "data": "2026-11-06T16:48:19.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUi1GTW5CUjhjVE5Md2hJZXEtN2NiWkdoQ1BDWmNqVXQ3SmFsbkRnMEpJSEljMVBPTXItNTh6QXBGTm1aUzFoR09ILTNlSUdvVlhhd1YtbFdCbUk0a09HMEE1SDhQSGZqSldkQUFpYnBCZ3UzY2JRdDlyTFdDaDFwRjJ0U0F3bVJ5UmdSV2dVZnVKVHM5Y0YwTklMMi1KVzcwMVlQNEx5dlQzSm5UOEhuUVpXb2ZUSy02clR1Mg?oc=5",
     "origem": "google-news"
   },
   {
@@ -104,6 +136,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:8931c5fbbf77",
+    "titulo": "Memes, pedido de casamento e falso anúncio de ministro: Lula e Janones adotam tom informal em live e tentam manter mobilização do segundo turno",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-06T14:53:49.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOUzdkRU9LU3VfSHhZZ292c0xNM2dLQ05Bb2xtTGpRTExzM2JYOFRtbzE3RXd0OE51YmpPMmdDdXMxNU40T3gwejZzX1k0c1VDTlZXejJCVVlINmxuRjFYQzJ3U2E3cmJ3UTFoZ1FEMVBKcjQ1V2RKMXFkUkY5NjlpNm5aX0xwQm5uQUhhYkxPZUlWYzdNNjhFWnVIRTF1NTJKQUliWDZXaHFkOTI0aTF5VmhrX3NNQnVkZ2w2eGhhSks4TE5uekl5ZFBoS0tuWUthRUhpR21oSi1FeURBUFVxYjJXRm5hMWJmMkJUa3doSjlBSjRVcTBJeDNoOUs2aDZwTk9UbUh1V3RPTDNBR0c4NV9Jb3FuQjcxM0NyN21HRkpEV21ITGJV0gG2AkFVX3lxTFA1Q3ZSM29CTmZrUnhlZERyVmJjdXJncHV0UzhFMFBzaHFXT3hUZ0N2RWlheS1ZUGlTcUJ4NkF0YjRCN0dnSWVjZUtWUWZOTkVLTGtfb0draVVfTEtzUXJvVmRMOGtWOVhGdnItMVlqTnJxbnkyOXNNSldOdjVsVDdJWnhWdldNcDNqeF9VZzBNM3pwekNBSmFjU2lUZ3d1bi1EVERrVlVzNTFNbU1Kenk5bXg4aHk4SVAydlF1Q2VKOUlkdHJKSEMxcU9Eak9HZjBXYWNmejBoZnFYUjBlTUtRVDVqa2hwLW1QR1oxVDh2M2oyRFRpNklCcXY1S3p1RUk3VHh1cHN4VHN6YTREMTBYZDhaanpKODJOM0lzSVNsc0tmX1hacElNQzVTWUF1SncxOU11X0E?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:37b157f2ab6b",
     "titulo": "JOTA Principal: Transição para 4º mandato de Lula é marcada por impasses na economia",
     "veiculo": "JOTA Info",
@@ -125,6 +165,14 @@
     "veiculo": "G1",
     "data": "2026-11-06T13:19:14.000Z",
     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTWpNdFpqMnRQRi04RUFXRmZvWVk3SUdFUkRiemFyNmhXR0dZdGp1TWQ2ZzdCdEx0VFpZaHo1QjhaMEdtUjFtX2YtY1VROW5EbnVURU45YjZhZE1SZW5JUUlmVkJFSkpYTEN1SW5XVl9BZG1kNDhodUNRZXRDdmtZNTZDUmtPcTZsM1dENk5BV0RiM1NyRVEtX0N5aTRVakl1VU1BR1VtMlRTd3g5Wm1BbDZnYktESkZ4cFkwenNSM0FUUXdCbTJNYVBjQ250UFlrQWh6OGJiU1o5ZmU3c0swV1JWZHhmVDNwRHdQWXRrcTdFWEhmaGxYMlVHd0Q5MjJUNG9UZtIBkwJBVV95cUxNSGwtUmFyQWhFel96YThldlNzWnBGSHhzN0dyRm9fZHJOSFdOVmpjSnp0SGY1OWRIUlJrWmpQVHh0MC0yUFBULWRaLTJabHhFcDlJRnNHNlppbkxqYjBPU2FFUE1ydjMxblNyeHRmRUx6N282VTdpWDNFbmphMEp2VlFNbHF1NDg2eUJUYlcyMXhSei1vNXFyYklzb0lzLWRRYkszS2FnNkduQ3FxYy01cHVlT25MalFXTWdsQXlYcTB4SDBUQm13R3QyS0s4Z0Y0YXdmbUlMRHh5aVdqWkxoSFBMVndjWXRMWWJGQ19hNnN4SmFVQ1V6WE5UeDhQaXBXVmQ2V3JwWldvY3NGZ1o2WnItRQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3385be9d5a38",
+    "titulo": "TSE dá andamento a ação do Novo contra chapa de Lula-Alckmin por abuso de poder político",
+    "veiculo": "CBN",
+    "data": "2026-11-06T12:54:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbWs4MmhQLVQzdjFTNENCYlBFZ0VxYmlRUVFzakxueEZ1VmYzUXE4LXZLVXgydHFGYzYxV1RzRXJEUVZyX25yMmNNMUZJVXlhX2JDV2VlQTM4VDA0LVQwRC01YmlBaHBPZUNuaFFfUnZvZzBLOEVCV3FNYmJKUi1hSWxiLWE0bWJ4SmZyN0FVeVdqcVExTzdBUlVNOVM1ZnF3V1NXUU9kaUFBVHFla2E0ZzBiWEdERHl1WTFCM0otdk7SAc8BQVVfeXFMT25DUWZMT2pwTUFQd2xIak11Z0FVa24tY1JCeXJacGd5VWRud1dRdWFJYXdxdjc0NmZYcDU1WG1wQVhBSDJ2Ry1HaTZickZZaGw2WXZEOGZCSFByLXNwYm1SMjZaSEx1OGJyN01kWTlrSDNmb0VfRGZJQmNwaVNjRFcxb0VQODhGbWZXSFBTM0hpOVBUbmdxZmNyTGZycEU1LVBWSWQ0N1ZjREc0cHVFMWxYa2xxWmUxLW82azJXb0xCekxVVm01ODc4SHJ6NFhj?oc=5",
     "origem": "google-news"
   },
   {
