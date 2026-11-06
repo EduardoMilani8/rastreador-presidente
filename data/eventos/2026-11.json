@@ -515,6 +515,24 @@
     "historico": []
   },
   {
+    "id": "planalto:cnpe-aprova-cinco-resolucoes-para-impulsionar-a-transicao-energetica-no-brasil",
+    "tipo": "comunicado",
+    "data": "2026-11-06",
+    "titulo": "CNPE aprova cinco resoluções para impulsionar a transição energética no Brasil",
+    "status": "publicado",
+    "ementa": "Reunião com a presença do presidente Lula delibera sobre eletromobilidade, Plano Nacional de Transição Energética, valorização de resíduos e medidas para ampliar a segurança energética",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/cnpe-aprova-cinco-resolucoes-para-impulsionar-a-transicao-energetica-no-brasil",
+        "coletadoEm": "2026-11-06T17:30:22.747Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "planalto:governo-lula-estabelece-diretrizes-para-reduzir-gradualmente-dependencia-de-combustiveis-fosseis-no-brasil",
     "tipo": "comunicado",
     "data": "2026-11-06",
