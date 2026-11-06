@@ -405,6 +405,116 @@
     "historico": []
   },
   {
+    "id": "dou:decreto-n-13.147-de-5-de-novembro-de-2026-742127650",
+    "tipo": "ato",
+    "data": "2026-11-06",
+    "titulo": "DECRETO Nº 13.147, DE 5 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo para a Concessão de um Prazo de Noventa Dias aos Turistas Nacionais dos Estados Partes do Mercosul e Estados Associados, firmado pela República Federativa do Brasil em Córdoba, em 20 de julho de 2006, e seu Acordo Modificativo, firmado em Paraná, em 16 de dezembro de 2014.",
+    "datasAto": {
+      "assinatura": "2026-11-05",
+      "publicacao": "2026-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.147-de-5-de-novembro-de-2026-742127650",
+        "coletadoEm": "2026-11-06T04:50:18.454Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.148-de-5-de-novembro-de-2026-742143555",
+    "tipo": "ato",
+    "data": "2026-11-06",
+    "titulo": "DECRETO Nº 13.148, DE 5 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo sobre Serviços Aéreos entre o Governo da República Federativa do Brasil e o Governo da República do Paraguai, firmado em Brasília, em 8 de junho de 2016.",
+    "datasAto": {
+      "assinatura": "2026-11-05",
+      "publicacao": "2026-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.148-de-5-de-novembro-de-2026-742143555",
+        "coletadoEm": "2026-11-06T04:50:18.454Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.149-de-5-de-novembro-de-2026-742144701",
+    "tipo": "ato",
+    "data": "2026-11-06",
+    "titulo": "DECRETO Nº 13.149, DE 5 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo de Cooperação Científica e Tecnológica entre o Governo da República Federativa do Brasil e o Governo do Reino Hachemita da Jordânia, firmado em Brasília, em 23 de outubro de 2008.",
+    "datasAto": {
+      "assinatura": "2026-11-05",
+      "publicacao": "2026-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.149-de-5-de-novembro-de-2026-742144701",
+        "coletadoEm": "2026-11-06T04:50:18.454Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.150-de-5-de-novembro-de-2026-742126126",
+    "tipo": "ato",
+    "data": "2026-11-06",
+    "titulo": "DECRETO Nº 13.150, DE 5 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga o Acordo-Quadro sobre Cooperação Militar entre o Governo da República Federativa do Brasil e o Governo do Reino do Bahrein, firmado em Manama, em 4 de setembro de 2022.",
+    "datasAto": {
+      "assinatura": "2026-11-05",
+      "publicacao": "2026-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.150-de-5-de-novembro-de-2026-742126126",
+        "coletadoEm": "2026-11-06T04:50:18.454Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "dou:decreto-n-13.151-de-5-de-novembro-de-2026-742145736",
+    "tipo": "ato",
+    "data": "2026-11-06",
+    "titulo": "DECRETO Nº 13.151, DE 5 DE NOVEMBRO DE 2026",
+    "status": "publicado",
+    "ementa": "Promulga a Decisão XXXVIII/D/453, adotada na XXXVIII Reunião de Ministros da Organização Latino-Americana de Energia, realizada em Medellín, em 30 de novembro de 2007.",
+    "datasAto": {
+      "assinatura": "2026-11-05",
+      "publicacao": "2026-11-06"
+    },
+    "fontes": [
+      {
+        "nome": "dou",
+        "rotulo": "Diário Oficial da União",
+        "url": "https://www.in.gov.br/web/dou/-/decreto-n-13.151-de-5-de-novembro-de-2026-742145736",
+        "coletadoEm": "2026-11-06T04:50:18.454Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-06:10:00:1",
     "tipo": "agenda",
     "data": "2026-11-06",
