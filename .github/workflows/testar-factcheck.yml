@@ -43,9 +43,9 @@ jobs:
           fi
           api='https://factchecktools.googleapis.com/v1alpha1/claims:search'
           consultar() { # $1 = filtro de site (vazio = todos), $2 = token da página
-            curl -sS -m 30 --get "$api" \
+            # A chave vai no cabeçalho, nunca no endereço: endereços aparecem em mensagens de erro e logs.
+            curl -sS -m 30 --get "$api" -H "X-Goog-Api-Key: $CHAVE" \
               --data-urlencode "query=$CONSULTA" --data-urlencode 'languageCode=pt' --data-urlencode 'pageSize=100' \
-              --data-urlencode "key=$CHAVE" \
               ${1:+--data-urlencode "reviewPublisherSiteFilter=$1"} ${2:+--data-urlencode "pageToken=$2"}
           }
           # Endereços como as agências aparecem nas marcações; a AFP e o Estadão podem usar mais de um.
