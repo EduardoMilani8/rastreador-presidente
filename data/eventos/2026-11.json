@@ -705,5 +705,23 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "planalto:presidente-lula-acompanha-monitoramento-do-enem-em-brasilia",
+    "tipo": "comunicado",
+    "data": "2026-11-07",
+    "titulo": "Presidente Lula acompanha monitoramento do Enem, em Brasília",
+    "status": "publicado",
+    "ementa": "Presidente visita, neste domingo (8/11), a sala de monitoramento do Inep. Na ocasião, ele estará acompanhado do ministro da Educação, Leonardo Barchini, e do presidente do Inep, Manuel Palacios",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/presidente-lula-acompanha-monitoramento-do-enem-em-brasilia",
+        "coletadoEm": "2026-11-07T15:40:18.022Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
