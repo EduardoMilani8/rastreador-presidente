@@ -5,9 +5,8 @@
       "desde": "2026-11-06T04:10:14.984Z"
     },
     "dou": {
-      "ok": false,
-      "desde": "2026-11-07T21:20:15.749Z",
-      "mensagem": "2026-11-07 (edição): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=07-11-2026&secao=do1: TimeoutError: The operation was aborted due to timeout"
+      "ok": true,
+      "desde": "2026-11-07T21:30:25.194Z"
     },
     "planalto": {
       "ok": true,
