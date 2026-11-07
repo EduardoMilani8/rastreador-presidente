@@ -1,0 +1,29 @@
+# As actions ficam fixadas por SHA e as dependências pelo package-lock: sem isto, ninguém avisa quando sai correção.
+# Uma vez por semana, agrupado, e só versões com alguns dias de publicadas (dá tempo de um pacote comprometido ser
+# descoberto e retirado antes de chegar aqui).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ['*']
+    commit-message:
+      prefix: 'chore(ci)'
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      dependencias:
+        patterns: ['*']
+        update-types: [minor, patch]
+    commit-message:
+      prefix: 'chore(deps)'
