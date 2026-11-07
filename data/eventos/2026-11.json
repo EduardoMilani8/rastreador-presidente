@@ -637,7 +637,7 @@
     "hora": "10:00",
     "titulo": "Reunião Extraordinária do Conselho Nacional de Política Energética (CNPE)",
     "local": "Ministério de Minas e Energia",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -656,7 +656,7 @@
     "hora": "15:00",
     "titulo": "Sanção do Projeto de Lei de Conversão nº 14/2026, que institui o Exame Nacional de Avaliação da Formação Médica (ENAMED)",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -675,7 +675,7 @@
     "hora": "16:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior, e Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -694,7 +694,7 @@
     "hora": "17:00",
     "titulo": "Ministro da Secretaria de Comunicação Social da Presidência da República, Sidônio Palmeira",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
