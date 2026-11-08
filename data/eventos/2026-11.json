@@ -741,5 +741,43 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-08:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-08",
+    "hora": "11:00",
+    "titulo": "Visita à Sala de Monitoramento do Enem 2026",
+    "local": "INEP - Setor de Indústrias Gráficas (SIG), Quadra 4, Lote 327 – Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-08",
+        "coletadoEm": "2026-11-08T23:54:06.799Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-09:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-09",
+    "hora": "09:00",
+    "titulo": "Partida para Antália, Turquia",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-09",
+        "coletadoEm": "2026-11-08T23:54:06.799Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
