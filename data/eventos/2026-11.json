@@ -723,5 +723,23 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "planalto:201cesse-pais-so-vai-garantir-um-futuro-digno-de-verdade-para-o-seu-povo-com-educacao201d-diz-lula-sobre-o-enem",
+    "tipo": "comunicado",
+    "data": "2026-11-08",
+    "titulo": "“Esse país só vai garantir um futuro digno de verdade para o seu povo com educação”, diz Lula sobre o Enem",
+    "status": "publicado",
+    "ementa": "Presidente visitou, neste domingo (8/11), a sala de monitoramento do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), onde acompanhou toda a logística que antecedeu a aplicação dos exames em 1.901 municípios do país. Em 2026, Enem se torna o mais inclusivo da história do Brasil e tem recorde de idosos inscritos",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/201cesse-pais-so-vai-garantir-um-futuro-digno-de-verdade-para-o-seu-povo-com-educacao201d-diz-lula-sobre-o-enem",
+        "coletadoEm": "2026-11-08T17:10:15.507Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
