@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:5d21545692d2",
+    "titulo": "Lula reafirma compromisso fiscal, mas não explica como acomodará gastos",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-09T16:02:51.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOUNidmZReFpnQXA1bEtXZXRIT0QyTkJVNnNyc193b1pTMzVob0lQZFpLbnR1LTdFbHZlZVhXX3d2ak51Tnd4eFhjOExzMFdKd0pzbHo5NGdBWnJPNW1ENEVaWkJIZi03OXFkeV91Q1FNcm5lZnhTZV9ENG1FUC1lZFNrWHRSam9yMHBKSFJONlRHd25Td0lOZmcySDVXNEZtVWtlZW5wcGhNZFI4R3FVRHBrTm16WHcxOGx0Yy1rbGlnQzZMcWVfN2pXek0wMkHSAd4BQVVfeXFMTjBnN1RYd3JDS3Bqd2hUa0tuWEVURzR5UjljNXQ4dnJSdTBXY0pyNHlGeGtvQWVPeDlzalpMdG51aF9Lb1loSnJyY2NTYnlnaDdGTncweUtOeWlSek9nMmYyS083QVViNFM1Z0k3ak4wWlZYYVFKX1V5dEl0VWo3N2ZsV0VBZVFqdW5tVDlrQ0hfY3d5R3BNQ0VVUTFTRkx3MllNZEx4MUtTcFFpOGdRZUNnNXMyNldqeHFFSEhCNFB6LUVERDdsNGRvdFpTMGJHRE1nd1kzY0pNNlJHOHF3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:24f23fd1ab95",
     "titulo": "‘É possível produzir, gerar empregos e crescer de forma sustentável’, destaca Lula",
     "veiculo": "Partido dos Trabalhadores",
@@ -13,6 +21,22 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-11-09T15:38:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0Jvb2tNWGlFc3RpTldLXzZFM0RSd1dITk4xMlRjWXBqU0xOU0hyOWNfV0pSOGJhYWpzaXhPRWVmWDVRaWtXVkR2S1VaX0dWbWs3Nm5qMGVpOUQ1TXVLblJ2NWRyYks1Q3o5S09RcjA4cGFKSzNpV2ItMmtBT3ctU015V2lMSTV4bFREckNWVGFPempxUnBuRDVxNGJzc3MxYjVrSTd3ZUNmUTcwMmJyWDdaWFhRMGRwS3JfdFJMNUdIcUE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dead76787305",
+    "titulo": "Lula freia influência de Nunes Marques no TRF-1 e nomeia juiz apoiado por Dino e Gilmar Mendes",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-09T15:33:53.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZnBmbW1mM29yVmFHMzd1UXYwQ0RIWmxyWkx5VzktWGhSU1NoQ0NJb1BjdDNyUnFBa1pKUTE0b09fZlE5UEtMbEo4aHFIOUkxUDBxTEwzWndRV3NoRnRibkpGSDNfS2t4WUxmd1ZuZTJydkZZZHZHM2hMekljNm5XNUw0NEtuc1BxZFptMDhGa0NqOE1DdnJXX2t3ejhCbng1ZEJpQk9WMzVWV2MxQ2JuNkFqbmhna25aTEd4MzlxMWY1cEtuS2s2TzQ1aWhaRGhLeEE0WmRfUDdBYmFpT1JSMXVjN3JRYTBN0gH3AUFVX3lxTFB0Mnl6V1pXc2dpS3J6Tm04N2VaU1RKTk4tb2pLTnBYdmdLandIeTJGSThHUzRrdENULVRUR1ZYenBNVFVJMldwdHJrUzUtNW9ybXJPTDBSWmREQjZNb1B2RXlCcFEwV2dZNEpMeW1BX2dnYUt0bVU1NXJjVkM4eXBzdWFsSEttOFk0a3Z6QTRSb3BRZGdhbnZ5b01BZHRsQWdiY2w2YnkybkRPRWZsWi02YS0wZ1pnZ1BFVnZzaFpuNWxfQW5OWG1FU0kzRUFBVTVfTl9DZGlsVFB0dGVtS1Y1OHBxM0lGMFpaOG1odzlfWmNPQnNHTzQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1ac08bef5020",
+    "titulo": "Lula embarca para COP31 com comitiva de ministros e Janones",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-09T15:33:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVFvd181ZGR6ekZkTWVVRVlNdENhSEMxY1NXWGxKZVJTbE0zT0JuQ1p5Z21qbmNqUUNYWHl0amEwYm1ZcmxTQ1pCX3ljLWZPOEpOM2RiWEZOVGpxTnB4Tm5Wbm5POVhDRUdBOVctV1dpRElQazZuSkdyNm9yZ0JWVEIxV0IyX2JpVGpXVnpYSmptWk9OVGx3blowY1VOemtjYlAxNDJUbnVuUGNIODlicnNET2szZ9IBxAFBVV95cUxQVUhZQ0ZOVUVaUUduQTUtMU1xczZxU1dnZHN0NUlJeTVFR3B5UThpSGpHRVE0MnRuaEJ2WEpkZEFybHZENl9PMl9FNlVCUEhzOWthVDYtdEtQdnRISDRuQjJOVXY5NF80TVJ4VmlBMWJLbjlDTEZJekRjZ1plNGp5aG5rcUdrZVlvTnRFVkg3U2NwWGNsUFd5WlIxYjBOb0JHMHczMU1nSkdDamZONy04SU16YnhyejVhSHJYa2lQNEtVQTNq?oc=5",
     "origem": "google-news"
   },
   {
