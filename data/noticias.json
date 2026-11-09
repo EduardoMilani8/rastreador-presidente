@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:451083b63a75",
+    "titulo": "Em pronunciamento, Lula faz balanço do atual governo e fala em 'construir pontes' no novo mandato",
+    "veiculo": "Sul 21",
+    "data": "2026-11-09T00:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ1RYdFBCOE1lU2lXZm1JOEJlclRGZFRkSnctTFJCT2I2TFQ5emlueHJFUjZGTDlXU1VUek15eU9vUVp6TllDVTVBWmJtWFZFSXQwSF9GQ0FiMGhXUU5tMmRTMk5DR1V5UDV5dlBkWjB0dlZTS2Q2ekJSZS1zbXhyTlZWVzNZM3oxeWdDN05telpDbU5CYlV5SlFOLUZDTW5lOWllWC00UURKTnQyQXlWcXZ6U0N5TUtWM2tzQVFEYUEtUGhoV2ZuekFmZUZIM3Z6Ty1ITE9sVTg4UQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8fed4fbad920",
+    "titulo": "Lula anuncia planos do novo mandato e promete responsabilidade fiscal",
+    "veiculo": "Congresso em Foco",
+    "data": "2026-11-09T00:10:52.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObmZnT2paRy1tSnM1N0JWdHp6WmIweDJYTVJGNzBleWRVUUhIS1dXajM3SFNIMmVMRUxsVzJSeHE4WjJVRHFSa0dSanpsdGxlRjBYX19ubTBVcDJ3dnQ5TXdIbDFyRTZWVVFXRmNLRXJjMzUxVDNRY1hJbVZNRWtsaGtHdkZ5UGlJS0lTY2FEVl9pSTZRMHNjalBOdmk0RkU0b0lBdjdFQVRxeE1DeHlrRjhUYXBXbXMzNjJZ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:9ebb887c97f4",
     "titulo": "Lula fala em preocupação com dívida e juros e reafirma compromisso com responsabilidade fiscal",
     "veiculo": "Valor Econômico",
@@ -53,6 +69,14 @@
     "veiculo": "G1",
     "data": "2026-11-08T23:30:43.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVc5VlNjRldHZm9kdlBKRWkzc1Y4SFlCMXNKeHN5WVJKVVFiVXhVU0JsTE5tUVRHZWxPWXRYQWJFOTdCRmZoQ2JDZVM1SXQ0U2NtUFpJZXlSRV9xTEMzZzFuLUw3cTh2NUpWWVdzMWtyci1IQlFmMWpvMEV3WEhaZzEzVkhQV0hqQmJMTWwydUR2cjUzYkdNTVhuTjA5cHdOMXA5aE9BTzVjWUctRGNrWlJmWdIBwgFBVV95cUxQVnhUM3J6clhkWlg3Vzd6T2UybUF0S185RVE5UDNOejJKRGRJTW5BRjVwemltTG83SzdDc0tzYmwwSWxFTHJhN2tSZXhwRjVkVlhOMWViYmthYl82ZE9uakg3NldwanJJX28waGxkNnNxZV9PSlBabGRVRUdhaHNUNmxOSVRZamhxSTZfUTZOenFfeVR5Z0RnQUJ0NlFabmFiYktSS0ZkekNDQXhWSkpWNkp4cVo2TE9oR3VfbERZOW1zQQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6e8f056f28c9",
+    "titulo": "Enem fortalece chance de ministro da Educação permanecer no governo Lula 4",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-08T23:08:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNelFobGYwbG5aZUtBQVA4WF9mNGlyeXRYTGp6bk5jRnpWbTJCQ0xZVWl4T29pWXJjTmJiazdIYk9EZnVqZURJWmRQc0o3ZmxXSF83NFBoaFoxeHA0Ql9Qd1h6M0VMdlFqMUZFV3BLTmNVOFlYVlJhdzRRYm90TnRmMDFuS0tCa00tMEdWS3hXZG5zTDFZUWhVRXlvb1VzLXRVVjBJU3ViOFZJVVFoZ3RuYmhhc2plN2RIVFV1bjh5ajBjUzFmRi1UVHlZYS1hOHJ6bGfSAeABQVVfeXFMTzVyMS01eTJveGd3SDZ1Tk1KeUx5RHBta3RMLTFVelQtZGg0WVFhZlByeG5ySUJIQmVDQnJ5eWstTGo4al9nVDRLbTRNQmp4RjBmZ0JPU3NOZFVGYmpabUp2dV94TmdMT0NuZTh6c1hNRnJPbDlMRzluUlVpYmJCMFlDTWtOYXdqRl9tTjYtbGhEbGVzYVhfcmVNaUhyMnhSRENoei14bG5URTQtV0k0R3p4ZEt1eTZ6QWdEVUNTN2VFY25UdXdKX0N3Rkw4VEtDQlJpU09JYjlkRGs5RnVnelk?oc=5",
     "origem": "google-news"
   },
   {
