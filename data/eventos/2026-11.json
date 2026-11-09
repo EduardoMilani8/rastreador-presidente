@@ -767,7 +767,7 @@
     "hora": "11:00",
     "titulo": "Visita à Sala de Monitoramento do Enem 2026",
     "local": "INEP - Setor de Indústrias Gráficas (SIG), Quadra 4, Lote 327 – Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
