@@ -973,5 +973,43 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-10:04:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-10",
+    "hora": "04:00",
+    "titulo": "Chegada a Antália, Turquia",
+    "local": "Aeroporto de Antália",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-10",
+        "coletadoEm": "2026-11-10T19:30:27.935Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-10:17:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-10",
+    "hora": "17:30",
+    "titulo": "Reunião bilateral com o Presidente da República da Turquia, Recep Tayyip Erdoğan",
+    "local": "Antália, Turquia",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-10",
+        "coletadoEm": "2026-11-10T19:30:27.935Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
