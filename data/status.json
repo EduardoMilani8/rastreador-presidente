@@ -9,9 +9,8 @@
       "desde": "2026-11-09T08:00:26.295Z"
     },
     "planalto": {
-      "ok": false,
-      "desde": "2026-11-10T10:50:19.283Z",
-      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
+      "ok": true,
+      "desde": "2026-11-10T11:00:24.208Z"
     },
     "noticias-google": {
       "ok": true,
