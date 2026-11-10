@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:bce7562bbd03",
+    "titulo": "Presidente Lula se reúne com líder da Turquia, Tayyip Erdogan",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-10T22:44:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WTXlNRmRPN1JPTzdrcTR3eTN1VWhzd01VbDI3d2x6R2Z0LXpfMzVRazdCa3gxcUJVX0l3ZTZFWGhOWGhuUF9LekI0X21oR3RidDEzV0tYdkFJODcx?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4c4f42e9b4b5",
     "titulo": "‘O Brasil tem sido o adulto na sala’, afirma jurista da USP sobre política internacional de Lula na COP31 e G20",
     "veiculo": "Brasil de Fato",
@@ -80,6 +88,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:16b930869e11",
+    "titulo": "É antiga notícia sobre Lula liderar grupo de trabalho na ONU",
+    "veiculo": "Agência Lupa",
+    "data": "2026-11-10T18:44:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2loYUw0bXNkQkxQRkI5MWM0QmxreGE2dldPZ0ZWaDZFbXE0cFRySml3NDkxUC1sNUxLMU5mR01zblNZd2tvLXpOMFNGaHJFWElacU54ZFo4ZUpoZnhhY3czcERFeW5YbHBPV2psMTRMWldkR1FPYVhCZFp5YlhQdldNZ2tKOFV4VWpwd1Fwd1JYQTBpanU1MGpqamRCaVhZb281dktxQjNTTmNpWEl4eWRn?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:0ff82876ce8e",
     "titulo": "Cleitinho busca se aproximar de Lula e do PT em Minas após apoio a Flávio Bolsonaro na campanha",
     "veiculo": "O GLOBO",
@@ -109,6 +125,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-11-10T17:33:24.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmg1d0xTRzJiV2xaTHczalByeVQ2TGhTb0VBSTh6N3B5Sy0wRGtDX29GY1hWc0R4eFpHRDRnbHJDXzMtckdNYzJRNjJzbndVa3dwLXUteGxuRmV5dk1FaWY1WlVKZlhiTWUxWW9aSWVxdmlfaUpIeHJaSUF5dlVRZEIzWWY3d0pTdjM3TlB0UEpibXRBRUxkbFdGdVNVbFRXUXE4b3NiNnloMmdvNWIyMzh5ZnFzaVpSZ2FmWQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8b33c5eb93dc",
+    "titulo": "COP31: Lula conversa com Erdoğan sobre \"trabalhar pela paz\"",
+    "veiculo": "SBT News",
+    "data": "2026-11-10T17:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZEVqQ1JzVEZhbk95dnVyUUdaM0pZaDFjTFZyVXl5WDdCc2plaU4zc1UydFFnenBwd0lYdUpTNEpFUXUxbzMxTkNwd20tRmJiSnN2YjdpUFRJOVMyZzNCWW8wNFVlSE5KMURMMDk4UmJXVmdXaU5CUmpJclZCbXhiY2lEb0d0NW9KdDFqMk53OTYwQ09yZTRnVjduRkxDRFlwSTk4?oc=5",
     "origem": "google-news"
   },
   {
@@ -677,6 +701,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-11-09T12:15:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxON19ISzBINVNZd1FlWXc3TElaYkgyVTA0ZUJMUTlHclVMTU9jWXNHU25QanFvcnFQWFhyd25UdVVnLUhFLUloUmhlbmNseFFLNGxuTDQwRlk0R2RkeldQVkphQkdvLURDYUNUUU5kQ2xjRXY5azJ2VkJJXzZRbDhYek9qMnhqS2ctZHZTc0VheWVYN0swSWRVbmFBUEMxRW9jX0lVdGdUaVoyekFYNzJnSU5RNlZINmNHeFd3ZHJRWHpPZEVXUl9MQ2VRZlZGYnV5dm1ObTRQQmkxY3Z3c2wxZXpxelQ2bXAyTFN0Q2N0dGp0dm50QS1r?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a6432b73d715",
+    "titulo": "Decreto sobre fim da escala 6x1 fica para depois de viagem de Lula",
+    "veiculo": "CBN",
+    "data": "2026-11-09T12:10:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ2xvbkhvYzdEREJIUllFMElFNXBWRk5qYTlKNDBxaTY0a0daY19aVnprdVFjTEk2T01fa3lidHQ1UFRud0JhZWNmZFh5a1lYRk81U2d6SFVnNHRuc0tUVmkyTEE4TDIta0RydlNFeXBNYnRYSS1FZF9MdzRYUHlGRDFhNGFmcS1BMGlma19jSmFsbzJhaWZUUVg0UjdhazE0bTFoMWc2RDlIbmw0dlRqWGdJZ3lENXg0bTMzNlVKQdIBzgFBVV95cUxPblI4UmdtcDJOejN3a0dGUnEyM2l3d052TG5GXzhfYWMwWF82ZXVoNnVYZlhad2h4YzNxaHpyTVd4b1FyS0xOZ0YyR25zSXl6bjgtOXRaLXFSTlRIbXZIZU5pSGdLM1JhdUtiNjhIbndIMHVQMGloRHAzZDlZRTRHaUN2YkN2QW85OW5NS05WemdTZi10cEVsYWdmNjhmUl91TTFNejV2WFRLSF9oZ09HSGFuOG5Wdk1pTmdhOExWWk9DbEJZaXVncy1SbS02Zw?oc=5",
     "origem": "google-news"
   },
   {
