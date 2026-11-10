@@ -962,7 +962,7 @@
     "hora": "09:00",
     "titulo": "Partida para Antália, Turquia",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
