@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:e1e2c19d856a",
+    "titulo": "Lula e presidente da Turquia se reúnem e falam de comércio bilateral",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-10T23:24:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-presidente-da-turquia-se-reunem-e-falam-de-comercio-bilateral",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:bce7562bbd03",
     "titulo": "Presidente Lula se reúne com líder da Turquia, Tayyip Erdogan",
     "veiculo": "Agência Brasil",
@@ -133,6 +141,14 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-11-10T17:33:24.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmg1d0xTRzJiV2xaTHczalByeVQ2TGhTb0VBSTh6N3B5Sy0wRGtDX29GY1hWc0R4eFpHRDRnbHJDXzMtckdNYzJRNjJzbndVa3dwLXUteGxuRmV5dk1FaWY1WlVKZlhiTWUxWW9aSWVxdmlfaUpIeHJaSUF5dlVRZEIzWWY3d0pTdjM3TlB0UEpibXRBRUxkbFdGdVNVbFRXUXE4b3NiNnloMmdvNWIyMzh5ZnFzaVpSZ2FmWQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3bdf7c141b08",
+    "titulo": "Vídeo de protesto contra Lula na Fórmula 1 é de 2022, não de 2026",
+    "veiculo": "Aos Fatos",
+    "data": "2026-11-10T17:23:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5halFZcnkxNERnZHZ6T25mbXQ1d2R6eXZTWGticGNwNUlETlNPTllneW5YM2ZqUzhCMVJSNWJ6TVoySmhhQndWb3hNVXlINzR5bXhYaEozUFZReV9oNjdvOG1Pd1Y0Q081cXNNdzBqTWtKQWI0cjFPYzh3?oc=5",
     "origem": "google-news"
   },
   {
