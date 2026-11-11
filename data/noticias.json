@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:733df42bf1e0",
+    "titulo": "Na COP31, Lula cobra dos países ricos que paguem sua parte no combate à crise climática",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-11T16:14:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTNxdWVLTzFQbEdRYkZ1REx0MHNsdUdYZ2wwaXVKeFB2VFF0eE9zUjhRVVBMQW84VTlSeFQ4QWt0VTFqUFZvTjBBU0JDTDJXMk1QSkpacE01T3h3M2xZcklRc1JVcXVmRVhoUXN3cUZlX3B3d2NWX2hyTlZLUjRpWkx3cV9vaHJpTklOaG9vb3E2dC1BWDB1MDFhYlo1X1U0SzRPbkJVZU7SAbABQVVfeXFMTzh2dFEtMkFscTVmYVEzQVJwbXRmcTNDSU9xWTE2UE5Nc0liS1JqMkY2NVVKNS0yanNaeVdMOFBVZks0TzNxcExXTUZJbVlwR3E2b2kyQWxyUkpYdnZjQXdXbU5TZTVRc1VyUUNXX3Z5b193am51TFp0aUNlamlxeFl1dEY5M3dnTGs0MDB3RzJnZTNyR0U4c3BRZFVTS2oyd3VtMkpkNDhGN1R4bUlGU00?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:ed8850fd14b9",
     "titulo": "Popularidade de Lula volta a superar 50% em ranking de presidentes",
     "veiculo": "JOTA Info",
@@ -40,11 +48,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:d5412616257d",
+    "id": "google-news:c92343660672",
     "titulo": "As cinco principais mensagens do Brasil ao mundo na COP 31, na Turquia",
     "veiculo": "Agência Gov",
     "data": "2026-11-11T14:59:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUmhpRHA0LVRDOGJfNWRvaHZTdFNKMVcxZ3ZiR3R2XzI0RkdYakNodmZXOVRWLWlINWVjc2tFMk0tVGtyZVlDWlhTWkp2YnFNSFFKM096OUxOWUtBbXJUYlVUQVZkSVZRZjVLS3JRRXBqZlNmQkZKeWNxT2Vqd0hNSDhyRTlmbkdtb0xJbWFMNEs2VE1NVEhUNTJSemhFOGxQa3ZINHUzN1BVWjBfVjlkdjk2Q1UzbWhyU1ZyMGlVLU9BdVVrX0FVQmdXajlBcDNvYVRjcERDR3huRTNYdnJNRm5BYVFjMjdLbzVDMlM2U1BhcHhPcWc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTWdDWk1ZNTBTaFFGQm0yWFcwMmdqQUVVc2NjUUV0MFZkTTlxNC1xbkRlLVVMUHJmQW5tT2dRZkpCeVYtLVdVVXhsbVpjMjRkSlFOV0VHUlJ3dlgzR25KX2VWYzlwZ0JGSjRJYjVmS056VE9zWDY2X2g4dXhrTTVPZzkyd2VnUklvbXg2Ykh1TDRISUdRMXY4TXBfMHFIWDZDWVJJOVFabVlyVXRyMThvdW8zRVhyMTB1SXJpU3dNY08zYmFmNFFBb1pCV0tfeTlSMTM5WUZ5eVlSU1ZsS2JVcmgyMzJ0bFhMQ0VzcXNkQjB0UjN0THZj?oc=5",
     "origem": "google-news"
   },
   {
@@ -397,6 +405,14 @@
     "veiculo": "CNN Brasil",
     "data": "2026-11-11T09:49:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2VDZlVWTnUxTi1QUVFMVlVnSVJQOUNDWUVPVzZXdlBsTlhNZ2l0Rld2U0xucktYVEVJTkxhRU9oRG1vV1FNYWEyLWN4ZG9JZ3laOVE1LWdWWnl5TVlrdWFsaERsRWlKVVZvOVhqRmpnUWNodFB5ZTNDdzZ0QmN2NDVqNWNUOXQ0YXNfU1ktLXA0RnRWMzJXWU9nX2tyclZZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:918dd1cf6d44",
+    "titulo": "Como provável decisão de Janones faz Lula recalcular o espaço de Minas Gerais no governo",
+    "veiculo": "VEJA",
+    "data": "2026-11-11T09:40:39.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWJMTjA5X3FpMFVaMHRVUU8zc1VILVdhbDVFd0pVU3htNUlKTEhSdXNMM0U5VHJ3aEdPZG11bjNhRm9tZktqSzVwMDlzT3BqME0tcXJaa3JhM1JTemRMRDRxcHhLTjNZaVhFYTZyd2RKaUlYVkgtSGtGNTdndmgwT1ZhaDdISnFXWW9xQjVQQW0ta2pncUNuVjRoSUlXZXFZVVVvWVJ5ZXNCUEFWMXBkcUZEV1Z0SnA2TE56bjdFb3NQdw?oc=5",
     "origem": "google-news"
   },
   {
