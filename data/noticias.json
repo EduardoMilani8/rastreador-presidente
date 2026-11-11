@@ -1,10 +1,26 @@
 [
   {
+    "id": "google-news:a0436c7569ae",
+    "titulo": "Lula tem primeira reunião com presidente interina da Venezuela",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-11T19:38:59.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZjVjU29EdW55UGJLZVRZcVVsaHpxSVczdS1KTnJUSWhZa0w5bml6Q3ozaUhvOHMwYkdyb3djQkJ5S0JHcVJJdGtYNXYtQWpESkY1X01vOEVxUFA4eWo1QzRfVUV5N1MtYnh6QVh1Zy1kQTIyMU9JS0VWQ0xuU3dDbXJKNk9kbmowSW9ySDhybF8yaWJvdmdpdWl5NExmTlIyTjhtamhIcGFIVTIxZTZTbV9xUmN1QWJoVmfSAcgBQVVfeXFMT3RMUFBVcmtSekVkZWxNd1B3M24xYWtBN3lOeWE1MmhGN3FFMTFjemIzRENvdmtYS1VRdHJyS3hsUHZJMkE0TllZMUJWeEdMTHNuRFJ4UjV1cXI5TVl4UEh0MXNiTGNrSDQ3TThWSnZQUVp3dXVwMmY1dDRzZUtQeXJBeW0zWDB0VDZnZ0dwNUdoSFZlVDdTcXVLUzlIUVRjc1psWHZGNkFNRXJNWWptQmdadUdDLVFlUDFBUUVPY1ZpWE44T0hpLVQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8eb8332cabca",
     "titulo": "Lula se reúne com presidente interina da Venezuela, Delcy Rodríguez",
     "veiculo": "CNN Brasil",
     "data": "2026-11-11T18:57:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc0picVFkT3FaOGxtbEdDb2JkaDlHR21QNnFvLU9oQVRwUG85SE9fLTRGYzJsOGMxRV8xNEh3SFk5SG1KYmhVT3BfVjNta2ltQzRLdEF5UmlQcjdYbTdfeUZFdGRBbUlpNEtyUldCQjFzSTZIcDhKNDdBV0JWRTMzN18wNmE3MVRrRWo4Y1ZCLXBwTkNGVlVtR0k2T3Ixc09iTENlanNOb05vS09TWTU4?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9f9bef37cf92",
+    "titulo": "Presidente Lula se reúne com presidenta encarregada da Venezuela, Delcy Rodríguez — Planalto",
+    "veiculo": "www.gov.br",
+    "data": "2026-11-11T18:55:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPY2MyY01mUnRfa1pRU2owR0VEMVRIY2M1OS1tcXN2UlY2LWs5dlRsRFAyMjgzamJ4YkEyRDlvaDNnX1UtUEhoYzV5WnlfY1pRREN1ZnVuc0ZKV2JLN3Z2VWlGZ1lncm1HUm9ZdmJoUF90TWg0ekZDMkU4ZEFjWDZ4WFJ0elJCNmVhREtBTDl6M1lGa3VZYmR2bnJsUlQyaHhXNzRMRTg2OVlqNm84eDFPbUJaU29ja3RjU3J4bFRGZElKSFlpamJMRnJ4NVJMVzhsR0JpUVpXQjVlcDZlVFBwS3BPNGo?oc=5",
     "origem": "google-news"
   },
   {
@@ -53,6 +69,14 @@
     "veiculo": "CNN Brasil",
     "data": "2026-11-11T17:01:27.000Z",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2trT2tHNnZtU2YxRGRRVVQ3akVZcGFZOXFBYWg2d2tsTXhpWW9VZ3pMUHhGUGpsUHJHdXlOdklndE1TcVZITTFXRGtGX1VobHE4dmk5VEY5Z1d6aFI3SXJCMmlTOVBZSWlxLTFxQVhabkhFVHJfYnNLcmk3WHh1V08wWTd0Sl9GNDRJemd4cThvVExERWlsWEU4UVIzMVlqbFZJ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ba508207dead",
+    "titulo": "Lula: falta de consenso no debería frenar el avance climático",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-11T16:28:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hX1FLOEdpTFlKcnRFbnZWaFpncGVsSVdiWkV2QjcyLVl6U2NjNjdRMmtSR3gtMVdOdFVyLXhwRjVOWk9yZXdUb0EtZGw0MTZNUDYxQXhYUUM?oc=5",
     "origem": "google-news"
   },
   {
