@@ -981,7 +981,7 @@
     "hora": "04:00",
     "titulo": "Chegada a Antália, Turquia",
     "local": "Aeroporto de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1000,7 +1000,7 @@
     "hora": "17:30",
     "titulo": "Reunião bilateral com o Presidente da República da Turquia, Recep Tayyip Erdoğan",
     "local": "Antália, Turquia",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
