@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:f4a6b904b1bb",
+    "titulo": "Na COP31, Lula diz que agro será respeitado por conciliar produção e proteção ambiental",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-12T15:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaGZILThpZmFwQVJnQ3l2dTc2S1pXaVNOdlZ6M2lkU09kSmxJOTJrYVFaeEMwaExRYVY3VXpCOFlKemt1TnpvcHFjWi15by1sUG5QdlZ0THNuVzgzdks5Zzh0d0Y5NmhEa1JCY1ZfSTBaUDM2T25GX2RLbGZDRlU0Nkp3c0phaWZVbTdBZkphMXo2WUM1U29tOTdGWEVpSnlwcHFobktFWGdidi1OZHJYVWFEVnpLWWxVXzVfZlpTd3p4MXlYX1psbjdPd01PT1JheVJnVEJn?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:3b6f1e9ee8bd",
     "titulo": "Lula cobra pedido de desculpas da imprensa sobre triplex em Guarujá",
     "veiculo": "Agência Brasil",
@@ -77,6 +85,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-11-12T12:22:50.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSUdtRmZ0MkFEVzFOU0xCNjd5MHdVZ0RObW5GdXBJSEhXNG9vbTNtUjRCLVhGZVhiUHF3VVE1OFRSRGlYSVdPbjBBY1BMUnlGSHZUQ0xrR0RyZTFENEN6QXlPZ1QwbWtsOU50Z0FIWS0xdEJkRk02cVRMSXNZMzdzQTNxcUwycHlaZkxaRENyMlhlRlFwVFBEeEoxUHZTYWx2TzlJdC1jOWVfV0xhN3JoUFU0RQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ccbfa69972b2",
+    "titulo": "Lula fala com presidente do Irã sobre guerra e Ormuz",
+    "veiculo": "SBT News",
+    "data": "2026-11-12T12:16:08.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcnZxNFNuQmpCb3g2Q2pNQmUxYUFkcGg4Z19yQUFjOGhQQ29EYVRGdk5MbTBXUFJxcVR2Und3YVpCcGxBQkw5NUpwc01mRTFxRWR5STZIdUZWVEhkTmZ5NE5CZ2R0cE1maHJNX0hyZnB1OVNnMDl1SC1xNE5VU3psRU1NTWpoaGZHZ3FWYnR3VVRHRWhicHkxZUlnRTA?oc=5",
     "origem": "google-news"
   },
   {
@@ -189,6 +205,14 @@
     "veiculo": "Estadão",
     "data": "2026-11-11T20:46:08.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaTczTHdEUkFvQ1FOeVdhcTQwOG1GX2h6UGpJZWlDaS04WERzeFh0cmFrRmZnQUpTN2ROa3pLUndUai1LSl90Zk9HNjBxUjFibV9uR1oxMGx3b1RDdUdENEJzOGhwTFlicUZkTHlpaGxGVU1nem1CUFgtTnYxMWdBMHdvV2tpMUZqVjlUNTRuaE9VWDF1Nk5GZTNIWkM1VEhydGxBVmN0c1l1TFl2Y0F1TkZId9IBuAFBVV95cUxOVll3dDlNblV3UHpLQ01OVFl3RWFscmJFNEdyazVoazNhZXRqVjFkbm9aQk9kRDR6UXc4MV8xNE5uUjJ4TTJDMnVzTWRRLTBZeWlWZTUyZmhnNmlvN2ZVUHZtOUdYZmVTaDFlNmowSkp3dVFyc0E5eHBvc0ZxUDJ3eG1aLTB2V0NjVXZQVjc5REtyR0Z2aFZISlpxQXVpRnhkaFFpdXcyVl9iZjlscVlHZ1QwRzMweUIt?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d9def7a6e6ac",
+    "titulo": "Lula foi informado sobre crise envolvendo delegados do Master e relatórios para o STF",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-11T20:11:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdGFTT1EtTU5MRWZvZ2FQeEFreHZxREM3Z2FmXy0ycC1mdGtMbjBTczU1QVpGQzJiY2lQb1c2bkowMHl3SE9NRl8tVFVKSmd4eDlraHpmeVprX1MtdElYR1JEXzJobHZSTUhrOFhab1VaLWJtYnY3R0pUWjRTaFVfQWtsZFFqMTE0cnJDWTYwa2tiVTRQYUlkN1NrYWNBbUxDWGVHUF9uMVdiY05VMGtVeThUaWJvb2hQVjlycS1haWpvbTlidy1KZXJoMjZXZjdXMVVoVmdBRmtqdEw2eVdBQ1R5eF80MC1lb0o2OHZrRdIB7wFBVV95cUxNdGFTT1EtTU5MRWZvZ2FQeEFreHZxREM3Z2FmXy0ycC1mdGtMbjBTczU1QVpGQzJiY2lQb1c2bkowMHl3SE9NRl8tVFVKSmd4eDlraHpmeVprX1MtdElYR1JEXzJobHZSTUhrOFhab1VaLWJtYnY3R0pUWjRTaFVfQWtsZFFqMTE0cnJDWTYwa2tiVTRQYUlkN1NrYWNBbUxDWGVHUF9uMVdiY05VMGtVeThUaWJvb2hQVjlycS1haWpvbTlidy1KZXJoMjZXZjdXMVVoVmdBRmtqdEw2eVdBQ1R5eF80MC1lb0o2OHZrRQ?oc=5",
     "origem": "google-news"
   },
   {
