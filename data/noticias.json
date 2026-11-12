@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:3b6f1e9ee8bd",
+    "titulo": "Lula cobra pedido de desculpas da imprensa sobre triplex em Guarujá",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-12T15:14:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-cobra-pedido-de-desculpas-da-imprensa-sobre-triplex-em-guaruja",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:5dd4ae02df12",
     "titulo": "Em encontro com presidente do Irã, Lula defende solução pacífica para a guerra e fortalecimento da cooperação entre os países",
     "veiculo": "Brasil de Fato",
@@ -85,6 +93,14 @@
     "veiculo": "Instagram",
     "data": "2026-11-12T10:01:41.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdmlfcENLSUJ1blhHQ3N4dXZxME9udVZCVzB5aGxhNTB1WkpEbm5mUnBKVkNuM2htTUNpUWJwUU9WaEJnZ1pvRFBBWl91aXNDVVE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:599da2d33936",
+    "titulo": "Presidente Lula se reúne com o primeiro-ministro da Noruega, Jonas Gahr Støre — Planalto",
+    "veiculo": "Governo Federal",
+    "data": "2026-11-12T08:46:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRTVpeU5YWE95UnFJUkw5d2lSeDVRU05IWkVKcWllaWZCUDlqN0xFVDVudlR1WkpDLXRNRTdRaWZnSFJPSjFxb0tMUjNFanZzckNtMjV3QkRaTDRvMEQwQjdyZXh3TXVoc2dYQjhTSjJsYk5rUDNyZ242R3BOQ3ZtcEJCckU1cEdXYzBDdTVBRVJKcDA0clpLYWxZSnpuOHV4ZHRha2pUZUxQRUVKT2p2YjFsVVlhSlhXaDZiTTVQb1lkc2htTUxjS0J2cGtkM01tU2tLZ09hRzMwR013X0hz?oc=5",
     "origem": "google-news"
   },
   {
