@@ -1055,7 +1055,7 @@
     "hora": "11:45",
     "titulo": "Fotografia de família dos Chefes de Estado e de Governo",
     "local": "Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1074,7 +1074,7 @@
     "hora": "12:15",
     "titulo": "Sessão de abertura da Cúpula de Líderes e apresentação cultural",
     "local": "Plenária Anadolu, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1093,7 +1093,7 @@
     "hora": "14:00",
     "titulo": "Início da primeira parte do Segmento de Alto Nível para Chefes de Estado e de Governo",
     "local": "Plenária Anadolu, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1112,7 +1112,7 @@
     "hora": "14:30",
     "titulo": "Reunião bilateral com o Primeiro-Ministro do Reino da Noruega, Jonas Gahr Støre",
     "local": "Sala de Bilaterais 9, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1131,7 +1131,7 @@
     "hora": "15:00",
     "titulo": "Cúpula de Líderes sobre Florestas",
     "local": "Plenária Akdeniz, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1150,7 +1150,7 @@
     "hora": "16:00",
     "titulo": "Declaração Nacional por ocasião da primeira parte do Segmento de Alto Nível para Chefes de Estado e de Governo",
     "local": "Plenária Anadolu, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1169,7 +1169,7 @@
     "hora": "18:30",
     "titulo": "Jantar de gala oferecido pelo Presidente da República da Turquia, Recep Tayyip Erdoğan, e a Senhora Emine Erdoğan",
     "local": "Zona Verde, Centro de Exposições de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
