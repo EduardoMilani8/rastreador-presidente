@@ -1,8 +1,9 @@
 {
   "fontes": {
     "agenda": {
-      "ok": true,
-      "desde": "2026-11-13T03:20:14.662Z"
+      "ok": false,
+      "desde": "2026-11-13T07:50:15.805Z",
+      "mensagem": "2026-11-12: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-12: TypeError: fetch failed"
     },
     "dou": {
       "ok": true,
