@@ -1294,7 +1294,7 @@
     "hora": "13:00",
     "titulo": "Encontro bilateral com o Presidente da República do Irã, Masoud Pezeshkian",
     "local": "Local de hospedagem",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1313,7 +1313,7 @@
     "hora": "17:30",
     "titulo": "Encontro com a Sociedade Civil nacional e internacional",
     "local": "Plenária Akdeniz",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1332,7 +1332,7 @@
     "hora": "19:15",
     "titulo": "Partida para Manila, Filipinas",
     "local": "Aeroporto de Antália",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
