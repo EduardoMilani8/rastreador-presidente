@@ -1461,7 +1461,7 @@
     "hora": "13:00",
     "titulo": "Chegada a Manila",
     "local": "Terminal Maharlika, Base Aérea Villamor",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
