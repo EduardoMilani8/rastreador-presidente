@@ -1,5 +1,37 @@
 [
   {
+    "id": "google-news:50dfb2ea2f39",
+    "titulo": "14.11.2026 - Reunião ampliada",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-14T13:54:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWm9ublgzR1AxSGNHSGpyVlBnTU9va25BYzRkQlo4aTVFbXMtejZITnQyZHJYS3VsLVc3dm9fcDhWa3IxdnNlc3BFQ2RucDVETVhmWG5vVjk0aGl3YmZ0dF90UzV5ZXhmMUExT0pIUWVOR1hwRkg2QktkMzM2Um8tbktiVDJZcFE1NURyRjEzUUs?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a059392b533d",
+    "titulo": "14.11.2026 - Reunião restrita",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-14T13:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORUdhZW9nR09OM0c2dUVISXRDOXg0Q3VuQU5xZnlWRXp3eGlrMEg4X1Jua1I5UWJSVXRZZDVwRXpVekttS3NvVWk0d1Ywc0pLLTkyMTdnQ0VQY1J6SU8zUnRVRWVUVHNIMDdGVi14dlJtTnZNbVR4YkhpOFRFcHFONlpIWHRwTjY5cmw1V0ZkZDE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3934f86f07e9",
+    "titulo": "14.11.2026 - Cerimônia de boas-vindas",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-14T13:46:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnJKRy1Na0FfYmhFYWQ4YzBFQlF0a2tnVVFFYWhydm9fMm8yVlV5ZkJ5MGtzRUpLMHFldVNRYlR6aHlEdWw4Nk5HTU9Eblg5UFJPVEFxRmR1TkU1S3p5UjZSVGlYOUNoRmo5WndjQTdBV0ZJOEFwVXpDeUZidHFvS0c2eV9XRjlYNlI2c2Zobkx4WFRaVnFZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9e66610be424",
+    "titulo": "14.11.2026 - Visita à Basílica Menor e CatedralMetropolitana",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-14T13:40:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHJSVTlETlZXLWFwZWRUTkctUmJ0U0E3WW14VENrbWtCbWNJZUxKc0prb3c0MFgyS1JIcFpmdHFlVUJiczQzdTJwdTMyaUtjZkNLLUdRaTdka0NaRl9DdW1XQ1dqeHRzaVBORUM5RVhBLXRqampWLVhzamFMb2ZDNUM5blhFOUJvOFNfa1ZCU2NWLVY0a3ZhZ2VUV3pFYVhobC1pX3BrN0Q0enhfVWFZSnZNYXU?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1b4278fbdf59",
     "titulo": "GOVERNO LULA | O presidente Luiz Inácio Lula da Silva (PT) disse a um jornal filipino que as eleições brasileiras podem ser um exemplo para outros países derrotarem a extrema direita na defesa da democracia. Ele faz uma visita de Estado às Filipinas e p",
     "veiculo": "Instagram",
@@ -32,11 +64,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:756b24e8a7cf",
+    "titulo": "Lula cita revolucionário filipino ao falar da vitória nas eleições: ‘escolheu não abaixar a cabeça’",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-11-14T09:49:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb2VhdG53ZDJZd3JHd1V5b0NwRWdIU3RnV1o5SXZQVkhNaUZVd29GUWVVQnJlUHZTSW03cWtnN0NUT0ZPQ2RKb2k4MTZPbENUaDlSNDQ2ejZNVVpEVFpqS3RDX0NEZnFTaWNlRTlhX0tMSzhEeGh6SWxYOVMyTktrLXloZXdBV3pkSXk2TEVTUGVRNzFGYU1YQmRGLXFPb0tmYVJYdWhtTW9jRVRmaV9uVzBLUkwySkttNXZ6Q2E1UkhFeUpTcnNFb1N3eFhMSVlfWWxfOExjTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e716d191f7ea",
     "titulo": "Jamil Chade: ‘Lula tem condições de consolidar o Brasil como ator indispensável no cenário global’",
     "veiculo": "Brasil de Fato",
     "data": "2026-11-14T09:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbmlVQ2lsMFBtem56ZE5YeVNlU2VQazVTVW5FQTdrUE9tcDREV2xaVGZnOER1YU1qNVMyOEZXdmJqcVd1eEZWcDFhSXJHU0J5Yk15VFpGRXQ1QVJ5YU1XZFowNUh3d2VCOVY1cEpQbFl4ZDNuN0Nma0pxal9CZDNFQk9oamRaaDFfdzFLTWtKOTJxLWNMV1VHMkxaRHQ3VEYwakxxalI3TFQxVS1URkRmRWdtTUhKdUhDNUsxeGY0ZmNnd25zUXVBeUhwODk1bzE5XzU3SHdCRWZqaUdWRlBGQ3h4T0txVmVmMW4zaW13UmtWdHBTNlYzUnR5Qlc4OFktRFZv?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:30f4b05cdae9",
+    "titulo": "Estudantes criam 'Exército da Pós' para cobrar Lula por reajuste em bolsas",
+    "veiculo": "UOL Educação",
+    "data": "2026-11-14T08:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXFGd2VWRXFqNmVNRVpzeU9HTlVtcDI5eUU1Y3BTdTRZa0ZfZnpNdC1zNzRiS2FFZDdJOGYteXpiZkZvaVVsbmJ5bmt6Q3Nxa3RHYWIxTlpCZ0VLT3lnaHZHMVdLck12eENRUWRQaU9nZmZHYjRlRW1ZdG5fM2kyR2ZXRms1SjVGWFBPNzRpcm5aNWszTGNnZVZlLUpHRHVodnVoeEM4dHNRQnotdk96Ynd4WDRyTWhMV2RzblltT04tQjg?oc=5",
     "origem": "google-news"
   },
   {
@@ -53,6 +101,14 @@
     "veiculo": "www.gov.br",
     "data": "2026-11-14T07:06:18.000Z",
     "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNTzRYMUZ3S1dPbUEwcEZrWXdIWlNCWUJIdE1pU3VOUWl1cHQ0VXNOTmYyQ3BfcUlSSU1MMjB5ZGRSZ1VfVjRpUTEyY1BmQXFobzdCYlEtTmZha2pUMTdkbkFDcXByRVdHNTBzeHZ0cm5UVEprcGtZVmpSTlZMRm1KbEhiSmh3eHE2RzFMQWM3SkNFNW04ZjRTUzdtRFZvN1JpVEZjbXlUSmFiLUN3UjlaU242V2NuS2hoWW5jTVFST2FnbE5TRHN4R0VqVXV4UU1qUHhxc3d2Wm1lRnlYS2hGWUlIQ3JINTBnVDNZTFBmVW85c29JVmIyTUNpX283ZnI5VnRjWkRlNkF4SUpib2ZVelZfSmNnc3A2M3ItV2otVmU3OUdOY3puVTdpc2hUQXBPaDBRZmhWYVZFZ1dLal9ycGFxVHFLRXl5?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6ba6ff01ced7",
+    "titulo": "Após eleição de Lula, bancada do agro prioriza acesso ao crédito para produtores",
+    "veiculo": "G1",
+    "data": "2026-11-14T03:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVk1mcjRrX2FxSnEwbkRMcmhzUXhoQjBaNnUydEdfdEtEWHBURVNsVmZCQlRScWZTUkgyWkZhb2lrVGVjdEFzb2ZqalJCc2RHLUtZaDBra0FGeUxRejF0Vnp2MUtRaWVYbk9vNVA1OWVWMFpUbDlkMjFtSk9KNHZYNFR5N19tQmJzZnJTNl96eWtwTGIwOWlWQ0JQNHRNQnZZSUc2R0pkRjE1alJSVklNM0x5UlRsZU5nMUtXZF9VQkpwSWtLRTJWdXNLRERBV3PSAd4BQVVfeXFMTXB0eEhWNHh5b212WEhNQXZXdWN1RmxadVVNZnRoWU9Ba1F2MmtXSEFVbEszbXotTmJKcy1sQzRPVWZRcWUzZ0twbFJiOTRBMmFQMzJoOW5IUkNiOUZpdmlHWGlYYzV0RHQ4X0hJS0hGYjZVdnU4V2Y3NTBsOHp6Tk1lMHBLTllOcDN4UEx3eFJTV0ZTaU9SeDFmUENtNjRjR1c1WVQtN012Tm5LenhtNnVNcl9pV0ZSVFpJdHM4WjB2Z3ZaTlpwN0dhazJ3MFZOOGxOekFablZOQWlmbzNB?oc=5",
     "origem": "google-news"
   },
   {
@@ -77,6 +133,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-11-14T00:11:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUZtRmYwYS1GV2czNURQaXlCaHUxbHdDcGJQQ3ZCRjZjTzl2QTJoN3BtVmlOWXBOaTVBOWNLOXBqaGNGNE1LbXc5dm9xMGIwLTA3Zk1ORXdoUGNjUHlET3BERE1USUl1MGlxclNGTzJtTHNBaGtVTUVpNHNZNDF0N0poXzlod1JkeF84aUMwSjVzTVlaRjU4Y2tHUWkyTS1DWXFTcWItV2VWd1BpcTdSX2pHTTdsTWdpVUtfSjlKaw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d45ebf6044d0",
+    "titulo": "Anulação de condenação de Lula não ocorreu por 'motivos formais', explica Gilmar",
+    "veiculo": "Consultor Jurídico",
+    "data": "2026-11-13T23:38:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVzhHRjhWOTFDejFTQk1heTJGUUVOR296bi1tOG45QzJHd2Vwa1lqYnJON1dFMUFjNHJ2Nm42LUFXR2syUDRkN1BoeTFpUWhWT0VkLTIyVEZ6R2hudVFwX1VIVjBOcWJlLXdXenQ4ZmFpYVpka09ZOUdrUVprdEhPMXZTeUR0MnhIXzFwTWZUS1dBYU8xQlRKYWVDNFNJallTOGQxRlFqcTV6QnNOWlhsWkRn?oc=5",
     "origem": "google-news"
   },
   {
@@ -176,6 +240,22 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:19b212458997",
+    "titulo": "COP31: Marcele Oliveira leva a Lula demandas de jovens por justiça climática",
+    "veiculo": "TVT News",
+    "data": "2026-11-13T15:25:16.000Z",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KWGVSV2tKcHVqbjlZQWQ3a2ZGOEdXTE84TWpuazVWNTRPd1IxcW1wazVBX1NudC1GZWp5ZWpVSEI2UUhfUmVHUlM5b05RNmotOU1NZUtHOXNFbzltR3ZoTVNrclVicjNPM3FtX0oxUDduS09oOTRUYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:171c6de40664",
+    "titulo": "Mônica Bergamo: Advogada de Lula rebate Moro e diz que Justiça reconheceu que tríplex nunca foi do petista",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-13T15:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVRJemlWVFY2QnA0ci11bWw5Y211V2JYV3lUWjBwNTNWMHpFR0JaNE9aOTJBaUx3MGFocU82Q2xLXzBGVmlzVnJyYld1OWtQSkkxaXFxdXVYOE1MX3k3bDg4cDlva0RGVjRWYVk1eGlSSmlhdTFfSkpIcDFRbE9NdWY2T0tCUy1WWnNxMjQzR3Fua1pPdXZpTmJhS3FVWkllSVlfZXRLLXRhbGpCVFUtc3UzNjIxNUF4R294MnFOZ2lXSy1hMzVjckhESENHZm5XZ1BjUXBtbWpqUlVCdHB1eUVQVG11ejFGaDdaMA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f01404cffcec",
     "titulo": "André Esteves diz que ajuste fiscal é compatível com promessas de Lula",
     "veiculo": "UOL Economia",
@@ -213,6 +293,14 @@
     "veiculo": "Goias.GOV",
     "data": "2026-11-13T13:32:11.000Z",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbVAxZzZBenpiRzVqTHZKVlNQaEhoMVJ2WER0RVVicl8xUUtFbU5ZeklvSG1tVGNDOXMtYjhOYnpSWVNWM0Vqd3RUZ24yS201bWJCUWFCeGducDFVc2E5cU80T25DMm5pbnZTaGs4YkdwM211Zzl2T0xHeEdLOEpucUtMV0w0dmJxbERVV3NYTFRmMGhkYUMteUpVNlVBLURJRTJ4RVVR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d0f62356eaa7",
+    "titulo": "Lula no topo, Motta em último: a imagem dos líderes políticos, segundo o AtlasIntel",
+    "veiculo": "CartaCapital",
+    "data": "2026-11-13T13:16:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekpPYUl6NHdaME82OXRibTRvYkpBTmFDREFEeHdRVGZtbldobjNSR0QyUjZDVHNjTktpYmVZZENuVjZ0aTFzTFJZSElJMjdpZVBaei1NMXA3NVZoV3VhZjdCbXZjLUxTR2tQajVtTkZpR3kza2N0RElHVmRCTS11MHQwZmloUXVIN3drM1BaQ3NaaWd0VGk4NzB3TFVmdjhpb0ZzNURTV1lSS2lFaUZwMG43Q3l5WUhYQW1TdDltTXBCYmRsWkE?oc=5",
     "origem": "google-news"
   },
   {
@@ -277,6 +365,14 @@
     "veiculo": "Instituto Humanitas Unisinos - IHU",
     "data": "2026-11-13T10:27:55.000Z",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYnNVblFBYUdzeF8yZjNHTlNBa2twaUdITHBpeW5fLU1vOFFrU3RaM0hwV0R4dzM0OEJodkdIZC1udWozOVIwVWQyYUJobS1OZW1adF9uRVRsNXB6R0tWUG8xSnpvSDh6aWpPZ3phUjhGTGRHeEZNcl9nQjVBS0NxZlhwOFVEY0lRMTBPLURZZk9VVV9OT19mRnpoczFNamlPUXpsNmlWd0VkbnR5QkF6aGVjbjFDSTZxU01OS1RYYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c2b2f19d6a2e",
+    "titulo": "Agenda de Lula: leia os compromissos do presidente 6ª feira",
+    "veiculo": "Poder360",
+    "data": "2026-11-13T09:19:11.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSGkza0k2NU4yVWowdmlMSW94ckE3VjFtaW5lN1BuTGU0M042Z2FOYk1zX1I2dm9ZQ01XcUd6OVE4UDBtWWhmaHh2eldTV0REdlNxWFkyZTNQdU1Kb3ktR19ETVVRX0RvS0t4YVdmSENwTVV0QXhwZjZhOU0xTFAwVWhIc3JIUjNYTjNRMFhQOEFhTjZjdUZ4S195VGlwMC1IS01la0xB?oc=5",
     "origem": "google-news"
   },
   {
