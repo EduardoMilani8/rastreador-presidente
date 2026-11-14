@@ -1472,5 +1472,138 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:12:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "12:00",
+    "titulo": "Cerimônia de boas-vindas",
+    "local": "Centro de Convenções Internacional das Filipinas – PICC",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:12:15:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "12:15",
+    "titulo": "Reunião restrita",
+    "local": "Escritório privado, Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:12:45:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "12:45",
+    "titulo": "Reunião ampliada",
+    "local": "Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:13:45:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "13:45",
+    "titulo": "Declaração conjunta à imprensa",
+    "local": "Sala de Conferências 5, Prédio dos Delegados, PICC",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "14:00",
+    "titulo": "Almoço de Estado",
+    "local": "Restaurante Amorsolo, Centro de Convenções Internacional das Filipinas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:18:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "18:00",
+    "titulo": "Audiência concedida ao Diretor-Presidente da empresa International Container Terminal Services – ICTSI, Enrique Razon",
+    "local": "Resort Solaire, vila presidencial",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-14:18:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-14",
+    "hora": "18:30",
+    "titulo": "Encerramento do Foro Empresarial Brasil-Filipinas",
+    "local": "Resort Solaire, Forum 1ABC",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-14",
+        "coletadoEm": "2026-11-14T00:40:14.518Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
