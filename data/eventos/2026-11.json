@@ -1516,7 +1516,7 @@
     "hora": "12:00",
     "titulo": "Cerimônia de boas-vindas",
     "local": "Centro de Convenções Internacional das Filipinas – PICC",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1535,7 +1535,7 @@
     "hora": "12:15",
     "titulo": "Reunião restrita",
     "local": "Escritório privado, Sala de Conferências 5, Prédio dos Delegados, PICC",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1554,7 +1554,7 @@
     "hora": "12:45",
     "titulo": "Reunião ampliada",
     "local": "Sala de Conferências 5, Prédio dos Delegados, PICC",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1573,7 +1573,7 @@
     "hora": "13:45",
     "titulo": "Declaração conjunta à imprensa",
     "local": "Sala de Conferências 5, Prédio dos Delegados, PICC",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1592,7 +1592,7 @@
     "hora": "14:00",
     "titulo": "Almoço de Estado",
     "local": "Restaurante Amorsolo, Centro de Convenções Internacional das Filipinas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1611,7 +1611,7 @@
     "hora": "18:00",
     "titulo": "Audiência concedida ao Diretor-Presidente da empresa International Container Terminal Services – ICTSI, Enrique Razon",
     "local": "Resort Solaire, vila presidencial",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1630,7 +1630,7 @@
     "hora": "18:30",
     "titulo": "Encerramento do Foro Empresarial Brasil-Filipinas",
     "local": "Resort Solaire, Forum 1ABC",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
