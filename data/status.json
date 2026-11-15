@@ -9,13 +9,13 @@
       "desde": "2026-11-14T20:00:23.356Z"
     },
     "planalto": {
-      "ok": true,
-      "desde": "2026-11-14T17:40:26.841Z"
+      "ok": false,
+      "desde": "2026-11-15T10:10:18.694Z",
+      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-15T10:00:28.473Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-11-15T10:10:18.694Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -30,5 +30,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-15T08:50:17.129Z"
+  "ultimaNovidadeEm": "2026-11-15T10:10:18.694Z"
 }
