@@ -1641,5 +1641,119 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "09:00",
+    "titulo": "Cerimônia de abertura da 49ª Cúpula da Associação de Nações do Sudeste Asiático (ASEAN)",
+    "local": "Centro de Convenções Internacional das Filipinas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:10:15:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "10:15",
+    "titulo": "Reunião plenária da 49ª Cúpula da ASEAN",
+    "local": "Centro de Convenções Internacional das Filipinas, Auditório 2",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "11:00",
+    "titulo": "Encontro bilateral com o Primeiro-Ministro do Canadá, Mark Carney",
+    "local": "Centro de Convenções Internacional das Filipinas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:11:45:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "11:45",
+    "titulo": "Encontro bilateral com o Primeiro-Ministro de Singapura, Lawrence Wong",
+    "local": "Centro de Convenções Internacional das Filipinas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:14:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "14:00",
+    "titulo": "Partida para Madri",
+    "local": "Base Aérea Villamo",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-15:22:45:1",
+    "tipo": "agenda",
+    "data": "2026-11-15",
+    "hora": "22:45",
+    "titulo": "Chegada a Madri",
+    "local": "Aeroporto Internacional de Madri",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-15",
+        "coletadoEm": "2026-11-15T01:20:17.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
