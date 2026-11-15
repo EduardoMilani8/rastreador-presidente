@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:841c908ba017",
+    "titulo": "Lula vê oportunidades na Ásia para explorar minerais críticos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-15T16:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeUxLb2FCQ2lvbHJlRGlldnVSM3FUZWdVdUZjYjExSmhqeThPd2dxVm1GSjhJeWdpNElBanh5MmZLVnBQY29Hd2dBaUxUWFBfSHZ1R1Z3TlpIemcyR0VXZEd2Yzk0d05EbW8yZlpuMkhRRVhXb2dEaTJTWDd5V1I1NnJCSVcybDVpNXlWNFlpUmN0M2I3MXkyUUhTd2M5bVZMek4wcmpRQUZzYTFFcHFNUzB1VXhoYm1WX2M0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:852191ee5dec",
     "titulo": "Envelhecimento digno: governo Lula amplia ações para pessoa idosa",
     "veiculo": "Partido dos Trabalhadores",
@@ -53,6 +61,22 @@
     "veiculo": "Congresso em Foco",
     "data": "2026-11-15T14:37:21.000Z",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUdEQnJKRnhIeFgxSng5aWlJLTZFSmRITk9iWTVHdVM5V1RGV1VabTV2MjlHLTZFZllFVVZ5SEF6bzZNUDlpdzNfajkyMHJPS0VPNmEtZE5HYk9ZQ1IzM3pfNGhiSDcxN1RJN3JLWVZlRVJwMmZ4THdKVGNsWTNoYWpWd0hqNEpPakNYM0ZLcjc0bUVBdTJfYU5wRmFfVXp0WUpQZzhxZG8tT1lHOFZUWg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:bd0b6ada8680",
+    "titulo": "15.11.2026 - Entrevista coletiva à imprensa",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-15T14:27:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX2J4U0Q3Z2h3dnl0dWQxaWluSmZuWlR0aS0xekliZkRtN1JZMGE1eFJMQkY0WDIyTV9lMnl2YWlEUWdWZFJLZC1XeVpYQ3M0akI1QnduZUt1WFV6QXNVRWRtX1E5d2pQZTBzOUpxdDJHWVQ3UThIb2Z6Q0E5YkJjVkdSMjJMRmFLWThjU2ZMY0JFLUZnV2x6cTJoMlFJUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c750455120e3",
+    "titulo": "15.11.2026 - Encontro bilateral com o Primeiro-Ministro do Canad",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-15T14:20:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRGk0QUUyck93NllmZXRTNkVWa0FPd1ZadU96eDJHcDNPdXMxME5WUDFpTjFuMlVlUWx3S1ZpWFhUUkEtRk81OE5HaV9mMUYwak5fYjdYLUlwSjAxM1RTa2hxYUFzUjNvNDNNNHJ3UEVfWEM1emZtLUFvNnJfaTM3cndQMTJUbDRoZ2ZZMUJmUS1zZWZxRHFaV1NzOV9GVHV0NnJ4OG5rYkFDSXhhaFZfMXRWbjB5bk1TTlFKUA?oc=5",
     "origem": "google-news"
   },
   {
@@ -205,6 +229,14 @@
     "veiculo": "G1",
     "data": "2026-11-15T05:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTFoyV0lXa2dzakdIOHd4MTZIeUw3RVlYdnlNdmtvZ3lMbW5NZ0g3c00zMkpUcnlUaUQzTG5CSC1BRUdtZUJMbDdmZEFtZE5fcnc4NTdVVlRBS1VWWXg4UmtyTGM4VEtnWE9wRzUxeVYxY1BQeURvNlgyVGlvbzMwa250WEdTSlhueXd3dFU1MnRpWWhwX2FvT2d3MVV3b3dVSUpnSXBscVAwbENMeXhTVkxjdERPb2FDZkNzcHNqRWpxRWhDYXI5RnI0MWczRWpxWXVfQTVUU0FRdkxzZEE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:988ec0c8a0e3",
+    "titulo": "Pesquisa avalia gestões de Lula e Riedel em Campo Grande",
+    "veiculo": "Instituto Ranking Pesquisa",
+    "data": "2026-11-15T04:37:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQS1lMGs4cWhPQ3dTODFHeGIwNTB2RjVUUzFwRHRKdXJSVXJGMUZXc1RHTHpMS0k2ck45YUp3YkpMLWJHUkhCanVGbmNFWkdNOXJjSks2NnRWaGdJaE9hOXpSWTdtZVdaV2lTVGVFNk9kRE9yR21hUUtOWlBsemUwOXZUQWhoejNEakx4Zy1PT1p4VFYtdHN0ZEE5aURPZw?oc=5",
     "origem": "google-news"
   },
   {
