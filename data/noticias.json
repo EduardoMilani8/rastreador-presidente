@@ -1,10 +1,34 @@
 [
   {
+    "id": "google-news:2c12cd6e549e",
+    "titulo": "Presidente Lula grava live com presidente da Espanha",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-16T22:10:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSGprSVJzbnQxUUVDbmRFVnh1VUVVWVdleXFfQktRWEV1MzRjcWpMcFItQ0VYR1c2QmdOYUVpa2pzRV9rbW5nN2pKUFNVeGZramFialAtY29ZeXBlZHFRQjBfRG0xN2FTM3JXYjRmSXExN19SMldPNVV4TzVYdUVPVDZwSkVIM2F1ajQtUmhzTlVwamhwR2hCWVZCX3FFeDRFM1VjSC1DcGxPNDRXNVlKMWVHQlo?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8c0cc37349b2",
     "titulo": "Por que Lula e Janones viraram trunfo na eleição da Espanha",
     "veiculo": "Nexo Jornal",
     "data": "2026-11-16T21:53:21.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON3dhY2ExY2ZNeWFyWmRXb1c3MDRmZFZJeFRpY2VSM25Ld0JjVDFwWWdpUmpXYUxMZ2R3LV9uaTZQS0o3bzlEZktrRjdnWkNTRXdSLTBubFo2eFVocmtTRHFKY3Jfc1R5M09fRHZfMFZLcFNSamNrRlFUaENla0Z0RFJueVlDS2l5RW9wZVB3cmZOQS1rQnBiLV9kN0dCeDZqY1ZsYUI4QmQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6fbc20d6a01c",
+    "titulo": "Lula busca parceiros para industrializar minerais críticos no Brasil em giro após eleição",
+    "veiculo": "Agência eixos",
+    "data": "2026-11-16T21:48:27.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM19fNVZVZUdrLTNNSVh6Nk0weDR6cGpnUi0yWnJDOS12WC05c3lBUjZlWS1tT3E2aHlHMEY5UXBkSWxIMU5FQTVtNFdhM2FjVXNfUkdzRUJuRk5XS0xhRTNnQjdtTnNOY0FxdXhmY0dWa0VBdnk2RGprX0pYaU5sZVJpZkwydENWOENvODhGTjZOU3RpN2xXVENSWloxMmpGYlc4c19NZWxyVGFMZFNjaUdVYnB3UVFhN25oRHZn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:c9fff1a7c6c9",
+    "titulo": "Presidente do PT sugere gabinete para organizar Lula 4",
+    "veiculo": "Poder360",
+    "data": "2026-11-16T21:18:28.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRGFycHRuLU5NVEg4UXZJQjVlUElVbXRIYmg3T2dqN1A1ZEhMQTV2SjM2TkxSaDJjRW5YSDVlal9ZYjR0QmFBMTNXVWhSVVRxN2lhcUFvZTlHWFdCZURmc2JZVXgxS21nWFBncXpZV0ZvSzhkclFiWnV2UkhheEI1Q3d0UUxtYUl5MTNoenY5dEVfU1FXT2VCeFgwR1prM01Gc2hmOFNpT0VLaldL?oc=5",
     "origem": "google-news"
   },
   {
@@ -86,6 +110,14 @@
     "data": "2026-11-16T18:09:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-sanchez-defendem-uniao-contra-avanco-da-extrema-direita",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:e8460fda7ae6",
+    "titulo": "Sánchez e Lula conversam sobre a ameaça da extrema direita antes das eleições na Espanha",
+    "veiculo": "G1",
+    "data": "2026-11-16T17:48:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOXFmMDV0SE9NQjNFeEZVc09ZS3luc3ZZaDctdkVla0RLZ0ZLaWppR1NGUnMweGMyX001WUhOVnBSVmoxQXNvY2xNUDBqMUxPYnVKeUZpTHJNNFk2eWNrOG1ldTNNUy1NNTZabXVTdC1OTTUwNExleXRsQ1U4V1k2WE5zZktfR3llZndjTnp6TDRRUGdwNGFUVWFEQlZkYlRuM1NDUTBPdThlQ2RnNGR3SHJiX2dqWjdhWWdTSF8wdGF0cm81eUd5MVJIMGl1WWVEVDktSm9aQdIB5gFBVV95cUxOOGtfbDRSalFocDlxT1NId1g0LU5YODVWaU9ER0RRXzdXSXNRX3V0YU9ObGgyWUR4SXhwQjM0aVdock1weTFMQkw0dnliRWFvSjF6Zk1OM21QVnFmQlF3LXNFbUNrZ3d0TVVxamNacjI3cExLY0I4U3ZQY1JpZThkQ19QMnNpVm9nWUpINWQ2amFoblFxc1U0aGtwbl9vemdnd21QdTllcGxkRHpka2c5NEZ3SnY5ZHZPNGpDY25YQzBPY21xTGRCVVdEY2NKcXhiV1ZMVVRrMXhPRXBTbkdjTHJaOFhOUQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:5023ffb8a851",
