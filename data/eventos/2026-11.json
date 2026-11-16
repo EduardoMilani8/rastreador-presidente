@@ -1791,5 +1791,119 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "11:00",
+    "titulo": "Reunião restrita com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
+    "local": "Complexo da Moncloa, Madri",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:11:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "11:30",
+    "titulo": "Reunião ampliada com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
+    "local": "Complexo da Moncloa, Madri",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:14:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "14:30",
+    "titulo": "Partida para Praia, Cabo Verde",
+    "local": "Base Aérea de Torrejón de Ardoz",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:16:50:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "16:50",
+    "titulo": "Chegada a Praia, Cabo Verde",
+    "local": "Aeroporto Internacional Nelson Mandela",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:18:20:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "18:20",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Internacional Nelson Mandela",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-16:22:10:1",
+    "tipo": "agenda",
+    "data": "2026-11-16",
+    "hora": "22:10",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16",
+        "coletadoEm": "2026-11-16T13:50:16.808Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]

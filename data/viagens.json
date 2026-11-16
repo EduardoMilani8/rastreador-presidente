@@ -319,6 +319,17 @@
     "ultimoDia": "2025-10-28"
   },
   {
+    "id": "madri-es",
+    "cidade": "Madri",
+    "pais": "Espanha",
+    "lat": 40.42,
+    "lon": -3.7,
+    "compromissos": 9,
+    "dias": 3,
+    "primeiroDia": "2023-04-25",
+    "ultimoDia": "2026-11-16"
+  },
+  {
     "id": "moscou-ru",
     "cidade": "Moscou",
     "pais": "Rússia",
@@ -361,17 +372,6 @@
     "dias": 3,
     "primeiroDia": "2026-04-19",
     "ultimoDia": "2026-04-21"
-  },
-  {
-    "id": "madri-es",
-    "cidade": "Madri",
-    "pais": "Espanha",
-    "lat": 40.42,
-    "lon": -3.7,
-    "compromissos": 8,
-    "dias": 2,
-    "primeiroDia": "2023-04-25",
-    "ultimoDia": "2023-04-26"
   },
   {
     "id": "georgetown-gy",
