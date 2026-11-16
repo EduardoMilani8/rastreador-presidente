@@ -1685,7 +1685,7 @@
     "hora": "09:00",
     "titulo": "Cerimônia de abertura da 49ª Cúpula da Associação de Nações do Sudeste Asiático (ASEAN)",
     "local": "Centro de Convenções Internacional das Filipinas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1704,7 +1704,7 @@
     "hora": "10:15",
     "titulo": "Reunião plenária da 49ª Cúpula da ASEAN",
     "local": "Centro de Convenções Internacional das Filipinas, Auditório 2",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1723,7 +1723,7 @@
     "hora": "11:00",
     "titulo": "Encontro bilateral com o Primeiro-Ministro do Canadá, Mark Carney",
     "local": "Centro de Convenções Internacional das Filipinas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1742,7 +1742,7 @@
     "hora": "11:45",
     "titulo": "Encontro bilateral com o Primeiro-Ministro de Singapura, Lawrence Wong",
     "local": "Centro de Convenções Internacional das Filipinas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1761,7 +1761,7 @@
     "hora": "14:00",
     "titulo": "Partida para Madri",
     "local": "Base Aérea Villamo",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1780,7 +1780,7 @@
     "hora": "22:45",
     "titulo": "Chegada a Madri",
     "local": "Aeroporto Internacional de Madri",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
