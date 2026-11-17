@@ -16,6 +16,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3463282d3fe9",
+    "titulo": "Brasil e Espanha defendem o multilateralismo e a necessidade de reformas na ONU",
+    "veiculo": "G1",
+    "data": "2026-11-17T00:31:41.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQkZlSnpPM052Q1hNRnB6VlFKUGUtMi1kcmp0NlgzbTFPQjN1eFM1U0RQbTFKb2ptXzVFNUlkOFJfaGNjYUJLNlJWam5GM0Z5WU9NckYwcGw1OWFJWEl5UUVwR1BVV0pRSVN4TUlISnNfX2o2alZWVWFJY2xjU21jM09ldVhOWnVVRTVsdDJmME1hQXYwT0dweXZTb3RmbVBPZXM2aUVpS09oSlgwaWlzR1dzYUJJbHRtOTQ0SV84WUdrM3AyZzlWS3RyUE4tNVVheGc2eElVSljSAecBQVVfeXFMTkNUNUpBd2FabW5LRU9fTTdPTWVVcU1BdG9pRWpZUE9BR05wcEhGYng3WTVfdDhZYldaQzZid1ZKY0s3bU1yZFh5RjRNWjBKemxhTEtDeUdzZzZBYVQ4NTVSLUxQcFVRWk13a3R4SnRGWHRBd1lFZjREYkdmRUNNYWNWSnhVa3lkWXBwX016TXdzeThJb0ZIMTF5N3VoNTlsTG5WbGtGQk5MT1JrVENQWHlVdHNUdDMzRzhVblhsRWNxU1RkcTJMOWZkQmtoek5lRTJJbGFUU1JLdXdyM1c0dnZJbjFFMXFZ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:33b9966bcee7",
     "titulo": "O mundo viu a eleição de Lula como ‘uma forma de ganhar a batalha contra as big techs’, diz analista internacional",
     "veiculo": "Brasil de Fato",
@@ -101,6 +109,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-11-16T21:23:37.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYS0tN3VZWEpoLWsxclh6TEp5d3gwUzdVX2lRLUs5X1ZLck1XZVNDMlRsOEZjSHdrREwzWlg5ODUxbzB1MC1wVF9YRWtXQ2NPUEpCc1p2clh6VzJVandEWFFrZmhEa0I2eE92d2Z1eC1leXlHRDFoVmUxcWZIbS1ldTUzei1mZmV1TElORTJvZ0hRRmRDcWVNLU1VNE1TQm5SLTdIenpFMHFtLXk5WkVvVWE3d0tFdm9wYVZjckRWalYzYjhuM2dlQmR1S3JCcUVHWE5kSg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d66d08182a20",
+    "titulo": "Sob pressão da própria base, governo tenta conter críticas ao pacote fiscal de Lula",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-11-16T21:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGpNUmpBTnQ2Y2doa3JxRFJOYmVFRlktSkVjV0M3eW92Uk1jcmxtbjhURGMtVGJXblk3N3hCRzhJQzFobkxPM2xqRDd0TjZwTUJLTW91OWloYnlMSW5kVElTeDhoNmpQajJZWlVIR3NYQVdWWmdxQkFGV2pKVzJGTGhMOHhzT2lUbUJQQUJ3cmNQd0JiUFVtVkl0M0JOanZqYy1iZ1dFRTJxeXRMUzcyeXRBU0Y0STZwTXh2dEhIN0hOQQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -213,6 +229,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-11-16T18:28:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ3RIaElTcHg3ZHY4Z1ViV0kwa0loV3AtMEhBdWRtaEExTHlHME9Gb1lRVGZ6OE5qNzg5dGh4UHRNVXRaTWs2c3pZZG90ZjM4OVA5VTJsYndDeFJSZmZzUnFBTzlRdFZjVXNFUXZJa2R6T09KOC1fc3Y0eXlSU0RsN2IwMW9jQjVlSVp1TUFES2o4QnYwS1VXVFU4Zlg1eTA1cmoxNjlDWW51aEE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:be33b36370d2",
+    "titulo": "Tarcísio diz que Lula “comprou” eleição e cobra atuação conjunta da oposição",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-11-16T18:28:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTFITURHUE5Bd2dlaWlxUzNXaHM4Nmoyck04bmN2VUV5NFF4MmJOaFJKSVktM09ydlBkVU5MdERwc1J5WGtsUG5DaEJkb2VGRUlpcFByNE5SSmk3V0t2dFRXcFFvdjdha1dnZldfT2pkT21pcTBsOHI1SFROVkwyWFhybGJta3dIMktZTVNLNW1LOG1OT3RBeEw4blFEdGVWS1VmWGp3dDZYX1h3Zm1sdy1wd21halBs?oc=5",
     "origem": "google-news"
   },
   {
@@ -381,6 +405,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-11-16T13:08:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbHNGZmdYakFnblMzZlkxZmE3QzFSNlc4UGphTUJVejVjVDdHU0tSMXcxd1BBSkFwTUZYUkphSXZsZDFYcVl4X19RdU1PcXIydDVWclRKdTdBODFWUjd6UWpkZEFpM3NwallJYW1Bam1yZFU4Zl9LRlhoVXZ4Z1RHVDY1T2N6U1pNanp3UUVPUm9Ud09TU25wX2MweHBhN2IxUDY1VmVGZklWemY4RXp5Q19OQ1RXTDFEZTAxXw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:be65a61ae6c5",
+    "titulo": "Sánchez recebe apoio de Lula a duas semanas das eleições na Espanha",
+    "veiculo": "TVT News",
+    "data": "2026-11-16T12:40:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCMDM1M1RVd1hTbk04dGxvUFRqbVZ1QXJ2Y1ByQWgwZ1ZfcEVYb2kydDF0VnF6VTk3UklvTDdYQ1FtUEtFeDJadmUxQ1pUMEFyc3pSTkFyZjF4b1pSY0hTXzNMTUZMN3loX0lIdjl4TDNDRkY3bzJZV0VfWDg?oc=5",
     "origem": "google-news"
   },
   {
@@ -901,6 +933,14 @@
     "veiculo": "Instagram",
     "data": "2026-11-15T00:52:18.000Z",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YNG5SRXpLamdYSHRZQmY1cDVVRmRaNEZMWmdrNUZ5MlVUZ2cwS3RfYXpySmt6Zy1tcUQ0Tm9jVFlFempBVlU5QzdmRnc5clVoUURLVzFR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7aa239a5d635",
+    "titulo": "Lula terá dificuldade de negociar indicações ao STF com Senado conservador",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-11-14T23:50:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU04tSG5KRXAwaVVVRFNFRkVjeHB6NlJPLXZxdGRBYU9uZHk1ZWM3MmFpWV9fWmRCLWRvcDh6NGprWDVTYl9Zb3lFYVVUOTYwRzFMUlJHRzctclhFVkRvV1RyNkI5b0pPYVhjbDFwc0laSWl5RWVZeTNIOGdBNnZZNUR5UV80ZXhCY0o2OEo2a0I4dmRW?oc=5",
     "origem": "google-news"
   },
   {
