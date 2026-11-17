@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:0d22058aab10",
+    "titulo": "Um em cada quatro votos de Lula no 2º turno veio do Semiárido",
+    "veiculo": "Marco Zero Conteúdo",
+    "data": "2026-11-17T20:42:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGtONUZ5VkRCbTQzcWlJSWYzNWd3MFRCamRMNVdQNU43UHNRSDVNWFktU2hqNUlNb09OY0ZRQ0Fydl9ZTF9Femw2dDRyYkRPZDY3eXNkY0VQdTZzRWhTRDNhZFd1RTRWMkRWaWh6cFRzclNnY0xfemFGSHFxRU9ya3llemIxSUk4SXlWRw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5cbdd44905e0",
+    "titulo": "A verdade sobre o ajuste fiscal de Lula: combate a privilégios e proteção social",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-17T20:34:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObXdPLUJjVjk1SzJZblBYUkNZc2h5aTFTQTZOU0hwOTlPcmpBVlZoWUFKZFJQd2RCWEZwWEk3TFpENGhoa0ljTEl5QkUzOFNVN24tUXBHX2s2aTZOYl9GREJfU2dEbEVfVmhwWnNlb2h4WjdHX1BvbENXRndqVmNvS3ZNNl9LYkpJVXgzeWpJMDlHazd6ZHVLYWRvTTNXcVnSAacBQVVfeXFMUGJoMHRjQnp6cUJuQUo4dzZMMnY2RUctNFJBMHVWLVhoZ3RZN3lCakZWQWQwaVJZQ2kxNV9wZFFOTkJhOHZnQ0RpbXlJVzJhaFdvSFBaTEtReFNTaVRwV0xteG5kVl9yWlBieU16a2JvM29aTXBGNV8zaUJNVGZFNG1xazEtS2Vwck40YTRDVDl3TUVxZktrVkx0ajE1ckV2MERVYjMyUDA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:52c1045370df",
     "titulo": "Lula se reúne com aliados para discutir novo governo",
     "veiculo": "Valor Econômico",
@@ -13,6 +29,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-17T19:58:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQb0hpUFk1MXU2X282ZUJKOG9PNjlSZVJXUzBCeXBYMGZaMjQ0RHp2eWJxX3hIMjhqU2RpZFdhMV9vdXV3TWZhcnRMaHktWW1sbEJGZWtDUE5DX3NkWmp1LXJpSmViZlNtQnUzVWctVGNXNWQwZWotTm9haFFYeWRRdkI1ekZZb2d2eEZFLW1xdkluLVJkOVhzR3ZRNXczYlZQMlVFQ2pjNlotMDNYYTJxcS1mejVlMXlpNFZWS25qaEpzTkttMlFIdFl1WkJhUm9GekI3Nm85aDJhdVVzSFZJanluX0pybHFKbDhsZnBOQ1RUZ9IBgAJBVV95cUxOc2tVd1RGcmd2MEJTVEdBMldZVDZvdUswN2dUNkpJVGg2dXFvLVBlVzUzZjRELVpfUXU3bGQ4MlNxSWVrWFlGdHRacVlPMXVGejdxZVptSmVyU09YSjc4eG5jRXlWZWhjTUJHS3lrNUZOTDBkNGZDVkVzLVJCQXJ3S2xOWGZNUG1wV3ZmS2NCc0dPcGg5eHZ2aW5RamJUaGwwMlNzZFlHY3dyai1RLVBSMDZNMmY4MGVoTVkzVTBDOFZ1azBBMS1wTHUyTVhDUkRlNDhfZ3RiZk9pbXBDWEh5U0tCa0NOSGtOeHdRaEFTMGFJSlFPZTk0RXN1MTFoWWxk?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:89c77fbf15c4",
+    "titulo": "Lula recebe Marinho para definir decreto do fim da escala 6x1",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-17T19:14:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN3Q5WWlzU2lZQzFuS0llTi1oa2pMVUFqaDhLcTl6c0JQM1ZPU25lQjBlaFB5Q01uSXRsXzdGdnViRjF5TFhKUWl0NWRyRzVCMm9TTDlDZ1dlcGtON1Q5TkxIcU5zWDVGYU1wV2pFTVBadWJYMTlBeHF2NExJMm5TeDdvdkRvRHR4Yl81amxXUk00UnNoaEtGaXB4TUw3NXFpc2RSaHhzenJseUVudlV1eUttaXJfTE90dnJz0gHKAUFVX3lxTE5jMTR2aHN5d2w3b1QyTjNJbFBxUTBqUVVZMndTaWZSOGhGcTd2UnFLdmV5eHdfSklVVkVEbmMtZ0VuQ205UkhtMlJjRkc5TklDQVNCbldWZjRwQTVUY0JQUjRpejg4MUhBejlnZ3BOM21mZFo1SWQ2aGJfWHBjV1pLSzhLaVVoc2hBVDlyY3JpM3Fla2FmdFdyOEk0bDQxZVJ6VUw2NUkybS1Cc3FzZTJPOXNnc1dmMGVtbExpamY5cHJSdXBzdjA4Y3c?oc=5",
     "origem": "google-news"
   },
   {
@@ -1221,6 +1245,14 @@
     "veiculo": "Governo Federal",
     "data": "2026-11-15T08:33:59.000Z",
     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNcG5nQVpZbHBwMkdtX1FhYW9oTEJlQWZ5UFlub1ZzVzYyTDRNdmJDWnFNd2h6WW5EZ3R3RkFPVDlMSzl5WUQzV2hUcVhaNE8zMkJRcWhvVm15Y1E3RThFTG5pZFJOelB6OUdYdDJ4OV92ZUlqS2RIbHJCYS1QV0ROYzl1VFRja2xVeks0WjZ1dmpkZ2Q5UTRobDFKNGNubEduNEJPQUJMbnJhbjBtMDlhU19lR0xPRDVUWE45UDBIdmc3cnYxaUZMdFlaYkVZMm5sb0dsa19lN2Y5VTdZRk5VVjhyYlJjM3NsSlpSZWFQbGVzZzctQXpBU2pObTVDUU1ac2hLRUZTSzVzZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:cabaa3ceb528",
+    "titulo": "Declaração à imprensa do presidente Lula no fechamento da missão oficial às Filipinas — Planalto",
+    "veiculo": "www.gov.br",
+    "data": "2026-11-15T07:51:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNY1FpRmpWZDFNdTlZZkE3dUN0RUE3c2ViaTRFbXhwWUN1MzlpTDZQcThnVWUyTjJoNU5KakluZ2tJd1BscVk0WUZYQVFnX1FHM1hhdC0wM290RXMtVThnZFd1elhRVi1JREtqbXF0cTdwWjVhdENieFk1d0dIcUlMNTAtV3d3RlZwdFlJNGRKQnJZd1pFa01wb3JheEdDcjhEN3p4SllUaDNTYUlfSGRkVUNuMHoyT0hPSzFVbjg3dFRGT1pGbzNKamJDVlZNdlVzZ3ZyY2k5NWZvWHA3SmR4SmRKc1hodmhIRmxxRmxIOERnaUlWS1AweVcwQlpGSmxYTDJybkYzOA?oc=5",
     "origem": "google-news"
   },
   {
