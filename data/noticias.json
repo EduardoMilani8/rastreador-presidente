@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:30d01641bf5d",
+    "titulo": "Lula diz que Irã não tem interesse em construir bomba nuclear",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-17T21:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalNnN0ZMQ1RINkFtT3JtbWFKMkQzcTJGVjV2bWd2RVRpMUlkajRhXy1GUlUzejhxQXpNQ3BXUVJiMkx6SlhIclZEamVRWWt1a0pxWmlZalZQb2ZIS1Y4WUNnMWN2TXBjYzVUZ1ZjXzVVVGtKM3JMajNLZzdjWWQybWF1VUZiNEFXRTQzSmJTUkRUcmstZ3BwTWtLbG5VWTVBZy1IV3FwRU80dTk5TTlOOA?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0e4f6e9b8d65",
+    "titulo": "Lula vai às redes defender que 'plano Moretti' não terá cortes para conter insatisfação na esquerda",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-17T21:02:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUVRsSVlrUEtRMWtDOVdXcEw3RU5RUmdjdWI2TVJhM0dZZG5Qa1RHVXlQZ2dPMzRGb1RrWEtYZEVYMW1hbng3SmZKVF83cXluYWJPYVJrYUU4SmNUTjBMVlRRc3Y3bFZFMWFscjVpN2VYWnNYa3hxbUlWTFFxbWp2VDVJZVgzM1J0M1VTbEFCR3NfQk1WeG9QRkxWTXQ4VE8wY1RqOV9EX19QRFhHdkh6LURTNzJrOE5PNnZXWUhMYWE0d3EtSVRYMjd0bG5zQTVXVTk3RXRocXBvQXhxNFNkdjhrdw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2841f3763981",
     "titulo": "Lula se reúne com ministro do Trabalho, pede ajustes e deve assinar decreto que regulamentará fim da escala 6x1 nesta quinta",
     "veiculo": "G1",
@@ -357,6 +373,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-17T07:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdnN2N2pZT3g4UGU5V3NCT3NwdjdBX19LYXllVTJEelQtOEJwbmRvYmE3bC0xei1aQk5oUjhkdE83T2ZaX0pIS3lzY1FTZTBQMDZKWDV6ZWxJSGxVS0VHcmVzdGJMdlRGQ2ZJZkwyTFZndDVqR3ZXbEMwSGdBVjVKM2JqbUFKZGxoRnpsUWZfSzZOc2lJc1g5anFzR1RjS3FKYklZM2JTYkhKR2Jsd3llZmxFUDduRlQ2UGFEVjNHSUxka0xiOTU5SzVWOGtIa2VMVFlj0gHiAUFVX3lxTE5GNHBHcjQ2MVFnQ3l0SVphM25teEZsUXdQZmJsYk9LNGdvb0Z0SDdYQ0RYU1VMcUhPMFdRY19vaHlNX2tMUldTZWpRX19SQWVkdV9WamtwRGFCWlFUaUtwVFBrcThCb21JeUZOQ3pRaGRoVWJzZG1rdUp6SFVMalF2czJJV1JleG1IbUl6LThES2NXWl80WkVQVVE5eElIemN3Y19NdXNXTEFKQmx0VGZaOWNWS3VxLV93RjV3SlFqVnRwd1NydlRINk84VmRIR1FsdzQtcXpGTGNlMVQySTZwSkE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:9b57f83dae3c",
+    "titulo": "Pacote fiscal divide esquerda às vésperas de chegar à Câmara, mas PT deve votar a favor",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-17T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPenZLVHZRTVBWRWNlZUdwaHo4bWtEeGN3NVppQ09YZHRZLS1rcHhIcWJzcUtuYmEySVdhNzdhRzJZUHExWUI0VVludUdBdEtSbWRjbFpNWEctb09MellpVElydzExd3F2MU42QTJlTUt1SzBMeFJOU2NyQV9CRmVvSXBWWXFoS2ZsWWVvLUZzR25paFd0aEItUjE5NlBmVXVJRDEwT3pWREplUWhPb2xZNlc1VU9DNXVtcXdJejdjVktFTXRDSXNHYlJNR1lkdkdTTnhGaVdSbXIwaFVxVHfSAewBQVVfeXFMUDBJdlJ1SkZ0WU43VEpGT1FGMUFnNTQwM0FsWkN4b0liTnByb2VyUXN4eERzSEpVOXNLQ09zM19jMURPazlqcVd3VWd1azdnZElqZkZIVl9nN3N4X250NHRaS3RVVTNNcXlDOVJ5MGVwbzBVOXdUdEJoekVhMnBXVF8xLVBhWFpDVlNJUzk1a2JmdV9kN2RSNExCZFlHbFdZX0d0OWVlaENYdHpHMGwyOHdINHZOR1FpaVdjNmk3Q1F5cUxKUVFzc0Z2LWg0ek1pWVJlLVREeTRuTnJ0LVRJTHBtOEZMeHhHQzkyQms?oc=5",
     "origem": "google-news"
   },
   {
