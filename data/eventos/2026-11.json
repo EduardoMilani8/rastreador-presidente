@@ -1799,7 +1799,7 @@
     "hora": "11:00",
     "titulo": "Reunião restrita com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
     "local": "Complexo da Moncloa, Madri",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1818,7 +1818,7 @@
     "hora": "11:30",
     "titulo": "Reunião ampliada com o Primeiro-Ministro do Reino da Espanha, Pedro Sánchez",
     "local": "Complexo da Moncloa, Madri",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1837,7 +1837,7 @@
     "hora": "14:30",
     "titulo": "Partida para Praia, Cabo Verde",
     "local": "Base Aérea de Torrejón de Ardoz",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1856,7 +1856,7 @@
     "hora": "16:50",
     "titulo": "Chegada a Praia, Cabo Verde",
     "local": "Aeroporto Internacional Nelson Mandela",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1875,7 +1875,7 @@
     "hora": "18:20",
     "titulo": "Partida para Brasília",
     "local": "Aeroporto Internacional Nelson Mandela",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -1894,7 +1894,7 @@
     "hora": "22:10",
     "titulo": "Chegada a Brasília",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
