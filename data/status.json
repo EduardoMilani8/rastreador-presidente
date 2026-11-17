@@ -5,8 +5,9 @@
       "desde": "2026-11-17T12:20:17.803Z"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-11-17T00:50:14.415Z"
+      "ok": false,
+      "desde": "2026-11-17T13:10:26.093Z",
+      "mensagem": "2026-11-17 (edição): Error: JSON \"params\" ausente ou inválido na página do DOU"
     },
     "planalto": {
       "ok": true,
@@ -29,5 +30,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-17T12:00:29.744Z"
+  "ultimaNovidadeEm": "2026-11-17T13:10:26.093Z"
 }
