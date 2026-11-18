@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:8b2bf6790a7b",
+    "titulo": "Conversa com Lula faz Andrei mudar de posição e confirmar presença no Senado",
+    "veiculo": "G1",
+    "data": "2026-11-18T14:02:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSkE1VW9IaTg1RUlvTkdOMXBMcUtWRi1XY2ttOFh4NV9zRGdUZjJkbHRadFpjUGxTNUVkZS1ycUJQWHpBUElRSHpfQy1fb2JYdEtTYlBvNGRBellpci16enVRVlFab2tfZlBxejRPcnRSOV9zTWNfa2hRajlGWDExYkhTS3hnS3F2eTVMSFdVaktfeEkzb1BmNDAtaUpmOW9jWWNVYlMtSzVjT3YtOVUxd3dPa0lKSzNXdXYzWG1sRThjY240WEk2d0FSTFZpXzFYMGhmSm5rVkhVdDVTcGN0Qk1FRjbSAfMBQVVfeXFMTUd4N0xIal9aWlRmMzRiOXlNd2I1Q19tRGdxRlVxS3VHeEZaanZqUlZVMHY1N0c5RE5hc0dtV1l5UUNRRDU1ZmJxdzBzVUlVX3lRM0JmZEh0VTdYemk5bXJBTzhWazNiLXdoN1dxM2VRQ1dZOUdNWWdlVzI2bGh1enJPMHg1eXJSN1FEbThPWUltbG9BSHg1RlVQeUVtUXRNVFRkR0c5bTlYR2s2QWZzZGpMOTZWZ09jTXhXYW9aM0hTaXhHTVUtTmxxWlZnby14Rl9Pcm10MWkwNnhUblM1Vktjbzh6aDNWd3FlMy1RcC0ybHdB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d3c88ebdf27f",
+    "titulo": "Risco de derrota no ajuste fiscal mostra que Lula terá de ceder mais espaço ao Centrão e partidos da Frente Ampla",
+    "veiculo": "G1",
+    "data": "2026-11-18T11:25:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOTnRZSVNmYWFXa2Y4S3d5Yk1MSVJ6R0xwMG9qUEFEYktvVlQtY0pVMnA5aTB6OERWUkl2UXZDYU1ZYVFfaUcxTFotMTB3bnpUNHBJOWs1Y0J0RlotTnI2VUhMcjFQZ201UTlMcklBQWhYQXZLTnFtaHpRdThNWW02NXFsYUNwbXF1ek9hQUM0ejFrWW5mbXVybzVFMHFxTFg2OGJ3aEhMeUxDRE03bHNoUVVORkhIMlpJcUtWQmZBdHZlcjd5VUtGMFJPaEZ3Z0lDNlRpU2VfdW5vcS1iVTJYaC1zY2pEazN1LWxJUG9jZW91M1Q4bWR3Q1Q1OTZWX3pVS01UR0wzdWNfaENHNkHSAZwCQVVfeXFMT1BvX2I3M2lzQTRSSVBWVm1LSl9KaTVsbzNlQTl0cHI1YXR4YWRpcjFVb2psa0VpTnZTbDZiVldvNGdMZTJ2Ulo4MXNHSVdWQ3VPOHR5YVZSckZUVHFfTTBEc29nTnhWenhaRDZwckM1R1Y1elItaF9YRFItVUpuVkFPay1aTzlJZzhidVc4V18ydmQzbFB3ZlZuOGtGV2dsSFNDa2swNHpEaHpMSWotbFBTaWtMT2h2R2FZd2tjN0U0SGFsU0hYZ2FTbkdYaS1wZVdIUkJycXdjYjZUWU9wY0hJcHJmMk01Ny1sS3ZhTWFyMkV1eXJ5aDRZQjF3U3dGQmFTZUpnb3JUQkZPWnRJS0JxNFhvcTJsZXZaYmk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:adc352ba78d0",
     "titulo": "Agenda de Lula: leia os compromissos do presidente 4ª feira",
     "veiculo": "Poder360",
@@ -37,6 +53,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-18T08:00:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHhvYzQxMmd0RldvMlJJME52MDY4U3JiYnJKLW53enhuQVRyamlqTEJPcFhDSUJweTMzbDk4dGtlMmVwdEZNb2M3MlgwZk5QdmF5NVQyd2RxU2RTY29fbDZHSTFzc1hjMnRxYVFaUnEzNl84SE0zejlBMjM3V1dpUHp2Q3JsU3dQdHV0VHdjMVRMaWYwZVN4TGQ0ZHRBeGdnUzlPTHBTVVoyM3dW0gG7AUFVX3lxTE9EaXRqNDJMMm1TTnI3TjRvZHl4YWlQX2RaVGpNX2JFN2pYdzJDTFdGbU4zWDFRb0FOdUNzN1lqaEhSbTJ5NmM4d3YtQXRCRlVhM0tMbzFHcEZpMllhS04wNHZVUnk2NlI1dlU4d2FhM3d5dTNpamlja2I2ME1jb215ZFZITDNlaTRhb0UtZ3NzSXRDdGVoZ092M2Y0dGdpOGMweDcyV0JIcXdSMWNFUHY1YmNKYl95bUg0T2s?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b3e3071fbcb0",
+    "titulo": "Lula não pode mais tardar a apresentar plano fiscal robusto",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-18T03:10:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbVhQYzNBMUZubGtkNWRtSHRnNkRLeHhnNFd6bnVPeGhzcjlHb3kzTF81aVlHOTQxS3Z6LUhWT0ZHMV9RZmpBYWV5dWFNWmxRajNhOTk5dXVQOGF5d0ZRRm9HaWo4RHl6UkhRYjJfTWY2NUdmRXhTdzRZX2YwNFZwSGEwN0dsdWluQVBPYTZ1UVR5dHc2enVZMEpEaGlOdmxCSk15N3phVlJBRlZkVEdXczNYem1OWUpXdlN0M2JzcWLSAc8BQVVfeXFMT01HNThubUFfZnZidmZDYktFSW5pY1NBVkdtVFFEdndFdW14T1NGRjA4TXpfTmp5UHZyS05WWk5EdTFxdVppTzh2bWg0N2RvUDJTUmFhVzRObnMxcVFaOWRQTzI5NDNnN19ocFYtT0d0c005djFOaHBkNHhxNjkxa2RjMTZCTXpxVHcxQXllOXNad2RCN1JuNDNQWjdJSUFMMTVpaC1nZVNBZk0xQ2R1eDRzWUZib0MxaThqeE5LQzdXc1luUGxHSzQtSjVBRHBR?oc=5",
     "origem": "google-news"
   },
   {
