@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:ecb4f3111446",
+    "titulo": "Senado mantém projeto de ajuste fiscal como proposto pelo Governo Lula",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-18T22:36:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0VJVl9wdlhsMElzdTVCNXNSYUUzYnJpSVpRNkpUNHlWeGRvUktjYkxDbzhSamdEbEFyamVzMV8yazFXdFJILU9ielRHVHFZRmJQRU9qRmJiNlJJdVZaS0s0Tkx1by1HamJSZGlLWWRfektfaXQ1QUZPWEQyRlRVa1NvVng4V3FPTXRKb0RmV2pxVWvSAZsBQVVfeXFMTXJkVjZPRzZPTGtONFRVNmdJYXZpSEtHTlhoQjhrWGJNaWR6THF1VkxScGdwZ25yQXkyX2llcFFOSlJuTDFIdEpWYzlxVlhtbEN6QU5XNmdkZHd3c2RiZEM2UlZ4d2xEVnlROTdDaDc3SW9wT0VQdENBOG9IYTJRakthbmhpdmFlcElUV1MzSGpHWVZJRTlHOS1GaXc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:734ddd93e828",
     "titulo": "Lula deve definir Casa Civil e Fazenda até o fim do mês",
     "veiculo": "O GLOBO",
@@ -8,11 +16,19 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:de0e1e6e006c",
+    "id": "google-news:0c291f0d72c8",
+    "titulo": "Charleaux: Insistência de Lula em Messias é curiosa; difícil entender apoio",
+    "veiculo": "UOL Notícias",
+    "data": "2026-11-18T21:09:42.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQm5LLTVPR0cyUmh6V2pKaWJVR3dCUi1BbTk5THpqanRwczhQZmVVX2R5My1RVmdEWHVUUE5VRzFHOXhjcm9WbnFTVlZhNnVMSE1ESzBwS3BPS3MtZFl2cFg5alAzVmVONlJTNVMxdWYyenZzUVdQYV90dFJweDdSaGZmY1B6ZWZKbFUtaDl6WjRmeG9STFZUVTJiUG1kY0tpMkxXa0JfaXBGMVVKSkJjbVpFMVlJYTZFT1JHM2JxMXFQSFRKQmVlbFBDa292Y3NlOEZ4ZzRmdjhxMkZvdlh4NDFYZlctbW8?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:82c2f8425590",
     "titulo": "Grupo Prerrogativas aciona PGR contra Jordy por chamar Lula de “bêbado”",
     "veiculo": "O GLOBO",
     "data": "2026-11-18T20:31:55.000Z",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTXRSX2pES01aOW1hN1FDSGZJSWhqNVhzdmpnYW8yWHN1U09VMjRlS19OMmRneVlIN1Y4S0c4bjRjVDFvUWNoMU5YcnpkMXJRUTZpSFFYcGpHRnJyLTRNVFZjNmpIVE5EU1ViVldiUlY1ODQwSnVPZWRUaTkxR1hSdE50TjRFd3RwMzl0X3Z4YkRYYTZjbi04VW1mOUtPOVNWYzBuc2FYajFoS1ZfTV9HRnRfeEpqS1pxT1A4N3dMWGJodEhzRUE0UWQtb9IB2gFBVV95cUxNS29YY3ROa0ZSWnV0dWZTM0taZWpXdkZwT1dheGZxMFZudXBCOHBpWjAzc3hmTUt1ajFjd1R2OTgxYjdTZGVNMXJUQ0NXZy11UHJYVnRMUGp3ZXhVeW1QUG1GajdXYllwTnprNUpQZGdCQ0pFX3d0U0dRRlI0OWhvMXNEcS1laTlnNnhiVnhla2pJd1FOZGRreXJJei1LV29tNWRwb2RnLXpFeTlBVi1QVFZLUHNHdzNRc19oMU1aZ2VJQWM2dGFsbVBLd21zUFo1dEJueUx2aEVBQQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTXRSX2pES01aOW1hN1FDSGZJSWhqNVhzdmpnYW8yWHN1U09VMjRlS19OMmRneVlIN1Y4S0c4bjRjVDFvUWNoMU5YcnpkMXJRUTZpSFFYcGpHRnJyLTRNVFZjNmpIVE5EU1ViVldiUlY1ODQwSnVPZWRUaTkxR1hSdE50TjRFd3RwMzl0X3Z4YkRYYTZjbi04VW1mOUtPOVNWYzBuc2FYajFoS1ZfTV9HRnRfeEpqS1pxT1A4N3dMWGJodEhzRUE0UWQtbw?oc=5",
     "origem": "google-news"
   },
   {
@@ -29,6 +45,14 @@
     "veiculo": "CNN Brasil",
     "data": "2026-11-18T20:00:15.000Z",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWFUMjNfWU9maUVVWG1yWW1GajlrQzZsV1lOR3RkQlVXcldrUHlUX0RxSFV5UHdOUk1RNjJqSDlxbFhkTkJHNnNndjk5eHNReThyWG16SGpsR2d1UVE1OU9pa3pSaVYyTFdkWi1ZUGdTUV9oekpEWFZzRlVKT2pvSFQxOFBUMXcwcmtfaE8tSnl1LXhNSGIzYTRDMGRrZDA4Y1dmZ3VYWjZPdHpld2pmNTJMYw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6751a374c088",
+    "titulo": "Lula não se referiu a tempestades em SC ao falar de vento e ódio",
+    "veiculo": "Agência Lupa",
+    "data": "2026-11-18T19:39:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXU2Ri0yMWthS3lCdDVwV0JfYU55UEVrNnpESEk0NlEwLVhmaHlBYUhTS3BpYldfQXpaMUpCWjlEU3RKVzR5Y3hUTmhWVWZwZGY1dFhMY241S1c1cTQ2dV9iQ0JCUVNoUVhMczB0VFBPaGFpckxZYU41Wk45T3I4LThJekxDZ0lncU41bjM3VUtTVUJQQW80X1V0MldjQjUwMjlCbEJBSHE3dXJpUGh2RmM1ZFV6VVk?oc=5",
     "origem": "google-news"
   },
   {
