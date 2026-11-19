@@ -9,14 +9,12 @@
       "desde": "2026-11-19T09:20:17.698Z"
     },
     "planalto": {
-      "ok": false,
-      "desde": "2026-11-19T12:00:25.705Z",
-      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
+      "ok": true,
+      "desde": "2026-11-19T12:10:32.065Z"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-19T12:00:25.705Z",
-      "mensagem": "Error: HTTP 429"
+      "ok": true,
+      "desde": "2026-11-19T12:10:32.065Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -31,5 +29,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-19T11:50:16.997Z"
+  "ultimaNovidadeEm": "2026-11-19T12:10:32.065Z"
 }
