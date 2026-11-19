@@ -1,19 +1,16 @@
 {
   "fontes": {
     "agenda": {
-      "ok": false,
-      "desde": "2026-11-19T04:10:24.449Z",
-      "mensagem": "2026-11-16: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-16: TypeError: fetch failed; 2026-11-17: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-"
+      "ok": true,
+      "desde": "2026-11-19T04:20:18.222Z"
     },
     "dou": {
-      "ok": false,
-      "desde": "2026-11-19T04:10:24.449Z",
-      "mensagem": "2026-11-18 (edição): Error: JSON \"params\" ausente ou inválido na página do DOU"
+      "ok": true,
+      "desde": "2026-11-19T04:20:18.222Z"
     },
     "planalto": {
-      "ok": false,
-      "desde": "2026-11-19T04:10:24.449Z",
-      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
+      "ok": true,
+      "desde": "2026-11-19T04:20:18.222Z"
     },
     "noticias-google": {
       "ok": true,
