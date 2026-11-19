@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:ea0de428e0a6",
+    "titulo": "Dois meses para decidir quem decide",
+    "veiculo": "JOTA Info",
+    "data": "2026-11-19T03:32:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3Q3OHlZTGhKTjRmWHRESUhIVDNSWmt4akQwVHFxVDZ4MHR2ZVJDTVFIVFdFcnRnWGdXd1lFakhaYmRmOVFtZmpnUl94TFBPcUNRTFByclIyNDV0N1k3N29pWG1PWEdjNkNMNTdKSTZ4RXoyaEptSm8xVkVyYjlMOW5NUUhPa3RxOWd5V0EtNU04VE94VHBlNG82eUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:09621b9b85c0",
     "titulo": "Lula se protege no ajuste fiscal",
     "veiculo": "O GLOBO",
@@ -85,6 +93,14 @@
     "veiculo": "CartaCapital",
     "data": "2026-11-18T22:54:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2kxNUQ4VnlYeENZNGViZktLOG1hZS1VcS1RNkozM1JPSzdYdzFuVHNadnNMbUxtb0tybUhkbEdfbEdIeVhpbHc5Ny1nc21QYTh6TEFlUDB1bkp1UkNnQ0JxYTFfZWFVUXVkMWhxd3ZuVWVYT1J0SkdmVDdGTGtSOG03SjlOQXpRS3NSZFVMQ1ZDUkxvUGE2NVVKVQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7b95f19a4469",
+    "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-18T22:48:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbF9xWjNBSmQ5bHhOZVdNcUNPNGNTMS04UzZMSWhiWFZBOVJJOGI2aDRORllYcko2bFZPYkRmZUJoc3BORHBvOGw2UHFpZW9JOVIwOHR4WXBJYlRrVUoyLVJZbWJlUkFyUlc5c1d5Qm9fdkhEdjkwZ1gzbVdhdWNUeVJjZXRsb0Q2c1VadEk2NlFBVG1iMnJKRlZPLWRucHktM0RXMnJDQ1p0Ul9xYUHSAbwBQVVfeXFMUFJuT3YwdV9wWXA2a1NSMDFNZFRnYkhXOFFCb1RBTkE3Q21HOWNTdjFhVGMwaDZsYkNBR3FhRjdsWk11U2VFbHdxZ1AxX21pZGU3ZWgwUmtfbVUweldQZ2YxTkRQSE9tSzg4aEtHNnhBVXFwM2xwa2ZuM1ZYcUhQOWZ4YlpEbGtJTmlWN1gtaTZCcmh4bTYwU0lBMkNqNkpwRjBhNl9HRnFHU0QtdDY0U0VSOEFST0pjODBhT24?oc=5",
     "origem": "google-news"
   },
   {
