@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:63a5fd013281",
+    "titulo": "Lula assina decreto e Miguel Torres celebra conquista histórica",
+    "veiculo": "metalurgicos.org.br",
+    "data": "2026-11-19T16:03:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVTJ4MWQ2U0xVUVNEV2owdS1VYm8tTDc5TTNMZEhaZ0ZPVnNWR0VfbWtBWW14eWRuV3ZSWi1qM0R5dmo1TGZITktoRXd1WXEzT1RyZFNiZlNQMTh5Vkw0Ym1QbEdrMndLQmpLVmdPNzV5MWhJVEpPQmRsRHJWWm5QRHRlQ0d4Q0VzTzRLTHFZajBLd2JKM1ppZzRPVHhxWDRjcnh3?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:feae26789bd9",
+    "titulo": "É falso que Casa da Moeda vai lançar nota de R$ 100 com rosto de Lula",
+    "veiculo": "Aos Fatos",
+    "data": "2026-11-19T16:01:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wNEZFQXNybFh3bmU2ZUdjOGRnNERJZmFhY2lkRVF0dzltakwzTkdyM09rR0JZZlhzSXRQTF9VSzNNdldoMnJPQUhVMDdvbUJpb251d1ZWWlpucS1Lamk4VXNxcVY?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:f2e828a89ac1",
     "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra o presidente Lula",
     "veiculo": "Jurinews",
@@ -21,6 +37,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-11-19T15:25:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZGNWakZJb3lCZWFfZ19nNmotMUpBaVFOM29TZWdrRjhURlliVFNXbXBlYzhCZ1lHY0lMRG0yZHFTLTB3WnVZU0dNcVpXcTZXQ0RCTkFtd1d1NDUxdTUzTDdFdXRYT29DWTJHQ21OSmJkWFpHUjJTRTRvN1l5ZE5IcTJxYUFCd1ZsMG93dEhJS3Z2TGxzZFktSGZ4Y29kUFJ5Wm5Tcm5zTnBhaUVTeUU1OHJQeGlwbEJYUGV3QXFoMGNaWXhTcjhqZmMtWWhxbGMteDFNNGNwLXY3bW93WnM4bXQ5d0wzUUZ1UnVLc0ZnMU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d597047c56a3",
+    "titulo": "Presidente Lula anuncia intenção de criar ministério voltado para idosos",
+    "veiculo": "Portal VV8",
+    "data": "2026-11-19T15:21:50.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSU5xZHVQOEVwaUEtcUpDSU1nY0Rtc3ROUHlQRWlLM2Y0SU5wY3ExX3dYRDZ6MzdVR2F2dkplTmlzcXVTS2FYUjBRN1VXYWRjUy0xZUkyb2p3ODNGQThOX2hPUW55NV9zaXRrOG9oWHROM2RybnZJNm9SZE1HOFFWNDRPTkZ4ZnB6UGx1S2FpY3BXY3REUm13UE1kc01fbHFVVTBQbVZxWWdfNzlLNEh0aQ?oc=5",
     "origem": "google-news"
   },
   {
@@ -69,6 +93,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-11-19T15:05:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY1huMUFOYXNMMF9qUjZYZFZLS2taOGpaWUd3R2Q4QXFxN25IWTdPZFUwMzdRenFUTm92V2l3Tkh6bmJhajVoLXZvZ1NmTElsM2ZQdkpmQndjTmVkSk9Sall6aHZ2SldPbEpYOGRvRzNLZWMyYzhuamJHeXNJU2dBZnhyU0d5eExRaHFuV3k5RDNLakU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:f0f7928f040f",
+    "titulo": "Lula: 'Não é o mercado que deseja o controle fiscal, sou eu'",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-19T15:04:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV3lKelRpLURaT1I0RUloQTQyVWRyWHdVeUlKdk9jbFVhTFdIN3F4MnBBbm5qd1dUczFsZ25xOTVWd2tMNmFDdUstcjBTeGpPMmxWQTNNcXpyM2RpMi1kVlB1akpLaDE2eUFmR3NsaTdKbFBtdkhINkJXcGNJdV82bm5LTjNuVXJHeHpYbnFTNVlpOWNkSTZPYUFlUmJxYmJwZEF5Rk53aEtEVXpmYzRWMWp30gHAAUFVX3lxTFBpNUt2WmZGcWk4cTVDSTdXUmhkd0dJS3BJWWx5QW84TXFDNGJBekxKOEI1YXF6dVl4ZzF5UGR0bGxjWGVsbkdXN1o1TjJoZTJSeVJvMW4tSUlBUzJsaTdYT05UemFIVHg4SlFITHlPUmpWMDBiNGdEUy1GQmRhQ0FrbGkxSUh2R1ZzZGx1SEt3UGVSNVVabF92VlpxSk84Zmt1d3R6VS13RkowamlxZGpWa3BkVjZUc1BlMnk4SjVveg?oc=5",
     "origem": "google-news"
   },
   {
@@ -157,6 +189,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-19T14:32:08.000Z",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT3lReGQxSHAwZ1pwdERIOXRaZjVGSGVvUUpzaVdTbndSTXpEY1BtQ2pYamd1R0p6SEExbEVTY05pcUNKMHlaRlpIRTlWZTBqLWE0VWw1SGVrcFBGREtyTlYycGs1cHhLSHRfblhEQTRaWnZXNUR3Q0gtSXVhR0JaSXJLdXdOalV4cmZDTW16NU9HclNVMVN4dkpIN1NYdHdSOGpxZjdLTnJmUHFiYm9tS0d4THVsMVQxdE41Nk5sWFNXckRmMDZfc3lRWUdweXBXRTdjU3piNNIB5gFBVV95cUxOSS1jR0pTSGZPb3B3WHd1Ymd5R0VFaHV3cTlvN2pkc0tNMER3RmZzQWxXdHlvNy1SOVNNa3c2OGNIX2x3cVdlREg1VHo4MUw2RGlCOG9Wejg1aWxXTkJScW0yVVhiNExlVDMtVlFwbEQ0YVNqZE9ETUNtaG9xcEwyQVVCTTBsSEVwMXFXeUtsOEpJSzQyaFdzcS1sM2dSLXhDQzRFVUMyR1VvMXVNTmxZVTA4bHZhd3dOSFgtZkJTclFaN3dEcVpycFBYSF9JWHpMVzZjZ2dHWmlYNEdzNm82VmNYclFzUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a6431b483ab5",
+    "titulo": "Lula regulamenta fim da escala 6 X 1",
+    "veiculo": "Poder360",
+    "data": "2026-11-19T14:30:50.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTm5VOW5majJ6WkNhTkd4NzQ0NkxoSXNBbi1iNENsYUk4ZzlqcUdIUFVOVXJBTDVDaFhUY2dXQjYzck9Od2pkT0lwaXdMY2gwVS1LYnppcGItSHdnd21wOEN4UXhLd3pxWVdCQjBMQVBrOW9naTkxYmE4ZzgxRzhUc2l3Si1EUQ?oc=5",
     "origem": "google-news"
   },
   {
