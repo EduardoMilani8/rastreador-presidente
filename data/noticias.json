@@ -1,5 +1,29 @@
 [
   {
+    "id": "agencia-brasil:3eec36df827b",
+    "titulo": "Prevendo judicialização, Lula cobra atenção à aplicação da escala 5x2",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T16:28:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/prevendo-judicializacao-lula-cobra-atencao-aplicacao-da-escala-5x2",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:309182299e69",
+    "titulo": "Lula assina decreto que regulamenta a escala de trabalho 5x2",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T16:26:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY0dIVm94cGgtaGpFNWdSdjZucFdnTWtETzcxSlVkZkdrWHhPblFGWXNrZC1mZG5UT1VONEw2Rmd6YmtOMVR6SS1ESC04NFp1UWlrcVROTkt5ZlFuZGlBM2I4Y1gzTGFONUctOGhZZkRGOE1mVnZTOHlfaVJEb2FSWWJ2d3U2aU1hbnIyUi1jM0thbzNpbTBIdFFENWh1WUFVQy1zcWp1VUtNZFpmbHk4TVhUdXlrT3p4c1dtcXpZb1lFb1REWXp4ODZPZFFJelp3VEE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6451d2bb12f7",
+    "titulo": "“O que estamos fazendo é humanizar o mundo do trabalho”, diz Lula ao assinar decreto que regulamenta o fim da escala 6x1",
+    "veiculo": "GOV.BR",
+    "data": "2026-11-19T16:22:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPMERCbXhiMlgwY3lUT0duaTdVVjZQLUo5eUFQalFFaWVlOUE5M3NmTFVNQ0NjdFBxb0taZ2F2bm52dEpXRGJ2VXlXaU1zWkVTaVQzSnN2NDFJOGNpOWt5cUhwM3c2M243ZGF3QzMzUm94YVhYaU1XNm1tT0dmcTBlcV9ySkwzQVZhMWxNRGpkSThmTlk1bS1zR3RnbHhqSGRzZm84bUVsOHFEdDlMdExtdHJTNFVCMGxjSmI2cEZWTk5US2JMa01obFh4YklvbzFUcmg5NE9DbnY3MTVZRVl0ZldmVXA4c09qbmgtaUh2elZyNWQyb016czcxZmhtbVQ5MHBlcEpVTFlpMFdUbXNFQURyRlRfTU4yTWR0aWxZRDExQWM?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d343a6c0d2c6",
     "titulo": "Lula rebate desinformação sobre pacote fiscal e afirma que montará governo sem pressa",
     "veiculo": "Partido dos Trabalhadores",
