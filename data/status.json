@@ -13,9 +13,8 @@
       "desde": "2026-11-19T12:10:32.065Z"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-19T18:40:33.797Z",
-      "mensagem": "Error: HTTP 429"
+      "ok": true,
+      "desde": "2026-11-19T18:50:16.376Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -30,5 +29,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-19T18:30:22.918Z"
+  "ultimaNovidadeEm": "2026-11-19T18:50:16.376Z"
 }
