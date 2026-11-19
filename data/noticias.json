@@ -64,11 +64,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:43628b57df6e",
+    "id": "google-news:30c6dd08a3bb",
     "titulo": "Nova escala de trabalho 5x2.",
     "veiculo": "Agência Brasil",
     "data": "2026-11-19T15:05:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdzJNX1Z3b01PTHRHZjJFd2w4cUpSNXY3TEh2eEZadk5kblRCS1hiYkpsTE9RajhPNTZ3SFJFY2xTUFBYcXpJb0tramxuRmRDVllpNTBvWm9rUjJ0czhrNW01UmRPRmNsUGFEYW5kbGhIMnZ3QmVjczltTTZFMWtJaHdjR3IyMjZ2bUlhRDVfV2dsT0k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY1huMUFOYXNMMF9qUjZYZFZLS2taOGpaWUd3R2Q4QXFxN25IWTdPZFUwMzdRenFUTm92V2l3Tkh6bmJhajVoLXZvZ1NmTElsM2ZQdkpmQndjTmVkSk9Sall6aHZ2SldPbEpYOGRvRzNLZWMyYzhuamJHeXNJU2dBZnhyU0d5eExRaHFuV3k5RDNLakU?oc=5",
     "origem": "google-news"
   },
   {
@@ -160,6 +160,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:234d1d00ba37",
+    "titulo": "Pressionado a apresentar nomes da equipe econômica, Lula diz que vai indicar ministros 'quando quiser'",
+    "veiculo": "G1",
+    "data": "2026-11-19T14:29:39.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMVJGR1dTaklLVVYyOFpVNmVrN2pUTThnREpRZHBZaXBMM3VnQVJpM1dJM05Oa19nMGlYdUdLUXdjb3VQREZvRGFORk1NcllDVktYcFg5UkRPWGF3b3hzajB6SF8wXzJTVXFVb3I5Yko5S3pCR0dPeVRLSnlrUDhwMWdIZEdkcl9QUW9YSjBHVlg1dHZ5YVNIdUFlU1ZFdTZpV1VZYUJQbkFTdklfQW1uempkMWktUkVRSTRWMnRoWFhGMkFQQXpvTmZPdHpXcmxrQ3pYTmVrUEc1cVJKNnVWcjFCdVBzZmNMNElkOdIB-wFBVV95cUxNWDdDWVVZVXVwQkFFLXFEYS1QRDllUDN1SXhfZU1vcmMxR0p6dXZ6U0VIR3F5dW9pZ2tna0dFaHpuSTZkZ0Y4NHBYUG85MFFHQnNsNzRiQnJJaEh6bnRLd2hUQmNrdmxJYk5IZmVxYW9SSUw1d3p5enIzRU9ENWVUWm9SbEU1bFM0MklQYmdFci1Vdk5iWUNTMWl1SnpEOUJ0QnBwckpXeUV6UVpFUjBkajVtVDZGUVVnSVZ6TEdJZkVKWHBpZktETE9YWndpV1I2bDR6TnBieGdnamtEaWZMbk5wY3g5d2JXY3AtX1pvNHVPNEx6TWN0M19vTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8da92d1589d3",
     "titulo": "Após regulamentação da escala 5x2, Lula diz que vai articular transporte gratuito no fim de semana",
     "veiculo": "G1",
@@ -197,6 +205,14 @@
     "veiculo": "G1",
     "data": "2026-11-19T14:11:25.000Z",
     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPU3JZSjBiM2tldjh5OEVtanZielZMblBKZXZDSFoxRmxhN185NV9DU1l6ZUZWMm13ZkwtNnNQQXhoRlc2YnA0elZ4Zkd4cmlUT19CeDluSktFSXJrQkEzenZZbHZIaV93RFV2MVExQm83YzhZdU1IbE9uTGkwWXpFVjliMWh3RmtLRXNkdTRsUHdYN2ZvZzhGOC1LRF9yVVQxOE1ZR0FaOEtlcGNmcm52dVNXemdTdmlZUzc1MWlicGl4VHlhOXVIMXJkaFE4bnhjMnA5NTZ3bUNzWnZfbS1LSmVvQVVLWkVncnpnZGVYRGRhZF9XcE9rZEFmanlqTUFQTHFlNXVJdw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:666c4f57bb03",
+    "titulo": "Lula visita cacique Raoni e assina portaria para demarcação da Terra Indígena Kapôt Nhinore em MT",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-11-19T14:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaEQtWjg1LXIyai1rWWU4NmFnZGFuemNKakU2RUVOVmdaMVhQZDNKcU5wNGo4VkhsWmtlUHpVQUtUTnFJMV9BM1I0WnFGVC1Wb3JpeFlYbUxPbkctN1pEMVY5ZUVjZ2ZWa0NwbkdUQnFoYTRqQ20tX1JteGxKV1pCYzNGRjFkN2dpSjdUZ1EzMFpCMm9GbFhKdjdWYXYtWUEzNkdDeEZBU25jWmJQQ2d2VVBjNk1IaVVnWHdWU1FmaDZNQzI4cUtTV2tvUzVCdExQU0EwUDFhZU8?oc=5",
     "origem": "google-news"
   },
   {
@@ -389,6 +405,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-19T07:00:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmJURkp4RS0tTl85b0pCMTJjOHd4ZTZLRVY2YkRocnZ4QlJYb3VlNDJKREM5NG1fNUx0ejRCdmdkVXVGM001MGxhM3JGWldzSndHRV9YanV3Yy13R3NXYkRVWUxtY1FBcGZWdEROY3ByeUluSnFPS19Ec1lIMXBFOEZFX3R5WF9LbFhpOUFQdEVGNFpSdzRJREI3V2xGT1I5WHE1RWNCaHLSAbcBQVVfeXFMTzB5a1hxS2lXTmMycG8xeFMwM1RUOVNPSUlQUU9tSExzalkxZjZ6bDVyVGFtMlMtSW42SWI5TFMzZzF6ek5ad2cwcGhLWk1CajFEZzZpcF9GWDZTWDBNem5HYUNhM3RtQU02M2k5bWxscGZSa19ya1hsOXUyVVM2UG12anl6VUkzcVNVbU5QX2JNQ0dUZ1RteDlEcmxTaDE1MHp5UGZoR2dJRklnVkVPdkVDakNpWXhz?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6991e18aa5d6",
+    "titulo": "Equipe econômica avalia medidas para ampliar ajuste fiscal após votação do pacote",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-19T07:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOX1kyVnlSU18yTjkyamFPNWhBSTRZQm5iRnJqMFM4UFlvSVBSV3l6Q3FkVGV5U1dwWWZuZzhwOGlaUVRKVEJZNFB1ZWVTai1QZ3pKQTZ0WlFtNC1xa1J0OHdNdHRMczJ3dnpURUE5cEpUX09fN1pKYko2NThKSTRxY0hTSWltejdzWWJOYWFiZjRESUdvT2VuNElzN0wwbjNJNnI3VFQ1SXRIcS12aGhaaHA0NGpXX3pubi02ckpoQ3NmTlMzWTdvbmUzN21SMWNPWEcxVDQxR0cwODZ2QkxoWWNkRVhnZ9IB9AFBVV95cUxPVGdaT2tlZVgxdFFKbWh4UUhuR2NHdGlTVG5tRDIyOEI3YWVqRGpNV1Z2UDVUOE5IN09KaHpGVWhMYURpMTZGa211UHBNZXA5aEJ0TGlLOFVad1p5V3VTX0dTVTBZb2E0Nl9ManRZNlpIeWVLNHNzYlhzUEQ1akwtNUdJLUQybWJEU0U2ekZ5bUFpSjJXU214aHlaRzhtXzhTTjJXNS1DNl9LVnpBdUJJcnZwVFZCX2RvSzZUN3JRNngwRTVtcGVUQTJxLUQwcDF1YWVFNkdNZ2h3ZjhFM0Z6c2NqbmFmWTczMmxQS2VsY0RsdGo3?oc=5",
     "origem": "google-news"
   },
   {
