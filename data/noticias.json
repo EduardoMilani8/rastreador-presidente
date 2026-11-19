@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:f384ae13ab76",
+    "titulo": "‘Enquanto eu for presidente, não haverá diminuição de direitos’, diz Lula ao assinar decreto que regulamenta escala 5×2",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-11-19T15:25:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZGNWakZJb3lCZWFfZ19nNmotMUpBaVFOM29TZWdrRjhURlliVFNXbXBlYzhCZ1lHY0lMRG0yZHFTLTB3WnVZU0dNcVpXcTZXQ0RCTkFtd1d1NDUxdTUzTDdFdXRYT29DWTJHQ21OSmJkWFpHUjJTRTRvN1l5ZE5IcTJxYUFCd1ZsMG93dEhJS3Z2TGxzZFktSGZ4Y29kUFJ5Wm5Tcm5zTnBhaUVTeUU1OHJQeGlwbEJYUGV3QXFoMGNaWXhTcjhqZmMtWWhxbGMteDFNNGNwLXY3bW93WnM4bXQ5d0wzUUZ1UnVLc0ZnMU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d26d4d443edc",
+    "titulo": "Lula assina decreto que regulamenta o fim da escala 6x1",
+    "veiculo": "Migalhas",
+    "data": "2026-11-19T15:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONWdOZ2xNa0tPV2ZUMTF0Y1FJdHpNenNaQWhfVGU2dWVHLURQcUVWb1JFTExTd0l6QmdUcjFfZFhwVnpIa1llSlpFTXBQMVMzZ1JhSUFaa2lCZElrSzNWWHY4MjkwRnpOSVh3aUN0VXFtYzZjMTVPbEdBZU9ndlNQQ1EwR3llVVlDYlptdVExaXZoQ3c4QmU4UWlWQ2pmeE0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5e2d3d7ac29e",
     "titulo": "Presidente Lula assina decreto que regulamenta a escala 5x2; confira o decreto",
     "veiculo": "Rádio Peão Brasil",
@@ -8,11 +24,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:e6c473866d5f",
+    "titulo": "Lula reclama de especulações e diz que vai indicar novos ministros 'na hora e dia' que quiser: 'não tenho pressa'",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-19T15:13:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOemk1MDBZOVZkZDhwdWhRSklQcldVc05seXFfMjVOckZwS3hXYWlOdTF3Tm5TNE16dFBDS2RaQnBKX3dabVl6cXdjM1REeGtjQl9oOFpaRW9PSkpSbjdKYjg5YU1ONGlPWENibE5qb1BWZ3IzSzUxa3BseFhyYi13N09Zb0VvQ1lxY0p5Tk54T2pxOXRSV0phbEhiRms0RWlpR2FPSDNUMWk0d2hnUjlHcmFQZFNfQnBXVFlJQzI2WnNZMXI4aHJiUzNaOG5DeC10YXNCZi1lOW04dDl1QW5CY1EwNFhKeksxMTlwb2MyN1BBbDBRMmhWTXdQRGlOUdIBjAJBVV95cUxNTExEeXRrV3d1MGVDOFdQTnduMUNPNHRDSUZkQmFmeG1QY19nUFZPYkdsamowVkNjTTRuNlNQNUlvejkyMnNNbTdDWHRHUDc1N0ZYdU1VSERSYVlqTjIzaTA3cERwM0ZTMFhCR1ZiVThRWGpUQlg0aDZaM2RYQmVFNndlZVNleFpUTGNVN3BpZDF3dGtNUzk3alhsZmh5cmJIUDQ5ejd1UU9lX0VGd1pFWUJTMEthQVYtcjVzLVdCSVVVemlodGcxX1pLQUN4dUpwMU9BQ0ZYSmJZd3Rld0hfNGQyWHVFU3dXUHFyV24wd1dTOVJGNXlETEZQdjNSUEJ0ZG1zRGxmWUVxV2Na?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:50a0c1b3513b",
     "titulo": "Lula: \"Trabalhador não perderá direitos enquanto eu for presidente\"",
     "veiculo": "TVT News",
     "data": "2026-11-19T15:09:30.000Z",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFlxSVlSa0xyWjMzTmlqMXJjR0c2QXRoYUI1UjFpWU1jejR5Vnh3d0lPWk14SDFlUWMwM25zVDVKd2lsYmdjcF9Qb1l0N3BGTDNTT29jSF9YeHZ0OWZFMkVhaXFqemlaWnBjZldKREpZa2xyVG0tbklTckJfekdkOXZscVlqV090ZzREWk1aVDV6dw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:ccd381ce9e65",
+    "titulo": "Presidente Lula assina decreto que regulamenta transição e fim da escala 6×1",
+    "veiculo": "ICL Notícias",
+    "data": "2026-11-19T15:05:28.000Z",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CZW53SkJxb2w5WWFLd1dPZVl2R3pfbW54cGc3STJMVXctQWxjTXlQQnltcGcwNGVOMjJsV2tlazJ5cjlNeWswcE5FaW5ONU1Sa0dBb0ctaHJrUGVIUUJIb0x5V0ZBWXNpMWpYTXpiem9MWlk?oc=5",
     "origem": "google-news"
   },
   {
@@ -80,6 +112,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:b6686c6f28ed",
+    "titulo": "Lula assina nesta quinta-feira (19) decreto para regulamentar redução da jornada e escala 5×2",
+    "veiculo": "CONTEE",
+    "data": "2026-11-19T14:37:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXNIM2N4Sk94UmlXTnRrTzJ0WE5EUHd4Uk1lWG9RVGxJZHJtTUpxWV90aFRZVnMzVVJJMkxDNHdJa2duYUM0MnRlVTE0dmNPcTBWcUhpR1FxZnhlWGdRRWhwZTNFQmtCQ0JjWXduR2VDUUJNeU90MWZOa0ZHUlNwQmRnQ05tZ2dwZDA1c19qVTU0QkptU0k4UDE5Q0hVbG45OFdxdWxBOEUtSF92VjJ1Qi1jajU?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:2b8ba21c8cef",
     "titulo": "Lula anuncia ministério voltado aos idosos e afirma que 'não tem pressa' para definir primeiro escalão do quarto mandato",
     "veiculo": "O GLOBO",
@@ -109,6 +149,14 @@
     "veiculo": "CNN Brasil",
     "data": "2026-11-19T14:16:56.000Z",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdGhzT0gtZkEtWmRaQUx4d3lpZnBpcFdEVXQydDBqOTAzZVlyYkNXZkFwQXk5SzNaLXhsajRDVHU2RDNNckZnUlVPUGtuaTc4ZXRyM1ZpOXh5eWdwM3I4ZVNQREM3cXlfVUJ5MURrU0FmWFhSWm9fWUNaMnhCR0tpcG5wdWZYdnpwSXRQVzBfVlRDM200UzhWTlZoTTVSX00?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:bae5b89c462e",
+    "titulo": "Lula prevê 'confusão' e embates entre sindicatos e empresas com fim da 6x1",
+    "veiculo": "UOL Economia",
+    "data": "2026-11-19T14:16:43.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjByWFNHR1pfNy1oRUM4ZGJyY2xFQ0t0cWtpQWtGT3NCbkVYZWo4V0Q0TEFfNG9KVXdPNWdyaDV1SU53S3lzM05MazJCQ1VHYUhUT253dTVuZi1jd0pZclZLd1VuSjZsUjVHdS1KbFRCYlRhZjMxdTF6MVBsWk5uY3NiOF9tNmVHbWxVclVvaExjN005aXpRbjg3cw?oc=5",
     "origem": "google-news"
   },
   {
@@ -405,6 +453,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-19T01:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNHBSYkxZT0FEY0pQLWQ2OWhnaFNXUlhVSHVlYVZuYURfS2JwT2ZVazROc2tQVWZyTlFGNzJNdmZub0Z3RWFWZGk4RUowZUVoVERnNWVzR2U4MS04OTFQeUFxYUJKMjhiTktYdVBGSFItRDFoMzFicFBOSllSZElaMG1oZm1PdnZPblNHLU9jdWdKSF8yRjVkWHQ0bmFNdFdFaHh1TzlscGdqTnFyYUpmbTFrZEpqUFdrNk4xajlR?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a3884466156a",
+    "titulo": "Opinião - Vinicius Torres Freire: Dias difíceis neste início de Lula 4",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-19T00:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ2pTQWh2TVlzWFp1UmJISU8tOXp2VElRVHhfWmR2RE1DTm1Kd3IzRm4xclRjWXM2ZG4wRkVlWlVSVlplQVNzYmpjQld1YzZHR3VCOGRDb1lkVFRZWEJaekx3NVdGVVVBR3cwbkRQOGZPT1NBalUyNi1xeXAzb0NCM3Z2TTlJSkhNR21tLVR6Ql9GaXNBazFtQ0pHRmZ6bWFRU1hQWlZn?oc=5",
     "origem": "google-news"
   },
   {
