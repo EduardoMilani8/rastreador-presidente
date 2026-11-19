@@ -1,5 +1,37 @@
 [
   {
+    "id": "google-news:5e2d3d7ac29e",
+    "titulo": "Presidente Lula assina decreto que regulamenta a escala 5x2; confira o decreto",
+    "veiculo": "Rádio Peão Brasil",
+    "data": "2026-11-19T15:17:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmpVYnczcjcwVjJ0LS1lVlR1dWN1dG4wMm5kMW10d3RnTmNISW9QNzBwUkh6elJaMEtEeFE4Rk9jSTI3c0wzQmw4MDc0WjZLemt4TnR6RmdPLS1McTBMaVR3SHBxeW9IZnpNNkp6Wkowa1FnYVhMMXQzV2VjaWVrOUJYQjNqbnNXaklwYi16cDlMYlFXUVZRdTdaaG1jdVlOMTk3cGVGdkIyR2RiYlE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:50a0c1b3513b",
+    "titulo": "Lula: \"Trabalhador não perderá direitos enquanto eu for presidente\"",
+    "veiculo": "TVT News",
+    "data": "2026-11-19T15:09:30.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFlxSVlSa0xyWjMzTmlqMXJjR0c2QXRoYUI1UjFpWU1jejR5Vnh3d0lPWk14SDFlUWMwM25zVDVKd2lsYmdjcF9Qb1l0N3BGTDNTT29jSF9YeHZ0OWZFMkVhaXFqemlaWnBjZldKREpZa2xyVG0tbklTckJfekdkOXZscVlqV090ZzREWk1aVDV6dw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4657ed8a3c4e",
+    "titulo": "Nova escala de trabalho 5x2.",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T15:05:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZkF3aWRQeHdmczRGZWp0SHU2U3pMWjZiSUFSd3o4WFJvWjl6WUNQM3JKaWNPNjJVTDZza1V3VnIxVEZQSWt5eDF0aUxodW1xUlJRVno5elFJTWdLdGpEWkUySFpaWEFFelpSR2thbnBqY3lpVktSOXNMaEl2ZGo4MExzTmw5UER4R2h1Sjg1aDdLTU0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:84b3a960c380",
+    "titulo": "Lula critica especulações sobre ministério e diz que 'quem senta na cadeira antes cai antes de sentar'",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-19T15:02:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMVU1YU1Kcm9UQ0xNc2FRMU5KdGFQQm9hTTRSN0c4SmM1dXdBYVBoZ2VJUnJadmZVR2VRdkVBTjN4YlgyUDFSeXR4WVdZaW4zY0VNMGhxNi0tZk1jNEpZdTNRVUVaQmJWN05BUEQwLWdxV0lsbmFiSjBtdTVoekhFMUUzVi1td3VOVm5pd2xjNGlGVE13UGNJa0JKVS01S3RFOEFtamR1M3Rhd19sdDRTMW1RUUxfRzVlM2p0RlZYRVdCRjhqTUs1bS04MDJXSWktbnJDOFpQVnF5bkJlUEhsTHJtdTA?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:547301881a95",
     "titulo": "'Cada ministério será indicado por mim na hora que eu quiser', diz Lula",
     "veiculo": "UOL Notícias",
@@ -21,6 +53,14 @@
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-19T14:56:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZVNuY1diMnpiM3M1bDg1Zm1tQzJnc1NYU3QzNWl4SVlwWFo4c3B4NW03SjF5UWVQcUxYTHlFNEd3MHdCVXI1OXV0czhrYWpkbnE4azAxWXBSTjVseWtiejhEUjlSZ09DWFFDT21fX3hKZkltNm1jdWVUY3hMa05CUElzdVlOakRCakZaWFVEeUJHakl1U2hlTzNCR19ndGFTV0sxanBtNkdxTEYtVXBOMDFNaXkxUTJNNWM2RWpKUG50cnY1bHdrdnpvTjdGWkU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:cc464105c61f",
+    "titulo": "Lula assina decreto da escala 5x2",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T14:55:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR0YwNmNNa2lxc1BnQTBLd1V6VmxjRHUzZUxTcnQzUDROU09WeGdqSWVDbzNYVGp6bWY4a0hsenVsYzlEYXJnaXhiWjFta3dGWWtzREtTZFExWTl2cnlDZ0NXcGNlQTcxT1FTRHRxX0xvYnNELXV6bDV5VkU0eE1uWGJZLVFUM1NlYTdBdEVDaURGYUlVNmxESHE3SQ?oc=5",
     "origem": "google-news"
   },
   {
