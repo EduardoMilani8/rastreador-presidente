@@ -1,5 +1,13 @@
 [
   {
+    "id": "agencia-brasil:2a216ee7f8db",
+    "titulo": "Lula promete manter direitos e diz que controle fiscal é prioridade",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T15:30:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-promete-manter-direitos-e-diz-que-controle-fiscal-e-prioridade",
+    "origem": "agencia-brasil"
+  },
+  {
     "id": "google-news:f384ae13ab76",
     "titulo": "‘Enquanto eu for presidente, não haverá diminuição de direitos’, diz Lula ao assinar decreto que regulamenta escala 5×2",
     "veiculo": "Brasil de Fato",
@@ -48,11 +56,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:4657ed8a3c4e",
+    "id": "google-news:43628b57df6e",
     "titulo": "Nova escala de trabalho 5x2.",
     "veiculo": "Agência Brasil",
     "data": "2026-11-19T15:05:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZkF3aWRQeHdmczRGZWp0SHU2U3pMWjZiSUFSd3o4WFJvWjl6WUNQM3JKaWNPNjJVTDZza1V3VnIxVEZQSWt5eDF0aUxodW1xUlJRVno5elFJTWdLdGpEWkUySFpaWEFFelpSR2thbnBqY3lpVktSOXNMaEl2ZGo4MExzTmw5UER4R2h1Sjg1aDdLTU0?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdzJNX1Z3b01PTHRHZjJFd2w4cUpSNXY3TEh2eEZadk5kblRCS1hiYkpsTE9RajhPNTZ3SFJFY2xTUFBYcXpJb0tramxuRmRDVllpNTBvWm9rUjJ0czhrNW01UmRPRmNsUGFEYW5kbGhIMnZ3QmVjczltTTZFMWtJaHdjR3IyMjZ2bUlhRDVfV2dsT0k?oc=5",
     "origem": "google-news"
   },
   {
@@ -88,11 +96,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:cc464105c61f",
+    "id": "google-news:0a0fba44af04",
     "titulo": "Lula assina decreto da escala 5x2",
     "veiculo": "Agência Brasil",
     "data": "2026-11-19T14:55:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR0YwNmNNa2lxc1BnQTBLd1V6VmxjRHUzZUxTcnQzUDROU09WeGdqSWVDbzNYVGp6bWY4a0hsenVsYzlEYXJnaXhiWjFta3dGWWtzREtTZFExWTl2cnlDZ0NXcGNlQTcxT1FTRHRxX0xvYnNELXV6bDV5VkU0eE1uWGJZLVFUM1NlYTdBdEVDaURGYUlVNmxESHE3SQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3BBRVluZTBQNEFfWlRCdWJtYVItZGNJdHFreTlMS1dzdERYOENPa0JySmxxX0RncE1iTFZucW5nc1VHajlKVHFWNU9pRHBtc2VXM1FDZWgxUXFId0VoVHNiSGxROG1SQk1lUTA0dFljOS1EcEZfSjFERFFzcnFKRGJubjhQU3M0UnY3OUlhRzBTQ0ZwMHNDaA?oc=5",
     "origem": "google-news"
   },
   {
