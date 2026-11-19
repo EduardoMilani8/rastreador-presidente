@@ -1,5 +1,37 @@
 [
   {
+    "id": "google-news:fc71f6290d86",
+    "titulo": "Conquista garantida: Lula assina decreto regulamentando jornada 5×2",
+    "veiculo": "PT no Senado",
+    "data": "2026-11-19T17:44:15.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQVpULTY1WUoteWtsTmpsWWZlNnhiQWZBYk84LVlkRlpBX0p1WFZaSU5lVEQ4aE0zaVNqZmhZUnJSbTAyM2NoQWYxUjdnZ1pRcHZzU3ZfYU1NX3VzUEktUHR6RjM3TjBrOTYwWE5Pak13U2xIMEU5Mm15cTFkVVJGbDFUTXE1aDRTUmI0TUF2QzJMNGN1RGlGWg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "agencia-brasil:8fe9e46b9c22",
+    "titulo": "Transporte gratuito no fim de semana complementa escala 5x2, diz Lula",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T17:43:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/transporte-gratuito-no-fim-de-semana-complementa-escala-5x2-diz-lula",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:a735bf5652d4",
+    "titulo": "Lula assina decreto que regulamenta escala 5×2",
+    "veiculo": "Extra Classe",
+    "data": "2026-11-19T17:42:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdHJCV2xDX3VzbFFmWS1PVDhVcFkyRHVPTWxla0F4SjVBNFl3Q25TOS12VmtneVNIQWw1Zno5Z1dTMW0wSGUwTURKaE5UcDUwSkZUczBYSGQ4djJDZlZHYkh1ZTh5MnBsM3pURGFVVlRNVTJGV2J6RU5mb3JIaXFUcFVkRTdDbDNqUUVuTXMwSlhpVncxeDkwUm1lWQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:57a87ea1c627",
+    "titulo": "Lula exonera Wellington Dias, ministro do Desenvolvimento Social",
+    "veiculo": "G1",
+    "data": "2026-11-19T17:32:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWdnU2VQOEVJTVVEMEdUSnpmMkJEVnpOcmF2ZllCR29LM2pQTjNJREp3bGJWUVlWTzZIeUVtVW5iUGhaWUhWRzFVMnNzZ21UQzFXUmtHVTVtTWpTR1lBYUd1QS1TTlk4UHVFRDRIOHJCWVJZbzVTT0pzN2ppR01OblJHWGViTFlaOEJzOF85MHVTRUF5LUhKLVNFZEkxM0RESlFlR1JCYnlDeHFRUjBDS2lpQUJvS0JwM2fSAcgBQVVfeXFMTk56X2xXeGlKLXBpOTN6RHdXcnRhMHhSb1l3OXlQY3JvMzRuUzVkSkVzWFJ0N24yWGxKai1LRVVJV25ha0ZhbGRaVXVKVjNBc1VHLWhDMzFQYWgwb0hRVDFRbGJ2cmdtUGJtM2ZsSklCUHRfaGltSWo3UGtRakN6cV9NdkhVa2I0Qi13eVAtOVJWRmE2VFhma1dYdDYzQXFoWDRxWGxhWDRBbEhYb2tYamczMXJIZ0wwZDNVTlV5dHRWYlJzY1hjaTk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a594787d9bce",
     "titulo": "Lula confirma Ministério do Idoso e rejeita pressa para montar a nova Esplanada",
     "veiculo": "CartaCapital",
