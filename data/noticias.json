@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:af98855253ec",
+    "titulo": "Lula regulariza terra do povo Kayapó e promete dignidade aos indígenas",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-19T20:13:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaUxxbnpSR2dLMlVFZ09uN0RNczZORzdYQlhLdG5UXzhaaWk2VDl2WnlHY29hOEpNdHVJR1Q2MEk5UjR1dlJ4NVB4cnJTbkZvZzNBWVlkYXFBWS02ZV8wdHlQOFVYZWZrZVNVQUpuaHJhNnpPTmdxS045YU5JaGQwRlNHcXhFRHhwTFU2aWZtZHhEeW9HbksycVhPZFNQb3h6UHVZdE8tTFB6WlFwM3g4cUVSYlI3RUdIUTNUNG00dlp3TU5lZEpoQmNDakNSdUZQalE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d2c34171801a",
+    "titulo": "Ao vivo: Reinaldo analisa regulamentação da escala 5x2 pelo presidente Lula",
+    "veiculo": "www.band.com.br",
+    "data": "2026-11-19T20:11:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEdEV1N5ZjhJbGlCQkY4djMwMjdVOFcyUjlWb3NWbUszSjZZUlNRTXlQakhsX3dJcG5FanFDNUctVTFjTEVaM05PSXB0dlFPNExzbUhaLTVONEZuM3ZHcmZMUEtWRWx3LUJRZGxXQ1VaYnhfdFJaSmphS3Z6Wkc4azgyX2M3RDYwTU1xS2J3dDdQMFNuNnNzeWkxZWFCT2pMSEFPaUluN0Vtd0U?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:96201cbb18f3",
     "titulo": "Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar",
     "veiculo": "G1",
@@ -45,6 +61,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-19T18:23:56.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOb0JKbDFSazdKSnFZMFhPbk1Lbl9WNHViTzZCemVhUDNSWFhnWnRfbDE1T3JfVUFfQXBrVlVnclNSTHNINUxLOTdMNnd1TDR2bWRMM3lneHE4NW1KVDkxRTk1NklGczdTMzdvc3NwQkxqU1V4M0VmTUk1RXBhYk9BY1VUX0pUbnpabGpmbDN2czJtR3RnZUFaY1gtYTRtdHJsaThQUHFZTHgzU3dSaWdweEU5cXUtWEtYV1daM3dSeGRTWkhNU0E4ZnhUUGhnT2dnR0FYVGlaRWoyQ3pyMUh6T2pESUZXTknSAfYBQVVfeXFMUG90LUc4dDZvZXVLMnBPRU5HcjBOblF4Zkp0aDlpWTdfek9YMjVKWWJGeXBZeVAwWnRxc3J2U18wRjhqLVRuWVl3UFZaVWhJcV90RGFfdEkzLXo0Q2VfX2ZWd1g5YUlyMEtIYzNCVGtfNmFXVXp4SGhuNnhNWFdjMktmaFZXSWJuVnJnQ1k1N1loWm1kc1p2MS1xdjRsaWlHVGxsd1pQQzItM2tSS01DMEJKRFpqNnpYRy1uYk16UEtIMkFaMmMtYVBpTUpxNkFRb1BTNUJIT0R2Sm12NWd5SUxPd3BBaElGWWZnSnEyS2tfU2Znc0dB?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:60fad872216a",
+    "titulo": "Lula assina nova etapa para demarcação da terra onde nasceu o cacique Raoni em Mato Grosso",
+    "veiculo": "G1",
+    "data": "2026-11-19T18:06:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOb09BVjEwdHp2Zy05bGVDMnQxNTIxNjN1NlNWR1Bjb1hhTkFkVmRfVk1yaHZzNWw5SzE2clJESjk4Z0hVM3JkNUFSaldMeG05LWxoYnU2ZkpvVkMtejRVb0cwSk1xQmZ0a214YVhFWEVNeElfS0hIY18tbmVnUjg4S096T1Q5WGdhZmJlQlZuYllZSDNKbVpMOV9fd3VEM3pETElEaHpMeGlSUUgxS2p5cEtXU1RQSXRFQ3BEUUlINHRZNThQTVNCZ0RxUHRERS00X2dzWk9pc0FNMTVfM2tJOUQtdzVwUdIB9AFBVV95cUxNSVlKN1lCSkozWU1POWNOYnZHVTZsUXQyZGtyYzN2QzNaRmpjYXBuUGdkSVhxMjZLQlN3cFlzM1BxazNSX0JLRjFKYUlVdldva1NhVk1tYjBYNVRvZVFReU8tRE5JUHB6NWxfRDA1SkZKa2pxdlpFSEZ4bzhKeDYzSThRd29wbmlINHZkTkJUMlRkY0VJTkw4WTdyQi1HeHlmZnEtMWVrWGs4NEdzWm1qSU9VRGpNWmt4WFRqMWRYeDB3aGlfRFF6NThLYnRycU5pUmhsTm81SzJUUkowWXFRSTR1OGwyR1BucE9yVm1PVzV6TXMz?oc=5",
     "origem": "google-news"
   },
   {
