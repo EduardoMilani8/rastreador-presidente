@@ -64,6 +64,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:fcb63a445a72",
+    "titulo": "Em cerimônia no Planalto, Lula declara compromisso com o equilíbrio das contas públicas",
+    "veiculo": "G1",
+    "data": "2026-11-20T00:48:44.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbUF0M1JYdzNwbzZBcmRYOHNJN0VIYmQyd2owVEVOY2pIUkpkZXp1Rm1fZFY4dy1RejdveVZyWGFFclMtcjVlN3ppdGoxMXB5dGhMbVh5U3J0WUZUUHYwSWU2S2JoTGZSVzVLVDkzVjJ2dkMxX0JOSnB0c1pLZXZDSlRYdE9tYTJLWUZ4S0RPcmwtVWNxN0FibEpILUJ5bHFUMFJ1Z0ppQ0cwbDZGc2w2YzFwYXBiYkZjUjlsWVZkaEhhVy0xT2ZCbU5sRnhaNW1vOS1oU0dUMldRNnhiSmdxZ2p30gHwAUFVX3lxTE0zUEJRMXBnRlpseXZpZy1MZG1mdTJvWVNKOEJpelNvLUI2TXBWakpEbXVuazJmS2NmSndLLVlFRXV3a09nR1FZLTU2eWZKRXB0bzZtQkc2M2hZUVZCRjc3emx1X1lqdzBBZGl3SU03Qm1GMjNocFBSUko3M2dOTHZyLXZtTmlzMUZpdU84Rm1Rb0x4ME85ZWttNjdjV2c0VkdYajZtU1FUTFJuN296TUVLbXNad242Z0FnS0pRV0Nib0pPcUd1N3E3QWZNcTV0SWlWUDJBc1FIYVlFNG1mYVBBZ25fWXdiTG1hcE93dUlQNg?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6fe6c04394f4",
     "titulo": "Lula assina portaria para demarcar terra indígena onde nasceu Raoni",
     "veiculo": "Agência Brasil",
@@ -85,6 +93,22 @@
     "veiculo": "CSP-Conlutas",
     "data": "2026-11-19T22:35:16.000Z",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNFJjSWlUQzR4anNTVlg3TWRteWIwcDRUdjQyLTl6VGZyWVRTQnpfUXpwOGFqczktcGZVT3hYaV9wTEluYTdRN2xFUncyajJqNHNOckZSSVpaekxRZzh5RUI0VVhsdlZMSEVWdktDZEhUeC1oME1pMC1IWEFWRUhDenhyS005SGV3ZXZ1ME00VTJkTzFJLTJCQ2lrakZzQW5QcDRUbjdHUzJLUUJETHc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2d160b686d13",
+    "titulo": "Vídeo: Presidente Lula visita Cacique Raoni em MT | Vídeos MTTV 2ª Edição",
+    "veiculo": "G1",
+    "data": "2026-11-19T22:32:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdl9HZWZzRndvTDR1djNfbXJzamEyeFNDaEhWclVQTF84RVJsOVhDNEFaSXZFNW91ZExHUzNLaFhIRHlGQVVRdUlaV085bGJEUEZXV1FIeEZOazNBUjZsQmFHY3lGdVFuV3FQLUV0ZzRaMFpHMTNld19tamNQV1AtMFg0eUlDSm5RMDhIOENxV21laWhtVmtOVDdIUV9Pb0pOUG5mNmdUeTlqRjVmQ1FkbmNZS09oQnBHVFpoRw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7164c8f07a42",
+    "titulo": "Em visita a MT, Lula convida Raoni para receber balsa de travessia do Rio Xingu: ‘esteja recuperado para ir comigo’",
+    "veiculo": "G1",
+    "data": "2026-11-19T22:11:06.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWWNLYzRQd3F4dFhwcFczcmxOVnRTclkwVi0zcXluelRBZ202VFJBQVRUUVF4aFZWNDhSdERmS1JHSDEyUnFOLVF2R3RodkNKSWNpM2pjVUdjOGdFSV9Fclp3ODVhdG4yYUo0UXI5akVVSkJRMGplcWhEMlo4QjR5ZXJqbERtazFBSjNRVk0yejByMmxhbU8zYmhxYk94eDZ3TkxBRTI4akRDaDVjZC1QTlZRSmpWUDlydUxjdEJIVUZLX0FqWGRuRHVKeE5LV2tkcXJ3ZkJGeFBvREE5WW9ESXQ5WUlsX2dxMzNPOWM5dWtIMzFKZWZJNF9ydm5ldDE4NlHSAZACQVVfeXFMT0RBbHEyTjRHR3laSjhiU2hkNnJ2R19jSWJPUTR2dXZ1T05YTlRsby1fcUgtS0xva0h5TUl4Y1FnOXRjWmEwbUFtQ2kxbVdBMVdaWWNwR3dpZ1JZMVNjRUl2N0tTSGFYWFRzWU9HakJfSy1QYlZMWHdXUkhQUGwzZlJ1blFDalhsYXY1VlhSdXhpbmFlaVJhTUotTElTS0c5M0JTcVlkZWhCcjdCYUdHYV91amlFeHJYUHAzdjhxYUF2OWVuM1dpYnBnN05XLTdRTHFlMGtsTkdXeXVvRm51dEQ2UTRubGZ5WGNOaTMyTmtQNzR0VHlrRVR1Y3d0Z3NvTHJyTTJYMGo1YXhIbm9VZUY?oc=5",
     "origem": "google-news"
   },
   {
@@ -853,6 +877,14 @@
     "veiculo": "Brasil de Fato",
     "data": "2026-11-19T14:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaEQtWjg1LXIyai1rWWU4NmFnZGFuemNKakU2RUVOVmdaMVhQZDNKcU5wNGo4VkhsWmtlUHpVQUtUTnFJMV9BM1I0WnFGVC1Wb3JpeFlYbUxPbkctN1pEMVY5ZUVjZ2ZWa0NwbkdUQnFoYTRqQ20tX1JteGxKV1pCYzNGRjFkN2dpSjdUZ1EzMFpCMm9GbFhKdjdWYXYtWUEzNkdDeEZBU25jWmJQQ2d2VVBjNk1IaVVnWHdWU1FmaDZNQzI4cUtTV2tvUzVCdExQU0EwUDFhZU8?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7d6a48e1706f",
+    "titulo": "Presidente Lula visita cacique Raoni em Peixoto de Azevedo nesta quinta-feira",
+    "veiculo": "G1",
+    "data": "2026-11-19T13:52:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZmlJV3lYSlVKNzJfbzFVbFdXM2o4c1F2YlZSZ18tRk9zNFEydUt3Ym1JRnNWRkVXYXFZa0M2MWk1eWZXMjVxZUZ5MndhcDhhUlVWd3JLNGZPRG1LR3hFbjE5MmFSQ1EwSUdVY0I3Yy14dHhwVTFEZlJFMUNNSERWUTlKeG1lZG9BZG1WdXA3SjFJTXFneFByeW4zNVBiYzlGbHA1a0UtTjA5d0ZCam5aZEd0RXJlS1dnU0lZQTNfdU9kXzRSalhxV0lMWS1kLXFndHZZREhQdm95N21hYUtBN3A0WG54dzjSAfYBQVVfeXFMTXMxUFMwOS1WOVhDUGZZS1ctQmg0dno1Wml5WVVvRlJwNnVsWnpuN3B0V0pyeVpPTVFHdUlDU1poaVpIWEJGbEZ6VmQzdU8tNENINGt4YkFfY28zeFJPRllNNmdKT2M0WkdxbkhiVUs3UmNjNC1UMFRTdC1pVmVaVVNScW9HOEdyWXlDTFNVVENTbU9wZkRibEZtWXdHa1o4QWFZME11Ti04dFoxS2luTUdOY2RpcURLTVBBM0dOdF9iUjE1OU1SNnI1bVZudW1yUGRXQW1Gd0Y1VUtyTmJHZk1LOHFudWtNSGhVTUY5RVh0X2I1SGRR?oc=5",
     "origem": "google-news"
   },
   {
