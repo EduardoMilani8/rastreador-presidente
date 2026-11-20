@@ -2566,7 +2566,7 @@
     "hora": "09:30",
     "titulo": "Assinatura do decreto que regulamenta o fim da escala de trabalho 6x1",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2585,7 +2585,7 @@
     "hora": "12:00",
     "titulo": "Partida para Matupá (MT)",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2604,7 +2604,7 @@
     "hora": "12:30",
     "titulo": "Chegada a Matupá (MT)",
     "local": "Aeroporto Regional Orlando Villas-Bôas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2623,7 +2623,7 @@
     "hora": "13:00",
     "titulo": "Cerimônia de assinatura de Portaria do Ministério da Justiça e Segurança Pública que declara de posse permanente dos Povos Indígenas Mebêngôkre e Yudjá a Terra Indígena Kapôt Nhinore",
     "local": "Instituto Raoni – Peixoto de Azevedo (MT)",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2642,7 +2642,7 @@
     "hora": "14:00",
     "titulo": "Visita reservada ao Cacique Raoni Metuktire",
     "local": "Peixoto de Azevedo (MT)",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2661,7 +2661,7 @@
     "hora": "15:10",
     "titulo": "Partida para Brasília",
     "local": "Aeroporto Regional Orlando Villas-Bôas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2680,7 +2680,7 @@
     "hora": "17:40",
     "titulo": "Chegada a Brasília",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
