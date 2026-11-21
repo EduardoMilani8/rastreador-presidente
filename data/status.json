@@ -1,21 +1,23 @@
 {
   "fontes": {
     "agenda": {
-      "ok": true,
-      "desde": "2026-11-21T09:10:27.153Z"
+      "ok": false,
+      "desde": "2026-11-21T09:20:20.079Z",
+      "mensagem": "2026-11-18: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-18: TypeError: fetch failed; 2026-11-19: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-11-21T09:00:25.709Z"
+      "ok": false,
+      "desde": "2026-11-21T09:20:20.079Z",
+      "mensagem": "2026-11-20 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=20-11-2026&secao=do1e: Error: HTTP 502"
     },
     "planalto": {
-      "ok": true,
-      "desde": "2026-11-21T09:10:27.153Z"
+      "ok": false,
+      "desde": "2026-11-21T09:20:20.079Z",
+      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-21T09:10:27.153Z",
-      "mensagem": "Error: HTTP 429"
+      "ok": true,
+      "desde": "2026-11-21T09:20:20.079Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
