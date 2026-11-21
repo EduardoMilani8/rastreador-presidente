@@ -6,9 +6,8 @@
       "mensagem": "2026-11-17: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-17: TypeError: fetch failed; 2026-11-18: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-"
     },
     "dou": {
-      "ok": false,
-      "desde": "2026-11-21T03:50:18.003Z",
-      "mensagem": "2026-11-20 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=20-11-2026&secao=do1e: Error: HTTP 502"
+      "ok": true,
+      "desde": "2026-11-21T04:00:28.905Z"
     },
     "planalto": {
       "ok": false,
