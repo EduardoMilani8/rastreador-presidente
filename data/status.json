@@ -15,9 +15,8 @@
       "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-22T21:10:20.671Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-11-22T21:20:21.660Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -32,5 +31,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-22T19:20:18.899Z"
+  "ultimaNovidadeEm": "2026-11-22T21:20:21.660Z"
 }
