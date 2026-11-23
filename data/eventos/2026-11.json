@@ -2869,13 +2869,32 @@
     "historico": []
   },
   {
+    "id": "agenda:2026-11-23:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-23",
+    "hora": "09:00",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-23",
+        "coletadoEm": "2026-11-23T16:00:36.595Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-23:11:00:1",
     "tipo": "agenda",
     "data": "2026-11-23",
     "hora": "11:00",
     "titulo": "Ministro da Defesa, José Múcio",
-    "local": "Palácio do Planalto",
-    "status": "agendado",
+    "local": "Palácio da Alvorada",
+    "status": "alterado",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2885,7 +2904,14 @@
       }
     ],
     "confirmadoPor": [],
-    "historico": []
+    "historico": [
+      {
+        "titulo": "Ministro da Defesa, José Múcio",
+        "hora": "11:00",
+        "local": "Palácio do Planalto",
+        "registradoEm": "2026-11-23T16:00:36.595Z"
+      }
+    ]
   },
   {
     "id": "agenda:2026-11-23:15:00:1",
