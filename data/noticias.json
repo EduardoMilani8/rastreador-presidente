@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:8a1f177750d0",
+    "titulo": "Segurança Pública é prioridade para o presidente Lula, diz Zeca Dirceu",
+    "veiculo": "zecadirceu.com.br",
+    "data": "2026-11-23T11:17:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUWxGUm1EMUlpQ0NVVWhlam5Fc0o1T2pfbE01akVqZTBGYXNhM2VzM3NpQVpVQlpvWlc2b1QtSkVsdElYWmRyRWF4bmRYdTRmRlRTNkZMdHNXRzdWbDlydTFaSkRnbHFCZ1l3cUQ5NS02NW1jOEpHbDBkQW1EdU5rb1dIRWdERDJyM1pzeXB0emdlY3F2UW5EeF9ZaW0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:99ab96264b95",
+    "titulo": "Lula não definiu ministro da Fazenda; anúncio fica para dezembro",
+    "veiculo": "Poder360",
+    "data": "2026-11-23T10:16:55.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTmJBeTVuWHYwRE5zeFk4clNWVkNwQkdpcE1QcFlwdkFjUDNfUUpiNnFoWGhQLVNRRnVfQXJEZEVRaG1WdUR2V0V6X1ZEa05RYXlCMWRPaWREeWx6b1h1UFVzZmlicHB4LUFnbkV3b250NUk4YTI5cWxWMF9pRTlXQTNUOERjRXBxOG1OVUFLR0gxV0hVbTh4OGIxd0FLRTFlRUsyY3FkdndaUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e7f2c158bbae",
     "titulo": "OPINIÃO. O que Lula finge não entender",
     "veiculo": "Brazil Journal",
@@ -53,6 +69,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-23T03:05:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmVhZ1RHX21nY0F6ZlQtbzRiSVZMR201Q05XSk5hRzdzN0NLRzVCZC1aV2FUTXRVemp3dThBNTZqYUZYWWduVFVRNi1HODFYNXEwMHNTTlZHUWpINF9KQWp2LVljTFlhTEpSRXYwSDNCb1YtSDNyUHFBeWhRa1VSUVNiQkZpN3IwQVRLMHM1NHFlalhmc29xOFBUUHllWElQWlY3LXdJUU5XaUhNUkHSAbwBQVVfeXFMT0d0YzJ0eS1MR1M3T3JuazN3UEVtNG10MUx2eThwTXdzb0NhTDdWR3JJb3ktX3pWYUZHQzhMYmU1dmJzWnZHWWk2X2RoNldIUldrOXNoeVNnVy1wdGk2MHJNa25HTU1iSnJWeFNQdElhQm5zUFZSc0hOSlRZWUZRTkZKOV8xLUhsNWRZOFpoWEVnSjVWRnN4c3QyX05yZXU4OUJpeVlocTNRVVBoc2pJd3ltV1BHVVFscHhYWWY?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:42de8a2f963f",
+    "titulo": "Com Lula reeleito, Petrobras anuncia hoje novo plano de investimentos para 5 anos, que pode chegar a US$ 120 bi",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-23T03:00:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUmxmRjlsd09yM2RTVGFpN1FacUE1c1l0NWd6MlZBaXJTQm01T0VEUlpwNVZreUU1REN5UEZkZXdiVWZTRTdMRFRFb1lJOUhubE5oWi1mNGExTGpIMTJESHJQbVJldUVIZkpFVDZxemZKNDBPR0ZlRkVNazFJaU16bmtXVHA1ZHQxc2lzSUo2a0p5Ykd3T3JDMm9zdVZvS3FfU0ZiWjNOc0ZsNWhTQ0x4TFFiTVRydHNfOEFJNFdqbk94RmJQaFJxQVZOZTlpTnZqMkhjNHZpTURIcWtzcVZFaUNldXdjbzNvU1JsaGFocjJ5Y0hGdGFoOXQtT1c4WHJrZ2xLcWRIQdIBlgJBVV95cUxQSUFlU2dEamhkQkhmbmxWNTlvWHdDeWxVbTZaTEZTRm03QnBPZG9jY2NRUWZhdTdNX09pc0pldGhBS2ZQZ0dnQjdiOXcwUnFkRXhsdmE5bEpJX2tTZGlscU81MFJvMm5LVE0wSHptQndjX19MblNqeDZ5TS15X2RJRFU1eVVjTDN3SHBWZWRxN3hNektSWUxVdnpUSEhZcXVfVnNaLV9JM2FGeDhQQUxOcktqUG54NU1tcC1URTBfYlo4Z21oTENJR2RPSDVLYnNrRUJDMENVSjBUZG54bDFwOHI3TFpCYWxUNW9vOUphREpBQzN1Sk1KUHFQMzBoejl2aWpFWWU5NmltM3dOY1BjZ0EzRDdLdw?oc=5",
     "origem": "google-news"
   },
   {
@@ -229,6 +253,14 @@
     "veiculo": "UOL",
     "data": "2026-11-21T20:23:27.000Z",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMFVyN08zNmRwVnFyN19UbWFOblhFOE5OSXp6ZWViUDB2ZmhNY2xPa1BDNnk2QzlQVXNyREJlLU9Wb3JXUE13TEdTckpOUjFBU0s1X0VPNmpnT0hjY1pxV0c5c3lYanpJRTVjMUtzNE5WNldVdVNXMV9IaGUwUDJnbFFrZElUU19Iblp4eUtLRl9wZlpfTTJzaDRQUXFLQUdSazVrb0dvUWdEdkZuZjBrVENYNnRSdEFDOER2NTFLckpmdnJlTVpZ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:da91ce9788a7",
+    "titulo": "Lula articulou reunião entre Xi, Putin e Trump: ‘Falei mais de uma hora e meia com cada um deles’",
+    "veiculo": "Vermelho",
+    "data": "2026-11-21T20:16:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb1Fwcm1WUVFCQ0kta19RNUsxc2dyRFZKbzVTdkl4blJoX2o1dmZrSDFVLW1JdWFHelZGSlE2dlhKSllzSm9RcE5EYUczY0RiMEVUeDRZLVBrRm9YU1EyY2swbUc5V3RCbG5mc09BNlI4MGNtQS1sWUxza3czZVd4WXF6MTJGX1ZrVTFlbUE2cVpFa2N2UEZTc0tmZS1odHZBSnRtcllxaDdVQzJxaVdIdlpYYnAtSUl6ZWFXbE1vdXFwMmZzRlVLRg?oc=5",
     "origem": "google-news"
   },
   {
