@@ -2691,5 +2691,43 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-23:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-23",
+    "hora": "11:00",
+    "titulo": "Ministro da Defesa, José Múcio",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-23",
+        "coletadoEm": "2026-11-23T00:50:26.830Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-23:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-23",
+    "hora": "15:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-23",
+        "coletadoEm": "2026-11-23T00:50:26.830Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
