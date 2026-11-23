@@ -1,5 +1,29 @@
 [
   {
+    "id": "google-news:bf6898c3388f",
+    "titulo": "Como funciona a transição em um governo reeleito?",
+    "veiculo": "JOTA Info",
+    "data": "2026-11-23T13:01:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2I1d0s1cUV2UzdXOXFiSWllT2dIR0xCc1BFU2FqVVhVM2VRcHZNRkprNnBTR3NuWFFvS083Y0N6SlcwUUktTXUwaUNVeDZVYmRmQXBETFZuTUg3TXp4MVI3NWRhUElfT1hnNk1XYndadC0xYzdsaFFPdDdJSjUxcTB0UWZoTC1JTndjblQ1a2ZYUHhaYWIzXw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8ee93b90aa29",
+    "titulo": "Lula tenta aproveitar reta final da atual Câmara para aprovar pacote fiscal",
+    "veiculo": "CartaCapital",
+    "data": "2026-11-23T12:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWTA2RlR2SnVmNFNhbFo4RlhzdVFQSmJuc05JYVpfWlktWFZwX180b3A2NGlXR3d4WXlyWU9sZmxuY3puY1cxd1dmQUlkM25BUGRHT2ZNajdlbHpLSEtreFlaUUQ2NU1RVmREa2g3UmRwWk93azdYdGR5amQ2aDdWdVhoWEVQSm9FN09IM1EyWDQ1UWZ2ZlVTVkxldFd5eGNVQkxPYXdPNUxXUEtpVHBYcmZ0b0E3ajBn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:117818a8d7ce",
+    "titulo": "Lula deve definir nomes para compor novo governo nesta semana",
+    "veiculo": "CBN",
+    "data": "2026-11-23T12:49:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYjZxZUMzeTNJMU1wejlJY2k2SlJIMHhNVmJLT2FIOEtLRzROclZ0ZURudlFYZFFTakFibUZ1dHFQazVnRWZIUWpmUXlwR1J3NVRzdVczMUFiaXd5OEFzckk0aEx3d3VqTFBTY1I0bllfNkdtN0RsYWdSTVNzSGNRTkd4c3NqQlh2cXhOOWxlclRCY3d0U3dzV1ItalY5NXYzVTVBakRIdnhtMVRqMXlqNXgteHBUZXJ60gHHAUFVX3lxTFBSNmd5dWUzU3B5VDF6SkxjLU40WDdJN2sycWJrMEMxSVljSEExQldmWFJFNlpJVnFtUXVldVQxZXFsWlotLVJRWEZnR1NFVWVmV1hGOGYySmdBSTZuQ013WXl4cThZbFhYX1RTZjNlTV9mVXZXcndlRXdYZVl1NEdZUXpjSnFORXBtUE5ZdW15TjRvVnhNY3BBLW1FY2h5emtaYTdmb05HNkRHXzFlcWV3b2R4YThVT1Job05RWnVPVFBNTnNCQ0U?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:deff138339dc",
     "titulo": "Mesmo com ajuste, dólar deve seguir em alta enquanto Lula não indicar nome 'forte' para a Fazenda e novas medidas fiscais",
     "veiculo": "G1",
@@ -320,6 +344,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:cdd95c02e8b0",
+    "titulo": "O destino incerto de Marina Silva no governo Lula 4",
+    "veiculo": "Estadão",
+    "data": "2026-11-22T08:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnNaZW9HZktuLWRocVlLMElWbHAyOElHSktiTDZ1UFZpdjZNQTBMNE5XVG9TMk1qR0dscjR1aGU3emQwYnZjTTZLMk1rSFE1MXNyWmtDQW9wbzV0UkZGZ0ZnMnJFVTNpZ2RpZ2xLdExtbDJ2TUhla1VuOUxZdVNFYU16VUUwR3lLRVhNWTgxRndENFVOMTBGTVJlR2R4b3RlLW9zZTRFS1ZKQdIBrwFBVV95cUxQNl9VRVZWOFZMV212ZDJrT0NZWTBNbVVJN250eWxxdW5OdWFuSjBxY2FlaTI5aGd1dGFsbkFrY3FPNE0xa29CcVRKcW14dTFvV2llQlVCOEFBanR5dnloUXdudnN5TE9YNGRRYXJfQ1VvVGtrQlBSQUpQZWszdHA1X1VzcHpXcXVHc1FpbFpRNzc1b3g5eU5iNXBMaEZsR2dVcUpWbjN4MDcteG5ubzdB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d2a089e0ae30",
     "titulo": "Centrão entra no jogo de Lula para garantir cargos e facilita aprovação do ajuste fiscal na Câmara",
     "veiculo": "Estadão",
@@ -478,6 +510,14 @@
     "data": "2026-11-21T17:12:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:099ca811bbf3",
+    "titulo": "Após críticas de todos os lados, Lula defende pacote fiscal e diz que não deixará a Faria Lima ensinar como dirigir o Brasil",
+    "veiculo": "Seu Dinheiro",
+    "data": "2026-11-21T17:01:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMzhYc1U1ZWM2TTAyNWl2TEQ0andaS2stdWVyMnJBcTZuZXZEbGpsMmlxTFJ6aGhwNVBmaklRNXl4U0pvQ1VkamoxM196V3JacVQ0aHQ3TkhVOWdTRWVhLUhDYnExSERLZms5d1pLQTZVTVJpVXNrMkQ3X3Z4OThOVFhaSVZxaElVUjR6Q2dHWUJPVi1kbVVxTlg4ZnJIbHU4TlhVMUc0ekRmTXZpU0hzTnEtVno1TTg1SDdERm0wNjduRGtBS2lLLXR1UGRoczdrV190eVlvODNRYVZpdE1ZUU43c3VaVWxXdGRJYmtJdGdYM1ZjbUgtVTZxWEJKVGls?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:298eea810790",
@@ -653,6 +693,14 @@
     "veiculo": "Estadão",
     "data": "2026-11-21T14:39:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeTVObDJOMjFnbzRaT2ZZaF9SV2t3X1RkN0tWdXNUWjdJMUFSVU56SDhQbEp6cFZQN1M3VDBJVGczNFplWnhkZ3F6VHJINDdua1Jkc21rU0R6WW8zanhOM0lVVHNNdVBqLWY1WVFyOUJUVXRlTWY2MFF4blN4SmZLeFdJWl95blh5M1dKUVpJSXUxMDF0ZC1mYnhvMXUxZ1HSAaQBQVVfeXFMUGxBX3dJczZmSVhrN1ZEM1Y4bTNPdi1rMFJkMEFxZy10ZkhVM29JVXBZaU9xUDBzUWk1TUhjdkNid1plMzFXSGJzcEtBcENXeHhRbUg3RlFvdEUwMU8xMTNRWEFFVFI2UktuNWIxNnl6eGVSRndQWDhmZkZDVkYtVmZHNnl0cjg2MnVrMlFGMkNJaXB3OHFSdGpfNnF0QjBmSXpTZFE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:17e59262d500",
+    "titulo": "Lula diz que governo ‘fará todo esforço possível’ para devolver normalidade a Tupanciretã",
+    "veiculo": "Sul 21",
+    "data": "2026-11-21T14:33:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTE1Gell5QzlIeld4WmRGdE52NWFHZVdRUURtS1FjaloyVGtiS2F3Y2M5NExiR3ppMnZLSDhUMFdOZGhJaS1XTGFXWkRMRFEyclRkbjNHTDExU1lWZGpaa2dQR1ZfbjA2TmMxMU5qSWljV1NlelFKLUs4alBIbkJycGxIWllsQnRrMXpJWFVjV1RwcEVlX2dwUlVuc0czQVFKQ3BnWEZsN1YzSWItZnM0LWhTcGQwUzFDeEFwS19MamMtQTRfX0hpX09EY0FUeE9M?oc=5",
     "origem": "google-news"
   },
   {
