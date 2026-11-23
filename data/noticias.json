@@ -32,6 +32,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3f7c28b34d47",
+    "titulo": "O que a The Economist prevê para o quarto mandato de Lula",
+    "veiculo": "brasilagro.com.br",
+    "data": "2026-11-23T08:07:03.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWDJtUmhTMHB3UDYtUWp1Yk0temQ1b3prV21YSThTRmx2Nng3ZGh3NzdLMkhFd1F0QmJTS09kT0lUd003c1c0c0VUZS1Ib1NUelV2RE1JZURCS0U2S0NRNzF5bnVVMkhSZVBOa1FtUS04LURJZTQ1elZZNElqa19manRaVEhtaWJhYUZmV3YyOVJPR3hnYTVSc2ZpSlhOMGRhZDI0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:759831c29197",
     "titulo": "Real se desvaloriza mais de 17% desde vitória de Lula",
     "veiculo": "brasilagro.com.br",
@@ -64,11 +72,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:236bc6b00934",
+    "titulo": "Lula e STF apoiam Davi Alcolumbre na disputa pela presidência do Senado",
+    "veiculo": "Gazeta do Povo",
+    "data": "2026-11-23T04:52:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlhEVVE0ekpicVdIcjN0aXNXWFI3dnVfOWM3U2NVczExV2Y5akhJLXlwLV9MSDZhaG5ZRE5FWGRac3d1bWhkSjdIS2dTVmt0WEJiWEFRaF9fTnFHcVFLdHcydFA5X3NTSE1kcGtONWlfOHpjaXVhZ0p5eXF1eldNSzZXNU02ZHRrWlJwS0hXU2FVdVdldmxSWjZxM00zOXpXcEJ4UEM4TC1VQlhybUZtb2E1YWFQeGVfXzNYTzdSNXAxMk9Vb2hN?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:1c250cb821bd",
     "titulo": "Lula precisa de conselhos de uma deusa",
     "veiculo": "O GLOBO",
     "data": "2026-11-23T03:05:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmVhZ1RHX21nY0F6ZlQtbzRiSVZMR201Q05XSk5hRzdzN0NLRzVCZC1aV2FUTXRVemp3dThBNTZqYUZYWWduVFVRNi1HODFYNXEwMHNTTlZHUWpINF9KQWp2LVljTFlhTEpSRXYwSDNCb1YtSDNyUHFBeWhRa1VSUVNiQkZpN3IwQVRLMHM1NHFlalhmc29xOFBUUHllWElQWlY3LXdJUU5XaUhNUkHSAbwBQVVfeXFMT0d0YzJ0eS1MR1M3T3JuazN3UEVtNG10MUx2eThwTXdzb0NhTDdWR3JJb3ktX3pWYUZHQzhMYmU1dmJzWnZHWWk2X2RoNldIUldrOXNoeVNnVy1wdGk2MHJNa25HTU1iSnJWeFNQdElhQm5zUFZSc0hOSlRZWUZRTkZKOV8xLUhsNWRZOFpoWEVnSjVWRnN4c3QyX05yZXU4OUJpeVlocTNRVVBoc2pJd3ltV1BHVVFscHhYWWY?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:235b4e6f817b",
+    "titulo": "Câmara vota projeto de ajuste fiscal nesta segunda; projeção de economia é de R$ 50 bilhões em 2027",
+    "veiculo": "G1",
+    "data": "2026-11-23T03:00:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZXhQLWlIaWpFa091VVUyd2huVE5ZazRpMC1HTmpSSUhxMEZnS2gxRnBXZE1ubHZXZmh4MzJIb2wyaDlNOGZwbDRPclY5bGd4Q1RXaVVyNFdWOEJ4clY4bDQzQ1h1SUhLcndpNUVtUHVlNmw4WEJBMzRmOExoM1ZycjFBSTdPVEdTRmdncEgwU2E4SFRhVG9XY25ocnY3a05udDZTSlFzM0VBTlN3SnNmUVF2VlgxeERwVDNzMHZYNkVVMFRJXzY0OWpOT2t0RzJtMHdrWFd2UVJCaWhFRGlNeVU2aHZEYTDSAfYBQVVfeXFMUFloUnZPZ3lJYUtZMWlpVGJsNkZQNUw2RHQxd05TMkw1T1hfb0JOZzkzelpJWWhsdk9jcXJ0bjVrQWVZc2ZRRXZzNS02QkRsU3d6S0Z5c0pLX3dnS1I0VFlobG1objAtQlZiS3Y3LTRBc0RfeXhyQXFjY2RuR3hva2JCWEFfclJqaXpibVhTd0hCRTNxSDBURkdNVUQyNXpUaGdmLTdDZFBqUl96WDl3ZkJHMjhuSnZhZHVBcW55UWwwZ2ZSV3dySVNUZkdsQWdWRTBSSUh6TEJodDMwajRqdDZoX3VQM2RHSzZ2bk8zd1dlREVFYmR3?oc=5",
     "origem": "google-news"
   },
   {
@@ -181,6 +205,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-22T09:11:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbDUzRm5IQzhaVFJYZTZsMGR5TDVZbFlsZnVkYkN6cW9MeGRSdk5yb2RFUlRnSGhkVVJ1bWExbDlMQTVYd3I1allIaVk1NFgtSURyZ0RMWU92ZzdSM3pYdmpIR2FJRU0zOWVNbUk3NmJrbTFya0hfQTVzVV9kSnM4NHRiNWNWTmVkOW9zbWlKVS1iZEtuU2dFdnlsWXg1S2N2bjhVZHotNnEtLWMtVDdmTUZhSHlGOEp6TlMyU29fMUZGcV9UWHdONzlnM3BodGpoQ3dwWHVCaEd2UTZLbGlBTnh30gHiAUFVX3lxTE1sNTNGbkhDOFpUUlhlNmwwZHlMNVlsWWxmdWRiQ3pxb0x4ZFJ2TnJvZEVSVGdIaGRVUnVtYTFsOUxBNVh3cjVqWUhpWTU0WC1JRHJnRExZT3ZnN1Izelh2akhHYUlFTTM5ZU1tSTc2YmttMXJrSF9BNXNVX2RKczg0dGI1Y1ZOZWQ5b3NtaUpVLWJkS25TZ0V2eWxZeDVLY3ZuOFVkei02cS0tYy1UN2ZNRmFIeUY4SnpOUzJTb18xRkZxX1RYd043OWczcGh0amhDd3BYdUJoR3ZRNktsaUFOeHc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:d2a089e0ae30",
+    "titulo": "Centrão entra no jogo de Lula para garantir cargos e facilita aprovação do ajuste fiscal na Câmara",
+    "veiculo": "Estadão",
+    "data": "2026-11-22T08:30:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSzRUVkNEZWVfTWRXcW1IUFp3bjU2dmZMYnlxQXhVSTh5b1VlYlh3STBuM0F1eHcyTXE5ZVJpdDEzYVBqeDNMTk1UQTlCd1g3SjFFTTVzQ1ZHbVR0Y3JlNnNBN1pSVXRkSGNOc2tOSkFoNW9nUXg3T2I0OGlJVUQyR1pDLThLbV9wR3FoYm40aTREREJaOWpWbU42VU9mOEwwN21SX2cyRnJySDBaMG42Wmp4RlNmbVc1cXV5OFF5eUlTcUNoMXljRGRZcTh6alJyM1FFTldhWXdKcGNSV3VlaXppV1BsYjNO0gHuAUFVX3lxTE9SX1oyaHNiaWZ0WmE5YjRiMjhkMXFKc1J4SkVObTY0Zkh5ODF4NFh1U2ZMRHNrX3JfRGViQjNWdnZWT2NCZGJkNEFfdkZkS2RGN1BVaTJkXzhNeXFzVi1Pa3U5S1p0amw3STY5VjdnQlFDdG9mWklOOGNsTC1Xa1B0UFJXV3k3M3dKd2w5dGRHeFR2Y1ZPVmF3ZGlKTmZxWlhIWklQblJUSVBwZ2pmaFExM3AxVGl3SEpIeXkxNEdJQW1JWWlwdGxfSzZka3JLaXVPa0E5UF9jcFpodjktTndOSkhadTkwOTNTOWl0S2c?oc=5",
     "origem": "google-news"
   },
   {
@@ -560,11 +592,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:f3f41e316469",
+    "id": "google-news:c34ea6c2a9aa",
     "titulo": "Fim da escala 6x1: veja o que muda nas folgas, horas extras e jornadas após decreto de Lula",
     "veiculo": "G1",
     "data": "2026-11-21T06:00:00.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTHBLanpKR0YwVm1MNTl1Znd2a3FMQ0RaNWdHQnB3TTJFYkZveW13QUFqNlVNZVg2WDhrTXE4MnVkQldVSVZaOXBCM281MHJuQnVvb3NKbUg1c09QazlhTzZ4MWdWM0RFakk0ODFsWnozNXVMR2UyYWVIeHpJWmFPbmcxQmVwazl1Ni1mby16WklfU0NtV3dkRi1nd3RyaVRBSTN1RnJ2TGlnMmYtWm9VWnJOWjc4bjVySlNWbG03VzExZGctZXhVSVRYMzZpZk1xUjdSSGhPRXdkSzZGdUNoZUFTTkRIQ0VRVS1B?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTHBLanpKR0YwVm1MNTl1Znd2a3FMQ0RaNWdHQnB3TTJFYkZveW13QUFqNlVNZVg2WDhrTXE4MnVkQldVSVZaOXBCM281MHJuQnVvb3NKbUg1c09QazlhTzZ4MWdWM0RFakk0ODFsWnozNXVMR2UyYWVIeHpJWmFPbmcxQmVwazl1Ni1mby16WklfU0NtV3dkRi1nd3RyaVRBSTN1RnJ2TGlnMmYtWm9VWnJOWjc4bjVySlNWbG03VzExZGctZXhVSVRYMzZpZk1xUjdSSGhPRXdkSzZGdUNoZUFTTkRIQ0VRVS1B0gH6AUFVX3lxTFBubUhTX2tRTGZrS0hxaFhIajY0Mjh4SUF2N2lvNTg1VjJacUd4VXFUQ3g5Z1ljSWdRcUxJeXo2bThnOUJpNVJMZWloMEhMR0doLXpic2h3MEdURDdSZGNNMm14el9fY00zYlZnalJSSzhWS3R4MThZSEUyakF4TUFpUHpoczdUMTFpWHI0bVNnQjlNeVpqRVhGWDZtc0YxckFNVEFSLXlyWFFxNVUtd2JwMDZtYlBjYnVnMmp3bFVRWTVZOGM5Sk8ya2N0c2Q3LS1nVHU2SXNJRXNSMXMtODhpa0lMbFlkeURxYW45RW1GcFR1VTZaRXVOT3c?oc=5",
     "origem": "google-news"
   },
   {
