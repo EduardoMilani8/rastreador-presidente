@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:a1a02149ba41",
+    "titulo": "Lula chama ministro da Fazenda e da Casa Civil para reunião sobre Petrobras",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-23T17:39:36.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSExGTTNTYjY3M25TZHAyM1pfR1AxbkFhYTE3VjR0NnJMMGlhQmVPRnZGdmZnN1dLQTlWUDZ3X1FtSFZrZllrcDUtbEJDMzkwenE4bHlFS01ldjQtbTVkLXJkYVJpNVI2Mlo4bVVhUkJjanpmR2x3TmlybzF1a0JSTGFoNm93NU1xc2FjMUZMaDBfbjZNSzZPZ3NGUUhfUHE2cnZLdFFaSjhXalduazNDYlQ1TThlZzB5MkxleEZPWUM1SENxLVZZclZKSTcwVDjSAd4BQVVfeXFMTXpBYndCbndyaFY4LWpUd1FDLXRtYTc5S083MlRTaFl0SWNLMWp5MXhlT2twVkNOV2p5VFNjMWk3cVhIUXVlcVUwNFBJQXBWVHYzUjNWOHVHMEY0LVM5NGY3TEJ3NXFVZk9jNmdVcjBPbG55UF9HRm1QWExBSkV5UXVwdkctUlJNRHF2ZXdFT1MxUnAyaFpUVHhYN05vdTlvUXkzQjZkMU9HbWY3Sk5QTHI0NzVXbUFfMjB2T29yOEFQWlJsZnpPZGVnVmIzSnlxcHBaM3FjYW4xMXpjRFFB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:78f702aa6d65",
     "titulo": "LULA EM MADRID: ATO DE SAUDAÇÃO REÚNE MILITANTES BRASILEIROS/AS",
     "veiculo": "Partido dos Trabalhadores",
@@ -341,6 +349,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-23T06:30:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSmJHR2tGQ0hweVlTa3RSaHY5WS1pNHdQMUR3TEhhRFFQTzJDaXpqRGQ3VjVKcmlzV2hjNWJWdFY1NkVuNnlDeDl0NDF2bzVma0lRazVna2dQQlB1TXItdEd6cU8yYkRid2UweXJvbS1va2RsTG5NdnRfcU5SUDlPTHZKODJlM1ItdGhZVTAyZGlkaVBZYjlvb3hCa0lXWFd6QzJOY0J6a3dNNzBUQkJOWXJ5czdCeXotWlUtWVBSZE9jSG9NUXlvaURYUmdGc2NST3JQM0Y2VF92bUxyZ0ZOVGoyVlBiek1UV1NFZkZrRFk3UdIBgAJBVV95cUxQd0wtamJDLTNUQXpscXpQelJZdVpHdWFWaElXeVFoVFRTeDk1bXRHUlVJa2xJSnZpOGU5ZzJ5UjI1Tnd1Q2x0YTlWNWJQaGF0YnJSYy1KeU9JbWQ3MjlMZzBNc3FVMEF5UlUtS3FOUE03MVZ5U2IybUNSSGZUdjBJazJRZm1LNnVxRzlVWEhrQVpacmprVzRMSnNFY2U0OVRlRDdUcHI0X05kQ1FwTm02N1p2ZXVtSEU4V2x1cDZERFFkTlFYa052cjZGbTZYcG5VM2c3d3Q0VkYxVmJFa1hNd25BZll6clAyVlo1XzdxYkY3aGx2ZkN2em5tOWFRQ1pO?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5e7f97c7f10f",
+    "titulo": "Presidente Lula conversa por telefone com a Presidenta do México, Claudia Sheinbaum",
+    "veiculo": "www.gov.br",
+    "data": "2026-11-23T05:17:34.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNelpHcXFtWFRWRjZTZkt0a2YxNHlmMzJ0LTBnV0N5d1ExRDZULXNORS1HMlk1SlE3dzFWaHVzQ3BhSDdON1hJdFE5RUFhclYwcDVUTTBPN2ozYVhnQTJIU2h3QmNiVGs4ZE51ZDU4Q0hGeUZRUjZkSWpWdjc5bWxMTmYway11NnZjUTQ2UTh1eEFEa0I0VlhrWEtPSDV0QkpYeVd2QkVfWHh3MHpxbmkxUjRJY2hka25rRFRSY1o2SnJiNE9RdGR1YTVocFVvTVRBRzROdjdkbmlVUHVEQVZEVXp6MjN5cGFTYmdnVjBaelBUZFVoMU82bFRIYnY3WF9DbkZMUmpnNEJXbGt3UkNLc2V5Z2NKeUhCWHJUa1huLVk0QXhiR3RCY0pIYWNGdnZxcXVsQUYtNjY2bGxwaXJQTk1NWm1oVUZhdVBQRUxnMHZXY01jeklGN3VKcmxNZ3VDR2l5ZUlXRzZ0ZDByemp3eDdvR0RuMVdVTjNPa0xJNndsZ1JESG9ZVVh4NTlxeGZfZWF4YQ?oc=5",
     "origem": "google-news"
   },
   {
