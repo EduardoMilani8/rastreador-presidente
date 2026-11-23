@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:66aa9185800f",
+    "titulo": "Mães atípicas pedem reunião com Lula após promessa de benefício",
+    "veiculo": "UOL Notícias",
+    "data": "2026-11-23T14:00:54.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk9VamVTXzNQM0lVX3ZyTXV2TzlfM1FNVFUwQ04wc2RFUUhWVXdVbE1IYVZlZWxiOUZreTVrYlJYNDhFT3NvX1hYVGpRZUNQSjFZWWNFWUdHdGFjSnAtckhIODR5UURSSVRqNExOdm44d1M1cnU5cHZQZUFaa0NOLUxkNzlRSDQ0b29kUGhnc2JRN0MyN0xnYWRUSGZNeV9rV0NmR3VkYkl4Zlo3c3U1UVdCbjFRSlF6YnRoZjdDYmdPd28tenlZSDBrZzY?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5a97b4515ade",
     "titulo": "Lula prioriza Planalto e área econômica em montagem da Esplanada",
     "veiculo": "CNN Brasil",
@@ -8,11 +16,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:5356ee35fb30",
+    "titulo": "Brazil’s fiscal adjustment projected to save up to BRL 56.1B in 2027",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-23T13:18:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR2tydlJ5VEl5NWI4c2hhQVBhcHdOU090YUxCQmNmblpGSHNBMFFIcEFDUXdvRW5kN1l6b1ZqaHVCbFJtMWJabkdoX2NkSVF2aXZGZWl3WkpxZi1UM0ppSFczOS1NN2hZX1VCaXpENURSYW80cklKcEs1OXRMSWUyRkpPalQzemxaUzJoUWUyMVZ0Wll1aWg2Vm93ODRjbExGVk1UOTJTeUtuNW8?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:bf6898c3388f",
     "titulo": "Como funciona a transição em um governo reeleito?",
     "veiculo": "JOTA Info",
     "data": "2026-11-23T13:01:01.000Z",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX2I1d0s1cUV2UzdXOXFiSWllT2dIR0xCc1BFU2FqVVhVM2VRcHZNRkprNnBTR3NuWFFvS083Y0N6SlcwUUktTXUwaUNVeDZVYmRmQXBETFZuTUg3TXp4MVI3NWRhUElfT1hnNk1XYndadC0xYzdsaFFPdDdJSjUxcTB0UWZoTC1JTndjblQ1a2ZYUHhaYWIzXw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:03c30bcc7599",
+    "titulo": "JOTA Principal | Câmara vota ajuste fiscal do governo Lula em rara segunda-feira de plenário",
+    "veiculo": "JOTA Info",
+    "data": "2026-11-23T12:59:11.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcDZlNHR6cnJIckVtVWlTR3FOaDNEWHdfZDBkQjdURGJlQ1N1Y2I0QldsMkI0ZkVvSzZNcVVFRlBhU0FmQ3ZkSHpTUHptYVF5OEJCeUx1M2FWczdYTFh1SW51ekhHMVBoUFBxQmVVYlBTbUc4X3MzdUoxN2hIWldyYkthZi1CNU4tal8zMFdlaw?oc=5",
     "origem": "google-news"
   },
   {
@@ -109,6 +133,14 @@
     "veiculo": "Correio Braziliense",
     "data": "2026-11-23T10:48:33.000Z",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVUFUZGJ5U2hMOXVXd1NSbnBPcjBoU0o3TDh1YjVJU3QwODBxMWZaYTVPR1JZOGVhX2l6Y1RKMXVMamxtOEk5aWRZR3NoWHh1bU53cEQyUWc0N2ljd3JZc19jZWRUUDk3ZFVwRlBMUG9yNTFxOTdpNklpdDhkWVBjbkxVSGZiUWJ6ODA4bERiZGlMSVNnX1NUTnVoS2lNQThOaVZDYmRXMnVXcEFxdEFSdWNYWHI?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:3be7264da1e6",
+    "titulo": "Sánchez tenta impedir vitória da direita na Espanha e volta a citar vitória de Lula",
+    "veiculo": "G1",
+    "data": "2026-11-23T10:33:27.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbVVJZVB6WHBrYllNYmVQYUVuMUpKWWx5Qlc0M0MweE84dHVnaTQ2dzdVVmlhcHJzODZsTVVkc1Jqc0p2SnBHUG81MjQ0VTV5S1AyTGhxYlE5SzQwNmhSMGFWcjJZWENhLVhsV2RGN05kVzV0WWQ4TlpTMkxOVHlmZkRJS3hfSHUxcVFrc1k4dkJfVWFva3luNnY2NnFsbDZJQ2g0dUkyMUpIc3BVN0dTWGRYR1c2QdIBxAFBVV95cUxNazdZVFJrX0pBbHlyUV9fNzJjREIzSnFxOEhyQlMtV285UmxaTnVrWTBFSXdKVk1kaDVKV080YlM5dzM2YlE0OFE1Zmd2U0g0MWtDM2kxaW9kNGoxekk3RzFEYmhvVGZhdVI0TlRTdXplZDdxOXN1R2hwcHlLWjZGMENYMUVSWlZpc0M3OGVYcWt6ZTZKRDY3ZDVXcGhYdEhfRG1Dam1rSUhwajdrMEVrZ0ZWRThaYUg2S0V2Wkw1VW10TGJr?oc=5",
     "origem": "google-news"
   },
   {
