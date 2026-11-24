@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:5c43d3fbd5e1",
+    "titulo": "\"Trabalharemos pelo impeachment do presidente Lula\", afirma o deputado Guilherme Kilter",
+    "veiculo": "brazileconomy.com.br",
+    "data": "2026-11-24T23:31:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUh0RDBfemhWMUhOSW11QjhuXzkwQlk0bGZYWlZNYkVfbm93QlZqVlduN2g5MXRxai1wZlBSWUxIOTkyVTdCS1JJUjJFaUVqNXlrakVXdW9QWlJhWFNwcjBmeXI2eG5BSGJwTFQ5MGFCZ1RJTkc2S0syNmhDd1Q2Q0tpWUhjWmQzbzlRc2ItS2NTcWpSU1dOQWotdlVIRE56N0F0Z2V6UzdCYkgzVDZzN1RVakFDMzNVYy1v?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:aab812db5d98",
     "titulo": "É falsa lista de ‘países que não reconheceram vitória de Lula’ • Lupa",
     "veiculo": "Agência Lupa",
@@ -16,11 +24,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:ef5fc3328146",
+    "titulo": "Em nova Carta ao Povo Brasileiro, PT diz que ‘nenhum interesse econômico’ estará acima da ‘vontade popular’",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-24T21:49:59.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYU8yb3JBZEdKQkJndDNmdG9fWC1mN05Nb2NkRklWWEFqMlY4R0RsWVNCdVN3dmZuMklOaEJxYzhCMDNBQ2tBWHp2c1pwRE1wbHBJbmFoQVVDNkxLOVFOa3pJMXNVZmFJdTZuTjd4QmRRX3p5ckgzb3VpUTJORVlkQVJDcGJRV2VRS2RENl9WNnUtTFNDdFg2RV9nNUtkVlBYT1FVaXU1RjRYVGs3VlZCclBTNEtBMHQxQzhGX0lkZ0hYeGdERWkweU5mSDVCczFTcktCYnl6WElWOUxjMTBvMGlJY0lCSjcxN3R1bFlYYU1sUdIBgAJBVV95cUxNRVpIbmxCYzFzb1Z2TEcySzFWbExXdW5PVS1QQWpWeEZSOUE0ZlhaZXNpZlVxV2djV2VtLVpRWWwzVTViUW9DaVVhRkp4THExLUg3SnFZeXlnOXlEanhzZmk1NWxLNHY0eGVhbnJ4VC0ydUZaNFA5STlaZHRMNVMxV2xoM1BpeldYMjRBZXd0ZjM4TGJtUzR1UUt2QkhaN1lyUGhrbVhnaERGNlRXREFlRkUxb01YVjBpdEROUGVuQVBDVjROdzh6OHhTWGpsdU43ZXJFX1pWa1R5cW5Eamc2bWw2YTlQV1BDN0RDU1phenM4ZVRLZkt5SXVkWngwbGtt?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:b40f66df1422",
     "titulo": "Lula recebe novos embaixadores e pede mulher latino-americana na ONU",
     "veiculo": "Agência Brasil",
     "data": "2026-11-24T21:44:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSUJwWGRtRGpCWjJ1VV9zbUptM3A4X0xRUDlHWDlCVWVKamlpQ2hyNklfYklsZDZjVVRGYU92OG8wdWY3czRLcGNrNWF2cVo4bFgzR3czOVhRc3JHSFh3MndHNDBfUGFTa050T0pFWTF6RDlvVnpzbGxXTE5CcW1XUllYRUxXRU9CQXczUjE3Q3VtcW1jNlNqcUJYZkdqUnN1a0haVjFKMVhFdW5uLXA4N1lzMTRCNUdjV1N3SHdmelA0REN1dk1mMkdMVTBMOU5wVnZjbkN6T1dUbkZqMS1Z?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:4bca9d3e93b4",
+    "titulo": "Lula avaliará se buscará entendimento com Poderes sobre supersalários, diz fonte",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-24T21:31:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOWF4LUd1MzZQYXU2aFhJQTBGQTlETHBvV0ZhNlFfU28yUkp5MHdtbkI3Qk9LMjFva2FmQzVWMGoxMTBEUHV3RGgwSjhHcXZVRlphTHc0VmZUbWk5YmhVV293cUN3WHR6ajBSZzRkN0h4ZXQ1U3pISy11Y0syc0dlTE9lb1FjSldxaU41UkpoRUdYZlZrUVo3RjhyaFJySjVqLXlWRzh2VjZWQ3h2dV8xRnQ2ODJHYW55SEVOV182N0VJbXM3QWd6NkNHUUdRY1pzMFhV0gHiAUFVX3lxTE9rdHJXdXJsT2h1a3hxbGhFZTRMSjVJa0U1eDNuNENKenlnR0NnZW9reWVsTlUyNGs3Nlk4bGhIMEU2N3JGOUMyaDJfUGZuM2F0SXJCenkzY05RSndId0czckFfS1N2ZnkxVF9qRm5PbHotUWllT0pqTjUybVJidm15VC15aUMxS25aUEhicVBseUVsQ3JPRlRjbU1TeWN6aHAzVW4wNWJZaVRET2N0eEZJT3pkVV9rWnVqblFiZkhuU3NSby0wanF3QjJlUXRfRlR2LWV2bkRxREtpb2xFRXBSd1E?oc=5",
     "origem": "google-news"
   },
   {
@@ -85,6 +109,14 @@
     "veiculo": "G1",
     "data": "2026-11-24T18:30:42.000Z",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNa0FVUEZELTVDTEVhNG1RRFJlMTBQQ1p4Si16bFN3TkEzRHN0Q3RfMmdxdlpvclk2b1htcDNvdG52ZmxQYjJMdEswcmJtcHExbENFeGZJb1M1OWNhd1Nta3hDTVdVZjJubnUtVW8tQWw5QmZubHM0bnZRMWtMMkhrdnZRWHQ0Vjh0bExxc0VSelVQVl9zWkI2ZlVIaUVWY3NrS09Ralo4ZkVFUVdZY1pCaGtOLWNSUWdZVjg4QmpvTlNfT2FIMjNSSWhpMEQ2ZUZGUmRNSzhhSDZQQktRMXo1NWlPa1piMDlpWGZKN3o3dFROaUh3a3NVR9IBhwJBVV95cUxNRVpZTWJybnNTaEpGSWdiR3hJMGFiVC16TnF1OUg0TFFQWjh5S0ZlVEh1ejJUVVB2ZkkzN2h5OXByXzdkVDQ3d1llMHhCT3ZJVzhKc0FiUnRrSXhySDBiR3lfSFRfd0tsb3UwLW9pdkdfU0VieUYtYWZiVkZicDRLSlIxUXBrN2NIOEI2QzR6Smh5MEl1WEw4YzljckhVZ2JHdEFSa2h5STg4TnI1VkZIbmdRS0hYOFEweWJld09pS0YtSEV0M1FpYUtvbERnWkEtUnQzMm5UcEE4elExZHBraHVSa1JxNkotLUtMUmsySHdaOTZaVVk5TFJaZkFOR2s5MlY1RjVDTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e1a51b7339bc",
+    "titulo": "Milei é desconvidado para posse de Lula, diz jornal",
+    "veiculo": "SBT News",
+    "data": "2026-11-24T18:29:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2Exc3NOWjRMdkZiNVVjZ3phZUhYNDdtLWJRUDBXVm5FbG01SzBHVExGTXI3S1V2aU9WOHB4WFRFaVZ5eVEtVVlyRWYtQmlSYm5RdUVuUmE3b1UtbUc3dV9xTF9NNnBQRVdLZ1lFQlU1NVYwN0ZRbjRWcjhOaUdPS2RxMGlUekE0RmlSQlR5Y0l1NTVZRVE?oc=5",
     "origem": "google-news"
   },
   {
@@ -160,6 +192,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:352c3f6db72e",
+    "titulo": "Corpo do jurista Fábio Konder Comparato é velado nesta terça; Lula chega a SP para cerimônia",
+    "veiculo": "G1",
+    "data": "2026-11-24T17:30:30.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYktyU3JvNXZoZk80dTh4QUJ0cG5wMlJGZVU1ejQxMF9kcWlaVmZubElvT2pFOWJsSGRfSXZENmhzNnpXUnlEa1cwb3pjeTdaSEFBQ2FNaUk1UXZycEJSQ3lvNTJaTXB4TnZhV201Smp3dnZvT2RCOGhqemNrOE5MeXVzYlBaams4MHlCYVpiMVlIbENDTjJKUklOWEdhc2tjM3kwLWlpV1E5dGRzMkNnSElYZ0dmZjVkZmdv0gHKAUFVX3lxTE9NYlMtd3dmNUExanJJQ1lNNVVuZjFGWk11SzhfNEYxOTNSX3ZPUWphUVJXRXAxWTliQ1NWemhNZ1ludm1KMzM4bV80MjlxUi1aOGE3dDRrUnZqQ1ZXZmRPVHBGV0VydU5sNkVENldXaVdQN3UtNnVNc1M0cnpzeWQxeE13Z2Ewb2tFZ1JzQnY1ZjB1QkZPeFN2T3U4eEQ4U3R2bE1KaXZJNC04dzY3T2JYMkVVejhKc2M4bWNTVFdVLXhhTFlSS1JBdmc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:045be3438e06",
     "titulo": "Posse de Lula: as atrações confirmadas e o que ainda não se sabe",
     "veiculo": "BBC",
@@ -213,6 +253,14 @@
     "veiculo": "UOL Notícias",
     "data": "2026-11-24T15:55:35.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0tTZWRnSDV0R1hKeEU4UU5hQ0RBZUJGZE0zXzN5UGNPRWtVMF9qVGVkZ2NtQlhvMndVaDdYWllpdmg5NGdpRWphckF1ckJ2TDdpZU1lVjNZUkNLSG9VcWwxdFdSNHZNdVZPSmxFYlRPY1lPTGJYa0lRYi1CZURQUW1na0dxMXJfc2tnNDEtaTRWdkFqTWQ3STR0Vng2cTdDdmc2UkhXbU1OUEFtbG5SQTdkTkliODlnMjFOQmdzTFR5RERHZERPdWxPQ0xKb0YzS0tVSlpWYnU?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5078da391096",
+    "titulo": "Lula lamenta falta de acordo na COP31 e cita tragédia no RS",
+    "veiculo": "SBT News",
+    "data": "2026-11-24T15:51:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHI0aHM3Q0V0RldwZG1vQzVTSE9pS2otLS1VQ1F2eHFEbkt5NGlZRjBtNnZBUEswb3VjRjFBNDdReHRpWEIzTE5QWGNESmhLUGswZEFGQ2hHYW9VbElzZXNwakZBcEhPOFF1SWlyTnBoNUdLd1JrU2M1bHNSS3huVERzajdzbWwyQVh1aDJOSHlsbkFmZktMVmt5NnpISERQajE3MFBRYw?oc=5",
     "origem": "google-news"
   },
   {
@@ -280,6 +328,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0495df6206b6",
+    "titulo": "Lula sanciona lei que garante R$ 115 milhões a RR para custear impacto da migração venezuelana",
+    "veiculo": "G1",
+    "data": "2026-11-24T14:53:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSnhQN3Bvd0lSTV91LWpkZjVtS0R2RTY5c2RNYkZ6b18zNEp3OGkyNFhRQm1pVDV5ZmRIQ183cVFQX1Z2VTh6NkdSSm8xT1ZHYkZzU0lMeHNhWFdQTC1DSHc0cnJvMDVtd0lVZHBXWEU4WmtpQ1l5aGZDX0F1bWFiRUdFVjQxVFpUQ0RQSjdHd3NpZ0VFU184ZlItdHBJTUlEZXNuZWd5WTRJM0dOYjRHSDg1cDI1aHZzSG1fMHlsc0c1a1dIOEQyS2txdnl1T0ZWREM0cl9OYnFDaXJHcUxteTVERXrSAfMBQVVfeXFMTkxfd2NzQkt3WVoxMHJjYjNDNEJGWmtzMEJWZGZjRTdPdGdIdDVFWjlydHJEMktFSW5NTzJKZmRNWE9xVzZwMm90UUZCYVo2WDExdTVfbG5CNU96WWpocDhURFlGNWRMTV9XWExKSGdWMmwxNGxjU0UyQktibnZqZmxFeFB1STlMM3NlOWoxazlxbjdSd2RSdnZKTnRyT29iLVU2cEFjVXJEcUV6bVZFajhWZ2g4cXBEOFQ0VUgwUzRsejAtZzRsLVpJSGhMYllOX19XNi1ibjUxVE9vZGUyQWxmeDdOci1tSUZNV2hlVU5tNXM0?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:24aaf317e6fa",
     "titulo": "Pacote de ajuste fiscal; veja o que muda nos gastos e supersalários",
     "veiculo": "Agência Brasil",
@@ -336,6 +392,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:c3abd6d49fb8",
+    "titulo": "Lula deve negociar com Hugo Motta espaços no novo governo",
+    "veiculo": "SBT News",
+    "data": "2026-11-24T14:01:48.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZWczd29YSkxLNlFkM2hpRTdEY3VQNF9wVUthd1VhMC16cXNNU0t3NFQ2UDhNQm9zNGFZV3M4YUZqc19fYUxVeUNHTXRKUVFUOXp3RXd6cUo4YlhYd2hWR2F5N051TGdoSW14czMxcmVFSW8xeWhxSmc2VGlZSkdsbFg4OF8yLWU2cGFRWC1FaVJSaXppLU5ub21wSk9nbDdJN1drRjBva01nVU5UZUE?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:6201f6498058",
     "titulo": "Quaest: Classes D/E, progressistas e liberais sociais deram vitória a Lula",
     "veiculo": "UOL Notícias",
@@ -365,6 +429,14 @@
     "veiculo": "G1",
     "data": "2026-11-24T12:59:25.000Z",
     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQdzFOQUgzY1ZaN0RYdkZTZFdMSS1Ka3RqQnlxSklIckJPUkxHdHBEM2cwUk5xckhzVGJtbUhlUl80NzJJSzNnVWR1SkpJaV9JZ2pETmpKQS1RM2kyWXVPLVdpM0s3YS1DOGpJd3M1UlJUaXBPeHk0dzUyU0psMDdLUTY2bEwxMHdwb3AxU2pIVjNhcUJyTG5IS1BPNEF5TkR3WnNTZGh4WmpPOUUzbEhkdW1mVmFzN1FKdlBTQ2NSY3AzbXlkZjhhbklPZGxiaWpteVFNOWtSZjZwblNFU3MtTzVZOVA0NzBvbFFEY21qZDBwZzd4MVVsMjZQTWk1LTgycUZETjI5OXBLdlNnRHk1b3VEamfSAaMCQVVfeXFMTlFRbm1kUzVHS1oweE9zejZVdTJQUVRESFpZanpSdG9VdHNzNUJjd3lwbU9OTUc4aE9HNjd4endQaW9leVNha1Qya2ZkN0pWTllpbS1GaXZCQ1ppX3RYWnFFbzlmdFlrVU5hZmxSN05ib1pvTWhzazVPdERwbjllVTI0SEtPcERoUWFEOElFcExpY0x6eTBwT2I5aGJWSl9vellncFM3d2RpcVBEOEFBanVIajZmbmhYUE8xOUtqT1pXTjFoNmlQUlFIOVZ0cUxHQTFnb0xBMENCNnlhZkRCN25nVWhJVEd3TGdjbUlJaGhvX2VkcGdBM1ZWc3ZIZlQtRzRiN2RZcFZtb1FlcFgwU0pvS2ozc2pUOU1Qb1RkbkpHYzhr?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1e616818bf1b",
+    "titulo": "Quaest: liberais sociais lideraram virada eleitoral de Lula",
+    "veiculo": "SBT News",
+    "data": "2026-11-24T12:51:23.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEZPVzJrU0JZZkxyRk5CREJGQmM1UXlISDU3Z1FWTjVxZUYtemNfSy0yOW9FTUxRUndYbmNweGRWV29OQjVjdUYwdklkamp5UXl2OW9nTUQwczJLSktiN0JGVzJwbTgxQmJIQ3B0X1d4aVZka3ltM1ZXaHVSeV9BemtvSk16eDZpOVZkaWl3MjE2UlJ3WEYyZ0t2VXEzaTQ2SDFKNQ?oc=5",
     "origem": "google-news"
   },
   {
