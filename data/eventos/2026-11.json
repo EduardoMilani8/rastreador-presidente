@@ -2931,5 +2931,81 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:09:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "09:30",
+    "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T00:20:33.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "11:00",
+    "titulo": "Cerimônia de Entrega de Cartas Credenciais",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T00:20:33.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:14:40:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "14:40",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T00:20:33.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "15:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio do Planalto",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T00:20:33.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
