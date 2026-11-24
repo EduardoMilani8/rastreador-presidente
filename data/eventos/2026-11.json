@@ -2993,13 +2993,51 @@
     "historico": []
   },
   {
+    "id": "agenda:2026-11-24:13:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "13:00",
+    "titulo": "Partida para São Paulo",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T15:30:36.746Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:14:20:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "14:20",
+    "titulo": "Chegada a São Paulo",
+    "local": "Aeroporto de Congonhas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T15:30:36.746Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-24:14:40:1",
     "tipo": "agenda",
     "data": "2026-11-24",
     "hora": "14:40",
     "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "removido",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3009,22 +3047,68 @@
       }
     ],
     "confirmadoPor": [],
-    "historico": []
+    "historico": [],
+    "removidoEm": "2026-11-24T15:30:36.746Z"
   },
   {
     "id": "agenda:2026-11-24:15:00:1",
     "tipo": "agenda",
     "data": "2026-11-24",
     "hora": "15:00",
-    "titulo": "Ministra da Casa Civil, Miriam Belchior",
-    "local": "Palácio do Planalto",
-    "status": "agendado",
+    "titulo": "Exéquias do Professor Fábio Konder Comparato",
+    "local": "Cemitério da Consolação – Avenida Dr. Arnaldo, São Paulo",
+    "status": "alterado",
     "fontes": [
       {
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
         "coletadoEm": "2026-11-24T00:20:33.482Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": [
+      {
+        "titulo": "Ministra da Casa Civil, Miriam Belchior",
+        "hora": "15:00",
+        "local": "Palácio do Planalto",
+        "registradoEm": "2026-11-24T15:30:36.746Z"
+      }
+    ]
+  },
+  {
+    "id": "agenda:2026-11-24:17:10:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "17:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto de Congonhas",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T15:30:36.746Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-24:18:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-24",
+    "hora": "18:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24",
+        "coletadoEm": "2026-11-24T15:30:36.746Z"
       }
     ],
     "confirmadoPor": [],
