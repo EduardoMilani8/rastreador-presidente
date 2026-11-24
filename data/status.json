@@ -15,9 +15,8 @@
       "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-24T17:00:36.983Z",
-      "mensagem": "Error: HTTP 429"
+      "ok": true,
+      "desde": "2026-11-24T17:10:18.978Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -32,5 +31,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-24T16:20:25.520Z"
+  "ultimaNovidadeEm": "2026-11-24T17:10:18.978Z"
 }
