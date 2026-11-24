@@ -2977,6 +2977,24 @@
     "historico": []
   },
   {
+    "id": "planalto:presidente-lula-recebe-cartas-credenciais-de-14-novos-embaixadores-no-brasil",
+    "tipo": "comunicado",
+    "data": "2026-11-24",
+    "titulo": "Presidente Lula recebe cartas credenciais de 14 novos embaixadores no Brasil",
+    "status": "publicado",
+    "ementa": "Cerimônia no Palácio do Planalto marca o início oficial da missão diplomática de representantes de países das Américas, Europa, Ásia, África e União Europeia",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/presidente-lula-recebe-cartas-credenciais-de-14-novos-embaixadores-no-brasil",
+        "coletadoEm": "2026-11-24T18:00:37.792Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-24:09:30:1",
     "tipo": "agenda",
     "data": "2026-11-24",
