@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:10e7c315ff66",
+    "titulo": "Lula abriu arquivos de Bolsonaro, mas mantém sigilo sobre gastos e decisões do próprio mandato",
+    "veiculo": "BBC",
+    "data": "2026-11-24T11:33:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYmY3dEZfenlpQVJHOS1VblVPNXhHMGZ1OXVxdlUxWGtUTU50cjZOQWVhbjZ6RkV2MHZDdVc1VWZNdUlhRmNFVGN4QUFTeG5Pak5hVFV5WWZ0TURfRENnOXNKRXdsbF85QTdTa3pFOHZtT1dRVk1ZRkRRUnVEWjNLb0xlTkUyeUdjRGsxOTNkNFNEUGF2ZWJ5OTFxS1pMTGZnMmhORWkwMFBHNjdvcjJmaW1kNTIyTktjVDBrVVJIdEh3NGc2eEdZc0l2MVBNQ2xPSE1QWjBHRG1DWXRDQ29ERnlXUQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:06881ab4c0f0",
+    "titulo": "A lista de 'ministeriáveis' e a revolta de Lula",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-24T11:27:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ1ZaWWJoNTA2Mk9id2J1UE9hSFZhbXFxV1NMTFNNV0NvQVhrZ016SWJ3RUUwRWRWdWE0OF9nVUlmMjFLMnBXaHRxSDluN3czUzBFX25yRVRFYzlqemgyMjRWYnJhZ1R0SVoxb2JCemhndVZjakl1NWlSdkRDeGNzMDdPTVZ5QTBhbjJyS1pDYzZFX3ZjcjQ4N0ZaZGhCZHpXSEw1bzJSNm1TdEtk0gG7AUFVX3lxTE16cThydzRQNlpQR3hxU1lwa1ZucFNjV1JwRmV2RUF0djYzSFB2MmdDbkpUbzZTZnhEVFowaG9JTjQ5M0RPaXZFMndIM2tmZ3BBYXVuaEstenNkdFVtZ2RBQnJ1UG1DOHM3V3pBMVBFSFV5bDd3YWo2YllkM1VSNTNzbXg3Q3BIMXl3bFphVG5kQXpobkE3aWljclpSYjdweFFoWEc0b1Z2V0p3ZHFLOC1lQ3FRak85UW1FV0E?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:00d7ffcecf58",
     "titulo": "Daniela Lima: Nem Messias nem Pacheco: Lula abriu espaço para um terceiro nome no STF",
     "veiculo": "UOL Notícias",
@@ -165,6 +181,14 @@
     "veiculo": "Valor Econômico",
     "data": "2026-11-23T23:03:32.000Z",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPc2pDR2RqdjFXRk16T0VxQ2w1anpRc0pwM3ozaGJaRWw5YURvbE5RSGxhMHlIOUZScmdLYmZBekdrSzMwV1FkbThyVG43ajdPajFVRHd4TGdZT3VQWXRJS0MzQmYxbVA3TXhDbi0yb21lZTFFNFpmODFiRVk1T2R0am1JM2tLanJKTFk3MHNXVlk2a2VSWVBGRzJsM2ZYbGxDNnI5S1JFUTZ5cmVZQXI3bWpsVkJpbVh2YjZSaERTbF9lRzZqd1RJY2swZjNZNjNNQ3d1aUt4V090VUtPZm1wSXZGbmtRUdIB9AFBVV95cUxQTDVUemdMczFTWWhBbm4xX1lxYVJKMmprbmlZS1NJbzFxU2tkaU5IcFk5bS1xcDhHUmR6cDFVR3pmaHQzNExKd09vc3VhZTcyWGt0NTVpenh6S1JZelJHdjIzTThzRUtjYUJPWWdBSHY2MHdPVGgwTDFxX3otR3pKdjNKNkVwUGFMck5ZR2JVUU9QeVpWUlpEWXJMbG90c3ZLalpVaHdEU2xuRndoMEwxLWJ5Q3R3cTVTY1ZmVzdlZldmLXdBVXNnVG40MEVvdy0tcnEtSHdUY3RuUTgyXzhQeWNDZEhXVXowdjVsVU8zd18xWjRh?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0db982a45ad0",
+    "titulo": "Câmara aprova ajuste fiscal de Lula com impacto de até R$ 50 bilhões em 2027; texto vai à sanção",
+    "veiculo": "Estadão",
+    "data": "2026-11-23T22:47:26.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGxScjg2ZkE1c0RYcGMyeVlPdkJkSVVSOVpLQmpuXzZfR1RMYlpaNmNMbW5OTEw0LVJLYmxERlg0WnFlbjZwcFRzdDBHZmZQSlYyWEJEME9TVWFrUWdER0thUjBSTy0zREZuclhSZzRGY09XR0tlQ0JwNURYVmlvWDNpZ0FqaXI0VndoTlk3SFcySXdyR1JYX1Z4Q0JzSVp6QUhMNDFhUHkxQ284b2hmck1RWHo5UmRMMjU3dE530gHDAUFVX3lxTE1abWRiWGtodWI4Rk8xd2V1a0NMckR3MmhaS2xHTHhHYjJyTXZXeGhJNEcyTHYxdEhnTkYtY3J0ZU1WMnc3aUZCSElkTWJhbHdGY3lFdW1rWGxiSFZNSXJyNks5c1dIeW51eFVEdHNGNGd4bEhyQWZBeEVMQVRpSzQ0OUJQX3dCSVdPZnI5Y0NEZEFrZzRBU2hkNlJaY3IyQjdaRW1ramlVck9PdTJvcllLVkNTVVBPM3IwR29fbnNRcHFFQQ?oc=5",
     "origem": "google-news"
   },
   {
