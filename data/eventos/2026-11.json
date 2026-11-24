@@ -2918,9 +2918,9 @@
     "tipo": "agenda",
     "data": "2026-11-23",
     "hora": "15:00",
-    "titulo": "Ministra da Casa Civil, Miriam Belchior",
-    "local": "Palácio do Planalto",
-    "status": "consta_na_agenda",
+    "titulo": "Presidente da Petrobras, Magda Chambriard",
+    "local": "Palácio da Alvorada",
+    "status": "alterado",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2930,7 +2930,14 @@
       }
     ],
     "confirmadoPor": [],
-    "historico": []
+    "historico": [
+      {
+        "titulo": "Ministra da Casa Civil, Miriam Belchior",
+        "hora": "15:00",
+        "local": "Palácio do Planalto",
+        "registradoEm": "2026-11-24T22:10:28.297Z"
+      }
+    ]
   },
   {
     "id": "dou:decreto-n-13.174-de-23-de-novembro-de-2026-745806505",
