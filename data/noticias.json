@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:3eaf6aece464",
+    "titulo": "Lula entrega credenciais a 14 novos embaixadores no Brasil e deixa diplomata dos EUA de fora",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-11-24T21:27:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZUR0N1lPWDMzRlZvOXB3eFdtN3FFeXpEYUthMjBlQ2lqSW5INk9OV2RyRFdJeE5XaDRmNGlNWmFZaG5kRkx5Mkdwc2hXV3p1X0d5QXI5UmVHRC02c3g2blZuU0hwenVmWUtPNGw1anVRb05ZaVdsWFd0Wm1XV3R2OUhWbDV2SmZkWGI3LWEwOHBacUdrZHVYcWdJSzNpekJld2hyczVMVEZMZG1pNG05ZjFRbDk2ck1ueGQwdExHY0ltWHJYSV9xYnVaWnd2cFlLdmc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8a8b2c76bfd1",
+    "titulo": "Fonasefe entrega a Lula carta com reivindicações de servidores e servidoras federais",
+    "veiculo": "Andes-SN",
+    "data": "2026-11-24T21:25:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTmRINlF1ZFZ6VHhMUkVxeGljeDE2eFRydDJPT1lhLWI0TXBSbEQ1VFdSWUFDb1RzbDJ3Yy1jczBNYVY1bWRCZzVGbTRuZHBnenBkRXpfbWFZTVBIdGhOazl4MkFpdGZ2VDlrdGF2Y2ZEVWNOa0JWSDZKR19GYWxLeW5vR3BieThCcDluMWhsNWdyQm9HVm5jT1Bub205STVKd2tVVlZ1cHUtdDRkc2VYZ1V1QWNkaktlMXNFaWVpUF92VF9vcFZV?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "agencia-brasil:b8f5f51c3a0c",
     "titulo": "Lula sanciona ajuste fiscal aprovado no Congresso",
     "veiculo": "Agência Brasil",
@@ -77,6 +93,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-24T17:51:58.000Z",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOem4tSnFkdkI3ZHQ3dHNhVVMtSzJuTjUzbkxvMGd5SkhreGZZVjZDME1leEJuaURDQmJkQW5xSXJpalk5bkVNRVNhcEI5eXFGV0h1dEl4ZGwzLWltUUZnZkF4cEVVeWVhY2tCVk5nTWZ3eVhvR0dCT0R3c0piS1FFOHNLTFJoQ3NHNjFKZVlnUHNmZmtZdmNROEtONThyVDFfbkNFdDRzNXVBSmdKQnQ4dkhmTlRUU1VVa2xNeVFhSGkzTnA2RWRXX0ppemtjOTFqV1BoSkNiQ1pSVjVnMjgtakMxSQ?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8ef497e7875a",
+    "titulo": "Lula não irá convidar Milei para posse, diz jornal argentino",
+    "veiculo": "Estadão",
+    "data": "2026-11-24T17:42:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX1FjblJuUmpzZ0NkWEdmWHF1NGVELWJMM2FoMDEzOVREN1RsTnYwelduNDQybGRlc19JYnk3MW5BZ3Z3ODctNmEyZzQ1dmxiemFxVDVHVGROSThmVUlLSHh3cFM3eEsxM0RTOURvT0hmeUZQUC1UOS1pclJDWm9FTUNhdkc4dDBtNklFSmxXVGJzazM0aTBkenBqdGNoM2dEYWo4elptNWrSAa4BQVVfeXFMT0dqVkpwUlNBYXhITDllYkVDMU9GUkoxQVpCWjZsaHgwZU42YW12LUJYSV9xVjNITHlpdEhYeXkyMXBneVZMeEJ3b19BTzJxei1kcXQ2R2lPRGJMdXowX01pZ2FsS1J2SXFwczdVRUNXQ0NZMlBvdUUyOWVlTWI0SnRBclNCU3BNR0tuQWF6RjYwbzNKUDhnNEhfdmtsQzZCTDFlSnVxSG0tMnVkQzBB?oc=5",
     "origem": "google-news"
   },
   {
@@ -213,6 +237,14 @@
     "veiculo": "Agência Brasil",
     "data": "2026-11-24T14:53:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRXozcGFyaDdwUGFXSl9uY2hiY3ZJZ1BPdDlJNVRaWFRkYTRaSVFUQnBxbkZ6U2g0RHk0aDlfMm52eFgtOEotb0ppTzMyX2t0SkFkSGJmQ3JHbHVENHIxYUF2WVI1eGNfRG5QLVBDQjctYWpadmJrUVY4eDJZWDVudkQ1b2lBSEVLWW53VmY3cmxseTA0bm0zUlUwd1gxdTgyVnBUQ3VaOWRZSFNwSDlTa25BUnZEYVhFRDlkYVFmN3VFTzQwSU9wVE5kREdDd1FrLThCZUgzQ2M2azJX?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:0edf437df8bd",
+    "titulo": "Lula retoma conversas por nome \"irrecusável\" ao STF",
+    "veiculo": "CNN Brasil",
+    "data": "2026-11-24T14:47:07.000Z",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEdWYUh4b2ttQkJ6ajlORG9Bd2xsUzFVc2JWczdQSDd3R1Jtb1BLYl90LUdNM2hJaDhPQ2FFaFk4X2M3YlhQRUhzQ3VJRnh5M3hScjgxY3doRl9LeHJnWGtwZWU5VW9UN3A1Z0E4dDg3ZkwyMjZwbERjN0kzNE5DOVM0R2ZzMkdmYmk0MGFGSmxxZw?oc=5",
     "origem": "google-news"
   },
   {
