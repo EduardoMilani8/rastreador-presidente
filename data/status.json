@@ -5,17 +5,17 @@
       "desde": "2026-11-24T14:20:25.118Z"
     },
     "dou": {
-      "ok": true,
-      "desde": "2026-11-24T14:10:19.563Z"
+      "ok": false,
+      "desde": "2026-11-24T14:30:35.208Z",
+      "mensagem": "2026-11-24 (edição): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=24-11-2026&secao=do1: Error: HTTP 502; 2026-11-24 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=24-11-2026&secao=do1e: Error: HTTP 502; coleta interrompida depois de 2 falhas de red"
     },
     "planalto": {
       "ok": true,
       "desde": "2026-11-24T14:20:25.118Z"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-24T14:20:25.118Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-11-24T14:30:35.208Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
@@ -30,5 +30,5 @@
       "desde": "2026-10-28T03:00:26.582Z"
     }
   },
-  "ultimaNovidadeEm": "2026-11-24T14:10:19.563Z"
+  "ultimaNovidadeEm": "2026-11-24T14:30:35.208Z"
 }
