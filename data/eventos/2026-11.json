@@ -2875,7 +2875,7 @@
     "hora": "09:00",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -2920,7 +2920,7 @@
     "hora": "15:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
