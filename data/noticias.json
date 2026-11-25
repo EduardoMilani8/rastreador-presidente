@@ -1,10 +1,26 @@
 [
   {
+    "id": "google-news:2f66089dba66",
+    "titulo": "Um mês após a reeleição do presidente Luiz Inácio Lula da Silva (PT), o secretário nacional de comunicação do PT, Éden Valadares, defende que embate político precisa obedecer à lógica digital. 📲 Leia mais na #Folha: folha.com/hashtag 🎦 Jonas Santana",
+    "veiculo": "Instagram",
+    "data": "2026-11-25T18:40:20.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHejY3Ykk3YU9UbzVkOVNXdE1xUE0tWmNnbWtvemY1UC1xNHVMOFdzZ2FldXQzbk51c3VZbkplZ3lpekllZmVWTnVjUEZXVFdsWVpjMTd3?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:59b3b6ceabc7",
     "titulo": "GSI quer Lei Geral de Cibersegurança sendo levada com urgência ao Presidente Lula na próxima semana",
     "veiculo": "ConvergenciaDigital",
     "data": "2026-11-25T18:14:34.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGJINTl1MW5LZlk2WjRGQlByYVhtUXc5SURuTTlZMVBhZDlFZGVwQ21MLVdDLWJIM3BnT1MySnRJVl80RjByMGdFNk5OanJWZHk4MUVxNWd1MlBaVlBYZmpnOHJRSlVacFJJdmp4X3hfVHhCOTEwTndqaUN0ejltYUVyUVQ4MVdVMWNQbVRQcGJBRTc0SWdDWGRiZW5saUpiRy1falpXNzV6LWtmUTFSc0gzZ0xMM3I5cENPT1B6djZtWDE1eEg4cWtYWXN0dm9ZaXhxcklLZG9SNE0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:397f7cb7044f",
+    "titulo": "Trabuco se fortalece para ir para o Ministério da Fazenda de Lula 4",
+    "veiculo": "Poder360",
+    "data": "2026-11-25T17:44:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXp3elh5ZS1ybjhwTFRFbkc2Sl9UOG4wV1IxN2tuT2h1dGdzQi1pYlh4NWpDTG9qeWpPalRXWVRVWFd2QzVaSW5kZHZYcEdrRmI0bGU3N25BcjJ3UDNLcXJ1Z3hwU1BubjUwZFQtNlI4bVo4a0FSdk55RFlrSHQxdXY2VjJYbTMyNFZhUFYyeEFxdWlDbWRKWjQ0SjQxUDc2ZDhkMFdrNUhGSWY1RkdR?oc=5",
     "origem": "google-news"
   },
   {
@@ -45,6 +61,14 @@
     "veiculo": "G1",
     "data": "2026-11-25T16:45:46.000Z",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdlJfdlRMclUzUWZNZkE2a1ltRDNPRk1vZVBTVVNNRXZ4R2kyaHRCSi1LVElmLXJMaExxV3JEMTRiZ3gzcmhOakJSejRsb1Rkb2pRQ1lPbXFqcXpUODl2VWpfNmlCbkh0UGVkNktlNU5ySUxUZERycC1sdl9UX09teF80dG16V1N3dGl0Ry04QUc2ZkdpOFo3Z3I5WEkyeUxGLXZMX3BGMndWTHJCLUVkZmRMc3RjbWc0MEQtdDByX1RCdkFIWnRodWJWaGhYclp10gHfAUFVX3lxTE1fNjd0c1lVNjhQMGNfaTRzV2d2Nk5hZzFWZ2tjc1BsTm53UGFfSXF2WU5qc2xQQmNaWGJnMktGX2REZ2FZZTRxTzNyWjZ1Ym1SLUhhaHM1SW9pT2ZnREVuVk12OElENmxHOGdvWUJOR0hJOWNUclBPOFZUV0x1SHNIdkU0cktjWmpKMlczNHhzRFpMOEwtX1NVeWhjV09GWHc1WW5fb0MyNnRPWGlvMFRMZVJqblJiS3F1cVVhZS04ejNQRDJoTGlXMlpmQzZnVFZzMWdTekNpaTdua1B1eHc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:af890dbc6e19",
+    "titulo": "Impasse entre Messias e Pacheco zera corrida ao STF, e Lula vê profusão de candidatas",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-25T16:27:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUVSY1R4dmdqU3NKUXo1U2NjUzNxNHpkVTk1VURGYktOMHQxZVN5WWkwY2ptOWVGcFZsM1VocHVZV0FfUkI0YnYzaDhOWDdEMHNhOUJ3UDJHOVhhdUJUWWVheVY3TjZ4RU5QY1BOWGV5LTVlV1NwX01wZHV5RjNKREFnRkQtWEdJN3YxaUZXaTd5QzZVWExlNDlvWEw5UXk4LWN0SnN5VUY0UEFuM0Z4S3NidEFON0NSQXlOaGhGdnpjbFZ1MmxhN0JZMExhYkU?oc=5",
     "origem": "google-news"
   },
   {
