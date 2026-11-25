@@ -3204,9 +3204,9 @@
     "tipo": "agenda",
     "data": "2026-11-25",
     "hora": "14:40",
-    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weic",
+    "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weick",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "alterado",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3216,7 +3216,14 @@
       }
     ],
     "confirmadoPor": [],
-    "historico": []
+    "historico": [
+      {
+        "titulo": "Secretário Especial para Assuntos Jurídicos da Casa Civil, Marcelo Weic",
+        "hora": "14:40",
+        "local": "Palácio da Alvorada",
+        "registradoEm": "2026-11-25T14:40:26.281Z"
+      }
+    ]
   },
   {
     "id": "agenda:2026-11-25:15:00:1",
