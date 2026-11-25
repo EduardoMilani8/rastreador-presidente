@@ -3008,7 +3008,7 @@
     "hora": "09:30",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3027,7 +3027,7 @@
     "hora": "11:00",
     "titulo": "Cerimônia de Entrega de Cartas Credenciais",
     "local": "Palácio do Planalto",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3046,7 +3046,7 @@
     "hora": "13:00",
     "titulo": "Partida para São Paulo",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3065,7 +3065,7 @@
     "hora": "14:20",
     "titulo": "Chegada a São Paulo",
     "local": "Aeroporto de Congonhas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3130,7 +3130,7 @@
     "hora": "17:10",
     "titulo": "Partida para Brasília",
     "local": "Aeroporto de Congonhas",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3149,7 +3149,7 @@
     "hora": "18:30",
     "titulo": "Chegada a Brasília",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
