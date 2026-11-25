@@ -8,6 +8,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:1e318bb5514d",
+    "titulo": "Lula sanciona lei de ajuste fiscal e medidas entram em vigor. Veja resumo",
+    "veiculo": "Agência Gov",
+    "data": "2026-11-25T20:17:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVU9rWVBMNUZxaDVUZlpqVl90ZC1BTGNPaE9kMmY2SW9yRlBzdTRkREFmZlp1OTBuOGQxODVPMmI3SUlRV3J5SmhOdGZKVy1SWGpSYnYtZzJNbXNlbUN5aVMyUGhCTG02QTBhTE1ZdFhEbGlJaTFUMWxZdFdCQ3NESF9tZFZ1R1NqVTdvbExCRF9EVFZTQ2hfbzBMQUZYc1BYVFZaT281RjRsSnVfMlpOaHY0WUVGSC16OWhBU3FFUEZsNnFwX1otQVRXUjk4UWhlbXpVejRTZEJ2TEp2RG1KcFQ3UDV5WFk?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:22670321500d",
     "titulo": "Charleaux: Trabuco seria bom sinal para mercado, mas deixaria Lula refém",
     "veiculo": "UOL Notícias",
@@ -16,11 +24,19 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:e64664c281bb",
+    "id": "google-news:ab1600dedac3",
     "titulo": "Lula indica ter preferência por Alckmin para assumir o Ministério da Segurança",
     "veiculo": "O GLOBO",
     "data": "2026-11-25T19:35:29.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYlpCR19tVldsN1plZWFOVDJvazZobWV1MlM2SUY4c3lFOGhFX19qLWJKdDUzenJVT2Y3TXVLek5tNkphS0NwdUltWTRjQWdWNUdCdHAtWFE1X2pIQ3ViZ1JJMHZxZkJydEcxdS13WkpsVkNEOWNlSXFCUWZnc1d3c0dWc0tQQkJGLThKSjVmRVlhbGx2MlBabi15MlowYWRXRHpkajFIdWE3UU9XSjJEQk56S1VvZGVNMW5pbVVNU3pZX3MwcDhlV2NING5udzZTRU530gHiAUFVX3lxTE0tYkhQQi1YYmtaeXM4Q2VoaFZ6MmJiSE16aVlESk5Qc0lRb2lBX0NIdVd4MkNvZV90OGl5WDdJbjEzbzZZTGlSZXFpS1FmcTA5QVVmV00wcWtfUUJIVHVjMkQxTUNUYmtzaGsxZ0JjV2FfdGQ5ZVprLVNyTFJsdzhlM05QYngtYURxUS1Dcm8xVlZLdjdxbnRBc0hIaUxTa2o4SmRwSzFwdGl5Z0RFWUpuZHJFeGNiUHhGOUdhUGJKVC1kUGFmWGpSVHFlenFBeGNrZFBjc0dDaWJIT2tNcVZsNWc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLWJIUEItWGJrWnlzOENlaGhWejJiYkhNemlZREpOUHNJUW9pQV9DSHVXeDJDb2VfdDhpeVg3SW4xM282WUxpUmVxaUtRZnEwOUFVZldNMHFrX1FCSFR1YzJEMU1DVGJrc2hrMWdCY1dhX3RkOWVaay1TckxSbHc4ZTNOUGJ4LWFEcVEtQ3JvMVZWS3Y3cW50QXNISGlMU2tqOEpkcEsxcHRpeWdERVlKbmRyRXhjYlB4RjlHYVBiSlQtZFBhZlhqUlRxZXpxQXhja2RQY3NHQ2liSE9rTXFWbDVn0gHiAUFVX3lxTE0tYkhQQi1YYmtaeXM4Q2VoaFZ6MmJiSE16aVlESk5Qc0lRb2lBX0NIdVd4MkNvZV90OGl5WDdJbjEzbzZZTGlSZXFpS1FmcTA5QVVmV00wcWtfUUJIVHVjMkQxTUNUYmtzaGsxZ0JjV2FfdGQ5ZVprLVNyTFJsdzhlM05QYngtYURxUS1Dcm8xVlZLdjdxbnRBc0hIaUxTa2o4SmRwSzFwdGl5Z0RFWUpuZHJFeGNiUHhGOUdhUGJKVC1kUGFmWGpSVHFlenFBeGNrZFBjc0dDaWJIT2tNcVZsNWc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:5726d66af779",
+    "titulo": "A crise diplomática que levou o Brasil a retirar seu embaixador na Argentina",
+    "veiculo": "DW.com",
+    "data": "2026-11-25T19:28:39.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbkRXX3NMSnZRZUQ4eTIwMlpRM3NCM0FJMk15ZTZVLWVfOVN5VWtvc09yVWFLM290OGg2b3I4SHFLbW1HVzR4T0RfalZVaEl0SW5rRmF3NVIzdzFCVjhkREUzOElSUnRRNXB4d2l5N050WEdkWWIwNjRjeFh2d3BZM1dHLVpLRWtMVVBPcF9YQURSdXFfbWhvNkRPaEl4M25IVE9XVXJwYVFTbE5KYjgwTUg3VjNqY3oy0gG4AUFVX3lxTE1uRFdfc0xKdlFlRDh5MjAyWlEzc0IzQUkyTXllNlUtZV85U3lVa29zT3JVYUszb3Q4aDZvcjhIcUttbUdXNHhPRF9qVlVoSXRJbmtGYXc1UjN3MUJWOGRERTM4SVJSdFE1cHh3aXk3TnRYR2RZYjA2NGN4WHZ3cFkzV0ctWktFa0xVUE9wX1hBRFJ1cV9taG82RE9oSXgzbkhUT1dVcnBhUVNsTkpiODBNSDdWM2pjejI?oc=5",
     "origem": "google-news"
   },
   {
@@ -48,11 +64,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3295c049286d",
+    "titulo": "O novo canal direto, aberto e franco de comunicação de Lula com os cidadãos",
+    "veiculo": "Partido dos Trabalhadores",
+    "data": "2026-11-25T18:21:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHg0RTJER1ZSeUZocVBIWmdxYUtEMmNJbUdrdmc0b0hXU3l3T2VxaEM4NV9YNEdCamhVQkxKQl9ZcldndUhrUDM1eDlYcnZJdVZienYzVXByN0ZwTEZKWHZzUkZzaTBnYjlTR1dCNlE1V2Q4WUhkM0drX1Y1aUtEU0NrZkVObW9WYVBZU1NHQ1h1TWFKR3pUbNIBoAFBVV95cUxNdUl2amVHaDRUa0RDV0hxUHNNZ1JlVWwtR0JXM0ZzZWpqSWJ2QlhMX2FoSTV3cXZfeU9wTlFoWWdNSmxQamZLOEZZUjhIVjFCQzNmVVZqeDJSNU9EOG1kSGwyOGxHRFRwZ1A3ZnVlMlBFNTgya2hLb3F3dVpXc09oYlg1T1N6MnhnRDNJclJhaGJuSjVYYTlSUURZSU4yQ3gx?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:59b3b6ceabc7",
     "titulo": "GSI quer Lei Geral de Cibersegurança sendo levada com urgência ao Presidente Lula na próxima semana",
     "veiculo": "ConvergenciaDigital",
     "data": "2026-11-25T18:14:34.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGJINTl1MW5LZlk2WjRGQlByYVhtUXc5SURuTTlZMVBhZDlFZGVwQ21MLVdDLWJIM3BnT1MySnRJVl80RjByMGdFNk5OanJWZHk4MUVxNWd1MlBaVlBYZmpnOHJRSlVacFJJdmp4X3hfVHhCOTEwTndqaUN0ejltYUVyUVQ4MVdVMWNQbVRQcGJBRTc0SWdDWGRiZW5saUpiRy1falpXNzV6LWtmUTFSc0gzZ0xMM3I5cENPT1B6djZtWDE1eEg4cWtYWXN0dm9ZaXhxcklLZG9SNE0?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a2fada35d240",
+    "titulo": "Lula sanciona sem vetos lei que enfraquece o financiamento do SUS e limita a compensação previdenciária",
+    "veiculo": "Fenasps",
+    "data": "2026-11-25T18:05:51.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWw2WTlRZEJCbERZaWs5T1RHcmQxVXdycnExYU1KZHdvVWVjeVQ3S2x4d2xlNGtRQnNNWTE4ZmhyQVhZc2tMalNVbXAwbHozQ0ZiaXRaWnZVMl9FbVpkRmg4aEtxb2N5ZS0wWGRoVGphNW1sV0cxdGxiNTVwQXFjNGhWbGNydWJudE9veTVNclQ4Q1FlUVRsaVI3RE5tQ2xkb1RESW41dnZtLVpXazFPTG9hQ0V5MEJfdkRjWDFPbTJ6UU9rVUkxRGZRcDVMVVdHMzY0eg?oc=5",
     "origem": "google-news"
   },
   {
@@ -485,6 +517,14 @@
     "veiculo": "Andes-SN",
     "data": "2026-11-24T21:25:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTmRINlF1ZFZ6VHhMUkVxeGljeDE2eFRydDJPT1lhLWI0TXBSbEQ1VFdSWUFDb1RzbDJ3Yy1jczBNYVY1bWRCZzVGbTRuZHBnenBkRXpfbWFZTVBIdGhOazl4MkFpdGZ2VDlrdGF2Y2ZEVWNOa0JWSDZKR19GYWxLeW5vR3BieThCcDluMWhsNWdyQm9HVm5jT1Bub205STVKd2tVVlZ1cHUtdDRkc2VYZ1V1QWNkaktlMXNFaWVpUF92VF9vcFZV?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:833760f4debf",
+    "titulo": "Lei do ajuste fiscal é publicada e já está valendo",
+    "veiculo": "Senado",
+    "data": "2026-11-24T20:49:21.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOERla3pIdTc4ZDRnRDRhREoxLUJoOFR2UE00OEh0cWw5VjB3d0VRNVFCUnpNYWh4ZTlkUG1BYldFYXZtNUgtaVRZR2x1QWN1emxMSjN6UFg1YzRNRy1FQmpfSXE5SEhHd0xNZDhYby1ab09xM3ljWVE4ZkFia29BOUZfeHd5dGtmUlZXbDJtU3p5WkMyZnN1cmhPUHdGWjg5NjRCSzlLUVl5QWc?oc=5",
     "origem": "google-news"
   },
   {
