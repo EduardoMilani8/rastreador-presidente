@@ -1,5 +1,13 @@
 [
   {
+    "id": "google-news:22670321500d",
+    "titulo": "Charleaux: Trabuco seria bom sinal para mercado, mas deixaria Lula refém",
+    "veiculo": "UOL Notícias",
+    "data": "2026-11-25T19:46:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZ2tYbVdyMVZBVGl1VkpBMm1zbG9GeXVfMG80UXRCaWUtWkE0WXF6R2xSY1o3V3c2djExS01pSnVLZk13NFQtNXlNZWhFQS05bF9peDZVUUV6NTZkelVBYWFyUGpxWkV6a2FacjhnR25sQ01QNWx6Z1l6ckx6SE5hQWhia0FMR3NEc2tUZTE3bmprd2VLTk5PMDFKV2RUaTJmMEpQSGs1SzJwSkdUc2xhTnRRckVBRVNxa01yM2F5YTZMVVhnQmdOamlXWVdfTzJGLXBBaUVCbw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:e64664c281bb",
     "titulo": "Lula indica ter preferência por Alckmin para assumir o Ministério da Segurança",
     "veiculo": "O GLOBO",
@@ -96,6 +104,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:70e6118a79a6",
+    "titulo": "Lula sonda Haddad sobre pasta de Investimentos, mas ex-ministro diz que não quer estar no governo; Trabuco ganha força para Fazenda",
+    "veiculo": "G1",
+    "data": "2026-11-25T16:25:18.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNG1yX3RDWHdOWnZrMzBHTEc5VVZoZmVXQzBra2I1SUFjNDhqZFpTWmw3anZkT1AySGlQc1NpdGszUDZqaGhybUM4akljeXVhSGFQSnhZd0dhS01nZWpiaXp0OVRBU0ZFbHUtU1BJWUpaQllTclBNSmlueFRMTFJTQ0tsSTRFTmNiT2hKT0VLTG1FSXhfV0hYUmxVdG1haHJFTHBNeWVEcTczNVQ3RWdrLU9FQ0w0dzgtcHQxSk1FOG9JSWEzMkcyRVpDbFNqM2ZHUkMwcHh30gHkAUFVX3lxTE1CTU5TenV4bi1WM3Ztb3JQU202Y1R4R1JRVjJ4bVhxSmFRUHNPdzZxWktzbjFyanFrRXNDZUtRcW5jWER0cnIzbVI5V25RcEFDWWN6dFU3cGk1aHVSNkZ2MkhqMnNjUHRPVHlrTi1fYkdNQ1lSMkZzZ1owbkw4Y0xGWFpIeEpKZE9OS3k2ODJYd0VYUmhkeTlvVl9wYkFhZE8xaEl1dUxTenk3UHlIbkdWWU10bEZCOEtyQnRuNWtpLW5vVXBzMGFfeDI1Y0JSRlBmUXhIWWlfN1AtaFRwWmRPeS02bg?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:53102ae314e0",
     "titulo": "Trabuco participa de sessão na Câmara e evita comentar reunião com Lula: 'Estamos aqui para falar da Fundação'",
     "veiculo": "O GLOBO",
@@ -104,11 +120,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:3ff0f567067a",
+    "titulo": "Letícia Casado: Lula deve anunciar ministro da Fazenda na semana que vem; 'sonho' é Trabuco",
+    "veiculo": "UOL Notícias",
+    "data": "2026-11-25T16:01:11.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdmJQakxLOWJidVZOVEZ6S21oLUUtNFlzRFhNUFhIX044d1RkRWJkdE1YNlpmVjltM0NsRHJCYjRxeEYyY01ZSl9ja1NITlExbGlhN1dRUzV0VTcwM1NFblJkazRjTnUxdjhlWnlmZll3cjJWR1FKTzR0bHlNZExPSlExOTV4SXFFLUktVUZqTQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:47c9f5009a9d",
     "titulo": "Lula quer nova governança para articular investimentos de forma integrada nos ministérios",
     "veiculo": "Folha de S.Paulo",
     "data": "2026-11-25T16:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNanJtQWpaYl9OejlUamZiRTQxNWdLbE1lZ2JKRVpxYmhWcjhoLVhSQnA4UlZHLVhPMk1mV010VkVEb2hQSHk3R1FMZy1NdTdJUnNGdW14dTdrWVlLMG5vZ2NpVDhGTXdMWVBzcjNMeWtjYlN6MUpIbHBTa3MwcWxGS3hmYTAwcklBVldUVGQzYWc5Q3NFa2lUTFp0ZTNKazR5Nll6SUhEWGRLVXozeVNRYnY1UnpUMFhKX2l0U1V6X19kblVwX085QmN5anNBZm9BTHl1c2gwTjM?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:e18c97b454ab",
+    "titulo": "Ceron nega intenção do governo Lula de federalizar BRB: 'Nenhum movimento'",
+    "veiculo": "G1",
+    "data": "2026-11-25T15:19:33.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT1lPQXVrb2dESk9XWjczaUVRSE5iSWNWbWk1cVRXR2pET2xVdDQ3ZDNlTXh0Q1hrRFpLUFU4eVFCT3l1eHVxZjZlYmxpcG9SWEg3QnByQ2p2cml4Ui1xbldVMWNwMjk1b2FZOW1UOXEybTZiekZIazZnN0J1djhjaHByN09wZ3VMYzloWm1YOUNKcWRnbTZXYlNvOEVUalBTaXpmenIwYXB6aTZIRU9lRHcwMXlob2NscHBxS29GTUNuY0tiWmpoeW5BZUxzVFhTQV800gHiAUFVX3lxTE54SkZOS0Y4OU02cTYwVUhySHNOblZPZElqNklkeGM0MHd4aU8wbndIWWxzSDRkZDZEZ1RLTmpTb3dQZUVQdFBlWDU5dEdZYlVKcGhKRFlKb1VheExuZ3RTTHBabHBhX1owNHZJT3ZBWklzTFZIUmJnVEI4dGVCUnBLcHk4V0FfWW5IbDROajFtWGxSSEd0OUJDR293TXVvNVo5ckZoSFZPVFNDbkVUZThxRGt2blI1ek1HZlp4ZjBIRTRvRzlrcWVHQjRTd1FKWS0xZXMzZ3JiRTEwQ0lFRVdYT3c?oc=5",
     "origem": "google-news"
   },
   {
@@ -184,6 +216,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:07e318b4b985",
+    "titulo": "Haddad diz a Lula que não pretende integrar novo governo",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-25T12:33:49.000Z",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnAxQ0gxdEl3bm81NUU1a281RHdMYWRfNldPanNWbEdOYUVUOTBVLXNQT294Rjg4UDVWR0VMNlNDZHVJdVI2LVlNdmxHVmtNT1dvUTF0d2tFS0tndVdGRk9FTnlQNUNWeVQ2c2ZnUW1JSV85U3g5STU2Qm9NVDJ0YXJzQ3MyNjVnN3dwYlpEVHdfWkRJc1RuY3pXMlFNMHB3QURzNzRWSjkteVFlcEpVU3BJakPSAcMBQVVfeXFMUDJWRnBsTXFFSlpFSERpWWo4WDhlQWNMZzQ4blg3Y2RUMS13UDlId2FtWlEyUHpEeVRzaHRWb2d6d2NHdm94OWZJN3RGVWFFMU9JU2lIU0hEUHZ1a0xOMHNFaVBZLWVHNGRDNFlJX1FXQzdkVEtOMnZadGxWNnhsZWpGZ0tuMURkWThocF9WekxmZjVYV1FIR3dXSUtMSGstaENVM2tPYmlKQ0dPNXpEM2xpb1R4aVlpU3JHd09wY1RmNnVR?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:d411cc7bab1c",
     "titulo": "Lula se reúne com ministros do Planejamento e da Casa Civil em meio a discussões sobre novas medidas de ajuste fiscal",
     "veiculo": "O GLOBO",
@@ -224,6 +264,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:395c1d31e0b8",
+    "titulo": "Governo Lula: leia a agenda de ministros do governo nesta 4ª feira",
+    "veiculo": "Poder360",
+    "data": "2026-11-25T09:17:35.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3BXc19IMS1RTnBxN01MNXFQeHdCS096Q1ptLThMa2ZJQ29MMW9uUFEwSEtHMDhjZDFsYkpJU3gxOVd0blpXRXFjR29oam8zOVRKX0hVUVJGQjdfS2NNM2RPUG5kZVRHdDFjUUJwT0VPWHBFZWxiejBDem91S0t5VkxEeUt1V1h4Uk5lRUd1eVhPU3R3TjhuemxuV2FLRUZLTmpyYlVjaw?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:a386cabee041",
     "titulo": "Lula avalia enviar nova proposta ao Congresso para conter gastos obrigatórios. Veja o que está em discussão",
     "veiculo": "O GLOBO",
@@ -237,6 +285,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-25T07:00:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdElsSUtEdTdPNkFWNFNROXZrOC1xWlVoeU5iZ0lncDRkX2JXbi1LX05qZnpWN0JoT3BGNGJNVWFhVmN5SWNqaVNLUHlyZjBhOWpicHQxeXZoTWQyclcyTHZiSnNRVlNmLXo0NkR0YkNRSDI4R0dIX2lVaFFLMVNDMmFuMEcxNjJ3RkdDYmpSVFVoMEkxemJpaW43RGQyY2ZRNFh2ZTZQemhVbWxIWUdEazhESjZoLVB0MEJUM0pXRHdSM0dRczNUQ0VaNFk3VVVKaXBmLXZWU3czZ2hjeldJMUltUVczMWN1TnZxNGx30gH8AUFVX3lxTE5mQXExaS05T2ZvS2NOT1JmY1Z4eU43X3dBU3V5M3kzd0lxQ2s4VzZkSmo4RGtUenF4blh6QzRWWG9VYVdnU0ZnVGNOdlAtaG1rZzIwczZ6NXUtT1MzOHRBUXdQREd0eHdkbWM4REpkY0pOeUFvT0w0a2ZlZ0x0UzJ1dG94MUZHVVNtdnJCVEdWazF0eTQ5aXl4MU1VT3pPSXpjR2dFLVVJaHdvVnRGaG5LbW5LNG9TdThmbmk1enFZRld3SmtlOHhQRkdnOGtpQmlZQlFtbEJ0ZEpYQWEtdzBIT3BGZ2lVa3Z5R0RNS2JtNjQ3VXg0SWRjOE9BRg?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:2b0730e4a74b",
+    "titulo": "Lula reúne equipe econômica para discutir novas medidas fiscais",
+    "veiculo": "Poder360",
+    "data": "2026-11-25T06:30:58.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdXVMLUNBRHZwVjhOeTlSRUtfR1JfS1VSUDJBcHNaLVBXb3JlU044aHlFRWNYOXk4a2JLaFVnckZaN0o5dWNUQmd0UjBLYkJMdUNiNy1LTHYyUjRybVNiRUVTVVBMSjhIajlseUMyN0ZDS29GNGxOYXVKc0taUllLVWRBWDBZMzZUVDBLU3ROYVVzSHFOWEx2MFR6SEpaRHlGNExCX3BjYVFQZw?oc=5",
     "origem": "google-news"
   },
   {
@@ -320,11 +376,11 @@
     "origem": "google-news"
   },
   {
-    "id": "google-news:d9d0c5594106",
+    "id": "google-news:b473989001d0",
     "titulo": "Projeto de lei de ajuste fiscal é sancionado sem vetos pelo presidente Lula",
     "veiculo": "G1",
-    "data": "2026-11-25T00:05:07.000Z",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMlVBaGljUkFJSXc0ZW1NN3JPekhfd1hHTUpLb0V2WWJYV3U0YmJnNjROcHZleHBNVHNVSVlHamlNaGpnQkVnREwtTHVpbmprWXpuVXYxV21ha2JzZU9PM1U4b3VwQWVRS1hzMUxlRVdCMWVlX2tSdGFHSEtqbTZENW05NnBUc3BfcDNfdDZ5N0lDV2lqaERxYS1TUjhDMXNDQ2dRQVdqdFZqbzF1Y3ZsR1lkNHBCdUUzSWp3Qy1wVnFTTHp1emxrVzNncWwyaWRGU2Jj0gHiAUFVX3lxTE5vUG1oTVhwSk4tSjBYdDNVZ3RhcngtenM0NmNZamRXZVFHZGR2RHRFTzVqLTR4WFlGaGd1VV96WjdRVUloR0pGQko0bVMtUXpnVjJLS0lBc1hCYUU3eXk2UDNnZml4Qkd4MnA1MS1vaDl3TS03REdQNkNyYk4yTnlEQ1B3REFxNk5YdGNoMVluTm1rTnNuSXJJWG5UcVN4UGFMcUtaZVRXVmF0Ymk2WjNCS3lQQzFRNlhzOHp6NHhsWEhIbzNMQTZwUEdHcWpfc0wzVnFNYm5hZ2JVWGJCU1ZYUWc?oc=5",
+    "data": "2026-11-24T23:42:45.000Z",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVG9TcWUtNG1TZDcwQlZkNjk0d2VSS1h4Y2U2dDBnVXJGdkFHRGZlVHljTHZWU3Q3ZnFTYXdHMEc5eFdfSnBlRzNOS0szZ3hvaTRuaTNxdkQzUFRFUEJRbmhoNXBfMURkamlkbWtZck1nZXBYMHVobFRjeTNfSXVVd0JlT3plT0FWTTFvTXNndGQyZUpjd3h6UVFFQ1g5M0RnMk9tTkhlbDJkUy1nOUluUlBUQnI1d0xzLTk4TG91NjJqeEtVay1GVks4UXlyUdIB3AFBVV95cUxPWnZXUzZIT3M4N1pubHBJenZ0REZyNTI4cDFCZ2ZSbUVKSGJrNWNUTk9nbG0tVzdoTDVyaTZTV2dvT1JkLXk1RkZ3Yy1GOUJPbmpNOUVqVVcwQW56bHhiYklUbjlIUTQ4Z1VndzI2Y1R5VzlzcG5mOGRwYjVXYXRrT3M2RndBRjFKR3pJZVVVN0huZlA0VWg4SjVnQmsxVTNwLWJ5NkltX3pqNXh5UjJvZzkzdVhyY05JaU1nMlRaeXhCQzZFVlFIMGsteHpSLVJOVml2M2M3cVpiclVF?oc=5",
     "origem": "google-news"
   },
   {
@@ -461,6 +517,14 @@
     "veiculo": "O Mundo Diplomático",
     "data": "2026-11-24T19:39:12.000Z",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXpHRm1XYjFTZF8tSGdIVndzZTBJLUNSYkZXdWptZHpuODliV3lWNlg2V25OOXdHSVlvdHJOd201cVZoV3Z5V19FLUJYaEJlbnhNZnJKNXl6Y2pjb2JiUGs3cktLYXMyUXJ0VDM1NmlKeWdtWk8xXzItaG9lMXB6STYzanU4dG5BSW9lLTJrdnBzTlUySWV4WGFzdGJjM1ZRSmZGeWc2T0NOQTlBTTM0czlyVHQ0LTI0eUJKQkdn?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:7c52c7c1ff5e",
+    "titulo": "Lula sanciona ajuste fiscal com impacto estimado de R$ 50 bi",
+    "veiculo": "Poder360",
+    "data": "2026-11-24T19:36:13.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0RhZVQ0OGVaUWFDNFB2MzhlRUpNTHQ0ZzdwWVJMVmNtbXQ4WHFTNHBSekZiRE5OeXR6anNzOEVVS25HWWVLaTJTYzRjbW9uMFQwUDBXXzBLSlhycml3VlRodExKQm5UTnJLSUc4OXE2dWhiY21XVlpWUUtmZW91RnRZSlg2S19ENzY5RlhWQWpBVFdKYVlZVV95TlpXWG5RZVRuRUtR?oc=5",
     "origem": "google-news"
   },
   {
