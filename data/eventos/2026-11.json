@@ -3263,6 +3263,24 @@
     "historico": []
   },
   {
+    "id": "planalto:presidente-da-republica-se-reune-com-juventude-em-niteroi-rj",
+    "tipo": "comunicado",
+    "data": "2026-11-26",
+    "titulo": "Presidente da República se reúne com juventude em Niterói (RJ)",
+    "status": "publicado",
+    "ementa": "Agenda será às 10h de sexta-feira, 27/11, no Caminho Niemeyer, em Niterói",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/presidente-da-republica-se-reune-com-juventude-em-niteroi-rj",
+        "coletadoEm": "2026-11-26T14:50:26.118Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-26:09:00:1",
     "tipo": "agenda",
     "data": "2026-11-26",
