@@ -3245,6 +3245,24 @@
     "historico": []
   },
   {
+    "id": "planalto:no-rio-presidente-lula-visita-programa-de-atencao-ao-idoso-do-hospital-universitario-gaffree-e-guinle",
+    "tipo": "comunicado",
+    "data": "2026-11-26",
+    "titulo": "No Rio, presidente Lula visita programa de atenção ao idoso do Hospital Universitário Gaffrée e Guinle",
+    "status": "publicado",
+    "ementa": "Programa Renascer desenvolve ações sistemáticas de promoção da saúde dos idosos",
+    "fontes": [
+      {
+        "nome": "comunicado-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/11/no-rio-presidente-lula-visita-programa-de-atencao-ao-idoso-do-hospital-universitario-gaffree-e-guinle",
+        "coletadoEm": "2026-11-26T13:50:29.221Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
     "id": "agenda:2026-11-26:09:00:1",
     "tipo": "agenda",
     "data": "2026-11-26",
