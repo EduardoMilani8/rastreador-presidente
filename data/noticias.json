@@ -144,6 +144,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:6fed6e5bacfa",
+    "titulo": "Lula vai a Niterói, mas não passará mais pela UFF",
+    "veiculo": "VEJA",
+    "data": "2026-11-26T16:24:24.000Z",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY25JZDJVenFZU0piaUZUWHl2TnM0MDA2YkVZWTBidlR5TEpRSHlmdHBIcDMzdUtiY21KUmh0dEl6WEE5eU80ZHM2NGFsMEVpSUUyamNkRngtU1BTaFFJVmJ1cHpiOXFUbnZENGJIeVRrMm84Mlk2QUQ3cUE5eDVidnEwVjdRWHRnV0V5bQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:5e9519ce4969",
     "titulo": "Lula recebe Cleitinho para discutir renegociação da dívida de Minas Gerais com a União",
     "veiculo": "O GLOBO",
@@ -472,6 +480,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:0246cc3f4d3f",
+    "titulo": "Alcolumbre pressiona Lula a aceitar Pacheco no STF e aponta risco de outro nome ficar para 2027",
+    "veiculo": "Estadão",
+    "data": "2026-11-25T21:12:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNc1hYVGFEOEV2VG15Y3pHS0lCREQydDRXLV9VZmcxRW1wbUlzZlRGV1Z5MDZYb0FDOXV5aDhJdjRndmpsbEotV0ZaUmI0Z2hfQUhKeDZyRDF3S0FGcHpvdkFEOUhEMFl0cnVZVVBWd20wNzZiOVNKZjhkWngwa1ZkaVBRLXF1aVNiZzlwcmMta2NTdlc0dU5qU1ZfZmNoNUg2VHZ2REhoSTU1OWdOMS1za0JWM3hFeENMZ0dfZjZFQVh5al9CT3NLd1FUV3FtNlR5eGhaTWtlMjY4OTN5T3RuMEkxVErSAeoBQVVfeXFMTkRWUkFvXzNyN2ppbmJ6NjV4OGw1Wm05UV9nNXJjMUdCSkZVTnFoSjl4MkdxRTNwU2NydVdhVVBTZGZjb1BkYkVtcGdwUVdicTE5R1c2aXQ3ejYxZDNTd1RxZUpseVpIQjBEU2NkUUxDanM2ZE5RUnEyQVFiamUwc2VmY00zbFhhVkNIOUhpc1VGQ2JoWlpOd25GTU53dmtCa1o0dHZNem9MRDE1X3Fab2ItSUw2d2JCY2dfcGtpQl9vMU1kSTExcDJiQnFPSE0wT1RYNFprM3JXVVRFdnhjWnhpVkhtdkVic1Nn?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:eb58ca4115bd",
     "titulo": "A hipótese Trabuco",
     "veiculo": "Brazil Journal",
@@ -485,6 +501,14 @@
     "veiculo": "G1",
     "data": "2026-11-25T20:33:17.000Z",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmEwa2NXYXZwU2lFYnJxaUhLVlVwRHRpTFZic1pmVGFaaGQteVBvXzQ4VHp6YlJUSmJuSWNmSHF0QmhEckc4UlVWWVJoeDREeEM3cnRUSGtwTFoyOWNGZzhLczgxQ2lFbldpR3dWUTh0M3IxNDU4alh0WlphNzUxbXNvXzI4VEE0NGduLUQ2MFo0bFhNTFpWZ2xZWldHcFdyWE9GVGtidXZZcG5zVjhJb0IzTzlPMlFsZkdkaV9JUdIBzgFBVV95cUxObkowN2JEZy1FbFpEbk8xT2p4Q3ZmRVhvVzU1dVkyN25yUjc0NnFwdmhVbWNvVE1hR2Q0Snh3Yk9tRlduTzQza1BJSkItSTR2UldvRTAtbjFDeEtJUWFYbTViNXJlY0prY2JjcjNGaTRCaFJlNEVxaVhpQS1ZZXNwNUQ4VFg2bzdkYzloN3lrMVpxVy10Tld2RlpsbHFrVEk2SmlRSUdVVUVFNmI5SklxQmxsdHVxQ1BwbUJ5STVsMlkxZV9pWWdveXBCT19jZw?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:8455b2b2a54d",
+    "titulo": "Lula encontrará novo presidente do Paraguai em cúpula do Mercosul",
+    "veiculo": "Poder360",
+    "data": "2026-11-25T20:26:25.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUxpNS1rVW4zd0swdDJkN2ZTV1dzbzNyM1VOcnF6VDBvSURXLTNpN0FWbjB1VnpNcHVYZ0pvWkdDNXN3Y0NzQmdfcF93NktRSnI1aWUyVEFfVk5LdkcySDdMNzVJMEpMUTlwNmt4QkZMaHdYdUNRY2NQSjVnVHlEcVpfMlc4VkFudXdzQm5UTkZvR1VQMXdCUkZrWWYzbk1YaTlqUGVRaUJzNkdq?oc=5",
     "origem": "google-news"
   },
   {
