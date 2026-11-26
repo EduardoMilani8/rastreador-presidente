@@ -3168,7 +3168,7 @@
     "hora": "09:30",
     "titulo": "Chefe do Gabinete Pessoal do Presidente da República, Oswaldo Malatesta",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3187,7 +3187,7 @@
     "hora": "10:30",
     "titulo": "Ministro da Justiça e Segurança Pública, Wellington César Lima e Silva",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3232,13 +3232,70 @@
     "hora": "15:00",
     "titulo": "Ministra da Casa Civil, Miriam Belchior",
     "local": "Palácio da Alvorada",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
         "rotulo": "Planalto (governo)",
         "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-25",
         "coletadoEm": "2026-11-25T01:50:32.532Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-26:09:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-26",
+    "hora": "09:00",
+    "titulo": "Ministra da Casa Civil, Miriam Belchior",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-26",
+        "coletadoEm": "2026-11-26T03:00:31.134Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-26:11:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-26",
+    "hora": "11:00",
+    "titulo": "Governador eleito de Minas Gerais, Senador Cleitinho",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-26",
+        "coletadoEm": "2026-11-26T03:00:31.134Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-26:15:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-26",
+    "hora": "15:00",
+    "titulo": "Ministro da Educação, Leonardo Barchini",
+    "local": "Palácio da Alvorada",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-26",
+        "coletadoEm": "2026-11-26T03:00:31.134Z"
       }
     ],
     "confirmadoPor": [],
