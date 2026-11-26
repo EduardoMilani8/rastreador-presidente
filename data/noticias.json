@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:190fd29e2474",
+    "titulo": "Quem é Luiz Trabuco, escolhido como ministro da Fazenda do governo Lula 4",
+    "veiculo": "G1",
+    "data": "2026-11-26T22:11:05.000Z",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUmV1V2lRRnZtMlFIUmgxYlpZMlJUVFhPM2EzTWhnUUFKNU0zeFlnQmxiQ0RFYklJeFJlUHVzcy1ZSFFzbTMyZXd6TG1FNmlIaGNtdXVhcWdSWmIybkYwR0QxOXZMUVZHQno0XzRYOUtPVVRTVjI1SmNpRjdMRjRKaVhNZS1nRDlOWUVONUFzaGU2R1hWdFlCVzg1VFU4amFDcmxVYVNzS0dELVRONGxWVGtheE5keUVuRUxtSG8yajFpelAxM0HSAdQBQVVfeXFMTU4wa25yay0ySVNWQ0U0c1JwYkJGWWh1Ukh5Y2N3MmNVVXlKN3E0Y0xSRkN6V1NwTGd1YzBBRnR4bkhrUi1GMm9idVNuLUtSbmhubGt4UkZOMlYtTDlCOVRoOVZiRTZmMTMtVEZpRFM1T1VpWVhNSnpmekJOem1FWEU3ZDBnSHdZSGR4eTVMWlluUWxORTN0YVpFSmNDR3RLOXNCYmdyTG5ocVM1elJJVzZsRFRiSlBscGtNT1dIODl3cG5qSURKZ2s0OUZaRERiVEtqbU4?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:1c70d28a4423",
+    "titulo": "Trabuco aceita convite de Lula para assumir Ministério da Fazenda",
+    "veiculo": "G1",
+    "data": "2026-11-26T22:09:01.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSERqTkZER1AxNm1XWGFkdjJWdUlBVFBOa1VFaXlyT2V4M0c1elNsMkNJNkJSOFA1azBLSFU4SU93elF3U0l6aUd6LWVrWVh0T25GTVpHR3lkeTBIVlBHaXdnUHVOdzRWdHZaMTN1TjZXYktmUzQ0YXlSWjlYb3hvOWhGZDlfTGlGbVp5Vk1MQzY5N0JVWDBmREU3RnFaRGVEdnpWWDJuMURRZzdrNktRN2VTcXVjMjlyamMwatIBywFBVV95cUxPQlVnVW82TjA4RDRFaUNZTUxjbElvVW9rTDMySmxhWmRZWGJuVzlFOTUyeWlmZWF0Ny15dlRlRTFQRUlwdUZDOGs2Y3hQYnhGd1kzQWJoYXdGRVZESkd3eVhYVi1WVFZ0Y0J5OTNQV0xoMFk2WURWVUhBMHF4SWNTTlhORWxwUndtLWM1cjJscVJRcElOX295eGtjYm1KV3B4eUZJTDBUdXRRSlpRazNuMlowWDlwdmdsZ3VKdWZ4aXYxZi10Yk5XcmVZVQ?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:92c64e0aad52",
     "titulo": "Lula e Trabuco definem acordo para o comando da Fazenda",
     "veiculo": "JOTA Info",
@@ -16,11 +32,27 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:9309a0dd0991",
+    "titulo": "Trabuco aceita convite para ser ministro da Fazenda no próximo governo Lula",
+    "veiculo": "Band",
+    "data": "2026-11-26T21:50:40.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZnZqci1SUDJ1a0Ntb2NTT1Q0aFRNVVY2TkR4bUtydTdybVNxVW1qYlh0U0RhN1lVSUxSRmRWal9pcnFDdFBJTDJ1M0s2dXVTalNoa01BRXYzQVFRVW5iOEVHMHNUR2phNktPbmdPYXhkYldvdHhnRlB6LU51VmhaUlZrUUR5RXpWeWVCWkFpZWV3VU5ud3htcWs2SW9qV05hN0U1QmFRUXpPVTk4?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:4e9693081cc5",
     "titulo": "Mulheres são cotadas para vaga aberta no STF: quantos ministros Lula ainda pode indicar no quarto mandato?",
     "veiculo": "O GLOBO",
     "data": "2026-11-26T21:40:52.000Z",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOUJTeDRMMklRTmwxNmFQX0d1c1M2bTctMV9NaFFpTXp6SEEyemFIbk5SQzJDV1JsUDdyMmxhd1VRcWt1dkVkcV9BYTBKS3F0WFRxeFY4RWpFcUZrSzd5c1hwMjhrWmpRQ0NRQnk0aXdvanlWTFRrTVJaWElEb3NxcWxIOE9kUUlzb25qOU80d3pQdnh3V0FCd0dodDhPZjhxWjZsejVBLVRHNzJMX0xTR01WekNIY3dISkpyeFl6MThqbHRKUXlTX182ZE0wRTVMbUZoMWlQTjNENS1pTDJDUEFZZEJ4QVl1aDQtVkxQcldxQ2hCYmfSAYQCQVVfeXFMTmVFRi1JTnJYeWRCSnduQmtiY1JJVWtCdGdwa2tCMWJrbDc2OFFhUFFqakw0WWhWU0p6bTIwc2hsZTlaWThxb0tFS0JTSmVHOTk5QkdYUlRtM1J6WW1hNlhPSGliM05RMzl0NEQ1ZzZUU3RZalpwLWFTd3YyN3dSQ082Q0J0OFluZFloaFc2b2F4dno5UEtieUVHWFRWMGJiUFJEVkF5eTRmRUxFSGI0MDZZVTNPN0RYNzRiREFZaVYyRUhscnRaZG4yOEtkRktMd0NuVEthNW9aWUxTWFNWaDFjSThtOGZkZzFKTkZKTFdPUEQyT1NlTGMwMFhNSkxnSjZLRWE?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:be0ffbc040ca",
+    "titulo": "Governo Lula deve consultar setores e buscar alternativas, após novas tarifas propostas pelos EUA",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-26T21:24:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcTFJZWxITFl2Z2t6cS0zejN5VGZSdTdXVDhucjJiVHlOMXZ3cGt5X2lQUmJQMjQzUjdLUEgxTmdEODB6c1draVRMQ3FsWjhkdC1zTTVnMWt6bGRyRGpyN0JSUi1YemdfYnkxUjBVUnZGM2NXX1JXbDhPOWZvMURyLXkwV3BhM25hSUJmZlpDTXF4dXAtdzdVRkNja21UelZZaWFnV3RDTzFLZmZzMnYyRUhSMC1RNGJrWDdwdklHTG9OeHYzX3pkZ0Fhd3pwdmxTSVRaaFVwZ1BhWWl0REZsQUJBbnJoZ9IB9AFBVV95cUxNVVZ6c2xpVWFzakJ2Y2xzZWduQmhuWDN0a1BrV2t1N0hucE9iUmFXN29OaUM2WHZOTnF0eU9RNjF1QU1yZC1zVTNKaklfNDAwTFRFcFVTbzdHSTRQb1gyVUlyUUdSV01sUEtSWVZXcHhRUW1PWTViN0wyclVHMDctVnp5R0xpaWRLajJueTlvRmxYeWdrY3haU3JuM3ZJV2FpUnRBS2dIYTRvODYzczJDX093d2xYOU1vQkpDaFBaOGYyZjlQc2JQVVdxTWVzV1BtUnl4bmx6YXpYbF8tUzZlemhiYWRqVzc0WWpWOFdzYnlXeWdj?oc=5",
     "origem": "google-news"
   },
   {
@@ -80,6 +112,14 @@
     "origem": "google-news"
   },
   {
+    "id": "google-news:ba18a320765d",
+    "titulo": "Lula faz segunda reunião com equipe econômica para debater novas medidas de ajuste fiscal | Política",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-26T20:26:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcEZpbDVEX0VlQ0daWnVPOVZ4eEFGdm9YWGNtai1mR3RqaGNZbkpIYldEbmtDV3ltTWJmUTV1b21Nb1BOSDN3Vk5YMjRZRzVaOTgzSFlrYXZLODFtbG5hbnFXdHcxUm5seFVYWEdsb3prd3pfVmd4N0xMNTFGQmtHcDRRcERta3gzTkZ1Y3Faa1BrUG50ejZFRXNuU2xmeDdWelAzR1ROT2V5MXp2aTFxOVpWeVhhWk84VVhMQ3pVeG9zOHpvZ0l4T3lmR09sSlk0aEpBZXp5NnNkU19lZmc?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8cf98d462897",
     "titulo": "Cotado para a Fazenda, Trabuco chega a Brasília para encontro com Lula no Alvorada",
     "veiculo": "Estadão",
@@ -109,6 +149,14 @@
     "veiculo": "G1",
     "data": "2026-11-26T19:30:05.000Z",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1FhUTdZNXRKMkVVWURnV185cXN1RV9idTYtUjlITnktWXQ0ZGVRaE53QzJHN2RWN3E3MnhBM0pYZGhwc3FoMDFBR1AtbUlmWXJuemxDLWZPMkdkVm5WRlhkaUtINlo1M2FQQm0tVXN4TTEtQmh5QUlHSzhiaUc5bFVsYU1CRWh1OGxGNmszcDNhT1ptMzBHdWU4X1JUczJGUUFkd0V4ZnlxaTBsZlJ2NXZDRzEyNk12ZzJRaWJ0dTl4Qkcya0HSAdQBQVVfeXFMTUowa2szOXlkV1ctQnZOS0ZySUNjVmtieTkzcmNjN0hKc1kwal9VTGNmNnIyTERUVFE3dHJiVmR0RWJiVmw5cmo4QVR5eWJVZ0lpYmdjZ2dJYnpzbFlOX2xmNmZjVE9iNFA3RDFxQnM5Nk54Zm9ZNGJyOHZydzdXalQ5cURndkk3VkJxVGxGaFpSZnNOV1Q2WlJ0aUNDOE1jc19xWEtWR1FPczhlU1Z0a1J6OEZOVTVPUE1EQWVtZEREcVdLdDltNWNqREwybE4xWE5LMTc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:a63531768ae0",
+    "titulo": "Milei não será convidado para a posse do presidente Lula (fonte do governo)",
+    "veiculo": "UOL Notícias",
+    "data": "2026-11-26T19:11:12.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd3BURzBQb1cyX1B3cnp2RGtHd3ZUc3JHUmpPdnJTLVl5ck1KdTg1SjlYeV9aVWJVQkJUdExacllOLXRNa2xRc1RtdlpySVdRZlIwWnd5V0dlYS1NbHR2dkg1MDZqeGtTZDhQVG9kY2U4c2wtS1hJUzlYLV9JbVZHeC1SWkJTczFLOXpuQ25ORWdZUnVKN1huVEYtS3p4SDBnbDJfSnJ0Rnd6TkFpZFhDN3QyaU9TSkR5d3FOejNTZTNYWXZreVFucmJfUzBpTnkwOGM4?oc=5",
     "origem": "google-news"
   },
   {
@@ -173,6 +221,14 @@
     "veiculo": "O GLOBO",
     "data": "2026-11-26T17:57:13.000Z",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTmUtV2J0UDdYcUQxQmdrODJtc0s5NmtFUTE0MVNaMFVnMl85dTFrRUNzS1h4QlpVYnNiYVphMzN3WnczQVYzMThSYW9hbmtzUEUzaGtfRGxZdW1ncVdYQm1walZidkRyY1ZfMjJoNVhjYjBDcHNGZ1Vma3lXN1M1RGpCSVlCZU8wY3hyemZWR1FHaG5sWWFyVnpPbDhHSnBHdWRtM1ltV001LVdhRVdJVEk2eDNydkdyR0xVMmlaOEZ2STBpTG9rZFpaUHFXV0oyREg2NGp1SjZXNUhSSVZic3h2THFOazRBUzQ1ZWpwZ291OU1PeUHSAYQCQVVfeXFMTmFjclIwOVJSTUlYQ0sza2I1ckdZTWpfWnQ3LXJrVmdhUTUwYTRicU5jeXg4SkFzNlpBR3cxcDgwMS16Z1VWQ0dEM25aZGlFa1lyMTFqVVp5VU5XR1pVRzhUNjV6RktodmxLUm1ZSU1UeFRjeVowRFZxSWwyR2Uweko2UlBGTWc3VzU0QWJya0xtZVowa1J3QkczaXl4VUVZYU9raXNtOTdpREdta0lSeDZnZkl1TUg3Z0l4R3RQeGlIMEhza043SzZvSWVtUmozM1B0c21OUnNhX1pYVERpY0ZjTWhYTWRYdXVZTTlrTnRDUUpuVFZJSTVuTmlHbGFjT0VyZG8?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:201360201eb0",
+    "titulo": "Lula e Cleitinho discutem condições de pagamento da dívida do governo de MG",
+    "veiculo": "Band",
+    "data": "2026-11-26T17:56:09.000Z",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTldmNDZmRVNWU2lUYkE0UU81Vm5MTFJuZWFyWnJ6ZjY5M2xjb0o1eGYzWjBfblEwWTJRTHB3QmpMSmJiYy1uRGJtRjJBMVBDejFfazctSlRYSUhPaFJ0UzF4WjF4WGJ2WkNuVC04N3lwb0FrR0JMQjZiUURadTBGYmExQ3pVZ1k2dDlSd0dTSUJQYlQwSmJqX1BGVURmZWdMYXFOcld2VHp5Umk5?oc=5",
     "origem": "google-news"
   },
   {
@@ -357,6 +413,14 @@
     "veiculo": "BBC",
     "data": "2026-11-26T10:31:00.000Z",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yOXJicU5Gdkx1R2RYbWZuZVNsamJSUUVZRG9vN3U1YWFFaGN5dnVtUS0yLUJpTmhlRklCTVYyMWFabHVQOVFiYmVvOUUtYUNLaDYtYmVQX0g1cWlVbkV6d3lZZ9IBaEFVX3lxTE1aVEtpY0ZKM0N5RXFLMXNWa2l4eWZJTlB6clVvRE1peExPNmE2cldHNWRrcUJpQzBKQ3VRVnNtZmNsTWhGdXFOM2NzalBBc0YxTVV4cEROWl9UX0I4a0w5VWdyQ19HRUZG?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:dd0b9bb5a60d",
+    "titulo": "Alckmin é cotado para comandar o Ministério da Segurança Pública no quarto mandato de Lula",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-26T10:02:43.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWGI0T2h3VkhhcjVsY1kwX0g4ZU5abG90bHBpbFR3aEZuYzg5MS1ZZWNjY0gwMFI1UEtOQ0F1bGFOSmU2blU2QVJvc1FFMW11YmN1X0MxeXZYcHNQMWhNWkJmck93MjRSZnAyY2JUQ1hzREt0c3kyUlNNV0FPeWJyVHpCd1B4Zk9WLTJLdUlWSWtLNTdoSzdUU2MzYTRLV3BnR0dRM0JxTXppdEVoakVRdzRQY0tQNkkzdHlsN3hTUDgyb3RXLWxQOW9ycnBOV1BJODgwWEwwcHk3WHfSAeoBQVVfeXFMUG5BajdDTXpyUmN4QU12WjhLTHNLS1JtdVBCRmhBV2hVQzd2Ni1pNEEyMFFTRTNVZnZnVDFfVEJoMC1MdkQwRTBlVldGaU5CcFNHNUllbGNEdGR1M3BuT2xZcmZULWZEdC1jcFNGdngzRWcwcUotQW8zcDdYOGVxLW9TTjlJQmttZmJKdVBNVnk3UWRXWko0MDN5dGx5eHR5SkpmeGpxdDk3YVFEVWV4bWdZenNyVG8waTcxWm0yLU9zRFZ2NjBudDctSEI3ZzBMMEpWZnplT2hMaThRMmt3RlpkaE9HQU1hcEtn?oc=5",
     "origem": "google-news"
   },
   {
