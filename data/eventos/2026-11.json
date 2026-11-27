@@ -3336,5 +3336,138 @@
     ],
     "confirmadoPor": [],
     "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:08:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "08:00",
+    "titulo": "Partida para o Rio de Janeiro",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:09:20:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "09:20",
+    "titulo": "Chegada ao Rio de Janeiro",
+    "local": "Aeroporto Santos Dumont",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:10:00:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "10:00",
+    "titulo": "Visita a exposição dos estudantes da Universidade Federal Fluminense (UFF)",
+    "local": "Teatro Popular Oscar Niemeyer, Caminho Niemeyer, Niterói (RJ)",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:11:15:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "11:15",
+    "titulo": "Diálogo com a Juventude e o Movimento Estudantil Fluminense",
+    "local": "Praça do Povo, Caminho Niemeyer, Niterói (RJ)",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:14:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "14:30",
+    "titulo": "Visita ao Programa de Atenção ao Idoso do Hospital Universitário Gaffrée e Guinle (HUGG) da UNIRIO",
+    "local": "Rua Mariz e Barros, Rio de Janeiro",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:17:10:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "17:10",
+    "titulo": "Partida para Brasília",
+    "local": "Aeroporto Santos Dumont",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
+  },
+  {
+    "id": "agenda:2026-11-27:18:30:1",
+    "tipo": "agenda",
+    "data": "2026-11-27",
+    "hora": "18:30",
+    "titulo": "Chegada a Brasília",
+    "local": "Base Aérea de Brasília",
+    "status": "agendado",
+    "fontes": [
+      {
+        "nome": "agenda-planalto",
+        "rotulo": "Planalto (governo)",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-27",
+        "coletadoEm": "2026-11-27T02:00:36.586Z"
+      }
+    ],
+    "confirmadoPor": [],
+    "historico": []
   }
 ]
