@@ -1,5 +1,21 @@
 [
   {
+    "id": "agencia-brasil:fee9fdb37373",
+    "titulo": "Lula quer espaço de lazer e atenção para idosos",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-27T19:51:00.000Z",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-espaco-de-lazer-e-atencao-para-idosos",
+    "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:23c2e4735fe6",
+    "titulo": "Opinião - Marcos Mendes: Qual será a política fiscal de Lula 4?",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-27T19:35:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenF3NURTem5jVjFGUk9LX1o4b25EUE55R2FXcXNLUklUTGVKUVV0QWdFeE1rTlVtTkdXSWllMERuWjlGcFNGSHFrUFE4VHlWSVdZUk9WWG5QRTQ3N0l1REdkVUQtMURLQ1BDcy1mTXlfblFYTl8wVm14VVB1SGEyNlUtSnZkU1NOcXVKSWtaOTZGSXBqS1dWdmJMeUtrcmo5RGI5NWxB?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:50646ce12eee",
     "titulo": "Presidente Lula visita programa de atenção ao idoso",
     "veiculo": "Agência Brasil",
