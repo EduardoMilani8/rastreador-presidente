@@ -1,8 +1,9 @@
 {
   "fontes": {
     "agenda": {
-      "ok": true,
-      "desde": "2026-11-27T10:10:26.902Z"
+      "ok": false,
+      "desde": "2026-11-27T10:20:21.462Z",
+      "mensagem": "2026-11-24: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-11-24: TypeError: fetch failed; 2026-11-25: Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-"
     },
     "dou": {
       "ok": false,
@@ -10,13 +11,13 @@
       "mensagem": "2026-11-25 (edição): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do1: Error: HTTP 502; 2026-11-25 (edição extra): Error: Falha ao buscar https://www.in.gov.br/leiturajornal?data=25-11-2026&secao=do1e: Error: HTTP 502; coleta interrompida depois de 2 falhas de red"
     },
     "planalto": {
-      "ok": true,
-      "desde": "2026-11-27T10:10:26.902Z"
+      "ok": false,
+      "desde": "2026-11-27T10:20:21.462Z",
+      "mensagem": "Error: Falha ao buscar https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias: TypeError: fetch failed"
     },
     "noticias-google": {
-      "ok": false,
-      "desde": "2026-11-27T10:10:26.902Z",
-      "mensagem": "Error: Falha ao buscar https://news.google.com/rss/search?q=Presidente%20Lula%20when%3A7d&hl=pt-BR&gl=BR&ceid=BR:pt-419: Error: HTTP 503"
+      "ok": true,
+      "desde": "2026-11-27T10:20:21.462Z"
     },
     "noticias-agencia-brasil": {
       "ok": true,
