@@ -1,10 +1,26 @@
 [
   {
+    "id": "google-news:eb6b49958fcf",
+    "titulo": "Trabuco aceita convite de Lula para comandar Ministério da Fazenda",
+    "veiculo": "Agência Brasil",
+    "data": "2026-11-27T00:32:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdWt0X3NqR0U1dFlVZWRRY0Rmb2kzVXh3TEJEeDhOa0cwS3NJMVFOdTFqdHRCNThOMGpzbFN4Ylp3czduZXNxelFxOGVnZl9ZOWlUZFpHaVlKd004WU5GR0hpZ1NLQTRQMkg4QW9BVGMtOUpJQ1hKSVU2NGFtU3p4cUtDcldqUUg4RHRudW45ZGF4WDBURW1hVi1qY25KLTRybl9GclQxSXBFSG1RY2hHMVJpTzZ3dml4RFEySnZyUkV4TlpGRmpmeUF0M3J5WnJpR0tlNmlyNS0zSnNp?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:7de592f94d13",
     "titulo": "Luiz Carlos Trabuco aceitou o convite do presidente Lula para assumir o Ministério da Fazenda a partir de 2027. O presidente do Conselho de Administração do Bradesco se reuniu com Lula no Palácio da Alvorada e confirmou que estará à frente da equipe",
     "veiculo": "Instagram",
     "data": "2026-11-27T00:04:57.000Z",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nT3FsSjc5SDl5N0ZZV1lMMFBMb21EMWNNQTNPTmxHUWx6N0VFYkVRaFg5WkZsc2FJbzZVcms5WGw4ZlFTdzdvVjBILThHU3I3VGc?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:6523a1d873a5",
+    "titulo": "Senadores parabenizam Lula pela nomeação de Trabuco para Fazenda",
+    "veiculo": "Valor Econômico",
+    "data": "2026-11-27T00:04:13.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTG94Z1dvWU13enpkX0Z3VUtBaVJPYzBIOTBBalhqV05sczg4aE5LSEYyemF5b21DTHhhd0g0X2U5c1pmc1MxcHp0Um4tZzBBTUhITmpwUnBVT0pIZzZjdTRHR29BWW9JUEhja2xCNjlOZzYwSkUwWDgxbUppVDJUVU1jcHJiNEtHd01VOE1zWFRkMXJpNTNqUlRFdmctZ21tV2ExdUpBOG9lMmJ3VTBVS3BYUVo4bW92MnhEV9IBywFBVV95cUxOQVNVZnRFN2hWaHhSTGNzMVBNSDBibzA0enplOWIwVnA2R01hQmt2V3hoTk8tbmVTTTdzaUFmVjJyWHAzbVhOb0FSMTN4ZkZXM0tzbHgtYXRlN3RjZFlBYWwtUmowU3pNdHVFVERnUGhCY3pGbTlqQ2xaaHMxMGdhM0FTQVhHNFFlbGxPV21HTGpKNWpsZXVLMXoyWWxzcGNTa09jV2dWcEVRbVBhQzk2THJCOEZ2bG0xUnVZSzNxZUpHOFZNVXNDbDMxOA?oc=5",
     "origem": "google-news"
   },
   {
@@ -222,6 +238,14 @@
     "data": "2026-11-26T20:31:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-cleitinho-debatem-negociacao-de-divida-de-minas-gerais",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:6f672bc47231",
+    "titulo": "Luiz Trabuco se reúne com Lula em Brasília; executivo do Bradesco é cotado para assumir Ministério da Fazenda",
+    "veiculo": "G1",
+    "data": "2026-11-26T20:30:47.000Z",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOGJlY0ZXWkJsV2oySmRZYVRlM01YNlRLVUdLZ2FIckpmSU1tYzlabHpIVzVCbVlERnBLRlZSN3Z2VHlsR3JZQjhiMlk1Smp0SUhJbjh6bzlsMUZ6OW5vNjN6YWxZU0NDcEJkZXlDWS1VUDhDY21mN2NDa0dGZGo4UHZFZWxSa2M3SVpuckhRbTlVbUpOOGxiVi13QWR1ekc1anllQTMwZUdfRVRlMFhIbUtxR283R25aaEFxdnAxSFEwVk92UVJvOHJESWdyV2xXY0h3Slk2WVhBLWw2aXBoYTRTTURFd2phU0lNOFJmbGQxU1lPRVVFZmZwb0E2RkZrRGd4Y9IBkwJBVV95cUxPNWl4N3cwNlNrdjZ2dkFXaGJ0Szd1azRYUHFDSjlvTnNhTjVCb00xSzAtVXVRTlRuTFhpbzM5ZDRadmJHSF9kd0txMkN2UHFMWFFsMEc0LU1yRVlOX0ZPSXYzVGlEbWh4cjV3WkxTT2wwWG12WVExQXA5TmY5c3hrQXhZWUZXYl9yMjdWUGJuRDFLcnBMVW9jUU9saktwRDdnd1k1ZlBaNkw4TlJ1STZqQlZvZG9oZEhhbWdqekJOOVVKVDBvaXM0ekF4aHB0OHR1MjREaDBLYVpoWHU0TF9uMVRLOVhJTnpMTDNYQjZqV05DcXFDNGZ2UlF0aWc4OE5GSmc5ZldxS0Y2ZENsRGQ2STIyMA?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:09ebe4a7a8ab",
@@ -797,6 +821,14 @@
     "veiculo": "Poder360",
     "data": "2026-11-25T20:26:25.000Z",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUxpNS1rVW4zd0swdDJkN2ZTV1dzbzNyM1VOcnF6VDBvSURXLTNpN0FWbjB1VnpNcHVYZ0pvWkdDNXN3Y0NzQmdfcF93NktRSnI1aWUyVEFfVk5LdkcySDdMNzVJMEpMUTlwNmt4QkZMaHdYdUNRY2NQSjVnVHlEcVpfMlc4VkFudXdzQm5UTkZvR1VQMXdCUkZrWWYzbk1YaTlqUGVRaUJzNkdq?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:caacf379482b",
+    "titulo": "Governo Lula sanciona lei que combate privilégios tributários e fortalece o equilíbrio das contas públicas",
+    "veiculo": "www.gov.br",
+    "data": "2026-11-25T20:17:10.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbFNzdTA5QXFFeVpnVDFZa1lqZEN0S3Y2RzRnbmwxUGxaMW94cFJiZ3c2ZVY3SDl1U1g5OVpwai1Zd0ZCU2g4eFc5T2F2djI1d3pHT3l3SGJyU2s2R1BCN3ZyRno4c0NNZ1E3OUd3QzBISTB0R19tTHZOaE56bW1aTmdhNmpoRU1wVHdtbjVaeUo4RWJQd3VuNGdjUGJzdjNyLWt4XzFDaldzTmltd3hXSlhKT2FuMjEwTkFDSUVSNWJLUDJBT1RDb0VUZUJ6X21YLTlZbThqSld3dkVk?oc=5",
     "origem": "google-news"
   },
   {
