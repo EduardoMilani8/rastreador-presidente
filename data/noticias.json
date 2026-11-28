@@ -1,5 +1,21 @@
 [
   {
+    "id": "google-news:2e2eba0e6271",
+    "titulo": "Lula deve indicar Camilo Santana para Casa Civil e Alckmin para Segurança Pública",
+    "veiculo": "Brasil de Fato",
+    "data": "2026-11-28T02:01:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb2dGQ21XRlU4cHgyb3RDYlN5ZUpvcXJTeS1OTjljY2FHeWp2emdUN1RQaUY0QmZtZTdYSWVQQVYxX0dXQXJTN1V2MmIyTW15SWlKeno3TjhwNi1JUzJ6TmlmMVItcWFBSndVb25jajJrUXRnSXNkNnQ1WGRjWmxIalhsalc4cGFuamt3b2tTdndQVFFIbDlpUFdtbEJMMThLNXJHQnFlZWpsRmdQVDVLclJ5ZGVHT2M0VGwzT1doSXZjeW8?oc=5",
+    "origem": "google-news"
+  },
+  {
+    "id": "google-news:b3636047d2fe",
+    "titulo": "Lula acumula atritos na base um mês após virada histórica, mas mantém voto de confiança",
+    "veiculo": "Folha de S.Paulo",
+    "data": "2026-11-28T02:00:00.000Z",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSGgzeWtuVlNWeE5Ib0htV09zUE1TSnRIaDBuOURBblFudFZXNDU2REYxQWJWZjB4SHBKbk93dzF5Wnlsd0F4VTh5ZF90YWpsQ29KZ1VVc3p3UmJmMjNHOE9Ia0RjZVdJc3ZGZFBRS2xPUXJydXc4c1l4R0xtUTRCb19mLVVBdVkwUVljZkVtX3ZFZkZhWS1CSlRsMTF2NV9jWS1idHB5bVR0TnEyaUQyQnpBRXgwMncwX01YYzkwa1JFT2lwcndpNjJhRngyVm43V1E?oc=5",
+    "origem": "google-news"
+  },
+  {
     "id": "google-news:8466400a5998",
     "titulo": "Lula defende corrigir irregularidades em programas sociais e afirma que não vai fazer cortes de benefícios",
     "veiculo": "G1",
@@ -206,6 +222,14 @@
     "data": "2026-11-27T19:51:00.000Z",
     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-espaco-de-lazer-e-atencao-para-idosos",
     "origem": "agencia-brasil"
+  },
+  {
+    "id": "google-news:c8faa08ccdac",
+    "titulo": "Lula revela visita a FHC e lamenta doença de antigo adversário: 'Não vive'",
+    "veiculo": "O GLOBO",
+    "data": "2026-11-27T19:48:32.000Z",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeDd6VUh0c2dvOGZaamJyZWVFdTF4cG9UNkR4Yk1tSllkSVJvYVMxdGxrTTFSeGlmemlrbkZWeERYVjdvRXpqbjVWMFZad3VEWlY4UVIwbkp1Y3RZUHdNOGR2V2gtNkUtMENkRWZaaDF3b1JxdEN0UjdKYmRzUlNKYjZYTThrc2FpYzN0MjNnUGxTdy1TMTQ4QUJENFFuNXlHX0hBVXBveVE3N2pERmhINlQzbXdSaWV3UFRFNkhR0gHMAUFVX3lxTE9NTnJRbmNFV1I5MkdudS1DdjVFUzBqdEozZHFhTW1qNVpMVHAyWkNfVm1JdmE3VXN2ZXRMN3RrMi1zQTdTaTJkLXJDd1lSMEdKNGxtZUJDdkJIZU0xejQ5N0g1VXFEV3pnX0Y3UmhhZFg5cUl4SnZUTjZERldoRVduelBYcTFvNlhCZFVibE9sd1VfeGhyQjF2TVdwbThwWVQ0YlcwWkdhTjlsZXpsRFZOakp2THQwYzNKYXdlWFNPV21NamRRLUwtRFNPVQ?oc=5",
+    "origem": "google-news"
   },
   {
     "id": "google-news:23c2e4735fe6",
