@@ -3416,7 +3416,7 @@
     "hora": "08:00",
     "titulo": "Partida para o Rio de Janeiro",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3435,7 +3435,7 @@
     "hora": "09:20",
     "titulo": "Chegada ao Rio de Janeiro",
     "local": "Aeroporto Santos Dumont",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3454,7 +3454,7 @@
     "hora": "10:00",
     "titulo": "Visita a exposição dos estudantes da Universidade Federal Fluminense (UFF)",
     "local": "Teatro Popular Oscar Niemeyer, Caminho Niemeyer, Niterói (RJ)",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3473,7 +3473,7 @@
     "hora": "11:15",
     "titulo": "Diálogo com a Juventude e o Movimento Estudantil Fluminense",
     "local": "Praça do Povo, Caminho Niemeyer, Niterói (RJ)",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3492,7 +3492,7 @@
     "hora": "14:30",
     "titulo": "Visita ao Programa de Atenção ao Idoso do Hospital Universitário Gaffrée e Guinle (HUGG) da UNIRIO",
     "local": "Rua Mariz e Barros, Rio de Janeiro",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3511,7 +3511,7 @@
     "hora": "17:10",
     "titulo": "Partida para Brasília",
     "local": "Aeroporto Santos Dumont",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
@@ -3530,7 +3530,7 @@
     "hora": "18:30",
     "titulo": "Chegada a Brasília",
     "local": "Base Aérea de Brasília",
-    "status": "agendado",
+    "status": "consta_na_agenda",
     "fontes": [
       {
         "nome": "agenda-planalto",
